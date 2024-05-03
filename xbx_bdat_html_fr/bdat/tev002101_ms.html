@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev002101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0001</td>
+        <td class="side">Je n&#39;y comprends rien. Les membres de l&#39;&#233;quipe[ST:n ]de Nelson &#233;taient des agents du BLADE talentueux...[ST:n ]Et ils avaient m&#234;me un Skell &#224; leur disposition ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0002</td>
+        <td class="side">Assure-toi d&#39;&#234;tre bien [ST:Gender p1=pr&#234;t p2=pr&#234;te ] avant ton d&#233;part.[ST:n ]Tu dois te rendre dans la partie est de Primordia.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0003</td>
+        <td class="side">Je crois que l&#39;&#233;quipe de Lao installe en[ST:n ]ce moment m&#234;me une sonde pr&#232;s de l&#39;isthme[ST:n ]qui relie Primordia &#224; Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0004</td>
+        <td class="side">Je sais que Lao n&#39;est pas un boute-en-train,[ST:n ]mais c&#39;est un sacr&#233; tireur d&#39;&#233;lite.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0005</td>
+        <td class="side">Tu devrais aller le voir et te pr&#233;senter.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0006</td>
+        <td class="side">D&#39;apr&#232;s les infos qu&#39;on a re&#231;ues, il appara&#238;t que[ST:n ]le r&#233;giment du Ganglion qui se trouve l&#224;-bas[ST:n ]est en fait un bataillon.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0007</td>
+        <td class="side">Mais je sais qu&#39;ensemble, vous trouverez le moyen[ST:n ]de sortir l&#39;&#233;quipe d&#39;Irina du p&#233;trin. On compte sur vous.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0008</td>
+        <td class="side">Au fait, nous n&#39;avons pas re&#231;u les rapports de Lao[ST:n ]et son &#233;quipe, que l&#39;on a envoy&#233;s l&#224;-bas avant toi.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0009</td>
+        <td class="side">Quand tu auras rejoint Lao, dis-lui bien qu&#39;il a int&#233;r&#234;t[ST:n ]&#224; envoyer ses rapports aux heures pr&#233;vues &#224; l&#39;avenir ![ST:n ]Et que c&#39;est un ordre ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0010</td>
+        <td class="side">tev002101_MSG0010</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0011</td>
+        <td class="side">tev002101_MSG0011</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0012</td>
+        <td class="side">tev002101_MSG0012</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0013</td>
+        <td class="side">tev002101_MSG0013</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0014</td>
+        <td class="side">tev002101_MSG0014</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0015</td>
+        <td class="side">tev002101_MSG0015</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0016</td>
+        <td class="side">tev002101_MSG0016</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0017</td>
+        <td class="side">tev002101_MSG0017</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0018</td>
+        <td class="side">tev002101_MSG0018</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0019</td>
+        <td class="side">Nos mim&#233;osomes seront bient&#244;t hors service. Si tu ne[ST:n ]r&#233;cup&#232;res pas les donn&#233;es que Lao a vol&#233;es,[ST:n ]on peut dire adieu &#224; toute l&#39;esp&#232;ce humaine.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0020</td>
+        <td class="side">Je veux que tu te lances &#224; la poursuite de Lao[ST:n ]et ram&#232;nes ces donn&#233;es ! Et donne-lui la correction[ST:n ]qu&#39;il m&#233;rite.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0021</td>
+        <td class="side">Ces serpents du Ganglion sont bien moins dangereux[ST:n ]maintenant qu&#39;on leur a coup&#233; la t&#234;te.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0022</td>
+        <td class="side">Mais il y a encore de nombreux partisans de leur cause[ST:n ]l&#224;-dehors. Et ils sont comme des b&#234;tes accul&#233;es.[ST:n ]Sans parler de tous ces fichus indig&#232;nes.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0023</td>
+        <td class="side">Il reste encore beaucoup de boulot au BLADE[ST:n ]avant qu&#39;on puisse appeler cette mission un succ&#232;s.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev002101_MSG0024</td>
+        <td class="side">Si tu veux y aller tranquillement, &#231;a me va.[ST:n ]Mais ne va pas croire que tout est fini.[ST:n ]Parce que c&#39;est loin d&#39;&#234;tre le cas. Tr&#232;s loin.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

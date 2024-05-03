@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000992_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0001</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0002</td>
+        <td class="side">Je viens d&#39;avoir une r&#233;v&#233;lation pendant que je[ST:n ]regardais ce chien. Voulez-vous bien m&#39;&#233;couter ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0003</td>
+        <td class="side">Malgr&#233; les vaillants efforts de la division des[ST:n ]Interceptors, les indig&#232;nes repr&#233;sentent toujours une[ST:n ]menace.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0004</td>
+        <td class="side">Les portes de New L.A. ont tenu bon jusqu&#39;ici,[ST:n ]mais elles ne sont pas imp&#233;n&#233;trables.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0005</td>
+        <td class="side">Vous connaissez les statues des chiens de l&#39;Est ?[ST:n ]Je pense que l&#39;on devrait en installer &#224; chaque porte,[ST:n ]pour repousser les b&#234;tes gr&#226;ce au pouvoir du bouddha.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev000992_JNK0010</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev000992_SEL0011</td>
+        <td class="side">Lui dire que des statues devraient &#234;tre install&#233;es.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev000992_JNK0020</td>
+        <td class="side">Corriger</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev000992_SEL0021</td>
+        <td class="side">Corriger ses id&#233;es &#224; propos des statues.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0006</td>
+        <td class="side">Je savais que vous saisiriez l&#39;intelligence de mon plan ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0007</td>
+        <td class="side">Nous devrions tout d&#39;abord rechercher les textes[ST:n ]orientaux pour comprendre la conception de ces statues.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0008</td>
+        <td class="side">Hmm ? Oui, la conception. Les chiens gardiens sont de[ST:n ]puissantes armes d&#233;fensives qui ont prot&#233;g&#233; les temples[ST:n ]depuis l&#39;antiquit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0009</td>
+        <td class="side">Ils crachent des rayons de lumi&#232;re divine aveuglants[ST:n ]pour repousser les envahisseurs. Euh... Pas vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0010</td>
+        <td class="side">Hmm... Vu votre t&#234;te, je me dis que j’ai peut-&#234;tre[ST:n ]surestim&#233; leurs capacit&#233;s de d&#233;fense.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0011</td>
+        <td class="side">Quoi ? Les statues ne sont que de simples superstitions,[ST:n ]dites-vous ? Et ce sont des lions, pas des chiens ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0012</td>
+        <td class="side">Des lions... Je vois. Eh bien, je suppose que placer des[ST:n ]lions &#224; des points d&#233;fensifs strat&#233;giques est tout[ST:n ]aussi avis&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0013</td>
+        <td class="side">Le mysticisme de l&#39;Est est sans &#233;gal ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0014</td>
+        <td class="side">Je vous remercie de m&#39;avoir corrig&#233; et je m&#39;incline[ST:n ]devant votre vaste connaissance de ce sujet.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0015</td>
+        <td class="side">Je cherche toujours des moyens d&#39;exploiter le pouvoir[ST:n ]du bouddha pour le bien de New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0016</td>
+        <td class="side">Malheureusement, je n&#39;ai pas encore trouv&#233; de bonne[ST:n ]fa&#231;on de le faire. Peut-&#234;tre que ce genre de chose n&#39;est[ST:n ]pas mon fort.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0017</td>
+        <td class="side">Ah, mais c&#39;est peut-&#234;tre le v&#244;tre ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0018</td>
+        <td class="side">Alors ? Comment peut-on r&#233;pandre la lumi&#232;re[ST:n ]et l&#39;amour du bouddha dans cette ville ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev000992_JNK0030</td>
+        <td class="side">Proposer</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev000992_SEL0031</td>
+        <td class="side">Lui sugg&#233;rer la construction d&#39;un bouddha g&#233;ant au[ST:n ]centre de New L.A.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev000992_JNK0040</td>
+        <td class="side">Corriger</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev000992_SEL0041</td>
+        <td class="side">Regarder Boz&#233; avec compassion, sourire et lui dire que[ST:n ]ce n&#39;est pas la bonne voie.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0019</td>
+        <td class="side">Ho ho ! &#199;a, c&#39;est une super id&#233;e ! Encore mieux,[ST:n ]construisons-en un qui pourra bouger et se battre[ST:n ]si besoin est, comme un Skell g&#233;ant ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0020</td>
+        <td class="side">Comme &#231;a, il pourra servir de gardien &#224; la ville &#224;[ST:n ]la fois litt&#233;ralement et m&#233;taphoriquement ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0021</td>
+        <td class="side">Je ferais mieux d&#39;aller voir le ministre de la D&#233;fense[ST:n ]Nagi et le commandant Vandham pour le leur proposer[ST:n ]directement. On l&#39;appellera... le projet N.I.R.V.A.N.A. ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0022</td>
+        <td class="side">Une fois le Skell m&#233;ga-bouddha N.I.R.V.A.N.A. termin&#233;,[ST:n ]je veux que vous soyez mon copilote pour d&#233;fendre[ST:n ]New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0023</td>
+        <td class="side">Oh... La lumi&#232;re vient &#224; l&#39;instant de projeter un halo[ST:n ]derri&#232;re vous, j&#39;ai vu bouddha sur votre visage.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0024</td>
+        <td class="side">Mais bien s&#251;r. C&#39;est &#231;a la r&#233;ponse. Le chemin de[ST:n ]bouddha n&#39;est pas fait de choses physiques. Il nous faut[ST:n ]trouver l&#39;illumination en chacun de nous.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0025</td>
+        <td class="side">Quel idiot j&#39;ai &#233;t&#233; ! Nous n&#39;avons jamais eu besoin de[ST:n ]choses telles que des lions, des chiens ou des statues ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0026</td>
+        <td class="side">Merci. Je me souviendrai de cet enseignement du[ST:n ]bouddha pour toujours, et l&#39;utiliserai pour prot&#233;ger[ST:n ]New L.A. en pulv&#233;risant tout ce qui nous fera obstacle.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000992_MSG0027</td>
+        <td class="side">Et je compte sur vous pour veiller sur moi avec votre[ST:n ]bienveillance bouddhique.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

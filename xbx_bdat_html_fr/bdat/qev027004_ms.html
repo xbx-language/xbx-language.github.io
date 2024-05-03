@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev027004_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0001</td>
+        <td class="side">Heureux de vous revoir. Et et et bravo, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0002</td>
+        <td class="side">J&#39;ai entendu dire que vous avez vraiment tap&#233; sur[ST:n ]l&#39;ordure qui m&#39;a tir&#233; dessus, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0003</td>
+        <td class="side">Merci beaucoup beaucoup. Maintenant je vais pouvoir[ST:n ]dormir sur mes deux oreilles, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0004</td>
+        <td class="side">Et aussi grimper sur le toit pour travailler, non ?[ST:n ]Ou m&#234;me danser sans raison ? Et la liste[ST:n ]est encore tr&#232;s longue ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0005</td>
+        <td class="side">L&#39;&#233;poque o&#249; je redoutais les attaques du Ganglion[ST:n ]pendant que je travaillais &#224; l&#39;entretien est termin&#233;e.[ST:n ]Ma productivit&#233; va monter en fl&#232;che, maintenant ![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0006</td>
+        <td class="side">Vous &#234;tes mon [ST:Gender p1=h&#233;ros p2=h&#233;ro&#239;ne ], savez-vous ? Je vous remercie[ST:n ]vraiment vraiment.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0007</td>
+        <td class="side">Et m&#234;me sans &#231;a, vous semblez &#234;tre le genre de[ST:n ]personne que j&#39;aimerais avoir comme ami, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0008</td>
+        <td class="side">Oui ! Nous sommes plus que sauveurs et sauv&#233;s, non ?[ST:n ]Nous sommes amis, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0009</td>
+        <td class="side">N&#39;h&#233;sitez pas &#224; venir nous voir quand vous voulez,[ST:n ]d&#39;accord ? Je promets que je ne vous[ST:n ]adulerai pas... trop.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0010</td>
+        <td class="side">Nous vous attendons, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

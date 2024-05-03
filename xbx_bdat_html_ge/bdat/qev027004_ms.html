@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev027004_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0001</td>
+        <td class="side">Sch&#246;n, dich wiederzusehen. Gute Arbeit, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0002</td>
+        <td class="side">Ich habe geh&#246;rt, dass du den Schurken, der auf mich[ST:n ]geschossen hat, ordentlich verdroschen hast, stimmt das?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0003</td>
+        <td class="side">Ganz, ganz vielen Dank. Jetzt kann ich nachts endlich[ST:n ]in Ruhe schlafen, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0004</td>
+        <td class="side">Und sorglos aufs Dach klettern, um zu arbeiten, ja?[ST:n ]Oder einfach grundlos den ganzen Tag dort oben[ST:n ]herumtanzen? Ja.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0005</td>
+        <td class="side">Jetzt muss ich bei den Wartungsarbeiten keine Angst[ST:n ]mehr vor den Ganglion haben und meine Produktivit&#228;t[ST:n ]steigt ins Unermessliche, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0006</td>
+        <td class="side">Du bist [ST:Gender p1=ein wahrer Lebensretter p2=eine wahre Lebensretterin ], wei&#223;t du?[ST:n ]Ganz, ganz, ganz vielen Dank.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0007</td>
+        <td class="side">Jemanden wie dich w&#252;rde ich sogar als [ST:Gender p1=echten Freund p2=echte Freundin ][ST:n ]bezeichnen. Vielleicht?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0008</td>
+        <td class="side">Ja! Wir sind mehr als nur [ST:Gender p1=Retter p2=Retterin ] und Gerettete,[ST:n ]richtig? Nach allem, was wir zusammen geschafft[ST:n ]haben, sind wir jetzt richtige Kumpels, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0009</td>
+        <td class="side">Du kannst jederzeit vorbeikommen und mit uns...[ST:n ]&#228;h, chillen? Sagt man doch so, oder? Keine peinliche[ST:n ]Heldenverehrung, versprochen. Ja? Vielleicht?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev027004_MSG0010</td>
+        <td class="side">Wir warten hier auf dich, ja?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

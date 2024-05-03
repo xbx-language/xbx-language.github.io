@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev060601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev060601_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev060601_SEL0011</td>
+        <td class="side">Interroger Pirapira au sujet de la poubelle.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev060601_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev060601_SEL0021</td>
+        <td class="side">Demander &#224; Pirapira si quelque chose la perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0001</td>
+        <td class="side">Quand Nopons vivaient pas dans ville, Pirapira devait[ST:n ]chasser et attraper fourmis vagabondes et scarab&#233;es[ST:n ]c&#233;t&#233;c&#233;gem pour avoir bon repas.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0002</td>
+        <td class="side">Mais dans ville, nourriture co&#251;te des sous[ST:n ]et potes crient sur Pirapira quand essaie[ST:n ]de manger fleurs.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0003</td>
+        <td class="side">Seul havre de paix se trouve dans poubelle.[ST:n ]Si Pirapira patiente, gentils potes livrent[ST:n ]plein de bonnes choses &#224; manger.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0004</td>
+        <td class="side">Poubelle est paradis de nourriture. Sauf quand bidon[ST:n ]fait tr&#232;s mal, alors... choses terriblement[ST:n ]terribles arrivent.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0005</td>
+        <td class="side">Mais ! Pirapira voudrait manger vraie nourriture.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0008</td>
+        <td class="side">Pirapira &#233;tait tellement contente quand a appris pour[ST:n ]trait&#233; d&#39;amiti&#233;. Avait entendu dire que potes pouvaient[ST:n ]manger tonnes de nourriture succud&#233;licieuse &#224; N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0009</td>
+        <td class="side">Mais personne avait dit &#224; Pirapira que nourriture[ST:n ]co&#251;tait des sous ! Mais ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0010</td>
+        <td class="side">&#201;conomies &#224; Pirapira ont toutes disparu[ST:n ]dans cartes Miravie apr&#232;s arriv&#233;e &#224; N.L.A.[ST:n ]Pirapira a plus un rond. Pff.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0011</td>
+        <td class="side">Maintenant, Pirapira aura mort pleine d&#39;ironie[ST:n ]avec magnifiques cartes Miravie dans main[ST:n ]et rien dans estomac. Maiiis...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev060601_SEL1021</td>
+        <td class="side">Demander &#224; Pirapira s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0012</td>
+        <td class="side">Pote savait que poubelle sert &#224; jeter d&#233;chets ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0013</td>
+        <td class="side">Pote savait ?! Pourquoi pote a rien dit pour emp&#234;cher[ST:n ]Pirapira de manger d&#233;chets qui font mal au bidon ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0014</td>
+        <td class="side">Et potes devraient avoir honte de jeter nourriture encore[ST:n ]mangeable quand...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0015</td>
+        <td class="side">Mais oui ! Pirapira pourrait mettre nourriture[ST:n ]de poubelle dans conserves et vendre &#231;a cher[ST:n ]&#224; caravanes ! Id&#233;e brillante ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0016</td>
+        <td class="side">Clients nopons auront pas besoin de conna&#238;tre origine[ST:n ]ou composants &#224; nourriture. Tout est produit localement[ST:n ]et est bio ! De ferme &#224; poubelle &#224; table ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0019</td>
+        <td class="side">Pirapira a d&#233;cid&#233; de vendre cartes Miravie[ST:n ]pas trop rares pour s&#39;acheter premier vrai repas.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0020</td>
+        <td class="side">Maintenant que Pirapira souffre plus &#224; cause de[ST:n ]probl&#232;mes digestifs, Pirapira peut redevenir marchande[ST:n ]et &#233;conomiser pour nourriture et cartes Miravie ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev060601_SEL2021</td>
+        <td class="side">Demander &#224; Pirapira s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0021</td>
+        <td class="side">Gr&#226;ce &#224; g&#233;n&#233;rosit&#233; &#224; pote, Pirapira a pu manger[ST:n ]bonne nourriture et a dit adieu &#224; probl&#232;mes[ST:n ]gastro-intestinaux.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0022</td>
+        <td class="side">Quoi ? Pirapira devrait aussi dire adieu &#224; addiction[ST:n ]aux cartes Miravie ? Mais ! Jamais ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0023</td>
+        <td class="side">Pirapira va devenir grande marchande et gagner[ST:n ]assez pour acheter nourriture et cartes ! Pote verra ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

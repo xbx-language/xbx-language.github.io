@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev042203_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0001</td>
+        <td class="side">Ohhh! Grrr! Sembra che Divina Napopon[ST:n ]ha perso contro grande, forte [ST:Gender p1=amico p2=amica ]...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0002</td>
+        <td class="side">[ST:playername ] troppo forte.[ST:n ]Troooppo forte! Mmmh... interessante...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0003</td>
+        <td class="side">Divina Napopon ama affrontare grandi, forti amici...[ST:n ]Anche se brucia sempre perdere.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev042203_JNK0010</td>
+        <td class="side">Conforta</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev042203_SEL0011</td>
+        <td class="side">Di&#39; alla Divina Napopon che &#232; stato[ST:n ]un combattimento divertente, almeno.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev042203_JNK0020</td>
+        <td class="side">Sminuisci</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev042203_SEL0021</td>
+        <td class="side">Di&#39; che il combattimento non[ST:n ]&#232; stato per niente divertente.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0004</td>
+        <td class="side">Mmmh... Divina Napopon &#232; andata supervicina[ST:n ]a prendere cotta per [ST:playername ]...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0005</td>
+        <td class="side">Ma &#232; amore impossibile! Divina Napopon lo terr&#224;[ST:n ]per sempre nascosto dentro suo cuore.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0006</td>
+        <td class="side">Nooo! Divina Napopon non ha mai voluto creare[ST:n ]problemi a [ST:Gender p1=bellissimo amico p2=bellissima amica ] [ST:playername ]![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0007</td>
+        <td class="side">Divina Napopon &#232; cos&#236; superdispiaciuta ora.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0008</td>
+        <td class="side">Divina Napopon ha fatto tutto questo per far passare[ST:n ]bei momenti a [ST:playername ]. Bei momenti[ST:n ]divertenti, se [ST:Gender p1=amico p2=amica ] capisce quello che me dice.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0009</td>
+        <td class="side">Napo... Nopo... NAPOPOPOPON![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0010</td>
+        <td class="side">Divina Napopon ha benedetto gemma[ST:n ]che [ST:playername ] ha portato.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0011</td>
+        <td class="side">Adesso [ST:Gender p1=amico p2=amica ] &#232; passo pi&#249; [ST:Gender p1=vicino p2=vicina ][ST:n ]a scoprire origini di Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0012</td>
+        <td class="side">Addio, [ST:Gender p1=amico bello p2=amica bella ]![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0013</td>
+        <td class="side">Oh, e tu deve dire a vecchio Nopopon[ST:n ]di sbrigare a trovare compagna carina.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

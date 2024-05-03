@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev014901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev014901_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev014901_SEL0011</td>
+        <td class="side">Chiedi a Marcus dello stile di combattimento[ST:n ]della squadra di Irina.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev014901_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev014901_SEL0021</td>
+        <td class="side">Chiedi a Marcus se c&#39;&#232; qualcosa che lo preoccupa.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev014901_SEL0031</td>
+        <td class="side">Chiedi a Marcus della battaglia a Oblivia.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev014901_SEL1021</td>
+        <td class="side">Chiedi a Marcus quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0001</td>
+        <td class="side">Prima di partire per una missione di caccia, tutta[ST:n ]la squadra si raduna intorno a Irina e consulta[ST:n ]il Bestiario per studiare il bersaglio.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0002</td>
+        <td class="side">Appena stabilito il piano d&#39;attacco, si va in scena[ST:n ]per affrontare il nemico.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0003</td>
+        <td class="side">Puoi utilizzare la ricetrasmittente del BLADE per[ST:n ]recuperare informazioni relative ai nemici[ST:n ]che hai sconfitto in precedenza.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0004</td>
+        <td class="side">Gli scontri possono essere davvero difficili, quindi[ST:n ]assicurati di usare al meglio il Bestiario.[ST:n ]Non vorrei perderti l&#224; fuori![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0008</td>
+        <td class="side">C&#39;&#232; un BLADE alquanto idiota che sta dando[ST:n ]un bel po&#39; di noie a Irina.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0009</td>
+        <td class="side">Probabilmente lo fa solo perch&#233; lei gli piace.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0010</td>
+        <td class="side">Comunque non ci sono scuse: invece di tirarle i capelli[ST:n ]come un ragazzino, fai l&#39;uomo e chiedile di uscire![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0015</td>
+        <td class="side">Grazie, [ST:playername ]. Grazie per tutto[ST:n ]quello che hai fatto per noi a Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0016</td>
+        <td class="side">Se il Colonnello Elma non ci avesse avvisati per tempo,[ST:n ]a quest&#39;ora io e Irina saremmo...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0020</td>
+        <td class="side">Oh andiamo, non farne un dramma! Se Elma non ci[ST:n ]avesse avvisati, ti avrei tirato io fuori dai guai![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0021</td>
+        <td class="side">Il che sarebbe stato ancora pi&#249;[ST:n ]devastante dell&#39;attacco nemico![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0022</td>
+        <td class="side">Ma fammi il piacere! Nella mia squadra, tutti[ST:n ]conoscono le tecniche di attacco e difesa.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0023</td>
+        <td class="side">B-beh, s&#236;, in effetti... Per&#242;, insomma...[ST:n ]S&#236;, capo, hai ragione tu.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0025</td>
+        <td class="side">Scusa se ho esagerato. Lo so che anche se mi fossi[ST:n ]fatto male, sarebbe andato comunque tutto bene,[ST:n ]visto che questo &#232; un mimosoma.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev014901_MSG0026</td>
+        <td class="side">Ma voglio tenermi il pi&#249; possibile lontano dai guai,[ST:n ]imparando a prevedere le intenzioni del nemico[ST:n ]come fa il Colonnello Elma.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev014901_MSG1018</td>
+        <td class="side">Quel BLADE idiota che stava sempre a tormentare[ST:n ]Irina ha finalmente fatto la sua mossa.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev014901_MSG1019</td>
+        <td class="side">L&#39;altro giorno le ha portato una bella bottiglia[ST:n ]e degli stuzzichini.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev014901_MSG1020</td>
+        <td class="side">Lo so che Irina ha le sue difficolt&#224; con gli uomini,[ST:n ]ma magari questa &#232; l&#39;occasione giusta per[ST:n ]provare a superarle.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

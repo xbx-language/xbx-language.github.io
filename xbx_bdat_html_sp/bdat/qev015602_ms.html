@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev015602_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0001</td>
+        <td class="side">&#161;Oh! &#191;Lo lograste?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0002</td>
+        <td class="side">Estoy casi seguro de que esto es todo lo que necesito...[ST:n ]Creo que ya estamos listos, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0003</td>
+        <td class="side">&#191;Has o&#237;do, L? Ya solo falta darle los &#250;ltimos retoques[ST:n ]a tu m&#225;quina milagrosa, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0004</td>
+        <td class="side">Y confiamos en tu ayuda para ello, camarada.[ST:n ]Una vez que est&#233; completado, este artefacto ser&#225;[ST:n ]la revoluci&#243;n de los inventos revolucionarios.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0005</td>
+        <td class="side">Ser&#225; incre&#237;blemente &#250;til para los BLADE y la gallina[ST:n ]de oro para nuestra humilde tienda.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0006</td>
+        <td class="side">&#161;Vaya! En ese caso, lo har&#233; lo mejor que sepa, &#191;s&#237;?[ST:n ]Voy a darle los &#250;ltimos retoques.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0007</td>
+        <td class="side">Ya est&#225; terminada, L. Espero que est&#233; todo bien, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0008</td>
+        <td class="side">Ah, &#161;estupendo! Acabamos de terminar[ST:n ]de ordenar un reluciente mont&#243;n de baratijas[ST:n ]para atraer a los clientes.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0009</td>
+        <td class="side">Estamos a tan solo unos instantes de presenciar[ST:n ]la espectacular apertura de nuestra tienda.[ST:n ]&#161;Ya solo faltan unos segundos![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0010</td>
+        <td class="side">Y &#191;t&#250; qu&#233; piensas, [ST:Gender p1=amigo p2=amiga ]?[ST:n ]&#191;Crees que nuestra tienda[ST:n ]va a estar en boca de topos?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev015602_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev015602_SEL0011</td>
+        <td class="side">P&#237;dele a L que te explique mejor[ST:n ]en qu&#233; consiste su misterioso artefacto.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev015602_JNK0020</td>
+        <td class="side">Sospechar</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev015602_SEL0021</td>
+        <td class="side">Preg&#250;ntale a L qu&#233; es exactamente[ST:n ]lo que va a vender.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0011</td>
+        <td class="side">&#161;Es cierto! No te hemos explicado nada.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0012</td>
+        <td class="side">&#161;Maravillas, [ST:Gender p1=querido amigo p2=querida amiga ]! &#161;Cada una con una historia[ST:n ]m&#225;s incre&#237;ble que la anterior! Si te las cont&#225;ramos[ST:n ]todas, estar&#237;amos aqu&#237; hasta ma&#241;ana.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0013</td>
+        <td class="side">Sin embargo, estaremos encantados de hablarte[ST:n ]de nuestros productos con todo flujo de detalles[ST:n ]cuando vengas a comprar.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0014</td>
+        <td class="side">Por ahora, perm&#237;tenos ense&#241;arte[ST:n ]el aparato que Giogion acaba de terminar...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0015</td>
+        <td class="side">&#161;Es la madre de todas las invenciones! Te permite[ST:n ]abrir m&#225;s ranuras en las armas y armadura, &#161;as&#237; como[ST:n ]en el equipo de campo y en los Skells![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0016</td>
+        <td class="side">Con esta compra, &#161;los BLADE podr&#225;n mejorar[ST:n ]su equipo y llevarlo a un nivel superior![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0017</td>
+        <td class="side">Dicen que una imagen vale m&#225;s que mil paraguas,[ST:n ]as&#237; que, a modo de demostraci&#243;n, te vamos a dar[ST:n ]este fusil de asalto. &#161;Prueba a abrirle una ranura![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0018</td>
+        <td class="side">Estoy listo. Venga, cuando quieras, &#191;vale?[ST:n ]Vamos a abrir esas ranuras, &#191;s&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0019</td>
+        <td class="side">Y as&#237; es como se abren ranuras para mejorar[ST:n ]un equipo mediocre. Todo gracias a nuestra[ST:n ]nueva y pr&#225;ctica invenci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0020</td>
+        <td class="side">Se va a convertir en un artefacto esencial[ST:n ]en el equipo de todo BLADE que se aprecie.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0021</td>
+        <td class="side">Y cuando vengan a proveerse de este servicio,[ST:n ]&#161;no podr&#225;n pasar por alto el resto de nuestra[ST:n ]fant&#225;stica colecci&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev015602_JNK0030</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev015602_SEL0031</td>
+        <td class="side">Dile a L que es una buena estrategia.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev015602_JNK0040</td>
+        <td class="side">Re&#237;rte disimuladamente</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev015602_SEL0041</td>
+        <td class="side">Di que no crees que la \&quot;colecci&#243;n fant&#225;stica\&quot;[ST:n ]de L se vaya a vender bien.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0022</td>
+        <td class="side">Ah, &#161;genial! Te lo agradecemos. Estamos deseando[ST:n ]compartir nuestros inimitables productos[ST:n ]con todos los ciudadanos de NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0023</td>
+        <td class="side">Esper&#225;bamos que t&#250;, al menos,[ST:n ]fueras capaz de apreciar el valor[ST:n ]de nuestra excepcional colecci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0024</td>
+        <td class="side">&#161;Pues no pasa nada! No descansaremos hasta[ST:n ]hacer nuestro abril y que los clientes[ST:n ]queden satisfechos.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0025</td>
+        <td class="side">&#161;Yo creo que tu tienda va a ser todo un &#233;xito, L![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0026</td>
+        <td class="side">As&#237; que igual me puedo quedar para ayudar, &#191;no?[ST:n ]Necesitar&#225;s a alguien que se encargue[ST:n ]del mantenimiento de tu superm&#225;quina, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0027</td>
+        <td class="side">&#161;Ser&#237;a maravilloso![ST:n ]Como dicen los terr&#237;colas: eres un palo en la niebla.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0028</td>
+        <td class="side">Es oficial: ya estamos abiertos al p&#250;blico.[ST:n ]Y has sido t&#250; quien lo ha hecho posible.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev015602_MSG0029</td>
+        <td class="side">Quiero que aceptes esto como obsequio y espero[ST:n ]que te pases por aqu&#237; a menudo. Despu&#233;s de todo,[ST:n ]&#161;los amigos se cotizan en las buenas y en las balas![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

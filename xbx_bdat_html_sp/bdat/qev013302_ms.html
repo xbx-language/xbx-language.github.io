@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev013302_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0001</td>
+        <td class="side">&#161;Arg! &#161;A ver si os dais por aludidos[ST:n ]y dej&#225;is de seguirme de una vez![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0002</td>
+        <td class="side">Me siento halagado, pero &#161;las patrullas[ST:n ]alien&#237;genas asesinas no son mi tipo![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0003</td>
+        <td class="side">&#191;Eh? &#191;Qu&#233; est&#225;s haciendo aqu&#237;?[ST:n ]No me digas que eres [ST:Gender p1=otro p2=otra ] fan.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev013302_JNK0010</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev013302_SEL0011</td>
+        <td class="side">Dile que s&#237; para que se quede contento[ST:n ]y deje de perder el tiempo.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev013302_JNK0020</td>
+        <td class="side">Consultar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev013302_SEL0021</td>
+        <td class="side">Pregunta sobre la situaci&#243;n.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0004</td>
+        <td class="side">Perfecto. &#161;Entonces t&#250; y esos mamarrachos[ST:n ]que van detr&#225;s de m&#237; pod&#233;is arreglarlo[ST:n ]entre vosotros a mamporros![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0005</td>
+        <td class="side">Te lo cuento todo en cuanto estos esperpentos[ST:n ]est&#233;n criando... las flores raras que quiera[ST:n ]que crezcan aqu&#237;. &#161;Y ahora ay&#250;dame![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0006</td>
+        <td class="side">&#161;Incre&#237;ble! Creo que al final voy a ser yo[ST:n ]el que me convierta en tu fan. &#191;O eso suena muy raro?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0007</td>
+        <td class="side">Aunque bueno, tambi&#233;n es raro encontrarte por aqu&#237;[ST:n ]as&#237; de repente. &#191;Estabas haciendo[ST:n ]alg&#250;n trabajo en Oblivia, como yo?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0008</td>
+        <td class="side">Ah, &#191;te envi&#243; Raleigh? &#161;Entonces eres el s&#233;ptimo[ST:n ]de caballer&#237;a! &#161;Y me acabas de salvar el pellejo![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0009</td>
+        <td class="side">Lo que quiera que fuese ese Skell negro,[ST:n ]nos dio la del pulpo. No duramos ni un minuto.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0010</td>
+        <td class="side">Abandonamos nuestros Skells y nos dispersamos.[ST:n ]Yo me largu&#233; por patas buscando refugio,[ST:n ]pero esos espantajos justo me estaban esperando.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev013302_JNK0030</td>
+        <td class="side">Comprobar</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev013302_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Peter sobre los otros supervivientes.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev013302_JNK0040</td>
+        <td class="side">Consultar</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev013302_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Peter sobre el Skell negro.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0011</td>
+        <td class="side">Muy amable por tu parte preocuparte por ellos.[ST:n ]&#161;Creo que me vas a empezar a gustar de verdad![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0012</td>
+        <td class="side">De todos modos, creo que la mayor&#237;a del equipo[ST:n ]de limpieza puge me sigui&#243; a m&#237;, as&#237; que espero que[ST:n ]eso haya dado a los otros la posibilidad de escapar.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0013</td>
+        <td class="side">Corwin nos va a echar una buena bulla fijo, pero[ST:n ]mi pol&#237;tica en peleas que no puedes ganar es darte[ST:n ]la vuelta y correr como alma que lleva el diablo.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0014</td>
+        <td class="side">&#191;Por qu&#233;? &#191;Vas a ir a buscarlo o algo?[ST:n ]No s&#233; si eres valiente o [ST:Gender p1=temerario p2=temeraria ].[ST:n ]De cualquier modo... &#161;Ole t&#250;![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0015</td>
+        <td class="side">&#191;Qu&#233; te voy a contar? Esa cosa es una bestia.[ST:n ]Lo atacamos entre tres y aun as&#237;,[ST:n ]ni por lo m&#225;s remoto.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0016</td>
+        <td class="side">Es la tira de r&#225;pido, creo que no lleg&#243;[ST:n ]a recibir un solo impacto...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0017</td>
+        <td class="side">Por supuesto... &#161;AHORA me llaman![ST:n ]Fijo que es mi lugarteniente.[ST:n ]Siempre se est&#225; preocupando por todo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0018</td>
+        <td class="side">&#161;P... er! Pet... camb...[ST:n ]Si est&#225;s ah&#237;, c...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0019</td>
+        <td class="side">&#191;Eh? Un momento. &#161;&#191;Era Bates?![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0020</td>
+        <td class="side">&#191;Bates? &#161;Ey! T&#237;o, &#161;&#191;d&#243;nde est&#225;s?![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0021</td>
+        <td class="side">...ona rocosa con... t&#243;n de lava...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0022</td>
+        <td class="side">...rda, Skell neg... o se rinde... &#161;Peter, necesit...[ST:n ]lugar de evacuaci&#243;n! &#191;D&#243;nd... uedo ir?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0023</td>
+        <td class="side">...o veo ninguna sali... &#161;Ay&#250;dame![ST:n ]&#161;...ter! Pet... &#161;Contesta! Pet...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0024</td>
+        <td class="side">&#161;Maldici&#243;n! &#161;Apenas me llega la se&#241;al![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0025</td>
+        <td class="side">Parec&#237;a que estaba en Cauldros.[ST:n ]Nunca estuve all&#237; antes.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0026</td>
+        <td class="side">T&#250; te conoces bien la zona, &#191;no?[ST:n ]&#191;Podr&#237;as ayudar a escapar a Bates?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0027</td>
+        <td class="side">...ro callej&#243;n sin salida. Posici&#243;n actua... edo ver[ST:n ]el Castillo de O&#39;rrh Sim desde aqu&#237;...[ST:n ]cerca... Arena emerian...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0028</td>
+        <td class="side">...cesito instrucciones haci... punto de evac...[ST:n ]&#191;Qu&#233; direcci&#243;... tomar?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev013302_JNK0050</td>
+        <td class="side">Ir al oeste</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev013302_SEL0051</td>
+        <td class="side">Dile a Bates que vaya hacia el oeste.</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev013302_JNK0060</td>
+        <td class="side">Ir al sur[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev013302_SEL0061</td>
+        <td class="side">Dile a Bates que vaya hacia el sur.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0029</td>
+        <td class="side">Recibido. Me dirij... al oeste ahora...[ST:n ]Desde ah&#237;, voy...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0030</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0031</td>
+        <td class="side">Hemos perdido la se&#241;al.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0035</td>
+        <td class="side">...ur? Recibido. Me dirij... al sur, despu&#233;s voy...[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0036</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0037</td>
+        <td class="side">Hemos perdido la se&#241;al.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0038</td>
+        <td class="side">Ya s&#233; que es mucho pedir, pero por favor...[ST:n ]&#161;Ve a Cauldros y s&#225;calo de all&#237;![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0039</td>
+        <td class="side">Bates corre como una tortuga asm&#225;tica.[ST:n ]Si se queda atr&#225;s, aunque sea un poco, &#161;est&#225; perdido![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0040</td>
+        <td class="side">Solo es un novato y hay un mont&#243;n de cosas que a&#250;n[ST:n ]le tengo que ense&#241;ar. No lo abandones a su suerte.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0041</td>
+        <td class="side">No te preocupes por m&#237;. Puedo volver corriendo[ST:n ]a la ciudad en un momento. No como Bates...[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev013302_MSG0042</td>
+        <td class="side">Entonces vas a ir a ayudarle, &#191;no? &#161;Muchas gracias![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

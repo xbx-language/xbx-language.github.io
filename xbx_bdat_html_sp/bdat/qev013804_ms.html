@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev013804_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0001</td>
+        <td class="side">Uff, los oficios de los humanos[ST:n ]son muy muy duros, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0002</td>
+        <td class="side">Ahora estoy trabajando como ayudante de un[ST:n ]arquitecto, pero he tenido muchos problemas, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev013804_JNK0010</td>
+        <td class="side">Invitar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev013804_SEL0011</td>
+        <td class="side">Sugi&#233;rele a Wikaye que vaya al seminario de &#193;lex.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev013804_JNK0020</td>
+        <td class="side">Empatizar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev013804_SEL0021</td>
+        <td class="side">Dile a Wikaye que te haces una idea[ST:n ]de lo dif&#237;cil que debe de ser.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0003</td>
+        <td class="side">&#191;&#193;lex va a impartir un seminario?[ST:n ]Maravilloso maravilloso...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0004</td>
+        <td class="side">As&#237; ampliar&#233; mis conocimientos sobre[ST:n ]la cultura y costumbres humanas, &#191;s&#237;? Y me ayudar&#225;[ST:n ]a entender vuestros gustos est&#233;ticos, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0005</td>
+        <td class="side">Estoy deseando aprender m&#225;s[ST:n ]acerca de los humanos, &#191;sabes?[ST:n ]As&#237; que, s&#237;, creo que deber&#237;a asistir al seminario.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0006</td>
+        <td class="side">Lo es. Pero pero, aun as&#237;, me gustan los humanos.[ST:n ]Supongo que... me gustan los retos, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0007</td>
+        <td class="side">Aunque, a veces, creo que me falta[ST:n ]confianza en m&#237; misma, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0008</td>
+        <td class="side">Ojal&#225; hubiese alguien, o una clase, o algo, a quien[ST:n ]recurrir en esos momentos, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0009</td>
+        <td class="side">Los humanos y los ma-non tienen[ST:n ]un concepto de la belleza muy diferente, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev013804_MSG0010</td>
+        <td class="side">Quiz&#225; quiz&#225; el seminario de &#193;lex me pueda ayudar[ST:n ]a entender mejor el ideal de belleza humano.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

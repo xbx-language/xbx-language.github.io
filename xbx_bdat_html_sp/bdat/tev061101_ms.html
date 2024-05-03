@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev061101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev061101_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Koko por las caravanas nopon.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev061101_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Koko si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Koko por la Bola de \&quot;S&#237;gueme\&quot;.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Koko si hay alguna novedad.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Koko por el tesoro secreto de Noctilum.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0061</td>
+        <td class="side">Preg&#250;ntale a Koko si hay alguna novedad.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0001</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] puede encontrar caravanas[ST:n ]nopon por todo Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0002</td>
+        <td class="side">M&#225;s cercana est&#225; en Ca&#241;&#243;n de nalgas arenosas.[ST:n ]Lugar que amigos llaman \&quot;Oblivia\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0003</td>
+        <td class="side">&#191;Ha estado [ST:Gender p1=amigo p2=amiga ] all&#237;? Es caravana agradable, pero...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0004</td>
+        <td class="side">Bueno, l&#237;der es muy avaro. &#161;Meh, meh![ST:n ]Puede que intente timar a [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0008</td>
+        <td class="side">&#161;Qu&#233; alivio saber que peque&#241;o Tatsu est&#225; a salvo![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0009</td>
+        <td class="side">S&#237;, Tatsu es cerdo cuando come y es cre&#237;do[ST:n ]y pretencioso, pero aunque sea llor&#243;n,[ST:n ]Tatsu no es tan malo.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0010</td>
+        <td class="side">Tatsu tiene pelaje m&#225;s bonito de todos pequep&#243;n,[ST:n ]as&#237; que [ST:Gender p1=amigo p2=amiga ] puede acariciar pelo de Tatsu[ST:n ]cuando necesita animarse.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0011</td>
+        <td class="side">En fin, &#161;cuida de nuestro peque&#241;o[ST:n ]incordio con patas, por favor![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0016</td>
+        <td class="side">Ah, &#191;entonces [ST:Gender p1=amigo p2=amiga ] est&#225; utilizando[ST:n ]nuestro tesoro secreto nopon?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0017</td>
+        <td class="side">&#161;Bola de \&quot;S&#237;gueme\&quot; es muy &#250;til![ST:n ][ST:Gender p1=Amigo p2=Amiga ] solo tiene que pensar ad&#243;nde quiere ir[ST:n ]y &#161;fiuuu!, Bola vuela en esa direcci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0018</td>
+        <td class="side">&#191;Meh? &#191;Que algunas veces Bola de \&quot;S&#237;gueme\&quot;[ST:n ]va en c&#237;rculos o se pierde?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0019</td>
+        <td class="side">Bueno, nada es perfecto. Bola de \&quot;S&#237;gueme\&quot;[ST:n ]tampoco es mucho m&#225;s lista que Tatsu.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0020</td>
+        <td class="side">Intenta no buscarle defectos y dale mucho amor.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0026</td>
+        <td class="side">Cuando se firm&#243; tratado de amistad, a Sabio Nan,[ST:n ]que hab&#237;a estado viajando por Mira, &#161;se le ocurri&#243;[ST:n ]locura de que todos nopon deber&#237;an mudarse a NLA![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0027</td>
+        <td class="side">Aunque l&#237;deres de caravanas como Koko no se van a ir.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0028</td>
+        <td class="side">Caravanas son centros comerciales importantes y[ST:n ]refugios seguros para mercaderes ambulantes nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0029</td>
+        <td class="side">&#161;Si caravanas se van, peligroso viaje de mercaderes[ST:n ]ser&#225; m&#225;s peligroso! No, caravanas deben quedarse.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0030</td>
+        <td class="side">Una vez, en fondo de cueva en Noctilum,[ST:n ]Koko tropez&#243; con estatuas de dos gigantes[ST:n ]que le resultaban extra&#241;amente familiares.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0031</td>
+        <td class="side">Cuando Koko se lo cont&#243; a amigo Curator,[ST:n ]&#161;no pudo contener emoci&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0032</td>
+        <td class="side">Curator empez&#243; a dar saltos, diciendo:[ST:n ]\&quot;&#161;Es pieza de colecci&#243;n que faltaba!\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0033</td>
+        <td class="side">Si [ST:Gender p1=amigo p2=amiga ] tambi&#233;n busca esas estatuas, [ST:Gender p1=amigo p2=amiga ] deber&#237;a[ST:n ]mirar esquinas de cuevas con muuucha atenci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0034</td>
+        <td class="side">Sabio Nan est&#225; muy mimado, pero, a pesar de quejas,[ST:n ]nopon lo queremos igual.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0035</td>
+        <td class="side">Si Tatsu espera convertirse en futuro l&#237;der de caravana,[ST:n ]Tatsu deber&#237;a mirar a Sabio Nan con lupa.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0036</td>
+        <td class="side">&#161;Y luego hacer todo lo contrario que Sabio Nan![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0037</td>
+        <td class="side">Lo que nopon quieren de verdad es que Tatsu sea &#233;l[ST:n ]mismo. Pasar tiempo en ciudad humana dar&#225; a Tatsu[ST:n ]todo conocimiento que necesita para ser buen l&#237;der.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

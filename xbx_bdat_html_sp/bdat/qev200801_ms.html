@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev200801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0001</td>
+        <td class="side">&#191;Eres...? Ah, s&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0002</td>
+        <td class="side">Me imagino que est&#225;s aqu&#237; porque has completado[ST:n ]todas las tareas que te asign&#233;, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0003</td>
+        <td class="side">Entonces mereces ser [ST:Gender p1=el p2=la ] BLADE [ST:Gender p1=poseedor p2=poseedora ][ST:n ]de mi genial invenci&#243;n. Mi obra maestra.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0004</td>
+        <td class="side">&#161;La competencia mec&#225;nica 5.0, capaz de resolver[ST:n ]cualquier misterio de este enigm&#225;tico mundo![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0005</td>
+        <td class="side">Puedo mejorar la competencia instalada[ST:n ]en tu mimeosoma de forma inmediata.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0006</td>
+        <td class="side">&#191;Est&#225;s [ST:Gender p1=listo p2=lista ]?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev200801_JNK0010</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev200801_SEL0011</td>
+        <td class="side">Mejora tu competencia mec&#225;nica.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev200801_JNK0020</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev200801_SEL0021</td>
+        <td class="side">Di que todav&#237;a necesitas tiempo[ST:n ]para prepararte emocionalmente.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0007</td>
+        <td class="side">Lo entiendo. Poseer tal sabidur&#237;a implica enfrentarse[ST:n ]a verdades para las que quiz&#225; no est&#233;s [ST:Gender p1=preparado p2=preparada ].[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0008</td>
+        <td class="side">Ven a verme una vez que creas estar [ST:Gender p1=listo p2=lista ][ST:n ]para tolerar la enorme carga que supone esta mejora.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0009</td>
+        <td class="side">Entonces comencemos.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0010</td>
+        <td class="side">Con esta mejora, &#161;obtendr&#225;s el poder de desvelar[ST:n ]los mayores misterios de este mundo![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0011</td>
+        <td class="side">Mejora completada.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0012</td>
+        <td class="side">He de irme. Espero tener noticias[ST:n ]de tus haza&#241;as muy pronto.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

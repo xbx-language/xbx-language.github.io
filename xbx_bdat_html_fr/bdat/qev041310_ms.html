@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041310_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0001</td>
+        <td class="side">J&#39;adorais la chasse avant. Je pensais qu&#39;il n&#39;y avait rien[ST:n ]de mieux dans la vie. Et pourtant, collectionner[ST:n ]les cartes Miravie est bien plus amusant ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0002</td>
+        <td class="side">Un jour j&#39;aurai la collection compl&#232;te. Mais seulement[ST:n ]si je la cache &#224; ma femme.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0003</td>
+        <td class="side">J&#39;adore les cartes Miravie. Mais j&#39;me suis laiss&#233;[ST:n ]emporter. J&#39;ai n&#233;glig&#233; ma femme. &#199;a l&#39;a mise[ST:n ]en col&#232;re. Elle m&#39;a confisqu&#233; les cartes.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0004</td>
+        <td class="side">&#199;a vaut s&#251;rement mieux. Mais j&#39;ai quand m&#234;me envie[ST:n ]d&#39;une carte &#201;vello argent. Vous en avez une ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0005</td>
+        <td class="side">Je n&#39;ai pas de cartes &#224; &#233;changer. Mais je peux vous[ST:n ]enseigner des techniques de chasse prones secr&#232;tes.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0009</td>
+        <td class="side">J&#39;avais tellement envie de cette carte. Merci, Terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0010</td>
+        <td class="side">Je vais maintenant vous enseigner les anciennes[ST:n ]techniques de chasse prones.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0011</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0012</td>
+        <td class="side">Vous apprenez vite, Terrestre ! Je vous nomme chasseur[ST:n ]prone &#224; titre honorifique.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041310_MSG0013</td>
+        <td class="side">Je vois. C&#39;est pas grave. Je la trouverai moi-m&#234;me.[ST:n ]J&#39;utiliserai mon intelligence et mes comp&#233;tences.[ST:n ]C&#39;est la fa&#231;on de faire prone ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

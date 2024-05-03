@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev074201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev074201_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev074201_SEL0011</td>
+        <td class="side">Frage Nen’celeg, was er dir &#252;ber[ST:n ]das Noctilum erz&#228;hlen kann.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev074201_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev074201_SEL1021</td>
+        <td class="side">Sprich mit Nen’celeg &#252;ber[ST:n ]die Ereignisse der letzten Zeit.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev074201_JNK0010</td>
+        <td class="side">tev074201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev074201_SEL0031</td>
+        <td class="side">Sprich mit Nen’celeg &#252;ber das Noctilum.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev074201_JNK0020</td>
+        <td class="side">tev074201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev074201_SEL1021</td>
+        <td class="side">tev074201_SEL1021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0001</td>
+        <td class="side">Das Noctilum steckt voller Bedrohungen.[ST:n ]Zahllose furchterregende Kreaturen lauern dort, es ist[ST:n ]also kein Ort, den man unbeschwert bereisen k&#246;nnte.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0002</td>
+        <td class="side">Dennoch empfinde ich meine Ausfl&#252;ge dorthin als[ST:n ]entspannend. Man k&#246;nnte auch sagen, dass mein[ST:n ]Ovah dort zur Ruhe kommt.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0003</td>
+        <td class="side">Bei meinem letzten Aufenthalt bin ich nahe des[ST:n ]Amaryllsees mehrerer Solarfalter ansichtig geworden.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0004</td>
+        <td class="side">Ich konnte meine Augen nicht von ihnen abwenden:[ST:n ]Im Augenblick ihres Todes strahlen sie ein glei&#223;endes[ST:n ]Licht ab. Ein unbeschreibliches Schauspiel![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0005</td>
+        <td class="side">Es bedarf profunder Nachforschungen, aber mein[ST:n ]Gef&#252;hl sagt mir, dass zwischen diesem Ort und dem[ST:n ]Ursprung der Orphen ein enger Zusammenhang besteht.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0013</td>
+        <td class="side">Vielen Dank, dass du mir im Noctilum zu Hilfe kamst.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0014</td>
+        <td class="side">Du brauchst dich nicht l&#228;nger um mich zu sorgen.[ST:n ]Jetzt, da ich ein vielversprechendes Forschungsobjekt[ST:n ]gefunden habe, werde ich wohl in NLA verweilen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0015</td>
+        <td class="side">...Du interessierst dich f&#252;r mein Forschungsobjekt?[ST:n ]Nun, dabei handelt es sich um niemand anderen[ST:n ]als Nan’celeg.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0016</td>
+        <td class="side">Er scheint mir gegen&#252;ber eine gewisse Zuneigung[ST:n ]entwickelt zu haben, doch kann er die grundlegende[ST:n ]Logik hinter dieser Emotion noch nicht durchschauen.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0017</td>
+        <td class="side">Ich finde uns Orphen mittlerweile sehr viel interessanter[ST:n ]als die Kreaturen Miras. Mit Nan’celeg als Testobjekt[ST:n ]erforsche ich nun die Grundstrukturen unseres Denkens.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0025</td>
+        <td class="side">Im Herzen des Noctilums findet sich ein Ort,[ST:n ]bei dessen Erw&#228;hnung mein Ovah wallt und wogt.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0026</td>
+        <td class="side">Ich f&#252;hle, dass dort etwas verborgen sein muss.[ST:n ]Etwas von gr&#246;&#223;erer Bedeutung als die Ganglion oder[ST:n ]einheimische Kreaturen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0027</td>
+        <td class="side">Nur allzu gern w&#252;rde ich dieses Ph&#228;nomen eingehender[ST:n ]untersuchen, doch Nan’celeg w&#252;rde das niemals[ST:n ]erlauben.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0028</td>
+        <td class="side">Nat&#252;rlich k&#246;nnte ich seine Einw&#228;nde ignorieren,[ST:n ]aber es liegt mir fern, ihn zu beunruhigen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev074201_MSG0029</td>
+        <td class="side">Jeden Tag durchforste ich das FrontierNav nach[ST:n ]Informationen, w&#228;hrend ich gegen den Drang[ST:n ]ank&#228;mpfe, mich selbst ins Noctilum zu begeben.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

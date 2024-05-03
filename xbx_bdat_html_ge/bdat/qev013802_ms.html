@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev013802_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0001</td>
+        <td class="side">Ich arbeite in der Waffenentwicklung hier in NLA,[ST:n ]wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0002</td>
+        <td class="side">Die Arbeit macht mir wirklich Spa&#223;. Aber, aber, aber[ST:n ]manche Dinge an den Menschen sind f&#252;r mich schwer[ST:n ]zu verstehen...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0003</td>
+        <td class="side">Am Abend h&#246;ren zum Beispiel alle auf zu arbeiten,[ST:n ]richtig? Aber, aber, aber ich pers&#246;nlich bin nach[ST:n ]Sonnenuntergang am produktivsten.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev013802_JNK0010</td>
+        <td class="side">Einladen</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev013802_SEL0011</td>
+        <td class="side">Schlage Arwae vor, an Alex’ Kurs teilzunehmen.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev013802_JNK0020</td>
+        <td class="side">Ermuntern</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev013802_SEL0021</td>
+        <td class="side">Sage Arwae, dass man sich[ST:n ]an so was mit der Zeit gew&#246;hnt.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0004</td>
+        <td class="side">Alex ist sein Name, ja? Alex? Vielleicht gibt mir sein[ST:n ]Kurs neue Einblicke ins menschliche Denken?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0005</td>
+        <td class="side">Ich nehme teil, ja? Aber ich erwarte nicht zu viel...[ST:n ]Oder ist das unh&#246;flich?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0006</td>
+        <td class="side">Vielleicht. Aber, aber, aber man soll eigentlich keine[ST:n ]Zeit verschwenden, richtig?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0007</td>
+        <td class="side">Es w&#228;re wirklich, wirklich hilfreich, wenn ihr Menschen[ST:n ]uns Ma-non eure Regeln erkl&#228;rt, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0008</td>
+        <td class="side">Vielleicht bin ich nicht der Einzige, der damit Probleme[ST:n ]hat, oder doch?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0009</td>
+        <td class="side">Ich glaube, ich nehme gerne an Alex’ Kurs teil, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev013802_MSG0010</td>
+        <td class="side">Ich werde mir M&#252;he geben, die Menschen besser zu[ST:n ]verstehen, ja? Ja.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

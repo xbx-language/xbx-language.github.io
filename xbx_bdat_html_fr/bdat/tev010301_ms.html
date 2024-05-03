@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev010301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev010301_JNK0010</td>
+        <td class="side">Interroger[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0011</td>
+        <td class="side">Se renseigner aupr&#232;s de Wilbur sur les conditions[ST:n ]de vie &#224; N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev010301_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0021</td>
+        <td class="side">Demander &#224; Wilbur s&#39;il a entendu[ST:n ]des rumeurs int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0041</td>
+        <td class="side">Demander &#224; Wilbur des informations au sujet[ST:n ]de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0091</td>
+        <td class="side">Demander &#224; Wilbur des informations au sujet[ST:n ]de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0001</td>
+        <td class="side">Des x&#233;nos non identifi&#233;s ont abattu la Grande Blanche[ST:n ]et il n&#39;y a qu&#39;un mur fr&#234;le qui s&#233;pare les habitants[ST:n ]de New L.A. des indig&#232;nes violents de cette plan&#232;te.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0003</td>
+        <td class="side">Les habitants de New L.A. sont de nature optimiste,[ST:n ]mais je pense qu&#39;ils cachent de grosses angoisses.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0004</td>
+        <td class="side">J&#39;ai entendu dire qu&#39;ils sont nombreux &#224; recevoir[ST:n ]de l&#39;aide pour divers troubles psychologiques.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0005</td>
+        <td class="side">Il faut croire que les bourgeois ont toujours &#233;t&#233;[ST:n ]moins tenaces que nous autres, gens de la haute.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0006</td>
+        <td class="side">J&#39;ai &#233;t&#233; capable de cr&#233;er en ce lieu une entreprise[ST:n ]prosp&#232;re, j&#39;ai m&#234;me une secr&#233;taire belle et intelligente.[ST:n ]J&#39;ai &#233;galement un manoir. Avec une grande piscine.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0007</td>
+        <td class="side">O&#249; que nous nous trouvions, l&#39;humanit&#233; se scindera[ST:n ]toujours en deux : les gagnants et les perdants.[ST:n ]Il n&#39;y a que cette distinction qui soit importante.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0010</td>
+        <td class="side">Des cartes &#224; collectionner appel&#233;es &#171; cartes Miravie &#187;[ST:n ]sont sorties il y a peu.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0011</td>
+        <td class="side">Ma magnifique secr&#233;taire, Pepper, les collectionne,[ST:n ]elle a d&#233;velopp&#233; une v&#233;ritable obsession.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0012</td>
+        <td class="side">J&#39;en ai achet&#233; un paquet pour essayer de comprendre[ST:n ]d&#39;o&#249; vient cet engouement, mais ce ne sont que des[ST:n ]cartes pr&#233;sentant des illustrations laides d&#39;indig&#232;nes.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0013</td>
+        <td class="side">Je n&#39;arrive vraiment pas &#224; comprendre cet emballement.[ST:n ]Mais ma ch&#232;re Pepper semble enthousiasm&#233;e &#224; l&#39;id&#233;e[ST:n ]d’en apprendre plus sur la faune mirane.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0014</td>
+        <td class="side">S&#39;il y a bien une chose que cette fille sait faire,[ST:n ]c&#39;est flairer les tendances. Je me demande[ST:n ]quelle sera la prochaine.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0022</td>
+        <td class="side">Vais-je devoir supporter ce vaisseau encore longtemps ?[ST:n ]Je n&#39;ai pas fait construire mon manoir sur le meilleur[ST:n ]terrain de la ville pour avoir cette vue-l&#224; ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0023</td>
+        <td class="side">Quand j&#39;appelle le commandement du BLADE pour me[ST:n ]plaindre, on me parle d&#39;une histoire de trait&#233; de paix[ST:n ]et on me dit qu&#39;il leur est impossible de le d&#233;placer.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0024</td>
+        <td class="side">Billeves&#233;es ! Oh, comme j&#39;aimerais pouvoir prendre part[ST:n ]&#224; leurs affaires...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0025</td>
+        <td class="side">Je ne sais pas si je parviendrai &#224; faire fi de cette[ST:n ]contrari&#233;t&#233;. M&#234;me ma fortune ind&#233;cente ne suffit pas[ST:n ]&#224; faire dispara&#238;tre ce maudit vaisseau.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0041</td>
+        <td class="side">J&#39;ai ou&#239; dire que vous aviez enfin localis&#233;[ST:n ]le noyau de l&#39;arche de vie ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0042</td>
+        <td class="side">Apr&#232;s tout l&#39;argent que j&#39;ai plac&#233; dans le BLADE, [ST:n ]c&#39;est une joie d&#39;avoir enfin un retour sur investissement.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0043</td>
+        <td class="side">Toutefois, quelque chose me trouble. Une fois le noyau[ST:n ]de l&#39;arche de vie r&#233;cup&#233;r&#233;, serai-je extirp&#233; de force de[ST:n ]ce mim&#233;osome et renvoy&#233; dans mon v&#233;ritable corps ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0044</td>
+        <td class="side">Car je ne souhaite pas me s&#233;parer d&#39;un corps[ST:n ]qui m&#39;offre la jeunesse &#233;ternelle.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0045</td>
+        <td class="side">Nous devrions avoir le choix entre conserver[ST:n ]nos mim&#233;osomes ou reprendre nos v&#233;ritables corps.[ST:n ]Tout du moins, les riches devraient avoir le choix.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0051</td>
+        <td class="side">Demander &#224; Wilbur s&#39;il a entendu[ST:n ]des rumeurs int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0046</td>
+        <td class="side">Il semblerait que cette Nopone, Warawa,[ST:n ]ait empoch&#233; une carte Nopon-potamus or ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0047</td>
+        <td class="side">J’ai d&#251; acheter la moiti&#233; des cartes &#233;tant sur le march&#233;,[ST:n ]mais je ne suis jamais parvenu &#224; en obtenir une seule ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0048</td>
+        <td class="side">Bon sang ! Je n’aurais jamais d&#251; &#233;couter Pepper[ST:n ]et chercher les &#233;ditions originales.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0049</td>
+        <td class="side">Arf ! Quelle exasp&#233;ration ! Combien de cartes[ST:n ]me faudra-t-il encore acheter ?![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0050</td>
+        <td class="side">Vais-je devoir supporter ce vaisseau encore longtemps ?[ST:n ]Je n&#39;ai pas fait construire mon manoir sur le meilleur[ST:n ]terrain de la ville pour avoir cette vue-l&#224; ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0051</td>
+        <td class="side">Quand j&#39;appelle le commandement du BLADE pour me[ST:n ]plaindre, on me parle d&#39;une histoire de trait&#233; de paix[ST:n ]et on me dit qu&#39;il leur est impossible de le d&#233;placer.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0052</td>
+        <td class="side">Je reconnais que les Ma-nons sont des alli&#233;s de valeur[ST:n ]et qu&#39;il est de notre devoir, en tant qu&#39;agent du BLADE,[ST:n ]de les prot&#233;ger, mais...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0053</td>
+        <td class="side">Je ne sais pas si je parviendrai &#224; faire fi de cette[ST:n ]contrari&#233;t&#233;. M&#234;me ma fortune ind&#233;cente ne suffit pas[ST:n ]&#224; faire dispara&#238;tre ce maudit vaisseau.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0057</td>
+        <td class="side">Ah, quel plaisir de vous revoir, mon [ST:Gender p1=ami p2=amie ] ![ST:n ]Gr&#226;ce &#224; l&#39;objet dont vous m&#39;avez pourvu,[ST:n ]j&#39;ai pu &#234;tre engag&#233; dans le BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0058</td>
+        <td class="side">J&#39;ai aussi c&#233;d&#233; la direction de mon entreprise[ST:n ]&#224; ma magnifique secr&#233;taire, Pepper, [ST:n ]plus rien ne me retient &#224; pr&#233;sent.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0059</td>
+        <td class="side">J&#39;ai h&#226;te de pouvoir gambader comme bon me semble[ST:n ]dans Mira et de capturer chacune des esp&#232;ces qui sont[ST:n ]repr&#233;sent&#233;es sur ces fameuses cartes Miravie.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0060</td>
+        <td class="side">Et c&#39;est gr&#226;ce &#224; vous que je peux &#224; pr&#233;sent[ST:n ]entamer cette nouvelle &#233;tape de ma vie.[ST:n ]Vous avez toute ma reconnaissance.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0068</td>
+        <td class="side">J&#39;ai ou&#239; dire que vous aviez enfin localis&#233;[ST:n ]le noyau de l&#39;arche de vie ![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0069</td>
+        <td class="side">La guerre fut longue et &#233;reintante, nous,[ST:n ]les agents du BLADE, aurons bient&#244;t[ST:n ]la victoire que nous m&#233;ritons tant ![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0070</td>
+        <td class="side">Toutefois, quelque chose me trouble. Une fois le noyau[ST:n ]de l&#39;arche de vie r&#233;cup&#233;r&#233;, serai-je extirp&#233; de force de[ST:n ]ce mim&#233;osome et renvoy&#233; dans mon v&#233;ritable corps ?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0071</td>
+        <td class="side">Car si je dois poursuivre les combats contre les[ST:n ]indig&#232;nes, je serai bien plus efficace dans ce corps[ST:n ]que dans sa vieille version de chair et de sang.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0072</td>
+        <td class="side">Si possible, j&#39;aimerais que nous ayons le choix[ST:n ]entre garder nos mim&#233;osomes et reprendre[ST:n ]nos v&#233;ritables corps.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0073</td>
+        <td class="side">J&#39;ai ou&#239; dire que nous avons r&#233;cup&#233;r&#233;[ST:n ]le noyau de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0074</td>
+        <td class="side">On ne m&#39;a pas encore demand&#233; d&#39;abandonner[ST:n ]mon mim&#233;osome pour reprendre mon v&#233;ritable corps,[ST:n ]et j&#39;esp&#232;re qu&#39;on ne me le demandera jamais.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0075</td>
+        <td class="side">Un mim&#233;osome ne tombe jamais malade, ses blessures[ST:n ]peuvent &#234;tre arrang&#233;es &#224; l&#39;aide de pi&#232;ces de rechange,[ST:n ]et par-dessus tout, il nous lib&#232;re de l&#39;emprise du temps.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0076</td>
+        <td class="side">Si possible, j&#39;aimerais que nous ayons le choix[ST:n ]entre garder nos mim&#233;osomes et reprendre[ST:n ]nos v&#233;ritables corps.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev010502_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0001</td>
+        <td class="side">Oh, j&#39;en crois pas mes yeux ! Tu es [ST:Gender p1=humain p2=humaine ] ![ST:n ]Ma chance ne m&#39;a donc pas compl&#232;tement l&#226;ch&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0002</td>
+        <td class="side">Ces monstres me pourchassaient partout. J&#39;avais[ST:n ]plus de munitions et j&#39;ai perdu mon terminal, puis...[ST:n ]Bref, je pensais que c&#39;en &#233;tait fini de moi.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev010502_JNK0010</td>
+        <td class="side">Expliquer</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev010502_SEL0011</td>
+        <td class="side">Expliquer &#224; Conner que Nathan vous a [ST:Gender p1=envoy&#233; p2=envoy&#233;e ] pour[ST:n ]le trouver.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev010502_JNK0020</td>
+        <td class="side">Informer</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev010502_SEL0021</td>
+        <td class="side">Dire &#224; Conner que Monica s&#39;inqui&#233;tait pour lui.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0003</td>
+        <td class="side">Bon, c&#39;est quand m&#234;me toi que je dois remercier ![ST:n ]Je les imagine parfaitement se prendre la t&#234;te.[ST:n ]Ils sont comme un vieux couple mari&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0004</td>
+        <td class="side">&#199;a me surprend pas vraiment. Je veux dire, c&#39;est gentil[ST:n ]de sa part, mais elle s&#39;inqui&#232;te toujours pour tout.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0005</td>
+        <td class="side">Toujours est-il que je devrais faire mon rapport et[ST:n ]leur dire que tout va bien.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0006</td>
+        <td class="side">Je voudrais pas te d&#233;ranger, mais tu pourrais m&#39;aider[ST:n ]&#224; chercher mon terminal ? Il doit pas &#234;tre loin.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0007</td>
+        <td class="side">Je sais que tu appartiens au BLADE comme moi,[ST:n ]mais je tiens quand m&#234;me &#224; te payer.[ST:n ]C&#39;est de ma faute si on est l&#224;, apr&#232;s tout.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0008</td>
+        <td class="side">Mon fichu terminal m&#39;a gliss&#233; des doigts pendant[ST:n ]que je fuyais les indig&#232;nes, il ne devrait donc pas &#234;tre[ST:n ]loin d&#39;ici, &#224; une ou deux sections, pas plus.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0009</td>
+        <td class="side">Je devrais dire &#224; Monica que je vais bien avant[ST:n ]qu&#39;elle p&#232;te un c&#226;ble. S&#39;il te pla&#238;t, aide-moi &#224;[ST:n ]trouver ce terminal ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0010</td>
+        <td class="side">Alors ? Une fois que je l&#39;aurai r&#233;cup&#233;r&#233;, je pourrai[ST:n ]joindre les autres o&#249; qu&#39;ils soient.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0011</td>
+        <td class="side">H&#233;, beau boulot ! Je suis impressionn&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0012</td>
+        <td class="side">Content de voir que toi, au moins, tu es pro.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0013</td>
+        <td class="side">Maintenant je sais vers qui me tourner la prochaine fois[ST:n ]que les choses tournent mal ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0014</td>
+        <td class="side">Parfait. Je vais contacter les autres tout de suite...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0015</td>
+        <td class="side">Tiens. C&#39;est ma fa&#231;on de dire merci.[ST:n ]J&#39;appr&#233;cie beaucoup le coup de main.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev010502_MSG0016</td>
+        <td class="side">Gr&#226;ce &#224; toi, j&#39;ai pu entrer en contact avec[ST:n ]mon &#233;quipe. Ils sont en route.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

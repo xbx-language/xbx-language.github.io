@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000494_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0001</td>
+        <td class="side">Oh, [ST:playername ]. Che ci fai qui?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0002</td>
+        <td class="side">Dannazione! Non posso credere che tu abbia scoperto[ST:n ]il mio programma di allenamento segreto![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0003</td>
+        <td class="side">Ho fatto cos&#236; tanta fatica per tenerlo[ST:n ]nascosto ai miei rivali...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0004</td>
+        <td class="side">Ma a questo punto non c&#39;&#232; pi&#249; nulla da fare. Quindi,[ST:n ]accomodati pure! Ruba tutte le mie idee! Trover&#242; un[ST:n ]modo migliore per mantenere la mia supremazia.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0005</td>
+        <td class="side">Ehm... visto che siamo in argomento: qual &#232;[ST:n ]secondo te il segreto del successo?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000494_JNK0010</td>
+        <td class="side">Fortuna</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000494_SEL0011</td>
+        <td class="side">Di&#39; che il fattore fondamentale &#232; la fortuna.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000494_JNK0020</td>
+        <td class="side">Abilit&#224;</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000494_SEL0021</td>
+        <td class="side">Di&#39; che il fattore fondamentale &#232; l&#39;abilit&#224;.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000494_JNK0030</td>
+        <td class="side">Spirito</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000494_SEL0031</td>
+        <td class="side">Di&#39; che il fattore fondamentale &#232; uno spirito indomito.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0006</td>
+        <td class="side">Fortuna, eh? Capisco.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0007</td>
+        <td class="side">Beh, non posso negarne il valore.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0008</td>
+        <td class="side">Di certo, molti di quelli che occupano posizioni di[ST:n ]rilievo devono il loro successo alla dea bendata,[ST:n ]in barba alla loro mancanza di capacit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0009</td>
+        <td class="side">Ehm... non mi riferivo a te, ovviamente.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0010</td>
+        <td class="side">Ma temo di dover dissentire. Non credo affatto che la[ST:n ]fortuna sia uno dei fattori fondamentali del successo.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0011</td>
+        <td class="side">&#200; l&#39;abilit&#224;, pi&#249; di ogni cosa, che determina il successo.[ST:n ]Bisogna continuamente affinare le proprie capacit&#224;,[ST:n ]anche a costo di grandi sforzi e scarsi risultati.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0012</td>
+        <td class="side">Per una volta ci troviamo d&#39;accordo.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0013</td>
+        <td class="side">La fortuna potr&#224; anche portare la vittoria,[ST:n ]una vittoria per&#242; straordinariamente effimera.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0014</td>
+        <td class="side">L&#39;abilit&#224;, a un livello soddisfacente, non porta solo la[ST:n ]possibilit&#224; di successo, ma la quasi totale certezza.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0015</td>
+        <td class="side">Il successo arriva spontaneamente per[ST:n ]le persone capaci. La vera sfida &#232;[ST:n ]acquisirle e svilupparle, quelle capacit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0016</td>
+        <td class="side">Beata ingenuit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0017</td>
+        <td class="side">Oh, certamente essere dotati di uno spirito[ST:n ]simile &#232; una dote.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0018</td>
+        <td class="side">Ma credi davvero che lanciarsi a capofitto[ST:n ]in situazioni impossibili, e farlo senza sosta,[ST:n ]sia la strada per il successo?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0019</td>
+        <td class="side">Siamo realisti: affinare le proprie capacit&#224;, questo &#232; il[ST:n ]modo migliore per aumentare le chances di successo![ST:n ]Non certo cose come la grinta o il fegato.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0020</td>
+        <td class="side">Ecco perch&#233; ho ideato il mio programma[ST:n ]di allenamento.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0021</td>
+        <td class="side">Non vedo N.L.A. come un luogo per rilassarsi, piuttosto[ST:n ]come una palestra in cui affinare le mie abilit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0022</td>
+        <td class="side">Dopotutto, anche la mia controparte sta affinando le[ST:n ]proprie capacit&#224;, a una velocit&#224; preoccupante.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0023</td>
+        <td class="side">Perci&#242; devo allenarmi duramente per mettermi alla pari.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0024</td>
+        <td class="side">E adesso che ti ho rivelato il mio segreto,[ST:n ]dimmi: il tuo qual &#232;?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000494_JNK0040</td>
+        <td class="side">Mantieniti sul vago</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000494_SEL0041</td>
+        <td class="side">Di&#39; che tutto succede per caso, non c&#39;&#232; nulla di speciale.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000494_JNK0050</td>
+        <td class="side">Rispondi con modestia</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000494_SEL0051</td>
+        <td class="side">Di&#39; che &#232; tutto merito di Elma.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000494_JNK0060</td>
+        <td class="side">Rispondi onestamente</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000494_SEL0061</td>
+        <td class="side">Afferma che il tuo successo deriva dal gran[ST:n ]numero di missioni portate a termine.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0025</td>
+        <td class="side">Umpf! E va bene, tieniti i tuoi segreti.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0026</td>
+        <td class="side">Allora &#232; guerra aperta! Rifiuteresti al tuo avversario[ST:n ]persino la cortesia di una risposta onesta?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0027</td>
+        <td class="side">E va bene. Otterr&#242; il successo con le mie sole forze[ST:n ]e mai pi&#249; mi rivolger&#242; a te per avere aiuto![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0028</td>
+        <td class="side">Questa &#232; proprio la risposta che mi aspettavo da te.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0029</td>
+        <td class="side">Vero: hai avuto senza dubbio molta fortuna, ad[ST:n ]avere un comandante capace come Elma.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0030</td>
+        <td class="side">Ma anche lei ti vede come un elemento affidabile.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0031</td>
+        <td class="side">Nessuno dotato di raziocinio perderebbe tempo a[ST:n ]sostenere un commilitone incapace di collaborare.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0032</td>
+        <td class="side">Non posso credere di doverlo dire proprio [ST:Gender p1=al mio p2=alla mia ][ST:n ]rivale, ma... Tu sei quel che sei grazie alle tue[ST:n ]capacit&#224;, non alle sue.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0033</td>
+        <td class="side">Anche se... magari &#232; proprio questa tua modestia[ST:n ]il tuo segreto, o almeno lo &#232; in parte.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0034</td>
+        <td class="side">Approfondir&#242; l&#39;argomento, sperando che questo[ST:n ]mi porti a eguagliare il tuo successo.[ST:n ]Per il momento, ti saluto.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0035</td>
+        <td class="side">Capisco.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0036</td>
+        <td class="side">Portando a termine un gran numero di missioni,[ST:n ]hai ottenuto anche un grande bagaglio di esperienza.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0037</td>
+        <td class="side">Non ho certo dimenticato quanto facilmente[ST:n ]hai portato a termine la missione che ti ho[ST:n ]affibbiato la prima volta che ci siamo visti.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0038</td>
+        <td class="side">Forse ho solo bisogno di maggiore esperienza,[ST:n ]per tirar fuori la forza che c&#39;&#232; in me.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0039</td>
+        <td class="side">Il tuo consiglio &#232; prezioso.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0040</td>
+        <td class="side">Sembra che il mio programma speciale di allenamento[ST:n ]sia ormai inutile. D&#39;ora in poi accetter&#242; pi&#249; missioni,[ST:n ]per mettermi al passo con [ST:Gender p1=il mio p2=la mia ] rivale.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0041</td>
+        <td class="side">Comincer&#242; con dieci missioni contemporaneamente,[ST:n ]e da l&#236; inizier&#242; a crescere e progredire.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev000494_MSG0042</td>
+        <td class="side">Arrivederci, per ora.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev020201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0011</td>
+        <td class="side">Frage Sara-Ariel nach den Umst&#228;nden,[ST:n ]die zur Notlandung gef&#252;hrt haben.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0021</td>
+        <td class="side">Frage Sara-Ariel, ob sie etwas bedr&#252;ckt.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0010</td>
+        <td class="side">tev020201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0031</td>
+        <td class="side">Sprich mit Sara-Ariel &#252;ber die[ST:n ]Bedrohung durch die Ganglion.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0020</td>
+        <td class="side">tev020201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0021</td>
+        <td class="side">tev020201_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0010</td>
+        <td class="side">tev020201_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0041</td>
+        <td class="side">Sprich mit Sara-Ariel &#252;ber den feindlichen Angriff.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0020</td>
+        <td class="side">tev020201_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0021</td>
+        <td class="side">tev020201_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0010</td>
+        <td class="side">tev020201_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0051</td>
+        <td class="side">Sprich mit Sara-Ariel &#252;ber die[ST:n ]Bedrohung durch die Ganglion.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev020201_JNK0020</td>
+        <td class="side">tev020201_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0021</td>
+        <td class="side">tev020201_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0091</td>
+        <td class="side">Sprich mit Sara-Ariel &#252;ber die[ST:n ]Bedrohung durch die Ganglion.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev020201_SEL0101</td>
+        <td class="side">Frage Sara-Ariel, was sich in letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0001</td>
+        <td class="side">Diese Mist-Xenoformen haben erst die Erde in Schutt[ST:n ]und Asche gelegt und dann den Wei&#223;en Wal verfolgt[ST:n ]und angegriffen. Einfach so, keine Diplomatie, nichts.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0002</td>
+        <td class="side">Kentaro Nagi gab uns den Befehl, uns in unsere[ST:n ]Skells zu schwingen und die Viecher abzumurksen.[ST:n ]Aber es waren einfach viel zu viele.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0003</td>
+        <td class="side">An dem Tag hab ich ’nen Haufen Freunde verloren.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0004</td>
+        <td class="side">Die ganzen &#220;berlebenden sagen, sie sind froh, weil sie[ST:n ]so’n Schwein gehabt und &#252;berlebt haben.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0005</td>
+        <td class="side">Aber ich nicht. Ich bin erst dann wieder froh, wenn ich[ST:n ]diesem Mistkerl die Fresse polieren kann. Also dem[ST:n ]Mistkerl, der den Angriff auf den Wal befohlen hat![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0006</td>
+        <td class="side">Ich hab keine Ahnung, wer das ist und wo er ist.[ST:n ]Aber wenn ich den finde, pr&#252;gle ich ihn windelweich.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0009</td>
+        <td class="side">Oh ja, und ob mich was bedr&#252;ckt. Ich hab ’nen Kumpel[ST:n ]bei BLADE, der ist wie’n kleiner Bruder f&#252;r mich.[ST:n ]Und der hat sich jetzt ’ne Freundin in NLA geangelt.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0010</td>
+        <td class="side">Immer wenn ich mit ihm einen saufen gehe, krieg ich[ST:n ]also neuerdings nur noch Fragen &#252;ber Liebe und[ST:n ]Beziehungen und so ’nen K&#228;se gestellt.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0011</td>
+        <td class="side">Ich k&#246;nnt ihm so viel beibringen: Wie man am besten[ST:n ]zuschl&#228;gt, wie man ordentlich schie&#223;t, wie man einen[ST:n ]Skell steuert...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0012</td>
+        <td class="side">Aber woher zum Teufel soll ich denn irgendwas &#252;ber[ST:n ]Liebe wissen?! War noch nie verliebt und will’s auch[ST:n ]nie sein.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0013</td>
+        <td class="side">Nur eins wei&#223; ich ganz genau: Wenn er einen Angriff[ST:n ]versaut, weil er gerade &#252;ber seine Tussi nachgr&#252;belt,[ST:n ]dann kriegt er seine Beziehungstipps! Voll auf die Zw&#246;lf![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0021</td>
+        <td class="side">Die hei&#223;en also Ganglion, was? Dann kennen[ST:n ]wir jetzt ja endlich den Namen unserer Feinde.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0022</td>
+        <td class="side">Also sind wir diesen Mistkerlen, die die Erde verw&#252;stet[ST:n ]und meine Freunde umgebracht haben, schon mal[ST:n ]’nen Schritt n&#228;her![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0023</td>
+        <td class="side">Ich hab keinen Plan, was diese Samaar-F&#246;deration sein[ST:n ]soll. Ist mir auch v&#246;llig egal, wer den Ganglion so[ST:n ]alles hilft.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0024</td>
+        <td class="side">Mich h&#228;lt nichts davon ab, denen gepflegt die Fresse[ST:n ]zu polieren. Bald werden die anfangen zu zittern,[ST:n ]sobald sie das Wort BLADE nur h&#246;ren![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0039</td>
+        <td class="side">Hast du diese Ryyz-Tussi gesehen, w&#228;hrend der Angriff[ST:n ]lief? Hockt da diesem riesigen schwarzen Monster auf[ST:n ]der Schulter und kichert wie ’ne v&#246;llig Bekloppte.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0040</td>
+        <td class="side">Als ob’s das Lustigste auf der Welt w&#228;r, mit so ’nem[ST:n ]Monster schreiende, weglaufende Zivilisten zu[ST:n ]zertrampeln.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0041</td>
+        <td class="side">Dieses grausame, verr&#252;ckte Grinsen werd ich nie[ST:n ]vergessen...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0042</td>
+        <td class="side">Wenigstens so lange nicht, bis ich ihr das Feixen noch[ST:n ]viel schiefer schlage! Ich hoffe, du hast ’ne[ST:n ]Zahnersatzversicherung, meine Liebe![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0057</td>
+        <td class="side">Hat diese elende Ryyz-Tussi echt ins Gras gebissen?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0058</td>
+        <td class="side">Wie die gegrinst hat, w&#228;hrend sie meine Freunde[ST:n ]gekillt hat... Ich h&#228;tt mich ja gern selber ger&#228;cht und[ST:n ]sie mir vorgekn&#246;pft![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0059</td>
+        <td class="side">Trotzdem bin ich froh, dass du sie erledigt hast.[ST:n ]Jetzt k&#246;nnen alle, die sie auf dem Gewissen hat,[ST:n ]in Frieden ruhen.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev020201_MSG0060</td>
+        <td class="side">Wenn wir schon so sch&#246;n in Schwung sind, k&#246;nnen[ST:n ]wir ja gleich den Rest der Ganglion aufmischen. Zeigen[ST:n ]wir den Mistkerlen, was die Menschheit draufhat![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1088</td>
+        <td class="side">Das war echt ’n Wahnsinnskampf von dir![ST:n ]Der Ganglion-Boss hat endlich gekriegt, was er schon[ST:n ]so lang verdient hat.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1089</td>
+        <td class="side">Trotzdem laufen noch genug von seinen dreckigen[ST:n ]Handlangern hier auf Mira rum.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1090</td>
+        <td class="side">Die &#252;bernehmen wir! Wir kn&#246;pfen uns diese Drecks&#228;cke[ST:n ]vor, die NLA bedrohen. Jeden einzelnen von ihnen![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1091</td>
+        <td class="side">Schau dir meine F&#228;uste genau an! Mit denen werde[ST:n ]ich der Menschheit den Weg in eine strahlende Zukunft[ST:n ]ebnen![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1094</td>
+        <td class="side">Ich h&#228;tte nie geglaubt, dass mich deinetwegen mal[ST:n ]einer abblitzen l&#228;sst! Vor allem, weil du uns ja[ST:n ]vorgestellt hast![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1095</td>
+        <td class="side">Aber glaub jetzt blo&#223; nicht, dass mir das was[ST:n ]ausmacht. Ich hab noch nie ’nen Freund gebraucht[ST:n ]und brauch auch jetzt keinen![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1096</td>
+        <td class="side">Ich brauch nur ’n bisschen Action, Explosionen,[ST:n ]Todfeinde und ’n paar Kumpels. Mehr verlang ich[ST:n ]gar nicht vom Leben.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev020201_MSG1097</td>
+        <td class="side">Und gerade hab ich so viele Todfeinde, dass ich f&#252;r[ST:n ]’ne Beziehung gar keine Zeit h&#228;tte![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

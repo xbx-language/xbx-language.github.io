@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev025801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0011</td>
+        <td class="side">Frage Yolanda, was sie gerade macht.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0021</td>
+        <td class="side">Frage Yolanda, ob sie irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0010</td>
+        <td class="side">tev025801_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0011</td>
+        <td class="side">tev025801_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0020</td>
+        <td class="side">tev025801_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0031</td>
+        <td class="side">Frage Yolanda, ob sie irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev025801_SEL1021</td>
+        <td class="side">Frage Yolanda, was es so Neues gibt.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0001</td>
+        <td class="side">Hast du denn keine Augen im Kopf? Ja, wonach sieht’s[ST:n ]denn aus?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0002</td>
+        <td class="side">’ne Runde Poker und ’n paar Kurze! Wir quatschen[ST:n ]grad dr&#252;ber, wie wir an die dicke Kohle kommen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0003</td>
+        <td class="side">Hast du etwa ein Problem damit?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0004</td>
+        <td class="side">Glaub blo&#223; nicht, dass alle BLADEs hier gef&#252;gig und[ST:n ]hirnlos hinter Nagi und Vandham herdackeln.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0005</td>
+        <td class="side">Wer wei&#223; schon, was der n&#228;chste Tag bringt? Wir[ST:n ]k&#246;nnten morgen schon alle tot sein. Da hau ich doch[ST:n ]lieber heute auf den Putz und trete mit ’nem Knall ab![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0010</td>
+        <td class="side">Hab dich hier noch nie gesehen. Bist du Frischfleisch,[ST:n ]oder was?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0011</td>
+        <td class="side">In dem Fall, lass mich dir einen kleinen Rat geben...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0012</td>
+        <td class="side">Wenn du zuf&#228;llig einer bombigen Blondine mit eiskaltem[ST:n ]Todesblick begegnest, geh ihr besser aus dem Weg![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0013</td>
+        <td class="side">Wenn du sie nur schief anschaust, hast du schneller[ST:n ]ein Messer in der Brust, als du „es tut mir so leid“[ST:n ]stammeln kannst![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0018</td>
+        <td class="side">Hey, soll ich dir mal was verraten?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0019</td>
+        <td class="side">Pass blo&#223; auf Mardres die M&#246;rderin auf![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0020</td>
+        <td class="side">Sie hat schon einige BLADEs um die Ecke gebracht,[ST:n ]wenn du verstehst, was ich meine...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0021</td>
+        <td class="side">Meistens benutzt sie eine Klinge. Manche haben sie in[ST:n ]den R&#252;cken gekriegt, andere hat’s im Schlaf erwischt,[ST:n ]aber keiner von ihnen hat’s kommen sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0022</td>
+        <td class="side">Du meinst vielleicht, dass sie nett zu dir ist, weil ihr[ST:n ]beide BLADEs seid, aber wenn dir dein Leben lieb ist,[ST:n ]schl&#228;fst du besser mit offenen Augen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0027</td>
+        <td class="side">Halt besser die Luft an! Wie soll sich denn eine recht-[ST:n ]schaffene Frau in dieser Stadt um ihre Angelegenheiten[ST:n ]k&#252;mmern, wenn du die Klappe nicht halten kannst?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0028</td>
+        <td class="side">Und wer zu viel quatscht, wacht irgendwann ohne[ST:n ]Zunge auf... Oder mit durchtrennter Kehle, wenn du[ST:n ]mir folgen kannst.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0029</td>
+        <td class="side">Moment, soll das hei&#223;en, dass ihr zwei euch kennt?[ST:n ]...Hm! Da hab ich wohl Mist gebaut.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0030</td>
+        <td class="side">&#196;hm... Dann lass mich das mal lieber umformulieren:[ST:n ]„Mardres ist eine unbescholtene B&#252;rgerin edlen Gebl&#252;ts[ST:n ]und ganz sicher keine gewissenlose M&#246;rderin.“ Besser?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0031</td>
+        <td class="side">Besser. Nicht gro&#223;artig, aber besser. Und vergiss nicht,[ST:n ]dich zuerst an mich zu wenden, wenn dir irgendwelche[ST:n ]lukrativen Einnahmequellen unterkommen.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1001</td>
+        <td class="side">Ist dir eigentlich bewusst, dass die Wetten 2:1 gegen[ST:n ]dich stehen?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1002</td>
+        <td class="side">Wir haben gewettet, ob du es schaffst, mit Mardres[ST:n ]zusammenzuarbeiten, ohne irgendwann pl&#246;tzlich[ST:n ]einen... „Unfall“ zu haben.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1003</td>
+        <td class="side">Ich hab &#252;brigens auch gegen dich gesetzt, also tu mir[ST:n ]einen Gefallen und kratz bald ab, okay? W&#228;r sonst[ST:n ]doch schade ums Geld![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1009</td>
+        <td class="side">Das klingt ja verlockend. Darf ich mitwetten?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1010</td>
+        <td class="side">Das w&#228;r doch unfair! Du kannst dir ja aussuchen,[ST:n ]wie und wann du [ST:Gender p1=den armen Kerl p2=das arme M&#228;del ] niedermeuchelst.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1011</td>
+        <td class="side">Stimmt! Aber vielleicht wollte ich gar nicht gegen [ST:Gender p1=IHN p2=SIE ][ST:n ]wetten... Ist ja auch egal! Genie&#223;t euer Gl&#252;cksspiel,[ST:n ]ihr Versager![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

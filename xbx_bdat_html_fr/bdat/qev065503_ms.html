@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev065503_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0001</td>
+        <td class="side">Tu fais partie du BLADE ? Je m&#39;appelle Lucy, je travaille[ST:n ]au d&#233;veloppement des Skells.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0002</td>
+        <td class="side">C&#39;est l&#39;heure de ma pause. Euh... Tu as besoin de[ST:n ]quelque chose ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev065503_JNK0010</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev065503_SEL0011</td>
+        <td class="side">Demander &#224; Lucy de se pr&#233;senter en quelques mots.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev065503_JNK0020</td>
+        <td class="side">Informer</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev065503_SEL0021</td>
+        <td class="side">Dire &#224; Lucy que quelqu&#39;un aimerait la rencontrer.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0003</td>
+        <td class="side">Ma personnalit&#233; ? Eh bien, je m&#39;int&#233;resse surtout &#224;[ST:n ]mes recherches. On peut dire que je m&#232;ne une vie[ST:n ]plut&#244;t tranquille...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0004</td>
+        <td class="side">Quand je ne travaille pas, je reste chez moi et je fais[ST:n ]des mots-crois&#233;s toute la journ&#233;e. J&#39;adore voir[ST:n ]mon savoir remplir ces cases blanches.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0005</td>
+        <td class="side">Les hommes ? Oh, je ne suis pas tr&#232;s dou&#233;e avec eux.[ST:n ]S&#39;il en existais un capable de supporter mes bizarreries,[ST:n ]je pourrais faire mes mots-crois&#233;s avec lui.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0006</td>
+        <td class="side">D&#233;sol&#233;e, je n&#39;ai pas beaucoup d&#39;humour. Je suis s&#251;re[ST:n ]que ta plaisanterie &#233;tait tr&#232;s dr&#244;le mais tu vas devoir[ST:n ]me l&#39;expliquer...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0007</td>
+        <td class="side">Mmh ? Ce n&#39;est pas une blague ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0008</td>
+        <td class="side">Discuter avec moi ne doit pas &#234;tre tr&#232;s passionnant[ST:n ]mais... Bon, s&#39;il s&#39;int&#233;resse &#224; moi, je suppose que[ST:n ]le moins que je puisse faire est d&#39;aller lui parler.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0009</td>
+        <td class="side">Tu es [ST:Gender p1=s&#251;r p2=s&#251;re ] que ce n&#39;est pas une blague ? Je n&#39;arrive[ST:n ]pas &#224; croire que quelqu&#39;un puisse s&#39;int&#233;resser &#224; moi.[ST:n ]&#199;a n&#39;a aucun sens.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0010</td>
+        <td class="side">Je suis terriblement ennuyeuse. Je ne m&#39;int&#233;resse[ST:n ]qu&#39;&#224; mon travail ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev065503_MSG0011</td>
+        <td class="side">Mais il m&#39;&#233;coute parler comme si je disais les choses[ST:n ]les plus int&#233;ressantes du monde. Il est... tr&#232;s gentil.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

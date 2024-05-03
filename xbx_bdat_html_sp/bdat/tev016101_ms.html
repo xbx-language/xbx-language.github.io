@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev016101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev016101_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev016101_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Ian acerca de la situaci&#243;n de NLA.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev016101_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev016101_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Ian si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev016101_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Ian por la planta purificadora[ST:n ]de agua de Biahno.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev016101_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Ian si le preocupa algo.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0001</td>
+        <td class="side">Es rid&#237;culo que una ciudad con tantos habitantes[ST:n ]como NLA solo tenga una planta purificadora de agua.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0003</td>
+        <td class="side">Si la poblaci&#243;n aumentara, la escasez de agua[ST:n ]se convertir&#237;a en un problema inevitable.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0004</td>
+        <td class="side">&#191;C&#243;mo? &#191;Est&#225;s pensando en ese estanque[ST:n ]de l&#237;quido que est&#225; sin usar bajo la ciudad?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0005</td>
+        <td class="side">No, eso es un gel que se utiliz&#243; para amortiguar[ST:n ]el impacto de la nave al chocar contra la superficie.[ST:n ]No es potable.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0006</td>
+        <td class="side">Pero gracias a &#233;l, el Refugio pudo aterrizar[ST:n ]en el planeta tras separarse de la Ballena Blanca.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0009</td>
+        <td class="side">Mi equipo de investigaci&#243;n est&#225; trabajando[ST:n ]para facilitar la construcci&#243;n de una nueva planta[ST:n ]purificadora de agua fuera de la ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0010</td>
+        <td class="side">Sin embargo, nuestros miembros no est&#225;n[ST:n ]de acuerdo en c&#243;mo proceder, lo que est&#225;[ST:n ]ralentizando el proceso.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0011</td>
+        <td class="side">Ajoa sugiere empezar a construir ya, pero Rosie[ST:n ]piensa que ser&#237;a demasiado prematuro.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0012</td>
+        <td class="side">Yo estoy de acuerdo con Ajoa.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0013</td>
+        <td class="side">Pero como l&#237;der del equipo, no puedo defender[ST:n ]solo un punto de vista: tengo que buscar el consenso.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0014</td>
+        <td class="side">Yo estoy ansioso por empezar ya, as&#237; que lidiar con[ST:n ]estos conflictos internos me est&#225; resultando muy dif&#237;cil.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0022</td>
+        <td class="side">Nos ha costado mucho llegar hasta aqu&#237;,[ST:n ]pero gracias al duro trabajo de Ajoa,[ST:n ]por fin hemos terminado el proyecto.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0023</td>
+        <td class="side">Aunque sea el l&#237;der del equipo, he de reconocer[ST:n ]que esta es su creaci&#243;n: nadie ha puesto tanto[ST:n ]empe&#241;o como ella para hacer este sue&#241;o realidad.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0024</td>
+        <td class="side">Es como una fuerza de la naturaleza;[ST:n ]&#161;es imposible estar a su nivel! Mmm...[ST:n ]Quiz&#225; deber&#237;a comprarle un regalo o algo as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0025</td>
+        <td class="side">Como muestra de agradecimiento por todo su esfuerzo,[ST:n ]claro est&#225;. Ese ser&#237;a el &#250;nico motivo, te lo aseguro.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0028</td>
+        <td class="side">Completar la construcci&#243;n de la planta purificadora[ST:n ]de agua de Biahno ha sido todo un alivio.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0029</td>
+        <td class="side">Aunque estoy un poco preocupado por Rosie...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0030</td>
+        <td class="side">Luch&#243; con todas sus fuerzas para retrasar[ST:n ]la construcci&#243;n de la planta.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0031</td>
+        <td class="side">Ahora que todos est&#225;n celebrando el fin del proyecto,[ST:n ]me imagino que tendr&#225; sentimientos encontrados.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev016101_MSG0032</td>
+        <td class="side">Espero que al menos en el futuro se d&#233; cuenta[ST:n ]de c&#243;mo nuestros esfuerzos han ayudado a solucionar[ST:n ]el problema de la escasez de agua en NLA.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

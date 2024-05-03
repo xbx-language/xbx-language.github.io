@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev091802_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0001</td>
+        <td class="side">Assassina! Ascolta: ci sono dei[ST:n ]Mediator che stanno cercando...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0002</td>
+        <td class="side">S&#236;, lo sappiamo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0003</td>
+        <td class="side">Giochiamo a fare gli investigatori ora, grazie[ST:n ]all&#39;intervento altruista di un certo membro BLADE.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0004</td>
+        <td class="side">Oooh! Allora immagino che siate venuti[ST:n ]qui per avere delle informazioni, giusto?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0005</td>
+        <td class="side">Esatto, quindi dimmi tutto quello che sai![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0006</td>
+        <td class="side">Non ho nulla da dire. Mi spiace.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0007</td>
+        <td class="side">Tutto quello che so &#232; che[ST:n ]tu sei la principale sospettata.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0008</td>
+        <td class="side">Wow, non si fidano per niente di me![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0009</td>
+        <td class="side">Mai io credo che tu non abbia[ST:n ]fatto nulla di quello che dicono.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0010</td>
+        <td class="side">Lasci che dia uno sguardo in giro[ST:n ]per conto mio, OK?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0011</td>
+        <td class="side">Grazie. Chiederemo in giro per la citt&#224;[ST:n ]mentre tu sei impegnata.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0012</td>
+        <td class="side">Perfetto, io comincio subito[ST:n ]a seguire tutte le piste.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0013</td>
+        <td class="side">Com&#39;&#232; andata la tua ricerca?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0014</td>
+        <td class="side">Devo farti una domanda.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0015</td>
+        <td class="side">Le vittime di sesso maschile sono state tutte[ST:n ]colpite alla coscia destra e in mezzo agli occhi?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0016</td>
+        <td class="side">Cos&#236; sembra.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0018</td>
+        <td class="side">E le donne sono state tutte[ST:n ]colpite al piede e alla tempia.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0019</td>
+        <td class="side">Mmmh...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0020</td>
+        <td class="side">Strano, vero?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0010</td>
+        <td class="side">Afferma</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0011</td>
+        <td class="side">Sostieni che i corpi siano un messaggio.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0020</td>
+        <td class="side">Supponi</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0021</td>
+        <td class="side">Ipotizza che ci siano i Ganglion dietro tutto questo.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0021</td>
+        <td class="side">Posso credere che l&#39;assassino stia cercando[ST:n ]di dire qualcosa in questo modo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0022</td>
+        <td class="side">Solo non ho idea di cosa stia cercando di dire...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0023</td>
+        <td class="side">&#200; roba da poco, per loro.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0024</td>
+        <td class="side">Loro sono pi&#249; interessati[ST:n ]nello spazzarci via dalla faccia di Mira, sai?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0025</td>
+        <td class="side">Il che significa che probabilmente si[ST:n ]tratta di un umano. Ma qual &#232; il movente?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0026</td>
+        <td class="side">Io lo so.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0027</td>
+        <td class="side">Conosco proprio il nome del colpevole.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0028</td>
+        <td class="side">Davvero?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0029</td>
+        <td class="side">Si tratta di Dale Gibbon.[ST:n ]L&#39;infame che ha ucciso i miei genitori.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0030</td>
+        <td class="side">Cosa?! Come fai a saperlo?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0031</td>
+        <td class="side">Spar&#242; a mio padre proprio come ha fatto[ST:n ]con Otis e gli altri uomini.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0032</td>
+        <td class="side">E a mia madre allo stesso modo[ST:n ]di Yolanda e le altre donne.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0033</td>
+        <td class="side">Persino il numero di vittime corrisponde.[ST:n ]&#200; proprio la stessa cosa accaduta sulla Terra.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0034</td>
+        <td class="side">Scusa un momento, stai dicendo che un[ST:n ]assassino seriale &#232; riuscito a salire sulla Balena?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0035</td>
+        <td class="side">Fu arrestato e condannato a morte,[ST:n ]ma dev&#39;essere per forza lui.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0036</td>
+        <td class="side">Eh.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0037</td>
+        <td class="side">Ehm, Assassina?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0038</td>
+        <td class="side">Deve avere qualcosa a che fare con me.[ST:n ]Mi sta lanciando una sfida.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0039</td>
+        <td class="side">&#200; il mio sogno. Non passa giorno che non...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0030</td>
+        <td class="side">Suggerisci</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0031</td>
+        <td class="side">Proponi di mettere una taglia sulla testa di Gibbon.</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0040</td>
+        <td class="side">Preoccupati</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0041</td>
+        <td class="side">Chiedi all&#39;Assassina se stia cercando vendetta.</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0050</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0051</td>
+        <td class="side">Di&#39; all&#39;Assassina che credevi che il suo sogno fosse[ST:n ]quello di ristabilire il buon nome della sua famiglia.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0040</td>
+        <td class="side">No. Nessuno deve intromettersi.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0041</td>
+        <td class="side">Quel maledetto &#232; mio![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0042</td>
+        <td class="side">Lo uccider&#242; gratis.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0043</td>
+        <td class="side">Certo che s&#236;![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0044</td>
+        <td class="side">Ho giurato di uccidere quel maledetto il giorno[ST:n ]stesso in cui spar&#242; ai miei genitori.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0045</td>
+        <td class="side">Chi l&#39;ha detto che una ragazza[ST:n ]non possa avere pi&#249; di un sogno?[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0046</td>
+        <td class="side">Ristabilire il buon nome della mia famiglia[ST:n ]&#232; uno, uccidere questo farabutto &#232; un altro.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0047</td>
+        <td class="side">Non puoi mica andare in giro a uccidere[ST:n ]la gente cos&#236;, a sangue freddo! &#200; illegale![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0048</td>
+        <td class="side">Ah s&#236;? E dov&#39;era questa legge quando lui[ST:n ]ha ucciso i miei genitori, eh?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0049</td>
+        <td class="side">Non &#232; questo il... Aiutami a fermarla![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0060</td>
+        <td class="side">Persuadi</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0061</td>
+        <td class="side">Di&#39; all&#39;Assassina di pensare a Irina.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0070</td>
+        <td class="side">Avverti</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0071</td>
+        <td class="side">Di&#39; all&#39;Assassina che uccidere Dale Gibbon potrebbe[ST:n ]avere delle ripercussioni sull&#39;altro suo sogno.</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev091802_JNK0080</td>
+        <td class="side">Proponi</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev091802_SEL0081</td>
+        <td class="side">Di&#39; all&#39;Assassina che andrai con lei.</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0050</td>
+        <td class="side">Lei non ha nulla a che vedere con questo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0051</td>
+        <td class="side">Se uccido un tale e scappo[ST:n ]sono solo affari miei.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0052</td>
+        <td class="side">Sta facendo da garante per te, Assassina![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0053</td>
+        <td class="side">Hai intenzione di abbandonarla?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0054</td>
+        <td class="side">Certo che no.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0055</td>
+        <td class="side">Non la terranno in prigione per davvero.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0056</td>
+        <td class="side">Quando uccider&#242; il colpevole, la libereranno.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0057</td>
+        <td class="side">Assassina...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0058</td>
+        <td class="side">Urgh...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0059</td>
+        <td class="side">Esatto. Vuoi davvero buttare al vento tutto[ST:n ]il lavoro fatto? Tutti quei soldi?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0060</td>
+        <td class="side">I tuoi sarebbero fieri di sapere che sei riuscita[ST:n ]a riscattare il nome della famiglia.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0061</td>
+        <td class="side">Pensi che farebbe loro piacere scoprire[ST:n ]che anche loro figlia &#232; un&#39;assassina?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0062</td>
+        <td class="side">Non lo so...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0063</td>
+        <td class="side">Devo vederlo. Poi decider&#242; cosa fare.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0064</td>
+        <td class="side">Grazie.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0065</td>
+        <td class="side">Sapevo che mi avresti supportata.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0066</td>
+        <td class="side">Ho preso questa decisione tanto tempo fa.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0067</td>
+        <td class="side">Quindi smettila di cercare di[ST:n ]convincermi e dimmi dov&#39;&#232;.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0068</td>
+        <td class="side">[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0069</td>
+        <td class="side">Ascolta, ho un paio di piste, ma non so[ST:n ]se una di queste porti a Gibbon.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0070</td>
+        <td class="side">Se dici ancora che una delle persone sospettate[ST:n ]sono io, giuro che ti ammazzo![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0071</td>
+        <td class="side">Eh! Vediamo...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0074</td>
+        <td class="side">Quindi, uno di questi due &#232;[ST:n ]in realt&#224; Dale Gibbon?[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0075</td>
+        <td class="side">Esatto.[ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0076</td>
+        <td class="side">Grazie, Eleonora.[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0077</td>
+        <td class="side">Andiamo. Quel mostro mi ha portato via[ST:n ]il futuro. Adesso io porter&#242; via il suo.[ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0079</td>
+        <td class="side">Allora, uno &#232; un Interceptor di nome Martin,[ST:n ]che al momento &#232; da qualche parte a Sylvalum.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0084</td>
+        <td class="side">L&#39;altro &#232; un Prospector di nome Dart,[ST:n ]che &#232; stato visto per l&#39;ultima volta a Oblivia.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0085</td>
+        <td class="side">Sei proprio sicura che il responsabile sia Dale Gibbon?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0086</td>
+        <td class="side">Voglio dire, non &#232; possibile che sia stato qualcun&#39;altro?[ST:n ]Magari un detective che stava lavorando al caso?</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0087</td>
+        <td class="side">Comunque sia, &#232; chiaramente qualcuno che mi conosce.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0088</td>
+        <td class="side">E che si tratti di Dale o di qualcun altro,[ST:n ]non sar&#242; soddisfatta finch&#233; non lo avr&#242; scoperto.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0089</td>
+        <td class="side">Quindi vado.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0090</td>
+        <td class="side">Assassina! Sei tornata...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0091</td>
+        <td class="side">Ho realizzato uno dei miei sogni.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0092</td>
+        <td class="side">Capisco...[ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev091802_MSG0093</td>
+        <td class="side">Temo di non poter essere molto d&#39;aiuto, ma[ST:n ]far&#242; quel che posso per rendermi utile![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

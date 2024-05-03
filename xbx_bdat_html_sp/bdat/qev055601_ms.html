@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev055601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0001</td>
+        <td class="side">Mmm. Creo que podr&#237;amos describir la situaci&#243;n como[ST:n ]un aprieto. &#191;Qu&#233; haremos al respecto?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0002</td>
+        <td class="side">Me es completamente imposible entender sus motivos.[ST:n ]&#191;Por qu&#233; viajar intencionadamente[ST:n ]a un lugar tan peligroso?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Nan&#39;celeg qu&#233; ha pasado.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0020</td>
+        <td class="side">Reconfortar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0021</td>
+        <td class="side">Dile a Nan&#39;celeg que te cuente sus preocupaciones.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0003</td>
+        <td class="side">Mi divisi&#243;n, Nen&#39;celeg, ha abandonado la ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0004</td>
+        <td class="side">Aparentemente, con destino a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0005</td>
+        <td class="side">Ignoro por completo por qu&#233; se dirige a un lugar[ST:n ]plagado de criaturas tan atroces.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0006</td>
+        <td class="side">Aun con todo, me siento incapaz de abandonarla.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0007</td>
+        <td class="side">Entiendo. As&#237; que este inescrutable estado emocional[ST:n ]es lo que los humanos llam&#225;is \&quot;preocupaciones\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0008</td>
+        <td class="side">Podr&#237;a decirse que tengo buenas razones[ST:n ]para preocuparme. Mi divisi&#243;n, Nen&#39;celeg,[ST:n ]ha abandonado la ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0009</td>
+        <td class="side">Aparentemente, con destino a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0010</td>
+        <td class="side">Ignoro por completo por qu&#233; se dirige a un lugar[ST:n ]plagado de criaturas tan atroces.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0011</td>
+        <td class="side">Sus motivos me son tan oscuros como la emoci&#243;n[ST:n ]que acabo de descubrir, esas tales \&quot;preocupaciones\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0012</td>
+        <td class="side">Aunque siento que es mi obligaci&#243;n ir en su b&#250;squeda,[ST:n ]creo que no soy el mejor candidato para hacerlo.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0013</td>
+        <td class="side">En comparaci&#243;n con la despiadada fauna de Mira,[ST:n ]los orphean no somos buenos en combate.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0014</td>
+        <td class="side">&#191;Ser&#237;a posible que fuese usted en mi lugar?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0015</td>
+        <td class="side">Los humanos son una especie [ST:n ]extremadamente en&#233;rgica y combativa.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0016</td>
+        <td class="side">Y lo digo con un profundo sentimiento[ST:n ]de lo que ustedes, los humanos, llaman gratitud.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0017</td>
+        <td class="side">Ah, y tenga cuidado, por favor.[ST:n ]No vaya a lastimarse.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0018</td>
+        <td class="side">A no ser que tenga que arriesgarse para proteger[ST:n ]a mi divisi&#243;n; en esa situaci&#243;n es aceptable[ST:n ]que salga [ST:Gender p1=herido p2=herida ].[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0019</td>
+        <td class="side">Creo que ustedes llaman a eso[ST:n ]\&quot;un mal necesario\&quot;. Buena suerte.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0030</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0031</td>
+        <td class="side">Dile a Nan&#39;celeg que lo deje en tus manos.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0040</td>
+        <td class="side">Rega&#241;ar</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0041</td>
+        <td class="side">Dile a Nan&#39;celeg que esa es una forma demasiado[ST:n ]fr&#237;a de pedir un favor.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0020</td>
+        <td class="side">Es usted muy [ST:Gender p1=generoso p2=generosa ]. Creo que es la palabra[ST:n ]que utilizan cuando alguien se ofrece con la finalidad[ST:n ]de salvar a otro ser, &#191;verdad? &#191;[ST:Gender p1=Generoso p2=Generosa ]?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0021</td>
+        <td class="side">Le deseo suerte. Traiga de vuelta a mi divisi&#243;n[ST:n ]lo antes posible, por favor.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0022</td>
+        <td class="side">Entiendo, he o&#237;do hablar de ello. Los humanos [ST:n ]sois sensibles a las inflexiones de la voz, &#191;no es as&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0023</td>
+        <td class="side">En el futuro, tratar&#233; de expresarme de la manera[ST:n ]m&#225;s efusiva posible.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0024</td>
+        <td class="side">Dicho procedimiento deber&#237;a provocar[ST:n ]una gran motivaci&#243;n en mi interlocutor.[ST:n ]Veamos... Ejem.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0025</td>
+        <td class="side">&#161;Todo depende de ti, [ST:Gender p1=t&#237;o p2=t&#237;a ]! &#161;Eres [ST:Gender p1=el mejor p2=la mejor ]![ST:n ]&#161;Si consigues traer a Nen&#39;celeg de vuelta te convertir&#225;s[ST:n ]en leyenda! &#161;Claro que s&#237;, [ST:Gender p1=t&#237;o p2=t&#237;a ]![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0026</td>
+        <td class="side">Calculo que el nivel de motivaci&#243;n actual ser&#225; muy alto.[ST:n ]Ya puede comenzar usted con su empresa.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0027</td>
+        <td class="side">Por favor, traiga de vuelta a mi divisi&#243;n[ST:n ]lo antes posible.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0028</td>
+        <td class="side">&#161;Nen&#39;celeg est&#225; a salvo! Qu&#233; alivio.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0050</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Nan&#39;celeg si entiende el concepto[ST:n ]de \&quot;alivio\&quot; mejor que el de \&quot;preocupaci&#243;n\&quot;.</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0060</td>
+        <td class="side">Sorprenderse</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0061</td>
+        <td class="side">As&#243;mbrate de que se acuerde.</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0029</td>
+        <td class="side">Significa ausencia de preocupaci&#243;n;[ST:n ]que es, a su vez, otro estado emocional.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0030</td>
+        <td class="side">Todas esas fluctuaciones de la psique me parecen[ST:n ]de lo m&#225;s il&#243;gicas.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0031</td>
+        <td class="side">Asegurados los suministros de agua senirapa,[ST:n ]la muerte de Nen&#39;celeg apenas ser&#237;a una molestia.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0032</td>
+        <td class="side">Ya que los orphean seguir&#237;amos multiplic&#225;ndonos.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0033</td>
+        <td class="side">&#191;C&#243;mo podr&#237;a olvidarme?[ST:n ]Nen&#39;celeg es de los nuestros.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0034</td>
+        <td class="side">Durante su ausencia,[ST:n ]sufr&#237; una extra&#241;a fluctuaci&#243;n en mi estado emocional.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0035</td>
+        <td class="side">Algo extra&#241;o, si se piensa con detenimiento.[ST:n ]Asegurados los suministros de agua senirapa,[ST:n ]la muerte de Nen&#39;celeg ser&#237;a apenas una molestia.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0036</td>
+        <td class="side">Quiz&#225;s he empleado demasiado tiempo pensando[ST:n ]en el futuro de Nen&#39;celeg.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0037</td>
+        <td class="side">Sin m&#237;, &#191;te sent&#237;as solo?[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0038</td>
+        <td class="side">&#191;Solo? &#191;Qu&#233; es eso?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0039</td>
+        <td class="side">&#191;Por qu&#233; tu ausencia iba a hacerme sentir \&quot;solo\&quot;?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0070</td>
+        <td class="side">Comentar</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0071</td>
+        <td class="side">Dile a Nan&#39;celeg que a eso se le llama amor.</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev055601_JNK0080</td>
+        <td class="side">Suponer</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev055601_SEL0081</td>
+        <td class="side">Dile que se debe a que Nen&#39;celeg[ST:n ]es una extra&#241;a mutaci&#243;n.</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0040</td>
+        <td class="side">&#191;Amor? El fen&#243;meno de la atracci&#243;n solo es aplicable[ST:n ]a especies con sexos diferenciados.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0041</td>
+        <td class="side">Los orphean no hacemos tal distinci&#243;n,[ST:n ]as&#237; que es imposible que pueda sentir...[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0042</td>
+        <td class="side">Mmm. Aunque es verdad que creo que Nen&#39;celeg[ST:n ]tiene un aspecto agradable. Es casi \&quot;bonita\&quot;,[ST:n ]como dir&#237;an ustedes, los humanos.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0043</td>
+        <td class="side">Entonces, &#191;se trata de atracci&#243;n?[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0044</td>
+        <td class="side">Nen&#39;celeg, &#191;me siento atra&#237;do por su persona?[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0045</td>
+        <td class="side">&#161;Eso solo lo puede saber usted![ST:n ]Las especies que experimentan el amor[ST:n ]llaman cortitos a los que se comportan as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0046</td>
+        <td class="side">Mi longitud es comparable a la mayor&#237;a de...[ST:n ]Ah, un momento, quiere decir que tiene problemas[ST:n ]de comprensi&#243;n, &#191;no? Pero yo soy muy inteligente...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0049</td>
+        <td class="side">S&#237;, eso tiene sentido, pero &#191;qu&#233; es esta amalgama[ST:n ]de sentimientos que estoy experimentando?[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0050</td>
+        <td class="side">Cada vez que miro a Nen&#39;celeg, me descubro[ST:n ]pensando que tiene un aspecto agradable.[ST:n ]Es casi \&quot;bonita\&quot;, como dir&#237;an ustedes los humanos.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0051</td>
+        <td class="side">Parece que le gusto.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0052</td>
+        <td class="side">&#191;\&quot;Gusto\&quot;?... Gustar... &#191;Me \&quot;gusta\&quot;, Nen&#39;celeg?[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0053</td>
+        <td class="side">&#191;No sabe usted la respuesta? Hay especies[ST:n ]que llaman \&quot;ingenuos\&quot; a los que se comportan as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0054</td>
+        <td class="side">&#191;Ingenuos? Que palabra m&#225;s extra&#241;a...[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0055</td>
+        <td class="side">Est&#225; claro. A pesar de la gran inteligencia[ST:n ]que poseen los orphean, hay misterios[ST:n ]que permanecen insondables.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0056</td>
+        <td class="side">No puedo entender mis sentimientos por Nen&#39;celeg.[ST:n ]Pero &#191;por qu&#233;?[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0057</td>
+        <td class="side">Porque es usted un ingenuo.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev055601_MSG0058</td>
+        <td class="side">&#161;No entiendo nada![ST:n ]&#161;Gu&#237;ame, oh, Ovah![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0001</td>
+        <td class="side">Ehi, [ST:playername ]! Dove stai andando?[ST:n ]Posso venire con te?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0002</td>
+        <td class="side">Sto cercando di lavorare a questo progetto[ST:n ]sul di volo per Skell, ma ho un problema[ST:n ]dopo l&#39;altro... e ora mi fa male la testa...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0003</td>
+        <td class="side">Penso che un po&#39; di lavoro per i BLADE all&#39;aria[ST:n ]aperta mi chiarirebbe le idee. Che ne dici?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0010</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0011</td>
+        <td class="side">Aggiungi Lin alla tua squadra.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0020</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0021</td>
+        <td class="side">Rifiuta la richiesta di Lin, per ora.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0004</td>
+        <td class="side">Grazie, [ST:playername ]! Un po&#39; d&#39;aria[ST:n ]fresca mi far&#224; davvero bene.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0005</td>
+        <td class="side">Ah, OK. &#200; una missione tosta, eh?[ST:n ]Grazie per il tuo lavoro![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0010</td>
+        <td class="side">Com&#39;&#232; messo il modulo di volo del tuo Skell?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0011</td>
+        <td class="side">Vorrei proprio vederlo in azione sul campo...[ST:n ]Mi porteresti con te?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0150</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0151</td>
+        <td class="side">Aggiungi Lin alla tua squadra.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0160</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0161</td>
+        <td class="side">Rifiuta la richiesta di Lin, per ora.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0012</td>
+        <td class="side">Fantastico! Non vedo l&#39;ora di andare![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0013</td>
+        <td class="side">Oooh, OK. Allora vado a preparare da mangiare.[ST:n ]Torna qui se ti viene fame![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0018</td>
+        <td class="side">Non ci posso credere! Finalmente ci[ST:n ]riprenderemo il Nucleo del Centro vitale![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0019</td>
+        <td class="side">Far&#242; tutto il possibile! Mi porti con te?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0150</td>
+        <td class="side">tev001201_JNK0150</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0151</td>
+        <td class="side">tev001201_SEL0151</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0160</td>
+        <td class="side">tev001201_JNK0160</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0161</td>
+        <td class="side">tev001201_SEL0161</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0020</td>
+        <td class="side">Grazie mille, [ST:playername ]![ST:n ]Non te ne pentirai![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0021</td>
+        <td class="side">Oooh, OK. In bocca al lupo comunque![ST:n ]Torna [ST:Gender p1=sano e salvo p2=sana e salva ], capito?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0026</td>
+        <td class="side">Ehi, stai uscendo di nuovo? Pensavo che forse[ST:n ]un po&#39; di avventura mi farebbe bene...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0027</td>
+        <td class="side">Dai, portami con te! No? Per favore! Non importa[ST:n ]dove andiamo, basta che andiamo![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0170</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0171</td>
+        <td class="side">Aggiungi Lin alla tua squadra.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0180</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0181</td>
+        <td class="side">Rifiuta la richiesta di Lin, per ora.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0028</td>
+        <td class="side">Fantastico! Inizia l&#39;avventura![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0029</td>
+        <td class="side">Va beeene. Allora rimarr&#242; qui ad annoiarmi.[ST:n ]Per&#242; almeno quando torni portami qualcosa[ST:n ]di buono per pasticciare in cucina, OK?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

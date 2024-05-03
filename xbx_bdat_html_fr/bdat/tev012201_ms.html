@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev012201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev012201_JNK0010</td>
+        <td class="side">Interroger[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0011</td>
+        <td class="side">Interroger Powell au sujet des habitants de N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev012201_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0021</td>
+        <td class="side">Demander &#224; Powell s&#39;il a un probl&#232;me.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0031</td>
+        <td class="side">Demander &#224; Powell son avis sur les Ma-nons.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0051</td>
+        <td class="side">Interroger Powell au sujet des mim&#233;osomes.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0061</td>
+        <td class="side">Demander &#224; Powell s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0001</td>
+        <td class="side">Une bonne partie de l&#39;&#233;quipage de la Grande Blanche[ST:n ]est morte lors de l&#39;attaque qui nous a fait nous &#233;craser[ST:n ]sur cette plan&#232;te.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0002</td>
+        <td class="side">On n&#39;est pas assez nombreux pour peupler cette ville[ST:n ]gigantesque. Et m&#234;me si je suis ravi que l’on trouve[ST:n ]d’autres survivants, ils n’y changeront pas grand-chose.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0003</td>
+        <td class="side">Et parce qu&#39;on n&#39;est pas assez nombreux, on a peu de[ST:n ]clients et du coup, on ne vend rien chez Army Pizza ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0004</td>
+        <td class="side">Bon d&#39;accord, &#231;a nous permet &#224; ma femme et &#224; moi[ST:n ]de tester de nouvelles recettes en attendant les clients,[ST:n ]mais on ne va pas pouvoir tenir.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0005</td>
+        <td class="side">Vous et vos potes du BLADE ne pouvez pas faire[ST:n ]quelque chose ? Chercher d&#39;autres survivants peut-&#234;tre,[ST:n ]ou quelque chose dans le genre ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0008</td>
+        <td class="side">Croyez-moi, c&#39;est de moins en moins &#233;vident de tenir[ST:n ]une boutique. Et bien que plein de choses n&#39;aillent pas,[ST:n ]le pire pour l&#39;instant, c&#39;est la circulation.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0009</td>
+        <td class="side">Chez Army Pizza, on se targue de livrer en moins[ST:n ]de 30 minutes.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0010</td>
+        <td class="side">Seulement, la plupart des routes qui m&#232;nent[ST:n ]aux quartiers r&#233;sidentiels ne sont pas encore finies,[ST:n ]du coup, les livraisons prennent plus de temps.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0011</td>
+        <td class="side">Ma femme, ma pauvre Camilla, bosse d&#233;j&#224; comme[ST:n ]une folle. Et si les affaires s&#39;am&#233;liorent, &#231;a deviendra[ST:n ]encore plus difficile pour elle.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0012</td>
+        <td class="side">Le BLADE progresse dans l&#39;exploration du monde[ST:n ]ext&#233;rieur, mais on ne pourrait pas plut&#244;t nous[ST:n ]cr&#233;er des routes en ville, dans New L.A. ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0020</td>
+        <td class="side">D&#233;sol&#233;, [ST:Gender p1=mon ami p2=mon amie ]. Si vous &#234;tes l&#224; pour[ST:n ]la pizza grenade, va falloir attendre un peu.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0021</td>
+        <td class="side">Oh, vous vouliez m&#39;interroger au sujet des Ma-nons ?[ST:n ]Eh bien, je ne sais pas grand-chose, mais ce que[ST:n ]je sais... C&#39;est qu&#39;ils sont dingues de pizza !! Tous !![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0022</td>
+        <td class="side">Ils font la queue devant mon &#233;tablissement matin, midi[ST:n ]et soir, et ils r&#233;clament de la pizza comme un mourant[ST:n ]r&#233;clame son verre d&#39;eau.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0023</td>
+        <td class="side">Inutile de pr&#233;ciser qu&#39;Army Pizza marche tr&#232;s bien.[ST:n ]Si bien que je ne sais plus o&#249; donner de la t&#234;te ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0024</td>
+        <td class="side">Ma femme et moi n&#39;avons pas arr&#234;t&#233;[ST:n ]depuis que les Ma-nons ont d&#233;barqu&#233;.[ST:n ]On n&#39;a pas une minute &#224; nous ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0025</td>
+        <td class="side">Donc si vous avez un peu de temps, vous voulez bien[ST:n ]nous donner un coup de main, &#224; Camilla et moi ?[ST:n ]Histoire de vous faire un peu plus d&#39;argent de poche ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0028</td>
+        <td class="side">Gerome, un de nos habitu&#233;s, s&#39;est disput&#233;[ST:n ]avec quelques-uns de nos clients ma-nons.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0029</td>
+        <td class="side">Il s&#39;assoit le plus loin possible des Ma-nons[ST:n ]et se contente... de les fusiller du regard.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0030</td>
+        <td class="side">Je sais qu&#39;il en a bav&#233; quand les x&#233;nos ont attaqu&#233;[ST:n ]la Terre, mais bon sang ! On en a tous bav&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0031</td>
+        <td class="side">Et j&#39;ai beau lui r&#233;p&#233;ter d&#39;oublier cette histoire[ST:n ]et d&#39;essayer de s&#39;entendre avec les x&#233;noformes,[ST:n ]rien n&#39;y fait.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0032</td>
+        <td class="side">Cette plan&#232;te est le dernier refuge qu&#39;il reste[ST:n ]&#224; l&#39;humanit&#233;. J&#39;aimerais qu&#39;il comprenne la situation[ST:n ]et qu&#39;il essaie d&#39;aller de l&#39;avant.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0040</td>
+        <td class="side">On ne r&#233;anime pas les mim&#233;osomes qui meurent[ST:n ]des suites d&#39;un suicide. &#171; Afin de respecter leur[ST:n ]volont&#233; &#187;, selon la version officielle.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0041</td>
+        <td class="side">Mais ce n&#39;est qu&#39;une excuse. En v&#233;rit&#233;, ils ne veulent[ST:n ]pas gaspiller de pi&#232;ces d&#233;tach&#233;es pour quelqu&#39;un[ST:n ]qui pourrait... faire &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0042</td>
+        <td class="side">Ce n&#39;est pas juste ! Tant qu&#39;on est en vie,[ST:n ]on devrait avoir une seconde chance ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0043</td>
+        <td class="side">On ne pourrait pas au moins leur laisser une chance ?[ST:n ]Une r&#233;animation de mim&#233;osome, au moins ?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0047</td>
+        <td class="side">Ces derniers temps, j&#39;ai... Enfin...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0048</td>
+        <td class="side">Ne faites pas attention. Ce n&#39;est rien.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0049</td>
+        <td class="side">Nous devrions parler de Gerome. Il va bien ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0050</td>
+        <td class="side">Il n&#39;est plus trop venu au restaurant depuis[ST:n ]qu&#39;il est bond&#233; de Ma-nons.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0051</td>
+        <td class="side">J&#39;aimerais bien qu&#39;il passe, &#224; l&#39;occasion.[ST:n ]C&#39;&#233;tait l&#39;un de mes rares habitu&#233;s humains.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

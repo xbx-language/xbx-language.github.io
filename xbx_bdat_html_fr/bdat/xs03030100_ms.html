@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>xs03030100_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0001</td>
+        <td class="side">Bon sang... Je savais bien que ce silence[ST:n ]radio n&#39;&#233;tait pas normal...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0002</td>
+        <td class="side">Il y a eu du grabuge. Mais ces d&#233;g&#226;ts ne ressemblent[ST:n ]pas aux morsures et aux coups de griffe habituels.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0003</td>
+        <td class="side">Aucun signe de l&#39;&#233;quipe.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0004</td>
+        <td class="side">S&#39;ils avaient &#233;t&#233; d&#233;vor&#233;s, on le saurait d&#233;j&#224;... [ST:n ]Ont-ils fui, ou se sont-ils fait enlever ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>xs03030100_JNK0010</td>
+        <td class="side">Enqu&#234;ter</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>xs03030100_SEL0011</td>
+        <td class="side">Sugg&#233;rer de fouiller la zone.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>xs03030100_JNK0020</td>
+        <td class="side">Battre en retraite</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>xs03030100_SEL0021</td>
+        <td class="side">Sugg&#233;rer de rentrer &#224; New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0005</td>
+        <td class="side">C&#39;est vrai. Ils n&#39;ont pas pu aller bien loin[ST:n ]de toute fa&#231;on. Continuons &#224; chercher.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0006</td>
+        <td class="side">La mission n&#39;est pas termin&#233;e, et nous avons[ST:n ]maintenant plus de zones d&#39;ombre &#224; &#233;claircir.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0007</td>
+        <td class="side">On rentrera une fois que l&#39;on aura des r&#233;ponses.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0007_2</td>
+        <td class="side">En attendant, on continue les recherches.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0008</td>
+        <td class="side">Attendez, Elma... Regardez un peu &#231;a ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0009</td>
+        <td class="side">Je re&#231;ois un signal IFF de signature terrestre.[ST:n ]&#199;a vient de l&#224;-bas ! Des Pathfinders ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0010</td>
+        <td class="side">Cette chose, l&#224;-bas...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0011</td>
+        <td class="side">&#199;a n&#39;a pas l&#39;air tr&#232;s naturel, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0012</td>
+        <td class="side">Non. &#199;a ne sent pas tr&#232;s bon.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0013</td>
+        <td class="side">Et regardez &#231;a : je re&#231;ois les signatures[ST:n ]d&#39;autres formes de vie, aussi.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0014</td>
+        <td class="side">Des signaux multiples, qui se d&#233;placent dans[ST:n ]la structure. Elma, vous pensez que... ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>xs03030100_JNK0030</td>
+        <td class="side">&#201;mettre une hypoth&#232;se</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>xs03030100_SEL0031</td>
+        <td class="side">Sugg&#233;rer qu&#39;il s&#39;agit de formes de vie intelligentes.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>xs03030100_JNK0040</td>
+        <td class="side">&#201;mettre un raisonnement[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>xs03030100_SEL0041</td>
+        <td class="side">Sugg&#233;rer que des indig&#232;nes ont pu s&#39;introduire dans[ST:n ]la structure.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0015</td>
+        <td class="side">Je pense que tu as raison.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0016</td>
+        <td class="side">Non.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0017</td>
+        <td class="side">Regardez leur fa&#231;on de se d&#233;placer... Ils sont coordonn&#233;s.[ST:n ]Ce ne sont pas des animaux sauvages.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0018</td>
+        <td class="side">La question est de savoir si ce sont[ST:n ]des cr&#233;atures miranes.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0019</td>
+        <td class="side">Ou est-ce que ce sont des visiteurs, comme[ST:n ]nous ? Et si c’est le cas, d&#39;o&#249; viennent-ils ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0020</td>
+        <td class="side">Vous pensez que c&#39;est l&#39;une des forces[ST:n ]responsables de la destruction de la Terre ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0021</td>
+        <td class="side">Pas de conclusion h&#226;tive... L&#39;univers est vaste.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0022</td>
+        <td class="side">Mais il ne faut &#233;carter aucune hypoth&#232;se[ST:n ]non plus.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0023</td>
+        <td class="side">Est-ce qu&#39;on devrait pr&#233;venir le Q.G. ?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0024</td>
+        <td class="side">Oui, mais pas d&#39;ici. Si nous recevons leur signal,[ST:n ]ils sont assez proches pour intercepter le n&#244;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0025</td>
+        <td class="side">Vous, l&#224;-bas ! Jetez vos armes ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0026</td>
+        <td class="side">[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0027</td>
+        <td class="side">Du calme. Il ne faut pas les provoquer.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0028</td>
+        <td class="side">Des terrestres ? Rendez-vous ! Imm&#233;diatement ![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0029</td>
+        <td class="side">Ils connaissent la Terre ? Tu avais peut-&#234;tre[ST:n ]raison, Lin...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>xs03030100_JNK0050</td>
+        <td class="side">Se rendre</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>xs03030100_SEL0051</td>
+        <td class="side">Abaisser vos armes et n&#233;gocier.</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>xs03030100_JNK0060</td>
+        <td class="side">D&#233;gainer</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>xs03030100_SEL0061</td>
+        <td class="side">Vous pr&#233;parer &#224; une attaque.</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0030</td>
+        <td class="side">Qu&#39;est-ce que vous faites ?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0031</td>
+        <td class="side">Tout va bien, Lin.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0031_2</td>
+        <td class="side">Tu peux l&#226;cher ton arme. Je ne sais pas comment,[ST:n ]mais... ils peuvent communiquer avec nous.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0032</td>
+        <td class="side">Et donc... ?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0033</td>
+        <td class="side">Et donc nous devons essayer de r&#233;soudre[ST:n ]le probl&#232;me en usant de diplomatie.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0034</td>
+        <td class="side">Bien re&#231;u.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0035</td>
+        <td class="side">Baisse ton arme ![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0036</td>
+        <td class="side">Tu as d&#233;j&#224; oubli&#233; ma premi&#232;re le&#231;on ?[ST:n ]Nous ne nous battons qu&#39;en dernier recours.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0037</td>
+        <td class="side">Nos amis ici pr&#233;sents sont apparemment[ST:n ]capables de parler notre langue.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0038</td>
+        <td class="side">Ce qui veut dire que l&#39;on doit donner[ST:n ]une chance &#224; la diplomatie.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0039</td>
+        <td class="side">Vous avez raison.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0040</td>
+        <td class="side">Nous venons en paix.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0040_2</td>
+        <td class="side">Et nous voulons n&#233;gocier. Si vous avez des prisonniers[ST:n ]terrestres, donnez-nous vos conditions pour les lib&#233;rer.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0041</td>
+        <td class="side">Si vous n&#39;en avez pas... nous vous laisserons[ST:n ]en paix.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0042</td>
+        <td class="side">Pas de n&#233;gociations. Pas de conditions.[ST:n ]Nous avons des ordres ![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>xs03030100_MSG0043</td>
+        <td class="side">Mort &#224; tous les terrestres ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

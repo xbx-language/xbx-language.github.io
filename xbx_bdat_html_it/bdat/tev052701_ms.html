@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev052701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev052701_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev052701_SEL0011</td>
+        <td class="side">Chiedi a Trigo della squadra di Slovity.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev052701_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev052701_SEL0021</td>
+        <td class="side">Chiedi a Trigo quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev052701_SEL0031</td>
+        <td class="side">Chiedi a Trigo della battaglia contro i Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0001</td>
+        <td class="side">Gli ordini Ganglion erano categorici. Uccidere[ST:n ]amici? Uccidere famiglia? Uccidere innocenti?[ST:n ]Obbedire sempre. O essere ucciso.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0002</td>
+        <td class="side">&#200; per questo che soldati Ganglion[ST:n ]commettono queste azioni atroci.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0003</td>
+        <td class="side">Ma la squadra di Slovity era diversa. Ci rifiutavamo[ST:n ]di eseguire gli ordini. Non avevamo paura[ST:n ]di essere puniti.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0004</td>
+        <td class="side">Per questo motivo Ganglion[ST:n ]ci chiamavano \&quot;Infedeli\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0005</td>
+        <td class="side">Ero orgogliosa di eseguire gli ordini di Slovity, anche[ST:n ]se abbiamo tradito Clan delle Caverne.[ST:n ]Non mi pento di nulla.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0008</td>
+        <td class="side">La squadra di Slovity &#232; di nuovo al completo.[ST:n ]Grazie a te.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0009</td>
+        <td class="side">Ora che sono tornati i nostri compagni,[ST:n ]possiamo contrattaccare l&#39;esercito Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0010</td>
+        <td class="side">E non perch&#233; ci &#232; stato ordinato. Questa &#232; la nostra[ST:n ]guerra! &#200; in gioco il nostro onore![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0011</td>
+        <td class="side">Ma abbiamo bisogno del tuo aiuto, alien[ST:Gender p1=o p2=a ][ST:n ]della Terra. Ti sei dimostrat[ST:Gender p1=o p2=a ][ST:n ][ST:Gender p1=un alleato p2=un&#39;alleata ] potente.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0022</td>
+        <td class="side">Dopo aver servito nell&#39;esercito Ganglion,[ST:n ]sappiamo quanto possano essere crudeli.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0023</td>
+        <td class="side">I loro comandanti erano terribili.[ST:n ]Goetia... Ryyz... Dagahn...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0024</td>
+        <td class="side">E il potere di Luxaar era pi&#249; grande[ST:n ]di quello di un&#39;intera divisione.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0025</td>
+        <td class="side">Nonostante questo, la tua squadra li ha distrutti[ST:n ]tutti. Incredibile! Questo infonde un grande[ST:n ]coraggio nei nostri cuori.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0026</td>
+        <td class="side">La squadra di Slovity deve migliorare molto[ST:n ]per potervi eguagliare.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev052701_SEL1021</td>
+        <td class="side">Chiedi a Trigo quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0012</td>
+        <td class="side">La squadra Slovity ha subito parecchie perdite durante[ST:n ]gli ultimi eventi. Ci siamo indeboliti molto.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0013</td>
+        <td class="side">Ma abbiamo un nemico comune.[ST:n ]Dovremmo unire le forze![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0014</td>
+        <td class="side">Siete i nostri soli amici in citt&#224;.[ST:n ]Abbiamo bisogno del vostro aiuto.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev052701_SEL2021</td>
+        <td class="side">Chiedi a Trigo quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0015</td>
+        <td class="side">Il Capitano Slovity ci addestra dall&#39;alba al tramonto.[ST:n ]Ha giurato di volerci rendere invincibili![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0016</td>
+        <td class="side">Sei tu la ragione per la quale &#232; cos&#236; motivata.[ST:n ]Questo dimostra il tuo valore![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0017</td>
+        <td class="side">Devi essere [ST:Gender p1=un p2=una ] su[ST:Gender p1=o p2=a ] grande amic[ST:Gender p1=o p2=a ]. Fallo per me.[ST:n ]&#200; pi&#249; felice quando le stai vicin[ST:Gender p1=o p2=a ].[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0018</td>
+        <td class="side">Abbiamo viaggiato per Mira.[ST:n ]Eliminato superstiti Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0019</td>
+        <td class="side">Altri alieni hanno incominciato a fornirci[ST:n ]provviste. Nei giorni migliori, il BLADE[ST:n ]combatteva al nostro fianco.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0020</td>
+        <td class="side">Forse venire nella citt&#224; alienoterrestre &#232; stata una buona[ST:n ]decisione, dopotutto. Non ne ero convinta all&#39;inizio.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0021</td>
+        <td class="side">D&#39;ora in poi, aiuter&#242; Slovity a difendere la citt&#224;.[ST:n ]Prover&#242; che Clan delle Caverne merita[ST:n ]di vivere qui![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev052701_SEL4021</td>
+        <td class="side">Chiedi a Trigo se ha sentito qualche pettegolezzo[ST:n ]interessante.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4001</td>
+        <td class="side">Clan delle Caverne di Sylvalum ha torturato agenti[ST:n ]BLADE. Li ha costretti a subire sofferenze atroci.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4002</td>
+        <td class="side">Gli agenti BLADE caduti si chiamavano[ST:n ]Adelbert e Grette.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4003</td>
+        <td class="side">Questi Pron sono crudeli. Codardi. Condivido il tuo[ST:n ]dolore. Non dimenticher&#242; quello che hanno fatto.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4004</td>
+        <td class="side">Ma i morti non si possono riportare in vita. Se la tua[ST:n ]gente prova odio nei confronti di Pron, lo capisco.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

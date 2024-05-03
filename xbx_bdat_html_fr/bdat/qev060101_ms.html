@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0001</td>
+        <td class="side">&#201;videmment, si tu d&#233;voltantises une chose[ST:n ]pareille, tu vas te faire mal. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0002</td>
+        <td class="side">Pouah, et il nous reste encore une tonne de travail[ST:n ]&#224; accomplir. Kchh. Qu&#39;est-ce que je vais bien[ST:n ]pouvoir faire ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060101_JNK0010</td>
+        <td class="side">S&#39;inqui&#233;ter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060101_SEL0011</td>
+        <td class="side">Demander au x&#233;noforme s&#39;il a besoin d&#39;aide.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060101_JNK0020</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060101_SEL0021</td>
+        <td class="side">Demander au x&#233;noforme suspect ce qu&#39;il fait.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0003</td>
+        <td class="side">Merci de me proposer votre aide. La plupart[ST:n ]des humains sont vraiment amicaux.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0004</td>
+        <td class="side">Kchh. Je remarque que les humains aussi ne nous font[ST:n ]pas vraiment confiance.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0005</td>
+        <td class="side">Le travail que j&#39;effectue en ce moment est important,[ST:n ]il nous servira &#224; combattre ce genre de pr&#233;jug&#233;s. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0006</td>
+        <td class="side">Kchh. Nous, les Zaruboggans, mettons en place[ST:n ]un projet concernant le voltant de cette ville.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0007</td>
+        <td class="side">Votre esp&#232;ce juge cela inutile, mais c&#39;est notre source[ST:n ]de vie. Kchh. C&#39;est pourquoi nous avons lanc&#233;[ST:n ]un service de collecte.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0008</td>
+        <td class="side">Tout se passait bien jusqu&#39;&#224; ce que mon ami d&#233;cide[ST:n ]de d&#233;voltantiser une chose de ce restaurant,[ST:n ]un &#171; hamburger &#187;. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0009</td>
+        <td class="side">J&#39;ai peur qu&#39;il soit intoxiqu&#233;. Kchh. Il l&#39;a bien cherch&#233;.[ST:n ]Tout le monde sait qu&#39;&#224; part le voltant, tout est[ST:n ]rempli d&#39;impuret&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0010</td>
+        <td class="side">Je dois encore r&#233;colter du voltant aupr&#232;s des gens de[ST:n ]cette ville, mais tout seul c&#39;est impossible. Je suis bien[ST:n ]emb&#234;t&#233; ! Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0011</td>
+        <td class="side">J&#39;essayais de trouver une solution quand[ST:n ]vous &#234;tes [ST:Gender p1=arriv&#233; p2=arriv&#233;e ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0012</td>
+        <td class="side">Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0013</td>
+        <td class="side">Vous ne voudriez pas m&#39;aider, par hasard ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0014</td>
+        <td class="side">En tant que [ST:Gender p1=r&#233;sident p2=r&#233;sidente ], vous connaissez bien la ville.[ST:n ]Kchh. Avec votre aide, j&#39;aurais fini en peu de temps.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0015</td>
+        <td class="side">J&#39;aimerais vraiment que ce projet aboutisse et avec[ST:n ]votre aide, je suis s&#251;r qu&#39;il n&#39;en serait que meilleur.[ST:n ]Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0017</td>
+        <td class="side">Kchh. Alors, vous devez parler &#224; un m&#233;decin[ST:n ]qui s&#39;appelle Jeffrey, un technicien du recyclage[ST:n ]appel&#233; Graham, et un Ma-non pr&#233;nomm&#233; Pfeffen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0018</td>
+        <td class="side">Veuillez r&#233;colter le voltant provenant de[ST:n ]ces trois personnes, s&#39;il vous pla&#238;t. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0019</td>
+        <td class="side">Oh, et maniez-le avec pr&#233;caution. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0020</td>
+        <td class="side">Kchh. Le voltant peut vous faire ce que cet hamburger[ST:n ]a fait &#224; mon ami stupide... et inconscient.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060101_JNK0030</td>
+        <td class="side">Remercier</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060101_SEL0031</td>
+        <td class="side">Remercier Shiraton de vouloir se d&#233;barrasser[ST:n ]de cette dangereuse substance.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060101_JNK0040</td>
+        <td class="side">S&#39;inqui&#233;ter</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060101_SEL0041</td>
+        <td class="side">Demander &#224; Shiraton si vous ne risquez rien[ST:n ]&#224; transporter du voltant.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0021</td>
+        <td class="side">Mais de rien. Kchh. C&#39;est nous qui vous remercions.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0022</td>
+        <td class="side">Kchh. Si vous ne partagiez pas votre voltant avec nous,[ST:n ]nous ne pourrions pas survivre.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0023</td>
+        <td class="side">Une fois que vous aurez la cargaison, merci[ST:n ]de vous empresser de la ramener ici. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0024</td>
+        <td class="side">Il n&#39;y a pas de motif de s&#39;inqui&#233;ter. Kchh.[ST:n ]Je serai heureux de vous gu&#233;rir[ST:n ]en cas de l&#233;g&#232;re contamination.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0025</td>
+        <td class="side">Une fois que vous aurez la cargaison, merci[ST:n ]de vous empresser de la ramener ici. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0026</td>
+        <td class="side">Apparemment, vous poss&#233;dez beaucoup de voltant[ST:n ]dans votre ville. Kchh. Plus de voltant que vous n&#39;&#234;tes[ST:n ]en mesure de g&#233;rer.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0027</td>
+        <td class="side">Kchh. C&#39;est ce qui explique pourquoi beaucoup[ST:n ]de gens s&#39;int&#233;ressent &#224; notre nouveau projet.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0028</td>
+        <td class="side">Si ce travail se passe bien, cela me permettra peut-&#234;tre[ST:n ]de d&#233;crocher de nouveaux contrats par la suite. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev060101_MSG0029</td>
+        <td class="side">Merci pour votre aide. Vous devez r&#233;cup&#233;rer du voltant[ST:n ]aupr&#232;s de Jeffrey, Graham et Pfeffen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

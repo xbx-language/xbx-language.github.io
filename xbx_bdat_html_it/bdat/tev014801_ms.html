@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev014801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev014801_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev014801_SEL0011</td>
+        <td class="side">Chiedi a Fritz dei cittadini di N.L.A.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev014801_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev014801_SEL0021</td>
+        <td class="side">Chiedi a Fritz quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev014801_JNK0010</td>
+        <td class="side">tev014801_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev014801_SEL0031</td>
+        <td class="side">Chiedi a Fritz come comprare l&#39;equipaggiamento.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev014801_JNK0020</td>
+        <td class="side">tev014801_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev014801_SEL0041</td>
+        <td class="side">Chiedi a Fritz quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev014801_SEL1011</td>
+        <td class="side">Chiedi a Fritz dei fabbricanti di armi.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev014801_SEL1021</td>
+        <td class="side">Chiedi a Fritz se ha sentito qualche[ST:n ]pettegolezzo interessante.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2011</td>
+        <td class="side">Chiedi a Fritz delle armi che si ottengono[ST:n ]sconfiggendo i mostri.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2031</td>
+        <td class="side">Chiedi a Fritz della Meredith &amp; Co.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2051</td>
+        <td class="side">Chiedi a Fritz della Candid &amp; Credible.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2052</td>
+        <td class="side">Chiedi a Fritz se c&#39;&#232; qualcosa che lo preoccupa.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2071</td>
+        <td class="side">Chiedi a Fritz della Nopon Commerce Guild.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2091</td>
+        <td class="side">Chiedi a Fritz della Orphean Technologies.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev014801_SEL2111</td>
+        <td class="side">Chiedi a Fritz della Six Stars.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev014801_SEL3021</td>
+        <td class="side">Chiedi a Fritz quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0001</td>
+        <td class="side">L&#39;economia sta finalmente girando in citt&#224; e in via[ST:n ]dell&#39;Armeria stanno arrivando i clienti.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0002</td>
+        <td class="side">Ammetto di aver temuto per il nostro futuro quando[ST:n ]un nemico sconosciuto ci ha attaccati e costretti[ST:n ]a schiantarci su un pianeta cos&#236; pericoloso.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0003</td>
+        <td class="side">Ma noi umani siamo creature determinate. &#200; impossibile[ST:n ]non accorgersene quando si vede con quanta energia[ST:n ]ci si impegna da queste parti.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0004</td>
+        <td class="side">E io preferisco essere parte di tutto questo piuttosto[ST:n ]che stare semplicemente a guardare, quindi meglio[ST:n ]che torni al lavoro.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0009</td>
+        <td class="side">Hai visto l&#39;intervento fatto dal[ST:n ]direttore generale poco fa?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0010</td>
+        <td class="side">Sembra che abbiano trovato altri dieci[ST:n ]membri dell&#39;equipaggio![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0011</td>
+        <td class="side">Cos&#236;, forse, potremo riprendere presto l&#39;esplorazione[ST:n ]di Mira che abbiamo interrotto troppo a lungo.[ST:n ]&#200; stata davvero una grande notizia![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0018</td>
+        <td class="side">Se entri nel BLADE, potrai usare il terminale acquisti[ST:n ]in via dell&#39;Armeria per comprare gli armamenti[ST:n ]dai produttori d&#39;armi della citt&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0019</td>
+        <td class="side">E quando avrai un Brevetto Skell, ci potrai anche[ST:n ]acquistare il mech dei tuoi sogni.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0020</td>
+        <td class="side">Quando quel giorno arriver&#224;, spero vorrai comprare[ST:n ]uno degli Skell di altissima qualit&#224; prodotti dalla[ST:n ]mia compagnia: la Sakuraba Industries.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0026</td>
+        <td class="side">Hanno chiesto ai produttori d&#39;armi di dare la priorit&#224;[ST:n ]allo sviluppo di nuove armi, ma per questo tipo di[ST:n ]lavoro ci vogliono risorse minerarie e monetarie.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0027</td>
+        <td class="side">E non ci sono molti investitori a Neo L.A.,[ST:n ]per cui dobbiamo ottenere il capitale e[ST:n ]il Miranium dai singoli agenti BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0028</td>
+        <td class="side">I singoli investimenti sono limitati, ma se metti insieme[ST:n ]tanti piccoli ruscelli, alla fine avrai un grande fiume![ST:n ]O comunque, noi contiamo su questo.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev014801_MSG0029</td>
+        <td class="side">Se dovessi unirti al BLADE, spero che vorrai investire[ST:n ]nella tua industria d&#39;armi preferita.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1001</td>
+        <td class="side">Ogni produttore d&#39;armi ha un livello societ&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1002</td>
+        <td class="side">Salendo di livello, potr&#224; sviluppare e mettere sul[ST:n ]mercato equipaggiamenti sempre migliori.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1003</td>
+        <td class="side">Mmmh? Vuoi sapere come sale il livello societ&#224;?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1004</td>
+        <td class="side">Allora: dipende dal modo in cui voi BLADE utilizzate[ST:n ]l&#39;equipaggiamento di un produttore. Se li usate in[ST:n ]combattimento, date loro una visibilit&#224; maggiore.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1005</td>
+        <td class="side">Come BLADE, dovresti combattere con le armi[ST:n ]dell&#39;industria che desideri sostenere. In questo[ST:n ]modo, il livello della societ&#224; salir&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1006</td>
+        <td class="side">Puoi farlo crescere anche di pi&#249; se usi il terminale dei[ST:n ]produttori d&#39;armi in via dell&#39;Armeria per donare[ST:n ]Miranium alla tua industria d&#39;armi preferita.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1007</td>
+        <td class="side">Il Miranium &#232; una risorsa preziosa: con la dovuta[ST:n ]quantit&#224;, la produzione pu&#242; procedere speditamente.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1012</td>
+        <td class="side">Alcune delle armi che si ottengono sconfiggendo[ST:n ]i mostri hanno propriet&#224; particolari.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1013</td>
+        <td class="side">Io mi occupo delle vendite, non dello sviluppo,[ST:n ]quindi non saprei spiegarti come e perch&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev014801_MSG1014</td>
+        <td class="side">Ma credo sia per via di quelle strane reazioni chimiche[ST:n ]che avvengono nei loro corpi e che consentono loro[ST:n ]di fare cose come sparare laser, eccetera...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2001</td>
+        <td class="side">Al momento, a Neo L.A. ci sono due produttori d&#39;armi:[ST:n ]la mia societ&#224;, la Sakuraba Industries e la nostra[ST:n ]concorrente, la Grenada Galactic Group.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2002</td>
+        <td class="side">Alla Sakuraba Industries siamo orgogliosi di produrre[ST:n ]armamenti convenzionali di alta qualit&#224; con elevati[ST:n ]potenziali sia di danno fisico sia di difesa.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2003</td>
+        <td class="side">La Grenada GG &#232; invece specializzata nella produzione[ST:n ]di armamenti con uno speciale rivestimento laser.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2004</td>
+        <td class="side">Ovviamente, io ti raccomando principalmente i prodotti[ST:n ]Sakuraba! Ma &#232; chiaro che la tua sicurezza sia la[ST:n ]cosa pi&#249; importante.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2005</td>
+        <td class="side">Perci&#242; ti suggerisco di confrontare i prodotti di[ST:n ]entrambe le societ&#224; e scegliere quelli pi&#249; adatti[ST:n ]al tipo di nemici che potresti incontrare.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2010</td>
+        <td class="side">&#200; una nuova industria d&#39;armi, registrata di recente.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2011</td>
+        <td class="side">Sembra che sviluppino armi basate[ST:n ]sulla tecnologia Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2012</td>
+        <td class="side">A dire il vero, sono anche progettate in modo[ST:n ]da assomigliare all&#39;equipaggiamento[ST:n ]usato dagli Xenomorfi nemici.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2013</td>
+        <td class="side">L&#39;armatura sembra solida e ha delle qualit&#224; uniche[ST:n ]che non si trovano sull&#39;equipaggiamento[ST:n ]convenzionale. &#200; davvero notevole.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2014</td>
+        <td class="side">Se ti interessa, perch&#233; non vai a dare un&#39;occhiata[ST:n ]sul terminale acquisti in via dell&#39;Armeria?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2020</td>
+        <td class="side">Il loro armamentario fa uso di una tecnologia[ST:n ]avanzatissima di tipo elettrico.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2021</td>
+        <td class="side">Il che lo rende particolarmente adatto contro i mostri[ST:n ]Ittiomorfi che si trovano vicino all&#39;acqua e contro[ST:n ]le armi automatiche dei Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2022</td>
+        <td class="side">Saranno anche nostri concorrenti, ma non si pu&#242;[ST:n ]negare la loro perizia tecnica quando si tratta[ST:n ]di gestire e controllare enormi quantit&#224; di elettricit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2023</td>
+        <td class="side">Immagino fosse prevedibile. Dopotutto si tratta di una[ST:n ]razza aliena che viaggiava per la galassia prima[ST:n ]ancora che noi lanciassimo il primo razzo.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2024</td>
+        <td class="side">Come BLADE dovresti dar loro un&#39;opportunit&#224;.[ST:n ]Sono sicuro che ti colpiranno.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2025</td>
+        <td class="side">Lo sai perch&#233; quando distruggi le parti del corpo[ST:n ]dei nemici, il carburante del tuo Skell si ricarica?[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2026</td>
+        <td class="side">Quella faccia mi dice che non ne hai idea.[ST:n ]In tutta sincerit&#224;, neanche io.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2027</td>
+        <td class="side">Ho chiesto a un meccanico, cos&#236; avrei potuto parlare[ST:n ]con maggiore competenza dei nostri prodotti, ma la[ST:n ]risposta &#232; stata talmente tecnica che non ho capito.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2028</td>
+        <td class="side">Magari basta ricordarselo: se distruggi parti del corpo[ST:n ]dei nemici, il tuo carburante si ricarica.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2030</td>
+        <td class="side">Le armi della Nopon Commerce Guild sembrano[ST:n ]proprio carine, ma non ti illudere...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2031</td>
+        <td class="side">Sono armi letali che sfruttano il calore estremo[ST:n ]per incenerire il bersaglio![ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2032</td>
+        <td class="side">I Nopon sono cos&#236; piccini, spesso[ST:n ]vengono mangiati dai Pron.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2033</td>
+        <td class="side">Eppure, se solo fossero stati abbastanza forti da usare[ST:n ]le loro stesse armi, avrebbero gi&#224; capovolto la[ST:n ]situazione con i Pron da tempo immemore.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2040</td>
+        <td class="side">Sono in grado di sviluppare delle armi ad alta[ST:n ]tecnologia che noi, con il nostro livello tecnologico,[ST:n ]non siamo neanche in grado di comprendere.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2041</td>
+        <td class="side">La linea comprende equipaggiamenti sviluppati con[ST:n ]un&#39;avanzata tecnologia basata sull&#39;Etere e armi[ST:n ]che procurano danni con le onde gravitazionali.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2042</td>
+        <td class="side">Quando erano prigionieri dei Ganglion, sembra che gli[ST:n ]Orphe siano stati costretti a produrre armi per loro.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2043</td>
+        <td class="side">E se provi una delle armi della Orphean Technologies,[ST:n ]capirai perch&#233; i Ganglion le desideravano cos&#236; tanto.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2049</td>
+        <td class="side">Alla Six Stars lavorano molti abilissimi artigiani[ST:n ]Wrothian che producono una quantit&#224; di armi[ST:n ]uniche, come solo loro sanno fare.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2050</td>
+        <td class="side">Sono create dai Wrothian per i loro guerrieri[ST:n ]e ho sentito dire che possono addirittura essere[ST:n ]difficili da maneggiare per noi umani.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2051</td>
+        <td class="side">E comunque, il potere distruttivo che scatenano[ST:n ]quando vanno a segno &#232; impressionante.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2052</td>
+        <td class="side">Se compensi la Precisione con Abilit&#224; e Specialit&#224;,[ST:n ]un&#39;arma Six Star potrebbe essere una potente alleata.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>tev014801_MSG2053</td>
+        <td class="side">Per la cronaca, \&quot;Six Stars\&quot; &#232; un riferimento a un[ST:n ]concetto Wrothian, non significa che le loro armi[ST:n ]siano superiori alle cinque stelle Sakuraba![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>tev014801_MSG3001</td>
+        <td class="side">&#200; un po&#39; che non vedo Avi da queste parti.[ST:n ]Una volta era una cliente abituale.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>tev014801_MSG3002</td>
+        <td class="side">Sembra che avesse problemi al lavoro.[ST:n ]Forse si &#232; licenziata...[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>tev014801_MSG3003</td>
+        <td class="side">Beh, che abbia iniziato un nuovo lavoro o che stia[ST:n ]lavorando sodo nel vecchio, spero sia felice.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>tev014801_MSG3004</td>
+        <td class="side">Sarebbe un peccato se tutto il suo impegno[ST:n ]andasse sprecato.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

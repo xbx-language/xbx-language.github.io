@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0011</td>
+        <td class="side">Bitte Dazbeno um eine realistische Einsch&#228;tzung des[ST:n ]gegenw&#228;rtigen Standes menschlicher Technologie.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0021</td>
+        <td class="side">Frage Dazbeno nach seiner Arbeit.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0001</td>
+        <td class="side">Hmm... Nimm zum Beispiel diese M&#252;llverbrennungs-[ST:n ]anlage, ja? Wie die meiste Technologie der Menschen[ST:n ]ist sie etwas... zur&#252;ckgeblieben? Vorsintflutlich, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0002</td>
+        <td class="side">Eure Technologie ist noch so r&#252;ckst&#228;ndig, wei&#223;t du?[ST:n ]Da m&#252;sst ihr noch lange dran arbeiten, bis ihr auf dem[ST:n ]neuesten Stand seid, verstehst du? So, so veraltet...[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0003</td>
+        <td class="side">Aber, aber, aber auf der anderen Seite verf&#252;gt ihr auch[ST:n ]&#252;ber so bahnbrechende Erfindungen wie Skells und[ST:n ]Mimoiden. Wie seid ihr &#252;berhaupt darauf gekommen?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0004</td>
+        <td class="side">Es scheint fast, als h&#228;ttet ihr einen Weg gefunden,[ST:n ]in die Zukunft zu sehen und euch Wissen zu borgen...[ST:n ]Ihr Menschen seid schon seltsame Gesch&#246;pfe, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0005</td>
+        <td class="side">Oder habt ihr etwa eine Technik-Koryph&#228;e wie mich[ST:n ]aufgegabelt und sie bisher vor uns geheim gehalten?[ST:n ]Ich w&#252;rde dieses Genie sehr gern treffen, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0008</td>
+        <td class="side">Hall&#246;chen! Ich hei&#223;e Dazbeno! Freut mich! Dich auch?[ST:n ]Ich bin seit Kurzem Leiter der wissenschaftlichen[ST:n ]Abteilung in der Allzweckfabrik, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0009</td>
+        <td class="side">...Was meinst du? Es ist dir eigentlich eher nicht so[ST:n ]recht, die Sicherstellung der f&#252;r die Menschheit lebens-[ST:n ]wichtigen Versorgung einem Ma-non anzuvertrauen?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0010</td>
+        <td class="side">Na ja, also... du solltest lieber vor Freude Luftspr&#252;nge[ST:n ]vollf&#252;hren, vielleicht? Einige der Hochleistungsger&#228;te des[ST:n ]Ma-non-Schiffs sind n&#228;mlich auch mir zu verdanken...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0011</td>
+        <td class="side">Wenn ich dir jetzt noch sage, dass die eine Lebens-[ST:n ]dauer von &#252;ber 100 Jahren haben, bist du sprachlos,[ST:n ]oder? Ich wei&#223; n&#228;mlich, was ich tue, also... meistens?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0010</td>
+        <td class="side">tev030901_JNK0010</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0011</td>
+        <td class="side">tev030901_SEL0011</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0020</td>
+        <td class="side">tev030901_JNK0020</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030901_SEL1021</td>
+        <td class="side">Sprich mit Dazbeno &#252;ber die j&#252;ngsten Ereignisse.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0012</td>
+        <td class="side">Wir brauchen eine neue M&#252;llverbrennungsanlage,[ST:n ]um weitere Zwischenf&#228;lle dieser Art zu verhindern,[ST:n ]meinst du nicht auch?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0013</td>
+        <td class="side">Die Anlage muss belastbarer sein, ja? Am besten sollte[ST:n ]sie sogar den Tritten dieses Muskelbergs Nauzo[ST:n ]standhalten k&#246;nnen, vielleicht?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0014</td>
+        <td class="side">Oder wir stopfen die Anlage so voll mit Sicherheitsvor-[ST:n ]kehrungen, dass nicht mal Liza mit ihrer tollpatschigen[ST:n ]Art etwas kaputt kriegt? W&#228;r doch besser so, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0015</td>
+        <td class="side">Auf jeden Fall muss ich herausfinden, woher diese[ST:n ]Zarubogganer ihre sonderbaren F&#228;higkeiten bekommen,[ST:n ]denkst du nicht auch?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0016</td>
+        <td class="side">Wenn ich DAS Geheimnis l&#252;ften kann, werden wir in[ST:n ]Zukunft jedes noch so eklige Zeug problemlos[ST:n ]aufbereiten k&#246;nnen, oder? K&#246;nnte doch sein?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0010</td>
+        <td class="side">tev030901_JNK0010</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0011</td>
+        <td class="side">tev030901_SEL0011</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0020</td>
+        <td class="side">tev030901_JNK0020</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev030901_SEL2021</td>
+        <td class="side">Frage Dazbeno, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0017</td>
+        <td class="side">Die Allzweckfabrik hat sich doch echt ver&#228;ndert, oder?[ST:n ]Fr&#252;her waren hier nur Menschen und Ma-non, aber jetzt[ST:n ]ist richtig Leben in der Bude, findest du nicht auch?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0018</td>
+        <td class="side">Nauzo wuchtet uns m&#252;helos tonnenweise M&#252;ll durch die[ST:n ]Gegend. Bei seinen monstr&#246;sen Prone-Muskeln ist das[ST:n ]aber auch kein Wunder, stimmt’s? Oder hab ich recht?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0019</td>
+        <td class="side">...Was mit dem Zarubogganer ist? Du meinst Trachlo?[ST:n ]Also, der entvoltanisiert alles, was nicht niet- und[ST:n ]nagelfest ist. Auch gef&#228;hrlichste Abf&#228;lle, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0020</td>
+        <td class="side">Dann w&#228;r da noch Liza... Na ja, ich finde, sie jammert[ST:n ]zu viel, vielleicht? Aber irgendwie scheint das die[ST:n ]anderen noch mehr anzuspornen, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0021</td>
+        <td class="side">Wir sind wohl schon so eine Art Familie geworden,[ST:n ]oder so? Kann man das so sagen? Jedenfalls ist die[ST:n ]Arbeit zwar hart, aber die M&#252;he lohnt sich, denke ich...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0022</td>
+        <td class="side">Vielleicht werde ich sogar ein paar &#220;berstunden[ST:n ]einlegen, um f&#252;r die Anlage noch ausgereiftere[ST:n ]Maschinen zusammenzubasteln, verstehst du?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

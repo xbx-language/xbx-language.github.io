@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev023501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev023501_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev023501_SEL0011</td>
+        <td class="side">Interroger Berry sur N.L.A.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev023501_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev023501_SEL0021</td>
+        <td class="side">Demander &#224; Berry si elle a entendu des rumeurs[ST:n ]int&#233;ressantes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev023501_SEL0031</td>
+        <td class="side">Interroger Berry sur les oc&#233;ans de Mira.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev023501_SEL0041</td>
+        <td class="side">Demander &#224; Berry des informations sur le projet[ST:n ]de migration de la vie terrestre.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev023501_SEL0051</td>
+        <td class="side">Demander &#224; Berry des informations sur la ville de N.L.A.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0001</td>
+        <td class="side">New L.A. &#233;tait presque achev&#233;e quand nous avons[ST:n ]atterri sur Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0002</td>
+        <td class="side">Ces satan&#233;s x&#233;noformes n&#39;auraient pas pu attendre[ST:n ]un peu ? Pff ! Je les d&#233;teste...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0003</td>
+        <td class="side">Bref, c&#39;est pour &#231;a que les routes ne sont pas termin&#233;es[ST:n ]et n&#39;ont pas de barri&#232;res pour emp&#234;cher les gens[ST:n ]de tomber.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0004</td>
+        <td class="side">J&#39;ai entendu dire que quelqu&#39;un &#233;tait tomb&#233; une fois ![ST:n ]On a eu besoin de toute une &#233;quipe de Mediators pour[ST:n ]le secourir.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0005</td>
+        <td class="side">&#199;a me rappelle la fois o&#249; Kaisis s&#39;est propos&#233; de me[ST:n ]raccompagner, mais j&#39;ai refus&#233;. Je voyais bien qu&#39;il[ST:n ]avait quelque chose derri&#232;re la t&#234;te.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0008</td>
+        <td class="side">Oh, vous avez rat&#233; quelque chose l&#39;autre jour ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0009</td>
+        <td class="side">Kaisis insistait encore pour me raccompagner[ST:n ]&#224; la maison.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0010</td>
+        <td class="side">Mais &#231;a se voyait qu&#39;il avait quelque chose en t&#234;te,[ST:n ]donc j&#39;ai refus&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0011</td>
+        <td class="side">&#192; ce moment-l&#224;, une Mediator du nom de Tracey a[ST:n ]entendu notre conversation et en a d&#233;duit &#224; tort qu&#39;il[ST:n ]essayait de m&#39;enlever ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0012</td>
+        <td class="side">Elle lui a mis une paire de menottes et a essay&#233;[ST:n ]de l&#39;embarquer ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0013</td>
+        <td class="side">Quoi que Kaisis pouvait dire, elle n&#39;&#233;coutait pas.[ST:n ]Selon elle, son &#171; intuition de d&#233;tective &#187; lui disait[ST:n ]qu&#39;elle avait affaire &#224; un enl&#232;vement.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0014</td>
+        <td class="side">Franchement, elle a l&#39;air quelque peu... instable.[ST:n ]J&#39;esp&#232;re qu&#39;&#224; l&#39;avenir elle ne causera pas[ST:n ]de probl&#232;mes plus graves...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0020</td>
+        <td class="side">De temps en temps, je me connecte sur les sondes[ST:n ]de recherches pour regarder la vue depuis les c&#244;tes[ST:n ]miranes.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0021</td>
+        <td class="side">Parfois, j&#39;arrive &#224; apercevoir des petites &#238;les &#224; l&#39;horizon.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0022</td>
+        <td class="side">Je me demande si on peut trouver ce genre d&#39;&#238;les[ST:n ]un peu partout sur les mers miranes ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0023</td>
+        <td class="side">Je me doute que peu d&#39;agents du BLADE ont visit&#233;[ST:n ]de tels lieux isol&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0024</td>
+        <td class="side">Si vous vous sentiez de nager jusque l&#224;-bas, qui sait[ST:n ]quel genre de tr&#233;sor vous pourriez y trouver ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0026</td>
+        <td class="side">Dans le cadre du projet de migration de la vie terrestre,[ST:n ]beaucoup de vaisseaux sont partis de la Terre. Je me[ST:n ]demande si les autres sont en s&#233;curit&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0027</td>
+        <td class="side">Et si le Ganglion les avait trouv&#233;s et d&#233;truits ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0028</td>
+        <td class="side">Non, je suis s&#251;re qu&#39;ils vont bien. Ils n&#39;ont pas encore[ST:n ]d&#251; trouver une plan&#232;te habitable, c&#39;est pour cela que[ST:n ]nous n&#39;avons pas encore de nouvelles.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0029</td>
+        <td class="side">Je dois m&#39;endurcir. C&#39;est &#224; cause de ces moments[ST:n ]de faiblesse que Kaisis a de telles pens&#233;es ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0035</td>
+        <td class="side">Je me suis plainte &#224; l&#39;&#233;quipe de maintenance &#224; propos[ST:n ]du manque de garde-fous et du fait qu&#39;on pouvait[ST:n ]tomber facilement.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0036</td>
+        <td class="side">Mais je dois admettre que &#231;a me rend un peu triste[ST:n ]de savoir qu&#39;un jour ils vont tout combler.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0037</td>
+        <td class="side">Hum... Peut-&#234;tre que je devrais emmener Kaisis voir[ST:n ]l&#39;eau en dessous avant qu&#39;ils ne bloquent l&#39;acc&#232;s.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0038</td>
+        <td class="side">On dirait qu&#39;il a toujours quelque chose &#224; dire,[ST:n ]mais qu&#39;il ne se lance pas.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev023501_MSG0039</td>
+        <td class="side">Il me r&#233;p&#232;te sans arr&#234;t qu&#39;il me dira tout une fois que[ST:n ]la ville sera termin&#233;e, mais &#231;a me rend dingue ![ST:n ]Je vais lui faire cracher le morceau ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

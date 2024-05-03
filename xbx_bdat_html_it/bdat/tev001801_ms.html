@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0001</td>
+        <td class="side">Ehil&#224;, Capo! Nuova missione...?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0002</td>
+        <td class="side">&#200; interessante, posso aiutarti? Ti prego![ST:n ]Daaaiiidaidaidaidaaaiii![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001801_JNK0010</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001801_SEL0011</td>
+        <td class="side">Aggiungi Mia alla tua squadra.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001801_JNK0020</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001801_SEL0021</td>
+        <td class="side">Rifiuta la richiesta di Mia, per ora.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0003</td>
+        <td class="side">Grandioso! Vedrai quanto sono diventata brava![ST:n ]Ti schizzeranno gli occhi fuori dalle orbite.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0004</td>
+        <td class="side">Nooo, daaaiii! Porta con te la tua Mia![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0009</td>
+        <td class="side">&#200; l&#39;occasione che tutto il BLADE stava aspettando.[ST:n ]Andiamo a riprenderci il Nucleo del Centro vitale[ST:n ]e ce la faremo, sicuro![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0010</td>
+        <td class="side">Oh, e scommetto che sarai tu a guidare[ST:n ]la missione. Eh, Capo?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0011</td>
+        <td class="side">Senti, sar&#242; sincera: devi proprio portarmi con te.[ST:n ]Ho imparato un sacco di cose e quando le metter&#242;[ST:n ]in pratica non riuscirai a credere ai tuoi occhi![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001801_JNK0150</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001801_SEL0151</td>
+        <td class="side">Aggiungi Mia alla tua squadra.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001801_JNK0160</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001801_SEL0161</td>
+        <td class="side">Rifiuta la richiesta di Mia, per ora.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0012</td>
+        <td class="side">Sono gasatissima, Capo, gasatissima![ST:n ]Ce l&#39;abbiamo in pugno.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0013</td>
+        <td class="side">Nooo, daaaiii! Porta con te la tua Mia![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0018</td>
+        <td class="side">Ehi, so che abbiamo recuperato il Nucleo[ST:n ]del Centro vitale e compagnia bella,[ST:n ]il nostro obiettivo principale. Super![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0019</td>
+        <td class="side">Ma c&#39;&#232; ancora una vagonata di cose fighissime[ST:n ]da vedere, qui su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0020</td>
+        <td class="side">Mica possiamo fermarci proprio adesso, Capo![ST:n ]Dobbiamo scatenarci! Io e te ne abbiamo di[ST:n ]avventure entusiasmanti che ci aspettano![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001801_JNK0170</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001801_SEL0171</td>
+        <td class="side">Aggiungi Mia alla tua squadra.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001801_JNK0180</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001801_SEL0181</td>
+        <td class="side">Rifiuta la richiesta di Mia, per ora.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0021</td>
+        <td class="side">E allora, zaini in spalla e andiamo![ST:n ]Sar&#224; fantasticooo![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001801_MSG0022</td>
+        <td class="side">Nooo, daaaiii! Porta con te la tua Mia![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

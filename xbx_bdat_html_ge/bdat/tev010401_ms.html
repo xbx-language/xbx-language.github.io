@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev010401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev010401_JNK0010</td>
+        <td class="side">Fragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0011</td>
+        <td class="side">Frage Carl, was es mit dem Tor auf sich hat.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev010401_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0021</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0031</td>
+        <td class="side">Frage Carl, wie man zwischen Tag und Nacht wechselt.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0021</td>
+        <td class="side">tev010401_SEL0021</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0041</td>
+        <td class="side">Frage Carl, was er vom erfolgreichen[ST:n ]Abschluss deiner letzten Mission h&#228;lt.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0061</td>
+        <td class="side">Frage Carl, wie man zwischen Tag und Nacht wechselt.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0071</td>
+        <td class="side">Frage Carl, was er vom erfolgreichen[ST:n ]Abschluss deiner letzten Mission h&#228;lt.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0081</td>
+        <td class="side">Frage Carl, wie man am geschicktesten[ST:n ]in NLA herumkommt.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0091</td>
+        <td class="side">Befrage Carl zum Landschaftsbild Miras.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0101</td>
+        <td class="side">Frage Carl, was er von den Ma-non h&#228;lt.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0111</td>
+        <td class="side">Frage Carl, was er &#252;ber den Skell denkt,[ST:n ]den du im Noctilum gefunden hast.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0121</td>
+        <td class="side">Sprich mit Carl &#252;ber Goetia.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0131</td>
+        <td class="side">Frage Carl, wie es ihm w&#228;hrend des Angriffs erging.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev010401_SEL0051</td>
+        <td class="side">Frage Carl, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev010401_SEL1011</td>
+        <td class="side">Bringe ein paar Neuigkeiten in Erfahrung.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev010401_SEL1021</td>
+        <td class="side">Frage Carl, was er von den Wrothianern h&#228;lt.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev010401_SEL1031</td>
+        <td class="side">Sprich mit Carl &#252;ber deinen Kampf mit dem Zu Pharg.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev010401_SEL1041</td>
+        <td class="side">Befrage Carl zu Laos Verrat.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev010401_SEL1051</td>
+        <td class="side">Sprich mit Carl &#252;ber die Schlacht[ST:n ]um den Lebensspeicher.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev010401_SEL1061</td>
+        <td class="side">Sprich mit Carl &#252;ber die Schlacht[ST:n ]um den Lebensspeicher.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0001</td>
+        <td class="side">Das Tor da dr&#252;ben? Das Osttor?[ST:n ]Das ist schon eine ganze Weile dicht, oder?[ST:n ]Extrem nervig, das Ganze![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0002</td>
+        <td class="side">Wie? Du willst wissen, warum man das Westtor[ST:n ]passieren kann, das Osttor aber nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0003</td>
+        <td class="side">Also, NLA ist ja blo&#223; die Wohneinheit eines Schiffs und[ST:n ]musste auf die Schnelle fertiggestellt werden. Leichter[ST:n ]Zugang ist dabei eben auf der Strecke geblieben.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0004</td>
+        <td class="side">Das Westtor war fr&#252;her der Durchgang zum[ST:n ]Wartungsbereich des Wei&#223;en Wals.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0005</td>
+        <td class="side">Wusstest du das etwa nicht? Wei&#223; doch jeder! Bist[ST:n ]wohl dieser Neuling in der Crew, stimmt’s oder hab ich[ST:n ]recht? Hey, willkommen in NLA![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0006</td>
+        <td class="side">Alter, ich freu mich auf meine n&#228;chste Mission wie auf[ST:n ]meine n&#228;chste Wurzelbehandlung. Komm, wir tauschen![ST:n ]...Nee, nur Spa&#223;![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0007</td>
+        <td class="side">Wei&#223;t du, ich w&#252;rde zwar wirklich gerne tauschen,[ST:n ]aber wenn Trevor rausfindet, dass ich mich um eine[ST:n ]Mission gedr&#252;ckt hab, bekomm ich richtig &#196;rger![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0008</td>
+        <td class="side">Strenger als Trevor geht’s nicht! Pass blo&#223; auf, dass[ST:n ]du’s dir mit dem nicht verscherzt![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0009</td>
+        <td class="side">Ernsthaft jetzt? Du bist gerade erst angekommen und[ST:n ]musst schon Datensonden installieren gehen?[ST:n ]Verdaaammt, Alter![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0010</td>
+        <td class="side">Also, wenn du mich fragst, geht man besser tags&#252;ber[ST:n ]raus. Und damit meine ich NUR tags&#252;ber![ST:n ]Glaub mir, das ist viel sicherer so.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0011</td>
+        <td class="side">Wenn’s dunkel wird, schnappst du dir am besten ein[ST:n ]freies Zelt oder einen Container an irgendeinem[ST:n ]Au&#223;enposten und h&#228;ltst bis zum Morgen die F&#252;&#223;e still.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0012</td>
+        <td class="side">Das ist kein Scherz! Wenn du dich nachts drau&#223;en[ST:n ]verl&#228;ufst, siehst du die Sonne wahrscheinlich nie wieder![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0013</td>
+        <td class="side">Ich h&#246;r wohl nicht recht! Du hast bei deinem allerersten[ST:n ]Einsatz direkt eine Datensonde installiert und so[ST:n ]nebenbei auch noch einen Tyrannen erledigt?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0014</td>
+        <td class="side">Heiliger Strohsack! Du machst echt ernst, he?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0015</td>
+        <td class="side">Oh Mann, das wird super, dich hier zu haben! Ich hab[ST:n ]n&#228;mlich null Bock auf solchen Kram![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0016</td>
+        <td class="side">Alter, ich hab so eine Stinkwut auf Trevor. St&#228;ndig[ST:n ]kommandiert er alle rum! Neulich hat er mich doch[ST:n ]tats&#228;chlich allein auf irgendeinen Jagdeinsatz geschickt![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0017</td>
+        <td class="side">Und als N&#228;chstes will er mich auf einen superstressigen[ST:n ]Einsatz irgendwo in der Pampa schicken, wo wir fast[ST:n ]noch nichts erforscht haben.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0018</td>
+        <td class="side">Mann, was w&#228;re das jetzt gut, wenn jemand dorthin[ST:n ]gehen und in Primordia eine Datensonde installieren[ST:n ]w&#252;rde... Boah, w&#228;r das gut.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0019</td>
+        <td class="side">Zum Beispiel [ST:Gender p1=dieser eine Neue p2=diese eine Neue ], [ST:Gender p1=der p2=die ] gerade in aller[ST:n ]Munde ist, weil [ST:Gender p1=er p2=sie ] &#252;berall Sonden installiert, als w&#228;r’s[ST:n ]nichts? [ST:Gender p1=Der p2=Die ] k&#246;nnte das doch mal machen.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0020</td>
+        <td class="side">Hab geh&#246;rt, dass deine Truppe f&#252;r Nelsons Team[ST:n ]diesen Sucheinsatz &#252;bernimmt. Pass blo&#223; auf dich[ST:n ]auf da drau&#223;en, [ST:Gender p1=Alter! p2=okay? ][ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0021</td>
+        <td class="side">Das hast du zwar schon mal geh&#246;rt, aber es ist extrem[ST:n ]wichtig, dass du tags&#252;ber reist. Denk dran, wenn du[ST:n ]unerforschte Gebiete betrittst.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0022</td>
+        <td class="side">Wenn’s zu dunkel wird, um weiterzugehen, dann ruh[ST:n ]dich einfach an einem Au&#223;enposten aus.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0023</td>
+        <td class="side">Au&#223;enposten sind echt saun&#252;tzlich! Sie sind hilfreiche[ST:n ]Orientierungshilfen. Au&#223;erdem kann man mal entspannt[ST:n ]ein Nickerchen einlegen, ohne sich Sorgen zu machen.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0024</td>
+        <td class="side">Nee, oder? Das kann doch nicht dein Ernst sein! Hast[ST:n ]du echt diese Prone-Festung plattgemacht? Heftig, Alter![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0025</td>
+        <td class="side">Oh Mann, was du schon alles gemacht hast! Du bist[ST:n ]doch noch gar nicht so lange hier![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0026</td>
+        <td class="side">...Ah, ich will dich aber nicht aufhalten. Du musst[ST:n ]sicher noch deinen Bericht schreiben, oder? Also[ST:n ]schnellstens ins Quartier[ST:Gender p1=, Alter! p2=! ] Auf geht’s![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0027</td>
+        <td class="side">Ich glaub, du bist [ST:Gender p1=der p2=die ] erste BLADE, [ST:Gender p1=der p2=die ] es schafft, die[ST:n ]Erwartungen vom Vandham zu erf&#252;llen! Oder... tun das[ST:n ]vielleicht alle und ich bin die einzige Entt&#228;uschung?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0028</td>
+        <td class="side">Boah, deine n&#228;chste Mission ist im Noctilum?[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0029</td>
+        <td class="side">Wenn das so ist, solltest du wohl das Westtor im[ST:n ]Industriegebiet nehmen. Das geht am schnellsten.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0030</td>
+        <td class="side">Vor dem Blade-Turm kannst du den Transporter[ST:n ]ins Industriegebiet nehmen. So bist du im[ST:n ]Handumdrehen da![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0031</td>
+        <td class="side">Nord&#246;stlich von NLA gibt’s irgendwann nur noch[ST:n ]Ein&#246;de.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0032</td>
+        <td class="side">Mira ist echt total fertig! Ich komm nicht klar! Du l&#228;ufst[ST:n ]rum und auf einmal nur noch W&#252;ste. Oder du stehst[ST:n ]pl&#246;tzlich im Wald. Was geht mit diesem Planeten ab?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0033</td>
+        <td class="side">Hier gibt’s nicht so ’n Mittelding wie auf der Erde![ST:n ]Keine &#220;berg&#228;nge hier. Alles so pl&#246;tzlich![ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0034</td>
+        <td class="side">Da fragt man sich doch, wie sich die Kontinente auf[ST:n ]Mira eigentlich gebildet haben.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0035</td>
+        <td class="side">Aus heiterem Himmel taucht da dieses Riesenschiff &#252;ber[ST:n ]uns auf und lauter breit grinsende Ma-non glotzen[ST:n ]raus. Jetzt hab ich echt jeden Mist gesehen![ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0036</td>
+        <td class="side">Und dann latschen die hier auch noch durch die Stadt,[ST:n ]quatschen mit den Leuten, als w&#228;r nichts gewesen, und[ST:n ]fressen uns die ganze Pizza weg.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0037</td>
+        <td class="side">Als w&#228;r die Stadt auf einmal zum Leben erwacht. Ich[ST:n ]meine, vorher war’s echt ruhig, so ohne Kinder, also[ST:n ]ist’s schon ganz nett, die Ma-non hier zu haben.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0038</td>
+        <td class="side">Aber klar, wir nehmen alle Xenos hier auf, solange DU[ST:n ]sie gerettet hast, egal, was f&#252;r welche das sind![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0039</td>
+        <td class="side">Du meinst dieses Ding, das sie vor Kurzem hier[ST:n ]angeschleppt haben. Geradezu mit Samthandschuhen[ST:n ]haben die das angefasst. Hast du das nicht gefunden?[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0040</td>
+        <td class="side">Schon ’ne beachtliche Leistung! So was zu finden und in[ST:n ]die Stadt zu bringen.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0041</td>
+        <td class="side">Denkst du, sie verwenden das, um neue Skell-Modelle[ST:n ]zu entwickeln?[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0042</td>
+        <td class="side">Kann mir eigentlich auch egal sein! Ich werd die Dinger[ST:n ]eh nicht steuern, ich hab ja nicht mal ’ne Lizenz.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0043</td>
+        <td class="side">Ich frag mich echt, warum diese Tintenfisch-Tante so viel[ST:n ]&#252;ber uns Menschen wei&#223;.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0044</td>
+        <td class="side">Vielleicht haben die Ganglion ja einen BLADE gefangen[ST:n ]genommen und verh&#246;rt. Oder sie haben die Infos aus[ST:n ]einem zerst&#246;rten Mimoiden herausbekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0045</td>
+        <td class="side">Egal, ich will hier nicht den Moralapostel spielen! Wenn[ST:n ]sie MIR mit Folter drohten, w&#252;rde ich nach ein paar[ST:n ]Sekunden alles ausspucken, was ich wei&#223;.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0046</td>
+        <td class="side">Als Interceptor ist es meine Pflicht, mein Leben f&#252;r die[ST:n ]Sicherheit von NLA zu riskieren.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0047</td>
+        <td class="side">Das ist zumindest die offizielle Version. Aber ich will[ST:n ]dich nicht anl&#252;gen. Sobald es gef&#228;hrlich wurde, hab ich[ST:n ]mich aus dem Staub gemacht und im Hangar versteckt.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0048</td>
+        <td class="side">Als der Feind mir hinterherkam, dachte ich, es w&#228;r um[ST:n ]mich geschehen. Doch die haben sich nur diesen Skell[ST:n ]geschnappt und sich dann wieder verdr&#252;ckt.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0049</td>
+        <td class="side">Ich dachte, da unten w&#228;r ich sicher, aber irgendwie[ST:n ]wurde der Hangar mitten im Gefecht auf einmal gar[ST:n ]nicht mehr verteidigt.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0050</td>
+        <td class="side">Ist doch klar, dass der Skell geklaut wird, wenn wir die[ST:n ]Verteidigung vernachl&#228;ssigen! Wenn da was Wichtiges[ST:n ]drin ist, sollten wir uns halt mal zusammenrei&#223;en.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0051</td>
+        <td class="side">Ach, zum Teufel! Ich h&#228;tte ja auch mehr tun m&#252;ssen. Tut[ST:n ]mir echt leid! Aber keine Angst, ich hab daf&#252;r von[ST:n ]Trevor schon mein Fett wegbekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0072</td>
+        <td class="side">Dank deiner Hilfe st&#228;nkert Trevor jetzt weniger rum[ST:n ]als vorher. Neulich hatte er ausnahmsweise auch mal[ST:n ]nette Worte f&#252;r mich &#252;brig![ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0073</td>
+        <td class="side">Trotzdem, Mann, das st&#246;&#223;t mir immer noch sauer auf.[ST:n ]Auch wenn es nur irgendwelche einheimischen Viecher[ST:n ]waren, M&#252;tter mit Kindern bringt man doch nicht um![ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0074</td>
+        <td class="side">Wahrscheinlich hab ich einfach nicht das Zeug zum[ST:n ]Interceptor.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0075</td>
+        <td class="side">Ich sag’s dir, ich w&#252;nschte, ich w&#228;r wie du! Einfach[ST:n ]alles niederm&#228;hen, was sich mir in den Weg stellt.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0076</td>
+        <td class="side">Ich hab die Berichte &#252;ber deine K&#228;mpfe mit den[ST:n ]Wrothianern gelesen. Die schienen doch halbwegs[ST:n ]anst&#228;ndige Typen zu sein![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0077</td>
+        <td class="side">Verglichen mit anderen Xenos da drau&#223;en fand ich die[ST:n ]nicht so furchterregend. Aber der erste Eindruck[ST:n ]t&#228;uscht nat&#252;rlich oft.[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0078</td>
+        <td class="side">Der Nopon, mit dem du immer rumh&#228;ngst,[ST:n ]nennt sie ja „Miezlinge“.[ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0079</td>
+        <td class="side">Ich finde zwar, sie sehen mehr wie Hunde aus,[ST:n ]aber was wei&#223; ich schon?[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0080</td>
+        <td class="side">Wir sind dir echt einiges schuldig! Ernsthaft![ST:n ]Vielen Dank![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0081</td>
+        <td class="side">Nicht auszudenken, was h&#228;tte passieren k&#246;nnen, wenn[ST:n ]es dieser riesige Mech nach NLA geschafft h&#228;tte.[ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0082</td>
+        <td class="side">Buuumm! Dagegen h&#228;tte der vorherige Angriff alt[ST:n ]ausgesehen.[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0083</td>
+        <td class="side">Du bist echt [ST:Gender p1=mein Held p2=meine Heldin ]![ST:n ]Quatsch, du bist [ST:Gender p1=UNSER Held p2=UNSERE Heldin ]![ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0084</td>
+        <td class="side">Damals, als NLA angegriffen wurde, war Lao daf&#252;r[ST:n ]zust&#228;ndig, den Gesperrten Hangar zu bewachen, oder?[ST:n ]Und mittendrin hat er uns einfach h&#228;ngen lassen?[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0085</td>
+        <td class="side">Das hat er bestimmt absichtlich getan, he?[ST:n ]Ich hab schon so einige Ger&#252;chte &#252;ber ihn geh&#246;rt...[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0086</td>
+        <td class="side">Auf jeden Fall h&#228;tten sie jemand besseres als mich ans[ST:n ]Steuer dieses Teils setzen k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0087</td>
+        <td class="side">Trevor hat mir ja schon gesagt, dass es[ST:n ]Zeitverschwendung ist, sich &#252;ber so was[ST:n ]den Kopf zu zerbrechen.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0088</td>
+        <td class="side">Aber ich komm einfach nicht aus diesem Tief raus,[ST:n ]verstehst du? Alter, ich bin sooo erb&#228;rmlich![ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0089</td>
+        <td class="side">Die ganze Zeit hab ich zugesehen, wie du dich[ST:n ]abrackerst, w&#228;hrend ich mich gerade so durch ein paar[ST:n ]Missionen st&#252;mper, damit Trevor mich in Ruhe l&#228;sst.[ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0090</td>
+        <td class="side">Erst jetzt erkenne ich meine Fehler. Ich werd vielleicht[ST:n ]nie [ST:Gender p1=ein Held p2=eine Heldin ] wie du, aber ab jetzt werd ich mich[ST:n ]nicht mehr dr&#252;cken, sondern k&#228;mpfen![ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0091</td>
+        <td class="side">Sobald ich meine Ausr&#252;stung zusammen hab, geht’s auf[ST:n ]zum Lebensspeicher! Wir sehen uns dort! Und du wirst[ST:n ]mich nicht wiedererkennen![ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0092</td>
+        <td class="side">Und? Hast du mich in Aktion gesehen?[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0093</td>
+        <td class="side">...Wo ich war? Was ist das denn f&#252;r ’ne Frage?![ST:n ]Ich hab mir f&#252;r euch alle den Hintern aufgerissen![ST:wait ]</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0094</td>
+        <td class="side">Ah, schon gut! Das Wichtigste ist, dass der[ST:n ]Lebensspeicher in Sicherheit ist und du es in einem[ST:n ]St&#252;ck nach Hause geschafft hast.[ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0095</td>
+        <td class="side">Hey, was denkst du? Wann lassen sie uns zur&#252;ck in[ST:n ]unsere alten K&#246;rper? Ich kann’s kaum erwarten, es[ST:n ]mir darin wieder gem&#252;tlich zu machen.[ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0096</td>
+        <td class="side">Hey! Vielen Dank f&#252;r deine Hilfe bei dieser Sache mit[ST:n ]den Suiden-Schweinchen![ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0097</td>
+        <td class="side">Ich hab geh&#246;rt, dass hinterher ein viel gr&#246;&#223;erer Suid[ST:n ]da auftauchte, wo die Schweinchen waren.[ST:wait ]</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0098</td>
+        <td class="side">Meinst du, das k&#246;nnte das Elterntier gewesen sein?[ST:n ]Haben diese Suiden am Ende nur auf ihre Mama[ST:n ]gewartet?[ST:wait ]</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0099</td>
+        <td class="side">Ist doch echt ’n Ding, oder? Wir haben wirklich was[ST:n ]geleistet! Du wei&#223;t schon, Naturschutz und so![ST:wait ]</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0100</td>
+        <td class="side">Trevor hat mich erst mal angebr&#252;llt und als weinerlichen[ST:n ]Hippie beschimpft. Ich finde trotzdem, dass wir das[ST:n ]Richtige getan haben.[ST:wait ]</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td>tev010401_MSG0101</td>
+        <td class="side">Ich meine, ich wei&#223;, wie es ausgesehen haben muss,[ST:n ]aber wir haben diesen kleinen Rackern das Leben[ST:n ]gerettet. Also, ich f&#252;hl mich total gel&#228;utert![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev080404_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0001</td>
+        <td class="side">He comprado las armas, Madre, pero...[ST:n ]&#191;Y los dem&#225;s? &#191;D&#243;nde est&#225; todo el mundo?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0002</td>
+        <td class="side">&#161;Ser la jefa de una cueva vac&#237;a no es exactamente[ST:n ]la oportunidad laboral que ten&#237;a en mente![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0003</td>
+        <td class="side">&#161;Oh! &#161;Deja de lloriquear![ST:n ]&#191;Con qui&#233;n te crees que est&#225;s hablando?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0004</td>
+        <td class="side">&#161;Soy Fortun, protectora del conocimiento de la galaxia![ST:n ]Cualquier d&#237;a de estos mis hijas se reunir&#225;n aqu&#237;,[ST:n ]&#161;tremendamente preocupadas por su querida madre![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0005</td>
+        <td class="side">&#161;Y entonces usaremos las armas que has reunido[ST:n ]para arrasar Nueva Los &#193;ngeles! &#161;Ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0006</td>
+        <td class="side">Erio y [ST:playername ] [ST:n ]pagar&#225;n cara la humillaci&#243;n...[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0007</td>
+        <td class="side">Qu&#233;... &#161;No! &#161;&#191;C&#243;mo puedes estar aqu&#237;?![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev080404_JNK0010</td>
+        <td class="side">Explicar</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev080404_SEL0011</td>
+        <td class="side">Dile a Fortun que la has seguido hasta aqu&#237;.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev080404_JNK0020</td>
+        <td class="side">Gritar</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev080404_SEL0021</td>
+        <td class="side">Jura con rabia que vas a desbaratar el plan de Fortun.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0008</td>
+        <td class="side">&#161;Muy inteligente por tu parte! Pero es totalmente in&#250;til.[ST:n ]Simplemente decid&#237; venir hasta aqu&#237;[ST:n ]a tomarme unas peque&#241;as vacaciones.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0009</td>
+        <td class="side">No tienes nada de qu&#233; preocuparte.[ST:n ]&#191;Por qu&#233; no te das prisa y vuelves a tu ciudad?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0010</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0011</td>
+        <td class="side">&#161;Ahora! Lyvia, &#161;[ST:Gender p1=M&#225;talo p2=M&#225;tala ]! [ST:n ]&#161;S&#233; que puedes hacerlo![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0012</td>
+        <td class="side">Grita cuanto quieras.[ST:n ]&#161;No te tengo miedo![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0013</td>
+        <td class="side">&#161;Oc&#250;pate de esto, Lyvia! &#161;[ST:Gender p1=M&#225;talo p2=M&#225;tala ] ahora mismo![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0014</td>
+        <td class="side">&#161;&#191;Qu&#233;?! &#161;Ni hablar![ST:n ]Yo no puedo derrotar a [ST:playername ]...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0015</td>
+        <td class="side">&#161;Vamos! L&#237;brame de ese fastidio[ST:n ]y &#161;dejar&#233; que gobiernes toda NLA![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0016</td>
+        <td class="side">Ahora, &#161;ve! O retirar&#233; mi promesa[ST:n ]de hacerte reina de las definian.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0017</td>
+        <td class="side">&#161;&#191;Qu&#233;?! Oh, &#161;vale! Creo que no tengo elecci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0018</td>
+        <td class="side">&#161;Espera! &#161;Tiempo muerto![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0019</td>
+        <td class="side">Mira, todo lo que he hecho ha sido reunir[ST:n ]unas cuantas armas porque Madre me dijo[ST:n ]que podr&#237;a ser la l&#237;der de un ej&#233;rcito definian.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0020</td>
+        <td class="side">Pero mi intenci&#243;n nunca fue conquistar NLA.[ST:n ]&#161;Ni haceros da&#241;o, por supuesto![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0021</td>
+        <td class="side">&#161;Lyvia! &#191;Y te atreves a considerarte mi hija?[ST:n ]&#161;Luchar&#225;s por m&#237; hasta tu &#250;ltimo aliento![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0022</td>
+        <td class="side">Ahora, mata a [ST:playername ].[ST:n ]&#161;Despu&#233;s podremos asaltar juntas NLA![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0023</td>
+        <td class="side">&#161;Ni hablar! Y deja de enga&#241;arte, Madre.[ST:n ]No va a venir ninguna de las otras hermanas.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0024</td>
+        <td class="side">Las definian no seremos m&#225;s tus esclavas.[ST:n ]Queremos ser aut&#233;nticas trabajadoras.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0025</td>
+        <td class="side">&#191;Puedes perdonarme, [ST:playername ]?[ST:n ]Te prometo que cortar&#233; toda relaci&#243;n con Madre.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev080404_JNK0030</td>
+        <td class="side">Perdonar</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev080404_SEL0031</td>
+        <td class="side">Muestra compasi&#243;n por Lyvia.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev080404_JNK0040</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev080404_SEL0041</td>
+        <td class="side">Dile a Lyvia que debe pagar por sus cr&#237;menes.</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0026</td>
+        <td class="side">&#161;Oh! &#161;Qu&#233; [ST:Gender p1=bueno p2=buena ] eres! &#161;Gracias![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0027</td>
+        <td class="side">&#161;Preferir&#237;a trabajar para alguien como t&#250;[ST:n ]en vez de para Madre![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0028</td>
+        <td class="side">Me voy de aqu&#237;. Y en cuanto a Madre,[ST:n ]tienes mi permiso para hacer lo que quieras con ella.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0029</td>
+        <td class="side">Bueno, no tengo elecci&#243;n. No quer&#237;a ejecutar[ST:n ]mi ataque definitivo, pero no tengo m&#225;s remedio que...[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0030</td>
+        <td class="side">&#161;Huuuuuir! &#161;Prometo no hacer lo que he hecho[ST:n ]nunca m&#225;s! Por favor, &#161;perd&#243;nameee![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0031</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0032</td>
+        <td class="side">De verdad, eres muy amable por haber venido[ST:n ]hasta aqu&#237; solo para buscarme.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0033</td>
+        <td class="side">&#161;Qu&#233; [ST:Gender p1=buen amigo p2=buena amiga ] eres! Ahora d&#233;monos prisa[ST:n ]en volver a NLA, &#161;nuestro hogar, dulce hogar![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev080404_JNK0050</td>
+        <td class="side">Destruir</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev080404_SEL0051</td>
+        <td class="side">Acaba con Fortun.</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev080404_JNK0060</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev080404_SEL0061</td>
+        <td class="side">Haz lo que pide Fortun y ll&#233;vala a NLA.</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0034</td>
+        <td class="side">&#161;Ey! Qu&#233;... &#161;No! &#161;Espera! &#161;Espera un segundo![ST:n ]Era broma, &#191;no lo ves? Je, je. Era solo una broma...[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0035</td>
+        <td class="side">Escucha, &#161;lo he hecho por ti![ST:n ]&#191;No te aburres ahora que Luxaar no est&#225;? &#191;Eh?[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0036</td>
+        <td class="side">&#161;Solo quer&#237;a animarte un poco![ST:n ]Ya sabes, &#161;como un regalo sorpresa especial![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0037</td>
+        <td class="side">&#161;Espera! &#161;No! &#161;Aaaaah![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0038</td>
+        <td class="side">Entiendo c&#243;mo te sientes, pero intenta contenerte.[ST:n ]Sea un monstruo o no, es mi madre.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0039</td>
+        <td class="side">Adem&#225;s, si algo hemos sacado en claro de todo esto,[ST:n ]es que ya no tiene poder sobre las definian. No pasa[ST:n ]nada por dejarla libre, no volver&#225; a dar problemas.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0040</td>
+        <td class="side">Me alegro de ver que tu microsc&#243;pico intelecto[ST:n ]puede entender la sabidur&#237;a de una soluci&#243;n pac&#237;fica.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0041</td>
+        <td class="side">Ahora, &#161;en marcha! Ll&#233;vame a esa cloaca[ST:n ]de ciudad a la que llamas hog...[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0042</td>
+        <td class="side">Parece que da igual los ajustes de actitud[ST:n ]que le hagamos, no tiene remedio.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0043</td>
+        <td class="side">Madre, esto es pat&#233;tico. [ST:n ]Con raz&#243;n las otras hermanas te abandonaron.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0044</td>
+        <td class="side">&#161;Mocosa insolente![ST:n ]&#161;&#191;Con qui&#233;n te crees que est&#225;s hablando?![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0045</td>
+        <td class="side">Con un pedazo de chatarra gritona[ST:n ]que, por desgracia, tambi&#233;n es mi madre.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0046</td>
+        <td class="side">Te vuelvo a deber una, [ST:playername ].[ST:n ]Me encargar&#233; de meter a Madre en vereda.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev080404_MSG0047</td>
+        <td class="side">Nos vemos en la ciudad.[ST:n ]No tardes mucho en pasarte a saludar, &#191;vale?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

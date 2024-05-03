@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev065401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0001</td>
+        <td class="side">Salut. Comment &#231;a se passe au travail ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0002</td>
+        <td class="side">D&#233;sol&#233; de te d&#233;ranger mais penses-tu pouvoir[ST:n ]me rendre un petiiit service ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0003</td>
+        <td class="side">C&#39;est une proposition assez int&#233;ressante[ST:n ]qui nous concerne tous les trois :[ST:n ]toi, moi et mon petit ami Clemons.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev065401_JNK0010</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev065401_SEL0011</td>
+        <td class="side">Ignorer Lara Nara en pensant que cela va tourner[ST:n ]au d&#233;sastre.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev065401_JNK0020</td>
+        <td class="side">&#201;couter</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev065401_SEL0021</td>
+        <td class="side">&#201;couter la proposition de Lara Nara.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0004</td>
+        <td class="side">Quoi ? Oh non non non ! Je pense que tu t&#39;es fait[ST:n ]une mauvaise id&#233;e de la chose.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0005</td>
+        <td class="side">J&#39;aurais pu mieux formuler ma requ&#234;te, c&#39;est vrai.[ST:n ]C&#39;est ma faute.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0006</td>
+        <td class="side">Je te propose un travail s&#233;rieux et rentable.[ST:n ]Tu ne regretteras pas de m&#39;avoir &#233;cout&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0007</td>
+        <td class="side">Mmh, je me disais bien que tu serais [ST:Gender p1=int&#233;ress&#233; p2=int&#233;ress&#233;e ].[ST:n ]C&#39;est difficile de dire non &#224; une beaut&#233;[ST:n ]comme Clemons, apr&#232;s tout.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0008</td>
+        <td class="side">Tu ne croirais m&#234;me pas ce qu&#39;on a fait[ST:n ]lorsqu&#39;on s&#39;est rencontr&#233;s ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0009</td>
+        <td class="side">Attends, pourquoi est-ce que tu soupires ?[ST:n ]&#199;a ne t&#39;int&#233;resse m&#234;me pas ? Pff.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0010</td>
+        <td class="side">La raison pour laquelle tu ne t&#39;int&#233;resses pas &#224; un bon[ST:n ]parti tel que moi m&#39;&#233;chappe compl&#232;tement.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0011</td>
+        <td class="side">Eh bien, apr&#232;s tout, chacun ses go&#251;ts.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0012</td>
+        <td class="side">Bref, c&#39;est en fait Clemons qui m&#39;a parl&#233;[ST:n ]de cette mission.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0013</td>
+        <td class="side">Et comme c&#39;est lui qui a trouv&#233; l&#39;info, je vais le laisser[ST:n ]t&#39;expliquer.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0014</td>
+        <td class="side">Salut. Je m&#39;appelle Clemons, comme il te l&#39;a d&#233;j&#224; dit.[ST:n ]Tu vois la forteresse du Ganglion au nord de la ville ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0015</td>
+        <td class="side">Des t&#233;moins disent qu&#39;ils y ont install&#233; une nouvelle[ST:n ]arme.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0016</td>
+        <td class="side">Mais le fait qu&#39;ils fassent &#231;a en secret plut&#244;t que[ST:n ]d&#39;en faire une d&#233;monstration de force est inqui&#233;tant.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0017</td>
+        <td class="side">&#199;a veut dire qu&#39;elle n&#39;est pas seulement &#224; caract&#232;re[ST:n ]dissuasif mais qu&#39;ils comptent s&#39;en servir, s&#251;rement[ST:n ]lorsque nous nous y attendrons le moins.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0018</td>
+        <td class="side">Ils ne savent pas encore que nous avons[ST:n ]cette info, nous avons au moins cet avantage.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0019</td>
+        <td class="side">Nous devons donc lancer une attaque surprise avant[ST:n ]qu&#39;ils ne lancent la leur, et le faire maintenant serait[ST:n ]la meilleure solution.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0020</td>
+        <td class="side">Avec un peu de chance, on pourra d&#233;truire[ST:n ]leur nouvelle arme et aussi la forteresse enti&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0021</td>
+        <td class="side">Mais cela ne sera possible que si nous agissons vite,[ST:n ]c&#39;est pourquoi nous avons besoin de toi.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0022</td>
+        <td class="side">Tu voiiis ? C’est clairement une proposition raisonnable.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0023</td>
+        <td class="side">Nous avons d&#233;j&#224; envoy&#233; une &#233;quipe, elle est l&#224;-bas[ST:n ]pour chercher un moyen de d&#233;truire leurs d&#233;fenses.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0024</td>
+        <td class="side">Toi, il faudrait que tu escortes une &#233;quipe scientifique[ST:n ]que l&#39;on envoie pour trouver de quelle sorte d&#39;arme[ST:n ]il s&#39;agit.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0025</td>
+        <td class="side">Ah ! L&#224;, tu vois ? Super fastoche. Alors rassemble tout[ST:n ]ton barda, parce qu&#39;on t&#39;y envoie aussi vite que[ST:n ]possible.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0026</td>
+        <td class="side">Comment ? R&#233;p&#232;te &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0027</td>
+        <td class="side">Attends, c&#39;est confirm&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0028</td>
+        <td class="side">Oh mon Dieu ! C&#39;est terrible ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0029</td>
+        <td class="side">Changement de plans, les enfants ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0030</td>
+        <td class="side">On a sous-estim&#233; la r&#233;sistance de leurs d&#233;fenses[ST:n ]et l&#39;&#233;quipe qui se trouvait l&#224;-bas a &#233;t&#233;... balay&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0031</td>
+        <td class="side">L&#39;envoi de l&#39;&#233;quipe scientifique est annul&#233;.[ST:n ]Mais je veux que toi, tu y ailles pour ramener[ST:n ]les survivants, pronto ![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0032</td>
+        <td class="side">J&#39;ai conscience que cette mission soit devenue assez[ST:n ]sinistre mais tu restes de la partie, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0033</td>
+        <td class="side">Clemons et moi devons nous concentrer sur la collecte[ST:n ]d&#39;informations, pour que tu puisses revenir aussi vite[ST:n ]que possible.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0034</td>
+        <td class="side">On compte sur toi. Bye bye ![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0035</td>
+        <td class="side">Je ne pense pas que ce soit la faute[ST:n ]de l&#39;&#233;quipe de rep&#233;rage...[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0036</td>
+        <td class="side">Il s&#39;est pass&#233; quelque chose. Une chose &#224; laquelle[ST:n ]on ne s&#39;attendait pas.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0037</td>
+        <td class="side">Alors, assure-toi d&#39;y aller en t&#39;attendant &#224; tout[ST:n ]et n&#39;importe quoi. T&#39;as compris ? Bien.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0038</td>
+        <td class="side">Notre &#233;quipe est toujours coinc&#233;e &#224; la forteresse[ST:n ]au nord de la ville. Bonne chance, [ST:Gender p1=mon ch&#233;ri p2=ma ch&#233;rie ].[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0039</td>
+        <td class="side">Content de te revoir, [ST:Gender p1=le h&#233;ros p2=l&#39;h&#233;ro&#239;ne ] ! Tu as fait du bon[ST:n ]boulot l&#224;-bas.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0040</td>
+        <td class="side">L&#39;agent du BLADE que tu as sauv&#233; est arriv&#233; avant toi.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0041</td>
+        <td class="side">Le fait qu&#39;il soit le seul &#224; &#234;tre revenu me peine[ST:n ]profond&#233;ment, mais au moins, il va bien.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0042</td>
+        <td class="side">Pour ce qui est de l&#39;op&#233;ration dans la forteresse nord,[ST:n ]il semble qu&#39;on nous ait pris pour des andouilles.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0043</td>
+        <td class="side">Clemons nous a vendus au Ganglion ! Sa fausse info[ST:n ]a conduit notre &#233;quipe dans une embuscade.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0044</td>
+        <td class="side">Il est en train d&#39;&#234;tre &#171; interrog&#233; &#187; par son sup&#233;rieur.[ST:n ]Et oui, je mets des guillemets.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0045</td>
+        <td class="side">Je n&#39;aurais jamais pens&#233; que Clemons soit un tra&#238;tre...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0046</td>
+        <td class="side">Mmh ? C&#39;est Suriella qui vient de passer ?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0047</td>
+        <td class="side">Tu la connais, non ? L&#39; &#171; auxiliaire &#187; de New L.A. ?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0048</td>
+        <td class="side">Aider les autres semble &#234;tre sa... passion.[ST:n ]Et puisqu&#39;on a toujours besoin d&#39;aide,[ST:n ]on a toujours quelque chose &#224; lui faire faire.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0049</td>
+        <td class="side">Parfois, on a l&#39;impression de profiter de sa gentillesse,[ST:n ]mais &#231;a n&#39;a pas l&#39;air de la d&#233;ranger.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0050</td>
+        <td class="side">Mais je me demande bien pourquoi elle est si press&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0051</td>
+        <td class="side">Est-ce que vous avez vu quelqu&#39;un passer par ici ?[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0052</td>
+        <td class="side">Mmh-mmh. Suriella est pass&#233;e comme une furie...[ST:n ]Oh, regarde ! Elle est juste derri&#232;re toi ![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0053</td>
+        <td class="side">C&#39;est trop bizarre. Je n&#39;ai pas d&#251; te voir quand[ST:n ]tu es repass&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0054</td>
+        <td class="side">Je ne suis pas repass&#233;e ! Ce n&#39;&#233;tait pas moi[ST:n ]que tu as vue ![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0055</td>
+        <td class="side">C&#39;est un alien qui se fait passer pour moi ![ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0056</td>
+        <td class="side">Quoi ? Attends, quoi ?![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0057</td>
+        <td class="side">Et le binz de la fausse info au sujet de la forteresse[ST:n ]du Ganglion est aussi sa faute ! C&#39;est une Illusiane ![ST:n ]Elle peut changer d&#39;apparence ![ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0058</td>
+        <td class="side">J&#39;interrogeais Clemons quand... Enfin, je croyais[ST:n ]interroger Clemons quand cette Illusiane a r&#233;v&#233;l&#233;[ST:n ]sa vraie nature.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0059</td>
+        <td class="side">Maintenant, elle se fait passer pour Suriella pour tenter[ST:n ]de s&#39;&#233;chapper ![ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0060</td>
+        <td class="side">Alors, le Clemons qui nous a trahi &#233;tait un... faux ?[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0061</td>
+        <td class="side">Voil&#224;. Du coup, on a boucl&#233; New L.A., des agents[ST:n ]du BLADE en Skells ont &#233;t&#233; post&#233;s &#224; toutes les sorties.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0062</td>
+        <td class="side">C&#39;est physiquement impossible pour elle de s&#39;&#233;chapper.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0063</td>
+        <td class="side">Nous devons la retrouver maintenant.[ST:n ]Et franchement, on aurait besoin d&#39;aide.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0064</td>
+        <td class="side">Une x&#233;no m&#233;tamorphe, hein ? Tu parles[ST:n ]d&#39;une promenade de sant&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0065</td>
+        <td class="side">Si je peux faire quoi que ce soit, dites-le-moi.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0066</td>
+        <td class="side">Tu restes l&#224;, ma ch&#233;rie.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0067</td>
+        <td class="side">Mais...[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0068</td>
+        <td class="side">Cette chose se fait passer pour toi, poulette ![ST:n ]Si tu commences &#224; te promener &#224; droite[ST:n ]&#224; gauche, tu vas nous g&#234;ner.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0069</td>
+        <td class="side">Alors, laisse-nous faire, d&#39;accord ? On s&#39;en occupe.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0070</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0071</td>
+        <td class="side">Allez. On a une Illusiane &#224; attraper ![ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0072</td>
+        <td class="side">On sait que cette vip&#232;re est quelque part en ville,[ST:n ]et qu&#39;elle avait l&#39;apparence de Suriella quand[ST:n ]on l&#39;a vue pour la derni&#232;re fois.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0073</td>
+        <td class="side">Je commence par le quartier administratif.[ST:n ]Va voir dans la zone commerciale.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0074</td>
+        <td class="side">Quelle pagaille, vraiment...[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0075</td>
+        <td class="side">Je suis s&#251;r que cette crapule, qui s&#39;est fich&#233;e de nous,[ST:n ]doit bien rire maintenant.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0076</td>
+        <td class="side">Je jure que quand je la trouverai, elle aura mal ![ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev065401_MSG0077</td>
+        <td class="side">Allez. On a une x&#233;no m&#233;tamorphe &#224; attraper. Elle doit[ST:n ]toujours avoir l&#39;apparence de Suriella.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

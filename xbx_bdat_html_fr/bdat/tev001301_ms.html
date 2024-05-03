@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001301_MSG0001</td>
+        <td class="side">Je suis si reconnaissante envers le BLADE, notamment[ST:n ]pour m&#39;avoir fourni cette maison splendide.[ST:n ]Je ne m&#233;rite pas tant de g&#233;n&#233;rosit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001301_MSG0002</td>
+        <td class="side">Je cherche encore la cause que je pourrais servir[ST:n ]au sein de cette belle ville.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001301_MSG0003</td>
+        <td class="side">Mais je prie pour que vous me donniez une chance[ST:n ]de payer ma dette envers le BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1001</td>
+        <td class="side">Bien que je doive admettre que je n&#39;ai pas encore &#233;t&#233;[ST:n ]capable de pleinement surmonter ma peur du combat...[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1002</td>
+        <td class="side">Je suis fi&#232;re de vous annoncer que je suis officiellement[ST:n ]une nouvelle recrue du BLADE ! Peut-&#234;tre que vous[ST:n ]voudrez bien me laisser rejoindre votre &#233;quipe ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0011</td>
+        <td class="side">Ajouter Celica &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0021</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Celica pour le moment.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1003</td>
+        <td class="side">Je ferai tout ce qui est en mon pouvoir pour vous[ST:n ]aider. Et si &#231;a ne suffit pas, je ferai en sorte de[ST:n ]ne pas vous tra&#238;ner dans les pattes.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1004</td>
+        <td class="side">En tant que membre du BLADE, je suis d&#233;termin&#233;e[ST:n ]&#224; servir New L.A., alors n&#39;h&#233;sitez pas &#224; utiliser[ST:n ]mes services. Je suis &#224; votre enti&#232;re disposition.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1009</td>
+        <td class="side">J&#39;ai ou&#239; dire que l&#39;humanit&#233; ne pourra pas survivre sans[ST:n ]le noyau de l&#39;arche de vie que vous recherchez.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1010</td>
+        <td class="side">Je ne sais pas si je vous serai d&#39;une quelconque aide[ST:n ]dans cette recherche, mais je suis &#224; votre enti&#232;re[ST:n ]disposition.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1011</td>
+        <td class="side">Gr&#226;ce &#224; l&#39;humanit&#233;, Rock et moi-m&#234;me avons trouv&#233;[ST:n ]un foyer. Donnez-moi une chance de payer cette dette[ST:n ]en me permettant de vous accompagner.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0110</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0111</td>
+        <td class="side">Ajouter Celica &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0120</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0121</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Celica pour le moment.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1012</td>
+        <td class="side">Merci, [ST:playername ]. Je suis &#224; vos ordres.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1013</td>
+        <td class="side">Je peux vous assurer que je sais me battre[ST:n ]si n&#233;cessaire. Si jamais vous vous trouvez &#224; court[ST:n ]de bras, permettez-moi de vous aider.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1018</td>
+        <td class="side">J&#39;imagine qu&#39;une attaque du commandement central du[ST:n ]Ganglion nous mettrait face &#224; face avec des ennemis[ST:n ]plus forts que tous ceux que nous avons pu rencontrer.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1019</td>
+        <td class="side">J&#39;ai quelques appr&#233;hensions &#224; ce sujet et j&#39;imagine que[ST:n ]vous aussi. Mais si vous souhaitez m&#39;emmener avec[ST:n ]vous, sachez que je suis pr&#234;te &#224; faire de mon mieux.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0130</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0131</td>
+        <td class="side">Ajouter Celica &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0140</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0141</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Celica pour le moment.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1020</td>
+        <td class="side">J&#39;aimerais dire que je tremble d&#39;excitation, mais je dois[ST:n ]bien admettre que c&#39;est de la peur. Cela dit, avec vous[ST:n ]aux commandes, j&#39;ai toute confiance en notre r&#233;ussite.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1021</td>
+        <td class="side">Je suis persuad&#233;e que vous allez r&#233;ussir.[ST:n ]Mais faites attention &#224; vous.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1026</td>
+        <td class="side">L&#39;humanit&#233; a fait don de deux pr&#233;cieux tr&#233;sors &#224; Rock[ST:n ]et moi-m&#234;me : des amis et un foyer.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1027</td>
+        <td class="side">Et nous avons tous les deux convenu qu&#39;il est de notre[ST:n ]devoir d&#39;aider l&#39;humanit&#233; &#224; retrouver son tr&#233;sor[ST:n ]le plus cher, en guise de remerciement.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1028</td>
+        <td class="side">Permettez-moi de vous aider dans votre mission[ST:n ]pour retrouver le noyau de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0150</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0151</td>
+        <td class="side">Ajouter Celica &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0160</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0161</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Celica pour le moment.</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1029</td>
+        <td class="side">En tant qu&#39;amie et coll&#232;gue, je vous servirai[ST:n ]avec loyaut&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1030</td>
+        <td class="side">Dans ce cas, Rock et moi-m&#234;me resterons ici dans[ST:n ]l&#39;attente des nouvelles de votre retour victorieux.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1035</td>
+        <td class="side">J&#39;ai r&#233;cemment achet&#233; &#224; L un grand hamac pour Rock.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1036</td>
+        <td class="side">Mais ce matin, alors qu&#39;il &#233;tait encore tout endormi,[ST:n ]il en est tomb&#233;. C&#39;&#233;tait plut&#244;t... amusant.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1037</td>
+        <td class="side">Ah, mais tr&#234;ve de bavardages. S&#39;il y a quoi que[ST:n ]ce soit que je puisse faire pour vous aider,[ST:n ]vous n&#39;avez qu&#39;&#224; me le demander.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0170</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0171</td>
+        <td class="side">Ajouter Celica &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev001301_JNK0180</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev001301_SEL0181</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Celica pour le moment.</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1038</td>
+        <td class="side">Et quelle est donc la mission qui nous attend[ST:n ]en cette belle journ&#233;e ? Quelle que soit la t&#226;che,[ST:n ]je ne vous d&#233;cevrai pas.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev001301_MSG1039</td>
+        <td class="side">Dans ce cas je vais passer une journ&#233;e tranquille[ST:n ]avec Rock.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

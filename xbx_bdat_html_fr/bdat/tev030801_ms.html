@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0010</td>
+        <td class="side">Interroger[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0011</td>
+        <td class="side">Interroger Sostenasa sur son travail.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0021</td>
+        <td class="side">Demander &#224; Sostenasa s&#39;il a entendu[ST:n ]des rumeurs int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0031</td>
+        <td class="side">Demander &#224; Sostenasa des informations[ST:n ]sur l&#39;assurance Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0041</td>
+        <td class="side">Demander &#224; Sostenasa des astuces[ST:n ]pour le combat en Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0001</td>
+        <td class="side">Notre vaisseau fournit des v&#234;tements, de la nourriture[ST:n ]et un logement &#224; la majorit&#233; des Ma-nons, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0002</td>
+        <td class="side">Notre seul travail est donc de nous occuper[ST:n ]de la maintenance des machines, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0003</td>
+        <td class="side">Nous ne nous pr&#233;occupons pas du travail domestique[ST:n ]dont vous, les humains, semblez si friands ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0008</td>
+        <td class="side">Que dire ? Comme toujours, vous cassez tout ce que[ST:n ]vous touchez et nous devons rattraper vos b&#234;tises,[ST:n ]non ? Oui ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0009</td>
+        <td class="side">Enfin, c&#39;est parce que vous &#234;tes sur le terrain,[ST:n ]&#224; lutter pour survivre, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0010</td>
+        <td class="side">Nous vous avons fait une promesse, non ?[ST:n ]Vous ab&#238;mez votre mat&#233;riel, et nous, nous le r&#233;parons.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0011</td>
+        <td class="side">Ce n&#39;est pas un travail facile, mais Fozimure et moi[ST:n ]sommes pr&#234;ts &#224; retrousser nos manches, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0018</td>
+        <td class="side">Si vous deviez payer les r&#233;parations &#224; chaque fois[ST:n ]que vous d&#233;truisez un Skell, vous seriez compl&#232;tement[ST:n ]ruin&#233;s apr&#232;s un seul combat, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0019</td>
+        <td class="side">Voil&#224; pourquoi la plupart des Skells sont assur&#233;s,[ST:n ]voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0020</td>
+        <td class="side">Tant que votre assurance n&#39;a pas expir&#233;,[ST:n ]nous nous occuperons de r&#233;parer[ST:n ]gratuitement vos Skells, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0021</td>
+        <td class="side">Cela ne veut pas dire que vous pouvez faire n&#39;importe[ST:n ]quoi. Le BLADE doit faire beaucoup de sacrifices[ST:n ]pour pouvoir payer ces assurances, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0022</td>
+        <td class="side">Je pense que vous ne devriez pas oublier que piloter[ST:n ]un Skell ne vous rend pas invincible, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0023</td>
+        <td class="side">Peut-&#234;tre avez-vous d&#233;j&#224; vu la facture de r&#233;paration[ST:n ]d&#39;un Skell ? Ce n&#39;est pas donn&#233;, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0024</td>
+        <td class="side">Si vous sentez que votre Skell ne va pas tenir,[ST:n ]songez plut&#244;t &#224; en descendre pour combattre[ST:n ]&#224; pied, pour fuir, ou ou autre ? Non ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0025</td>
+        <td class="side">Je pense que si les humains &#233;taient plus raisonnables,[ST:n ]nous pourrions peut-&#234;tre prendre un peu de repos,[ST:n ]non ? Oui ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0010</td>
+        <td class="side">tev030801_JNK0010</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0011</td>
+        <td class="side">tev030801_SEL0011</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0020</td>
+        <td class="side">tev030801_JNK0020</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev030801_SEL1011</td>
+        <td class="side">Demander &#224; Sostenasa s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0012</td>
+        <td class="side">Vous ne me semblez pas comme ces pilotes d&#233;c&#233;r&#233;br&#233;s[ST:n ]qui s&#39;&#233;crasent toujours &#224; l&#39;atterrissage, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0013</td>
+        <td class="side">Mais, euh, cela ne veut pas dire que j&#39;appr&#233;cie[ST:n ]les humains. Pas le moins du monde.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0014</td>
+        <td class="side">Vous consid&#233;rez que tout est acquis et facilement[ST:n ]rempla&#231;able, n&#39;est-il pas ? Vous n&#39;&#234;tes pas capables[ST:n ]d&#39;appr&#233;cier les choses &#224; leur juste valeur.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0015</td>
+        <td class="side">Pour les Ma-nons qui fabriquent et entretiennent[ST:n ]des machines depuis qu&#39;ils sont tout petits,[ST:n ]vous paraissez totalement superficiels, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0016</td>
+        <td class="side">Pourtant ce mollasson de Fozimure continue d&#39;accepter[ST:n ]tout ce que vous lui demandez, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0017</td>
+        <td class="side">Donc peut-&#234;tre que vous devriez demander &#224; vos amis[ST:n ]du BLADE de faire preuve de plus de respect envers[ST:n ]leurs machines et les m&#233;caniciens, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev055803_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0001</td>
+        <td class="side">Noborata et Tikotiko ne font que tra&#238;ner toute[ST:n ]la journ&#233;e. Ils ne cherchent jamais de travail. Grr ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0002</td>
+        <td class="side">Moi ? Je vais sur la place tous les jours. Je discute[ST:n ]pour en apprendre plus des autres esp&#232;ces.[ST:n ]&#199;a vous pose un probl&#232;me ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0003</td>
+        <td class="side">D&#233;sol&#233;e, je suis occup&#233;e. J&#39;apprends &#224; l&#39;Orph&#233;en &#224;[ST:n ]dompter des b&#234;tes.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0004</td>
+        <td class="side">Mais je pense que ce n&#39;est pas possible pour quelqu&#39;un[ST:n ]qui ressemble tellement &#224; un... insecte ? &#192; de la[ST:n ]nourriture ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0005</td>
+        <td class="side">Un Prone pourrait dompter une b&#234;te de cette taille[ST:n ]sans probl&#232;me.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0006</td>
+        <td class="side">Mais lui ? Tant qu&#39;il n&#39;essaie pas, on ne saura pas.[ST:n ]Il est d&#233;termin&#233; mais il ressemble tellement[ST:n ]&#224;... un insecte ? &#192; de la nourriture ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0007</td>
+        <td class="side">Est-ce que &#231;a va aller pour Min&#39;barac ? Le fait[ST:n ]qu&#39;il s&#39;approche des b&#234;tes me fait peur. Il ressemble[ST:n ]un peu &#224;... de la nourriture.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev058803_MSG0008</td>
+        <td class="side">On devrait peut-&#234;tre aller voir comment il va[ST:n ]tout &#224; l&#39;heure.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

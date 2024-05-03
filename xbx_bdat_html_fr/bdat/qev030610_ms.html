@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev030610_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev030610_MSG0001</td>
+        <td class="side">Les Prones se mettent en couple plus t&#244;t que les autres[ST:n ]races. J&#39;ai trouv&#233; Hexuna. Elle m&#39;a bien plu.[ST:n ]Nous nous sommes mari&#233;s le jour suivant.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev030610_MSG0002</td>
+        <td class="side">Les pens&#233;es et sentiments du moment sont authentiques.[ST:n ]Souvenez-vous de cela, Terrestre. En r&#233;fl&#233;chissant trop,[ST:n ]on perd de vue ce qui est pr&#233;cieux.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev030610_MSG1001</td>
+        <td class="side">Ha ha ! Les &#233;preuves de force se sont transform&#233;es[ST:n ]en bagarres &#224; cause de l&#39;alcool ![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev030610_MSG1002</td>
+        <td class="side">De joyeuses bagarres comme cela, c’est la vraie fa&#231;on[ST:n ]de faire prone. Bien mieux que de se soucier[ST:n ]du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev030610_MSG2001</td>
+        <td class="side">Vous appr&#233;ciez la c&#233;r&#233;monie ? Cela me rappelle[ST:n ]le jour o&#249; j&#39;ai &#233;pous&#233; Hexuna.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev030610_MSG2002</td>
+        <td class="side">Elle a eu une dure journ&#233;e. Pr&#233;parer ce mariage a &#233;t&#233;[ST:n ]difficile. Je devrais lui trouver une petite r&#233;compense.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev030610_MSG3001</td>
+        <td class="side">Les Prones se mettent en couple plus t&#244;t que les autres[ST:n ]races. J&#39;ai trouv&#233; Hexuna. Elle m&#39;a bien plu.[ST:n ]Nous nous sommes mari&#233;s le jour suivant.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev030610_MSG3002</td>
+        <td class="side">Les pens&#233;es et sentiments du moment sont authentiques.[ST:n ]Souvenez-vous de cela, Terrestre. En r&#233;fl&#233;chissant trop,[ST:n ]on perd de vue ce qui est pr&#233;cieux.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev030610_MSG4001</td>
+        <td class="side">Ha ha ! Les &#233;preuves de force se sont transform&#233;es[ST:n ]en bagarres &#224; cause de l&#39;alcool ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev030610_MSG4002</td>
+        <td class="side">De joyeuses bagarres comme cela, c’est la vraie fa&#231;on[ST:n ]de faire prone. Bien mieux que de se soucier[ST:n ]du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev030610_MSG5001</td>
+        <td class="side">Vous appr&#233;ciez la c&#233;r&#233;monie ? Cela me rappelle[ST:n ]le jour o&#249; j&#39;ai &#233;pous&#233; Hexuna.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev030610_MSG5002</td>
+        <td class="side">Elle a eu une dure journ&#233;e. Pr&#233;parer ce mariage a &#233;t&#233;[ST:n ]difficile. Je devrais lui trouver une petite r&#233;compense.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

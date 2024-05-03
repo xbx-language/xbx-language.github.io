@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0001</td>
+        <td class="side">&#161;Oye, alien&#237;gena terrestre! &#191;Eres BLADE? Tengo petici&#243;n.[ST:n ]Pero antes, tengo pregunta.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0002</td>
+        <td class="side">&#191;Te gustan &#225;rboles? &#191;Respetas &#225;rboles?[ST:n ]&#191;Sientes latido de vida en su interior?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0010</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0011</td>
+        <td class="side">Afirma que piensas que la naturaleza[ST:n ]merece nuestro respeto.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0020</td>
+        <td class="side">Negar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0021</td>
+        <td class="side">Dile que los &#225;rboles no son m&#225;s que fuentes[ST:n ]de materiales, destinados a ser talados.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0003</td>
+        <td class="side">Noto que eres [ST:Gender p1=sincero p2=sincera ]. Confiar&#233; en ti.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0004</td>
+        <td class="side">Entonces, fuera de mi vista.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0005</td>
+        <td class="side">Tengo semilla de esperanza. La proteger&#233; con mi vida.[ST:n ]No confiar&#233; en alguien como t&#250;.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0006</td>
+        <td class="side">Soy Naza Tenpanzi. Protectora de Gran &#225;rbol.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0007</td>
+        <td class="side">Debes ayudarme a hacer[ST:n ]que Gran &#225;rbol crece de semilla.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0008</td>
+        <td class="side">Primero, acepta mi petici&#243;n. Luego, yo explico todo.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0009</td>
+        <td class="side">Protejo semilla con mi vida. No puedo ponerla[ST:n ]en peligro. Debemos mantener en secreto.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0010</td>
+        <td class="side">Me alegro de hablar contigo.[ST:n ]Algunos alien&#237;genas terrestres no son de confianza.[ST:n ]Hablar contigo fue arriesgado.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0030</td>
+        <td class="side">Preocuparse</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Naza si su vida corre peligro.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0040</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0041</td>
+        <td class="side">Preg&#250;ntale acerca del Gran &#225;rbol.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0011</td>
+        <td class="side">He mantenido esta semilla a salvo de ganglion.[ST:n ]He corrido mucho peligro para protegerla.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0012</td>
+        <td class="side">Pero eso no importa. Yo tampoco importo.[ST:n ]Solo Gran &#225;rbol importa.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0013</td>
+        <td class="side">Ganglion atacaron nuestro hogar. Mataron a muchos.[ST:n ]Quemaron Grandes &#225;rboles que daban cobijo[ST:n ]a Antiguos. Yo decid&#237; actuar...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0014</td>
+        <td class="side">Guard&#233; semilla de Gran &#225;rbol en mi interior.[ST:n ]Y me esforc&#233; por sobrevivir.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0015</td>
+        <td class="side">Todo para que Gran &#225;rbol eche ra&#237;ces[ST:n ]en nuevo hogar. En Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0016</td>
+        <td class="side">Semilla debe ser plantada en tierra.[ST:n ]As&#237;, mi labor concluye.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0017</td>
+        <td class="side">Antiguos habitan en Grandes &#225;rboles.[ST:n ]Antiguos protegen a miembros de clanes.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0018</td>
+        <td class="side">A cambio, clanes cuidan de Grandes &#225;rboles.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0019</td>
+        <td class="side">Pero ganglion redujeron Grandes &#225;rboles a cenizas.[ST:n ]Trataron de minar nuestra determinaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0020</td>
+        <td class="side">Algunos protectores resistieron. Acabaron muriendo.[ST:n ]Algunos protectores cedieron. Quemaron Grandes[ST:n ]&#225;rboles ellos mismos.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0021</td>
+        <td class="side">Yo no hice nada de eso. Yo guard&#233; &#250;ltima semilla[ST:n ]en mi interior. Luego me ocult&#233;, sobreviv&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0022</td>
+        <td class="side">Fue viaje largo y dif&#237;cil. Pero ya est&#225; casi terminado.[ST:n ]Ahora, debo enterrar semilla en tierra.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0023</td>
+        <td class="side">Pero este lugar es distinto a nuestro hogar.[ST:n ]Igual semilla no crece. Eso temo.[ST:n ]Por eso busco ayuda.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0024</td>
+        <td class="side">Debes encontrar a alguien conocedor de plantas.[ST:n ]Debes preguntarle c&#243;mo hacer crecer &#225;rboles[ST:n ]en Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0050</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0051</td>
+        <td class="side">Dile a Naza que t&#250; te encargas.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0060</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0061</td>
+        <td class="side">Preg&#250;ntale a Naza si tiene alguna pista[ST:n ]sobre por d&#243;nde empezar a buscar.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0025</td>
+        <td class="side">Algunos prones olvidaron existencia[ST:n ]de Grandes &#225;rboles. No debes hacer lo mismo.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0026</td>
+        <td class="side">Necesitamos protecci&#243;n de Antiguos en esta tierra.[ST:n ]Y Antiguos necesitan Grandes &#225;rboles.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0027</td>
+        <td class="side">Supongo que alien&#237;genas terrestres tambi&#233;n se sienten[ST:n ]en peligro si algo preciado es arrebatado.[ST:n ]Seguro que me entiendes.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0028</td>
+        <td class="side">Dicen que ma-non son sabios.[ST:n ]Tambi&#233;n dicen que orphean son sabios.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0029</td>
+        <td class="side">T&#250; tambi&#233;n eres [ST:Gender p1=sabio p2=sabia ], alien&#237;gena terrestre.[ST:n ]Conf&#237;o en ti para encontrar ayuda.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0030</td>
+        <td class="side">Todas vidas de prones dependen[ST:n ]de futuro de esta semilla.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0031</td>
+        <td class="side">Por favor, encuentra a persona experta en &#225;rboles,[ST:n ]alien&#237;gena terrestre. Persona que nos ense&#241;e[ST:n ]a plantar Grandes &#225;rboles en Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0032</td>
+        <td class="side">Si hacen falta herramientas o materiales,[ST:n ]encu&#233;ntralos, por favor.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0033</td>
+        <td class="side">Esta es &#250;ltima semilla. No podemos fallar.[ST:n ]Tenemos que hacerla crecer.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0034</td>
+        <td class="side">Profesor me dijo que necesitamos savia[ST:n ]de rama nudosa para hacer crecer &#225;rboles.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0035</td>
+        <td class="side">Ve a Percha sagrada.[ST:n ]Consigue savia.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0036</td>
+        <td class="side">Profesor orphean me ense&#241;&#243; muchas cosas.[ST:n ]Savia de rama nudosa har&#225; a &#225;rbol crecer fuerte.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0037</td>
+        <td class="side">&#191;Tienes savia de rama nudosa?[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0038</td>
+        <td class="side">&#191;Seguro que va a funcionar?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0039</td>
+        <td class="side">Deber&#237;a, aunque solo tenemos un 99,86 por ciento[ST:n ]de &#233;xito. Pero no se preocupe, las probabilidades[ST:n ]son altas para estar hablando de bot&#225;nica.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0040</td>
+        <td class="side">Orphean hablan de forma complicada.[ST:n ]Pero profesor parece saber de lo que habla.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0041</td>
+        <td class="side">&#191;Puedo confiar en profesor?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0070</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0071</td>
+        <td class="side">Dile a Naza que Mon&#39;barac es digno de su confianza.</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0080</td>
+        <td class="side">Dudar</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0081</td>
+        <td class="side">Dile que Mon&#39;barac parece algo sospechoso.</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0042</td>
+        <td class="side">S&#237;. Se preocupa por nuestro problema[ST:n ]como si tambi&#233;n es suyo.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0043</td>
+        <td class="side">De acuerdo. Usar&#233; savia de rama nudosa.[ST:n ]Intentar&#233; hacer crecer Gran &#225;rbol con ella.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0044</td>
+        <td class="side">Semilla es muy preciada.[ST:n ]No puedo arriesgarla con mentiras.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0045</td>
+        <td class="side">Si profesor est&#225; mintiendo, lo pagar&#225; caro.[ST:n ]No volver&#225; a andar. Me asegurar&#233; de ello.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0046</td>
+        <td class="side">Las probabilidades de que eso ocurra son nulas.[ST:n ]Es m&#225;s, incluso las representar&#237;a con n&#250;meros negativos[ST:n ]si eso fuera cient&#237;ficamente posible.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0047</td>
+        <td class="side">De acuerdo. Usar&#233; savia de rama nudosa.[ST:n ]Intentar&#233; hacer crecer Gran &#225;rbol con ella.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0048</td>
+        <td class="side">&#191;As&#237;, profesor?[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0049</td>
+        <td class="side">S&#237;, su aplicaci&#243;n de la savia ha sido la correcta.[ST:n ]No habr&#225; que esperar mucho, en breve deber&#237;a [ST:n ]aparecer el brote.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0050</td>
+        <td class="side">&#161;Incre&#237;ble! &#161;Ma&#241;ana ya habr&#225; crecido[ST:n ]hasta tama&#241;o de Gran &#225;rbol![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0051</td>
+        <td class="side">&#161;Antiguos renacer&#225;n en NLA![ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0052</td>
+        <td class="side">Mmm... sin duda, es una especie intrigante.[ST:n ]Y ahora, &#161;procedamos a su cata![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0053</td>
+        <td class="side">&#161;&#161;&#191;Qu&#233;eeee?!![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0054</td>
+        <td class="side">El momento adecuado para la ingesti&#243;n[ST:n ]de los &#225;rboles se da cuando[ST:n ]a&#250;n son reto&#241;os tiernos.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0090</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0091</td>
+        <td class="side">Asiente con vigor.</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0100</td>
+        <td class="side">Retroceder</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0101</td>
+        <td class="side">Dile a Mon&#39;barac que se disculpe[ST:n ]antes de que Naza le parta las piernas.</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0056</td>
+        <td class="side">Esta ha sido, sin duda, una delicatessen de gran[ST:n ]y ex&#243;tico sabor. Tenga a bien aceptar mi m&#225;s[ST:n ]sincero agradecimiento por este aperitivo.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0057</td>
+        <td class="side">&#191;Disculparme? Quiere decir... &#191;que exprese[ST:n ]remordimiento? No comprendo, tal sentimiento[ST:n ]no se ajusta a esta situaci&#243;n de forma coherente.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0058</td>
+        <td class="side">&#161;Maldito! &#161;&#191;Qu&#233; acabas de hacer?![ST:n ]&#161;&#191;C&#243;mo te atreves a comer Gran &#225;rbol?![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0059</td>
+        <td class="side">Las plantas no existen m&#225;s que como alimento,[ST:n ]esa es su &#250;nica funci&#243;n en la naturaleza.[ST:n ]No entiendo a qu&#233; se debe tanto alboroto.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0060</td>
+        <td class="side">&#161;Ah! &#161;Qu&#233; falta de educaci&#243;n por mi parte![ST:n ]&#191;Usted tambi&#233;n ten&#237;a hambre?[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0061</td>
+        <td class="side">&#161;Ay! &#161;&#161;Ay!! &#161;&#161;&#161;Aaaaah!!![ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0062</td>
+        <td class="side">Ah, ahora comprendo. Usted cree[ST:n ]que en ese &#225;rbol suyo habita lo divino.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0063</td>
+        <td class="side">La l&#243;gica indica que est&#225; usted equivocada.[ST:n ]Como experto bot&#225;nico que soy, he estudiado[ST:n ]multitud de especies arb&#243;reas diferentes.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0064</td>
+        <td class="side">Pero a&#250;n ninguna ha demostrado dar cobijo[ST:n ]a nada remotamente clasificable como divino.[ST:n ]Este es un hecho innegable.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0065</td>
+        <td class="side">Clan arb&#243;reo pensamos que reunimos con Antiguos[ST:n ]en &#250;ltimos instantes de vida...[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0066</td>
+        <td class="side">As&#237; que te mostrar&#233; existencia de Antiguos[ST:n ]&#161;mat&#225;ndote ahora mismo![ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0067</td>
+        <td class="side">&#161;Aah! &#161;Mi Ovah insiste en[ST:n ]que a&#250;n soy joven para morir![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0068</td>
+        <td class="side">&#161;Oiga, [ST:Gender p1=humano p2=humana ]! &#191;No cree apropiado intervenir[ST:n ]antes de que esto acabe en tragedia?[ST:n ]&#161;No le veo sentido al enfado de esta prone![ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0110</td>
+        <td class="side">Explicar el problema</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0111</td>
+        <td class="side">Expl&#237;cale detalladamente a Mon&#39;barac[ST:n ]cu&#225;l ha sido su error.</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev031101_JNK0120</td>
+        <td class="side">Intentar calmar a Naza</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev031101_SEL0121</td>
+        <td class="side">Intenta convencer a Naza de que se tranquilice.</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0069</td>
+        <td class="side">&#191;As&#237; que su creencia en algo que habita en ese &#225;rbol[ST:n ]es equivalente a nuestra vinculaci&#243;n con el Ovah?[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0070</td>
+        <td class="side">Gracias por su detallada explicaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0071</td>
+        <td class="side">Semillas pasan de padres a hijos durante milenios,[ST:n ]desde ancestros primigenios. Esa era &#250;ltima semilla[ST:n ]y &#161;&#233;l se la comi&#243;![ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0072</td>
+        <td class="side">&#161;No me tranquilizo! &#161;De \&quot;tranquila\&quot; nada![ST:n ]&#161;Es imperdonable![ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0073</td>
+        <td class="side">&#191;Heredada desde sus ancestros, dice usted?[ST:n ]&#191;Es, por tanto, algo similar a nuestro Ovah?[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0074</td>
+        <td class="side">Ahora creo comprender la magnitud[ST:n ]real de esta situaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0075</td>
+        <td class="side">Temo haber cometido una afrenta altamente ofensiva.[ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0076</td>
+        <td class="side">Ruego me disculpe. Revivir&#233; su &#225;rbol de inmediato.[ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0077</td>
+        <td class="side">&#191;Puedes... hacer eso?[ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0078</td>
+        <td class="side">Tal es mi profesi&#243;n. Al consumirlo, he analizado[ST:n ]su composici&#243;n. Si dispongo de los materiales,[ST:n ]sintetizar un nuevo ejemplar es una tarea f&#225;cil.[ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0079</td>
+        <td class="side">Necesitar&#233; cuatro hierbas zizgaratonas[ST:n ]y una rama de longevidad.[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0080</td>
+        <td class="side">Con esos materiales tendr&#233; un 99,12 por ciento[ST:n ]de probabilidades de reproducir un duplicado[ST:n ]id&#233;ntico de su Gran &#225;rbol.[ST:wait ]</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0081</td>
+        <td class="side">Por favor, alien&#237;gena terrestre, encuentra cuatro hierbas[ST:n ]zizgaratonas y una rama de longevidad.[ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0082</td>
+        <td class="side">Pronto sabremos si dice la verdad.[ST:n ]Si es as&#237;, le perdonar&#233;. Si no es as&#237;, &#161;morir&#225;![ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0083</td>
+        <td class="side">Orphean me observaba hace rato.[ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0084</td>
+        <td class="side">Fue inquietante. Igual est&#225; todav&#237;a por aqu&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>qev031101_MSG0085</td>
+        <td class="side">A lo mejor escalofr&#237;os que siento[ST:n ]son mensajes de Antiguos.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

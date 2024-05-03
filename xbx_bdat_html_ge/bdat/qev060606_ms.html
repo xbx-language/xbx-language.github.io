@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060606_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0001</td>
+        <td class="side">Mann! Warum m&#252;ssen die so stur sein? Pflicht hier,[ST:n ]Stolz da... Kchhhk. Da komm ich gar nicht drauf klar![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0002</td>
+        <td class="side">Hey, du bist’s! Alles klar bei dir? Kchhhk.[ST:n ]Hast du ’nen Gorkwa gefunden?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0003</td>
+        <td class="side">Du bist echt [ST:Gender p1=der p2=die ] Beste. Jetzt muss ich mich beim[ST:n ]Entvoltanisieren nicht mehr zur&#252;ckhalten und kann mir[ST:n ]ganze Wagenladungen Voltan einfahren! Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0004</td>
+        <td class="side">...Was geht? Du siehst aus, als h&#228;ttest du ’ne Klob&#252;rste[ST:n ]verschluckt. Kchhk. Hab ich was im Gesicht?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0011</td>
+        <td class="side">Frage Orleron, warum sich seine[ST:n ]Sprechweise ge&#228;ndert hat.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0020</td>
+        <td class="side">Sorgen</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0021</td>
+        <td class="side">Zeige dich besorgt angesichts des Streits[ST:n ]zwischen Orleron und Trachlo.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0005</td>
+        <td class="side">Ist doch logisch! Kchhk. W&#228;hrend du nach dem Gorkwa[ST:n ]gesucht hast, bin ich erwachsen geworden.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0006</td>
+        <td class="side">Ha! Heb mal deine Kinnlade vom Boden auf. Kchhk.[ST:n ]Wir Zarubogganer bringen unsere Kindheit viel[ST:n ]schneller hinter uns als ihr Menschen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0007</td>
+        <td class="side">Ich hab in NLA abgehangen, wie du’s mir geraten hast.[ST:n ]Hab mit ’ner Menge Leute geredet. Kchhk. Und dabei[ST:n ]ist eben meine jetzige Sprechweise rausgekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0008</td>
+        <td class="side">Trachlo h&#228;lt mich f&#252;r ’ne Art aufs&#228;ssiges Monster oder[ST:n ]so, aber ich bin eigentlich ganz zufrieden mit mir.[ST:n ]YOLO! Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0009</td>
+        <td class="side">Au&#223;erdem: Wenn wir mit den ganzen anderen Spezies[ST:n ]hier in der Stadt leben wollen, m&#252;ssen wir auch mal[ST:n ]den Stock aus dem Hintern nehmen, oder? Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0010</td>
+        <td class="side">Ich hoffe nur, dass Trachlo und die anderen alten S&#228;cke[ST:n ]das auch irgendwann noch mal raffen... Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0011</td>
+        <td class="side">Die spinnen die ganze Zeit nur noch rum – von wegen,[ST:n ]ich w&#252;rde „Golbogga verunglimpfen“, „die heilige Pflicht[ST:n ]bagatellisieren“ und was wei&#223; ich noch alles... Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0012</td>
+        <td class="side">Oh, du machst dir Sorgen um mich? Wie nett von dir.[ST:n ]Kchhk. Zu schade, dass du da [ST:Gender p1=der p2=die ] Einzige bist...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0013</td>
+        <td class="side">Es ist ja nicht nur Trachlo, der mir auf die Nerven geht,[ST:n ]sondern auch die ganzen anderen Zarubogganer. Kchk.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0014</td>
+        <td class="side">Die spinnen die ganze Zeit nur noch rum – von wegen,[ST:n ]ich w&#252;rde „Golbogga verunglimpfen“, „die heilige Pflicht[ST:n ]bagatellisieren“ und was wei&#223; ich noch alles... Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0015</td>
+        <td class="side">Die behandeln mich wie ’nen Auss&#228;tzigen. Als ob ich[ST:n ]allen nur zur Last fallen w&#252;rde. Kchhk. Aber jeder setzt[ST:n ]halt die Priorit&#228;ten anders, stimmt’s?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0016</td>
+        <td class="side">Arsenican ist ja so was wie mein Vater. Kchhkk. Aber[ST:n ]inzwischen geht er total auf Abstand. Sucht st&#228;ndig[ST:n ]nach Ausreden, um nicht mit mir reden zu m&#252;ssen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0030</td>
+        <td class="side">Mitf&#252;hlen</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0031</td>
+        <td class="side">Dr&#252;cke Mitleid f&#252;r Orlerons Situation aus.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0040</td>
+        <td class="side">Schimpfen</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0041</td>
+        <td class="side">Kritisiere Orleron f&#252;r seinen Lebenswandel.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0017</td>
+        <td class="side">Ich wusste, dass du mich verstehst! Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0018</td>
+        <td class="side">Ich meine, er hat eben seine zarubogganische[ST:n ]Denkweise. Kchhk. Da wird kein gro&#223;er Wert[ST:n ]auf Verwandtschaft gelegt.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0019</td>
+        <td class="side">Aber das ist doch noch lange kein Grund,[ST:n ]mich gleich zu versto&#223;en, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0020</td>
+        <td class="side">Ja, danke auch. Ist es wirklich zu viel verlangt, dass[ST:n ]EIN EINZIGES MAL jemand auf meiner Seite ist?[ST:n ]Kchhhhhhhhhkkkkk![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0021</td>
+        <td class="side">Ich meine, ich kann ja verstehen, dass sie mit meiner[ST:n ]Sichtweise nicht klarkommen. Kchhkk. F&#252;r einen[ST:n ]Zarubogganer bin ich ja auch ziemlich krass drauf.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0022</td>
+        <td class="side">Aber das ist doch noch lange kein Grund,[ST:n ]mich gleich zu versto&#223;en, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0023</td>
+        <td class="side">Kchhk. Ich mag sie jedenfalls immer noch. Jeden von[ST:n ]ihnen! Das sind alles korrekte Typen. Aber sich dann[ST:n ]anh&#246;ren zu m&#252;ssen, dass man nicht mehr dazugeh&#246;rt...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0024</td>
+        <td class="side">...Ich meine, was soll ich denn machen? Kchhk.[ST:n ]Verdammt, was w&#252;rdest DU an meiner Stelle machen?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0050</td>
+        <td class="side">Rat geben</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0051</td>
+        <td class="side">Empfiehl Orleron, sich so zu verhalten,[ST:n ]wie sie es von ihm erwarten.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0060</td>
+        <td class="side">Rat verweigern</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0061</td>
+        <td class="side">Sage Orleron, dass er sich diese[ST:n ]Frage selbst beantworten muss.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0025</td>
+        <td class="side">Wie Trachlo und die anderen es... von mir erwarten?[ST:n ]Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0026</td>
+        <td class="side">Hmmm, vielleicht...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0027</td>
+        <td class="side">Ja, da k&#246;nntest du recht haben. Kchhhk. Die wirklich[ST:n ]wichtigen Dinge muss man f&#252;r sich selbst entscheiden.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0028</td>
+        <td class="side">Ansonsten w&#228;re ich ja keinen Deut besser als alle,[ST:n ]die sich ihr ganzes Leben von Golbogga diktieren[ST:n ]lassen. Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0029</td>
+        <td class="side">Hmmm, vielleicht...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0030</td>
+        <td class="side">Kchhhk. Die ganze Sache mit der „heiligen Pflicht“ find[ST:n ]ich immer noch daneben, aber ich k&#246;nnte mich ja mal[ST:n ]bem&#252;hen, das Entvoltanisieren ernster zu nehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0031</td>
+        <td class="side">Kannst du mir vielleicht ’nen Gefallen tun? In Cauldros[ST:n ]gibt’s diesen total voltanverseuchten Ort. Kchhk. Denkst[ST:n ]du, du k&#246;nntest mich dorthin bringen?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0032</td>
+        <td class="side">Wenn ich da alles entvoltanisiere, w&#228;r das ’ne[ST:n ]schallende Ohrfeige f&#252;r Trachlo und die anderen![ST:n ]Kchhk. ’ne freundschaftliche wohlgemerkt.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0033</td>
+        <td class="side">Ich versprech dir auch, dass ich dir daf&#252;r ’ne Belohnung[ST:n ]gebe. F&#252;r den Gorkwa &#252;brigens auch. Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0034</td>
+        <td class="side">Bitte! Ich will die Sache nicht einfach auf sich[ST:n ]beruhen lassen. Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0035</td>
+        <td class="side">Boah, das MUSS der Ort sein! Hehe! Kchhhk.[ST:n ]Ich f&#252;hl mich gerade wie ein richtiger Zarubogganer.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0036</td>
+        <td class="side">Mein ganzer K&#246;rper zittert wie verr&#252;ckt beim Anblick[ST:n ]von so viel Voltan! Kchhk![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0037</td>
+        <td class="side">Also gut. Kchhhk. Ich schnapp mir den Gorkwa,[ST:n ]den du mir besorgt hast, und entvoltanisiere,[ST:n ]was das Zeug h&#228;lt.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0038</td>
+        <td class="side">Boooah, da geht ja einiges! Wie eine Welle![ST:n ]Kchhhk. Mir wird ganz anders! Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0039</td>
+        <td class="side">Aaaaaaa! AAAAAAAAAAAAH! Graaaaaah![ST:n ]Gepriesen sei Golbogga! Kchhk! Kchhhhk![ST:n ]Kchhhhhk! Kchhhhkk! Kchhhhkkk! Kchhhhkkkk![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0040</td>
+        <td class="side">Kchhk. Das war unglaublich![ST:n ]Dieses Voltan war... krass![ST:n ]Einfach nur krass![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0041</td>
+        <td class="side">Ich konnte nicht alles auf einmal entvoltanisieren, aber[ST:n ]ich hab auf jeden Fall gezeigt, wozu ich f&#228;hig bin.[ST:n ]Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0042</td>
+        <td class="side">Das sollte bei den anderen ordentlich Eindruck schinden.[ST:n ]Schlie&#223;lich hab ich die Unreinheiten beseitigt. Kchhhk.[ST:n ]Und darum geht’s doch, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0070</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0071</td>
+        <td class="side">Versichere Orleron, dass er seine Pflicht erf&#252;llt hat.</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev060606_JNK0080</td>
+        <td class="side">Achseln zucken</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev060606_SEL0081</td>
+        <td class="side">Gestehe, dass dir das Ganze immer noch ein R&#228;tsel ist.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0043</td>
+        <td class="side">Danke! Kchhk. Wenn du das sagst, f&#252;hl ich mich[ST:n ]schon viel besser.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0044</td>
+        <td class="side">Gehen wir zu Trachlo und erz&#228;hlen ihm alles. Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0045</td>
+        <td class="side">Hmmm... Vielleicht k&#246;nnte man es mit eurer Suche[ST:n ]nach dem Lebensspeicher vergleichen. Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0046</td>
+        <td class="side">Aber das Wichtigste ist jetzt, dass Trachlo davon[ST:n ]erf&#228;hrt. Zeit, ihm alles zu berichten![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0047</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0048</td>
+        <td class="side">Orleron, bist du das? Kchhk. Was gibt es?[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0049</td>
+        <td class="side">Hey, Trachlo! Ich hab gerade die unreine Stelle in[ST:n ]Cauldros entvoltanisiert, von der alle reden. Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0050</td>
+        <td class="side">Nicht schlecht, was? Kchhk. Also, bin ich jetzt ein[ST:n ]echter Zarubogganer oder was?[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0051</td>
+        <td class="side">Kchhhk. Cauldros?! Wie konntest du dich an einen[ST:n ]so gef&#228;hrlichen Ort begeben?[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0052</td>
+        <td class="side">Entspann dich! [ST:playername ] war bei mir.[ST:n ]Kchhk. Na, wie sieht’s aus?[ST:n ]Bin ich jetzt wieder einer von euch?[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0053</td>
+        <td class="side">Du bist so weit gegangen, um deine Zugeh&#246;rigkeit[ST:n ]zu beweisen? Kchhk.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0054</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0055</td>
+        <td class="side">Kchhhk. Ich bin mir sicher, dass Golbogga deine[ST:n ]Tapferkeit und Entschlossenheit mit Wohlwollen[ST:n ]betrachtet.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0056</td>
+        <td class="side">Du gehst jetzt besser sofort zur&#252;ck nach NLA. Kchhk.[ST:n ]Wir k&#246;nnen es uns nicht leisten, einen wertvollen J&#252;nger[ST:n ]Golboggas zu verlieren.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0057</td>
+        <td class="side">Alles klar, Boss! Kchhk. Und als Souvenir bring ich[ST:n ]eine Familienportion Voltan mit nach Hause![ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0058</td>
+        <td class="side">Dank dir respektiert er mich endlich. Kchhhk.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev000601_JNK0090</td>
+        <td class="side">Ermutigen</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev000601_SEL0091</td>
+        <td class="side">Empfiehl Orleron, weiterhin alles f&#252;r die Pflicht zu geben.</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev000601_JNK0100</td>
+        <td class="side">Warnen</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev000601_SEL0101</td>
+        <td class="side">Sage Orleron, dass er mit seinem[ST:n ]„Souvenir“ lieber vorsichtig sein sollte.</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0059</td>
+        <td class="side">Kchhk. Ja, aber ich will auch frei leben wie ein Mensch.[ST:n ]F&#252;r meine Pflicht werd ich also... FAST alles geben.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0060</td>
+        <td class="side">Kchhk. Oh, stimmt ja. Das Zeug ist &#252;belst giftig f&#252;r[ST:n ]euch Menschen, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0061</td>
+        <td class="side">Keine Panik. Ich liebe Menschen! Kchhk.[ST:n ]Ich w&#252;rde nie irgendwas tun, was euch schadet.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev060606_MSG0062</td>
+        <td class="side">Alles klar, ich geh zur&#252;ck. Schlie&#223;lich hab ich ’ne fette[ST:n ]Ladung Voltan abzuliefern! Kchhhk.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

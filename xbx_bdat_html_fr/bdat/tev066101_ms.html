@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev066101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev066101_SEL0011</td>
+        <td class="side">Demander &#224; De Ezich de vous parler[ST:n ]des autres Wrothians.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev066101_SEL0021</td>
+        <td class="side">Demander &#224; De Ezich s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0010</td>
+        <td class="side">tev066101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev066101_SEL0031</td>
+        <td class="side">Interroger De Ezich &#224; propos des Wrothians.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0020</td>
+        <td class="side">tev066101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev066101_SEL0041</td>
+        <td class="side">Demander &#224; De Ezich s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0010</td>
+        <td class="side">tev066101_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev066101_SEL1011</td>
+        <td class="side">Demander &#224; De Ezich de parler de la vie &#224; New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0020</td>
+        <td class="side">tev066101_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev066101_SEL1021</td>
+        <td class="side">Demander &#224; De Ezich s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0010</td>
+        <td class="side">tev066101_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev066101_SEL1031</td>
+        <td class="side">Demander &#224; De Ezich des informations sur Ga Bewhe.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0020</td>
+        <td class="side">tev066101_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev066101_SEL1021</td>
+        <td class="side">tev066101_SEL1021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0010</td>
+        <td class="side">tev066101_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev066101_SEL3011</td>
+        <td class="side">Interroger De Ezich &#224; propos des Wrothians[ST:n ]qui ont emm&#233;nag&#233; &#224; New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev066101_JNK0020</td>
+        <td class="side">tev066101_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev066101_SEL3021</td>
+        <td class="side">Demander &#224; De Ezich s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0001</td>
+        <td class="side">Except&#233; les marginaux comme moi, les Wrothians[ST:n ]sont un peuple rigide qui ne parle que de loi,[ST:n ]de dignit&#233; et de devoir.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0002</td>
+        <td class="side">Et ils ne daignent m&#234;me pas dire un mot &#224; moins[ST:n ]que le prince Jiarg ne leur permette.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0003</td>
+        <td class="side">Toujours est-il que ce n&#39;est pas la m&#233;chancet&#233;[ST:n ]qui les motive. Ne les jugez pas trop s&#233;v&#232;rement.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0008</td>
+        <td class="side">Vous &#234;tes un humain, non ? Vous allez peut-&#234;tre[ST:n ]pouvoir m&#39;aider.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0009</td>
+        <td class="side">J&#39;aimerais en apprendre plus sur votre ville.[ST:n ]Cette... New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0010</td>
+        <td class="side">Le savoir que je poss&#232;de m&#39;a &#233;t&#233; transmis[ST:n ]par les Wrothians qui vous ont attaqu&#233;s.[ST:n ]Ils disent que la ville est pleine de vie et de rires.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0011</td>
+        <td class="side">Mais je ne sais que trop bien que je ne peux pas[ST:n ]aller voir par moi-m&#234;me.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0012</td>
+        <td class="side">Alors peut-&#234;tre pourriez-vous me r&#233;galer[ST:n ]avec une histoire ou deux ? Qu&#39;en dites-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0017</td>
+        <td class="side">Except&#233; les marginaux comme moi, les Wrothians[ST:n ]sont un peuple rigide qui ne parle que de loi,[ST:n ]de dignit&#233; et de devoir.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0018</td>
+        <td class="side">Certains fanatiques donneraient leur vie[ST:n ]pour le prince Jiarg. Les imb&#233;ciles ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0019</td>
+        <td class="side">Je, euh, je veux dire... Blasph&#232;me ![ST:n ]J&#39;esp&#232;re que ma m&#232;re ne m&#39;a pas entendu.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0020</td>
+        <td class="side">Si elle m&#39;entendait dire de telles choses sur le prince,[ST:n ]elle me rouerait de coups sur-le-champ.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0025</td>
+        <td class="side">C&#39;est incroyable, n&#39;est-ce pas ?! Les Wrothians[ST:n ]et les humains sont dans le m&#234;me camp ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0026</td>
+        <td class="side">Les Wrothians qui ont attaqu&#233; votre ville m&#39;ont tout[ST:n ]racont&#233; sur New L.A., cela m&#39;a fascin&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0027</td>
+        <td class="side">Mon peuple s&#39;est retrouv&#233; d&#233;muni, voyez-vous.[ST:n ]Alors imaginer une ville majestueuse et chatoyante[ST:n ]avec une myriade de merveilles &#224; explorer... Aaah ![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0028</td>
+        <td class="side">Mais j&#39;avais bien peur de devoir mettre de c&#244;t&#233; mes[ST:n ]r&#234;ves, certain que mes ennemis ne m&#39;accueilleraient[ST:n ]jamais dans leur ville.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev066101_MSG0029</td>
+        <td class="side">Remercions le prince Jiarg de m&#39;avoir prouv&#233;[ST:n ]le contraire ! Maintenant je peux me pr&#233;parer[ST:n ]pour le jour o&#249; je rejoindrai mes camarades &#224; N.L.A. ![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1001</td>
+        <td class="side">Une belle journ&#233;e commencerait par un bon repas[ST:n ]chez Army Pizza, suivi d&#39;un tour vers Belle Betty[ST:n ]Fashions pour admirer leur vitrine.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1002</td>
+        <td class="side">Dans l&#39;apr&#232;s-midi, je d&#233;gusterais un th&#233; au Sunshine[ST:n ]Caf&#233; et je regarderais les habitants de la ville vivre[ST:n ]leurs propres aventures.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1003</td>
+        <td class="side">[ST:Gender p1=Surpris  p2=Surprise  ]? H&#233; h&#233;. Je parie que vous n&#39;auriez jamais[ST:n ]pens&#233; rencontrer un Wrothian urbain.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1004</td>
+        <td class="side">Ils disent que la Terre est 100 fois plus int&#233;ressante[ST:n ]que New L.A. Est-ce vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1005</td>
+        <td class="side">Si vous y retournez un jour, vous devez m&#39;emmener ![ST:n ]Je sais que je suis fait pour vivre l&#224;-bas.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1010</td>
+        <td class="side">Je gagne ma vie dans des bars en tant que gardien,[ST:n ]un &#171; videur &#187; comme vous dites. Et je peux vous[ST:n ]assurer que l&#39;argent n&#39;est pas perdu ! Ha ![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1011</td>
+        <td class="side">J&#39;ai peut-&#234;tre eu tort de me gausser de l&#39;entra&#238;nement[ST:n ]au combat. Il se trouve que c&#39;est l&#39;une[ST:n ]de mes meilleures comp&#233;tences.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1012</td>
+        <td class="side">Je dois remercier ma m&#232;re et mon p&#232;re de m&#39;avoir[ST:n ]inculqu&#233; du bon sens.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1013</td>
+        <td class="side">Une lettre et un bijou local rare devraient suffire[ST:n ]&#224; exprimer ma gratitude.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1018</td>
+        <td class="side">Cette gueuse ? Pourquoi demandez-vous ?[ST:n ]Oh, elle s&#39;en est prise &#224; vous ? Pauvre nicod&#232;me.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1019</td>
+        <td class="side">Ga Bewhe a toujours &#233;t&#233; une tra&#238;tresse. Si vous[ST:n ]comptez faire affaire avec elle, surveillez-la de tr&#232;s pr&#232;s.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1020</td>
+        <td class="side">Au moins, vous &#234;tes encore en vie. C&#39;&#233;tait loin d&#39;&#234;tre[ST:n ]gagn&#233; avec une femme aussi fourbe qu&#39;elle.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev066101_MSG1021</td>
+        <td class="side">Je ne sais pas ce qu&#39;elle pr&#233;pare, mais je suis[ST:n ]certain qu&#39;il y a plus de hargne en elle[ST:n ]que je n&#39;aurai jamais en moi.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2001</td>
+        <td class="side">Quelle question exasp&#233;rante ![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2002</td>
+        <td class="side">Si vous voulez vraiment le savoir, les Wrothians[ST:n ]qui se sont install&#233;s &#224; New L.A. ne se sont jamais[ST:n ]autant amus&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2003</td>
+        <td class="side">Ils font d&#233;sormais partie de votre communaut&#233; prosp&#232;re,[ST:n ]ils fabriquent de l&#39;&#233;quipement avec Six Stars[ST:n ]et ont combattu le Ganglion &#224; vos c&#244;t&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2004</td>
+        <td class="side">Les seuls &#224; &#234;tre mis &#224; l&#39;&#233;cart sont les vieux croulants[ST:n ]comme Go Belg et bien s&#251;r moi-m&#234;me.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2005</td>
+        <td class="side">Le destin peut &#234;tre tellement injuste... Comment peut-on[ST:n ]laisser un jeune comme moi avec autant de potentiel[ST:n ]pourrir dans ce trou ?![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2010</td>
+        <td class="side">Je passe mes journ&#233;es &#224; m&#39;entra&#238;ner et &#224; lire[ST:n ]le Livre wrothian des cinq anneaux, en silence.[ST:n ]Sans quoi ma m&#232;re me passe &#224; tabac.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2011</td>
+        <td class="side">Est-ce une punition ou de la torture ?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2012</td>
+        <td class="side">Vous m&#39;avez &#233;t&#233; d&#39;une grande aide, &#171; [ST:Gender p1=ami  p2=amie  ]&#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev066101_MSG2013</td>
+        <td class="side">Un jour, je m&#39;&#233;chapperai de cet enfer et je me rendrai[ST:n ]&#224; New L.A. Retenez bien ces paroles ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

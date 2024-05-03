@@ -1,0 +1,2111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ITM_PreciousList</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">Name</th>
+          <th>Caption</th>
+          <th>Rare</th>
+          <th>UI2</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Ricetrasmittente di Conner</td>
+        <td>Ricetrasmittente caduta a Conner[ST:n ]mentre scappava dai mostri.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Parabrezza</td>
+        <td>Il parabrezza di un veicolo militare.[ST:n ]Ora ha un valore notevole, poich&#233; i pezzi[ST:n ]di ricambio terrestri sono molto rari.</td>
+        <td>2</td>
+        <td>2383</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Orologio di Bobby</td>
+        <td>L’orologio da polso del ragazzo che[ST:n ]Pauline trattava come un figlio. L’incisione[ST:n ]recita: \&quot;Mamma Pauline, proteggimi.\&quot;</td>
+        <td>3</td>
+        <td>2383</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Linfa di Ramonodoso</td>
+        <td>Linfa secreta dagli alberi giganti nelle[ST:n ]profondit&#224; di Noctilum. &#200; nota per le sue[ST:n ]propriet&#224; di accelerazione della crescita.</td>
+        <td>4</td>
+        <td>2383</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Leggen-dar</td>
+        <td>Radar utilizzato per scovare antichi[ST:n ]manufatti Nopon. Pu&#242; rilevare persino[ST:n ]le pi&#249; deboli tracce di leggendosit&#224;.</td>
+        <td>5</td>
+        <td>2383</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Leggen-dar puzzolente</td>
+        <td>Radar utilizzato per scovare antichi[ST:n ]manufatti Nopon. Ritrovato nella[ST:n ]pancia di un mostro, adesso[ST:n ]emette una fortissima puzza.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Fetta di pane</td>
+        <td>Un pezzo di pane accantonato[ST:n ]dall’affamatissimo Moimoi[ST:n ]per suo fratello.</td>
+        <td>2</td>
+        <td>2383</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Gemma blu profondo</td>
+        <td>Un gioiello rubato che brilla di un blu[ST:n ]intenso. Seduce chiunque lo porti[ST:n ]con il suo prezioso fascino.</td>
+        <td>3</td>
+        <td>2383</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Astice grande</td>
+        <td>Un peluche di Astice che funge anche[ST:n ]da chiave per accedere all’antro[ST:n ]dell’Astice Rosso.</td>
+        <td>5</td>
+        <td>2383</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Pupazzo Astice</td>
+        <td>Un pupazzo apparentemente innocuo[ST:n ]che per&#242; nasconde una bomba mortale.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Buono pasto</td>
+        <td>Buono sconto che d&#224; diritto a un pasto[ST:n ]gratis alla tavola calda. Ottenuto in[ST:n ]cambio di una Carta Cinicula bronzo.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Ossa di Suid</td>
+        <td>Le ossa di un Suid. Ottenute in cambio[ST:n ]di una Carta Petramand bronzo.</td>
+        <td>2</td>
+        <td>2383</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Kit da caccia Ma-non</td>
+        <td>Strumenti da caccia inventati da Capsica.[ST:n ]Dovrebbero essere i migliori amici dei[ST:n ]cacciatori, ma non &#232; chiaro come usarli.</td>
+        <td>2</td>
+        <td>2383</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Carta Blathax bronzo</td>
+        <td>Una Carta Mirafauna bronzo[ST:n ]con l’immagine di un Blathax.</td>
+        <td>2</td>
+        <td>2383</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Carta Cinicula bronzo</td>
+        <td>Una Carta Mirafauna bronzo[ST:n ]con l’immagine di un Cinicula.</td>
+        <td>3</td>
+        <td>2383</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Carta Petramand bronzo</td>
+        <td>Una Carta Mirafauna bronzo[ST:n ]con l’immagine di un Petramand.</td>
+        <td>3</td>
+        <td>2383</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">Carta Simius argento</td>
+        <td>Una Carta Mirafauna argento[ST:n ]con l’immagine di un Simius.</td>
+        <td>3</td>
+        <td>2383</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">Carta Evellon argento</td>
+        <td>Una Carta Mirafauna argento[ST:n ]con l’immagine di un Evellon.</td>
+        <td>4</td>
+        <td>2383</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">Carta Xiphias argento</td>
+        <td>Una Carta Mirafauna argento[ST:n ]con l’immagine di uno Xiphias.</td>
+        <td>4</td>
+        <td>2383</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">Carta Mortifole argento</td>
+        <td>Una Carta Mirafauna argento[ST:n ]con l’immagine di un Mortifole.</td>
+        <td>4</td>
+        <td>2383</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">Carta Nopopotamus oro</td>
+        <td>Una Carta Mirafauna oro con[ST:n ]l’immagine di un Nopopotamus.</td>
+        <td>4</td>
+        <td>2383</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC022_Name</td>
+        <td>251</td>
+        <td>5</td>
+        <td>2383</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">Perla naturale</td>
+        <td>Una perla terrestre.[ST:n ]Ha un valore notevole su Mira.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC024_Name</td>
+        <td>253</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC025_Name</td>
+        <td>254</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC026_Name</td>
+        <td>255</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC027_Name</td>
+        <td>256</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC028_Name</td>
+        <td>257</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC029_Name</td>
+        <td>258</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC030_Name</td>
+        <td>259</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC031_Name</td>
+        <td>260</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td class="side">Oro bianco</td>
+        <td>L&#39;ultimo Oro bianco rimasto a Fosdyke.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td class="side">Chiave di Briggs</td>
+        <td>Una chiave per una cassaforte gigante.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td class="side">Chiave di Fosdyke</td>
+        <td>Una chiave per una cassaforte gigante.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td class="side">Chiave di Moorhouse</td>
+        <td>Una chiave per una cassaforte gigante.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC036_Name</td>
+        <td>265</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC037_Name</td>
+        <td>266</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC038_Name</td>
+        <td>267</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td class="side">Biglietto di Quegga</td>
+        <td>Un biglietto scarabocchiato quasi[ST:n ]illeggibile: \&quot;Ho nascosto... per Thea[ST:n ]in... grotta della Fortezza di Terrarida.[ST:n ]Per favore... a Thea...\&quot;</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC040_Name</td>
+        <td>269</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC041_Name</td>
+        <td>270</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td class="side">Chiave magnetica</td>
+        <td>La chiave magnetica di un ricercatore.[ST:n ]Permette di accedere all’impianto di[ST:n ]purificazione dell&#39;acqua di Biahno.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td class="side">ID Card</td>
+        <td>Identification card of Miran Hydrology Team staff member Heathcote. Confers access to plant facilities.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td class="side">ID Card</td>
+        <td>Identification card of Miran Hydrology Team staff member Anika. Confers access to plant facilities.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td class="side">ID Card</td>
+        <td>Identification card of Miran Hydrology Team staff member Ortiz. Confers access to plant facilities.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC046_Name</td>
+        <td>275</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td class="side">Tessera di identit&#224; di Ajoa</td>
+        <td>Tessera d’identit&#224; di Ajoa, il ricercatore[ST:n ]capo della squadra di idrologia miriana.[ST:n ]Consente l’accesso all’impianto[ST:n ]di purificazione dell&#39;acqua.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC048_Name</td>
+        <td>277</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC049_Name</td>
+        <td>278</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC050_Name</td>
+        <td>279</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td class="side">Torta gelato</td>
+        <td>La torta gelato desiderata da Grette.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td class="side">Bottiglia di Malyteth</td>
+        <td>Bottiglia contenente uno strano[ST:n ]liquido. Ha avvelenato Malyteth[ST:n ]non appena ne ha bevuto un sorso.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC053_Name</td>
+        <td>282</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC054_Name</td>
+        <td>283</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td class="side">Contratto Nopon</td>
+        <td>Un contratto tra i capi delle carovane[ST:n ]Nopon riguardante uno spettacolo[ST:n ]di fuochi d’artificio.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC056_Name</td>
+        <td>285</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td class="side">Gemma Nopon</td>
+        <td>Una gemma grezza data dal Divino[ST:n ]Nopopon come prova di fede.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC058_Name</td>
+        <td>287</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC059_Name</td>
+        <td>288</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC060_Name</td>
+        <td>289</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td class="side">Bracciale di Vi Sezha</td>
+        <td>Un bracciale d’argento creato[ST:n ]da Vi Sezha. Le incisioni riportano[ST:n ]i nomi di Vi Sezha e Ge Jewhe, oltre[ST:n ]alla frase \&quot;Viviamo questa vita insieme\&quot;.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td class="side">Pugnale di Ge Jewhe</td>
+        <td>Oggetto appartenuto a Ge Jewhe, la quale[ST:n ]ha combattuto come una vera Wrothian[ST:n ]fino all&#39;ultimo respiro. L’incisione recita:[ST:n ]\&quot;Protegger&#242; Vi Sezha per l’eternit&#224;.\&quot;</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC063_Name</td>
+        <td>292</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC064_Name</td>
+        <td>ITM_PRC064_Caption</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td class="side">Pietra anello</td>
+        <td>Anello di pietra adornato con delle spine.[ST:n ]&#200; della dimensione giusta per essere[ST:n ]indossato dalle femmine Pron. Sembra[ST:n ]che vi si possa inserire una zanna.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC066_Name</td>
+        <td>295</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC067_Name</td>
+        <td>ITM_PRC067_Caption</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td class="side">Pacco di Zazazan</td>
+        <td>Un grosso pacco contenente i preziosi[ST:n ]averi di Zazazan. Non si tocca!</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td class="side">Recipiente pericoloso</td>
+        <td>Una capsula ricevuta da Jeffrey.[ST:n ]Contiene materiali di ricerca[ST:n ]pericolosi. Maneggiare con cura.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td class="side">Pila a combustibile instabile</td>
+        <td>Pila a combustibile ricevuta da Graham.[ST:n ]Prestare massima attenzione a questa[ST:n ]strana e pericolosa tecnologia aliena.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td class="side">Cambiale di Nio</td>
+        <td>Sulla nota si legge: \&quot;Con presente,[ST:n ]Nio dichiara che deve restituire[ST:n ]per intero cifra di 20.000 crediti.[ST:n ]Cordialmente, Nio.\&quot;</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td class="side">Anello di zaffiro</td>
+        <td>Un piccolo anello ornato da[ST:n ]una gemma blu cangiante.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC073_Name</td>
+        <td>302</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC074_Name</td>
+        <td>303</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC075_Name</td>
+        <td>304</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC076_Name</td>
+        <td>305</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC077_Name</td>
+        <td>306</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC078_Name</td>
+        <td>307</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC079_Name</td>
+        <td>308</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC080_Name</td>
+        <td>309</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC081_Name</td>
+        <td>310</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td class="side">Foglia Lumenoa</td>
+        <td>Se un Orphe ha difficolt&#224; a comunicare[ST:n ]con l&#39;Ovah, l&#39;utilizzo di questa erba[ST:n ]ripristina tale capacit&#224;.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td class="side">Gorkwa</td>
+        <td>Strumento a forma di bastone utilizzato[ST:n ]dagli Zaruboggan per aspirare il Voltant.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td class="side">Braccio destro di Run&#39;tonam</td>
+        <td>Braccio destro di un corpo dilaniato.[ST:n ]Trovato nello stomaco del Padrone[ST:n ]dei Destini.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC085_Name</td>
+        <td>314</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC086_Name</td>
+        <td>315</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td class="side">Gorkwa di Troylan</td>
+        <td>Strumento utilizzato dagli Zaruboggan[ST:n ]per aspirare il Voltant.[ST:n ]Ottenuto da Lulladu.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC088_Name</td>
+        <td>317</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC089_Name</td>
+        <td>318</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td class="side">Pezzi della Balena Bianca</td>
+        <td>Parti recuperate dai rottami della Balena[ST:n ]Bianca. Determinando la loro origine,[ST:n ]il quartier generale BLADE potrebbe[ST:n ]individuare la posizione del Centro vitale.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC091_Name</td>
+        <td>320</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC092_Name</td>
+        <td>321</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC093_Name</td>
+        <td>322</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td class="side">Tessera di identit&#224; di Ian</td>
+        <td>Tessera d’identit&#224; dell&#39;impianto di Biahno.[ST:n ]&#200; di Ian, capo della squadra idrologica[ST:n ]miriana. Permette l’accesso a tutte[ST:n ]le strutture dell’impianto.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td class="side">Regalo di Nalu</td>
+        <td>A questo insieme di pezzi della Balena[ST:n ]Bianca richiesti da Nalu &#232; stato aggiunto[ST:n ]un gran numero di Mosche proiettile.[ST:n ]Maneggiare con cura!</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td class="side">Occhiali di babbopon</td>
+        <td>Occhiali da sole alla moda appartenuti[ST:n ]al pap&#224; di Tatsu. Kuku li ha lasciati[ST:n ]in balia delle onde sperando che[ST:n ]potessero raggiungerlo di nuovo.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td class="side">Trattato Dodonga</td>
+        <td>Una lettera che sancisce l’amicizia tra[ST:n ]la Carovana Dodonga e il governo[ST:n ]provvisorio di N.L.A. Firmata da[ST:n ]Kuku con una grafia enorme.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td class="side">Trattato Dorian</td>
+        <td>Una lettera che sancisce l’amicizia tra[ST:n ]la Carovana Dorian e il governo[ST:n ]provvisorio di N.L.A. Firmata da[ST:n ]Mujiji con una grafia enorme.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td class="side">Pezzo Wrothian</td>
+        <td>Pezzo di uno Skell Wrothian. &#200; una[ST:n ]risorsa preziosissima per studiare[ST:n ]la tecnologia di questa specie aliena.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td class="side">Kit medico</td>
+        <td>Un kit medico progettato da Jeffrey per il[ST:n ]momento in cui gli umani torneranno nei[ST:n ]loro veri corpi. Contiene antibiotici per[ST:n ]combattere diversi agenti patogeni miriani.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td class="side">Chiave del campo Pron</td>
+        <td>La chiave del campo Pron che ospita[ST:n ]prigionieri costretti ai lavori forzati.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC102_Name</td>
+        <td>331</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td class="side">Brevetto Skell</td>
+        <td>Brevetto conseguito da chi supera l’esame[ST:n ]per il Brevetto Skell. Permette al titolare[ST:n ]di acquistare e pilotare gli Skell.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC104_Name</td>
+        <td>333</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC105_Name</td>
+        <td>334</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC106_Name</td>
+        <td>335</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td class="side">Pezzi della Balena Bianca</td>
+        <td>Parti recuperate dai rottami della Balena[ST:n ]Bianca. Determinando la loro origine,[ST:n ]il quartier generale BLADE potrebbe[ST:n ]individuare la posizione del Centro vitale.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td class="side">Cavo elettrico L-002</td>
+        <td>Cavo ad altissimo voltaggio impiegato[ST:n ]sulla Balena Bianca. Durevole e resistente[ST:n ]a lunghi viaggi, viene tuttora usato per[ST:n ]equipaggiamenti e riparazioni a N.L.A.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td class="side">Attestato per Brevetto Skell</td>
+        <td>Conseguito dai candidati che superano[ST:n ]ciascuna fase dell’esame. Per ottenere il[ST:n ]Brevetto Skell &#232; necessario passare le otto[ST:n ]prove e consegnare gli attestati a Walter.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC110_Name</td>
+        <td>339</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC111_Name</td>
+        <td>340</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC112_Name</td>
+        <td>341</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC113_Name</td>
+        <td>342</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="114">
+        <td>114</td>
+        <td>
+        </td>
+        <td class="side">Campione di tessuto</td>
+        <td>Una raccolta di dati genetici[ST:n ]appartenenti ad animali terrestri.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="115">
+        <td>115</td>
+        <td>
+        </td>
+        <td class="side">Ricetrasmittente di Mia</td>
+        <td>Una ricetrasmittente caduta a Mia che[ST:n ]contiene i punti pizza che ha accumulato.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="116">
+        <td>116</td>
+        <td>
+        </td>
+        <td class="side">Semi di albero fosforico</td>
+        <td>Il seme di una specie di albero[ST:n ]gigante molto diffuso a Noctilum.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="117">
+        <td>117</td>
+        <td>
+        </td>
+        <td class="side">Chiave del container</td>
+        <td>Chiave della prigione dove &#232; tenuta Mia.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="118">
+        <td>118</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC118_Name</td>
+        <td>347</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="119">
+        <td>119</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC119_Name</td>
+        <td>348</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="120">
+        <td>120</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC120_Name</td>
+        <td>349</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="121">
+        <td>121</td>
+        <td>
+        </td>
+        <td class="side">Pizza Granata</td>
+        <td>Grande pizza con salame e formaggio[ST:n ]dal gusto esplosivo! La preferita dai clienti[ST:n ]di Army Pizza. Questa &#232; per consegna[ST:n ]a domicilio, quindi gi&#249; le mani!</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="122">
+        <td>122</td>
+        <td>
+        </td>
+        <td class="side">Pizza congelata</td>
+        <td>La pizza &#232; il cibo preferito dai Ma-non.[ST:n ]Ma essendo ancora congelata,[ST:n ]&#232; fredda e croccante.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="123">
+        <td>123</td>
+        <td>
+        </td>
+        <td class="side">Chiave di Ajiba</td>
+        <td>Una chiave per la torre di guardia dove[ST:n ]Oll Valdileo viene tenuto prigioniero.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="124">
+        <td>124</td>
+        <td>
+        </td>
+        <td class="side">Chiave di Mujiba</td>
+        <td>Una chiave per la torre di guardia dove[ST:n ]Rada Valdileo viene tenuto prigioniero.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="125">
+        <td>125</td>
+        <td>
+        </td>
+        <td class="side">Costume da ballo</td>
+        <td>Abiti indossati dalle ballerine Pron,[ST:n ]di un colore rosso pieno. Sono stati[ST:n ]disegnati dal defunto Quegga[ST:n ]per la sua innamorata, Thea.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="126">
+        <td>126</td>
+        <td>
+        </td>
+        <td class="side">Lacrima cremisi</td>
+        <td>Un gioiello rosso rubino estremamente[ST:n ]trasparente. La sua bellezza e rarit&#224;[ST:n ]possono fruttare una grossa somma.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="127">
+        <td>127</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC127_Name</td>
+        <td>356</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="128">
+        <td>128</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC128_Name</td>
+        <td>357</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="129">
+        <td>129</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC129_Name</td>
+        <td>358</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="130">
+        <td>130</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC130_Name</td>
+        <td>359</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="131">
+        <td>131</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC131_Name</td>
+        <td>360</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="132">
+        <td>132</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC132_Name</td>
+        <td>361</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="133">
+        <td>133</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC133_Name</td>
+        <td>362</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="134">
+        <td>134</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC134_Name</td>
+        <td>363</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="135">
+        <td>135</td>
+        <td>
+        </td>
+        <td class="side">Schema tecnico Ganglion</td>
+        <td>Uno Schema tecnico per una nuova arma[ST:n ]Ganglion in fase di sviluppo.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="136">
+        <td>136</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC136_Name</td>
+        <td>365</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="137">
+        <td>137</td>
+        <td>
+        </td>
+        <td class="side">Fumocchiali</td>
+        <td>Occhiali che permettono a chi li indossa[ST:n ]di vedere i segnali di fumo degli Orphe.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="138">
+        <td>138</td>
+        <td>
+        </td>
+        <td class="side">Acqua Senirapa</td>
+        <td>Acqua dalle propriet&#224; uniche, essenziale[ST:n ]per la riproduzione degli Orphe. Su Mira[ST:n ]&#232; un bene molto raro e prezioso.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="139">
+        <td>139</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC139_Name</td>
+        <td>368</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="140">
+        <td>140</td>
+        <td>
+        </td>
+        <td class="side">Zirtodiamante</td>
+        <td>Diamante che brilla di una luce sinistra[ST:n ]e che contiene alti livelli di tossine[ST:n ]nocive. &#200; consigliabile maneggiarlo[ST:n ]con estrema cura.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="141">
+        <td>141</td>
+        <td>
+        </td>
+        <td class="side">Disco di Golbogga</td>
+        <td>Un disco olografico che contiene[ST:n ]l’immagine di Golbogga, la divinit&#224;[ST:n ]che sembra abbia creato gli Zaruboggan.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="142">
+        <td>142</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC142_Name</td>
+        <td>371</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="143">
+        <td>143</td>
+        <td>
+        </td>
+        <td class="side">Linfa Tykki</td>
+        <td>Una linfa nera lucente ricercata[ST:n ]dal Professor B.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="144">
+        <td>144</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC144_Name</td>
+        <td>ITM_PRC144_Caption</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="145">
+        <td>145</td>
+        <td>
+        </td>
+        <td class="side">Tessera magnetica grigia</td>
+        <td>Tessera magnetica che serve per abbassare[ST:n ]la barriera che circonda il Professor B.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="146">
+        <td>146</td>
+        <td>
+        </td>
+        <td class="side">Scrigno rettangolare</td>
+        <td>Una strana scatola rettangolare lasciata[ST:n ]dagli Enigmosi. Sul retro si scorge[ST:n ]una misteriosa serratura.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="147">
+        <td>147</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC147_Name</td>
+        <td>376</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="148">
+        <td>148</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC148_Name</td>
+        <td>377</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="149">
+        <td>149</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC149_Name</td>
+        <td>378</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="150">
+        <td>150</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC150_Name</td>
+        <td>379</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="151">
+        <td>151</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC151_Name</td>
+        <td>380</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="152">
+        <td>152</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC152_Name</td>
+        <td>381</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="153">
+        <td>153</td>
+        <td>
+        </td>
+        <td class="side">Carico di Kuta</td>
+        <td>Il carico appartenente al corriere Kuta,[ST:n ]incaricato di custodire i preziosi oggetti[ST:n ]contenuti al suo interno.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="154">
+        <td>154</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC154_Name</td>
+        <td>383</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="155">
+        <td>155</td>
+        <td>
+        </td>
+        <td class="side">Aerozium</td>
+        <td>Materiale cristallino utilizzato per creare[ST:n ]materiali da costruzione molto resistenti.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="156">
+        <td>156</td>
+        <td>
+        </td>
+        <td class="side">Squamaeterea del Guardiano</td>
+        <td>Squama del Padrone dei Destini che[ST:n ]irradia un’aura misteriosa. &#200; utilizzata[ST:n ]come ingrediente per una ricetta[ST:n ]medicinale segreta Nopon.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="157">
+        <td>157</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC157_Name</td>
+        <td>386</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="158">
+        <td>158</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC158_Name</td>
+        <td>387</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="159">
+        <td>159</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC159_Name</td>
+        <td>388</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="160">
+        <td>160</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC160_Name</td>
+        <td>389</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="161">
+        <td>161</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC161_Name</td>
+        <td>390</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="162">
+        <td>162</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC162_Name</td>
+        <td>391</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="163">
+        <td>163</td>
+        <td>
+        </td>
+        <td class="side">Chiave della Fortezza Hilal</td>
+        <td>Chiave del deposito della Fortezza Hilal.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="164">
+        <td>164</td>
+        <td>
+        </td>
+        <td class="side">Braccio sinistro di mimosoma</td>
+        <td>Il braccio sinistro del vecchio amico di[ST:n ]Yelv. Una grossa cicatrice a forma[ST:n ]di croce &#232; il segno di una ferita[ST:n ]che si procur&#242; da bambino.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="165">
+        <td>165</td>
+        <td>
+        </td>
+        <td class="side">Prototipo di pianta L-002</td>
+        <td>Prototipo di pianta microiniettata che[ST:n ]emette onde elettromagnetiche, creata sulla[ST:n ]Balena Bianca. Per produrre cibo le basta[ST:n ]esclusivamente una debole luce solare.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="166">
+        <td>166</td>
+        <td>
+        </td>
+        <td class="side">Diario del reverendo</td>
+        <td>Piccola unit&#224; dati. Contiene il diario[ST:n ]registrato dal padre adottivo di Hope.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="167">
+        <td>167</td>
+        <td>
+        </td>
+        <td class="side">Flemtide</td>
+        <td>Un minerale che brilla di un rosso[ST:n ]fiammeggiante. Sprigiona enormi[ST:n ]quantit&#224; d’energia termica e per[ST:n ]questo &#232; molto utilizzato a N.L.A.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="168">
+        <td>168</td>
+        <td>
+        </td>
+        <td class="side">Scheggia di Galleggiapietra</td>
+        <td>Scheggia di Galleggiapietra. I suoi poteri[ST:n ]di levitazione permettono l&#39;esistenza della[ST:n ]famigerata Oasi Fluttuante di Mira.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="169">
+        <td>169</td>
+        <td>
+        </td>
+        <td class="side">Pelliccia insanguinata</td>
+        <td>Pelliccia macchiata di sangue. Appartiene[ST:n ]a una bestia che si aggira[ST:n ]per le Vette Illusorie.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="170">
+        <td>170</td>
+        <td>
+        </td>
+        <td class="side">Ciondolo di Law</td>
+        <td>Un ciondolo che Law teneva sempre con[ST:n ]s&#233;. La parte superiore sembra una chiave.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="171">
+        <td>171</td>
+        <td>
+        </td>
+        <td class="side">Tre Spade</td>
+        <td>Lame lasciate come ricordo dai tre fratelli[ST:n ]maggiori di Zo Zazhi, ora defunti. Sono[ST:n ]state utilizzate con onore fino alla[ST:n ]fine per proteggerla.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="172">
+        <td>172</td>
+        <td>
+        </td>
+        <td class="side">Collana di perle</td>
+        <td>Una collana di perle lasciata a Hope[ST:n ]da suo padre come ricordo. &#200; fatta[ST:n ]con preziose perle naturali terrestri.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="173">
+        <td>173</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; dati FN093</td>
+        <td>Unit&#224; dati che contiene[ST:n ]informazioni segrete.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="174">
+        <td>174</td>
+        <td>
+        </td>
+        <td class="side">Kit di riparazione</td>
+        <td>Scatola di duralluminio che contiene dei[ST:n ]materiali necessari a riparare gli Skell.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="175">
+        <td>175</td>
+        <td>
+        </td>
+        <td class="side">Lega Aganeba</td>
+        <td>Materiale forgiato da Aganeba utilizzato[ST:n ]per riparare le armature degli Skell.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="176">
+        <td>176</td>
+        <td>
+        </td>
+        <td class="side">Rottami dell’abitacolo</td>
+        <td>Rottami dell’abitacolo dell’arma Ganglion[ST:n ]Zu Pharg. Rutantan &#232; interessato[ST:n ]a condurre ulteriori ricerche sull’oggetto.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="177">
+        <td>177</td>
+        <td>
+        </td>
+        <td class="side">Rottami del motore</td>
+        <td>Rottami del motore dell’arma Ganglion[ST:n ]Zu Pharg. Rutantan &#232; interessato[ST:n ]a condurre ulteriori ricerche sull’oggetto.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="178">
+        <td>178</td>
+        <td>
+        </td>
+        <td class="side">Rottami di Zu Pharg</td>
+        <td>Rottami dell’arma Ganglion Zu Pharg.[ST:n ]Rutantan &#232; interessato a condurre[ST:n ]ulteriori ricerche sull’oggetto.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="179">
+        <td>179</td>
+        <td>
+        </td>
+        <td class="side">Ciarpame</td>
+        <td>Ritrovato nei rottami dello Zu Pharg.[ST:n ]Si suppone sia stato un suo componente,[ST:n ]ma &#232; ridotto cos&#236; male che nessuno[ST:n ]pu&#242; dirlo con certezza.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="180">
+        <td>180</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; dati FN094</td>
+        <td>Unit&#224; dati che contiene[ST:n ]informazioni segrete.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="181">
+        <td>181</td>
+        <td>
+        </td>
+        <td class="side">Testa di mimosoma</td>
+        <td>La testa del vecchio amico di Yelv. Il volto[ST:n ]ustionato &#232; a malapena riconoscibile.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="182">
+        <td>182</td>
+        <td>
+        </td>
+        <td class="side">Busto di mimosoma</td>
+        <td>Il busto del vecchio amico di Yelv.[ST:n ]Si intravede tatuata le frase[ST:n ]\&quot;Il cuore immortale\&quot;.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="183">
+        <td>183</td>
+        <td>
+        </td>
+        <td class="side">Gamba sinistra di mimosoma</td>
+        <td>La gamba sinistra del vecchio amico[ST:n ]di Yelv. Si intravede il tatuaggio[ST:n ]\&quot;VERSO OVEST\&quot;.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="184">
+        <td>184</td>
+        <td>
+        </td>
+        <td class="side">Gamba destra di mimosoma</td>
+        <td>La gamba destra del vecchio amico[ST:n ]di Yelv. Si intravede il tatuaggio[ST:n ]\&quot;VERSO EST\&quot;.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="185">
+        <td>185</td>
+        <td>
+        </td>
+        <td class="side">Prima chiave barriera</td>
+        <td>Tutte e tre le chiavi possono innalzare[ST:n ]la barriera che racchiude il nascondiglio[ST:n ]delle Definian. Ciascuna chiave &#232; in[ST:n ]possesso di un guardiano diverso.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="186">
+        <td>186</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC186_Name</td>
+        <td>415</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="187">
+        <td>187</td>
+        <td>
+        </td>
+        <td class="side">Muschio detergente</td>
+        <td>Una tipologia di muschio che pu&#242;[ST:n ]anche essere usato come detergente.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="188">
+        <td>188</td>
+        <td>
+        </td>
+        <td class="side">Medaglione</td>
+        <td>Un medaglione che custodisce[ST:n ]al suo interno una fotografia[ST:n ]di genitori rimasti sulla Terra.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="189">
+        <td>189</td>
+        <td>
+        </td>
+        <td class="side">Sabbiastella</td>
+        <td>Una fine sabbia bianca che si trova solo[ST:n ]a Sylvalum. Al microscopio i granelli[ST:n ]rivelano una struttura a forma di stella.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="190">
+        <td>190</td>
+        <td>
+        </td>
+        <td class="side">Cristallo violetto</td>
+        <td>Un cristallo dal colore sinistro.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="191">
+        <td>191</td>
+        <td>
+        </td>
+        <td class="side">Cimelio Emerian</td>
+        <td>Un effetto personale dissotterrato[ST:n ]all&#39;Arena Emerian.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="192">
+        <td>192</td>
+        <td>
+        </td>
+        <td class="side">Disco di memoria smarrito</td>
+        <td>Un disco di memoria perso da un membro[ST:n ]del BLADE. Contiene dati importantissimi.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="193">
+        <td>193</td>
+        <td>
+        </td>
+        <td class="side">Sonda dati rotta</td>
+        <td>Una sonda dati distrutta dai mostri[ST:n ]di Mira. Potrebbe ancora[ST:n ]essere riparata.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="194">
+        <td>194</td>
+        <td>
+        </td>
+        <td class="side">Pietracuore</td>
+        <td>Un sassolino a forma di cuore.[ST:n ]A parte la forma, non ha[ST:n ]niente di particolare.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="195">
+        <td>195</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC195_Name</td>
+        <td>424</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="196">
+        <td>196</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC196_Name</td>
+        <td>425</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="197">
+        <td>197</td>
+        <td>
+        </td>
+        <td class="side">Pietra del Monte M&#39;gando</td>
+        <td>Una pietra raccolta alle pendici[ST:n ]del Monte M&#39;gando.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="198">
+        <td>198</td>
+        <td>
+        </td>
+        <td class="side">Erbe gelatinose</td>
+        <td>Erbaccia molto appiccicosa. Se sminuzzata[ST:n ]e mescolata con del succo di frutta, se ne[ST:n ]pu&#242; ricavare una gelatina deliziosa[ST:n ]ma dal colore veramente disgustoso.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="199">
+        <td>199</td>
+        <td>
+        </td>
+        <td class="side">Resti dell&#39;arma prototipo</td>
+        <td>I resti di un prototipo d’arma sviluppato[ST:n ]dalla Candid &amp; Credible.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="200">
+        <td>200</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC200_Name</td>
+        <td>429</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="201">
+        <td>201</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC201_Name</td>
+        <td>430</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="202">
+        <td>202</td>
+        <td>
+        </td>
+        <td class="side">ITM_PRC202_Name</td>
+        <td>431</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="203">
+        <td>203</td>
+        <td>
+        </td>
+        <td class="side">Bottiglia per campionatura</td>
+        <td>Un contenitore di plastica con dell’acqua[ST:n ]del Lago di Biahno. Dalla sua semplice[ST:n ]fattura si capisce che &#232; pi&#249; una bottiglia[ST:n ]che un recipiente da laboratorio.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="204">
+        <td>204</td>
+        <td>
+        </td>
+        <td class="side">Mappa del Sistema solare</td>
+        <td>Un’unit&#224; dati contenente una mappa[ST:n ]stellare del Sistema solare. &#200; stata[ST:n ]usata durante la fuga dalla Terra[ST:n ]per uscire dal Sistema solare.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="205">
+        <td>205</td>
+        <td>
+        </td>
+        <td class="side">Bomba calorica</td>
+        <td>Il triplo hamburger specialit&#224; di Pauline.[ST:n ]Consigliato solo ai pi&#249; coraggiosi[ST:n ]o ai pi&#249; famelici.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="206">
+        <td>206</td>
+        <td>
+        </td>
+        <td class="side">Torridog</td>
+        <td>Un hot dog bollente e piccante,[ST:n ]piatto forte del Sunshine Caf&#233;.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="207">
+        <td>207</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; dati FN095</td>
+        <td>Unit&#224; dati che contiene[ST:n ]informazioni segrete.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="208">
+        <td>208</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; dati FN096</td>
+        <td>Unit&#224; dati che contiene[ST:n ]informazioni segrete.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="209">
+        <td>209</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; dati FN097</td>
+        <td>Unit&#224; dati che contiene[ST:n ]informazioni segrete.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="210">
+        <td>210</td>
+        <td>
+        </td>
+        <td class="side">Sonda dati d&#39;addestramento</td>
+        <td>Sonda dati di addestramento utilizzabile[ST:n ]perfino da un Wrothian maldestro. La sua[ST:n ]velocit&#224; di estrazione &#232; pi&#249; bassa delle[ST:n ]altre e non ha alcuna utilit&#224; pratica.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="211">
+        <td>211</td>
+        <td>
+        </td>
+        <td class="side">Bomba tossica</td>
+        <td>Una brutale arma chimica creata[ST:n ]per errore da Pfeffen. Se detonata,[ST:n ]l’intera area ne sarebbe coinvolta.[ST:n ]Si raccomanda la massima attenzione.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="212">
+        <td>212</td>
+        <td>
+        </td>
+        <td class="side">Kit medico</td>
+        <td>Un kit medico dei Ganglion in grado[ST:n ]di combattere molti agenti patogeni[ST:n ]letali. La sua efficacia &#232; ci&#242; che permette[ST:n ]la colonizzazione di qualsiasi pianeta.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="213">
+        <td>213</td>
+        <td>
+        </td>
+        <td class="side">Seta pregiata</td>
+        <td>Un prezioso filo che pu&#242; essere estratto[ST:n ]dall’Aracnide nobile. &#200; in grado di[ST:n ]riflettere l’ambiente circostante, offrendo[ST:n ]utili propriet&#224; di mimetizzazione.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="214">
+        <td>214</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; dati FN098</td>
+        <td>Unit&#224; dati contenente gli Schemi[ST:n ]tecnici per la FrontierNav di nuova[ST:n ]generazione creata dai colleghi di Kirsty.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="215">
+        <td>215</td>
+        <td>
+        </td>
+        <td class="side">Spada leggendosa</td>
+        <td>Spada leggendaria lasciata dagli antichi[ST:n ]Nopon. Quando l&#39;iscrizione sull&#39;elsa[ST:n ]si illumina, la spada sembra conferire[ST:n ]dei poteri speciali a chi la impugna.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="216">
+        <td>216</td>
+        <td>
+        </td>
+        <td class="side">Spada indistruttibile</td>
+        <td>Una lama di qualit&#224; superiore forgiata da[ST:n ]De Zing. &#200; in grado di penetrare ogni[ST:n ]armatura senza rompersi n&#233; scalfirsi.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="217">
+        <td>217</td>
+        <td>
+        </td>
+        <td class="side">Voltant</td>
+        <td>Una sostanza tossica sufficientemente[ST:n ]potente da corrodere qualsiasi mimosoma.[ST:n ]Nonostante questo, gli Zaruboggan la[ST:n ]considerano una vera prelibatezza.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="218">
+        <td>218</td>
+        <td>
+        </td>
+        <td class="side">Tessera magnetica</td>
+        <td>La tessera magnetica cercata[ST:n ]da Yardley. Non si sa cosa apra.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="219">
+        <td>219</td>
+        <td>
+        </td>
+        <td class="side">Gorkwa di Troylan</td>
+        <td>Strumento a forma di bastone utilizzato[ST:n ]dagli Zaruboggan per aspirare il Voltant.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="220">
+        <td>220</td>
+        <td>
+        </td>
+        <td class="side">Composto tradizionale Orphe</td>
+        <td>Un composto creato da Sun&#39;barac.[ST:n ]Se ingerito obbliga chiunque a[ST:n ]rispondere con un caloroso \&quot;s&#236;\&quot;[ST:n ]a qualsiasi domanda.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="221">
+        <td>221</td>
+        <td>
+        </td>
+        <td class="side">Dati di collaudo armi</td>
+        <td>Un chip di memoria dello Skell sfasciato[ST:n ]di Gigio. Contiene importanti informazioni[ST:n ]sulle prestazioni delle ultime armi[ST:n ]prodotte dalla Sakuraba Industries.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="222">
+        <td>222</td>
+        <td>
+        </td>
+        <td class="side">Seconda chiave barriera</td>
+        <td>Tutte e tre le chiavi possono innalzare la[ST:n ]barriera che circonda il nascondiglio delle[ST:n ]Definian. Ciascuna &#232; in possesso di un[ST:n ]guardiano, ma questa &#232; stata lasciata qui.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="223">
+        <td>223</td>
+        <td>
+        </td>
+        <td class="side">Terza chiave barriera</td>
+        <td>Tutte e tre le chiavi possono innalzare la[ST:n ]barriera che circonda il nascondiglio delle[ST:n ]Definian. Ciascuna &#232; in possesso di un[ST:n ]guardiano, ma questa &#232; stata lasciata qui.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="224">
+        <td>224</td>
+        <td>
+        </td>
+        <td class="side">Phogrium</td>
+        <td>Questa sostanza si vaporizza al tocco,[ST:n ]ma si cristallizza se attraversata[ST:n ]da una forte energia. &#200; stato Frye[ST:n ]a darle il nome.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="225">
+        <td>225</td>
+        <td>
+        </td>
+        <td class="side">Frammento di ruota gigante</td>
+        <td>Frammento di uno degli enormi anelli che[ST:n ]dominano Oblivia. La sua complessa[ST:n ]struttura fa pensare che potrebbe essere[ST:n ]un qualche tipo di equipaggiamento.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="226">
+        <td>226</td>
+        <td>
+        </td>
+        <td class="side">Frammenti Rovine Butte</td>
+        <td>Frammenti di antiche rovine trovati[ST:n ]a Oblivia. Le iscrizioni incise su di[ST:n ]esse rimangono un mistero.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="227">
+        <td>227</td>
+        <td>
+        </td>
+        <td class="side">Pietrenigma della Costa Nord</td>
+        <td>Frammenti di una grande e misteriosa[ST:n ]pietra ritrovati sparsi per tutta Oblivia.[ST:n ]Questo enigmatico materiale possiede le[ST:n ]propriet&#224; sia del metallo sia della pietra.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="228">
+        <td>228</td>
+        <td>
+        </td>
+        <td class="side">Dati di comunicazione</td>
+        <td>Chip di memoria contenente tracce delle[ST:n ]comunicazioni tra la Balena Bianca e le[ST:n ]altre navi. Recuperato da una parte[ST:n ]del Centro vitale caduta a Sylvalum.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+      <tr id="229">
+        <td>229</td>
+        <td>
+        </td>
+        <td class="side">Dati medici</td>
+        <td>Un chip di memoria contenente dati[ST:n ]medici su molte forme di vita. Recuperato[ST:n ]da una parte del Centro vitale a Cauldros.</td>
+        <td>1</td>
+        <td>2383</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0010</td>
+        <td class="side">Interroger[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0011</td>
+        <td class="side">Demander &#224; Dazbeno son avis[ST:n ]sur la technologie humaine.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0021</td>
+        <td class="side">Demander &#224; Dazbeno s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0001</td>
+        <td class="side">Si on consid&#232;re ce service de traitement des ordures,[ST:n ]tout cela est... Comment dire... Un petit peu vieillot ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0002</td>
+        <td class="side">La technologie terrestre a encore du chemin &#224; parcourir[ST:n ]avant d&#39;arriver au m&#234;me niveau que la technologie[ST:n ]de pointe ma-none, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0003</td>
+        <td class="side">C&#39;est &#224; se demander comment vous avez eu l&#39;id&#233;e[ST:n ]des mim&#233;osomes ou des Skells haut de gamme... ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0004</td>
+        <td class="side">C&#39;est comme si vous vous &#233;tiez projet&#233;s dans le futur[ST:n ]pour rapporter quelques exemples d&#39;avanc&#233;es[ST:n ]technologiques. Vous &#234;tes des cr&#233;atures fascinantes...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0005</td>
+        <td class="side">Y aurait-il parmi vous des g&#233;nies de la technologie[ST:n ]comme moi que vous nous auriez cach&#233;s ? J&#39;adorerais[ST:n ]les rencontrer si c&#39;&#233;tait le cas, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0008</td>
+        <td class="side">Euh, bonjour ? Oui, c&#39;est &#231;a. Bonjour. Je m&#39;appelle[ST:n ]Dazbeno et j&#39;ai &#233;t&#233; nomm&#233; directeur adjoint[ST:n ]&#224; l&#39;usine de production int&#233;gr&#233;e alors, euh...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0009</td>
+        <td class="side">Comment ? Vous ne trouvez pas que c&#39;est une bonne[ST:n ]id&#233;e de confier le destin de l&#39;humanit&#233; aux mains[ST:n ]des Ma-nons ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0010</td>
+        <td class="side">Eh bien, peut-&#234;tre devriez-vous vous sentir [ST:Gender p1=chanceux p2=chanceuse ],[ST:n ]non ? L&#39;usine haut de gamme &#224; bord du vaisseau[ST:n ]ma-non est ma cr&#233;ation...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0011</td>
+        <td class="side">Vous ne saviez pas qu&#39;elle avait &#233;t&#233; cr&#233;&#233;e pour tourner[ST:n ]pendant des si&#232;cles, n&#39;est-il pas ? Et j&#39;ai plus d&#39;un tour[ST:n ]dans mon sac pour vous, les humains.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0010</td>
+        <td class="side">tev030901_JNK0010</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0011</td>
+        <td class="side">tev030901_SEL0011</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0020</td>
+        <td class="side">tev030901_JNK0020</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030901_SEL1021</td>
+        <td class="side">Demander &#224; Dazbeno s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0012</td>
+        <td class="side">Il va nous falloir optimiser le service de traitement[ST:n ]des ordures si nous ne voulons pas qu&#39;une situation[ST:n ]pareille ne se reproduise, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0013</td>
+        <td class="side">Il faudra des appareils qui r&#233;sistent aux coups[ST:n ]de cette brute &#233;paisse de Nauzo ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0014</td>
+        <td class="side">Ou alors installer des mesures de s&#233;curit&#233; pour[ST:n ]les prot&#233;ger de la manie de Liza d&#39;appuyer[ST:n ]fr&#233;n&#233;tiquement sur tous les boutons, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0015</td>
+        <td class="side">Enfin bref, je devrais enqu&#234;ter pour d&#233;couvrir d&#39;o&#249;[ST:n ]vient le pouvoir &#233;trange des Zaruboggans, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0016</td>
+        <td class="side">Si je pouvais trouver le fin mot de cette histoire,[ST:n ]je pourrais instantan&#233;ment purifier m&#234;me[ST:n ]les pires d&#233;chets qui qui arrivent ici...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0010</td>
+        <td class="side">tev030901_JNK0010</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev030901_SEL0011</td>
+        <td class="side">tev030901_SEL0011</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev030901_JNK0020</td>
+        <td class="side">tev030901_JNK0020</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev030901_SEL2021</td>
+        <td class="side">Demander &#224; Dazbeno s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0017</td>
+        <td class="side">L&#39;usine de production int&#233;gr&#233;e est bien plus anim&#233;e[ST:n ]que lorsqu&#39;il n&#39;y avait que des humains[ST:n ]et des Ma-nons, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0018</td>
+        <td class="side">Gr&#226;ce aux impressionnants muscles prones de Nauzo,[ST:n ]nous n&#39;avons plus aucun probl&#232;me quand il s&#39;agit de[ST:n ]d&#233;placer les ordures d&#39;un point A &#224; un point B...[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0019</td>
+        <td class="side">Et les Zaruboggans ? Trachlo ? Eh bien, Trachlo nous[ST:n ]d&#233;barrasse des d&#233;chets, m&#234;me les plus dangereux,[ST:n ]en un tour de main...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0020</td>
+        <td class="side">Et Liza... Eh bien, Liza pleurniche beaucoup,[ST:n ]savez-vous ? Mais cela semble indispensable[ST:n ]au bon fonctionnement de l&#39;usine...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0021</td>
+        <td class="side">On dirait bien que nous sommes comme une famille,[ST:n ]non ? Je ne sais pas. Mais je n&#39;avais jamais eu[ST:n ]un travail aussi utile avant, alors...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev030901_MSG0022</td>
+        <td class="side">Cela me motive pour cr&#233;er de nouvelles machines[ST:n ]&#233;patantes pour l&#39;usine, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

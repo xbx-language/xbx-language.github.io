@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev012701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev012701_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev012701_SEL0011</td>
+        <td class="side">Demander &#224; Fosdyke de vous parler de l&#39;&#233;quipage[ST:n ]de la Grande Blanche.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev012701_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev012701_SEL0021</td>
+        <td class="side">Demander &#224; Fosdyke s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0001</td>
+        <td class="side">L&#39;&#233;quipage de la Grande Blanche &#233;tait compos&#233; de[ST:n ]diff&#233;rents sp&#233;cialistes capables d&#39;endurer les rigueurs[ST:n ]des voyages interstellaires.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0003</td>
+        <td class="side">Actuellement, je ne suis qu&#39;un po&#232;te &#224; la d&#233;rive dans[ST:n ]ce monde &#233;trange. Mais lorsque j&#39;&#233;tais navigateur[ST:n ]spatial, mes comp&#233;tences &#233;taient in&#233;gal&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0004</td>
+        <td class="side">Chaque habitant de cette ville ma&#238;trise une comp&#233;tence[ST:n ]vitale, m&#234;me ceux qui n&#39;ont pas rejoint le BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0005</td>
+        <td class="side">Ils ont tous &#233;t&#233; affect&#233;s aux postes qui leur[ST:n ]correspondaient le mieux, et travaillent[ST:n ]maintenant au bien de New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0006</td>
+        <td class="side">Bien s&#251;r, tout le monde n&#39;a pas souhait&#233; jouer son r&#244;le.[ST:n ]Vous pouvez encore trouver quelques marginaux[ST:n ]comme moi, si vous savez o&#249; chercher.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0009</td>
+        <td class="side">Je crois comprendre que vous &#234;tes membre du BLADE ?[ST:n ]Je l&#39;&#233;tais aussi jusqu&#39;&#224; il y a peu.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0010</td>
+        <td class="side">Mais certains &#233;v&#232;nements ont eu lieu, et j&#39;ai fini par[ST:n ]quitter le BLADE. Je gagne maintenant ma vie en[ST:n ]composant des po&#232;mes qui n&#39;int&#233;ressent personne.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0011</td>
+        <td class="side">Et vous ? Souhaiteriez-vous acheter une copie de[ST:n ]mon anthologie po&#233;tique, &#171; Les Trois divins &#187; ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev012701_MSG0012</td>
+        <td class="side">Chaque po&#232;me est une p&#233;pite scintillante de r&#234;verie,[ST:n ]fa&#231;onn&#233;e par l&#39;inspiration profonde que j&#39;ai trouv&#233;e[ST:n ]sur Mira ! Je suis s&#251;r que vous appr&#233;cierez.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

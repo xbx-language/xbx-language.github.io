@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev095803_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0001</td>
+        <td class="side">Oh, du bist zur&#252;ck! Sch&#246;n, dich wohlauf wiederzusehen.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0002</td>
+        <td class="side">In gewisser Weise war der Kampf mit[ST:n ]den beiden Syloothen brutaler als alle[ST:n ]unsere Gefechte gegen die Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0003</td>
+        <td class="side">Denk mal nach: Wir entwickeln ein Ger&#228;t, das uns[ST:n ]Aufschluss &#252;ber Mira geben soll – und dann wird es[ST:n ]ausgerechnet von der miranischen Fauna zerlegt![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0004</td>
+        <td class="side">Unser Eingreifen ist unerw&#252;nscht! Aber wir stellen uns[ST:n ]taub, pfuschen in die nat&#252;rliche Ordnung auf diesem[ST:n ]Planeten und verfolgen halsstarrig unsere eigenen Ziele.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0005</td>
+        <td class="side">...Tut mir leid. Ich bin wohl der Letzte, der hier gro&#223;e[ST:n ]Predigten halten sollte. Schlie&#223;lich habe ich dich ja[ST:n ]praktisch zu diesem Einsatz gezwungen.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev095803_JNK0010</td>
+        <td class="side">Reue zeigen</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev095803_SEL0011</td>
+        <td class="side">Sage, dass es ein schreckliches Gef&#252;hl war,[ST:n ]die einheimischen Kreaturen zu t&#246;ten.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev095803_JNK0020</td>
+        <td class="side">Belehren</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev095803_SEL0021</td>
+        <td class="side">Erkl&#228;re, dass Sentimentalit&#228;ten[ST:n ]auf Mira fehl am Platz sind.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0006</td>
+        <td class="side">Was soll ich dazu sagen? Mehr als ein paar[ST:n ]selbstgerechte Ausreden habe ich auch nicht zu bieten...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0007</td>
+        <td class="side">Aber es w&#228;re ziemlich sch&#228;big, die Verantwortung[ST:n ]auf dich abzuw&#228;lzen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0008</td>
+        <td class="side">Du hast nur deinen Auftrag erf&#252;llt und hast dir[ST:n ]nichts vorzuwerfen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0009</td>
+        <td class="side">Wie schwierig es f&#252;r dich auch war – du hast getan,[ST:n ]was getan werden musste.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0011</td>
+        <td class="side">Ja, es mag naiv sein, da hast du wahrscheinlich recht.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0012</td>
+        <td class="side">Vielleicht habe ich einfach nicht so viel Schneid wie du.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0013</td>
+        <td class="side">Irgendwie bewundere ich dich daf&#252;r. Du tust,[ST:n ]was getan werden muss, und erf&#252;llst selbst die[ST:n ]unangenehmsten Auftr&#228;ge wie ein Profi.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0014</td>
+        <td class="side">Erinnerst du dich daran, was ich dir bei unserem[ST:n ]ersten Treffen gesagt habe? Dass ich dir deinen[ST:n ]Ruhm g&#246;nne?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0015</td>
+        <td class="side">Offen gesagt war ich da vielleicht nicht[ST:n ]hundertprozentig ehrlich.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0016</td>
+        <td class="side">Ich konnte mit meinem unterbesetzten Team meinen Job[ST:n ]nicht machen und hatte das D&#228;umchendrehen satt.[ST:n ]Ich war nur noch frustriert – und neidisch auf dich.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0017</td>
+        <td class="side">Das zeigt einmal mehr, dass ich an meiner[ST:n ]Einstellung arbeiten muss.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0018</td>
+        <td class="side">Wei&#223;t du was? Vielleicht sollte ich unsere[ST:n ]Personalprobleme tats&#228;chlich als[ST:n ]Herausforderung betrachten.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0019</td>
+        <td class="side">Zumindest sollte ein neuer Denkansatz mich davon[ST:n ]abhalten, weiterhin mit Scheuklappen durch die[ST:n ]Gegend zu laufen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0020</td>
+        <td class="side">Ab sofort werden mein Team und ich uns dieser[ST:n ]Herausforderung stellen![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0021</td>
+        <td class="side">Ich denke, ich bin dir was schuldig.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0022</td>
+        <td class="side">Ich versuche in Zukunft daf&#252;r zu sorgen, dass meine[ST:n ]eigene Unreife mir nicht wieder im Weg steht.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0023</td>
+        <td class="side">Irgendwann werde ich mich f&#252;r deine Hilfe revanchieren.[ST:n ]Vielleicht gelingt es mir sogar, ein BLADE zu werden,[ST:n ]der diesen Namen auch verdient.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev095803_MSG0024</td>
+        <td class="side">Bis dahin w&#252;nsche ich dir alles Gute.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

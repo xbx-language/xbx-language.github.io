@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev066501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0010</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0011</td>
+        <td class="side">Frage Ni Zinga nach Ga Jiarg.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0020</td>
+        <td class="side">Unterhalten</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0021</td>
+        <td class="side">Frage Ni Zinga, ob ihm irgendetwas Sorgen bereitet.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0010</td>
+        <td class="side">tev066501_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0031</td>
+        <td class="side">Frage Ni Zinga nach der alten Heimat der Wrothianer.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0020</td>
+        <td class="side">tev066501_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0041</td>
+        <td class="side">Frage Ni Zinga, ob ihn etwas besch&#228;ftigt.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0010</td>
+        <td class="side">tev066501_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0031</td>
+        <td class="side">tev066501_SEL0031</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0020</td>
+        <td class="side">tev066501_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev066501_SEL1021</td>
+        <td class="side">Frage Ni Zinga nach den j&#252;ngsten Ereignissen.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0010</td>
+        <td class="side">tev066501_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0031</td>
+        <td class="side">tev066501_SEL0031</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0020</td>
+        <td class="side">tev066501_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev066501_SEL1041</td>
+        <td class="side">Frage Ni Zinga, ob er irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0010</td>
+        <td class="side">tev066501_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0031</td>
+        <td class="side">tev066501_SEL0031</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0020</td>
+        <td class="side">tev066501_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev066501_SEL2021</td>
+        <td class="side">Frage Ni Zinga nach den j&#252;ngsten Ereignissen.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0010</td>
+        <td class="side">tev066501_JNK0010</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev066501_SEL0031</td>
+        <td class="side">tev066501_SEL0031</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev066501_JNK0020</td>
+        <td class="side">tev066501_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev066501_SEL2041</td>
+        <td class="side">Frage Ni Zinga, ob er irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0001</td>
+        <td class="side">Prinz Ga Jiarg geruhte also, Euch zu einer Audienz[ST:n ]zu empfangen. Zollt ihm geb&#252;hrenden Respekt![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0002</td>
+        <td class="side">M&#246;gen unsere derzeitigen Unterk&#252;nfte auch bescheiden[ST:n ]anmuten, Seine Hoheit ist kein Geringerer als der letzte[ST:n ]Erbe des wrothianischen Adelsgeschlechts.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0003</td>
+        <td class="side">Unter gew&#246;hnlichen Umst&#228;nden w&#252;rden[ST:n ]nicht einmal hochrangige Krieger wie wir[ST:n ]uns Seiner Hoheit ungebeten n&#228;hern.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0008</td>
+        <td class="side">Wir werden auf unsere eigene Art diesen widrigen[ST:n ]Umst&#228;nden die Stirn bieten. Eure Hilfe ist unerw&#252;nscht.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0012</td>
+        <td class="side">Das K&#246;nigreich Wroth liegt auf kargem Boden. Um zu[ST:n ]&#252;berleben, leistete unser Volk seit jeher S&#246;ldnerdienste.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0013</td>
+        <td class="side">Doch dann begehrten die Ganglion unsere St&#228;rke f&#252;r[ST:n ]sich allein und sie begannen, all unsere Dienstgeber[ST:n ]einzusch&#252;chtern. Bald waren wir ohne Anstellung.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0014</td>
+        <td class="side">Wir vermochten uns nicht l&#228;nger angemessen zu r&#252;sten.[ST:n ]Und wir hungerten. So krochen wir schlie&#223;lich vor den[ST:n ]Ganglion im Staube und beugten uns ihrem Joch.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0015</td>
+        <td class="side">Nun wisst Ihr, wie unser Reich dem hinterh&#228;ltigen[ST:n ]R&#228;nkespiel mutterloser Feiglinge zum Opfer fiel![ST:n ]Doch die Tage der Schmach sind vergangen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0016</td>
+        <td class="side">In diesen H&#246;hlen erbl&#252;ht unser neues K&#246;nigreich! M&#246;gen[ST:n ]unsere Ahnen &#252;ber uns wachen, wenn wir erneut unsere[ST:n ]tapferen Krieger entsenden – f&#252;r Wroth und die Ehre![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0021</td>
+        <td class="side">Unsere erbittertste Feindin, die elende Jacul-K&#246;nigin,[ST:n ]muss zur Strecke gebracht werden.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0022</td>
+        <td class="side">Doch daf&#252;r bedarf es vieler Krieger.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0023</td>
+        <td class="side">Man erz&#228;hlt sich, Ihr wart siegreich im Kampfe gegen[ST:n ]die gro&#223;e Ga Buidhe und konntet sogar seine Hoheit[ST:n ]den Prinzen bezwingen.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev066501_MSG0024</td>
+        <td class="side">[ST:Gender p1=Einen Krieger p2=Eine Kriegerin ] von Eurer St&#228;rke k&#246;nnten wir wohl[ST:n ]gut gebrauchen. Denkt dar&#252;ber nach – zu[ST:n ]gegebener Zeit will ich Euch mehr erz&#228;hlen.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1001</td>
+        <td class="side">Endlich! Die Bestie ist vernichtet! Nun k&#246;nnen meine[ST:n ]Kameraden und mein Sohn in Frieden ruhen.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1002</td>
+        <td class="side">Ich danke Euch, [ST:playername ].[ST:n ]Diesen Sieg haben wir Euch zu verdanken.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1003</td>
+        <td class="side">Nun ist es an der Zeit, den n&#228;chsten zu erringen! Lasst[ST:n ]uns gegen die sch&#228;ndlichen Ganglion in die Schlacht[ST:n ]ziehen und mit ihnen unseren Groll zu Grabe tragen![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1004</td>
+        <td class="side">Vorw&#228;rts, Ihr Drei &#220;berragenden! Sch&#228;rft Eure Klingen[ST:n ]und wappnet Eure Herzen! Auf zum letzten Gefecht![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1009</td>
+        <td class="side">In den Tagen des alten K&#246;nigreiches trafen sich einmal[ST:n ]in jedem Sonnenumlauf unsere st&#228;rksten Krieger zum[ST:n ]Wrothianischen Waffenwettstreit.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1010</td>
+        <td class="side">Mir kam zu Ohren, dass ein Wrothianer in NLA den[ST:n ]Versuch unternimmt, diese Tradition hier in unserer[ST:n ]neuen Heimat aufleben zu lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1011</td>
+        <td class="side">Mich deucht, Ihr seid doch ebenfalls [ST:Gender p1=ein Krieger p2=eine Kriegerin ] von[ST:n ]nicht eben bescheidenem K&#246;nnen. Ihr solltet antreten![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev066501_MSG1012</td>
+        <td class="side">Die Drei &#220;berragenden brennen bereits darauf, ihre[ST:n ]Kr&#228;fte mit den St&#228;rksten und Stolzesten auf ganz Mira[ST:n ]zu messen! Stachelt das nicht Euren Eifer an? Hahaha![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2001</td>
+        <td class="side">Nun, da unsere erbittertste Feindin vernichtet ist, w&#228;re[ST:n ]es an der Zeit, dass die Drei &#220;berrangenden und ich[ST:n ]unseren Schwur halten, die Ganglion niederzustrecken.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2002</td>
+        <td class="side">Aber ach... Nun liegt es an mir allein, ihn zu erf&#252;llen.[ST:n ]Ich werde nicht versagen![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2003</td>
+        <td class="side">Vernehmt meine Worte, Ihr Drei &#220;berragenden! Wacht[ST:n ]aus dem Jenseits &#252;ber Ni Zinga und seine Kriegerschar,[ST:n ]wenn sie dem Ruf des Schlachtfelds folgen![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2008</td>
+        <td class="side">In den Tagen des alten K&#246;nigreiches trafen sich einmal[ST:n ]in jedem Sonnenumlauf unsere st&#228;rksten Krieger zum[ST:n ]Wrothianischen Waffenwettstreit.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2009</td>
+        <td class="side">Mir kam zu Ohren, dass ein Wrothianer in NLA den[ST:n ]Versuch unternimmt, diese Tradition hier in unserer[ST:n ]neuen Heimat aufleben zu lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2010</td>
+        <td class="side">Mich deucht, Ihr seid doch ebenfalls [ST:Gender p1=ein Krieger p2=eine Kriegerin ] von[ST:n ]nicht eben bescheidenem K&#246;nnen. Ihr solltet antreten![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev066501_MSG2011</td>
+        <td class="side">W&#252;rden die Drei &#220;berragenden noch unter uns weilen,[ST:n ]ach, sie w&#228;ren l&#228;ngst zum Wettkampf gemeldet, um[ST:n ]sich bis aufs Blut mit den Besten zu messen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

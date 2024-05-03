@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev066001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0011</td>
+        <td class="side">Demander &#224; Da Naguth de vous parler des Wrothians.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0021</td>
+        <td class="side">Demander &#224; Da Naguth si quelque chose le perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">tev066001_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0031</td>
+        <td class="side">Demander &#224; Da Naguth de vous parler du Ganglion.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">tev066001_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0041</td>
+        <td class="side">Demander &#224; Da Naguth s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">tev066001_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0031</td>
+        <td class="side">tev066001_SEL0031</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">tev066001_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev066001_SEL1021</td>
+        <td class="side">Demander &#224; Da Naguth s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">tev066001_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev066001_SEL1031</td>
+        <td class="side">Demander &#224; Da Naguth de vous parler du Ganglion.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">tev066001_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev066001_SEL1021</td>
+        <td class="side">tev066001_SEL1021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0001</td>
+        <td class="side">Un humain ? Qu&#39;est-ce qui vous am&#232;ne ici ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0002</td>
+        <td class="side">&#202;tes-vous ici dans le but de vous venger ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0003</td>
+        <td class="side">Sachez que nous ne sommes plus sous les ordres[ST:n ]du Ganglion, c&#39;est pourquoi nous n&#39;avons plus[ST:n ]de raison de nous quereller.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0004</td>
+        <td class="side">Mais si vous tenez vraiment &#224; vous battre, soit ![ST:n ]Eh bien ? Pourquoi ne d&#233;gainez-vous pas votre arme ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0009</td>
+        <td class="side">Nous sommes des Wrothians, humain ![ST:n ]Notre puissance est l&#233;gendaire ![ST:n ]Notre fiert&#233; est sans limite ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0010</td>
+        <td class="side">Et bien que nous soyons en mauvaise posture[ST:n ]nous ne souhaitons pas votre aide.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0015</td>
+        <td class="side">Ces vicieux sc&#233;l&#233;rats ne pensent qu&#39;&#224; &#233;tendre le territoire[ST:n ]de la Samaar. Leurs membres passent leur temps[ST:n ]&#224; ourdir sans le moindre remords.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0016</td>
+        <td class="side">Et pourtant nous les avons assist&#233;s dans leurs actes[ST:n ]mis&#233;rables... Bien que nous n&#39;ayons pas eu le choix,[ST:n ]ces p&#233;ch&#233;s me suivront toute ma vie.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0017</td>
+        <td class="side">Je les exterminerai tous un jour, m&#234;me si cela risque[ST:n ]d&#39;entra&#238;ner ma mort.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0021</td>
+        <td class="side">Si le prince Jiarg s&#39;est alli&#233; &#224; vous,[ST:n ]alors nous nous devons d&#39;ob&#233;ir.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0022</td>
+        <td class="side">Mes fr&#232;res et moi formons les Trois griffes ![ST:n ]Envoyez-nous combattre le Ganglion[ST:n ]et nous l&#39;annihilerons ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0023</td>
+        <td class="side">Vous finirez par comprendre que nul humain[ST:n ]n&#39;est capable de combattre comme nous le faisons.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1001</td>
+        <td class="side">Je vous ai [ST:Gender p1=vu p2=vue ] combattre la terrible projex reine,[ST:n ][ST:playername ]. Vous vous &#234;tes [ST:Gender p1=battu p2=battue ][ST:n ]vaillamment.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1002</td>
+        <td class="side">&#192; dire vrai, je n&#39;ai jamais vu de guerrier se battre[ST:n ]avec tant de f&#233;rocit&#233;, m&#234;me parmi les miens.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1003</td>
+        <td class="side">Je suis honor&#233; de m&#39;&#234;tre alli&#233; &#224; vous. J&#39;esp&#232;re[ST:n ]que nous nous croiserons de nouveau[ST:n ]sur le champ de bataille.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1004</td>
+        <td class="side">Et cette fois ce sera Da Naguth, le vent tranchant[ST:n ]des Trois griffes, qui vous portera secours ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1009</td>
+        <td class="side">Je vous remercie d&#39;avoir mis fin au Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1010</td>
+        <td class="side">Mais ce sont les Wrothians qui auraient d&#251; accomplir[ST:n ]cela. Nous devons nous racheter pour toutes[ST:n ]les atrocit&#233;s que nous avons commises en leur nom.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1011</td>
+        <td class="side">J&#39;ai entendu dire que nombre de forces du Ganglion[ST:n ]continuent de r&#233;sister dans Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1012</td>
+        <td class="side">Laissez les Wrothians vous aider &#224; &#233;liminer[ST:n ]ces mis&#233;rables, c&#39;est le moins que nous puissions faire.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

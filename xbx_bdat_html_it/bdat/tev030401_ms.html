@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030401_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030401_SEL0011</td>
+        <td class="side">Chiedi a Zeedoy degli Skell da costruzione.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030401_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030401_SEL0021</td>
+        <td class="side">Chiedi a Zeedoy se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030401_SEL0031</td>
+        <td class="side">Chiedi a Zeedoy degli Skell da costruzione.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0001</td>
+        <td class="side">Gli Skell gialli qui non sono molto produttivi, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0002</td>
+        <td class="side">Con qualche piccola modifica, probabilmente[ST:n ]potremo evitare di impiegare tutti quei[ST:n ]meccanici, non credi anche tu?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0003</td>
+        <td class="side">Mmmh... Gli Skell avranno bisogno di ottanta pizze[ST:n ]per ogni minuto di attivit&#224;, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0004</td>
+        <td class="side">No, aspetta. Non possiamo sprecare cos&#236; tante[ST:n ]pizze per fare da carburante, dico bene?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0011</td>
+        <td class="side">Ho deciso di prendermi una piccola pausa perch&#233;[ST:n ]mi &#232; venuta fame, sai? Ma caspita, sono[ST:n ]stato rimproverato per bene![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0012</td>
+        <td class="side">Mmmh? Quanto piccola, dici?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0015</td>
+        <td class="side">Ho mangiato qualcosina prima di pranzo, OK? Poi mi[ST:n ]sono fermato per una pizza e mi sono appisolato un[ST:n ]attimo. Quando mi sono risvegliato era sera, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0016</td>
+        <td class="side">Credo che la pausa sia durata mezza giornata circa.[ST:n ]Ma che c&#39;&#232; di male? &#200; normale! Perch&#233; voi[ST:n ]umani vi incavolate cos&#236; spesso?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0017</td>
+        <td class="side">Alcune volte penso che mi ci vorrebbe un traduttore[ST:n ]della rabbia... o qualcosa del genere.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0027</td>
+        <td class="side">Ho provato ad apportare qualche piccola miglioria[ST:n ]agli-agli Skell gialli, e sono andati... fuori controllo?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0028</td>
+        <td class="side">Non che qualcuno sia stato infilzato con gli attrezzi,[ST:n ]niente del genere, OK? Per&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0029</td>
+        <td class="side">Beh, gli Skell potrebbero aver accidentalmente usato la[ST:n ]loro ricetrasmittente per ordinare cibo. Un-un ordine[ST:n ]enorme. DAVVERO enorme, capisci che intendo?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0030</td>
+        <td class="side">Tutti nella zona industriale hanno aiutato a finire[ST:n ]montagne di pizza e hot dog, sai? Ma ho paura[ST:n ]che non vedr&#242; uno stipendio per un bel po&#39;.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030401_SEL0041</td>
+        <td class="side">Chiedi a Zeedoy quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0031</td>
+        <td class="side">Gli umani qui si arrabbiano facilmente, ma mi[ST:n ]rendo conto che &#232; solo perch&#233; vogliono[ST:n ]fare un bel lavoro, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0032</td>
+        <td class="side">Non sono arrabbiati come era arrabbiato quell&#39;Alex.[ST:n ]Dopo averci fatto l&#39;abitudine, mi sento molto[ST:n ]pi&#249; a mio agio qui, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0033</td>
+        <td class="side">Prover&#242; a impegnarmi di pi&#249; in modo da riuscire a[ST:n ]essere all&#39;altezza delle-delle aspettative di tutti,[ST:n ]non so se mi spiego.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030401_MSG0034</td>
+        <td class="side">D&#39;ora in avanti, limiter&#242; le mie pause pranzo a tre ore,[ST:n ]non un secondo di pi&#249;! &#200; una buona idea, giusto?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

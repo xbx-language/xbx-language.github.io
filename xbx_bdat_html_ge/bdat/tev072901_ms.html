@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev072901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev072901_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev072901_SEL0011</td>
+        <td class="side">Sprich mit Yin’tonam &#252;ber die Fortpflanzung[ST:n ]der Orphen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev072901_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev072901_SEL0021</td>
+        <td class="side">Tausche mit Yin’tonam die neuesten Ger&#252;chte aus.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0001</td>
+        <td class="side">Im Laufe der letzten Jahrtausende pflanzten wir uns[ST:n ]durch Spaltung fort. Jeder Orphe vermochte sich in[ST:n ]zwei eigenst&#228;ndige Organismen zu teilen.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0002</td>
+        <td class="side">Hier auf Mira allerdings sind die Umst&#228;nde unserer[ST:n ]Reproduktion etwas... befremdlich.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0003</td>
+        <td class="side">&#220;blicherweise k&#246;nnen wir uns &#252;ber zwei oder drei[ST:n ]Generationen fortpflanzen, ohne signifikante[ST:n ]Ver&#228;nderungen unserer Nachkommen wahrzunehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0004</td>
+        <td class="side">Doch nun lassen sich bereits von einer Generation zur[ST:n ]n&#228;chsten gro&#223;e individuelle Unterschiede feststellen.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0005</td>
+        <td class="side">Seither sind einige &#228;u&#223;erst sonderbare Orphen[ST:n ]aufgetreten, wie beispielsweise Min’barac. Er besitzt[ST:n ]nicht den geringsten Funken Rationalit&#228;t.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0006</td>
+        <td class="side">Ich bin mir nicht sicher, ob das dem Einfluss Miras[ST:n ]oder eurer Stadt geschuldet ist, aber hier gehen[ST:n ]zweifellos merkw&#252;rdige Dinge vor sich.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0009</td>
+        <td class="side">Kan’tonam ist BLADE beigetreten? Faszinierend.[ST:n ]Er schien mir bisher nicht der Typ daf&#252;r zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0010</td>
+        <td class="side">Ein BLADE muss verwegen genug sein, seinen Feinden[ST:n ]furchtlos in die Augen zu sehen, nicht wahr?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0011</td>
+        <td class="side">Kan’tonams &#220;berlebensinstinkt ist st&#228;rker ausgepr&#228;gt[ST:n ]als bei den anderen. Er wird sicher beim ersten[ST:n ]Anzeichen von Gefahr die Flucht ergreifen.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0012</td>
+        <td class="side"></td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev072901_JNK0010</td>
+        <td class="side">tev072901_JNK0010</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev072901_SEL0011</td>
+        <td class="side">tev072901_SEL0011</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev072901_JNK0020</td>
+        <td class="side">tev072901_JNK0020</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev072901_SEL1021</td>
+        <td class="side">Sprich mit Yin’tonam &#252;ber die Ereignisse der letzten Zeit.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev072901_JNK0010</td>
+        <td class="side">tev072901_JNK0010</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev072901_SEL1031</td>
+        <td class="side">Frage Yin’tonam, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev072901_JNK0020</td>
+        <td class="side">tev072901_JNK0020</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev072901_SEL1021</td>
+        <td class="side">tev072901_SEL1021</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0013</td>
+        <td class="side">Aufgrund seines stark ausgepr&#228;gten Fluchtinstinkts[ST:n ]ging ich nicht davon aus, dass Kan’tonam ein[ST:n ]annehmbarer BLADE werden w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0014</td>
+        <td class="side">Aber wie es aussieht, war seine Neigung zu[ST:n ]fluchtartigen R&#252;ckz&#252;gen auf seiner letzten Mission[ST:n ]sogar von Nutzen.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0015</td>
+        <td class="side">Anscheinend sucht Kan’tonams Division, die Reclaimer,[ST:n ]nach Fragmenten des Wei&#223;en Wals.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0016</td>
+        <td class="side">Von der letzten Mission hat er Teile mitgebracht und ich[ST:n ]bin zuversichtlich, dass ich daraus etwas f&#252;r BLADE[ST:n ]N&#252;tzliches fertigen kann. Du wirst nicht entt&#228;uscht sein.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0017</td>
+        <td class="side"></td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0018</td>
+        <td class="side"></td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0019</td>
+        <td class="side">Min’barac plant, mitsamt seinen Prone- und Ma-non-[ST:n ]Bekanntschaften BLADE beizutreten.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0020</td>
+        <td class="side">Mir ist bewusst, dass ich zuvor geringsch&#228;tzig von[ST:n ]seinen F&#228;higkeiten gesprochen habe...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0021</td>
+        <td class="side">Allerdings scheint ihn die Gesellschaft der verschiedenen[ST:n ]Bewohner NLAs einem wahren Wandel unterzogen zu[ST:n ]haben.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev072901_MSG0022</td>
+        <td class="side">Er ist zwar nach wie vor etwas unbesonnen, doch[ST:n ]in letzter Zeit lassen sich in seinen Handlungen[ST:n ]durchaus Anzeichen von Vernunft erkennen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

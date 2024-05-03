@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev092501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0001</td>
+        <td class="side">Dacht ich’s mir doch, dass du auftauchen w&#252;rdest.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0002</td>
+        <td class="side">Wer sonst h&#228;tte die Eier, sich f&#252;r einen Skell-Flugtest zu[ST:n ]melden? &#196;h, ich meine... Du bist ganz sch&#246;n hartgekocht.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0003</td>
+        <td class="side">Du und Doug, ihr seid die einzigen,[ST:n ]die plemplem genug f&#252;r so was sind.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0004</td>
+        <td class="side">M&#252;ssen Sie das so fies formulieren, Kommandant?![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0005</td>
+        <td class="side">Okay, die vorherigen Tests haben meistens irgendwie[ST:n ]mit Explosionen und ’ner Menge Feuer geendet...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0006</td>
+        <td class="side">Und dann war da der eine, der Amok[ST:n ]gelaufen ist und sich ins Meer gest&#252;rzt hat...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0007</td>
+        <td class="side">Aber das sind ganz normale Vorf&#228;lle[ST:n ]bei der R&#252;stungsentwicklung![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0008</td>
+        <td class="side">...Oder nicht?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0010</td>
+        <td class="side">Beipflichten</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0011</td>
+        <td class="side">Sage, dass du Ausrutscher gern in Kauf nimmst, wenn[ST:n ]du auf diese Weise der Wissenschaft dienen kannst.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0020</td>
+        <td class="side">Protestieren</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0021</td>
+        <td class="side">Sage, dass solche Vorf&#228;lle[ST:n ]absolut nicht normal sind.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0009</td>
+        <td class="side">Na herrlich, jetzt hat Lin dich schon[ST:n ]so weit, dass du so denkst wie sie.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0010</td>
+        <td class="side">Und Doug beschwert sich zwar dauernd,[ST:n ]aber ich glaub, der braucht den Kick.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0011</td>
+        <td class="side">Also, entweder ist es der Adrenalinrausch oder[ST:n ]sein Hirn hat mittlerweile den Geist aufgegeben.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0012</td>
+        <td class="side">Sich f&#252;r die Wissenschaft zu opfern[ST:n ]ist das Gr&#246;&#223;te und Erhabenste &#252;berhaupt![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0013</td>
+        <td class="side">Ja, ja.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0014</td>
+        <td class="side">Och n&#246;, f&#228;ngst du jetzt auch damit an?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0014_2</td>
+        <td class="side">F&#252;r die Wissenschaft Leib und Leben zu riskieren[ST:n ]ist selbstlos, ehrenhaft und lohnt sich![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0015</td>
+        <td class="side">Sicher doch. Damit kann ich ja dann demn&#228;chst[ST:n ]auch Dougs Angeh&#246;rige tr&#246;sten.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0016</td>
+        <td class="side">Also gut, genug geschw&#228;tzt.[ST:n ]Lin, jetzt erkl&#228;r mal deinen Masterplan.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0017</td>
+        <td class="side">Okay![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0018</td>
+        <td class="side">Ich hab mir also den Kopf zerbrochen,[ST:n ]warum meine Flugmodule st&#228;ndig... explodieren.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0019</td>
+        <td class="side">Und ich hab’s endlich rausgefunden.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0020</td>
+        <td class="side">Unsere Skells haben einfach nicht die Energie,[ST:n ]um genug Schub zu erzeugen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0021</td>
+        <td class="side">Also habe ich meine bisherigen Pl&#228;ne verworfen[ST:n ]und einen Skell von Grund auf neu entwickelt.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0022</td>
+        <td class="side">Und das Ergebnis: eine Skell erg&#228;nzende,[ST:n ]integrierte, flugf&#228;hige Einheit.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0023</td>
+        <td class="side">Oder kurz und knapp „SEIFE“.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0024</td>
+        <td class="side">Die Abk&#252;rzung ist bescheuert. Ich hab das Kapital[ST:n ]beschafft und ich sage: Das Ding hei&#223;t Skell-Flugmodul.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0025</td>
+        <td class="side">Habe ich schon erw&#228;hnt, dass ich die Unterst&#252;tzung[ST:n ]der R&#252;stungsfirmen gewinnen konnte?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0026</td>
+        <td class="side">Wirklich?! Sie sind der Gr&#246;&#223;te, Kommandant![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0027</td>
+        <td class="side">Das war ja noch vergleichsweise einfach.[ST:n ]Ab jetzt keine Fehlschl&#228;ge mehr, verstanden?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0028</td>
+        <td class="side">Dieses Mal wird nichts schiefgehen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0029</td>
+        <td class="side">Wir beide sind dem Entwicklerteam[ST:n ]beigetreten, um genau daf&#252;r zu sorgen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0030</td>
+        <td class="side">Isobe! Jajanni![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0031</td>
+        <td class="side">Wenn die Experten von Sakuraba und L&amp;S sich da[ST:n ]keine Sorgen machen, wird das vielleicht sogar was.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0032</td>
+        <td class="side">Aber, aber wir haben eventuell winzige Bedenken,[ST:n ]da uns ein, zwei Materialien fehlen, oder?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0033</td>
+        <td class="side">Wie winzig denn so ungef&#228;hr?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0034</td>
+        <td class="side">Tja, leider ist das schon irgendwie ein...[ST:n ]gr&#246;&#223;eres Problem.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0035</td>
+        <td class="side">Im Moment liegen die Erfolgschancen des[ST:n ]Projekts vielleicht bei zehn Prozent, ungef&#228;hr?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0036</td>
+        <td class="side">Das klingt mies. Und wenn wir das kleine Problem l&#246;sen?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0037</td>
+        <td class="side">Dann haben wir Erfolgschancen von[ST:n ]99,999999 Prozent! Nicht wahr, Jajanni?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0038</td>
+        <td class="side">Ja, ja. Fast ganz perfekte Aussichten, oder?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0039</td>
+        <td class="side">Na dann...![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0040</td>
+        <td class="side">Tut mir leid, dass ich das auf dich abw&#228;lze,[ST:n ]aber kannst du uns diese Materialien besorgen?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0030</td>
+        <td class="side">Einwilligen</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0031</td>
+        <td class="side">Sage, dass du dich gerne darum k&#252;mmerst.</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0040</td>
+        <td class="side">Rumdrucksen</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0041</td>
+        <td class="side">Behaupte, dass du dich nicht[ST:n ]so gut f&#252;r diese Aufgabe eignest.</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0041</td>
+        <td class="side">Spitze![ST:n ]Ich bin sicher, du schaffst das in k&#252;rzester Zeit![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0042</td>
+        <td class="side">Ach, sei nicht so bescheiden. Du schaffst das![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0043</td>
+        <td class="side">Ich bin mir sicher, du wirst alles[ST:n ]in k&#252;rzester Zeit zusammen haben![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0044</td>
+        <td class="side">Bring die Materialien hierher, sobald du alles hast.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0045</td>
+        <td class="side">Lin, du nutzt die Zeit f&#252;r eine letzte &#220;berpr&#252;fung.[ST:n ]Das hier ist wirklich deine letzte Chance.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0046</td>
+        <td class="side">Verstanden! Bin schon dabei.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0046_2</td>
+        <td class="side">Ich schw&#246;re, ich katapultiere dieses knubbelige[ST:n ]Blechherzchen in Miras blauen Himmel![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0047</td>
+        <td class="side">Na, DAS nenne ich mal einen Mordsjungfernflug.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0049</td>
+        <td class="side">Test bestanden.[ST:n ]Wir gehen sofort in die Massenproduktion.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0050</td>
+        <td class="side">JAAA![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0050_2</td>
+        <td class="side">Dann hat sich alles gelohnt![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0051</td>
+        <td class="side">Ich hab zwar den armen Doug durch die H&#246;lle gejagt[ST:n ]und ordentlich seltene Materialien vergeudet...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0052</td>
+        <td class="side">Aber das war’s wert.[ST:n ]Ich musste meinen Traum wahr werden lassen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0050</td>
+        <td class="side">Nachhaken</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0051</td>
+        <td class="side">Frage Lin, warum ihr das so wichtig war.</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0060</td>
+        <td class="side">Nachgr&#252;beln</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0061</td>
+        <td class="side">Frage Lin, wie viele Fehlschl&#228;ge[ST:n ]dieser erste Erfolg gekostet hat.</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0053</td>
+        <td class="side">Meine Eltern hatten dieses Forschungsprojekt auf[ST:n ]eigene Faust begonnen, als sie noch am Leben waren.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0054</td>
+        <td class="side">Nur starben sie halt, bevor sie die[ST:n ]Entw&#252;rfe vollenden konnten...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0055</td>
+        <td class="side">Aber das waren die Anf&#228;nge des Flugmoduls.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0056</td>
+        <td class="side">Ein Modul, das jeden Skell fliegen lassen kann...[ST:n ]Das klingt ja jetzt noch nach Science-Fiction.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0057</td>
+        <td class="side">Ich kann mir kaum vorstellen, was sie angetrieben[ST:n ]hatte, so etwas &#252;berhaupt in Angriff zu nehmen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0058</td>
+        <td class="side">Aber ich wusste immer, dass ich vollenden muss,[ST:n ]was sie begonnen haben.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0059</td>
+        <td class="side">Ich dachte, wenn ich das nicht packe,[ST:n ]werde ich nie eine richtige Mechanikerin.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0060</td>
+        <td class="side">Also habe ich mir das zu meiner[ST:n ]letzten Hausaufgabe gemacht.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0061</td>
+        <td class="side">Das sind ziemlich hohe Anspr&#252;che.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0062</td>
+        <td class="side">Und ich bin mir sicher, deine Eltern[ST:n ]w&#228;ren verdammt stolz auf dich.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0063</td>
+        <td class="side">Uff, ich kann echt nicht mehr z&#228;hlen,[ST:n ]wie viele Skells ich geschrottet hab.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0064</td>
+        <td class="side">Ich hab mir millionenfach sagen lassen[ST:n ]m&#252;ssen, dass ich aufh&#246;ren soll.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0065</td>
+        <td class="side">Eine Weile hast du dir ein Kopf-an-Kopf-Rennen[ST:n ]mit den einheimischen Kreaturen geliefert.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0066</td>
+        <td class="side">Das war wie ein Wettkampf, wer mehr Skells[ST:n ]ausschalten kann – und du hattest die Nase vorn.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0067</td>
+        <td class="side">Aber Sie haben sich bei meinen Vorgesetzten[ST:n ]f&#252;r mich eingesetzt, Kommandant.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0068</td>
+        <td class="side">Sie haben dieses Projekt am Leben gehalten[ST:n ]und daf&#252;r kann ich Ihnen gar nicht genug danken.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0069</td>
+        <td class="side">Ich hab dir an der Nasenspitze angesehen, dass[ST:n ]du das hier nicht aus purer Neugierde machst.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0070</td>
+        <td class="side">Du warst wild entschlossen. Ich hab auf dich gesetzt,[ST:n ]mehr nicht. Aber Junge, Junge... Es hat sich gelohnt![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0071</td>
+        <td class="side">Gut gemacht, Kleine.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0072</td>
+        <td class="side">Du auch. Danke f&#252;r deine Unterst&#252;tzung.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0070</td>
+        <td class="side">Pflichtgef&#252;hl demonstrieren</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0071</td>
+        <td class="side">Versprich, dass du das Skell-Flugmodul[ST:n ]zum Schutz von NLA einsetzen wirst.</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev092501_JNK0080</td>
+        <td class="side">Bedenken &#228;u&#223;ern</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev092501_SEL0081</td>
+        <td class="side">Sorge dich, dass Skellpiloten weiterf&#252;hrendes[ST:n ]technisches Training ben&#246;tigen werden.</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0078</td>
+        <td class="side">Sch&#246;n gesagt.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0078_2</td>
+        <td class="side">Wenn wir erst unsere Leute angelernt haben,[ST:n ]sind die Ganglion Geschichte.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0079</td>
+        <td class="side">Sch&#228;tze, wir werden unser Skell-Lizenzprogramm[ST:n ]um Flugstunden erweitern m&#252;ssen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0080</td>
+        <td class="side">H&#246;h&#246;, ich werde mir eine Pr&#252;fung ausdenken,[ST:n ]bei der die neuen Rekruten um Gnade winseln![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0081</td>
+        <td class="side">Aber genug palavert – jetzt ist es Zeit zum Fliegen.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0082</td>
+        <td class="side">Vom Himmel aus finden wir den[ST:n ]verdammten Lebensspeicher im Nullkommanichts![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0083</td>
+        <td class="side">Wir konzentrieren uns nicht mehr aufs Basteln externer[ST:n ]Flugmodule – jetzt muss ein Skell her, der von Grund[ST:n ]auf f&#252;rs Fliegen ausgelegt ist.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0084</td>
+        <td class="side">Du hast schon richtig geh&#246;rt! Lins integriertes[ST:n ]Skell-Flugmodul ist eine ganz hei&#223;e Sache![ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0085</td>
+        <td class="side">Aber billig wird’s nicht – und die Erwartungen sind[ST:n ]enorm. Wenn dieses Projekt nicht z&#252;gig in die P&#246;tte[ST:n ]kommt, kann ich euch den R&#252;cken nicht mehr freihalten.[ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0086</td>
+        <td class="side">Also sieh zu, dass es l&#228;uft.[ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0087</td>
+        <td class="side">Na denn, wird langsam Zeit, dich und unseren kleinen[ST:n ]Flattermann auf einen Probeflug zu schicken.[ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0088</td>
+        <td class="side">Dir ist schon klar, dass Du die Hoffnungen von BLADE[ST:n ]im Gep&#228;ck hast, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev092501_MSG0089</td>
+        <td class="side">Wenn dieser Test ein Erfolg wird, erschlie&#223;t uns das[ST:n ]v&#246;llig neue M&#246;glichkeiten. Kaum vorstellbar, was wir[ST:n ]mit einem fliegenden Skell alles erreichen k&#246;nnen![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

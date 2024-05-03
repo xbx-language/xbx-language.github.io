@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000493_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0001</td>
+        <td class="side">Ah, [ST:playername ], tempismo perfetto![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0002</td>
+        <td class="side">Saresti cos&#236; gentile da portarmi via di qui?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000493_JNK0010</td>
+        <td class="side">Accetta[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000493_SEL0011</td>
+        <td class="side">Porta via H.B.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000493_JNK0020</td>
+        <td class="side">Rifiuta[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000493_SEL0021</td>
+        <td class="side">Rifiuta nettamente la richiesta di H.B.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0008</td>
+        <td class="side">La tua prontezza non smette mai di stupirmi.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0009</td>
+        <td class="side">Come al solito, mi sono ritrovato circondato da donne[ST:n ]troppo entusiaste. Sarebbe logico credere che,[ST:n ]ormai, ci sia abituato. Tuttavia, non lo sono.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0010</td>
+        <td class="side">Immagino che avrei potuto evitarlo, se solo mi fossi[ST:n ]accontentato di essere un Pathfinder qualunque.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0011</td>
+        <td class="side">Ma, ahim&#232;, questo &#232; il prezzo da pagare[ST:n ]per essere il top del top.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0012</td>
+        <td class="side">Ah, ma sono certo che non sia nulla di nuovo per te:[ST:n ]essendo anche tu parte del top del top, conoscerai[ST:n ]sicuramente tali difficolt&#224;, non &#232; cos&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0013</td>
+        <td class="side">Suppongo che [ST:Gender p1=le donne p2=gli uomini ] di Neo L.A. ti diano[ST:n ]la caccia incessantemente e inesorabilmente![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000493_JNK0110</td>
+        <td class="side">Conferma[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000493_SEL0111</td>
+        <td class="side">Conferma il tuo successo con l&#39;altro sesso.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000493_JNK0120</td>
+        <td class="side">Nega[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000493_SEL0121</td>
+        <td class="side">Di&#39; che non ti &#232; mai capitato.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0019</td>
+        <td class="side">Eh, me lo aspettavo... vecchia volpe![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0020</td>
+        <td class="side">E come tale, sei una delle pochissime[ST:n ]persone che possa comprendermi.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0022</td>
+        <td class="side">Sono terribilmente dispiaciuto.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0023</td>
+        <td class="side">Cosa mai passer&#224; per la testa degli abitanti[ST:n ]di N.L.A.?! Dopotutto, ci sono tante altre[ST:n ]persone attraenti, a parte me.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0025</td>
+        <td class="side">S&#236;, beh... credo non sia questo il momento[ST:n ]opportuno per un&#39;amabile chiacchierata.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0026</td>
+        <td class="side">Devi immediatamente tirarmi fuori di qui.[ST:n ]Usa pure tutta la forza che vuoi.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0027</td>
+        <td class="side">Cos&#236; le signore incolperanno te per la mia[ST:n ]improvvisa dipartita, non me.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0028</td>
+        <td class="side">Cos&#236; risparmieremo loro un po&#39; di delusione,[ST:n ]che &#232; un tocco di gran classe. Provveder&#242;[ST:n ]a sdebitarmi con te al momento opportuno.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0032</td>
+        <td class="side">Oh... capisco.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0033</td>
+        <td class="side">Se posso permettermi, alle volte dubito[ST:n ]della tua capacit&#224; di giudizio.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0034</td>
+        <td class="side">Queste signore credono io sia l&#39;unica speranza[ST:n ]dell&#39;umanit&#224; e non si fermeranno davanti a nulla,[ST:n ]pur di essere nelle mie grazie.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0035</td>
+        <td class="side">Se dovessi rigettare le loro disperate avances, la mia[ST:n ]reputazione ne risentirebbe. Dopotutto, quello di cui[ST:n ]hanno bisogno &#232; il conforto di un eroe.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0036</td>
+        <td class="side">In quanto probabile futuro candidato alla guida del[ST:n ]BLADE, non posso permettere che si spargano voci[ST:n ]negative sul mio conto. Comprendi, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000493_JNK0210</td>
+        <td class="side">Ripensaci[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000493_SEL0211</td>
+        <td class="side">Accetta di trascinare via H.B.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000493_JNK0220</td>
+        <td class="side">Informa[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000493_SEL0221</td>
+        <td class="side">Di&#39; che le signore potrebbero essere interessate a lui,[ST:n ]pi&#249; che alla sua posizione.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0042</td>
+        <td class="side">Hai fatto la scelta giusta, collega.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0043</td>
+        <td class="side">Ora le signore se la prenderanno con te, non con me.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0044</td>
+        <td class="side">... ...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0045</td>
+        <td class="side">S&#236;, OK. Lasciamo stare le minuzie. Portami con[ST:n ]te in missione, o dovunque tu voglia.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0048</td>
+        <td class="side">Non ci avevo pensato.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0049</td>
+        <td class="side">Stai dicendo che potrebbero davvero provare qualcosa[ST:n ]per me, che potrebbero persino essere ignare del[ST:n ]fatto che io sia il top del top?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0050</td>
+        <td class="side">Ma questo le rende ancor pi&#249; pericolose![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0051</td>
+        <td class="side">Non ho nessuna intenzione di lasciare che una[ST:n ]compagna mi distragga dai miei doveri.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0052</td>
+        <td class="side">E temo che, come nel caso della sfortunata Fedra con[ST:n ]Ippolito, il loro amore non potr&#224; essere ricambiato.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0053</td>
+        <td class="side">Inoltre, chi pu&#242; dire in che modo traviseranno il[ST:n ]legame che c&#39;&#232; tra me e te... mmmh?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev000493_MSG0054</td>
+        <td class="side">No, non va bene! Devo andare nella zona[ST:n ]amministrativa e pianificare immediatamente[ST:n ]le contromisure.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

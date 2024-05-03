@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev090101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0001</td>
+        <td class="side">H&#233;, toi ! J&#39;te cherchais.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0002</td>
+        <td class="side">Viens un peu l&#224;. Tu vas faire un truc pour moi.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev090101_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev090101_SEL0011</td>
+        <td class="side">Faire ce qu&#39;il dit.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev090101_JNK0020</td>
+        <td class="side">S&#39;excuser</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev090101_SEL0021</td>
+        <td class="side">Dire que vous devez aller vous laver les cheveux.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0003</td>
+        <td class="side">Bon choix. Tu n&#39;es pas b&#234;te, tu survivras.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0004</td>
+        <td class="side">Te laver les... H&#233; ! Tu te fiches de moi l&#224; ?![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0005</td>
+        <td class="side">Maintenant, ferme-la et fais ce qu&#39;on te dit, et[ST:n ]tout ira bien.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0006</td>
+        <td class="side">Tiens. J&#39;ai choisi une ou deux missions pour toi.[ST:n ]Ne me remercie pas.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0007</td>
+        <td class="side">D&#233;p&#234;che-toi d&#39;aller les remplir. &#199;a devrait &#234;tre du[ST:n ]g&#226;teau. Un vrai jeu d&#39;enfant.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev090101_JNK0030</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev090101_SEL0031</td>
+        <td class="side">Lui dire d&#39;aller se faire voir.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev090101_JNK0040</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev090101_SEL0041</td>
+        <td class="side">Dire que vous le ferez.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0008</td>
+        <td class="side">T&#39;es coriace, hein ? J&#39;aime les gens coriaces...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0009</td>
+        <td class="side">Alors m&#39;oblige pas &#224; te forcer... ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0010</td>
+        <td class="side">J&#39;enverrai les d&#233;tails sur ton terminal. Tu t&#39;en[ST:n ]occupes et tu reviens me voir. Pig&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0011</td>
+        <td class="side">J&#39;enverrai les d&#233;tails sur ton terminal.[ST:n ]Tu t&#39;en occupes et tu reviens me voir.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0012</td>
+        <td class="side">Facile, non ? Et magne-toi ou on aura tous[ST:n ]les deux des probl&#232;mes.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev090101_MSG0013</td>
+        <td class="side">C&#39;est le moment de prouver que tu en as dans le[ST:n ]ventre. T&#39;as pas int&#233;r&#234;t &#224; te planter ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

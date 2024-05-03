@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev040602_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0001</td>
+        <td class="side">&#161;Hola, [ST:Gender p1=amigo p2=amiga ] BLADE![ST:n ]&#161;Justo a tiempo![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0002</td>
+        <td class="side">&#161;Monstruos superhambrientos llevan[ST:n ]horas persiguiendo a Muimui![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0003</td>
+        <td class="side">Muimui y [ST:Gender p1=amigo p2=amiga ] son BLADE;[ST:n ]y BLADE ayudan unos a otros.[ST:n ]&#161;Date prisa y ayuda a Muimui![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0010</td>
+        <td class="side">Explicar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0011</td>
+        <td class="side">Dile a Muimui que te manda su hermano.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0020</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0021</td>
+        <td class="side">Su&#233;ltale un bonito discurso[ST:n ]sobre el v&#237;nculo que une a todos los BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0010</td>
+        <td class="side">Bien. Mejor as&#237;. &#161;Por ah&#237; vienen![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0013</td>
+        <td class="side">Y lo mejor: &#161;v&#237;nculo es gratis![ST:n ]&#161;Oh, oh! &#161;Por ah&#237; vienen![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0020</td>
+        <td class="side">&#161;Buf! [ST:Gender p1=Amigo p2=Amiga ] apareci&#243; justo a tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0021</td>
+        <td class="side">&#161;Muimui localiz&#243; por fin Espada legendar&#237;sima![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0022</td>
+        <td class="side">Pero cuando Muimui iba a investigar[ST:n ]origen de se&#241;al, monstruos aparecieron y...[ST:n ]Bueno, [ST:Gender p1=amigo p2=amiga ] ya sabe resto.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0023</td>
+        <td class="side">Muimui no seguro de poder acabar con ellos solo,[ST:n ]as&#237; que mientras hu&#237;a para salvar pellejo,[ST:n ]Muimui pensaba como loco en plan.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0030</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Muimui d&#243;nde[ST:n ]est&#225; la Espada legendar&#237;sima.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0040</td>
+        <td class="side">Preocuparse</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0041</td>
+        <td class="side">Di que te alegras de que Muimui est&#233; a salvo.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0030</td>
+        <td class="side">Radario apunta a jefe de monstruos.[ST:n ]Seguramente est&#225; en barriga.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0031</td>
+        <td class="side">&#161;Seguro que tonto glot&#243;n se zamp&#243; espada![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0034</td>
+        <td class="side">Muimui puede huir de monstruos gracias[ST:n ]a infinigafas inventadas por Moimoi.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0035</td>
+        <td class="side">Pero &#161;meh, meh, meh! &#161;Muimui necesita[ST:n ]ayuda de [ST:Gender p1=amigo p2=amiga ] para recuperar[ST:n ]Espada lengendar&#237;sima ahora mismo![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0036</td>
+        <td class="side">Radario apunta a jefe de monstruos.[ST:n ]Seguramente est&#225; en barriga.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0039</td>
+        <td class="side">Muimui enviar&#225; ubicaci&#243;n de nido de monstruo.[ST:n ]&#161;[ST:Gender p1=Amigo p2=Amiga ] machaca monstruo r&#225;pido,[ST:n ]como acaba de hacer hace momentito![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0040</td>
+        <td class="side">Cuando Muimui consigue espada y[ST:n ]gana fortuna, [ST:Gender p1=amigo p2=amiga ] obtiene recompensa.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0041</td>
+        <td class="side">Muimui invita a [ST:Gender p1=amigo p2=amiga ] a cen... Eem, &#161;a merendar![ST:n ]S&#237;, eso. Muy generoso. &#161;Ahora machaca monstruo![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0044</td>
+        <td class="side">Muimui sigui&#243; se&#241;al de radario[ST:n ]hasta nido de jefe de monstruos.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0045</td>
+        <td class="side">&#161;Seguramente Espada legendar&#237;sima dentro de barriga![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0046</td>
+        <td class="side">&#161;Recupera espada por Muimui y Moimoi![ST:n ]&#161;Tambi&#233;n por cuenta corriente de nopon![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0050</td>
+        <td class="side">&#161;Estaba all&#237;! &#161;Dentro de barriga de jefe![ST:n ]&#161;Espada legendar&#237;sima apareci&#243; por fin![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0052</td>
+        <td class="side">&#161;Ahora Muimui y Moimoi dejar&#225;n de[ST:n ]ser pobretones y ser&#225;n ricachones![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0053</td>
+        <td class="side">&#161;Todo gracias a ayuda de [ST:Gender p1=amigo p2=amiga ]![ST:n ]Muimui debe volver corriendo[ST:n ]a ense&#241;ar a Moimoi.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0054</td>
+        <td class="side">Muimui tambi&#233;n debe merienda a [ST:Gender p1=amigo p2=amiga ].[ST:n ]&#161;Vuelve corriendo a NLA antes de que cambie de idea![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0059</td>
+        <td class="side">No... No puede...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0060</td>
+        <td class="side">&#191;Tanto trabajar para esto?[ST:n ]&#191;D&#243;nde est&#225; Espada legendar&#237;sima?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

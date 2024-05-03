@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev014201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Nathan sobre los campamentos base[ST:n ]repartidos por Mira.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Nathan si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">tev014201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Nathan sobre los campamentos base[ST:n ]repartidos por Mira.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">tev014201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">tev014201_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">tev014201_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Nathan sobre los campamentos base[ST:n ]que se encuentran en Sylvalum.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">tev014201_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">tev014201_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">tev014201_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0071</td>
+        <td class="side">Preg&#250;ntale a Nathan sobre los campamentos base[ST:n ]que se encuentran en Sylvalum.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">tev014201_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Nathan si hay alguna novedad.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0001</td>
+        <td class="side">A medida que vayas explorando Mira,[ST:n ]te encontrar&#225;s con campamentos base[ST:n ]establecidos por las distintas brigadas.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0002</td>
+        <td class="side">Cualquier BLADE puede utilizar estos campamentos,[ST:n ]incluso aunque pertenezca a una brigada distinta.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0003</td>
+        <td class="side">Si est&#225;s [ST:Gender p1=cansado p2=cansada ], puedes ir a uno y descansar en[ST:n ]una tienda o en un tr&#225;iler el tiempo que quieras.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0004</td>
+        <td class="side">Si es la primera vez que visitas una regi&#243;n, siempre es[ST:n ]buena idea parar en un campamento base y ver qu&#233;[ST:n ]te pueden ense&#241;ar los BLADE de all&#237; sobre la zona.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0005</td>
+        <td class="side">Saber aprovechar los campamentos base puede ser de[ST:n ]gran ayuda para explorar terreno desconocido. Adem&#225;s[ST:n ]te ayudar&#225; a encontrar el camino de vuelta a NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0008</td>
+        <td class="side">Ese Conner... Cuando volvi&#243; a NLA,[ST:n ]se compr&#243; un cintur&#243;n bonito y resistente[ST:n ]para no volver a perder su telecomunicador.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0009</td>
+        <td class="side">&#191;No te parece adorable? Bueno... el caso es que[ST:n ]no est&#225; dispuesto a volver a fastidiarla[ST:n ]y fallar a los dem&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0010</td>
+        <td class="side">Incluso M&#243;nica parece que se preocupa por el equipo.[ST:n ]Hasta le pidi&#243; disculpas a Conner por haberlo insultado[ST:n ]cuando &#233;l solo estaba pensando en los dem&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0011</td>
+        <td class="side">Me preocupaba que el equipo acabara separ&#225;ndose[ST:n ]tras lo sucedido, as&#237; que me tranquiliza que hayan[ST:n ]conseguido reconciliarse.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0012</td>
+        <td class="side">Muchas gracias por tu ayuda. Nada de esto[ST:n ]habr&#237;a sido posible sin ti.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0021</td>
+        <td class="side">Mantener los campamentos base en zonas habitadas[ST:n ]por criaturas violentas es una tarea peligrosa.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0022</td>
+        <td class="side">Por eso, los BLADE que se encuentran en ellos son[ST:n ]tipos duros. Tienen que serlo para poder sobrevivir[ST:n ]en la lucha continua por proteger sus campamentos.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0023</td>
+        <td class="side">As&#237; que si tienes una vacante en tu equipo[ST:n ]y quieres cubrirla, deber&#237;as pasarte por[ST:n ]un campamento base y preguntar all&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0024</td>
+        <td class="side">Estoy seguro de que podr&#225;s encontrar a un BLADE[ST:n ]de confianza dispuesto a ayudarte a explorar la zona.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0029</td>
+        <td class="side">El campamento base de Roca afilada se encuentra[ST:n ]al pasar la colina Ave marina.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0030</td>
+        <td class="side">Algunos de los BLADE de ese campamento encontraron[ST:n ]una extra&#241;a cueva detr&#225;s de la planta esf&#233;rica gigante,[ST:n ]al este del campamento.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0031</td>
+        <td class="side">Pero la cueva est&#225; a medio camino ascendiendo[ST:n ]por la cara interna de los acantilados que rodean[ST:n ]el continente; ni por mar pudieron alcanzarla.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0032</td>
+        <td class="side">Es un &#225;rea inexplorada. Pero seguro que,[ST:n ]como todos los lugares dif&#237;ciles de alcanzar, tambi&#233;n[ST:n ]esconde alg&#250;n valioso tesoro en su interior, &#191;no crees?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0033</td>
+        <td class="side">As&#237; que si tienes la oportunidad de hacerte con uno[ST:n ]de esos Skells voladores que est&#225;n desarrollando,[ST:n ]deber&#237;as ir a echar un vistazo.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0043</td>
+        <td class="side">Ahora que ya se pueden utilizar los dispositivos[ST:n ]de vuelo Skell para el trabajo de campo, &#191;por qu&#233;[ST:n ]no te haces con uno y vas a echar un vistazo?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

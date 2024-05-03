@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0001</td>
+        <td class="side">Komm schon, nimm mich mit![ST:n ]Ich muss den Lebensspeicher mit eigenen Augen sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0010</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0011</td>
+        <td class="side">Nimm Lao in dein Team auf.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0020</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0021</td>
+        <td class="side">Vertr&#246;ste Lao auf ein anderes Mal.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0004</td>
+        <td class="side">Ha, ich wusste doch, dass du mich nicht hier stehen[ST:n ]l&#228;sst. Ich verspreche dir, du wirst es nicht bereuen.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0005</td>
+        <td class="side">Ach komm, gib dir ’nen Ruck. &#220;berleg’s dir noch mal,[ST:n ]ja?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0006</td>
+        <td class="side">Hey. Du warst doch [ST:Gender p1=der Typ p2=die Kleine ] aus Elmas Team...[ST:n ][ST:playername ], richtig?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0007</td>
+        <td class="side">Was l&#228;uft so?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0008</td>
+        <td class="side">Wenn du mal ein paar interessante Auftr&#228;ge ergatterst,[ST:n ]denk an mich, okay? Ich k&#246;nnte gut eine Abwechslung[ST:n ]vom D&#228;umchendrehen vertragen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0030</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0031</td>
+        <td class="side">Nimm Lao in dein Team auf.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0040</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0041</td>
+        <td class="side">Vertr&#246;ste Lao auf ein anderes Mal.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0009</td>
+        <td class="side">Gute Entscheidung! Nach dir, Boss.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0010</td>
+        <td class="side">Ernsthaft? Na, wenn du mich nicht brauchst – ich will[ST:n ]mich nicht aufdr&#228;ngen. Halt die Ohren steif, klar?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0015</td>
+        <td class="side">Schicken die dich jetzt da raus nach dem Motto „der[ST:n ]Feind unserer Feinde ist unser Freund“, oder wie seh[ST:n ]ich das? ...Wollen wir hoffen, dass es so einfach wird.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0016</td>
+        <td class="side">Jedenfalls k&#246;nnte es dir nicht schaden, jemanden[ST:n ]dabeizuhaben, der dir den R&#252;cken freih&#228;lt. Ich h&#228;tte[ST:n ]ja Zeit... Wie w&#228;r’s?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0050</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0051</td>
+        <td class="side">Nimm Lao in dein Team auf.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0060</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0061</td>
+        <td class="side">Vertr&#246;ste Lao auf ein anderes Mal.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0017</td>
+        <td class="side">Super, kannst dich auf mich verlassen. Ich bin genau[ST:n ]der Richtige f&#252;r den Job![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0018</td>
+        <td class="side">Wie du meinst, du bist der Boss. Ich steh mir hier[ST:n ]weiter die Beine in den Bauch, falls du deine Meinung[ST:n ]&#228;nderst.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0023</td>
+        <td class="side">Hab’s grad geh&#246;rt. Diese verdammten Ganglion haben[ST:n ]es tats&#228;chlich gewagt, Irinas Team anzugreifen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0024</td>
+        <td class="side">Dann sollten wir wohl besser unsere Hintern nach[ST:n ]Oblivia schaffen, um ihre zu retten, was?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0070</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0071</td>
+        <td class="side">Nimm Lao in dein Team auf.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0080</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0081</td>
+        <td class="side">Sage Lao, dass du dich ohne ihn auf den Weg machst.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0025</td>
+        <td class="side">Klar komm ich mit, da kannst du deinen Hintern[ST:n ]drauf verwetten! Wir ziehen das gemeinsam durch.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0026</td>
+        <td class="side">Alles klar. Ich halt dir trotzdem den R&#252;cken frei,[ST:n ]kannst dich auf mich verlassen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0031</td>
+        <td class="side">Okay... Viel Erfolg. Ich seh mal, wie ich von hier[ST:n ]aus helfen kann.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0032</td>
+        <td class="side">Wer nicht will, der hat schon.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

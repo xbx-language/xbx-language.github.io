@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev023601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0011</td>
+        <td class="side">Pregunta por el trabajo de Quinn.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Quinn si ha o&#237;do alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0010</td>
+        <td class="side">tev023601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Quinn sobre sus encuentros[ST:n ]con los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0020</td>
+        <td class="side">tev023601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0021</td>
+        <td class="side">tev023601_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0010</td>
+        <td class="side">tev023601_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Quinn sobre sus encuentros[ST:n ]con los ma-non.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0020</td>
+        <td class="side">tev023601_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0021</td>
+        <td class="side">tev023601_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Quinn sobre su experiencia[ST:n ]con la tecnolog&#237;a ma-non.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0001</td>
+        <td class="side">Mmm... Bueno, estoy al cargo de... esto...[ST:n ]&#191;los materiales? Ya ves, la ciudad[ST:n ]todav&#237;a no est&#225; terminada...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0002</td>
+        <td class="side">Perdona, se me da fatal explicar cosas.[ST:n ]La gente siempre me dice que no tiene ni idea[ST:n ]de lo que estoy hablando.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0003</td>
+        <td class="side">En fiiin, que necesitamos un mont&#243;n de cosas,[ST:n ]as&#237; queee... &#161;FrontierNav![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0004</td>
+        <td class="side">FrontierNav re&#250;ne informaci&#243;n y explota los minerales[ST:n ]mir&#225;queos, y... em... bueno, est&#225; muy chulo.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0005</td>
+        <td class="side">&#161;Todo el mundo se pone contento cuando los BLADE[ST:n ]cubren muchas zonas con FrontierNav![ST:n ]Mmm... &#191;Lo entiendes?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0008</td>
+        <td class="side">Cuando estaba trabajando en el distrito administrativo,[ST:n ]vi un documento que dec&#237;a \&quot;alto secreto\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0009</td>
+        <td class="side">Pens&#233; que ser&#237;a algo guay, como por ejemplo dosieres[ST:n ]con todos los hombres a los que Gina hab&#237;a dejado.[ST:n ]Pero solo era algo aburrido. &#161;Aburrid&#237;simo![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0010</td>
+        <td class="side">&#191;Qu&#233;? &#191;Gina? Ah, es una camarera que siempre[ST:n ]est&#225; ligando con los valientes miembros de BLADE.[ST:n ]Bufff. Es muuuy popular entre ellos.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0011</td>
+        <td class="side">&#191;Qu&#233;? &#161;Aaah! &#161;Quer&#237;as que te hablara[ST:n ]del documento![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0012</td>
+        <td class="side">Era en plan, bla, bla, bla, si destruyes alguna parte del[ST:n ]cuerpo de un enemigo, no puede utilizar las artes que[ST:n ]requieren esas partes, bla, bla, no s&#233;. &#161;Aburrid&#237;simo![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0020</td>
+        <td class="side">Uuuh, ya veo, ya veo.[ST:n ]As&#237; que si utilizas ese microchip...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0021</td>
+        <td class="side">A ver, entiendo que Quiquat se frustre,[ST:n ]pero no pillo las cosas cuando las leo en un terminal.[ST:n ]Tengo que pedirle que me lo explique todo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0022</td>
+        <td class="side">Nos han ayudado mucho a optimizar nuestro trabajo,[ST:n ]pero la comunicaci&#243;n todav&#237;a nos cuesta.[ST:n ]Vamos, no es que yo sea cortito, &#191;no? Yo no lo creo.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0039</td>
+        <td class="side">Cuando est&#225;bamos refugi&#225;ndonos en la nave ma-non,[ST:n ]Quiquat explic&#243; c&#243;mo funcionaba su fuente de energ&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0040</td>
+        <td class="side">Esos halos de luz relucientes son seres vivos[ST:n ]que se unen para dar vueltas alrededor de esas cosas,[ST:n ]como sea que se llamen, y generan energ&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0041</td>
+        <td class="side">Bueno, &#191;lo has entendido?[ST:n ]Es un galimat&#237;as, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0042</td>
+        <td class="side">No es que yo sea cortito, &#191;a que no? [ST:n ]Es que la tecnolog&#237;a ma-non es avanzad&#237;sima,[ST:n ]&#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0048</td>
+        <td class="side">&#161;Quiero volver a mi cuerpo real![ST:n ]&#161;Quiero volver a mi cuerpo real![ST:n ]&#161;&#161;Mi cuerpooo reaaal!![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0049</td>
+        <td class="side">Quiquat me ha dicho que tienen una tecnolog&#237;a[ST:n ]asombrosa que puede mandar informaci&#243;n[ST:n ]directamente al cerebro.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0050</td>
+        <td class="side">&#161;As&#237; que est&#225; intentando implantarme conocimiento[ST:n ]sobre su tecnolog&#237;a! &#161;Como una pel&#237;cula[ST:n ]de ciencia ficci&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0051</td>
+        <td class="side">Seguramente podr&#225; ver todo mi cerebro, &#191;no?[ST:n ]Y entonces, si hay alg&#250;n corte de energ&#237;a raro,[ST:n ]apuesto a que olvidar&#233; todo lo que s&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0052</td>
+        <td class="side">Entonces, &#191;cu&#225;ndo crees que podremos ir al n&#250;cleo[ST:n ]del Arca de la vida? &#191;Hoy, por ejemplo? &#191;Ma&#241;ana?[ST:n ]&#191;Pasado ma&#241;ana? &#191;En una semana? &#191;En dos?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev035301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev035301_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev035301_SEL0011</td>
+        <td class="side">Demander &#224; Wikaye de vous parler de son travail.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev035301_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev035301_SEL0021</td>
+        <td class="side">Demander &#224; Wikaye si quelque chose la perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev035301_SEL0031</td>
+        <td class="side">Demander &#224; Wikaye de vous parler de l&#39;architecture[ST:n ]de N.L.A.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev035301_SEL1021</td>
+        <td class="side">Demander &#224; Wikaye s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev035301_SEL2021</td>
+        <td class="side">Demander &#224; Wikaye s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev035301_SEL3021</td>
+        <td class="side">Demander &#224; Wikaye s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0001</td>
+        <td class="side">Je suis architecte de profession, alors je me suis dit que[ST:n ]je pouvais aider New L.A., voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0002</td>
+        <td class="side">J&#39;ai sugg&#233;r&#233; qu&#39;on obtiendrait un joli effet en repeignant[ST:n ]le quartier administratif du m&#234;me dor&#233; que celui[ST:n ]que nous utilisons pour notre vaisseau...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0003</td>
+        <td class="side">Mais ils m&#39;ont regard&#233;e comme si j&#39;&#233;tais folle, ils m&#39;ont[ST:n ]dit que ce serait kitsch et qu&#39;une personne de bon go&#251;t[ST:n ]ne ferait jamais &#231;a, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0004</td>
+        <td class="side">Je me demande s&#39;il est possible de comprendre[ST:n ]votre sens esth&#233;tique. Surtout qu&#39;on dirait[ST:n ]que je n&#39;en poss&#232;de pas un moi-m&#234;me.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0008</td>
+        <td class="side">Mon petit fr&#232;re est irresponsable. Il passe son temps[ST:n ]&#224; se promener seul sur cette cette plan&#232;te extr&#234;mement[ST:n ]dangereuse, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0009</td>
+        <td class="side">Je sais qu&#39;il veut construire une machine capable de[ST:n ]soigner tous ceux qui ont &#233;t&#233; bless&#233;s par le Ganglion.[ST:n ]Et qu&#39;il a besoin de donn&#233;es pour cela.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0010</td>
+        <td class="side">Mais qu&#39;aura-t-il accompli s&#39;il vient &#224; &#234;tre mortellement[ST:n ]bless&#233; avant de pouvoir terminer sa machine ?[ST:n ]J&#39;ai tellement peur pour lui...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0011</td>
+        <td class="side">Il devrait s&#39;entra&#238;ner &#224; faire le mort pour leurrer[ST:n ]les indig&#232;nes, non ? En tout cas, c&#39;est ma strat&#233;gie...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0012</td>
+        <td class="side">Ne ferais-je pas mieux de faire ces blagues tant qu&#39;elles[ST:n ]sont encore dr&#244;les ? Un jour, on ne pourra plus en rire.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0017</td>
+        <td class="side">On m&#39;a dit que nous devions continuer &#224; construire[ST:n ]&#224; l&#39;int&#233;rieur des remparts pour des raisons[ST:n ]de s&#233;curit&#233;, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0018</td>
+        <td class="side">Mais si la population de New L.A. s&#39;accro&#238;t,[ST:n ]ne manquerons-nous pas de place ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0019</td>
+        <td class="side">Notre vaisseau flotte gr&#226;ce &#224; une modification de[ST:n ]la gravit&#233;. J&#39;ai donc dit aux urbanistes d&#39;en faire autant[ST:n ]avec les immeubles pour garder de l&#39;espace, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0020</td>
+        <td class="side">Eh bien, mon id&#233;e a &#233;t&#233; assez brutalement rejet&#233;e.[ST:n ]Ils ont dit que tout le monde avait besoin de voir[ST:n ]le ciel ou quelque chose comme &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev035301_MSG0021</td>
+        <td class="side">Il est difficile de vous satisfaire, vous, les humains.[ST:n ]Tout doit &#234;tre &#224; la fois beau et efficace...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev035301_MSG1001</td>
+        <td class="side">Je sais que tous les humains ne sont pas comme[ST:n ]ces tordus, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev035301_MSG1002</td>
+        <td class="side">Je veux dire qu&#39;il y a de nombreuses personnes qui,[ST:n ]comme vous, prot&#232;gent les Ma-nons, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev035301_MSG1003</td>
+        <td class="side">Mon fr&#232;re m&#39;a dit que le BLADE lui &#233;tait venu en aide[ST:n ]maintes fois, ce qui signifie qu&#39;au fond, votre esp&#232;ce[ST:n ]n&#39;est pas mauvaise...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev035301_MSG1004</td>
+        <td class="side">Nous devons apprendre &#224; mieux nous conna&#238;tre pour[ST:n ]que ce genre de trag&#233;die ne se reproduise plus,[ST:n ]d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev035301_MSG2001</td>
+        <td class="side">Mon pauvre petit fr&#232;re... Jejebba a &#233;t&#233; bless&#233; alors[ST:n ]qu&#39;il &#233;tait parti rassembler des informations et il n&#39;a[ST:n ]jamais gu&#233;ri, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev035301_MSG2002</td>
+        <td class="side">Avant son dernier souffle, il m&#39;a envoy&#233; un message[ST:n ]d&#39;adieu, d&#39;accord ? Et il m&#39;a dit... Il m&#39;a dit...[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev035301_MSG2003</td>
+        <td class="side">Jejebba m&#39;a dit qu&#39;un agent du BLADE &#233;tait pr&#233;sent,[ST:n ]d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev035301_MSG2004</td>
+        <td class="side">Pourquoi cet agent n&#39;a pas aid&#233; mon fr&#232;re ?[ST:n ]Pourquoi l&#39;a-t-il laiss&#233; mourir ?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev035301_MSG2005</td>
+        <td class="side">Entre l&#39;incident avec Alex et ceci, je ne me sens[ST:n ]plus en s&#233;curit&#233; en compagnie des humains,[ST:n ]vous comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev035301_MSG3001</td>
+        <td class="side">Oui ! Je savais que l&#39;on pouvait compter sur[ST:n ]les humains ! Vous &#234;tes de v&#233;ritables amis,[ST:n ]non ? Oui ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev035301_MSG3002</td>
+        <td class="side">Euh... D&#233;sol&#233;e. Je suis si heureuse que mon petit fr&#232;re[ST:n ]soit rentr&#233; sain et sauf que je me suis un peu emport&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev035301_MSG3003</td>
+        <td class="side">Jejebba &#233;tait parti rassembler des donn&#233;es et a &#233;t&#233;[ST:n ]gravement bless&#233;, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev035301_MSG3004</td>
+        <td class="side">Heureusement, un agent du BLADE l&#39;a vu et lui a donn&#233;[ST:n ]les premiers secours. N&#39;est-ce pas merveilleux ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev035301_MSG3005</td>
+        <td class="side">Nous ne pouvons pas juger l&#39;humanit&#233; tout enti&#232;re[ST:n ]sur cet incident avec Alex. Apr&#232;s tout, la plupart[ST:n ]d&#39;entre vous sont aimables, non ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev036201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev036201_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev036201_SEL0011</td>
+        <td class="side">Se renseigner sur le travail de Quiquat.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev036201_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev036201_SEL0021</td>
+        <td class="side">Demander &#224; Quiquat s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev036201_SEL0031</td>
+        <td class="side">Se renseigner aupr&#232;s de Quiquat[ST:n ]sur le vaisseau ma-non.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev036201_SEL0051</td>
+        <td class="side">Se renseigner aupr&#232;s de Quiquat[ST:n ]sur la technologie ma-none.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev036201_SEL0061</td>
+        <td class="side">Demander &#224; Quiquat s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0001</td>
+        <td class="side">Je n&#39;ai jamais vu une ville aussi incompl&#232;te, et vous ?[ST:n ]Vous avez de la chance que nous soyons venus avec[ST:n ]des solutions &#224; vos probl&#232;mes techniques, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0002</td>
+        <td class="side">Nous vous fournissons tellement de choses, mais en[ST:n ]parler me fatigue, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0003</td>
+        <td class="side">Quince a parfois du mal &#224; suivre, alors nous devons[ST:n ]trouver un moyen de lui faire comprendre, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0008</td>
+        <td class="side">Connaissez-vous un humain nomm&#233; Boz&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0009</td>
+        <td class="side">Il ne fait que crier : &#171; Katsuuu !! &#187;[ST:n ]Ce qui est assez &#233;trange, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0010</td>
+        <td class="side">Il semble traverser une mauvaise passe en ce moment,[ST:n ]enfin je crois ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0011</td>
+        <td class="side">Il devrait lister ses probl&#232;mes sur le tableau des[ST:n ]des missions, c&#39;est tellement plus facile ainsi...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0020</td>
+        <td class="side">Quince s&#39;est r&#233;fugi&#233;e sur notre vaisseau, alors je lui ai[ST:n ]montr&#233; comment fonctionne le moteur, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0021</td>
+        <td class="side">Elle a hoch&#233; la t&#234;te comme si elle avait compris,[ST:n ]mais je pense qu&#39;elle &#233;tait d&#233;pass&#233;e, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0022</td>
+        <td class="side">Si cela continue, je vais devoir lui implanter[ST:n ]les informations directement dans le cerveau...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0023</td>
+        <td class="side">Oh, je plaisante, d&#39;accord ? Quince n&#39;y consentirait[ST:n ]jamais, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0030</td>
+        <td class="side">Avez-vous entendu ? Il semble que le commandant[ST:n ]de ce vaisseau a h&#226;te de travailler dur...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0031</td>
+        <td class="side">Je me demande si ce n&#39;est pas votre travail d&#39;agent[ST:n ]qui l&#39;a inspir&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0032</td>
+        <td class="side">Je connais bien cela, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0033</td>
+        <td class="side">Regardez Quince, d&#39;accord ? Si je reste sans rien faire,[ST:n ]elle risque de finir par se casser un bras. Je n&#39;ai jamais[ST:n ]vu quelqu&#39;un d&#39;aussi maladroit, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0038</td>
+        <td class="side">Quand retrouverez-vous vos v&#233;ritables corps ?[ST:n ]Aujourd&#39;hui ? Demain, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0039</td>
+        <td class="side">Oh, cela va encore prendre un moment ?[ST:n ]D&#39;accord d&#39;accord.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0040</td>
+        <td class="side">Le seul moyen de s&#39;assurer que Quince retienne toutes[ST:n ]les informations sur notre technologie est de les[ST:n ]implanter directement dans son cerveau, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0041</td>
+        <td class="side">Je ne peux pas le faire avec un vrai cerveau,[ST:n ]mais cela fonctionne sur les mim&#233;osomes,[ST:n ]savez-vous ? Voulez-vous essayer ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0050</td>
+        <td class="side">Savez-vous ce qu&#39;il nous manque ?[ST:n ]Des nageoires &#224; propulsion.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0051</td>
+        <td class="side">Si j&#39;en poss&#233;dais, je pourrais utiliser le m&#234;me contr&#244;le[ST:n ]de gravit&#233; que le vaisseau et faire flotter la cargaison[ST:n ]partout, non ? Pensez au temps que nous gagnerions ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0052</td>
+        <td class="side">Le seul probl&#232;me, c&#39;est qu&#39;il faut attaquer un aetrygon[ST:n ]en ciblant son buste ou son dos pour r&#233;cup&#233;rer[ST:n ]une nageoire, n&#39;est-il pas ? Et ils sont plut&#244;t robustes.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev036201_MSG0053</td>
+        <td class="side">De toute fa&#231;on, il est difficile d&#39;en trouver. Mais si vous[ST:n ]connaissez un agent en route pour Sylvalum, faites-moi[ST:n ]une fleur et demandez-lui d&#39;en rapporter, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

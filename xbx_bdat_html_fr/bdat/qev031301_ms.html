@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0001</td>
+        <td class="side">J&#39;ai appris beaucoup de choses sur les terrestres.[ST:n ]Votre potentiel m&#39;effraie.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0002</td>
+        <td class="side">Comment les v&#244;tres sont-ils si dou&#233;s pour la guerre ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0010</td>
+        <td class="side">Expliquer</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0011</td>
+        <td class="side">Dire que c&#39;est le r&#233;sultat de nombreux si&#232;cles[ST:n ]d&#39;affrontement.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0020</td>
+        <td class="side">D&#233;mentir</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0021</td>
+        <td class="side">Dire que les Prones vaincraient les humains en cas de[ST:n ]guerre.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0003</td>
+        <td class="side">La connaissance ? L&#39;exp&#233;rience ? C&#39;est cela vos armes ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0004</td>
+        <td class="side">Le Clan sylvain a combattu le Clan troglodyte pendant[ST:n ]10 000 lunes. Mais nous n&#39;avons jamais d&#233;velopp&#233;[ST:n ]d&#39;art de la guerre.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0005</td>
+        <td class="side">Mais vous...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0006</td>
+        <td class="side">En quelques milliers de lunes, les terrestres ont donn&#233;[ST:n ]naissance &#224; plusieurs g&#233;nies de la guerre. Sun Tzu.[ST:n ]Clausewitz. Vous avez repris leurs id&#233;es. Raffin&#233; l&#39;art.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0007</td>
+        <td class="side">La guerre entre nos peuples serait l&#39;affaire d&#39;une[ST:n ]poign&#233;e de jours. Cela serait la fin de tous les Prones.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0008</td>
+        <td class="side">Cela est plaisant &#224; entendre. Mais cela est faux.[ST:n ]Les terrestres d&#233;feraient les Prones en quelques jours.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0009</td>
+        <td class="side">Pas parce que vous &#234;tes plus forts. Ou que vous avez[ST:n ]un armement avanc&#233;. Mais parce que vous comprenez[ST:n ]l&#39;art de la guerre.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0010</td>
+        <td class="side">Avez-vous lu les travaux de Sun Tzu ?[ST:n ]Ou de Clausewitz ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0011</td>
+        <td class="side">Le Clan sylvain a combattu le Clan troglodyte pendant[ST:n ]10 000 lunes. Mais nous n&#39;avons jamais eu de tels[ST:n ]penseurs sur l&#39;art de la guerre.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0012</td>
+        <td class="side">Je vais &#233;tudier les &#233;crits des terrestres ici, &#224; New L.A.[ST:n ]Je deviendrai strat&#232;ge. Je m&#232;nerai les Prones &#224; de[ST:n ]grandes victoires ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0013</td>
+        <td class="side">Le temps de la guerre par la force brute a pris fin.[ST:n ]Le temps de la guerre par la strat&#233;gie est venu.[ST:n ]Le Clan troglodyte et le Ganglion vont enfin tomber ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0014</td>
+        <td class="side">La strat&#233;gie ? Des &#233;crits ? Les terrestres, plus forts que[ST:n ]les Prones ? Ha ha ha ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0015</td>
+        <td class="side">J&#39;ai toujours pens&#233; que tu &#233;tais idiot, Sajif.[ST:n ]Maintenant j&#39;en suis s&#251;r. Ta force n&#39;est rien.[ST:n ]Rien compar&#233;e &#224; la mienne ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0016</td>
+        <td class="side">Tu as raison, Vio Penga. Tu as la force d&#39;un gorida.[ST:n ]Je pourrais m&#39;entra&#238;ner toute ma vie. Jamais je n&#39;aurai[ST:n ]ta force.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0017</td>
+        <td class="side">J&#39;ai tu&#233; beaucoup de Prones troglodytes au combat ![ST:n ]Tu ne fais que parler.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0018</td>
+        <td class="side">Mais maintenant j&#39;apprends la strat&#233;gie. Je...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0019</td>
+        <td class="side">Toi ! Terrestre ! Penses-tu vraiment que ta mis&#233;rable[ST:n ]esp&#232;ce pourrait vaincre les puissants Prones ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0030</td>
+        <td class="side">Confirmer</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0031</td>
+        <td class="side">D&#233;clarer que les humains gagneraient certainement[ST:n ]contre les puissants Prones.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0040</td>
+        <td class="side">D&#233;mentir</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0041</td>
+        <td class="side">Admettre que les fr&#234;les humains perdraient probablement[ST:n ]face aux Prones.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0020</td>
+        <td class="side">Ha ha ha ! [ST:Gender p1=Celui p2=Celle ]-l&#224; me fait rire ! C&#39;est bien d&#39;avoir[ST:n ]autant de courage.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0021</td>
+        <td class="side">Mais nous ne perdrons jamais. Pas contre vous.[ST:n ]La &#171; strat&#233;gie &#187; est inutile contre la force prone.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0022</td>
+        <td class="side">Ha ha ha ! Tu es honn&#234;te ! Ne t&#39;inqui&#232;te pas, [ST:Gender p1=petit p2=petite ][ST:n ]Terrestre. Nous ne pr&#233;voyons pas de faire la guerre[ST:n ]aux tiens.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0023</td>
+        <td class="side">Mais si c&#39;&#233;tait le cas, vous perdriez. Aucune[ST:n ]&#171; strat&#233;gie &#187; ne r&#233;siste &#224; la force des Prones.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0024</td>
+        <td class="side">Arr&#234;te de perdre ton temps avec ces livres, Sajif.[ST:n ]Entra&#238;ne-toi, plut&#244;t. Tu es aussi petit[ST:n ]et fr&#234;le qu&#39;un fennerc ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0025</td>
+        <td class="side">Assez ! Je ne suis pas un faible dont on peut[ST:n ]se moquer. Je vais conqu&#233;rir le quartier g&#233;n&#233;ral [ST:n ]pour prouver ma force ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0026</td>
+        <td class="side">Et j&#39;utiliserai une strat&#233;gie que j&#39;ai lue... La strat&#233;gie[ST:n ]de l&#39;assassinat ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0027</td>
+        <td class="side">Il faut couper la t&#234;te du serpent pour le tuer. Nous[ST:n ]vaincrons ainsi avec un nombre r&#233;duit d&#39;hommes.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0028</td>
+        <td class="side">Aidez-moi, Terrestre. Allez assassiner Kentaro Nagi.[ST:n ]Le ministre des forces de New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0029</td>
+        <td class="side">Ensuite, je prendrai le contr&#244;le de la ville. Je prouverai[ST:n ]la valeur de la strat&#233;gie des terrestres. Acceptez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0050</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0051</td>
+        <td class="side">Acquiescer d&#39;un air grave et se pr&#233;parer pour la guerre.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0060</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0061</td>
+        <td class="side">Dire &#224; Sajif qu&#39;il dit n&#39;importe quoi.</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0030</td>
+        <td class="side">Tu es encore plus b&#234;te que Sajif. Pourquoi faire &#231;a ?[ST:n ]Les tiens vont souffrir ![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0031</td>
+        <td class="side">Grr... C&#39;est... C&#39;est vrai. Voil&#224; venu le jour[ST:n ]o&#249; Vio Penga me reprend. J&#39;ai honte...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0032</td>
+        <td class="side">Je vois. Cela causerait des probl&#232;mes aux v&#244;tres.[ST:n ]Et vous avez d&#233;j&#224; tant fait pour nous. Je m&#39;excuse[ST:n ]d&#39;avoir sugg&#233;r&#233; cela.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0033</td>
+        <td class="side">J&#39;ai une autre id&#233;e. Le Ganglion construit un nouveau[ST:n ]bastion. Allez au site de construction du fort Lotus et[ST:n ]tuez leur chef.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0034</td>
+        <td class="side">Nous allons faire tomber leur forteresse avant m&#234;me[ST:n ]qu&#39;elle soit termin&#233;e. Vous serez [ST:Gender p1=pay&#233; p2=pay&#233;e ], bien s&#251;r.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0035</td>
+        <td class="side">Vous serez [ST:Gender p1=le p2=la ] Sun Tzu moderne ! Mais prenez soin[ST:n ]de n&#39;&#233;liminer que le chef.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0036</td>
+        <td class="side">Tuer les autres serait de la force brute. Nous ne serions[ST:n ]pas meilleurs que Vio Penga.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0037</td>
+        <td class="side">Tuez seulement le chef, m&#234;me sur le chemin du retour.[ST:n ]Prouvez que la strat&#233;gie des terrestres est sup&#233;rieure.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0042</td>
+        <td class="side">Le site de construction du fort Lotus est dans Noctilum.[ST:n ]Menez cette strat&#233;gie &#224; bien. Tuez seulement le chef,[ST:n ]m&#234;me sur le chemin du retour.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0043</td>
+        <td class="side">Cela prouvera la sup&#233;riorit&#233; de la strat&#233;gie[ST:n ]des terrestres. Aidez-moi &#224; la partager avec[ST:n ]les autres Prones.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0044</td>
+        <td class="side">Alors le Clan troglodyte ne sera plus une menace.[ST:n ]L&#39;intelligence mettra rapidement fin &#224; la guerre ![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0045</td>
+        <td class="side">Bienvenue, [ST:playername ] ! Vous avez[ST:n ]parfaitement r&#233;ussi. Vous n&#39;avez tu&#233; que leur chef.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0046</td>
+        <td class="side">Ils &#233;taient d&#233;rout&#233;s comme une b&#234;te sans t&#234;te ![ST:n ]Une poign&#233;e de Prones a suffi &#224; renverser le fort ![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0047</td>
+        <td class="side">La strat&#233;gie a &#233;t&#233; une r&#233;ussite ! Cela prouve que les[ST:n ]Prones peuvent se battre avec autre chose que leurs[ST:n ]muscles.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0048</td>
+        <td class="side">Qu&#39;avez-vous pens&#233; de mon plan ? Ai-je du talent[ST:n ]pour cela ? Pour la strat&#233;gie ?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0070</td>
+        <td class="side">F&#233;liciter</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0071</td>
+        <td class="side">Dire &#224; Sajif que son plan &#233;tait tr&#232;s ing&#233;nieux.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0080</td>
+        <td class="side">Critiquer</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0081</td>
+        <td class="side">Dire &#224; Sajif que son plan &#233;tait l&#226;che.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0049</td>
+        <td class="side">Entendre cela de la part [ST:Gender p1=d&#39;un p2=d&#39;une ] terrestre repr&#233;sente[ST:n ]beaucoup pour moi. Je respecte grandement[ST:n ]votre peuple.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0050</td>
+        <td class="side">Eh bien... Vio ? Penses-tu toujours que la strat&#233;gie[ST:n ]est inutile ?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0051</td>
+        <td class="side">Pff. Vous &#234;tes peut-&#234;tre plus prone que moi, Terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0052</td>
+        <td class="side">Et toi, Vio ? Penses-tu toujours que la strat&#233;gie[ST:n ]est inutile ?[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0053</td>
+        <td class="side">J&#39;admets que c&#39;&#233;tait... impressionnant. Une force si[ST:n ]r&#233;duite n&#39;aurait pas d&#251; pouvoir prendre un fort[ST:n ]si grand.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0054</td>
+        <td class="side">M&#234;me si j&#39;avais combattu &#224; leur c&#244;t&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0055</td>
+        <td class="side">Alors tu admets que le Clan sylvain doit utiliser la[ST:n ]strat&#233;gie pour se battre ?[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0056</td>
+        <td class="side">Je n&#39;aime pas les ruses.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0057</td>
+        <td class="side">Mais j&#39;aime encore moins perdre des hommes du clan.[ST:n ]Ta &#171; strat&#233;gie &#187; les prot&#232;gera.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0058</td>
+        <td class="side">Oui, exactement ! C&#39;est l&#39;essence de la strat&#233;gie.[ST:n ]D&#233;truire les ennemis en sauvant les n&#244;tres.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0059</td>
+        <td class="side">Merci, Terrestre. Vous avez prouv&#233; les m&#233;rites[ST:n ]de la strat&#233;gie. Vous m&#39;avez aid&#233; &#224; gagner[ST:n ]le soutien du clan.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0060</td>
+        <td class="side">Je vous r&#233;compenserai g&#233;n&#233;reusement. Payer des alli&#233;s[ST:n ]puissants pour les garder, c&#39;est aussi de la strat&#233;gie ![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0061</td>
+        <td class="side">Honte &#224; vous, [ST:playername ]. Vous n&#39;avez[ST:n ]pas tu&#233; uniquement le chef. Ce n&#39;est pas mieux[ST:n ]que les tactiques brutales que Vio s&#39;ent&#234;te &#224; utiliser.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0062</td>
+        <td class="side">Ha ha ha ! C&#39;&#233;tait la bonne chose &#224; faire ! Les Prones[ST:n ]n&#39;ont pas besoin de cette &#171; strat&#233;gie &#187; de l&#226;ches ![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0063</td>
+        <td class="side">&#201;liminer tous les ennemis qui se dressent devant nous.[ST:n ]C&#39;est ainsi qu&#39;on fait la guerre ! [ST:Gender p1=Le p2=La ] terrestre l&#39;a prouv&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0064</td>
+        <td class="side">M-Mais avec une bonne strat&#233;gie, m&#234;me quelques[ST:n ]hommes peuvent conqu&#233;rir...[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0065</td>
+        <td class="side">Je t&#39;ai assez entendu japper. Petit fennerc ![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0066</td>
+        <td class="side">J&#39;ai &#233;t&#233; impressionn&#233; par ta force, Terrestre.[ST:n ]Je la testerai moi-m&#234;me, un jour.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0090</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0091</td>
+        <td class="side">Dire &#224; Vio que vous adoreriez vous entra&#238;ner avec lui.</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev031301_JNK0100</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev031301_SEL0101</td>
+        <td class="side">Lui dire que vous ne voyez pas l&#39;int&#233;r&#234;t de vous battre[ST:n ]pour rien.</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0067</td>
+        <td class="side">Tu as plus de fiert&#233; prone que Sajif ![ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0068</td>
+        <td class="side">C&#39;est vrai... Nous sommes alli&#233;s maintenant.[ST:n ]Sajif est un idiot. Mais ton esprit vif[ST:n ]est une b&#233;n&#233;diction pour nos deux esp&#232;ces.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0069</td>
+        <td class="side">Tu peux couvrir mes arri&#232;res en combat, Terrestre.[ST:n ]Je ferai de m&#234;me pour toi en retour.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0070</td>
+        <td class="side">Je n&#39;ai rien &#224; redire. Comme vos &#233;crits le disent si bien,[ST:n ]l&#39;histoire est &#233;crite par les vainqueurs.[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev031301_MSG0071</td>
+        <td class="side">Pff. Prenez votre r&#233;compense. Je trouverai un guerrier[ST:n ]digne de confiance la prochaine fois. Sa victoire[ST:n ]d&#233;montrera le pouvoir de la strat&#233;gie.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

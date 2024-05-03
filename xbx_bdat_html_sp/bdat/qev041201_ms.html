@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0001</td>
+        <td class="side">Mmm... Esto es malo. Muy, muy malo.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0002</td>
+        <td class="side">&#191;Eh? &#191;[ST:Gender p1=Amigo p2=Amiga ] quiere tratos con caravana?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0003</td>
+        <td class="side">Pues caravana no quiere tratos con [ST:Gender p1=amigo p2=amiga ],[ST:n ]as&#237; que venga. &#161;Aire! &#161;Arrea![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041201_JNK0010</td>
+        <td class="side">Obedecer</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041201_SEL0011</td>
+        <td class="side">Haz como te dicen y vete.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041201_JNK0020</td>
+        <td class="side">Rehusar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041201_SEL0021</td>
+        <td class="side">Di que a ti &#233;l no te da &#243;rdenes.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0004</td>
+        <td class="side">&#191;Mm? &#191;Mmmm?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0005</td>
+        <td class="side">&#191;[ST:Gender p1=Amigo p2=Amiga ] se va de verdad? Pues vaya...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0006</td>
+        <td class="side">Bueno, Mumun est&#225; de buen humor hoy,[ST:n ]as&#237; que Mumun har&#225; [ST:Gender p1=amigo p2=amiga ] favor de hablar[ST:n ]un rato. No mucho, tampoco. Solo un poco.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0007</td>
+        <td class="side">&#161;Mumun puede incluso dejar a [ST:Gender p1=amigo p2=amiga ] ayudar[ST:n ]con problema como premio extraespecial![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0008</td>
+        <td class="side">No hace falta dar gracias a Mumun.[ST:n ]Es placer para Mumun.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0009</td>
+        <td class="side">&#191;Mm? &#191;Mmmm?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0010</td>
+        <td class="side">&#191;[ST:Gender p1=Amigo p2=Amiga ] se atreve a desafiar a Mumun?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0011</td>
+        <td class="side">&#161;&#191;Sabe [ST:Gender p1=amigo p2=amiga ] que Mumun[ST:n ]es el mejor alumno del gran Mujiji?![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0012</td>
+        <td class="side">&#161;Oh! &#161;Oh, oh! &#161;Jo, jo, jo![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0013</td>
+        <td class="side">&#161;[ST:Gender p1=Amigo p2=Amiga ] es tan imprudente que Mumun tiene que re&#237;rse![ST:n ]&#161;Oh, jo, jo, je, je! &#161;Uf, uf![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0014</td>
+        <td class="side">Qu&#233; [ST:Gender p1=humano p2=humana ] tan [ST:Gender p1=divertido p2=divertida ]. A Mumun le gusta[ST:n ]tanto [ST:Gender p1=amigo p2=amiga ] que Mumun dar&#225; a [ST:Gender p1=amigo p2=amiga ] privilegio[ST:n ]de ayudar con problemilla.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0015</td>
+        <td class="side">No hace falta dar gracias. Es placer para Mumun.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0016</td>
+        <td class="side">Esta caravana tiene muchos clientes asiduos.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0017</td>
+        <td class="side">Amigos humanos son mejores clientes, pero l&#237;der de[ST:n ]caravana dice que ese sector de mercado demasiado[ST:n ]importante para que Mumun se ocupe de &#233;l.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0018</td>
+        <td class="side">En su lugar, &#161;Mumun tiene que contentarse[ST:n ]con prones apestosos en fuerte al sudeste![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0019</td>
+        <td class="side">Mumun vende kiwevos de cosecha local[ST:n ]a precios al por mayor. &#161;Ni nopon m&#225;s[ST:n ]desesperado quiere vender eso![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0020</td>
+        <td class="side">Tarea de tres al cuarto endilgada a Mumun[ST:n ]porque nadie m&#225;s la quiere.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0021</td>
+        <td class="side">Peor a&#250;n, Mumun tiene que vender kiwevos a prones.[ST:n ]&#161;Prones, enormes! &#161;Prones meten miedo! En &#250;ltima visita,[ST:n ]&#161;uno quiere comer Mumun en vez de kiwevos![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0022</td>
+        <td class="side">Otros prones r&#237;en, as&#237; que Mumun supone[ST:n ]que es lo que prones entienden por broma.[ST:n ]Pero aun as&#237;, no es muy divertido.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0023</td>
+        <td class="side">&#161;&#191;Y qui&#233;n dice que broma no se hace[ST:n ]realidad pr&#243;xima vez?![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0024</td>
+        <td class="side">Con todo, prones apestosos son buen cliente.[ST:n ]Y si Mumun pide cambiar tarea, Mujiji dir&#225;[ST:n ]que Mumun es fracaso como comerciante.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0025</td>
+        <td class="side">As&#237; que Mumun quiere contratar a [ST:Gender p1=amigo p2=amiga ][ST:n ]para guardar espalda, para asegurarse[ST:n ]de que Mumun no acaba como piscolabis.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0026</td>
+        <td class="side">Ah, pero son clientes, &#161;as&#237; que nada de amenazas[ST:n ]a no ser que no se comportan![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0027</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] solo tiene que fingir ser [ST:Gender p1=socio p2=socia ][ST:n ]y quedarse cerca de Mumun. Muuuy cerca.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0028</td>
+        <td class="side">&#161;Mumun cuenta con [ST:Gender p1=amigo p2=amiga ]![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

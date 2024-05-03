@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev045701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev045701_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev045701_SEL0011</td>
+        <td class="side">Chiedi a Paqu di via dell&#39;Armeria.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev045701_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev045701_SEL0021</td>
+        <td class="side">Chiedi a Paqu se ha delle novit&#224; interessanti.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev045701_SEL0023</td>
+        <td class="side">Chiedi a Paqu degli oggetti rari.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0001</td>
+        <td class="side">Questo posto &#232; dove vendete cose in cambio di \&quot;soldi\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0002</td>
+        <td class="side">Al mio compagno i soldi non interessano. Per questo[ST:n ]io cerco di vendere oggetti di valore per tirare avanti.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0003</td>
+        <td class="side">Forse sto sbagliando qualcosa? Le mie ossa di bestia[ST:n ]sono rare. Molto rare. Ma nessuno le compra.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0004</td>
+        <td class="side">Pron non conoscono il denaro. Solo baratto.[ST:n ]Questo posto mi mette a disagio.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0005</td>
+        <td class="side">Magari, potrei acciuffare il primo Nopon che capita.[ST:n ]Costringerlo a rivelarmi il segreto delle vendite.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0008</td>
+        <td class="side">Ho sentito L e Ma-non parlare del loro nuovo negozio.[ST:n ]Li ho sentiti che dicevano qualcosa a proposito di un[ST:n ]\&quot;cavallo di Troia che folgorer&#224; il mercato\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0009</td>
+        <td class="side">Che cos&#39;e questo... cavallo di Troia? Una bestia?[ST:n ]&#200; tanto buono quanto sembra?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0010</td>
+        <td class="side">Comunque, tutto quello che ha L &#232; strano...[ST:n ]Forse &#232; meglio che non mi illuda.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0011</td>
+        <td class="side">Ma il richiamo della carne fresca e succulenta &#232; forte...[ST:n ]Molto forte... Mmmh...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0017</td>
+        <td class="side">Quando BLADE abbattono le bestie, ottengono[ST:n ]materiali. Come le ossa che vendo. Corna. Armi.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0018</td>
+        <td class="side">Ma i materiali non sono tutti uguali. Alcuni sono rari[ST:n ]e preziosi. Altri sono insulsi.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0019</td>
+        <td class="side">Le armi, per esempio. Pi&#249; sono rare, pi&#249; &#232; probabile[ST:n ]che abbiano effetti speciali in combattimento.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0020</td>
+        <td class="side">Anche io ho bisogno di armi rare. Cos&#236; posso[ST:n ]obbligare il mio compagno a lavorare![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev045701_SEL1011</td>
+        <td class="side">Chiedi a Paqu come dovresti utilizzare il Miranium.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev045701_SEL1021</td>
+        <td class="side">Chiedi a Paqu se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0021</td>
+        <td class="side">Il Miranium &#232; un minerale miracoloso![ST:n ]Puoi utilizzarlo qui al negozio di L...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0022</td>
+        <td class="side">Puoi darlo ai produttori d&#39;armi[ST:n ]per far crescere le aziende...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0023</td>
+        <td class="side">Puoi impiegarlo addirittura per creare armi.[ST:n ]O per completare missioni BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0024</td>
+        <td class="side">Il Miranium &#232; proprio come un Baaox.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0025</td>
+        <td class="side">Non conosci Baaox? &#200; una bestia[ST:n ]del pianeta natale Pron. Molto versatile.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0026</td>
+        <td class="side">Pu&#242; essere usato come cavalcatura. Ha carni[ST:n ]succulente. Gran lavoratore. Esatto opposto[ST:n ]del mio compagno. Sigh...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0012</td>
+        <td class="side">L ha aperto un negozio qui.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0013</td>
+        <td class="side">Adesso molti BLADE vengono con armi e armature.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0014</td>
+        <td class="side">Oh, non lo sapevi? L ha costruito[ST:n ]un qualche tipo di... dispositivo.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0015</td>
+        <td class="side">Un dispositivo che pu&#242; potenziare qualsiasi arma.[ST:n ]Anche la pi&#249; semplice clava fatta con ossa di bestia.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0016</td>
+        <td class="side">Dovrei far aggiungere un \&quot;alloggiamento\&quot; alla mia.[ST:n ]Cos&#236; potrei inculcare un po&#39; di buon senso[ST:n ]al mio inutile compagno![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

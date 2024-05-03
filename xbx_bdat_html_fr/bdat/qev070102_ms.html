@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev070102_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0001</td>
+        <td class="side">Maintenant je vais te poser des questions et tu vas[ST:n ]me r&#233;pondre de fa&#231;on concise et pr&#233;cise.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0002</td>
+        <td class="side">Parle trop ou essaie de mentir et on va recommencer[ST:n ]dans un endroit un peu moins... confortable.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0003</td>
+        <td class="side">T&#39;es pas b&#234;te. T&#39;as pas envie de cr&#233;er des probl&#232;mes.[ST:n ]C&#39;est toujours mieux quand tout le monde coop&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0004</td>
+        <td class="side">Alors, premi&#232;re question. Que te voulait Professeur B ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0010</td>
+        <td class="side">R&#233;pondre</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0011</td>
+        <td class="side">Parler de la mission que Professeur B vous a donn&#233;e.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0020</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0021</td>
+        <td class="side">Demander &#224; Gadd qui il est.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0005</td>
+        <td class="side">M&#39;enfin qu&#39;est-ce qu&#39;il veut fabriquer avec ce truc ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0006</td>
+        <td class="side">La technologie de ce grand gars nous &#233;chappe [ST:n ]compl&#232;tement...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0007</td>
+        <td class="side">Je pensais que t&#39;&#233;tais [ST:Gender p1=intelligent p2=intelligente ]. Peut-&#234;tre que je me[ST:n ]trompe. Savoir qui je suis est plus important que[ST:n ]ta propre vie ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0008</td>
+        <td class="side">Tr&#232;s bien, &#231;a me va. Je vais te faire passer dans une[ST:n ]salle plus intime o&#249; personne ne pourra venir t&#39;aider.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0009</td>
+        <td class="side">T&#39;auras tout ton temps pour voir ce que je fais.[ST:n ]Tu ne reverras jamais ta maison. T&#39;auras m&#234;me droit[ST:n ]&#224; la sp&#233;cialit&#233; de Gadd ! H&#233; h&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0010</td>
+        <td class="side">Deuxi&#232;me question. Que sais-tu des recherches[ST:n ]de Professeur B ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0030</td>
+        <td class="side">R&#233;pondre</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0031</td>
+        <td class="side">Admettre que vous ne savez rien.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0040</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0041</td>
+        <td class="side">Demander pourquoi Gadd s&#39;int&#233;resse tant au travail[ST:n ]de Professeur B.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0011</td>
+        <td class="side">Ouais, je vois. Pas &#233;tonnant. C&#39;est un gars prudent.[ST:n ]Il fait pas confiance facilement.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0012</td>
+        <td class="side">&#199;a va &#234;tre p&#233;nible, mais je vais devoir enlever ce type[ST:n ]si je veux avoir quelques d&#233;tails sur cette technologie...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0013</td>
+        <td class="side">Je pensais que t&#39;&#233;tais [ST:Gender p1=intelligent p2=intelligente ]. Peut-&#234;tre que je me[ST:n ]trompe. Savoir ce que je veux est plus important que[ST:n ]ta propre vie ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0014</td>
+        <td class="side">Tr&#232;s bien, &#231;a me va. Je vais te faire passer dans une[ST:n ]salle plus intime o&#249; personne ne pourra venir t&#39;aider.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0015</td>
+        <td class="side">T&#39;auras tout ton temps pour voir ce que je fais.[ST:n ]Tu ne reverras jamais ta maison. T&#39;auras m&#234;me droit[ST:n ]&#224; la sp&#233;cialit&#233; de Gadd ! H&#233; h&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0016</td>
+        <td class="side">Bravo, tu te d&#233;brouilles bien. [ST:Gender p1=un vrai champion p2=une vraie championne ].[ST:n ]J&#39;ai une derni&#232;re question pour toi...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0017</td>
+        <td class="side">[ST:Gender p1=Noy&#233; p2=Noy&#233;e ] dans la mer, ou [ST:Gender p1=cribl&#233; p2=cribl&#233;e ] de balles ?[ST:n ]Comment tu pr&#233;f&#232;res mourir ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0050</td>
+        <td class="side">Choisir la mer</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0051</td>
+        <td class="side">Dire que vous pr&#233;f&#233;rez &#234;tre [ST:Gender p1=noy&#233; p2=noy&#233;e ].</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0060</td>
+        <td class="side">Choisir les balles</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0061</td>
+        <td class="side">Dire &#224; Gadd que vous pr&#233;f&#233;rez les balles,[ST:n ]sans h&#233;sitation.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev070102_JNK0070</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev070102_SEL0071</td>
+        <td class="side">Expliquer que vous n&#39;aviez pas pr&#233;vu de mourir[ST:n ]aujourd&#39;hui.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0018</td>
+        <td class="side">Super ! J&#39;esp&#233;rais justement aller &#224; la plage[ST:n ]aujourd&#39;hui.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0019</td>
+        <td class="side">Ne t&#39;inqui&#232;te pas, je promets que ce sera agr&#233;able[ST:n ]et sans douleur. Les vagues vont te bercer comme[ST:n ]le faisait ta m&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0020</td>
+        <td class="side">H&#233;, [ST:Gender p1=il p2=elle ] veut une fin spectaculaire ! &#199;a me pla&#238;t ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0021</td>
+        <td class="side">Tr&#232;s bon choix. Je vais tellement te cribler de balles[ST:n ]que ta propre m&#232;re ne te reconna&#238;tra pas ![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0022</td>
+        <td class="side">Eh bien, c&#39;est pas la confiance en soi[ST:n ]qui manque, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev070102_MSG0023</td>
+        <td class="side">La bonne nouvelle c&#39;est que tu vas pas vivre assez[ST:n ]longtemps pour le regretter. Alors meurs, ordure ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

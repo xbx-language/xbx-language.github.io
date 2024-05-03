@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050404_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0001</td>
+        <td class="side">Gnn... Vous &#234;tes [ST:Gender p1=fort p2=forte ] pour un humain. Mais pourquoi[ST:n ]est-ce qu&#39;[ST:Gender p1=un guerrier p2=une guerri&#232;re ] de votre envergure joue les[ST:n ]mercenaires pour mon idiot de fils ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0002</td>
+        <td class="side">Je n&#39;ai plus &#224; subir votre tyrannie, p&#232;re ! Je ne fais[ST:n ]plus partie de votre maison et n&#39;ai plus &#224; suivre les[ST:n ]coutumes wrothiannes ! Ma vie &#224; New L.A. commence.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0003</td>
+        <td class="side">N&#39;avez-vous donc aucune fiert&#233; ?! Grr ! Maudit Skell ![ST:n ]Bouge ! Bouge !![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0004</td>
+        <td class="side">Ha ha ! Vous aviez dit que j&#39;&#233;tais libre de faire comme[ST:n ]bon me semble si je vous battais ! Un Wrothian digne[ST:n ]de ce nom ne tient-il pas toujours parole ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0005</td>
+        <td class="side">Merci, [ST:playername ]. Vous avez r&#233;alis&#233;[ST:n ]mon r&#234;ve de toujours.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050404_JNK0010</td>
+        <td class="side">F&#233;liciter</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050404_SEL0011</td>
+        <td class="side">Dire &#224; De Ezich que vous &#234;tes [ST:Gender p1=content p2=contente ] pour lui.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050404_JNK0020</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050404_SEL0021</td>
+        <td class="side">Demander &#224; De Ezich pourquoi il a voulu que vous[ST:n ]vous battiez pour lui.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0006</td>
+        <td class="side">Vous &#234;tes [ST:Gender p1=le premier p2=la premi&#232;re ] qui me comprenne v&#233;ritablement.[ST:n ]Il y a quelque temps, j&#39;ai fait part &#224; mes parents de[ST:n ]mon d&#233;sir de quitter le camp wrothian pour N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0007</td>
+        <td class="side">Je ne vous l&#39;ai pas dit ? Ah, eh bien, il y a quelque[ST:n ]temps, j&#39;ai fait part &#224; mes parents de mon d&#233;sir[ST:n ]de quitter le camp wrothian pour N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0008</td>
+        <td class="side">Ils &#233;taient tous les deux furieux. Ils m&#39;ont accus&#233;[ST:n ]de d&#233;laisser mon devoir envers le prince Jiarg.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0009</td>
+        <td class="side">Cela a provoqu&#233; une &#233;norme dispute et mon p&#232;re a fini[ST:n ]par me dire que je pourrais partir si je parvenais[ST:n ]&#224; le vaincre.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0010</td>
+        <td class="side">Puis vous &#234;tes [ST:Gender p1=apparu p2=apparue ] et m&#39;avez sauv&#233; la mise ![ST:n ]Gr&#226;ce &#224; vous je suis un homme libre. Je vais...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0011</td>
+        <td class="side">De Ezich ! Vous n&#39;avez donc honte de rien ?![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0012</td>
+        <td class="side">Entre votre comportement scandaleux et vos insultes[ST:n ]envers Sazon, chef de la maison De...[ST:n ]Je peux dire que j&#39;aurai tout vu ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0013</td>
+        <td class="side">Hum... Bonjour, m&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0014</td>
+        <td class="side">J&#39;ai tol&#233;r&#233; votre comportement frivole indigne[ST:n ]d&#39;un Wrothian par amour pour l&#39;enfant[ST:n ]que j&#39;ai mis au monde...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0015</td>
+        <td class="side">Mais cela suffit. Et puisque je suis celle qui vous[ST:n ]a donn&#233; la vie, je serai celle qui la reprendra ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0016</td>
+        <td class="side">Parbleu ! Ma m&#232;re ne se contr&#244;le plus lorsqu&#39;elle est[ST:n ]&#233;nerv&#233;e de la sorte. Elle serait bien capable[ST:n ]de me tuer ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0017</td>
+        <td class="side">Mais, euh, vous ne laisserez pas les choses se passer[ST:n ]comme cela, n&#39;est-ce pas ? Je sais que vous &#234;tes[ST:n ]capable de l&#39;arr&#234;ter ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050404_JNK0030</td>
+        <td class="side">Aider</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050404_SEL0031</td>
+        <td class="side">Dire &#224; De Ezich de reculer et de vous laisser[ST:n ]vous en charger.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050404_JNK0040</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050404_SEL0041</td>
+        <td class="side">Dire que vous ne vous m&#234;lerez pas[ST:n ]&#224; une affaire familiale.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0018</td>
+        <td class="side">Ouf !! Merci, mon [ST:Gender p1=ami p2=amie ]. Et... bonne chance.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0019</td>
+        <td class="side">C-Comment ?! Non ! Vous ne pouvez pas[ST:n ]m&#39;abandonner ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0020</td>
+        <td class="side">Regardez ! Elle s&#39;appr&#234;te &#224; se jeter sur moi ![ST:n ]Vous devez l&#39;arr&#234;ter ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0021</td>
+        <td class="side">Que comptez-vous faire, l&#39;humain ? Allez-vous aider[ST:n ]cet idiot ? Tr&#232;s bien, je vous &#233;liminerai donc[ST:n ]tous les deux ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050404_MSG0022</td>
+        <td class="side">Ne vous en faites pas... Je vous rejoindrai dans la mort[ST:n ]d&#232;s que j&#39;en aurai fini avec vous. Alors, acceptez[ST:n ]votre sort ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

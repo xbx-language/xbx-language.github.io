@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev031601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev031601_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev031601_SEL0011</td>
+        <td class="side">Sprich mit Aganeba &#252;ber die[ST:n ]Waffen von Lieb &amp; Stichfest.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev031601_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev031601_SEL0021</td>
+        <td class="side">Sprich mit Aganeba &#252;ber seine Arbeit.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev031601_SEL0031</td>
+        <td class="side">Sprich mit Aganeba &#252;ber Miras einheimische Kreaturen.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0001</td>
+        <td class="side">Waffen von Lieb &amp; Stichfest treffen ihr Ziel[ST:n ]typischerweise wie ein Blitz aus heiterem[ST:n ]Himmel, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0002</td>
+        <td class="side">Unsere Waffen sind perfekt gegen Kreaturen wie[ST:n ]Lophide oder gegen ganze Horden von Pugen.[ST:n ]Sie haben ordentlich Bums! Sagt man doch so, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0003</td>
+        <td class="side">Gegen insektenartige Kreaturen wie Forfexe mag es[ST:n ]aber vielleicht hilfreicher sein, Thermo- oder[ST:n ]&#196;therattacken einzusetzen, meinst du nicht auch?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0004</td>
+        <td class="side">Aber auf jeden, jeden Fall solltest du trotzdem Waffen[ST:n ]von Lieb &amp; Stichfest verwenden. Wer damit noch nie[ST:n ]einen Forfex erlegt hat, hat nicht gelebt! Verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0008</td>
+        <td class="side">Die eigentliche Waffenproduktion &#252;berlasse ich meinen[ST:n ]Kollegen, ja? Ich stehe lieber hier und bekehre[ST:n ]Interessenten zu unserer Technologie.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0009</td>
+        <td class="side">Habe ich schon erw&#228;hnt, dass Matthew mich mit[ST:n ]leckerer Pizza verk&#246;stigt, wenn ich diesen Job[ST:n ]gut mache?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0010</td>
+        <td class="side">Und dass ich eine Extra-Pizza bekomme, wenn ich[ST:n ]dabei keine Geheimnisse verrate? Deswegen sage ich[ST:n ]ab jetzt kein weiteres Wort mehr, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0011</td>
+        <td class="side">Matthew ist sozusagen mein ganz pers&#246;nlicher[ST:n ]Pizzabote, wei&#223;t du? Oder findest du, dass das[ST:n ]geringsch&#228;tzig klingt?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0012</td>
+        <td class="side">Vielleicht sollte ich solche leichtfertigen Aussagen[ST:n ]bleiben lassen, um unser symbiotisches Verh&#228;ltnis[ST:n ]nicht zu gef&#228;hrden... W&#228;re besser, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0013</td>
+        <td class="side">Auf Mira leben einheimische Kreaturen namens[ST:n ]„Forfexe“, die ganz, ganz gro&#223;e Scheren haben,[ST:n ]wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0014</td>
+        <td class="side">Sie sto&#223;en &#196;therschaum aus ihrem Mund aus und ihr[ST:n ]Panzer kann Sch&#252;sse abwehren. Das macht sie zu[ST:n ]ganz besonders z&#228;hen Gegnern, glaube ich.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0015</td>
+        <td class="side">Aber wenn man ihren Kopf zerst&#246;rt, kann man leckere[ST:n ]Forfex-Misopaste finden.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev031601_MSG0016</td>
+        <td class="side">Ich finde Forfexe wirklich, wirklich faszinierend.[ST:n ]Du etwa nicht?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

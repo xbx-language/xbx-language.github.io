@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev040101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev040101_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev040101_SEL0011</td>
+        <td class="side">Preg&#250;ntale al Anciano Belgazus[ST:n ]por el estilo de vida prone.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev040101_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev040101_SEL0021</td>
+        <td class="side">Preg&#250;ntale al Anciano Belgazus si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0001</td>
+        <td class="side">Prones viven en armon&#237;a con bestias.[ST:n ]Se alimentan de ellas para vivir[ST:n ]y al morir las alimentan.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0002</td>
+        <td class="side">Yo tambi&#233;n le dar&#233; mi carne a bestias.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0003</td>
+        <td class="side">&#161;Cof, cof! &#191;Ves, alien&#237;gena terrestre?[ST:n ]Prones obedecen leyes de naturaleza.[ST:n ]Cuando es nuestra hora, volvemos a ella.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0004</td>
+        <td class="side">Debe de sonar raro a alien&#237;genas terrestres.[ST:n ]Vosotros os aferr&#225;is a vida con todas vuestras fuerzas.[ST:n ]Hasta viv&#237;s en cuerpos mec&#225;nicos para evitar morir.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0005</td>
+        <td class="side">A m&#237; me parece antinatural. &#161;Cof, cof![ST:n ]No lo entiendo.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0010</td>
+        <td class="side">&#161;Cof, cof! Mi cuerpo falla. Me queda poco tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0011</td>
+        <td class="side">Pero no... &#161;Cof, cof! No temo a final.[ST:n ]Naturaleza me llama.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0012</td>
+        <td class="side">Mi nieto Nemard se har&#225; m&#225;s fuerte.[ST:n ]Entonces alimentar&#233; bestias sin arrepentirme.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev040101_MSG0013</td>
+        <td class="side">Pero no est&#225; preparado. No para ser guerrero.[ST:n ]Ni padre. Mira lo devorar&#225; si no se hace m&#225;s fuerte.[ST:n ]No puedo irme sabiendo eso. &#161;Cof, cof![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev040101_MSG1001</td>
+        <td class="side">Aaah... Estoy d&#233;bil... &#161;Cof, cof! Pero todav&#237;a...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev040101_MSG1002</td>
+        <td class="side">Puedo ir en paz. Nemard por fin encontr&#243;[ST:n ]una compa&#241;era. Puede estar orgulloso.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev040101_MSG1003</td>
+        <td class="side">Ya puedo dejar familia en sus manos.[ST:n ]Estoy listo para morir.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev040101_MSG1004</td>
+        <td class="side">Est&#225; bien. &#161;Cof, cof! No me arrepiento de nada.[ST:n ]&#161;Mi carne va a alimentar bestias de este mundo![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

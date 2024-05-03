@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev011701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev011701_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0011</td>
+        <td class="side">Demander &#224; Giotto des renseignements[ST:n ]sur les institutions de N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev011701_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0021</td>
+        <td class="side">Demander &#224; Giotto s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0031</td>
+        <td class="side">Demander &#224; Giotto ce qu&#39;il pense des[ST:n ]assaillants prones.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0041</td>
+        <td class="side">Demander &#224; Giotto s&#39;il a des nouvelles int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0051</td>
+        <td class="side">Se renseigner aupr&#232;s de Giotto sur les mim&#233;osomes.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0061</td>
+        <td class="side">Demander &#224; Giotto s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0071</td>
+        <td class="side">Se renseigner aupr&#232;s de Giotto sur l&#39;attaque ennemie.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0081</td>
+        <td class="side">Demander &#224; Giotto s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0091</td>
+        <td class="side">Demander l&#39;opinion de Giotto sur le combat contre[ST:n ]le Zu Pharg.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0101</td>
+        <td class="side">Demander &#224; Giotto s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0111</td>
+        <td class="side">Se renseigner aupr&#232;s de Giotto sur la bataille[ST:n ]pour le noyau de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0121</td>
+        <td class="side">Demander &#224; Giotto s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0131</td>
+        <td class="side">Se renseigner aupr&#232;s de Giotto sur l&#39;entra&#238;nement.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0141</td>
+        <td class="side">Demander &#224; Giotto s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev011701_SEL0161</td>
+        <td class="side">Demander &#224; Giotto s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev011701_SEL1021</td>
+        <td class="side">Demander &#224; Giotto s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0001</td>
+        <td class="side">T&#39;es [ST:Gender p1=le nouveau gars p2=la nouvelle nana ] dont tout le monde parle ?[ST:n ]Pff ! T&#39;es [ST:Gender p1=un maigrichon p2=une maigrichonne ], hein ? Ouais.[ST:n ]J&#39;aimerais pas trop que tu me prot&#232;ges.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0002</td>
+        <td class="side">Tu fais de la muscu, au moins ? T&#39;as int&#233;r&#234;t &#224; te[ST:n ]muscler les abdos, les pecs et les &#233;paules, [ST:Gender p1=mon pote p2=ch&#233;rie ].[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0003</td>
+        <td class="side">Sors de la ville comme &#231;a et tu vas te retrouver dans le[ST:n ]ventre d&#39;une cr&#233;ature avant m&#234;me que la porte se[ST:n ]referme derri&#232;re toi. Tu ferais m&#234;me pas un bon repas.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0004</td>
+        <td class="side">Si tu tiens vraiment &#224; te battre, ram&#232;ne tes fesses[ST:n ]&#224; l&#39;all&#233;e des Armes et ach&#232;te-toi un &#233;quipement correct.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0007</td>
+        <td class="side">Hein ? Moi ? [ST:Gender p1=Mon pote p2=Ch&#233;rie ], quand t&#39;es b&#226;ti comme moi,[ST:n ]l&#39;&#233;quipement fait plus aucune diff&#233;rence.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0008</td>
+        <td class="side">Qu&#39;est-ce t&#39;en penses ? Plut&#244;t impressionnant, hein ?[ST:n ]Vas-y, tu peux toucher. Tu veux que je te fasse[ST:n ]une d&#233;mo ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0013</td>
+        <td class="side">Tu savais que tu pouvais prendre l&#39;ascenseur sur la rue[ST:n ]des Divisions pour descendre au niveau du quartier[ST:n ]administratif ? C&#39;est l&#224; que sont les hangars.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0014</td>
+        <td class="side">Y&#39;a g&#233;n&#233;ralement une bande de voyous qui tra&#238;ne[ST:n ]dans les ruelles sombres. Ils aiment bien provoquer[ST:n ]les nouvelles recrues du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0015</td>
+        <td class="side">J&#39;suis s&#251;r qu&#39;ils adoreraient s&#39;en prendre &#224; toi,[ST:n ]alors gaffe &#224; tes fesses, compris ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0031</td>
+        <td class="side">J&#39;ai vu les images d&#39;un Prone sur FrontierNav.[ST:n ]Ils ont l&#39;air d&#39;&#234;tre habitu&#233;s aux salles de muscu.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0032</td>
+        <td class="side">Tu t&#39;es vraiment [ST:Gender p1=castagn&#233; p2=castagn&#233;e ] avec ces types ?[ST:n ]Comment &#231;a s&#39;est pass&#233; ? Ils sont aussi bal&#232;zes[ST:n ]qu&#39;ils en ont l&#39;air ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0033</td>
+        <td class="side">Ho ho ho. Ah ouais, je veux bien te croire.[ST:n ]Ils ont pas l&#39;air d&#39;&#234;tre des clients faciles.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0034</td>
+        <td class="side">S&#39;ils venaient nous chercher, moi et les copains, on se[ST:n ]servirait de leurs t&#234;tes pour laver le carrelage.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0037</td>
+        <td class="side">Ces bras muscl&#233;s leur feraient regretter le jour o&#249; ils ont[ST:n ]d&#233;cid&#233; d&#39;aller &#224; l&#39;encontre de la puissance du BLADE.[ST:n ]Tourn&#233;e de baffes pour tout le monde, paf ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0040</td>
+        <td class="side">J&#39;vais te dire, je me baladais dans le quartier, derri&#232;re[ST:n ]la rue des Divisions. Tu sais, l&#224; o&#249; c&#39;est encore[ST:n ]en construction ?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0041</td>
+        <td class="side">Et j&#39;ai entendu quelqu&#39;un hurler derri&#232;re une grue :[ST:n ]&#171; Je deviendrai un agent du BLADE ! &#187;[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0042</td>
+        <td class="side">Du coup, &#231;a a attis&#233; ma curiosit&#233; et j&#39;suis all&#233; voir.[ST:n ]Il s&#39;est av&#233;r&#233; que c&#39;&#233;tait une esp&#232;ce de gonzesse[ST:n ]m&#233;cano qui beuglait comme &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0043</td>
+        <td class="side">Elle se tenait l&#224;, &#224; fixer les palissades d&#39;un regard[ST:n ]d&#233;termin&#233;. Bizarre, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0052</td>
+        <td class="side">J&#39;ai entendu dire que t&#39;avais perdu ta main gauche lors[ST:n ]d&#39;une attaque du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0053</td>
+        <td class="side">Voil&#224; ce qui arrive quand on passe pas plus de temps[ST:n ]&#224; la muscu. Faut &#234;tre rigoureux l&#224;-dessus ![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0054</td>
+        <td class="side">Quoi ? Tu veux savoir si l&#39;entra&#238;nement a un effet sur[ST:n ]les muscles artificiels des mim&#233;osomes ?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0055</td>
+        <td class="side">Ouais, bon, peut-&#234;tre que tu deviens pas vraiment[ST:n ]plus fort physiquement, mais mentalement, oui.[ST:n ]&#199;a te suffit pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0056</td>
+        <td class="side">Une fois qu&#39;un bon r&#233;gime d&#39;entra&#238;nement t&#39;aura aff&#251;t&#233;[ST:n ]l&#39;esprit et que ta volont&#233; sera regonfl&#233;e &#224; bloc, t&#39;auras[ST:n ]plus jamais peur du Ganglion, [ST:Gender p1=mon pote p2=ch&#233;rie ] ![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0059</td>
+        <td class="side">Il y a un vieil entrep&#244;t en bordure de la zone[ST:n ]industrielle que personne n&#39;utilise.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0060</td>
+        <td class="side">Mais on dirait qu&#39;une bande de x&#233;noformes plut&#244;t[ST:n ]costauds a investi les lieux.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0061</td>
+        <td class="side">Et ces Ma-nons ? Je pensais que c&#39;&#233;tait juste une bande[ST:n ]de petites crevettes, mais y&#39;en a des bal&#232;zes aussi.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0070</td>
+        <td class="side">H&#233; ! J&#39;ai entendu dire que c&#39;&#233;tait toi qui avais repouss&#233;[ST:n ]cette Ryyz et son copain, l&#39;armoire &#224; glace ![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0071</td>
+        <td class="side">Oh l&#224; l&#224;, quand tu t&#39;es [ST:Gender p1=point&#233; p2=point&#233;e ] la premi&#232;re fois,[ST:n ]j&#39;ai pens&#233; que tu valais pas mieux qu&#39;un balai[ST:n ]&#224; serpill&#232;re, vu ta carrure.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0072</td>
+        <td class="side">J&#39;aurais jamais pens&#233; que tu puisses devenir assez [ST:Gender p1=fort p2=forte ][ST:n ]pour battre des monstres comme eux ![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0073</td>
+        <td class="side">Avec quelqu&#39;un d&#39;aussi fort &#224; mes c&#244;t&#233;s, je suis fier[ST:n ]de pouvoir garantir la s&#233;curit&#233; de la ville et chercher[ST:n ]l&#39;arche de vie ![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0076</td>
+        <td class="side">J&#39;ai entendu dire que le costaud et la nana qui[ST:n ]ont men&#233; l&#39;attaque sur New L.A. ont &#233;t&#233; aper&#231;us[ST:n ]dans Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0077</td>
+        <td class="side">On dirait bien que le commandement du BLADE est en[ST:n ]train de pr&#233;parer une &#233;quipe pour se lancer &#224;[ST:n ]leurs trousses.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0078</td>
+        <td class="side">Si t&#39;es pas d&#233;j&#224; sur une mission, peut-&#234;tre que[ST:n ]tu devrais aller &#233;couter ce qui se dit devant[ST:n ]le Q.G. du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0079</td>
+        <td class="side">Je vois personne d&#39;autre de plus qualifi&#233; que [ST:Gender p1=le type p2=la nana ][ST:n ]qui les a d&#233;j&#224; repouss&#233;s une fois. Je suis s&#251;r que[ST:n ]le Q.G. aimerait t&#39;avoir de nouveau sur le coup ![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0088</td>
+        <td class="side">Je t&#39;ai [ST:Gender p1=regard&#233; p2=regard&#233;e ] te battre contre l&#39;autre machin-l&#224;,[ST:n ]le Zu Pharg, sur FrontierNav. Du beau boulot ![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0089</td>
+        <td class="side">Ce truc &#233;tait &#233;norme, mais je t&#39;ai [ST:Gender p1=vu p2=vue ] jouer avec comme[ST:n ]un chat avec sa pelote. J&#39;peux te dire que j&#39;ai applaudi[ST:n ]quand tu l&#39;as envoy&#233; s&#39;&#233;craser dans Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0090</td>
+        <td class="side">Tout le monde retenait son souffle en te regardant[ST:n ]botter les fesses du Ganglion ![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0091</td>
+        <td class="side">J&#39;aime cette attitude, [ST:Gender p1=mon pote p2=ch&#233;rie ] ! Il est temps de passer[ST:n ]aux choses s&#233;rieuses et d&#39;aller botter d&#39;autres derri&#232;res[ST:n ]dans le nid du Ganglion ![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0094</td>
+        <td class="side">Tout &#224; l&#39;heure, j&#39;ai pris l&#39;ascenseur pour descendre[ST:n ]aux hangars et v&#233;rifier l&#39;&#233;tat de mon Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0095</td>
+        <td class="side">Et donc ce gars, apparemment un genre d&#39;agent du[ST:n ]BLADE, est arriv&#233; derri&#232;re moi et m&#39;a enlac&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0096</td>
+        <td class="side">J&#39;ai cru qu&#39;il allait m&#39;&#233;touffer, mais au lieu de &#231;a, il m&#39;a[ST:n ]appel&#233; &#171; M. Muscle &#187; et demand&#233; de l&#39;aide pour[ST:n ]une mission de r&#233;cup&#233;ration.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0097</td>
+        <td class="side">Je sais pas toi, mais &#231;a me semble bizarre comme[ST:n ]d&#233;marche pour demander de l&#39;aide.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0098</td>
+        <td class="side">Bref, fais gaffe si tu dois aller l&#224;-bas. &#192; moins que[ST:n ]t&#39;aimes bien les c&#226;lins surprises de la part d&#39;inconnus.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0106</td>
+        <td class="side">Alors &#231;a y est, c&#39;est la bataille d&#233;cisive, hein ?[ST:n ]C&#39;est bizarre...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0107</td>
+        <td class="side">D&#39;une certaine fa&#231;on, on dirait que c&#39;&#233;tait hier que ces[ST:n ]ordures ont d&#233;truit la Terre et nous ont oblig&#233;s &#224; fuir.[ST:n ]Mais j&#39;ai aussi l&#39;impression que c&#39;&#233;tait y&#39;a une &#233;ternit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0108</td>
+        <td class="side">Tu peux compter sur moi, je ferai tout mon possible[ST:n ]pour te soutenir. Tu dois juste remporter cette derni&#232;re[ST:n ]victoire ![ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0109</td>
+        <td class="side">C&#39;est sinc&#232;re, [ST:Gender p1=mon pote p2=ch&#233;rie ]. T&#39;es un agent du BLADE[ST:n ]hors-pair, et tout le monde le sait.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0110</td>
+        <td class="side">Allez, file compl&#233;ter cette mission ![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0113</td>
+        <td class="side">Tu savais qu&#39;il y avait une Mediator affect&#233;e &#224;[ST:n ]la caravane nopone en Oblivia ?[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0114</td>
+        <td class="side">C&#39;est une r&#233;gion difficile et elle est l&#224;-bas toute seule.[ST:n ]Et pire encore, j&#39;ai entendu dire que les Nopons lui[ST:n ]faisaient faire toutes sortes de boulots ridicules ![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0115</td>
+        <td class="side">Tu vas par l&#224;-bas de temps en temps, hein ? La[ST:n ]prochaine fois que t&#39;es dans le coin, tu pourrais faire[ST:n ]un crochet pour aller parler &#224; cette pauvre fille ?[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0119</td>
+        <td class="side">Je suis s&#251;r qu&#39;elle serait ravie de parler avec un humain[ST:n ]pour une fois ![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0120</td>
+        <td class="side">Tu connais Kent ? Le technicien de mim&#233;osome[ST:n ]gringalet ? Il pr&#233;tend qu&#39;aucun de mes entra&#238;nements[ST:n ]ne pourra me faire gagner du muscle.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0121</td>
+        <td class="side">Il dit que le seul muscle pour lequel j&#39;ai besoin[ST:n ]d&#39;entra&#238;nement, c&#39;est mon cerveau ![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0122</td>
+        <td class="side">J&#39;ai h&#226;te qu&#39;on r&#233;cup&#232;re nos vrais corps... Alors[ST:n ]je montrerai &#224; tout le monde ce que &#171; culturisme &#187;[ST:n ]veut dire, et plus personne pourra se moquer ![ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0123</td>
+        <td class="side">Abdos, pecs et &#233;paules, b&#233;b&#233; ! Je vous ferai tellement[ST:n ]travailler vos abdos que vous pourrez plus manger[ST:n ]pendant des jours. Mais que vous allez &#234;tre beaux ![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0124</td>
+        <td class="side">Quand Kent go&#251;tera &#224; mes tablettes de chocolat,[ST:n ]on verra bien qui rira le dernier ![ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0125</td>
+        <td class="side">Il y a pas mal de x&#233;noformes bien b&#226;tis. J&#39;veux dire,[ST:n ]mate un peu comment les Wrothians et les Prones[ST:n ]sont baraqu&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0126</td>
+        <td class="side">Un de ces jours, on fera un concours de pectoraux et[ST:n ]on verra qui va gagner.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0127</td>
+        <td class="side">Tu sais, je crois qu&#39;il nous faudrait un endroit o&#249; on[ST:n ]puisse se rencontrer et comparer notre force en toute[ST:n ]tranquillit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0128</td>
+        <td class="side">Bon sang, t&#39;es plut&#244;t bien [ST:Gender p1=foutu p2=foutue ] aussi maintenant ![ST:n ]&#199;a me plairait de mettre tes muscles &#224; l&#39;&#233;preuve.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0129</td>
+        <td class="side">J&#39;ai entendu dire que les Wrothians ont ouvert[ST:n ]une ar&#232;ne de combat pr&#232;s du hangar de test[ST:n ]des Outfitters.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0130</td>
+        <td class="side">Si t&#39;as un peu de temps libre, pourquoi t&#39;irais pas[ST:n ]l&#39;essayer ?[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0131</td>
+        <td class="side">Tu devrais donner une chance &#224; ces Wrothians[ST:n ]d&#39;admirer les muscles qui ont flanqu&#233; une racl&#233;e[ST:n ]aux meilleurs &#233;l&#233;ments du Ganglion ![ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0132</td>
+        <td class="side">H&#233; ! &#192; ce qu&#39;il para&#238;t, t&#39;as particip&#233; au d&#233;fi de l&#39;ar&#232;ne[ST:n ]wrothianne et t&#39;as tout remport&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0133</td>
+        <td class="side">&#199;a te d&#233;range si je tripote un peu les meilleurs muscles[ST:n ]de l&#39;univers ?[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0134</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0135</td>
+        <td class="side">Ah ouais ! C&#39;est du b&#233;ton arm&#233; ! J&#39;ai l&#39;impression[ST:n ]d&#39;assister &#224; l&#39;expansion de l&#39;univers lui-m&#234;me[ST:n ]quand je t&#226;te ce puissant biceps ![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0136</td>
+        <td class="side">Va falloir que j&#39;am&#233;liore mon entra&#238;nement si je veux[ST:n ]avoir des muscles de classe intergalactique comme toi ![ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0137</td>
+        <td class="side">H&#233; ! &#192; ce qu&#39;il para&#238;t, t&#39;as particip&#233; au d&#233;fi de l&#39;ar&#232;ne[ST:n ]wrothianne et t&#39;as tout remport&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0138</td>
+        <td class="side">C&#39;est dingue que t&#39;aies r&#233;ussi &#224; battre ces Wrothians[ST:n ]et leurs pectoraux surhumains.[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0139</td>
+        <td class="side">Ils doivent faire de l&#39;exercice tous les jours pour avoir[ST:n ]un physique pareil. Entra&#238;nement, entra&#238;nement et[ST:n ]re-entra&#238;nement. S&#251;rement du Girevoy aussi ![ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0140</td>
+        <td class="side">Tu sais, je suis pas tr&#232;s &#224; l&#39;aise avec les femmes.[ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0141</td>
+        <td class="side">Mais avec une femme bien muscl&#233;e comme toi, je peux[ST:n ]parler normalement ! On devrait tra&#238;ner ensemble et[ST:n ]s&#39;&#233;changer des astuces d&#39;entra&#238;nement un de ces jours.[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0116</td>
+        <td class="side">Y&#39;a qu&#39;une seule fa&#231;on d&#39;att&#233;nuer la douleur d&#39;avoir[ST:n ]&#233;t&#233; trahi par quelqu&#39;un qu&#39;on appr&#233;cie, c&#39;est en faisant[ST:n ]une session d&#39;exercices intense.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0117</td>
+        <td class="side">Nos muscles ne nous d&#233;&#231;oivent pas. Alors[ST:n ]r&#233;compensons nos muscles en les faisant[ST:n ]travailler jusqu&#39;&#224; ce qu&#39;on en vomisse ![ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>tev011701_MSG0118</td>
+        <td class="side">Oh oui ! J&#39;ai h&#226;te d&#39;avoir mal demain ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

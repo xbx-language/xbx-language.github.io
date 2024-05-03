@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0001</td>
+        <td class="side">Sie ist fort... Oh, was bin ich doch f&#252;r ein Schw&#228;chling![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0002</td>
+        <td class="side">...Hm? Seid Ihr etwa [ST:Gender p1=ein p2=eine ] BLADE, [ST:Gender p1=Fremder p2=Fremde ]?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0003</td>
+        <td class="side">Ich bitte Euch, wendet Euren Blick von mir ab![ST:n ]Ich habe Schande &#252;ber meine Familie gebracht.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0010</td>
+        <td class="side">Anstarren</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0011</td>
+        <td class="side">Mustere den Wrothianer eindringlich.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0020</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0021</td>
+        <td class="side">Frage den Wrothianer, was vorgefallen ist.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0004</td>
+        <td class="side">W-warum seht Ihr mich so an?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0005</td>
+        <td class="side">Wollt Ihr mir etwa zu verstehen geben, dass ich mich[ST:n ]nicht feige meiner Verantwortung entziehen darf?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0006</td>
+        <td class="side">Wie recht Ihr doch habt! Egal, welch schwaches,[ST:n ]ehrloses Gesch&#246;pf ich auch sein mag: Ich muss[ST:n ]im Sinne meiner &#228;lteren Br&#252;der handeln![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0007</td>
+        <td class="side">Werdet Ihr mir helfen, meine Schwester zu retten?[ST:n ]Ich bitte Euch, werter Mensch.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0008</td>
+        <td class="side">Es schickt sich nicht, derlei [ST:Gender p1=einem p2=einer ] Au&#223;enstehenden[ST:n ]anzuvertrauen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0009</td>
+        <td class="side">Doch in dieser Stunde der Not schere ich mich nicht[ST:n ]l&#228;nger darum, das Gesicht zu wahren.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0010</td>
+        <td class="side">Ich h&#246;rte, dass die BLADEs hervorragende Krieger sind.[ST:n ]Wenn dem so ist, m&#246;chte ich Euren Beistand ersuchen.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0011</td>
+        <td class="side">Werdet Ihr mir helfen, meine Schwester zu retten?[ST:n ]Ich bitte Euch, werter Mensch.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0012</td>
+        <td class="side">Mein Name ist Zo Langra. Meine &#228;ltere Schwester[ST:n ]Zo Zazhi verlie&#223; NLA, um den Meuchelm&#246;rder der[ST:n ]Ganglion, der unsere Br&#252;der t&#246;tete, niederzustrecken.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0013</td>
+        <td class="side">Zazhi ist stark, wohl wahr. St&#228;rker als viele andere[ST:n ]Krieger aus unserem Volke.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0014</td>
+        <td class="side">Doch dieses Scheusal – der M&#246;rder meiner Br&#252;der – ist[ST:n ]m&#228;chtiger als jeder Feind, dem sie je gegen&#252;berstand.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0030</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0031</td>
+        <td class="side">Versuche, mehr &#252;ber Zo Langras[ST:n ]&#228;ltere Schwester zu erfahren.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0040</td>
+        <td class="side">Nachhaken</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0041</td>
+        <td class="side">Frage, wer dieser m&#228;chtige Meuchelm&#246;rder ist.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0015</td>
+        <td class="side">Schon seit fr&#252;hester Kindheit wurde sie von unseren[ST:n ]drei &#228;lteren Br&#252;dern im Schwertkampf unterwiesen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0016</td>
+        <td class="side">Ihre Technik ist derart ausgefeilt, dass sie ihre[ST:n ]bisherigen K&#228;mpfe f&#252;r sich entscheiden konnte,[ST:n ]ohne auch nur einen einzigen Hieb einzustecken.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0017</td>
+        <td class="side">Doch in diesem Duell, so f&#252;rchte ich, wird Geschick[ST:n ]allein nicht ausreichen, um siegreich zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0018</td>
+        <td class="side">Meine Br&#252;der stellten sich dem Meuchler geschlossen[ST:n ]entgegen – und wurden dennoch niedergestreckt.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0019</td>
+        <td class="side">All jene, die den Meuchelm&#246;rder erblickten, bezahlten[ST:n ]mit dem Leben. So auch meine drei &#228;lteren Br&#252;der.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0020</td>
+        <td class="side">Sein Aussehen ist ein Mysterium. Und bleibt nur, seine[ST:n ]Opfer zu z&#228;hlen und daran seine St&#228;rke erahnen.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0021</td>
+        <td class="side">Dem Feigling scheint es gr&#246;&#223;te Freude zu bereiten,[ST:n ]Wrothianer auf Gehei&#223; der Ganglion abzuschlachten.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0022</td>
+        <td class="side">Wenn es mir nicht gelingt, meine Schwester von ihrem[ST:n ]Pfad der Rache abzubringen, wird sie das Schicksal[ST:n ]unserer Br&#252;der teilen und nichts w&#228;re gewonnen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0023</td>
+        <td class="side">Mutig[ST:Gender p1=er p2=e ] BLADE! Bitte erstickt den Zorn, der in Zazhis[ST:n ]Herzen lodert, und bringt sie nach NLA zur&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0024</td>
+        <td class="side">Ich flehe Euch an, sch&#252;tzt die letzte Prinzessin[ST:n ]aus dem Hause der Zo![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0025</td>
+        <td class="side">Ich danke Euch. Es f&#228;llt mir schwer, es einzugestehen,[ST:n ]doch das Schicksal meines Hauses liegt nun allein in[ST:n ]Eurer Hand.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0026</td>
+        <td class="side">Meine Schwester machte sich auf, als sie erfuhr, dass[ST:n ]jener Meuchelm&#246;rder dabei gesehen wurde, wie er[ST:n ]den Ameisenbau in Oblivia betrat.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0027</td>
+        <td class="side">Ich bitte Euch: Findet sie, bevor das helle Licht ihrer[ST:n ]Seele auf ewig erlischt![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0028</td>
+        <td class="side">Lasst Euch von der zarten Erscheinung meiner Schwester[ST:n ]nicht t&#228;uschen: Zazhi verf&#252;gt &#252;ber eine eiserne St&#228;rke,[ST:n ]mit der sie auch gr&#246;&#223;ere Gegner zu bezwingen vermag.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0029</td>
+        <td class="side">Ich w&#252;rde es vorziehen, wenn es Euch auf[ST:n ]friedvolle Art gel&#228;nge, sie von der Torheit[ST:n ]ihres Rachefeldzugs zu &#252;berzeugen.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0030</td>
+        <td class="side">Doch wenn Gewalt der einzige Weg ist, sie sicher nach[ST:n ]NLA zur&#252;ckzubringen, dann habt Ihr meinen Segen.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0031</td>
+        <td class="side">Lieber will ich den schmerzvollen Anblick ertragen,[ST:n ]wie Zazhi mit einer Wunde zu mir zur&#252;ckkehrt, als[ST:n ]dass ihre Seele an der Seite unserer Br&#252;der erwacht.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0032</td>
+        <td class="side">Habt Dank, [ST:Gender p1=edler Krieger p2=edle Kriegerin ]! Nur Euertwegen kehrte[ST:n ]meine Schwester unversehrt nach NLA zur&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0033</td>
+        <td class="side">Ich muss gestehen, dass mich Euer Sieg &#252;ber Sazhi tief[ST:n ]beeindruckt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0034</td>
+        <td class="side">Weilten meine Br&#252;der noch unter uns, so w&#252;rden sie[ST:n ]Euch gleichsam als [ST:Gender p1=Freund p2=Freundin ] und [ST:Gender p1=Rivalen p2=Rivalin ] in unserer[ST:n ]Mitte willkommen hei&#223;en.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0050</td>
+        <td class="side">Mitgef&#252;hl zeigen</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0051</td>
+        <td class="side">Dr&#252;cke dein Bedauern dar&#252;ber aus, dass du[ST:n ]Zo Langras Br&#252;der nie kennengelernt hast.</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0060</td>
+        <td class="side">Schelten</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0061</td>
+        <td class="side">Sage, dass die Vergangenheit vergangen ist und[ST:n ]es keinen Sinn hat, sie sich zur&#252;ckzuw&#252;nschen.</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0035</td>
+        <td class="side">Wo auch immer ihre Seelen nun sein m&#246;gen:[ST:n ]Ich bin &#252;berzeugt, dass sie Eure Worte mit[ST:n ]Wohlwollen vernommen haben.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0036</td>
+        <td class="side">Nun ist es an mir, das Erbe meiner Br&#252;der anzutreten[ST:n ]und ebenfalls zu einem stolzen Mann heranzureifen.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0037</td>
+        <td class="side">Ihr sprecht weise. Vielleicht ist mein einf&#228;ltiges Sinnen[ST:n ]&#252;ber derlei der Grund f&#252;r mein bisheriges Versagen.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0038</td>
+        <td class="side">Fortan will ich mich meinen Pflichten als Krieger[ST:n ]widmen, um meiner Br&#252;der zu r&#228;chen und &#252;ber[ST:n ]Zo Zazhi zu wachen.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0039</td>
+        <td class="side">Bitte nehmt dies als Zeichen meines Dankes.[ST:n ]Das Haus der Zo steht tief in Eurer Schuld.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0040</td>
+        <td class="side">Ist es vollbracht? Ist meine Schwester in Sicherheit?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0041</td>
+        <td class="side">...Was?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0042</td>
+        <td class="side">Sie bestand darauf, den Weg der Blutrache weiter zu[ST:n ]beschreiten?[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0043</td>
+        <td class="side">Ich verstehe. Mir war von Anfang an bewusst, dass es[ST:n ]kein Leichtes wird, sie umzustimmen.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0044</td>
+        <td class="side">Wenn es doch nur einen Weg g&#228;be,[ST:n ]ihr vor Augen zu f&#252;hren, wie der Rest[ST:n ]unseres Hauses &#252;ber ihr Verhalten urteilt.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0045</td>
+        <td class="side">Meine Br&#252;der h&#252;teten sie stets wie ihren Augapfel.[ST:n ]Wie sehr w&#252;rde es sie gr&#228;men, wenn Zazhi bei[ST:n ]diesem Rachefeldzug ihr Ende f&#228;nde...[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0070</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0071</td>
+        <td class="side">Erkundige dich bei Zo Langra, ob es eine[ST:n ]M&#246;glichkeit gibt, Zo Zazhi dies klarzumachen.</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0080</td>
+        <td class="side">Vorschlag machen</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0081</td>
+        <td class="side">Beharre darauf, dass sie nur mit Gewalt[ST:n ]zur Vernunft gebracht werden kann.</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0046</td>
+        <td class="side">Bei ihren Unterweisungen beharrten meine Br&#252;der stets[ST:n ]darauf, dass ein Schwert daf&#252;r bestimmt sei, Leben zu[ST:n ]sch&#252;tzen, und daher nie im Zorn gef&#252;hrt werden sollte.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0047</td>
+        <td class="side">Vielleicht k&#246;nnten wir Zazhi diese Lektion ins Ged&#228;chtnis[ST:n ]zur&#252;ckrufen, wenn sie die Schwerter unserer gefallenen[ST:n ]Br&#252;der erblicken w&#252;rde...[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0048</td>
+        <td class="side">Habt Dank f&#252;r Euren weisen Rat. Bitte nehmt die drei[ST:n ]Schwerter und bringt sie unverz&#252;glich meiner Schwester.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0049</td>
+        <td class="side">Gewalt mag unser letzter Ausweg sein, doch wom&#246;glich[ST:n ]gibt es noch eine andere M&#246;glichkeit, sie umzustimmen.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0050</td>
+        <td class="side">D&#252;rfte ich Euch bitten, drei Schwerter[ST:n ]zu Zazhi zu bringen und sie erneut zu[ST:n ]ersuchen, ihr Vorhaben aufzugeben?[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0051</td>
+        <td class="side">Diese Klingen wurden einst von unseren Br&#252;dern gef&#252;hrt.[ST:n ]Ich hoffe inst&#228;ndig, dass ihre weisen Lehren in Zazhis [ST:n ]Geist widerhallen, wenn sie die Schwerter erblickt.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0052</td>
+        <td class="side">Bei ihren Unterweisungen beharrten meine Br&#252;der stets[ST:n ]darauf, dass ein Schwert daf&#252;r bestimmt sei, Leben zu[ST:n ]sch&#252;tzen, und daher nie im Zorn gef&#252;hrt werden sollte.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0053</td>
+        <td class="side">Gewiss wird sie sich an diese Lektion erinnern und...[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0054</td>
+        <td class="side">Meine Schwester! Ihr seid am Leben![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0055</td>
+        <td class="side">Bis zu seinem Versteck bin ich dem feigen M&#246;rder[ST:n ]gefolgt, Bruder. Er verkriecht sich in der Jair-Festung.[ST:n ]Bei meiner Ehre, dort werde ich sein Leben beenden![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0056</td>
+        <td class="side">So haltet doch ein, Zazhi![ST:n ]Wenn Ihr schon wisst, wo er sich aufh&#228;lt, dann[ST:n ]lasst uns die BLADEs ersuchen, uns...[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0057</td>
+        <td class="side">Eine Streitmacht aus Menschen? Niemals![ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0058</td>
+        <td class="side">Dem Hause Zo wurde ein Unrecht zugef&#252;gt! Und es[ST:n ]liegt an uns allein, dieses Unrecht zu tilgen. So ist es[ST:n ]Sitte in unserem Volk. Habt Ihr das vergessen, Langra?[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0059</td>
+        <td class="side">Aber dieser Meuchler war unseren drei Br&#252;dern[ST:n ]&#252;berlegen! Wie k&#246;nnt Ihr Euch nur in einen Kampf[ST:n ]st&#252;rzen, der nur mit Eurem Tode enden wird![ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0060</td>
+        <td class="side">Ein wahrer Krieger f&#252;rchtet den Tod nicht![ST:n ]Als Erbe unserer &#228;lteren Br&#252;der solltet Ihr das wissen![ST:n ]Habt Ihr etwa auch vergessen, was Stolz bedeutet?[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0061</td>
+        <td class="side">Ich kehre zur&#252;ck, wenn meine Rache vollzogen ist.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0062</td>
+        <td class="side">Schwester... Unsere Br&#252;der h&#228;tten nie gew&#252;nscht, dass[ST:n ]sie ihr Leben verwirkt.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0063</td>
+        <td class="side">...Vergebt mir.[ST:n ]Bitte nehmt diese Schwerter an Euch und findet Zazhi.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0064</td>
+        <td class="side">Ruft ihr die Worte unserer Br&#252;der ins Ged&#228;chtnis und[ST:n ]rettet ihr Leben.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0065</td>
+        <td class="side">Der Stahl dieser Klingen spiegelt den Wunsch meiner[ST:n ]Br&#252;der wider, unsere Schwester zu besch&#252;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0066</td>
+        <td class="side">Ich glaube fest daran, dass Zazhi sich ihrer weisen[ST:n ]Worte und ihrer Zuneigung entsinnen wird, wenn sie[ST:n ]die Schwerter erblickt.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0067</td>
+        <td class="side">Ich flehe Euch an, sprecht erneut mit ihr und bringt sie[ST:n ]von ihrem Vorhaben ab, bevor der M&#246;rder ein weiteres[ST:n ]Opfer fordert.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0068</td>
+        <td class="side">Zo Zazhi ist heimgekehrt! Und das habe ich nur Euch[ST:n ]zu verdanken.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0069</td>
+        <td class="side">Dennoch f&#252;rchte ich, dass sie meinen Worten und denen[ST:n ]meiner Br&#252;der keinerlei Beachtung schenkt.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0070</td>
+        <td class="side">So sei es denn. Mein Weg liegt offen vor mir. Ich muss[ST:n ]st&#228;rker werden, stark genug, um sie zu besch&#252;tzen oder[ST:n ]den brennenden Zorn in ihrer Seele zu ersticken.[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0071</td>
+        <td class="side">Und schlie&#223;lich wird der Tag kommen, an dem ich[ST:n ]mit eigenen H&#228;nden das Haus Zo r&#228;chen werde.[ST:n ]Das ist meine Bestimmung![ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0090</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0091</td>
+        <td class="side">Zeige deine Bewunderung f&#252;r Zo Langras Hingabe.</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev050201_JNK0100</td>
+        <td class="side">Kritisieren</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev050201_SEL0101</td>
+        <td class="side">Erkl&#228;re Zo Langra, dass mit Vergeltung[ST:n ]doch niemandem geholfen ist.</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0072</td>
+        <td class="side">Eure Worte sind wie Reisig f&#252;r das Feuer, welches in[ST:n ]meinem Herzen lodert.[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0073</td>
+        <td class="side">Ich wei&#223;, dass ein langer Weg vor mir liegt.[ST:n ]Noch ist selbst meine Schwester mir im Kampf[ST:n ]weit &#252;berlegen.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0074</td>
+        <td class="side">Fortan will ich mich den Waffen&#252;bungen verschreiben.[ST:n ]Eines Tages werde ich die Jair-Festung erst&#252;rmen, dem[ST:n ]M&#246;rder ins Antlitz blicken und ihn niederstrecken.[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0075</td>
+        <td class="side">Das mag sein. Und doch wird Zo Zazhi nicht ruhen,[ST:n ]bis der M&#246;rder seinen letzten Atemzug getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0076</td>
+        <td class="side">Und nun, da ich seinen Aufenthaltsort[ST:n ]kenne, darf auch ich als Erbe meiner[ST:n ]Br&#252;der nicht l&#228;nger tatenlos zusehen.[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0077</td>
+        <td class="side">Ein langer Weg liegt vor mir, doch fortan will ich mich[ST:n ]meinen Waffen&#252;bungen verschreiben, auf dass ich eines[ST:n ]Tages die Jair-Festung erst&#252;rme und meine Pflicht erf&#252;lle.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0078</td>
+        <td class="side">Habt Dank f&#252;r alles, was Ihr f&#252;r uns getan habt.[ST:n ]Das Haus Zo steht tief in Eurer Schuld.[ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0079</td>
+        <td class="side">Bitte nehmt dieses Geschenk an, als Zeichen unserer[ST:n ]Dankbarkeit.[ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0080</td>
+        <td class="side">Zazhi ist heimgekehrt![ST:n ]Das habe ich nur Euren M&#252;hen zu verdanken.[ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0081</td>
+        <td class="side">Dennoch f&#252;rchte ich, dass sie meinen Worten und denen[ST:n ]unserer verstorbenen Br&#252;der keinerlei Beachtung schenkt.[ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0082</td>
+        <td class="side">So sei es denn. Ich kenne nun meine Pflicht. Ich muss[ST:n ]st&#228;rker werden, stark genug um sie zu besch&#252;tzen oder[ST:n ]den brennenden Zorn in ihrer Seele zu ersticken.[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0083</td>
+        <td class="side">Und schlie&#223;lich wird der Tag kommen, an dem ich[ST:n ]mit eigenen H&#228;nden das Hause Zo r&#228;chen...[ST:wait ]</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0084</td>
+        <td class="side">...W-was?![ST:n ]Ihr habt den M&#246;rder bereits zur Strecke gebracht?[ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0085</td>
+        <td class="side">Dabei habt Ihr schon so viel f&#252;r uns getan...[ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0086</td>
+        <td class="side">Ich danke Euch aus tiefstem Herzen. Das Haus Zo wird[ST:n ]Eure Taten niemals vergessen, das schw&#246;re ich Euch![ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev050201_MSG0087</td>
+        <td class="side">Bitte nehmt dies als Zeichen unserer Dankbarkeit.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

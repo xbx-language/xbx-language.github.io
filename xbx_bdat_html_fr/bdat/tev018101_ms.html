@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev018101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev018101_SEL0011</td>
+        <td class="side">Demander &#224; Hugo des d&#233;tails sur les sch&#233;mas.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev018101_SEL0021</td>
+        <td class="side">Demander &#224; Hugo si quelque chose le perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0010</td>
+        <td class="side">tev018101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev018101_SEL1011</td>
+        <td class="side">Demander &#224; Hugo des informations sur les sondes[ST:n ]de combat.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0020</td>
+        <td class="side">tev018101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev018101_SEL1021</td>
+        <td class="side">Demander &#224; Hugo s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0010</td>
+        <td class="side">tev018101_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev018101_SEL2011</td>
+        <td class="side">Demander &#224; Hugo des informations sur les sondes[ST:n ]de combat.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0020</td>
+        <td class="side">tev018101_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev018101_SEL1021</td>
+        <td class="side">tev018101_SEL1021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0010</td>
+        <td class="side">tev018101_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev018101_SEL3011</td>
+        <td class="side">Demander &#224; Hugo des informations sur les sondes[ST:n ]de combat.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0020</td>
+        <td class="side">tev018101_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev018101_SEL1021</td>
+        <td class="side">tev018101_SEL1021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0010</td>
+        <td class="side">tev018101_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev018101_SEL4011</td>
+        <td class="side">tev018101_SEL4011</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0020</td>
+        <td class="side">tev018101_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev018101_SEL1021</td>
+        <td class="side">tev018101_SEL1021</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0010</td>
+        <td class="side">tev018101_JNK0010</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev018101_SEL5011</td>
+        <td class="side">Demander &#224; Hugo des informations sur les sondes[ST:n ]de combat.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev018101_JNK0020</td>
+        <td class="side">tev018101_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev018101_SEL5021</td>
+        <td class="side">Demander &#224; Hugo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev018101_MSG0001</td>
+        <td class="side">Quand vous trouvez des sch&#233;mas, apportez-les[ST:n ]au terminal des usines d&#39;armes dans l&#39;all&#233;e des Armes.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev018101_MSG0002</td>
+        <td class="side">Si vous avez les pi&#232;ces requises sur vous, vous pouvez[ST:n ]imm&#233;diatement cr&#233;er du nouvel &#233;quipement.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev018101_MSG0003</td>
+        <td class="side">&#199;a ne sera pas aussi bien que ce que je fabrique,[ST:n ]bien s&#251;r, mais j&#39;ai entendu dire que vous pouviez[ST:n ]quand m&#234;me obtenir du bon mat&#233;riel.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev018101_MSG0006</td>
+        <td class="side">Je mettais au point de nouveaux types de sondes,[ST:n ]mais tout mon travail s&#39;est retrouv&#233; &#233;parpill&#233;[ST:n ]avec les d&#233;bris de la Grande Blanche.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev018101_MSG0007</td>
+        <td class="side">Je sais qu&#39;elles auraient &#233;t&#233; utiles lors des missions[ST:n ]du BLADE, mais sans les prototypes, je n&#39;ai trouv&#233;[ST:n ]personne pour m&#39;aider.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev018101_MSG0008</td>
+        <td class="side">Si seulement il y avait un agent du BLADE connaissant[ST:n ]bien FrontierNav et qui serait d&#39;accord pour m&#39;aider[ST:n ]&#224; mettre au point ces nouvelles sondes...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1001</td>
+        <td class="side">La sonde de r&#233;cup&#233;ration de carburant que je vous ai[ST:n ]donn&#233;e est un excellent d&#233;part pour ce que j&#39;esp&#232;re[ST:n ]&#234;tre une longue s&#233;rie de sondes de combat.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1002</td>
+        <td class="side">Placez-en une sur un emplacement pour sonde[ST:n ]FrontierNav et &#231;a acc&#233;l&#232;rera la r&#233;cup&#233;ration de[ST:n ]carburant de tous les Skells stationn&#233;s sur le continent.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1003</td>
+        <td class="side">Vu la fa&#231;on dont les Skells flambent vite leur carburant,[ST:n ]elles deviendront indispensables dans les zones o&#249; les[ST:n ]ennemis sont forts. Placez-les donc &#224; bon escient ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1008</td>
+        <td class="side">J&#39;ai entendu dire qu&#39;il y a des sch&#233;mas qui tra&#238;nent[ST:n ]quelque part pour des superarmes de Skell.[ST:n ]Vous avez d&#233;j&#224; trouv&#233; quelque chose du genre ?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1009</td>
+        <td class="side">Apparemment tous les arts d&#233;clench&#233;s par ces armes[ST:n ]sont bien plus puissants que les arts li&#233;s[ST:n ]aux armes conventionnelles.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1010</td>
+        <td class="side">Dans les conditions id&#233;ales, ils disent qu&#39;elles ont assez[ST:n ]de puissance pour terrasser un tyran en un coup ![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev018101_MSG1011</td>
+        <td class="side">Si de telles armes existent, j&#39;adorerais les voir[ST:n ]fonctionner un jour.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev018101_MSG2001</td>
+        <td class="side">La sonde de combat qui augmente la puissance des[ST:n ]attaques au corps-&#224;-corps affecte tous ceux qui se[ST:n ]battent dans son champ d&#39;action.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev018101_MSG2002</td>
+        <td class="side">Une fois install&#233;e, vous pourrez affronter les ennemis[ST:n ]les plus r&#233;sistants de la r&#233;gion sans aucune peur ![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev018101_MSG2003</td>
+        <td class="side">Vous savez, j&#39;ai presque fini les plans de ma prochaine[ST:n ]sonde de combat.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev018101_MSG2004</td>
+        <td class="side">Revenez me voir bient&#244;t, d&#39;accord ?[ST:n ]J&#39;aurai une nouvelle invention incroyable[ST:n ]&#224; vous montrer ![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev018101_MSG3001</td>
+        <td class="side">Si vous installez cette sonde attaque &#224; distance,[ST:n ]tous ceux qui se trouvent dans son champ d&#39;action[ST:n ]verront leur puissance d&#39;attaque &#224; distance am&#233;lior&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev018101_MSG3002</td>
+        <td class="side">M&#234;me les tireurs les plus faibles seront soudainement[ST:n ]capables de faire feu comme s&#39;ils &#233;taient poss&#233;d&#233;s[ST:n ]par un &#234;tre divin ![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev018101_MSG3003</td>
+        <td class="side">Maintenant, quel incroyable type de sonde innovante[ST:n ]devrais-je mettre au point ?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev018101_MSG3004</td>
+        <td class="side">D&#232;s que vous serez [ST:Gender p1=pr&#234;t p2=pr&#234;te ], revenez travailler avec moi ![ST:n ]Il n&#39;y a plus que vous de toute fa&#231;on...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev018101_MSG4001</td>
+        <td class="side">tev018101_MSG4001</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev018101_MSG4002</td>
+        <td class="side">tev018101_MSG4002</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev018101_MSG4003</td>
+        <td class="side">tev018101_MSG4003</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev018101_MSG4004</td>
+        <td class="side">tev018101_MSG4004</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5001</td>
+        <td class="side">Si vous installez ma sonde r&#233;sistance, vous verrez[ST:n ]votre r&#233;sistance am&#233;lior&#233;e tant que vous resterez[ST:n ]dans la r&#233;gion.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5002</td>
+        <td class="side">Ainsi m&#234;me la plus m&#233;diocre des armures encaissera[ST:n ]plus de chocs ![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5003</td>
+        <td class="side">Tout ce que je demande en &#233;change, c&#39;est que vous[ST:n ]utilisiez toutes ces sondes de fa&#231;on efficace.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5004</td>
+        <td class="side">C&#39;est la seule fa&#231;on que j&#39;ai de prouver que mes ch&#232;res[ST:n ]inventions ont une v&#233;ritable utilit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5009</td>
+        <td class="side">Maintenant que j&#39;ai &#233;t&#233; g&#226;t&#233; avec plein de mat&#233;riaux[ST:n ]et un personnel comp&#233;tent, tout se passe tr&#232;s bien[ST:n ]pour ma recherche et mes projets de d&#233;veloppement.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5010</td>
+        <td class="side">J&#39;ai sombr&#233; dans le d&#233;sespoir quand j&#39;ai perdu tous[ST:n ]les prototypes de sondes de combat sur lesquelles[ST:n ]je travaillais &#224; bord de la Grande Blanche...[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5011</td>
+        <td class="side">Mais gr&#226;ce &#224; vous, j&#39;ai pu reprendre mes recherches[ST:n ]et mettre au point des versions plus &#233;labor&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev018101_MSG5012</td>
+        <td class="side">Peut-&#234;tre que je ne suis pas aussi bon en combat[ST:n ]que vous, mais je prouverai que je peux &#234;tre un atout[ST:n ]pour le BLADE &#224; ma fa&#231;on ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

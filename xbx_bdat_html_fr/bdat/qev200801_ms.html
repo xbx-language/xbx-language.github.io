@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev200801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0001</td>
+        <td class="side">&#202;tes-vous... Ah, oui.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0002</td>
+        <td class="side">Je devine par votre pr&#233;sence que vous avez termin&#233;[ST:n ]les missions que je vous avais attribu&#233;es, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0003</td>
+        <td class="side">Dans ce cas, vous &#234;tes un agent du BLADE digne[ST:n ]de ma plus g&#233;niale invention. Mon... chef-d&#39;œuvre.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0004</td>
+        <td class="side">La comp&#233;tence de terrain en m&#233;canique 5.0, capable[ST:n ]de d&#233;m&#234;ler tous les myst&#232;res que ce monde peut offrir ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0005</td>
+        <td class="side">Je peux am&#233;liorer la comp&#233;tence install&#233;e dans votre[ST:n ]mim&#233;osome d&#232;s &#224; pr&#233;sent.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0006</td>
+        <td class="side">&#202;tes-vous [ST:Gender p1=pr&#234;t p2=pr&#234;te ] ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev200801_JNK0010</td>
+        <td class="side">Accepter[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev200801_SEL0011</td>
+        <td class="side">Am&#233;liorer votre comp&#233;tence de terrain en m&#233;canique.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev200801_JNK0020</td>
+        <td class="side">Refuser[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev200801_SEL0021</td>
+        <td class="side">Dire que vous devez encore vous pr&#233;parer[ST:n ]psychologiquement.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0007</td>
+        <td class="side">Tr&#232;s bien. Un tel savoir vous obligera sans doute[ST:n ]&#224; faire face &#224; toutes les v&#233;rit&#233;s, m&#234;me celles[ST:n ]que vous ne d&#233;sirez pas conna&#238;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0008</td>
+        <td class="side">Revenez me voir d&#232;s que vous serez [ST:Gender p1=pr&#234;t p2=pr&#234;te ] &#224; recevoir[ST:n ]le poids de cette connaissance.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0009</td>
+        <td class="side">Dans ce cas, commen&#231;ons.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0010</td>
+        <td class="side">Gr&#226;ce &#224; ceci, vous poss&#233;derez toutes les connaissances[ST:n ]possibles, depuis le commencement des temps ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0011</td>
+        <td class="side">Mise &#224; niveau termin&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev200801_MSG0012</td>
+        <td class="side">Je dois partir &#224; pr&#233;sent. Je suis impatient d&#39;entendre[ST:n ]parler de vos exploits.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

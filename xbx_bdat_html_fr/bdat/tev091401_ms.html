@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev091401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev091401_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev091401_SEL0011</td>
+        <td class="side">Demander des infos &#224; Bart sur la palissade de New L.A.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev091401_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev091401_SEL0021</td>
+        <td class="side">Demander &#224; Bart s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev091401_JNK0010</td>
+        <td class="side">tev091401_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev091401_SEL0031</td>
+        <td class="side">Interroger Bart &#224; propos des d&#233;g&#226;ts[ST:n ]sur la palissade de New L.A.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev091401_JNK0020</td>
+        <td class="side">tev091401_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev091401_SEL0021</td>
+        <td class="side">tev091401_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev091401_JNK0010</td>
+        <td class="side">tev091401_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev091401_SEL0051</td>
+        <td class="side">Demander des infos &#224; Bart sur la palissade de New L.A.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev091401_JNK0020</td>
+        <td class="side">tev091401_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev091401_SEL0021</td>
+        <td class="side">tev091401_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0001</td>
+        <td class="side">La palissade de New L.A. &#233;tait autrefois la coque[ST:n ]de la Grande Blanche.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0002</td>
+        <td class="side">Des pi&#232;ces indispensables &#224; la communication[ST:n ]et &#224; l&#39;&#233;nergie de la ville y sont int&#233;gr&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0003</td>
+        <td class="side">Si elle devait &#234;tre d&#233;truite, nous aurions du souci[ST:n ]&#224; nous faire avec tous les ennemis qui pourraient[ST:n ]s&#39;infiltrer dans la ville.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0004</td>
+        <td class="side">Mais le plus gros souci serait que le cœur[ST:n ]du fonctionnement de New L.A. en tant que ville[ST:n ]serait en grand danger ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0005</td>
+        <td class="side">Je ne vais pas laisser Lin &#234;tre meilleure que moi sur[ST:n ]le contr&#244;le et la protection de la palissade, alors[ST:n ]j&#39;esp&#232;re que vous allez m&#39;aider dans cette t&#226;che.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0010</td>
+        <td class="side">L&#39;autre jour, Lin et moi avons essay&#233; de trouver[ST:n ]de nouvelles id&#233;es sur la fa&#231;on dont New L.A.[ST:n ]est approvisionn&#233;e en &#233;nergie.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0011</td>
+        <td class="side">Une id&#233;e qui m&#39;a vraiment plu &#233;tait d&#39;utiliser la lave[ST:n ]du vallon en Fusion au nord, comme source[ST:n ]de puissance g&#233;othermique.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0012</td>
+        <td class="side">J&#39;ai demand&#233; l&#39;autorisation de faire des recherches[ST:n ]sur la viabilit&#233; de l&#39;id&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0013</td>
+        <td class="side">Que ce soit clair, je suis s&#251;r que Lin est un tr&#232;s bon[ST:n ]agent du BLADE lorsqu&#39;il s&#39;agit de se battre...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0014</td>
+        <td class="side">Mais elle a tellement d&#39;id&#233;es int&#233;ressantes ! J&#39;aimerais[ST:n ]tant qu&#39;elle reste travailler avec moi en tant[ST:n ]que m&#233;canicienne.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0019</td>
+        <td class="side">Nous avons &#233;t&#233; beaucoup touch&#233;s par l&#39;artillerie[ST:n ]du Ganglion, mais les murs ont &#224; peine &#233;t&#233;[ST:n ]endommag&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0020</td>
+        <td class="side">C&#39;&#233;tait la coque de la Grande Blanche, elle a &#233;t&#233;[ST:n ]construite pour r&#233;sister au d&#233;bris de l&#39;espace m&#234;me[ST:n ]lorsque nous voyagions plus vite que la lumi&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0021</td>
+        <td class="side">Attention, je ne veux pas dire que je n&#39;ai pas eu peur[ST:n ]quand j&#39;ai vu nos ennemis s&#39;infiltrer aussi profond&#233;ment.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0022</td>
+        <td class="side">Mais je savais qu&#39;entre vous, les agents du BLADE,[ST:n ]et ce mur h&#233;rit&#233; de la Grande Blanche, la bataille[ST:n ]&#233;tait gagn&#233;e d&#39;avance.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0027</td>
+        <td class="side">J&#39;ai fait des recherches pour savoir qui avait con&#231;u cette[ST:n ]coque capable de r&#233;sister &#224; l&#39;artillerie du Ganglion...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0028</td>
+        <td class="side">Et devinez quoi ? Les noms des parents de Lin[ST:n ]&#233;taient dans la liste des architectes ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0029</td>
+        <td class="side">J&#39;ai appris qu&#39;ils &#233;taient morts dans un accident[ST:n ]lors du test du moteur principal.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev091401_MSG0030</td>
+        <td class="side">D&#39;une certaine fa&#231;on, ils continuent de prot&#233;ger Lin[ST:n ]ainsi que nous autres.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

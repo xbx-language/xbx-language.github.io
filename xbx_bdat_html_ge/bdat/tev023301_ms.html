@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev023301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0010</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0011</td>
+        <td class="side">Sprich mit Sherry &#252;bers Wetter.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0021</td>
+        <td class="side">Frage Sherry, ob sie irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0010</td>
+        <td class="side">tev023301_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0031</td>
+        <td class="side">Frage Sherry nach den Einsatzgebieten der BLADEs.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0020</td>
+        <td class="side">tev023301_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0041</td>
+        <td class="side">Frage Sherry, ob sie irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0010</td>
+        <td class="side">tev023301_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0051</td>
+        <td class="side">Sprich mit Sherry &#252;ber Sylvalum.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0020</td>
+        <td class="side">tev023301_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0061</td>
+        <td class="side">Frage Sherry, ob sie irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0010</td>
+        <td class="side">tev023301_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0071</td>
+        <td class="side">Sprich mit Sherry &#252;ber Sylvalum.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev023301_JNK0020</td>
+        <td class="side">tev023301_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev023301_SEL0081</td>
+        <td class="side">Frage Sherry, ob sie irgendwelche[ST:n ]interessanten Ger&#252;chte geh&#246;rt hat.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev023301_SEL1021</td>
+        <td class="side">Frage Sherry, was es so Neues gibt.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0001</td>
+        <td class="side">Das Wetter, jaaa... Auf Mira ver&#228;ndert es sich[ST:n ]h&#228;ufig – und dann meist auch noch sehr abrupt.[ST:n ]Das reinste Aprilwetter![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0002</td>
+        <td class="side">Es kann dir passieren, dass du morgens bei strahlendem[ST:n ]Sonnenschein das Haus verl&#228;sst und zehn Minuten[ST:n ]sp&#228;ter bis auf die Knochen durchn&#228;sst wirst.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0003</td>
+        <td class="side">Erfahrene BLADEs decken sich mit passender Ausr&#252;stung[ST:n ]ein, um auf alle &#220;berraschungen vorbereitet zu sein,[ST:n ]mit denen das miranische Wetter uns so erfreut.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0004</td>
+        <td class="side">W&#228;hrend eines Gewitters sind zum Beispiel[ST:n ]Elektroattacken besonders wirkungsvoll, also macht[ST:n ]es Sinn, eine entsprechende Waffe zu haben![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0010</td>
+        <td class="side">Hast du von der BLADE geh&#246;rt, die w&#228;hrend eines[ST:n ]Einsatzes in Primordia eine au&#223;ergew&#246;hnliche Pflanze[ST:n ]entdeckt hat?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0011</td>
+        <td class="side">Hahaha, das war eine einheimische Kreatur, die sich als[ST:n ]harmlose Pflanze getarnt hatte! Die BLADE wurde v&#246;llig[ST:n ]&#252;berraschend attackiert – ein Gl&#252;ck, dass sie noch lebt.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0012</td>
+        <td class="side">Die &#196;rmste ist immer noch ganz durch den Wind.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0013</td>
+        <td class="side">Man kann ihr nicht mal ein Genesungsstr&#228;u&#223;chen[ST:n ]schenken. Schon beim Anblick einer Blume schreit sie[ST:n ]und zittert wie Espenlaub. Schrecklich...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0020</td>
+        <td class="side">Was meinst du mit Einsatzgebieten?[ST:n ]Der gesamte Planet ist doch ein einziges Einsatzgebiet![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0021</td>
+        <td class="side">BLADEs k&#228;mpfen sich bis in die entlegensten Winkel[ST:n ]Miras vor: Sie durchwandern W&#252;sten, erklimmen Berge,[ST:n ]schwimmen zu Inseln – was immer eben n&#246;tig ist.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0022</td>
+        <td class="side">Und wenn sie sich dabei verletzen, werden sie den[ST:n ]ganzen Weg wieder zur&#252;ckgeschleift. Direkt zu mir![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0023</td>
+        <td class="side">Aber wenn sie erst einmal in meiner Obhut sind, kann[ST:n ]ich sie wieder gesund pflegen. Also hab keine Angst[ST:n ]und st&#252;rz dich ins Abenteuer![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0030</td>
+        <td class="side">Wusstest du, dass einige besonders gef&#228;hrliche[ST:n ]Kreaturen sich selbst vernichten, wenn sie t&#246;dlich[ST:n ]verwundet sind?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0031</td>
+        <td class="side">K&#252;rzlich hat ein BLADE-Team eine solche Kreatur[ST:n ]gejagt und umzingelt. Und pl&#246;tzlich – BUMM! –[ST:n ]ist sie explodiert.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0032</td>
+        <td class="side">Das wei&#223; ich aus erster Hand, weil die Teammitglieder[ST:n ]nach diesem Vorfall hier bei mir gelandet sind.[ST:n ]Erfolgreich, gl&#252;cklich und schwer verletzt![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0033</td>
+        <td class="side">Also wenn Du selbst [ST:Gender p1=ein p2=eine ] BLADE bist, pass bitte gut auf[ST:n ]dich auf, ja? Kein Kampf ist vorbei, bevor er... &#228;h...[ST:n ]vorbei ist! Vernachl&#228;ssige nie deine Deckung![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0040</td>
+        <td class="side">Sylvalum... Das ist doch der Kontinent ziemlich[ST:n ]weit n&#246;rdlich... oder nord&#246;stlich von hier, stimmt’s?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0041</td>
+        <td class="side">Das scheint eine ziemlich gef&#228;hrliche Gegend zu sein.[ST:n ]Es werden sehr viele BLADEs hier eingeliefert, die es[ST:n ]dort erwischt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0042</td>
+        <td class="side">Allerdings behaupten ein paar der erfahrenen BLADEs,[ST:n ]dass Sylvalum nur die Vorh&#246;lle zu einem noch viel [ST:n ]gef&#228;hrlicheren Kontinent sein soll.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0043</td>
+        <td class="side">Also wenn es dich in den Norden verschl&#228;gt,[ST:n ]bereite dich bitte ganz besonders sorgf&#228;ltig vor![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0050</td>
+        <td class="side">Also ich hab geh&#246;rt, dass es hier intelligente Kreaturen[ST:n ]geben soll, die ihren Feinden den Willen zu k&#228;mpfen...[ST:n ]&#228;h... f&#246;rmlich aussaugen! Und dann greifen sie an![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0051</td>
+        <td class="side">Die betroffenen BLADEs bleiben niedergeschlagen und[ST:n ]matt, selbst nachdem wir ihre Verletzungen behandelt[ST:n ]haben. Gegen diese Lethargie haben wir kein Mittel.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0052</td>
+        <td class="side">Ich geb wirklich mein Bestes, die &#196;rmsten aufzuheitern.[ST:n ]Ich hab’s schon mit Singen und Tanzen versucht! Aber...[ST:n ]besonders erfolgreich war ich damit noch nicht.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0053</td>
+        <td class="side">Sag mal, was macht ihr BLADEs denn so im[ST:n ]Au&#223;eneinsatz, wenn ihr mal die Moral heben m&#252;sst?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0060</td>
+        <td class="side">Hast du schon den atemberaubenden Aussichtspunkt[ST:n ]mitten in Sylvalum entdeckt? Der Blick vom Gipfel dieses[ST:n ]einen schroffen Berges soll ja fantastisch sein![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0061</td>
+        <td class="side">Wenn sich der Dunst verzieht, breitet sich die[ST:n ]ganze Weite der wei&#223;en Ebene vor einem aus,[ST:n ]gesprenkelt mit herrlich schimmernden B&#228;umen.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0062</td>
+        <td class="side">Die Details haben mir ein paar BLADEs erz&#228;hlt, die[ST:n ]von der Szenerie sehr gefesselt waren: Sie verloren[ST:n ]das Gleichgewicht und st&#252;rzten den Berg hinunter.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0063</td>
+        <td class="side">Der Ausblick muss wirklich der Hammer sein! Den will[ST:n ]ich irgendwann auch mal mit eigenen Augen genie&#223;en.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0070</td>
+        <td class="side">Manchmal werden BLADEs nachl&#228;ssig, wenn sie es mit[ST:n ]Kreaturen zu tun bekommen, die sie schon Dutzende[ST:n ]Male besiegt haben.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0071</td>
+        <td class="side">Und kaum st&#252;rzen sie sich in den Kampf, bekommen sie[ST:n ]eine noch nie dagewesene Abreibung! Ja, und dann[ST:n ]enden sie hier.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0072</td>
+        <td class="side">In jedem Rudel oder jedem Schwarm oder was auch[ST:n ]immer kann es eine Art „Alphatier“ geben, das viel[ST:n ]st&#228;rker ist als seine Artgenossen.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev023301_MSG0073</td>
+        <td class="side">Sogar [ST:Gender p1=ein p2=eine ] so [ST:Gender p1=talentierter p2=talentierte ] BLADE wir du sollte absolut[ST:n ]jeden Kampf ernstnehmen![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev023301_MSG1001</td>
+        <td class="side">Eigentlich habe ich dieses Restaurant nur betreten,[ST:n ]um Ni Zain ins Wartungszentrum zur&#252;ckzuschleifen.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev023301_MSG1002</td>
+        <td class="side">Aber dann habe ich das Curry probiert... Und jetzt esse[ST:n ]ich nichts anderes mehr! Nein, wirklich, sonst nichts –[ST:n ]nur noch dieses Curry, morgens, mittags, abends.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev023301_MSG1003</td>
+        <td class="side">Ich wei&#223; doch auch, dass ich mich wie eine[ST:n ]pizzas&#252;chtige Ma-non auff&#252;hre, aber ich komme[ST:n ]nicht dagegen an! Das Curry ist so verdammt lecker![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev023301_MSG1004</td>
+        <td class="side">Ich kann nicht mal genau beschreiben, WAS es[ST:n ]so lecker macht. Es ist nicht mal besonders scharf[ST:n ]oder s&#252;&#223;. Einfach nur... delizi&#246;s![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev023301_MSG1005</td>
+        <td class="side">Mir l&#228;uft das Wasser schon im Mund[ST:n ]zusammen, wenn ich nur daran denke.[ST:n ]Mhhhhhm... Muss... Curry... essen...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

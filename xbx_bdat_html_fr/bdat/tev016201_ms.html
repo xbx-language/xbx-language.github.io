@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev016201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev016201_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev016201_SEL0011</td>
+        <td class="side">Demander &#224; Gigio des informations sur Noctilum.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev016201_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev016201_SEL0021</td>
+        <td class="side">Demander &#224; Gigio s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev016201_JNK0010</td>
+        <td class="side">tev016201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev016201_SEL0031</td>
+        <td class="side">En savoir plus sur le travail de Gigio au sein des[ST:n ]Outfitters.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev016201_JNK0020</td>
+        <td class="side">tev016201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev016201_SEL0041</td>
+        <td class="side">Demander &#224; Gigio s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0001</td>
+        <td class="side">Quand je dormais sous ma tente, au camp de[ST:n ]Noctilum, j&#39;ai ressenti une pr&#233;sence &#233;trange.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0002</td>
+        <td class="side">J&#39;ai fait semblant de dormir pour pouvoir l&#39;observer[ST:n ]plus longtemps, et puis j&#39;ai entendu quelqu&#39;un parler[ST:n ]doucement.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0003</td>
+        <td class="side">Les seuls mots que j&#39;ai pu entendre &#233;taient &#171; viande &#187;,[ST:n ]&#171; peu app&#233;tissant &#187;, &#171; portefeuille &#187; et &#171; voler &#187;...[ST:n ]C&#39;est &#233;trange, n&#39;est-ce pas ? Tr&#232;s &#233;trange.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0004</td>
+        <td class="side">Bref, j&#39;ai paniqu&#233; et hurl&#233; &#224; tout le monde de[ST:n ]se pr&#233;parer au combat. Ce qui a fait fuir la cr&#233;ature.[ST:n ]Je ne sais toujours pas &#224; quoi elle ressemblait.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0010</td>
+        <td class="side">J&#39;ai accept&#233; le poste de testeur en armement[ST:n ]qu&#39;Isobe m&#39;a propos&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0011</td>
+        <td class="side">L&#39;arme en question est incroyablement puissante et facile[ST:n ]&#224; utiliser, c&#39;est un v&#233;ritable atout sur le terrain ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0012</td>
+        <td class="side">C&#39;est une arme remarquable. Je suis l&#39;Outfitter le plus[ST:n ]chanceux du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0013</td>
+        <td class="side">Je ne voudrais pas louper une autre opportunit&#233; offerte[ST:n ]par un grand fabricant d&#39;armes comme Isobe.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0014</td>
+        <td class="side">Alors je dois m&#39;assurer de s&#233;lectionner les missions[ST:n ]qui ne se solderont pas par l&#39;&#233;chec, comme celle[ST:n ]de Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0020</td>
+        <td class="side">En plus de Sakuraba, Grenada et Meredith, nous avons[ST:n ]d&#233;sormais deux usines d&#39;armes x&#233;nos : la guilde[ST:n ]commerciale nopone et Candid &amp; Credible.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0021</td>
+        <td class="side">Je me demande s&#39;ils veulent tous mettre en place[ST:n ]des tests de propotypes comme ceux pour lesquels[ST:n ]tu nous as aid&#233;s plus t&#244;t.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0022</td>
+        <td class="side">Si c&#39;est le cas, ce ne sera pas &#233;vident. Il faut fournir[ST:n ]un sacr&#233; paquet d&#39;entreprises, mine de rien ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0023</td>
+        <td class="side">R&#233;cemment, on a d&#251; escorter des commer&#231;ants de la[ST:n ]guilde commerciale nopone jusqu&#39;&#224; Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0024</td>
+        <td class="side">Mais d&#232;s que ces satan&#233;es pestes voyaient un objet[ST:n ]de valeur, ils larguaient l&#39;escorte pour courir apr&#232;s.[ST:n ]C&#39;&#233;tait vraiment tr&#232;s compliqu&#233; de les prot&#233;ger ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0030</td>
+        <td class="side">Jajanni de chez Candid &amp; Credible m&#39;a confi&#233;[ST:n ]un nouveau prototype d&#39;arme.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0031</td>
+        <td class="side">Et &#231;a, c&#39;est une vraie arme. Je l&#39;ai utilis&#233;e pour tuer[ST:n ]un simius d&#233;cha&#238;n&#233; en un seul tir ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0032</td>
+        <td class="side">J&#39;avais entendu parler des prouesses technologiques[ST:n ]ma-nones, mais j&#39;en ai vraiment pris conscience[ST:n ]une fois l&#39;arme en main.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev016201_MSG0033</td>
+        <td class="side">Que ce soit Jajanni ou Isobe de Sakuraba, cette ville a[ST:n ]vraiment de la chance d&#39;avoir des ing&#233;nieurs[ST:n ]aussi talentueux.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev061101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev061101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0011</td>
+        <td class="side">Demander &#224; Koukou de vous parler[ST:n ]des caravanes nopones.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev061101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0021</td>
+        <td class="side">Demander &#224; Koukou s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0031</td>
+        <td class="side">Demander &#224; Koukou de vous parler[ST:n ]de la Balle &#233;claireuse.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0041</td>
+        <td class="side">Demander &#224; Koukou s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0051</td>
+        <td class="side">Demander &#224; Koukou de vous parler[ST:n ]des tr&#233;sors cach&#233;s dans Noctilum.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0061</td>
+        <td class="side">Demander &#224; Koukou s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0001</td>
+        <td class="side">Pote peut trouver caravanes nopones dans tout Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0002</td>
+        <td class="side">Plus proche se trouve dans canyon Sable dans Pantalon.[ST:n ]Endroit que potes appellent &#171; Oblivia &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0003</td>
+        <td class="side">Pote est d&#233;j&#224; [ST:Gender p1=all&#233; p2=all&#233;e ] l&#224;-bas ? Est caravane sympa, mais...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0004</td>
+        <td class="side">Chef est tr&#232;s cupide. Mais, mais ! Pourrait essayer[ST:n ]de prendre pote pour [ST:Gender p1=homme p2=femme ] de m&#233;nage.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0008</td>
+        <td class="side">Quel soulagement que Tatsu aille bien ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0009</td>
+        <td class="side">Est vrai que Tatsu est porc quand mange, et se la p&#232;te,[ST:n ]et est pr&#233;tentieux, mais m&#234;me si est pleurnichard,[ST:n ]Tatsu est pas m&#233;chant.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0010</td>
+        <td class="side">Tatsu a plus belle fourrure de tous minipons,[ST:n ]alors pote peut caresser poils &#224; Tatsu[ST:n ]pour remonter moral.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0011</td>
+        <td class="side">Bref, pote doit prendre soin de petit casse-cou ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0016</td>
+        <td class="side">Ah, alors pote utilise tr&#233;sor secret &#224; Nopons ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0017</td>
+        <td class="side">Balle &#233;claireuse est tr&#232;s pratique ! Pote a qu&#39;&#224; penser[ST:n ]&#224; o&#249; veut aller, et psshh ! Balle vole vers destination.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0018</td>
+        <td class="side">Mais... ? Des fois, Balle &#233;claireuse tourne en rond[ST:n ]ou se perd ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0019</td>
+        <td class="side">Bah, rien est parfait. Balle &#233;claireuse est pas plus[ST:n ]intelligente que Tatsu, finalement.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0020</td>
+        <td class="side">Pote doit pas faire attention aux d&#233;fauts[ST:n ]et doit l&#39;utiliser avec amour.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0026</td>
+        <td class="side">Quand trait&#233; d&#39;amiti&#233; a &#233;t&#233; sign&#233;, Ancien Nan qui[ST:n ]voyageait dans Mira a eu id&#233;e stupide que tous[ST:n ]Nopons devraient habiter &#224; New L.A. ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0027</td>
+        <td class="side">Mais chefs &#224; caravanes comme Koukou partiront pas.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0028</td>
+        <td class="side">Caravanes sont centres commerciaux importants[ST:n ]et abris pour marchands itin&#233;rants nopons.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0029</td>
+        <td class="side">Si caravanes s&#39;en vont, trajets dangereux[ST:n ]&#224; marchands seront encore plus dangereux ![ST:n ]Non, caravanes doivent rester ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0030</td>
+        <td class="side">Loin dans caverne &#224; Noctilum, Koukou est tomb&#233;e[ST:n ]sur statues de deux g&#233;ants &#233;trangement famili&#232;res.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0031</td>
+        <td class="side">Quand Koukou en a parl&#233; &#224; pote Curator,[ST:n ]excitation &#233;tait trop difficile &#224; retenir ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0032</td>
+        <td class="side">Curator a saut&#233; dans tous sens et a dit :[ST:n ]&#171; C&#39;est objet de collection qui manquait ! &#187;[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0033</td>
+        <td class="side">Si pote cherche aussi statues, alors pote devrait[ST:n ]scruter recoins &#224; cavernes, m&#233;ticuleusement.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0034</td>
+        <td class="side">Ancien Nan est vraiment g&#226;teux, mais malgr&#233; &#231;a,[ST:n ]Nopons l&#39;aiment tout pareil.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0035</td>
+        <td class="side">Si Tatsu veut &#234;tre prochain chef &#224; caravane,[ST:n ]Tatsu devrait &#233;tudier Ancien Nan avec soin.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0036</td>
+        <td class="side">Et faire tout contraire d&#39;Ancien Nan ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0037</td>
+        <td class="side">Nopons veulent que Tatsu devienne fort. Temps pass&#233;[ST:n ]dans ville humaine aidera Tatsu &#224; devenir grand chef.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

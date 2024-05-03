@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev015101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0001</td>
+        <td class="side">Clac, clac, clac... &#191;Oyes eso? Son pasos.[ST:n ]&#191;Ser&#225; la muerte que anda detr&#225;s de ti, acech&#225;ndote?[ST:n ]&#191;O tus propios pasos subiendo al pat&#237;bulo?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0002</td>
+        <td class="side">Sea como sea, cada paso te acerca m&#225;s al final.[ST:n ]&#161;Es el principio del fin! Buenos d&#237;as a todos.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0010</td>
+        <td class="side">Seguirle la corriente</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0011</td>
+        <td class="side">Preg&#250;ntale qui&#233;n es y qu&#233; quiere.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0020</td>
+        <td class="side">Pasar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0021</td>
+        <td class="side">Dile que pasas de &#233;l y que vas a colgar.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0003</td>
+        <td class="side">Soy la Langosta sanguinaria: un hombre que burl&#243;[ST:n ]a la muerte y consigui&#243; escapar del pozo m&#225;s[ST:n ]profundo del infierno. Y ahora me dedico a vigilarte.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0004</td>
+        <td class="side">&#161;Ah, ja, ja! La paciencia es una virtud, [ST:Gender p1=amigo m&#237;o p2=amiga m&#237;a ].[ST:n ]Te aseguro que por nada del mundo querr&#237;as[ST:n ]perderte la pista que tiene la Langosta sanguinaria...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0005</td>
+        <td class="side">Pero antes de eso, un jueguecito. &#191;Ves ese juguete[ST:n ]que tienes enfrente? C&#243;gelo y t&#237;ralo[ST:n ]lo m&#225;s lejos que puedas. R&#225;pido.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0006</td>
+        <td class="side">Porque si no lo haces... &#161;BUM! &#161;Aaaah, ja, ja, ja![ST:n ]&#191;No me crees? &#161;Escucha su corazoncito y ver&#225;s![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0007</td>
+        <td class="side">Clac, clac, clac... &#191;Oyes eso? Son pasos.[ST:n ]&#191;Ser&#225; la muerte que anda detr&#225;s de ti, acech&#225;ndote?[ST:n ]&#191;O tus propios pasos subiendo al pat&#237;bulo?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0030</td>
+        <td class="side">Lanzar</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0031</td>
+        <td class="side">Coge el juguete y l&#225;nzalo todo lo lejos que puedas.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0040</td>
+        <td class="side">Examinar</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0041</td>
+        <td class="side">Coge el juguete y escucha si hace alg&#250;n ruido extra&#241;o.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0008</td>
+        <td class="side">&#191;Escuchas lo que te susurra? Tic, toc, tic, toc.[ST:n ]Nos vamos a convertir en cenizas, todos nosotros.[ST:n ]Si quieres vivir, &#161;l&#225;nzala![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0009</td>
+        <td class="side">Soy la Langosta sanguinaria, el mensajero[ST:n ]de la muerte de NLA.[ST:n ]&#161;Me debes la vida![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0010</td>
+        <td class="side">Humanos, xenoformos... me da igual. Esta arca[ST:n ]podrida y todos lo que viven en ella acabar&#225;n[ST:n ]envueltos en fuego y sufrimiento. &#161;Nadie saldr&#225; vivo![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0011</td>
+        <td class="side">&#191;Escuchas esos latidos? He repartido cien de estos[ST:n ]adorables regalitos por toda la ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0012</td>
+        <td class="side">Solo lo sabemos t&#250; y yo.[ST:n ]Si se lo dices a alguien m&#225;s... &#161;BUM![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0013</td>
+        <td class="side">Oh, oh... Oigo los pasos de la muerte[ST:n ]cada vez m&#225;s cerca. &#161;Yo que t&#250;, empezar&#237;a[ST:n ]a correr si quieres vencerme![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0014</td>
+        <td class="side">Mientras que seas t&#250;, [ST:playername ],[ST:n ]&#161;la cuenta atr&#225;s no se detendr&#225;![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0015</td>
+        <td class="side">As&#237; que, &#161;corre! &#161;Corre y sufre! &#161;Baila al son de[ST:n ]tu inexorable fracaso! &#161;Aaaah, ja, ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0040</td>
+        <td class="side">&#161;Ah! Casi me olvido de un detalle importante...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0042</td>
+        <td class="side">He dejado algunos de mis peque&#241;os beb&#233;s en lugares[ST:n ]a los que solo se puede llegar con un Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0043</td>
+        <td class="side">Si a&#250;n no tienes uno, es hora de que te pongas[ST:n ]las pilas y le pidas uno a tu superior.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0044</td>
+        <td class="side">Y eso es todo por hoy. El siguiente mensaje que[ST:n ]recibir&#225;s de mi parte ser&#225;: &#161;BUM! &#161;Aaaah, ja, ja, ja![ST:n ]&#161;No hagas esperar a mis peque&#241;os! Tic, toc, tic, toc.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0016</td>
+        <td class="side">Pero &#191;qu&#233; es esto? &#191;No eres ya [ST:Gender p1=mayorcito p2=mayorcita ] para[ST:n ]ir detr&#225;s de juguetitos? &#191;A qui&#233;n se los piensas dar?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0050</td>
+        <td class="side">Insistir</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0051</td>
+        <td class="side">Dile que quieres saber la identidad[ST:n ]de la Langosta sanguinaria.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0060</td>
+        <td class="side">Amenazar</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0061</td>
+        <td class="side">Dile que le devolver&#225;s sus juguetes...[ST:n ]cobr&#225;ndole intereses.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0017</td>
+        <td class="side">Soy la Muerte, el destructor de planetas. Soy un artista.[ST:n ]Soy... &#161;la Langosta sanguinaria![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0018</td>
+        <td class="side">Y &#191;qui&#233;n eres t&#250;? &#191;Eh? &#161;Resp&#243;ndeme![ST:n ]&#191;Qui&#233;n eres t&#250; en realidad?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0019</td>
+        <td class="side">Oh, me est&#225; amenazando. &#161;Qu&#233; miedo![ST:n ]&#161;Se me ha puesto la carne de gallina! &#191;Por qu&#233; no[ST:n ]vienes a por m&#237;, entonces? &#161;Intenta atraparme![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0020</td>
+        <td class="side">Si me encuentras, podr&#225;s saber qui&#233;n soy.[ST:n ]Pero &#191;qui&#233;n eres t&#250;, realmente? &#191;Eh?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0021</td>
+        <td class="side">&#161;Aaah, ja, ja, ja! &#161;[ST:Gender p1=Ese p2=Esa ] cualquiera est&#225; yendo[ST:n ]por toda la ciudad jugando a ser [ST:Gender p1=un h&#233;roe p2=una hero&#237;na ]![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0022</td>
+        <td class="side">Hoy te he preparado una sorpresita,[ST:n ]mi preciosa marioneta.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0023</td>
+        <td class="side">&#161;Ooh! &#161;Dime qu&#233; es, papi! &#161;Dime qu&#233; es![ST:n ]Bueno, mi amor, es una fabuloooosa...[ST:n ]&#161;&#161;fiesta de la sangre!![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0024</td>
+        <td class="side">Este es el lugar en el que prueban[ST:n ]los Skells nuevos, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0025</td>
+        <td class="side">&#191;Eh? No, aqu&#237; es donde explican[ST:n ]la nueva distribuci&#243;n de las viviendas.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0026</td>
+        <td class="side">Eeeh... Yo he recibido un mensaje que dec&#237;a[ST:n ]que iban a proyectar una pel&#237;cula aqu&#237; al aire libre:[ST:n ]\&quot;Skell Wars II: El ataque de los Skellones\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0041</td>
+        <td class="side">&#191;Qu&#233; est&#225; pasando aqu&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0027</td>
+        <td class="side">&#161;Feliz cumplea&#241;os, [ST:playername ]![ST:n ]Me he adelantado y he soplado las velas por ti.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0028</td>
+        <td class="side">&#191;Te ha gustado? Es una recompensa de papi[ST:n ]por recoger tantos juguetes.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0029</td>
+        <td class="side">Si no te das prisa y recoges los cincuenta que faltan,[ST:n ]cientos de est&#250;pidos morir&#225;n.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0030</td>
+        <td class="side">Vamos, &#161;siente el p&#225;nico! &#161;Enf&#225;date! &#161;Grita, llora,[ST:n ]pierde los estribos! Todo esto ocurre porque t&#250;... &#161;eres[ST:n ]t&#250;! Y ahora, corre que te corre, &#161;empieeeeza a correr![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0031</td>
+        <td class="side">&#161;Mi [ST:Gender p1=amado y querido p2=amada y querida ] [ST:playername ]![ST:n ]&#161;Ya solo te queda por coger uno de mis beb&#233;s![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0032</td>
+        <td class="side">Eres una hormiga trabajadora, &#191;eh?[ST:n ]&#161;Me gustar&#237;a atraparte y ver qu&#233; maldades[ST:n ]puedo hacer contigo![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0033</td>
+        <td class="side">Pero eso tendr&#225; que esperar, hasta que encuentres[ST:n ]el &#250;ltimo juguete. Y lo he puesto en un sitio[ST:n ]muy, muy especial.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0070</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0071</td>
+        <td class="side">Preg&#250;ntale d&#243;nde est&#225; el &#250;ltimo juguete.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev015101_JNK0080</td>
+        <td class="side">Perder la paciencia</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev015101_SEL0081</td>
+        <td class="side">Preg&#250;ntale a la Langosta sanguinaria[ST:n ]d&#243;nde se esconde.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0034</td>
+        <td class="side">&#161;Oooh! Pero qu&#233; marioneta m&#225;s obediente.[ST:n ]Papi est&#225; tan, tan...[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0035</td>
+        <td class="side">&#161;Enfadado! Oh, &#161;voy a disfrutar tanto aniquil&#225;ndote[ST:n ]en persona! Ya me queda menos. &#161;Aaah, ja, ja![ST:n ]&#191;De verdad que todo esto no te excita?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0036</td>
+        <td class="side">Eso es hacer trampa, amorcito.[ST:n ]&#191;Qu&#233; hab&#237;amos dicho antes sobre ser m&#225;s pacientes?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0037</td>
+        <td class="side">Pero que no te quepa ninguna duda: voy a acabar[ST:n ]contigo en persona. &#161;Ya queda meeeenooos![ST:n ]&#161;Aaah, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0038</td>
+        <td class="side">Le prest&#233; el &#250;ltimo de mis juguetes[ST:n ]a uno de los ciudadanos de NLA m&#225;s in&#250;tiles...[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev015101_MSG0039</td>
+        <td class="side">Es perfecto para acabar con su est&#250;pido fetichismo[ST:n ]justiciero. &#191;Y bien? &#161;Ser&#225; mejor que averig&#252;es qui&#233;n es[ST:n ]antes de que estalle! Es el &#250;ltimo acto, &#161;arriba el tel&#243;n![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

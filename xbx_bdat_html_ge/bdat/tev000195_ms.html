@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000195_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0001</td>
+        <td class="side">Hallo, [ST:playername ].[ST:n ]Ich hoffe, ich st&#246;re nicht.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0002</td>
+        <td class="side">Mich &#252;berkam so ein leichtes Hungergef&#252;hl und die[ST:n ]Hoffnung, hier vielleicht zuf&#228;llig die Essenszeit abpassen[ST:n ]zu k&#246;nnen...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0003</td>
+        <td class="side">Vergeblich, wie es scheint. Bedauerlich.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0004</td>
+        <td class="side">Der Weg ins Gesch&#228;ftsviertel lohnt sich f&#252;r das bisschen[ST:n ]Appetit nicht. Vielleicht kann ich mich mit einer netten[ST:n ]Unterhaltung von meinem knurrenden Magen ablenken?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0005</td>
+        <td class="side">Du hast mittlerweile eine ganze Menge Eins&#228;tze hinter[ST:n ]dich gebracht. Gibt es denn Missionen, denen du dich[ST:n ]besonders gern widmest, [ST:playername ]?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0010</td>
+        <td class="side">Jagden</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0011</td>
+        <td class="side">Einheimische Kreaturen erlegen.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0020</td>
+        <td class="side">Pionierarbeit</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0021</td>
+        <td class="side">Datensonden an FrontierNav-[ST:n ]Knotenpunkten installieren.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0030</td>
+        <td class="side">Bergungsauftr&#228;ge</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0031</td>
+        <td class="side">In den Tr&#252;mmern des Wei&#223;en Wals[ST:n ]nach wertvoller Ausr&#252;stung suchen.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0040</td>
+        <td class="side">Waffentests</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0041</td>
+        <td class="side">Im Auftrag der R&#252;stungsfirmen[ST:n ]neue Waffen ausprobieren.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0050</td>
+        <td class="side">Erkundungsmissionen</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0051</td>
+        <td class="side">Neue Erkenntnisse &#252;ber den Planeten gewinnen.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0060</td>
+        <td class="side">Vermittlert&#228;tigkeiten</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0061</td>
+        <td class="side">Die Einwohner von NLA bei der[ST:n ]L&#246;sung ihrer Probleme unterst&#252;tzen.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0006</td>
+        <td class="side">Interessant. Das hatte ich fast vermutet.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0007</td>
+        <td class="side">Wenn ich ehrlich bin, w&#252;rde ich mir[ST:n ]auch gern die Freiheit nehmen, meine[ST:n ]Priorit&#228;ten so gezielt auszuw&#228;hlen.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0008</td>
+        <td class="side">Chausson und Vandham w&#252;rden sicher nicht guthei&#223;en,[ST:n ]was ich dir jetzt anvertraue – doch manchmal kann die[ST:n ]Arbeit als Verteidigungsminister recht frustrierend sein.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0009</td>
+        <td class="side">Lass mich dir ein Beispiel nennen. Erinnerst du dich an[ST:n ]den Tag, an dem dieses Bruchst&#252;ck des Lebensspeichers[ST:n ]im Norden Primordias entdeckt wurde?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0010</td>
+        <td class="side">...F&#252;r gew&#246;hnlich kostet es mehr als einen halben[ST:n ]Tag, ein Bergungsteam zusammenzustellen, auszur&#252;sten[ST:n ]und zum Einsatzort zu bef&#246;rdern.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0011</td>
+        <td class="side">Unser eingeschr&#228;nktes Reaktionsverm&#246;gen ist ein[ST:n ]generelles Problem und h&#228;ngt damit zusammen, dass[ST:n ]die meisten Teams ununterbrochen im Einsatz sind.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0012</td>
+        <td class="side">Wir m&#252;ssen h&#228;ufig auf BLADEs zur&#252;ckgreifen, die[ST:n ]gerade erst von einer Mission zur&#252;ckgekehrt sind.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0013</td>
+        <td class="side">Vor dem n&#228;chsten Einsatz muss besch&#228;digte Ausr&#252;stung[ST:n ]repariert oder ersetzt werden. Zeit f&#252;r Erholung bleibt[ST:n ]kaum, die Teams m&#252;ssen sofort durchstarten.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0014</td>
+        <td class="side">Und trotz all unserer Bem&#252;hungen waren bis zu diesem[ST:n ]Tag viele Bergungsmissionen gescheitert, weil wir den[ST:n ]Fundort zu sp&#228;t erreichten.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0015</td>
+        <td class="side">Dieses Fragment im Norden Primordias... Ich wollte es[ST:n ]um jeden Preis bergen. So schnell wie irgend m&#246;glich.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0016</td>
+        <td class="side">Ich lie&#223; mich zu &#252;berst&#252;rztem Handeln verleiten.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0017</td>
+        <td class="side">Ich stellte ein Team aus allen BLADEs zusammen, die[ST:n ]zur Verf&#252;gung standen, und zog los. Ohne Zeit zu[ST:n ]verlieren – ohne jegliche Vorbereitung.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0018</td>
+        <td class="side">Mein &#252;berst&#252;rztes Kommando verurteilte die Mission[ST:n ]von vorneherein zum Scheitern. Und jene, die mir[ST:n ]vertrauten, zum Tod.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0019</td>
+        <td class="side">Als dein Team zu unserer Rettung kam, wurde mir[ST:n ]eines klar.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0020</td>
+        <td class="side">Kleine Teams speziell ausgebildeter[ST:n ]BLADEs k&#246;nnen wesentlich effizienter[ST:n ]agieren als gro&#223;e, unflexible Trupps.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0021</td>
+        <td class="side">Auch deswegen wird Elmas Team so h&#228;ufig angefordert.[ST:n ]Und daher wende ich mich zuerst an euch, wenn es[ST:n ]mich danach verlangt, an einer Mission teilzunehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0022</td>
+        <td class="side">Ein recht unvern&#252;nftiges Verhalten meinerseits,[ST:n ]nicht wahr? Du kannst ruhig ehrlich sein.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0023</td>
+        <td class="side">Aber du musst zugeben, dass auf euch Verlass ist.[ST:n ]Ihr spreche euch mein vollstes Vertrauen aus.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0024</td>
+        <td class="side">Euer Team ist f&#252;r BLADE unverzichtbar.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0025</td>
+        <td class="side">Doch nun entschuldige mich, ich muss zur&#252;ck in den[ST:n ]BLADE-Turm! Ich meine mich zu entsinnen, Mochi auf[ST:n ]dem Tisch des Generaldirektors ersp&#228;ht zu haben...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

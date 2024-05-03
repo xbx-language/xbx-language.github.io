@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001792_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0001</td>
+        <td class="side">Buenas tardes, [ST:playername ].[ST:n ]&#161;Qu&#233; sorpresa verte por aqu&#237;![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0002</td>
+        <td class="side">Estoy esperando a alguien.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001792_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001792_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Hope a qui&#233;n est&#225; esperando.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001792_JNK0020</td>
+        <td class="side">Disculparse</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001792_SEL0021</td>
+        <td class="side">Disc&#250;lpate por llegar tarde.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0003</td>
+        <td class="side">&#161;Qu&#233; cotilla eres![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0004</td>
+        <td class="side">Estaba esperando a Ada.[ST:n ]Es que nos vamos de compras.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0005</td>
+        <td class="side">Dice que en mi d&#237;a libre siempre estoy ayudando[ST:n ]a los dem&#225;s en vez de dedicarme tiempo a m&#237; misma.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0006</td>
+        <td class="side">Esto... &#191;Hab&#237;amos quedado hoy?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0007</td>
+        <td class="side">Vaya... No lo ten&#237;a apuntado en la agenda.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0008</td>
+        <td class="side">Se me pas&#243; por completo. &#161;Lo siento much&#237;simo![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0009</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0010</td>
+        <td class="side">Te est&#225;s quedando conmigo, &#191;verdad?[ST:n ]&#161;No seas [ST:Gender p1=malo p2=mala ]![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0011</td>
+        <td class="side">Bueno, el caso es que hab&#237;a quedado con Ada...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0012</td>
+        <td class="side">Vamos a comprarnos algo de ropa y a lo mejor[ST:n ]tambi&#233;n un poco de abono para mis plantas.[ST:n ]Luego me ha dicho que me invita a cenar.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001792_JNK0110</td>
+        <td class="side">Animar</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001792_SEL0111</td>
+        <td class="side">Dile a Hope que lo pase genial.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001792_JNK0120</td>
+        <td class="side">Desanimar</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001792_SEL0121</td>
+        <td class="side">Preg&#250;ntale a Hope si de verdad cree que le[ST:n ]va a dar tiempo a hacer todo eso en un solo d&#237;a.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001792_JNK0130</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001792_SEL0131</td>
+        <td class="side">Preg&#250;ntale a Hope qu&#233; va a cenar.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0013</td>
+        <td class="side">Gracias. Espero que no haya ning&#250;n contratiempo[ST:n ]y pasemos una tarde estupenda.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0014</td>
+        <td class="side">Ada me ha prometido que cenaremos en el sitio[ST:n ]donde preparan el mejor bistec de toda NLA, as&#237; que[ST:n ]ser&#237;a de muy mala educaci&#243;n no disfrutarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0015</td>
+        <td class="side">&#161;Me esforzar&#233; en relajarme[ST:n ]y soltarme todo lo que pueda![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0016</td>
+        <td class="side">No s&#233; si va a salir todo tal y como planeamos,[ST:n ]pero tampoco hace falta ponerse as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0017</td>
+        <td class="side">Si te soy sincera, mucho me temo que acabar&#233;[ST:n ]encontr&#225;ndome con alguien que necesite ayuda[ST:n ]y me sentir&#233; obligada a echarle una mano.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0018</td>
+        <td class="side">No me importa hacerlo, pero a la pobre Ada[ST:n ]le molestar&#237;a una barbaridad. Acabar&#237;a siendo[ST:n ]una situaci&#243;n bastante inc&#243;moda...[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0019</td>
+        <td class="side">Parece ser que vamos a cenar un buen bistec.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0020</td>
+        <td class="side">A Ada le ha llegado una recompensa[ST:n ]que no esperaba por una misi&#243;n que hizo[ST:n ]y dice que le apetece darse un caprichito.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0021</td>
+        <td class="side">Me sabe fatal que se lo gaste en m&#237;,[ST:n ]pero bueno, har&#233; de tripas coraz&#243;n[ST:n ]e intentar&#233; pas&#225;rmelo lo mejor posible.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0022</td>
+        <td class="side">Despu&#233;s de todo, nadie sabe mejor que yo[ST:n ]que solo ayudando a los dem&#225;s a ser felices[ST:n ]se puede conseguir la verdadera felicidad.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0023</td>
+        <td class="side">Y a ella no se la puedo negar, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev001792_MSG0024</td>
+        <td class="side">Mira, por ah&#237; viene Ada. Mejor me voy.[ST:n ]&#161;Espero volver a trabajar pronto contigo![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

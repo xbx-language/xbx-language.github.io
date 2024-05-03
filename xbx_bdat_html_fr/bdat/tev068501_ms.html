@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev068501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0011</td>
+        <td class="side">Demander &#224; Da Girhi de vous parler[ST:n ]des enfants wrothians.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0021</td>
+        <td class="side">Demander &#224; Da Girhi si quelque chose la perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0010</td>
+        <td class="side">tev068501_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0031</td>
+        <td class="side">Poser des question &#224; Da Girhi &#224; propos des mat&#233;riaux.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0020</td>
+        <td class="side">tev068501_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0041</td>
+        <td class="side">Demander &#224; Da Girhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0010</td>
+        <td class="side">tev068501_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0051</td>
+        <td class="side">Interroger Da Girhi &#224; propos d&#39;Oblivia.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0020</td>
+        <td class="side">tev068501_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0061</td>
+        <td class="side">Demander &#224; Da Girhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0010</td>
+        <td class="side">tev068501_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0051</td>
+        <td class="side">tev068501_SEL0051</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0020</td>
+        <td class="side">tev068501_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0071</td>
+        <td class="side">Demander &#224; Da Girhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0010</td>
+        <td class="side">tev068501_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0051</td>
+        <td class="side">tev068501_SEL0051</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev068501_JNK0020</td>
+        <td class="side">tev068501_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev068501_SEL0081</td>
+        <td class="side">Demander &#224; Da Girhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0001</td>
+        <td class="side">Quand nous &#233;tions au service du Ganglion, nos enfants[ST:n ]n&#39;avaient jamais le ventre vide.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0002</td>
+        <td class="side">Mais depuis que nous sommes sur Mira, ils ont[ST:n ]des maux de ventre qui s&#39;aggravent de jour en jour.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0003</td>
+        <td class="side">J&#39;en viens &#224; penser qu&#39;il devait y avoir une sorte[ST:n ]de toxine dans les rations que le Ganglion[ST:n ]nous donnait.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0004</td>
+        <td class="side">Ils essayaient de nous r&#233;duire en esclavage en nous[ST:n ]rendant incapables de survivre sans leurs m&#233;dicaments.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0009</td>
+        <td class="side">Nous n&#39;avons pas de munitions, tr&#232;s peu de nourriture,[ST:n ]et nos Skells sont saccag&#233;s et fragiles.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0010</td>
+        <td class="side">Mais notre courage de Wrothian n&#39;a pas faibli,[ST:n ]et nous continuons &#224; nous battre tels des camarades[ST:n ]qui ont surv&#233;cu &#224; d&#39;innombrables batailles ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0011</td>
+        <td class="side">Tant que nous avons cela, nous ne craignons pas[ST:n ]le Ganglion, peu importe le nombre de poursuivants[ST:n ]qu&#39;il envoie &#224; nos trousses.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0016</td>
+        <td class="side">Vous nous avez fourni beaucoup de provisions.[ST:n ]Permettez-moi de r&#233;compenser votre g&#233;n&#233;rosit&#233;[ST:n ]avec quelques renseignements fructueux.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0017</td>
+        <td class="side">Les nageoires &#224; propulsion font partie des mat&#233;riaux[ST:n ]les plus pr&#233;cieux, m&#234;me le Ganglion les a cherch&#233;es[ST:n ]avec beaucoup de ferveur.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0018</td>
+        <td class="side">Ces objets peuvent parfois se trouver en triomphant[ST:n ]des aetrygons qui vivent aux chutes du Roi.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0019</td>
+        <td class="side">Vos artisans humains pourraient les utiliser pour[ST:n ]fabriquer des engins spectaculaires. Quand vous aurez[ST:n ]du temps, vous devriez aller en collecter quelques-uns.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0021</td>
+        <td class="side">Nous allons bient&#244;t recevoir de la part des humains[ST:n ]des cargaisons de munitions et de nourriture.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0022</td>
+        <td class="side">Quand elles seront l&#224;, mon fr&#232;re et moi allons enfin[ST:n ]pouvoir nous occuper de la b&#234;te.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0023</td>
+        <td class="side">Les m&#233;dicaments que vous nous avez donn&#233;s ont d&#233;j&#224;[ST:n ]r&#233;tabli la vitalit&#233; de nos enfants. Nous vous sommes[ST:n ]redevables.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0028</td>
+        <td class="side">Au nord, au lac Basel, il y a un c&#233;to qui appara&#238;t[ST:n ]seulement la nuit.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0029</td>
+        <td class="side">On raconte qu&#39;il fait le tour du lac en se r&#233;galant[ST:n ]de tout ce qui attire son attention.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0030</td>
+        <td class="side">Si vous r&#233;ussissez &#224; le vaincre, peut-&#234;tre que[ST:n ]vous pourrez r&#233;cup&#233;rer un tr&#233;sor ![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0031</td>
+        <td class="side">Mais ne vous m&#233;prenez pas, c&#39;est une b&#234;te dangereuse.[ST:n ]Trop dangereuse m&#234;me pour nous.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0032</td>
+        <td class="side">Mais vous, vous avez peut-&#234;tre une chance.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0033</td>
+        <td class="side">Dans la bataille avec la projex reine, ni la lame[ST:n ]de Nagri ni l&#39;attaque de Zeulbe ne se sont montr&#233;es[ST:n ]efficaces.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0034</td>
+        <td class="side">Vous nous avez indiqu&#233; son point faible.[ST:n ]Cela a &#233;t&#233; d&#233;cisif.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0035</td>
+        <td class="side">C&#39;est une le&#231;on que Vi Sezha essaie de nous enseigner[ST:n ]depuis des ann&#233;es. &#192; partir de ce jour, je cesserai[ST:n ]de foncer au combat t&#234;te baiss&#233;e...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0036</td>
+        <td class="side">Au lieu de cela, je vais faire en sorte de d&#233;terminer[ST:n ]les points faibles de mes ennemis et ainsi attaquer[ST:n ]de fa&#231;on plus efficace.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0041</td>
+        <td class="side">Une guerri&#232;re du nom de Ge Jewhe a eu l&#39;audace[ST:n ]de se rendre seule dans Cauldros pour affronter[ST:n ]ses dangers.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0042</td>
+        <td class="side">Je n&#39;aurais jamais pens&#233; qu&#39;elle puisse revenir[ST:n ]saine et sauve, et pourtant si ![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0043</td>
+        <td class="side">Vi Sezha a attendu son retour avec autant de patience[ST:n ]qu&#39;une &#233;pouse. Je ne l&#39;avais jamais vue si heureuse.[ST:n ]Quel soulagement cela fut.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0048</td>
+        <td class="side">Je n&#39;arrive toujours pas &#224; croire que Ge Jewhe soit[ST:n ]tomb&#233;e au combat.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0049</td>
+        <td class="side">En tant que camarade guerri&#232;re wrothianne, je me dois[ST:n ]de comm&#233;morer sa mort honorable.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0050</td>
+        <td class="side">Mais quand je vois le chagrin dans les yeux[ST:n ]de Vi Sezha...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev068501_MSG0051</td>
+        <td class="side">Je sais que je ne pourrai jamais remplacer Jewhe.[ST:n ]Mais en tant qu&#39;amie, j&#39;aimerais soutenir Sezha[ST:n ]dans ces moments difficiles.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

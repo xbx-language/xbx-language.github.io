@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>BTL_SoulVoice09</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">soul09_P0000</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Zuschlagen![ST:n ]Keine Gnade zeigen!</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Vorw&#228;rts Marsch![ST:n ]In den Nahkampf!</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Vorr&#252;cken! Packen wir den[ST:n ]Stier bei den H&#246;rnern!</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Distanzangriff! Alles h&#246;rt[ST:n ]auf mein Kommando!</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Denkt an die St&#228;rkungen!</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Schw&#228;cht den Gegner![ST:n ]Reibt ihn auf!</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Kampfbereitschaft![ST:n ]An die Front!</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Los geht’s. Feuer frei,[ST:n ]gebt mir R&#252;ckendeckung!</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Neue Taktik: Auren hoch!</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Heiler zu mir!</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Kann mir mal jemand helfen?</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Das war noch l&#228;ngst nicht[ST:n ]alles... St&#228;rkt mich!</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Ich halt das nicht mehr[ST:n ]lange durch. Heiler!</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Ich muss weiterk&#228;mpfen![ST:n ]Flickt mich zusammen!</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Ich bring’s nicht mehr.[ST:n ]St&#228;rkt euch selbst und k&#228;mpft!</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">Jetzt kommt’s auf euch an...[ST:n ]K&#228;mpft! K&#228;mpft gnadenlos!</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">Lasst mich zur&#252;ck! Aber jagt[ST:n ]den Gegner in die Luft!</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">Zeigt mir noch eine Aura...[ST:n ]Nur noch eine letzte...</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">Jetzt! Nachlegen! Mit einem[ST:n ]ordentlichen Tr&#252;mmerschlag!</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">Plan aufgegangen. Jagt ein[ST:n ]paar Sch&#252;sse hinterher!</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">Friss das![ST:n ]Jetzt schw&#228;cht den Gegner!</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">Gliedma&#223;e zerst&#246;rt.[ST:n ]Jetzt ihr! Nahkampfangriffe!</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">Nutzt diese Chance! Werft[ST:n ]den Gegner um! Feuer frei!</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">Der hat gesessen![ST:n ]Jetzt schw&#228;chen!</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">Auf, Leute! Verpasst dem[ST:n ]Brocken eine fette Abreibung!</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">Eine St&#228;rkung, los! Dann[ST:n ]kriegen wir das Riesenbiest!</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">Lasst euch nicht einsch&#252;chtern![ST:n ]Wir &#252;bertakten!</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">Ja! Und jetzt ran![ST:n ]&#220;berw&#228;ltigen wir den Gegner!</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">Anlegen! Zielen![ST:n ]Das wird ein sauberer Treffer!</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td class="side">Recht so! Jetzt schw&#228;chen!</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td class="side">Konzentriert euch, Leute![ST:n ]Auren hoch!</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td class="side">Ballert nicht blind rum![ST:n ]Benutzt eine Aura!</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td class="side">Nicht den Mut verlieren![ST:n ]Voller Einsatz!</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td class="side">Bringen wir’s zu Ende.[ST:n ]Auf wen kann ich z&#228;hlen?</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td class="side">Nicht mal eine Armee kann[ST:n ]mich aufhalten! &#220;bertakten!</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td class="side">Jetzt oder nie![ST:n ]Fahrt eure Auren hoch!</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td class="side">Keine M&#252;digkeit vorsch&#252;tzen![ST:n ]Kauft euch den n&#228;chsten!</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td class="side">Nicht nachlassen! Feuer frei!</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td class="side">Das war’s noch nicht![ST:n ]St&#228;rkt euch und seid bereit!</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td class="side">Um mich zu treffen, musst du[ST:n ]fr&#252;her aufstehen! Auren hoch!</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td class="side">Ich bin so gut wie unsichtbar![ST:n ]St&#228;rkt euch! Gegner verwirren!</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td class="side">Ich bin schnell wie der Blitz![ST:n ]Lasst den Gegner Blei fressen!</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td class="side">Offen wie ein Scheunentor![ST:n ]Geht in den Nahkampf!</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td class="side">Jaaa! Schie&#223;t![ST:n ]Schie&#223;, schie&#223;t, schie&#223;t!</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td class="side">Das hat gutgetan![ST:n ]Nach vorn mit euch!</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td class="side">Wetterumschwung. St&#228;rkt[ST:n ]euch und bleibt wachsam!</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td class="side">Macht eure Auren bereit![ST:n ]Untersch&#228;tzt das Wetter nicht!</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td class="side">Schw&#228;cht den Gegner! Soll[ST:n ]das Wetter den Rest erledigen!</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td class="side">DAS war ein Sprint![ST:n ]Jetzt eine St&#228;rkung!</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td class="side">Ha, so kriegt mich niemand![ST:n ]Her mit einer St&#228;rkung!</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td class="side">Strategiewechsel: Macht euch[ST:n ]bereit zum &#220;bertakten!</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td class="side">Danke. Jetzt st&#252;rz dich wieder[ST:n ]in den Kampf und zeig’s allen!</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td class="side">Perfektes Timing. Zeig mal,[ST:n ]was du im Kampf draufhast!</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td class="side">Danke. Und jetzt setz[ST:n ]eine Aura ein!</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td class="side">Danke dir, mein Fels in der[ST:n ]Brandung. Mehr St&#228;rkungen!</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td class="side">Vielen Dank. Auf geht’s,[ST:n ]mehr St&#228;rkungen, Leute!</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td class="side">Pass auf dich auf![ST:n ]Was ist mit deiner Aura?</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td class="side">Da hilft nur noch eins: mit[ST:n ]dem Kopf durch die Wand!</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td class="side">R&#252;ckzug ist keine Option![ST:n ]Konzentriert eure Angriffe!</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td class="side">St&#228;rkt mich![ST:n ]Ich box uns hier raus!</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td class="side">Feuer! Wir landen einen[ST:n ]&#220;berraschungsangriff!</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td class="side">Erh&#246;hte Gefechtsstellung[ST:n ]eingenommen. Deckungsfeuer!</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td class="side">Feuert aus allen Rohren! Ich[ST:n ]halte den Gegner am Boden!</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td class="side">Das ist die Gelegenheit![ST:n ]Auf zum Angriff!</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td class="side">Erwischt! Zeit, jemanden[ST:n ]zu Klump zu schie&#223;en!</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td class="side">Jetzt k&#246;nnen wir den[ST:n ]Gegner schw&#228;chen!</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td class="side">Das wird den Gegner stoppen![ST:n ]Auf ihn! Greift an!</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td class="side">Kalt erwischt![ST:n ]Zielen und Feuer!</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td class="side">Der r&#252;hrt sich so schnell nicht![ST:n ]Schw&#228;cht den Gegner!</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td class="side">Ein Nickerchen auf dem[ST:n ]Schlachtfeld? Das gibt Haue!</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td class="side">Was ein Faulpelz! Wecken wir[ST:n ]ihn mit ein paar Projektilen.</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td class="side">Kleine Guten-Morgen-Pr&#252;gel[ST:n ]gef&#228;llig?</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td class="side">Hab ihn! Schlagt zu, solange[ST:n ]der Gegner wehrlos ist!</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td class="side">Ich halte den Gegner![ST:n ]Fetzt ihn in St&#252;cke!</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td class="side">Gegner fixiert! Greift an,[ST:n ]damit’s auch so bleibt!</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td class="side">Schaden erlitten.[ST:n ]Schnell, helft mir!</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td class="side">Besch&#228;digt? Nicht der Rede[ST:n ]wert. Auf zum Gegenangriff!</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td class="side">Ich bin getroffen! Deckt den[ST:n ]Gegner mit Sperrfeuer ein!</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td class="side">Verdammt! Sofort heilen[ST:n ]und zur&#252;ckschlagen!</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td class="side">Verflucht! Aber mit einer[ST:n ]St&#228;rkung rei&#223;en wir’s rum!</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td class="side">K&#252;mmert euch nicht um mich![ST:n ]&#220;bertaktet endlich, los!</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td class="side">Treibstoff wird knapp. Eine[ST:n ]St&#228;rkung w&#252;rde mir helfen!</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td class="side">Fast kein Treibstoff mehr.[ST:n ]Brauche Unterst&#252;tzung!</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td class="side">Kann mir jemand helfen? Mein[ST:n ]Skell l&#228;uft auf Sparflamme.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

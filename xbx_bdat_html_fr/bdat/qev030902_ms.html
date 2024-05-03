@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev030902_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0001</td>
+        <td class="side">Tous ceux qui vivent finissent par mourir. Nous ne[ST:n ]connaissons pas le deuil. Nous retournons mon p&#232;re[ST:n ]&#224; la nature.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0002</td>
+        <td class="side">Ah, [ST:playername ]. Mon p&#232;re n&#39;est plus.[ST:n ]Belgazus l&#39;Ancien est mort.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0010</td>
+        <td class="side">R&#233;conforter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0011</td>
+        <td class="side">Pr&#233;senter vos condol&#233;ances &#224; Galba.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0020</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0021</td>
+        <td class="side">Demander &#224; Galba des d&#233;tails &#224; propos[ST:n ]de la requ&#234;te de Bazis.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0003</td>
+        <td class="side">Tout va bien. Mon p&#232;re est en paix.[ST:n ]Ceci n&#39;est pas triste.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0004</td>
+        <td class="side">Comment ? Bazis t&#39;a demand&#233; de l&#39;aide ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0005</td>
+        <td class="side">Oui. Il doit s&#39;occuper d&#39;Hexuna pour l&#39;instant.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0006</td>
+        <td class="side">Alors va en Oblivia. Pr&#232;s des arbres Ancestraux.[ST:n ]Et &#233;limine toutes les adseculas des dunes qui[ST:n ]s&#39;y trouvent. Peux-tu faire &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0007</td>
+        <td class="side">Mon p&#232;re &#233;tait le cœur du clan. Et son poing.[ST:n ]Il m&#233;rite d&#39;&#234;tre la proie d&#39;une b&#234;te puissante.[ST:n ]Trouvons-en une apr&#232;s avoir &#233;limin&#233; cette vermine.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0030</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0031</td>
+        <td class="side">Donner une tape sur l&#39;&#233;paule de Galba et lui dire que[ST:n ]vous vous en chargerez.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0040</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0041</td>
+        <td class="side">Interroger Galba sur la coutume prone de livrer[ST:n ]leurs morts en p&#226;ture aux b&#234;tes.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0008</td>
+        <td class="side">Tu es [ST:Gender p1=un bon ami p2=une bonne amie ]. Tu m&#39;as battu. Tu n&#39;auras pas[ST:n ]de probl&#232;mes contre des adseculas des dunes.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0009</td>
+        <td class="side">Les Prones vivent avec les b&#234;tes. Du berceau &#224;[ST:n ]la tombe.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0010</td>
+        <td class="side">Une fois que tu auras tu&#233; toutes les adseculas[ST:n ]des dunes. Les fun&#233;railles commenceront.[ST:n ]Tu comprendras en y assistant.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0011</td>
+        <td class="side">Je te laisse t&#39;en occuper. Nettoie la zone en &#233;liminant[ST:n ]au moins trois adseculas des dunes. Puis j&#39;am&#232;nerai[ST:n ]le corps de mon p&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0012</td>
+        <td class="side">Nous dirons adieu &#224; Belgazus l&#39;Ancien en Oblivia.[ST:n ]Aux arbres Ancestraux.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0013</td>
+        <td class="side">Aucune adsecula des dunes ne touchera &#224; mon p&#232;re.[ST:n ]Ne laisse aucune de ces vermines en vie.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

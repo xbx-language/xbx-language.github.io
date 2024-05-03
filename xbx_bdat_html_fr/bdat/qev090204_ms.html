@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev090204_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0001</td>
+        <td class="side">Alors, voyons voir ce qu&#39;on a l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0002</td>
+        <td class="side">Qu&#39;est-ce que... ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0003</td>
+        <td class="side">Bouge pas. C&#39;est...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0004</td>
+        <td class="side">C&#39;est son bras. Oblig&#233; ! Je le savais ![ST:n ]Je savais que je trouverais quelque chose ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0005</td>
+        <td class="side">Tu sais ce que &#231;a veut dire ? Il est l&#224; ! Il est l&#224;,[ST:n ]quelque part sur Mira ![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0006</td>
+        <td class="side">Je le savais ![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0006_2</td>
+        <td class="side">Il est l&#224;-dehors, quelque part ! Il est vivant !![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0010</td>
+        <td class="side">Fixer</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0011</td>
+        <td class="side">Dire &#224; Yelv que vous ne comprenez rien[ST:n ]&#224; ce qu&#39;il raconte.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0020</td>
+        <td class="side">Calmer</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0021</td>
+        <td class="side">Demander &#224; Yelv de se calmer.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0007</td>
+        <td class="side">Ah, oui. Je t&#39;ai pas encore racont&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0008</td>
+        <td class="side">Comment je suis cens&#233; me calmer apr&#232;s &#231;a,[ST:n ]hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0009</td>
+        <td class="side">C&#39;est son bras, tu vois ? C&#39;est la preuve qu&#39;il est[ST:n ]quelque part, l&#224;-dehors ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0010</td>
+        <td class="side">Oh... Attends une seconde. Je t&#39;ai encore[ST:n ]rien racont&#233;, pas vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0011</td>
+        <td class="side">Eh bien...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0012</td>
+        <td class="side">J&#39;peux te faire confiance, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0013</td>
+        <td class="side">C&#39;est &#224; propos de mon meilleur ami, alors[ST:n ]faut que &#231;a reste entre nous, compris ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0030</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0031</td>
+        <td class="side">Promettre &#224; Yelv que vous ne direz rien &#224; personne.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0040</td>
+        <td class="side">Proposer</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0041</td>
+        <td class="side">Dire &#224; Yelv que &#231;a peut attendre, s&#39;il pr&#233;f&#232;re.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0014</td>
+        <td class="side">J&#39;aurais peut-&#234;tre d&#251; te dire tout &#231;a plus t&#244;t.[ST:n ]On est partenaires, apr&#232;s tout.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0015</td>
+        <td class="side">Non, je veux t&#39;en parler. En plus, maintenant,[ST:n ]&#231;a te concerne aussi.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0016</td>
+        <td class="side">Mon pote et moi, on a &#233;tudi&#233; ensemble, on s&#39;est[ST:n ]engag&#233;s ensemble. On est m&#234;me n&#233;s dans le m&#234;me h&#244;pital ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0017</td>
+        <td class="side">On &#233;tait partenaires depuis le premier jour.[ST:n ]Jusqu&#39;&#224; notre arriv&#233;e sur Mira...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0018</td>
+        <td class="side">Le jour o&#249; la Grande Blanche est tomb&#233;e, il...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0019</td>
+        <td class="side">Il &#233;tait revenu &#233;vacuer l&#39;autre &#233;quipage, quand[ST:n ]tout &#224; coup, il y a eu... cette explosion.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0020</td>
+        <td class="side">&#199;a lui ressemblait bien. Toujours &#224; aider[ST:n ]n&#39;importe quelle andouille.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0021</td>
+        <td class="side">C&#39;est pour &#231;a qu&#39;il restait avec un cr&#233;tin[ST:n ]comme moi.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0022</td>
+        <td class="side">J&#39;&#233;tais s&#251;r qu&#39;il &#233;tait toujours l&#224;, quelque part.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0023</td>
+        <td class="side">Je me suis mis &#224; explorer tous les d&#233;bris de la[ST:n ]Grande Blanche, en esp&#233;rant trouver une piste...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0024</td>
+        <td class="side">Et la voil&#224;. Son bras gauche.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0025</td>
+        <td class="side">D&#233;lire, hein ? Il a m&#234;me fait rajouter sa cicatrice[ST:n ]en forme de croix sur son mim&#233;osome.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0050</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0051</td>
+        <td class="side">Demander &#224; Yelv de vous d&#233;crire son ami.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0060</td>
+        <td class="side">Pr&#233;venir</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0061</td>
+        <td class="side">Dire &#224; Yelv que son ami est probablement mort.</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0026</td>
+        <td class="side">J&#39;me suis jamais vraiment int&#233;gr&#233; nulle part,[ST:n ]alors c&#39;est lui qui veillait toujours sur moi.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0027</td>
+        <td class="side">Au lyc&#233;e, il &#233;tait le gamin parfait, mais[ST:n ]il ne m&#39;a jamais laiss&#233; tomber.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0028</td>
+        <td class="side">Sur le terrain, on prot&#233;geait toujours[ST:n ]les arri&#232;res de l&#39;autre.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0029</td>
+        <td class="side">C&#39;&#233;tait le plus malin de tous, sauf quand il fallait[ST:n ]risquer sa peau pour quelqu&#39;un d&#39;autre.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0030</td>
+        <td class="side">C&#39;&#233;tait le partenaire id&#233;al...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0031</td>
+        <td class="side">H&#233;, ta capsule a &#233;t&#233; trouv&#233;e il y a peu[ST:n ]et pourtant tu respires encore ![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0032</td>
+        <td class="side">Il est vivant. Je le sens au plus profond de moi...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0033</td>
+        <td class="side">Le connaissant, il est parti aider quelqu&#39;un.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0034</td>
+        <td class="side">Il est s&#251;rement en train de rendre service &#224; un[ST:n ]tas de x&#233;nos bizarres. Et avec un seul bras ![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0035</td>
+        <td class="side">Peut-&#234;tre qu&#39;il en a un nouveau...[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0036</td>
+        <td class="side">Je me fiche de ce que les gens disent.[ST:n ]Je le retrouverai.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0037</td>
+        <td class="side">J&#39;ai rejoint les Reclaimers pour &#234;tre le premier[ST:n ]sur les sites de d&#233;bris. Je ferai tout ce qu&#39;il faut.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0038</td>
+        <td class="side">Alooors...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0039</td>
+        <td class="side">Ouais. Je me suis un peu emball&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0040</td>
+        <td class="side">Je peux pas m&#39;emp&#234;cher de penser &#224; lui[ST:n ]quand je te vois.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0041</td>
+        <td class="side">Ni de parler.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0070</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0071</td>
+        <td class="side">Lui demander ce que vous avez &#224; voir l&#224;-dedans.</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev090204_JNK0080</td>
+        <td class="side">&#201;mettre une hypoth&#232;se</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev090204_SEL0081</td>
+        <td class="side">Lui demander s&#39;il y a une certaine ressemblance[ST:n ]physique entre vous et son ami.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0042</td>
+        <td class="side">Je sais pas. C&#39;est la m&#234;me... impression.[ST:n ]Tu as la m&#234;me pr&#233;sence que lui.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0043</td>
+        <td class="side">Non, je vois aucune ressemblance[ST:n ]quand je te regarde...[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0044</td>
+        <td class="side">Mais apr&#232;s, j&#39;oublie, et c&#39;est comme s&#39;il &#233;tait l&#224;,[ST:n ]avec moi.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0045</td>
+        <td class="side">Nan, c&#39;est pas &#231;a. Vous vous ressemblez[ST:n ]pas du tout physiquement.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0046</td>
+        <td class="side">En fait, je vois aucune ressemblance quand[ST:n ]je te regarde.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0047</td>
+        <td class="side">Mais apr&#232;s, j&#39;oublie, et c&#39;est comme s&#39;il &#233;tait l&#224;,[ST:n ]avec moi.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0048</td>
+        <td class="side">Je sais qu&#39;il est vivant et ici, sur Mira.[ST:n ]J&#39;en mettrais ma main au feu.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0049</td>
+        <td class="side">Faisons la prochaine mission[ST:n ]de ce genre ensemble ![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev090204_MSG0050</td>
+        <td class="side">Quand on le trouvera, on le cognera &#224; tour de[ST:n ]r&#244;le. &#199;a lui apprendra &#224; dispara&#238;tre comme &#231;a ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

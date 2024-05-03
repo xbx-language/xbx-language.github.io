@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev073001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev073001_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev073001_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac sobre[ST:n ]el director general Chausson.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev073001_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev073001_SEL0021</td>
+        <td class="side">tev073001_SEL0021</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0001</td>
+        <td class="side">En t&#233;rminos de aptitud para el pensamiento l&#243;gico[ST:n ]y racional, podr&#237;a ser considerado como un orphean[ST:n ]en el cuerpo de un ser humano.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0002</td>
+        <td class="side">Los humanos a veces muestran cierta tendencia a que[ST:n ]sus emociones compliquen la comunicaci&#243;n,[ST:n ]pero con Chausson este problema no existe.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0003</td>
+        <td class="side">Parece ser &#233;l quien est&#225; impulsando que los humanos[ST:n ]acepten a las dem&#225;s especies de xenoformos.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0004</td>
+        <td class="side">Me gustar&#237;a tener la posibilidad de charlar con &#233;l[ST:n ]en profundidad sobre su visi&#243;n acerca de esta ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0009</td>
+        <td class="side">tev073001_MSG0009</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0010</td>
+        <td class="side">tev073001_MSG0010</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0011</td>
+        <td class="side">tev073001_MSG0011</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0012</td>
+        <td class="side">tev073001_MSG0012</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0013</td>
+        <td class="side">tev073001_MSG0013</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev073001_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac si le preocupa algo.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev073001_SEL1031</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac sobre Ryyz,[ST:n ]la que lider&#243; el ataque en NLA.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev073001_SEL1051</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac sobre Ryyz y Dagahn.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev073001_SEL1071</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac sobre la batalla[ST:n ]por el n&#250;cleo del Arca de la vida.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev073001_SEL1091</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac sobre el comandante Vandham.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0005</td>
+        <td class="side">El agua senirapa que usamos con Sun&#39;celeg[ST:n ]era toda la que nos quedaba.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0006</td>
+        <td class="side">Ahora mismo, Kon&#39;luarb est&#225; investigando[ST:n ]posibles maneras de producir m&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0007</td>
+        <td class="side">Pero si no encontramos una muestra pura para que[ST:n ]la pueda replicar, sus esfuerzos habr&#225;n sido en vano.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev073001_MSG0008</td>
+        <td class="side">Debemos encontrar m&#225;s agua senirapa pronto,[ST:n ]as&#237; podremos compartir la luz de nuestros Ovah[ST:n ]con las futuras generaciones.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1001</td>
+        <td class="side">Todos aquellos que se han enfrentado a su c&#243;lera,[ST:n ]incluso los ganglion, han sufrido una muerte brutal.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1002</td>
+        <td class="side">Los prones aconsejaban a los dem&#225;s que no[ST:n ]le llevasen la contraria si no quer&#237;an perder la vida.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1003</td>
+        <td class="side">Puede que esta vez hayan tenido suerte al repeler[ST:n ]su ataque, pero, seg&#250;n mis c&#225;lculos, hay un 96,7 % de[ST:n ]probabilidades de que vuelva para acabar con ustedes.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1004</td>
+        <td class="side">Por favor, mant&#233;ngase alerta. Imagino que intentar&#225;[ST:n ]atacarles con todo lo que pueda aunque solo sea[ST:n ]para saciar su ira y su sed de sangre.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1009</td>
+        <td class="side">He o&#237;do que Ryyz hace pagar con sangre cualquier[ST:n ]falta de respeto a Dagahn, incluso a los generales[ST:n ]ganglion de alto rango.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1010</td>
+        <td class="side">No logro entender c&#243;mo es posible que una mujer[ST:n ]tan insensible, cruel y ego&#237;sta como ella[ST:n ]se preocupe tanto por defender el honor ajeno.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1011</td>
+        <td class="side">Quiz&#225; ustedes los humanos tengan una visi&#243;n[ST:n ]m&#225;s clara sobre este asunto.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1012</td>
+        <td class="side">Puede que tenga que ver con ese concepto[ST:n ]de \&quot;familia\&quot; del que los humanos tanto hablan.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1017</td>
+        <td class="side">Si ustedes los humanos pereciesen,[ST:n ]los indefensos orphean ser&#237;amos carne de ca&#241;&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1018</td>
+        <td class="side">Esta batalla no es solo vuestra.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1019</td>
+        <td class="side">Me gustar&#237;a poder dejar en herencia[ST:n ]nuestro Ovah a la pr&#243;xima generaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1020</td>
+        <td class="side">As&#237; que, tanto por mi propio inter&#233;s como por el suyo,[ST:n ]nada me complacer&#237;a m&#225;s que presenciar c&#243;mo[ST:n ]salvan el n&#250;cleo del Arca de la vida.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1025</td>
+        <td class="side">Gracias a la destrucci&#243;n de los ganglion,[ST:n ]nuestras probabilidades de supervivencia[ST:n ]se han elevado exponencialmente.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1026</td>
+        <td class="side">Dado que he heredado el liderazgo de los orphean[ST:n ]de Kun&#39;luarb, me dirig&#237; a la sede central BLADE[ST:n ]para pagar la deuda que tenemos con ustedes.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1027</td>
+        <td class="side">Pero un hombre llamado Vandham dijo que no ser&#237;a[ST:n ]necesario, ya que hab&#237;a sido conveniente para ambos.[ST:n ]A pesar de mi insistencia, no quiso escucharme.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1028</td>
+        <td class="side">&#191;Todos los humanos pagan sus deudas con tan solo[ST:n ]unas cuantas palabras de gratitud?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev073001_MSG1029</td>
+        <td class="side">De ser ese el caso, est&#225;n tolerando que les enga&#241;en.[ST:n ]Tienen el derecho de generar mayores beneficios.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev073001_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac si hay alguna novedad.</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev073001_MSG2001</td>
+        <td class="side">Gracias a sus esfuerzos y los de Kon&#39;luarb,[ST:n ]el proyecto de producci&#243;n de agua senirapa[ST:n ]est&#225; siendo todo un &#233;xito.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev073001_MSG2002</td>
+        <td class="side">De todos modos, el incremento de nuestra poblaci&#243;n[ST:n ]tambi&#233;n causa conflictos con los humanos[ST:n ]y las dem&#225;s especies de esta nave.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev073001_MSG2003</td>
+        <td class="side">Como l&#237;der de los orphean, me gustar&#237;a reunirme[ST:n ]con sus representantes de manera inmediata[ST:n ]para evitar mayores problemas.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev073001_MSG2004</td>
+        <td class="side">Cuando lleguemos a un acuerdo, espero que podamos[ST:n ]contar con que ayuden a cualquier orphean[ST:n ]que se vea involucrado en tal conflicto.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev073001_MSG2005</td>
+        <td class="side">Ya que nos conocen bien, ser&#237;an de gran ayuda[ST:n ]a la hora de resolver este tipo de situaciones.[ST:n ]Por favor, &#161;t&#233;ngalo en cuenta![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev073001_SEL3021</td>
+        <td class="side">Preg&#250;ntale a Sun&#39;barac si hay alguna novedad.</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev073001_MSG3001</td>
+        <td class="side">Se ha comenzado a aplicar un impuesto provisional[ST:n ]nopon del 20 %. Todos en la nave ma-non comparten[ST:n ]el coste de financiar ese descuento.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev073001_MSG3002</td>
+        <td class="side">Esto ha hecho que los nopon comiencen a gastar[ST:n ]sus ahorros, un hecho bastante inesperado.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev073001_MSG3003</td>
+        <td class="side">Muchas de las compa&#241;&#237;as gozan de tantas ganancias[ST:n ]que no parecen preocupadas por el nuevo impuesto.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev073001_MSG3004</td>
+        <td class="side">Mmm... Puede que al final ese tal Kopopo[ST:n ]sea un representante competente.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev073001_MSG3005</td>
+        <td class="side">Seguir&#233; apoyando propuestas como estas que surjan[ST:n ]en el futuro con todo el fervor que pueda. &#161;Hurra![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev073001_MSG4001</td>
+        <td class="side">El sondeo que ha conducido me ha otorgado el valor[ST:n ]necesario para presentarme a las elecciones.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev073001_MSG4002</td>
+        <td class="side">Gracias al apoyo de una gran variedad[ST:n ]de ciudadanos, finalmente fui escogido como[ST:n ]representante de los xenoformos.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev073001_MSG4003</td>
+        <td class="side">Espero poder contar con la ayuda[ST:n ]de los dem&#225;s candidatos, Kopopo y Adappin.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev073001_MSG4004</td>
+        <td class="side">Juntos, podemos convertir NLA en un lugar ut&#243;pico[ST:n ]en que personas procedentes de distintos planetas[ST:n ]puedan convivir en igualdad.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev073001_MSG4005</td>
+        <td class="side">Lo que ustedes humanos han conseguido hacer aqu&#237;[ST:n ]en Mira es un aut&#233;ntico milagro, y le puedo asegurar[ST:n ]que yo tambi&#233;n me esforzar&#233; por hacer lo mismo.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev018201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0001</td>
+        <td class="side">Ah, c&#39;est vous ! Alors, comment &#231;a se passe avec cette[ST:n ]sonde de combat ? J&#39;esp&#232;re que vous vous y faites.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0010</td>
+        <td class="side">Remercier</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0011</td>
+        <td class="side">Dire &#224; Hugo qu&#39;elle a &#233;t&#233; vitale.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0020</td>
+        <td class="side">Hausser les &#233;paules</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0021</td>
+        <td class="side">Rester totalement sto&#239;que.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0002</td>
+        <td class="side">Pas besoin de me remercier. Au d&#233;part, mon travail[ST:n ]devait servir le projet de migration de la vie terrestre,[ST:n ]vous comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0003</td>
+        <td class="side">Mais maintenant, je fais &#231;a pour la ville et les gens du[ST:n ]BLADE, alors les compliments sont d&#233;sormais inutiles.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0004</td>
+        <td class="side">Mon seul but c&#39;est de r&#233;veiller ces t&#234;tes de pioche qui[ST:n ]travaillent pour les fabriques d&#39;armes et qu&#39;ils ouvrent[ST:n ]les yeux, et j&#39;ai besoin de votre aide pour &#231;a ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0005</td>
+        <td class="side">Quoi qu&#39;il en soit, les plans de mon prochain type de[ST:n ]sonde de combat sont pr&#234;ts &#224; entrer en production.[ST:n ]Ce mod&#232;le am&#233;liore la puissance au corps-&#224;-corps.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0006</td>
+        <td class="side">J&#39;aurais besoin de 15 000 unit&#233;s de miranium.[ST:n ]Vous pensez que vous pouvez me rapporter &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0007</td>
+        <td class="side">Votre cynisme est accablant. Comment arrivez-vous &#224;[ST:n ]dormir la nuit en &#233;tant &#224; ce point [ST:Gender p1=ignorant p2=ignorante ] ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0008</td>
+        <td class="side">&#192; moins que... Attendez, vous &#234;tes [ST:Gender p1=s&#233;rieux p2=s&#233;rieuse ] ? Ce n&#39;est[ST:n ]vraiment pas utile sur le terrain ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0009</td>
+        <td class="side">Oh, non... Alors &#231;a veut dire que ces t&#234;tes de mule des[ST:n ]industries d&#39;armes avaient raison depuis le d&#233;but.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0010</td>
+        <td class="side">Non. Je refuse de le croire. Et je vais prouver que j&#39;ai[ST:n ]raison avec mon nouveau type de sonde de combat ![ST:n ]Celle-l&#224; am&#233;liore la puissance au corps-&#224;-corps.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0011</td>
+        <td class="side">Elle sera pr&#234;te &#224; passer en production d&#232;s que j&#39;aurai[ST:n ]r&#233;colt&#233; 15 000 unit&#233;s de miranium. Je vous jure que[ST:n ]cette fois, vous serez [ST:Gender p1=impressionn&#233; p2=impressionn&#233;e ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0012</td>
+        <td class="side">Bien. R&#233;cup&#233;rez tout &#231;a aussi vite que possible.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0013</td>
+        <td class="side">J&#39;ai encore plein de plans de diff&#233;rents types de[ST:n ]sondes de combat.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0014</td>
+        <td class="side">Je ne peux pas me permettre d&#39;attendre, vous savez ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0016</td>
+        <td class="side">Placez une sonde attaque au corps-&#224;-corps sur un[ST:n ]emplacement, et les membres du BLADE dans la r&#233;gion[ST:n ]verront leur puissance au corps-&#224;-corps augmenter ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0017</td>
+        <td class="side">Vous voulez essayer ? Maintenant, peut-&#234;tre ? Bien s&#251;r[ST:n ]que vous voulez. Alors sortez d&#39;ici et trouvez-moi ce[ST:n ]fichu miranium ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0018</td>
+        <td class="side">Tout est pr&#234;t. J&#39;ai juste besoin du miranium.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0019</td>
+        <td class="side">Vous voulez ouvrir les portes d&#39;un nouveau mode de[ST:n ]combat ? Dans ce cas, vous avez besoin d&#39;une cl&#233;,[ST:n ]et cette cl&#233; est le miranium. Alors donnez-le-moi ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0030</td>
+        <td class="side">Livrer</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0031</td>
+        <td class="side">Lui donner les 15 000 unit&#233;s de miranium.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0040</td>
+        <td class="side">Garder</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0041</td>
+        <td class="side">Garder le miranium pour le moment.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0020</td>
+        <td class="side">Tr&#232;s bien, restez l&#224;. Je vais vous faire &#231;a en un rien[ST:n ]de temps.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0021</td>
+        <td class="side">Avec l&#39;un de ces bijoux activ&#233;, les membres du BLADE[ST:n ]vont pouvoir abattre des ennemis plus puissants comme[ST:n ]un rien ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0022</td>
+        <td class="side">Oh... C&#39;est magnifique. Je suis aussi fier qu&#39;un p&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0023</td>
+        <td class="side">Contemplez le nouveau mod&#232;le de sonde de combat,[ST:n ]la sonde attaque au corps-&#224;-corps ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0024</td>
+        <td class="side">Installez l&#39;une de ces terreurs sur un emplacement pour[ST:n ]sonde FrontierNav, et tout agent du BLADE de la r&#233;gion[ST:n ]verra sa puissance au corps-&#224;-corps crever le plafond ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0025</td>
+        <td class="side">Allez-y, essayez-la. Allez cogner quelque chose de[ST:n ]bal&#232;ze. Et amusez-vous bien ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0026</td>
+        <td class="side">Pendant ce temps, je vais me pencher sur ma prochaine[ST:n ]cr&#233;ation.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0027</td>
+        <td class="side">Revenez me voir quand vous aurez le temps. Si vous[ST:n ]avez du miranium, je r&#233;aliserai vos r&#234;ves de combat ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0028</td>
+        <td class="side">Oh, allez ! Vous voulez quoi, que je danse pour vous ?[ST:n ]C&#39;est &#231;a ? Parce que je le ferai. Je le ferai vraiment.[ST:n ]Croyez-moi, vous ne voulez pas voir &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0029</td>
+        <td class="side">Alors d&#233;p&#234;chez-vous et donnez-moi ce miranium que je[ST:n ]puisse construire ma sonde attaque au corps-&#224;-corps.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

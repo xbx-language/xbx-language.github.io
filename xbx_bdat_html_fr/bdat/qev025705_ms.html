@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025705_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0001</td>
+        <td class="side">Allez demander &#224; mes amies en ville quelles sont leurs[ST:n ]mensurations, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0002</td>
+        <td class="side">Pour les demoiselles, voyez avec Veverta. Pour les[ST:n ]dames, Aalis. Et pour les seniors, parlez &#224; Vyponne,[ST:n ]d&#39;accord ? D&#39;accord.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0003</td>
+        <td class="side">Eh bien, avez-vous r&#233;ussi &#224; obtenir ces mensurations ?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0004</td>
+        <td class="side">Magnifique ! Maintenant il nous faut les mat&#233;riaux,[ST:n ]n&#39;est-il pas ? Cinq morceaux de cuir souple devraient[ST:n ]faire l&#39;affaire, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0005</td>
+        <td class="side">Vous avez tout ? Alors s&#39;il vous pla&#238;t, donnez les[ST:n ]mensurations et le cuir souple &#224; Victoria, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0006</td>
+        <td class="side">Mes odeurs pr&#233;f&#233;r&#233;es sont... euh... Eh bien, les[ST:n ]cerimandes et les herbes de sona me font fondre,[ST:n ]mais sans danger, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0007</td>
+        <td class="side">Oh ! On dirait que quelque chose sur vous sent tr&#232;s[ST:n ]tr&#232;s bon, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0008</td>
+        <td class="side">Selon vous, quels ingr&#233;dients feraient le meilleur[ST:n ]parfum ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0009</td>
+        <td class="side">Hmm, hmm... Oooh ! C&#39;est exquis, n&#39;est-il pas ?! Si si[ST:n ]super, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0010</td>
+        <td class="side">Puis-je sentir aussi ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0011</td>
+        <td class="side">Hmm. Oh l&#224; l&#224; ! C&#39;est vraiment... fort.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0012</td>
+        <td class="side">J&#39;imagine &#231;a tr&#232;s bien pour les filles sauvages comme[ST:n ]toi, Panyar.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0013</td>
+        <td class="side">Mais oui, je pense que c&#39;est un tr&#232;s bon choix. Et[ST:n ]vous ? Vous croyez que nous sommes dans la bonne[ST:n ]direction ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0010</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0011</td>
+        <td class="side">Dire qu&#39;un parfum sauvage fait chavirer votre cœur.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0020</td>
+        <td class="side">D&#233;sapprouver</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0021</td>
+        <td class="side">Expliquer que vous pr&#233;f&#233;rez les ar&#244;mes plus reposants.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0014</td>
+        <td class="side">Hmm, je suis heureuse de vous l&#39;entendre dire. Je[ST:n ]m&#39;attends &#224; ce que ce soit un succ&#232;s chez les membres[ST:n ]du BLADE comme vous.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0015</td>
+        <td class="side">Oui, je comprends que quelqu&#39;un qui travaille dans une[ST:n ]branche aussi stressante que la v&#244;tre recherche la paix[ST:n ]lorsque c&#39;est possible.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0016</td>
+        <td class="side">Mais je suis convaincue qu&#39;il y a un cr&#233;neau &#224; prendre[ST:n ]pour &#231;a. Certaines personnes cherchent toujours le[ST:n ]frisson, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0017</td>
+        <td class="side">Je vais donner le feu vert &#224; la production. Et voici pour[ST:n ]vous... en r&#233;compense de votre dur labeur. Merci pour[ST:n ]votre aide et votre flexibilit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0018</td>
+        <td class="side">Hmm, hmm... Oooh ! C&#39;est exquis, n&#39;est-il pas ?! Si si[ST:n ]super, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0019</td>
+        <td class="side">Puis-je sentir aussi ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0020</td>
+        <td class="side">Hmm. C&#39;est doux. Presque... apaisant.[ST:n ]J&#39;aime beaucoup.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0021</td>
+        <td class="side">Je suis un peu surprise que &#231;a te plaise, Panyar.[ST:n ]J&#39;aurais pens&#233; que tu voudrais quelque chose de plus[ST:n ]audacieux.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0022</td>
+        <td class="side">Je suis une fille sensible, au fond, Victoria. Mais et[ST:n ]vous, mon [ST:Gender p1=ami p2=amie ] ? Ne voulez-vous pas sentir aussi ?[ST:n ]C&#39;est tr&#232;s tr&#232;s doux, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0030</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0031</td>
+        <td class="side">Dites que cette odeur chaleureuse est r&#233;confortante.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0050</td>
+        <td class="side">D&#233;sapprouver</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0051</td>
+        <td class="side">Expliquer que vous pr&#233;f&#233;rez les odeurs plus sauvages.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0023</td>
+        <td class="side">Hum. J&#39;imagine que cela pourrait avoir du succ&#232;s[ST:n ]aupr&#232;s des membres du BLADE &#233;prouv&#233;s par le combat.[ST:n ]Une sorte de remontant, vous savez ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0024</td>
+        <td class="side">Oh. Je suppose que les membres du BLADE sont[ST:n ]habitu&#233;s &#224; des sensations plus intenses.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0025</td>
+        <td class="side">Mais je pense vraiment qu&#39;il existe un march&#233; pour &#231;a.[ST:n ]Apr&#232;s tout, il y aura toujours des gens qui auront envie[ST:n ]d&#39;un peu de r&#233;confort.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0026</td>
+        <td class="side">Je vais donner le feu vert &#224; la production. Et voici pour[ST:n ]vous... en r&#233;compense de votre dur labeur. Merci pour[ST:n ]votre aide et votre flexibilit&#233;.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

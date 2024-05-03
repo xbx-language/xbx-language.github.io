@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001701_MSG0001</td>
+        <td class="side">Bonjour. Vous vouliez me parler de quelque chose ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001701_MSG0002</td>
+        <td class="side">Je discute avec quelqu&#39;un d&#39;autre l&#224;, donc attendez[ST:n ]qu&#39;on ait fini.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001701_MSG0003</td>
+        <td class="side">Mais quel que soit votre souci, je serai tr&#232;s heureuse[ST:n ]de vous apporter mon aide. Donc, j&#39;esp&#232;re que[ST:n ]vous reviendrez me parler bient&#244;t.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1001</td>
+        <td class="side">Bonjour, [ST:playername ]. Vous allez encore[ST:n ]passer la journ&#233;e &#224; r&#233;gler les probl&#232;mes[ST:n ]des gens de New L.A. ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1002</td>
+        <td class="side">Si cela vous agr&#233;e, je vous serais tr&#232;s reconnaissante[ST:n ]de me laisser vous accompagner.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0011</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0021</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1003</td>
+        <td class="side">Merci beaucoup. Je promets de ne pas vous ralentir.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1004</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1009</td>
+        <td class="side">Nous allons tous devoir travailler dur pour combler[ST:n ]le vide laiss&#233; par Nelson et son &#233;quipe.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1010</td>
+        <td class="side">Cela dit, et si vous n&#39;y voyez pas d&#39;inconv&#233;nients,[ST:n ]pourrais-je vous accompagner dans votre mission ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0030</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1011</td>
+        <td class="side">Donc, nous nous rendons dans Noctilum ? Alors, nous[ST:n ]devrons &#234;tre extr&#234;mement bien [ST:Gender p1=pr&#233;par&#233;s p2=pr&#233;par&#233;es ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1012</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1017</td>
+        <td class="side">Les x&#233;noformes non identifi&#233;s ont &#233;t&#233; aper&#231;us[ST:n ]en Oblivia ? Oui, j&#39;en ai entendu parler.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1018</td>
+        <td class="side">Peu importe d&#39;o&#249; ils viennent, notre devoir &#224; tous[ST:n ]est d&#39;aider ceux dans le besoin.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1019</td>
+        <td class="side">Volons &#224; leur secours. Je ferai tout ce que je peux[ST:n ]pour aider.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0050</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0051</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0060</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0061</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1020</td>
+        <td class="side">Je suis s&#251;re que je saurai faire face &#224; n&#39;importe[ST:n ]quelle menace si vous &#234;tes &#224; mes c&#244;t&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1021</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1022</td>
+        <td class="side">Bonjour, [ST:playername ]. Une personne est[ST:n ]venue me demander de l&#39;aide.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1023</td>
+        <td class="side">Il faut que je r&#232;gle son probl&#232;me tout de suite.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1024</td>
+        <td class="side">Si vous esp&#233;riez que je vous assiste pour une mission,[ST:n ]je suis vraiment navr&#233;e. Mais promettez-moi de revenir[ST:n ][ST:Gender p1=sain et sauf p2=saine et sauve ].[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1029</td>
+        <td class="side">Chercher les pi&#232;ces de l&#39;arche de vie est une mission[ST:n ]vitale en effet, mais les vies de ceux qui les cherchent[ST:n ]sont bien plus importantes.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1030</td>
+        <td class="side">Aucune perte n&#39;est acceptable. Nous devons[ST:n ]sauver Irina. Emmenez-moi avec vous, s&#39;il vous pla&#238;t ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0070</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0071</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0080</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0081</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1031</td>
+        <td class="side">Je suis s&#251;re que je saurai faire face &#224; n&#39;importe[ST:n ]quelle menace si vous &#234;tes &#224; mes c&#244;t&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1032</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1037</td>
+        <td class="side">Beaucoup de personnes ont perdu la vie[ST:n ]ou ont &#233;t&#233; bless&#233;es lors de la derni&#232;re attaque.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1038</td>
+        <td class="side">Mais il ne nous reste pas beaucoup de temps. Il nous[ST:n ]faut nous battre malgr&#233; la douleur et aller de l&#39;avant.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1039</td>
+        <td class="side">Serait-ce importun si je vous demandais la permission[ST:n ]de me joindre &#224; vous ? Peu importe la mission, je[ST:n ]voudrais montrer mon soutien &#224; nos voisins d&#233;courag&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0090</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0091</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0100</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0101</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1040</td>
+        <td class="side">Je suis s&#251;re que je saurai faire face &#224; n&#39;importe[ST:n ]quelle menace si vous &#234;tes &#224; mes c&#244;t&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1041</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1042</td>
+        <td class="side">Pas mal de gens sont venus me voir r&#233;cemment pour[ST:n ]me parler de la dur&#233;e de vie de leurs mim&#233;osomes.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1043</td>
+        <td class="side">Tout le monde essaie de para&#238;tre confiant, mais[ST:n ]pour la plupart, ils sont secr&#232;tement assaillis[ST:n ]par le doute et l&#39;anxi&#233;t&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1044</td>
+        <td class="side">Laissez-moi vous aider. Trouver le noyau de l&#39;arche[ST:n ]de vie est la seule mani&#232;re de ramener la paix[ST:n ]dans nos cœurs.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0110</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0111</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0120</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0121</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1045</td>
+        <td class="side">Je suis s&#251;re que je saurai faire face &#224; n&#39;importe[ST:n ]quelle menace si vous &#234;tes &#224; mes c&#244;t&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1046</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1051</td>
+        <td class="side">Je pense que si nous affrontons Lao directement,[ST:n ]il avouera son crime et se rach&#232;tera une conduite.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1052</td>
+        <td class="side">Mais il faut d&#39;abord que nous lui parlions, c&#39;est plus[ST:n ]humain. Je serai heureuse de vous aider si vous avez[ST:n ]besoin de moi.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0130</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0131</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0140</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0141</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1053</td>
+        <td class="side">D&#233;p&#234;chons-nous. Nous devons attraper Lao avant[ST:n ]qu&#39;il n&#39;atteigne le point de non-retour.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1054</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1055</td>
+        <td class="side">Lorsque la Grande Blanche a mis les voiles, nous avons[ST:n ]laiss&#233; beaucoup de gens sur Terre.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1056</td>
+        <td class="side">Nous portons le poids de tous ceux qui sont rest&#233;s.[ST:n ]Il est de notre devoir de continuer &#224; vivre pour ceux[ST:n ]qui n&#39;ont pas eu cette chance.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1057</td>
+        <td class="side">Emmenez-moi avec vous, s&#39;il vous pla&#238;t. Je veux jouer[ST:n ]un r&#244;le dans cette bataille, aussi minime soit-il.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0150</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0151</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0160</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0161</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1058</td>
+        <td class="side">Merci. Allons-y et remplissons notre devoir pour[ST:n ]le bien de l&#39;humanit&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1059</td>
+        <td class="side">Je comprends. Si je peux vous aider en quoi que[ST:n ]ce soit, faites-le-moi savoir. Vous pouvez me demander[ST:n ]tout ce que vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1064</td>
+        <td class="side">Le noyau de l&#39;arche de vie est en s&#233;curit&#233;, mais[ST:n ]les cœurs sont toujours assaillis par l&#39;inqui&#233;tude.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1065</td>
+        <td class="side">Permettez-moi de vous aider &#224; faire de cette plan&#232;te[ST:n ]un monde meilleur, pour tous les habitants.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0170</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0171</td>
+        <td class="side">Ajouter Hope &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>tev001701_JNK0180</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>tev001701_SEL0181</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Hope pour le moment.</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1066</td>
+        <td class="side">Alors allons-y. Je sais que si vous &#234;tes &#224; mes c&#244;t&#233;s,[ST:n ]il n&#39;y a rien que je ne puisse surmonter.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>tev001701_MSG1067</td>
+        <td class="side">Peu importe ce qui arrive, je serai toujours l&#224; pour[ST:n ]&#233;couter. Je ferai tout ce qui est en mon pouvoir pour[ST:n ]vous &#234;tre utile.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

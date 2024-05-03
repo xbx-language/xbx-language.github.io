@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051302_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0001</td>
+        <td class="side">Salve. Come va con la missione?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0002</td>
+        <td class="side">Benissimo, presumo. O comunque sar&#224; cos&#236; a breve...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0003</td>
+        <td class="side">Bene, adesso consegnami le chiavi che hai trovato.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0004</td>
+        <td class="side">Mmmh... Questa non &#232; una chiave. E le altre?[ST:n ]Hai anche le altre tre, no?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0005</td>
+        <td class="side">Qualcosa non va? Il nostro accordo prevedeva[ST:n ]espressamente quattro chiavi. Le hai, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0006</td>
+        <td class="side">Allora, ti prego di consegnarmele.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0007</td>
+        <td class="side">Un momento, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0008</td>
+        <td class="side">Mmmh? Cosa c&#39;&#232;?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0009</td>
+        <td class="side">Ho appreso una cosa di fondamentale[ST:n ]rilevanza su questa persona.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0010</td>
+        <td class="side">Oh, davvero? Sentiamo.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0011</td>
+        <td class="side">Riguarda le quattro chiavi che state cercando.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0012</td>
+        <td class="side">A quanto pare questa persona[ST:n ]ne aveva tre fin dall&#39;inizio.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0013</td>
+        <td class="side">Cosa? Com&#39;&#232; possibile?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0014</td>
+        <td class="side">Ci&#242; significa che [ST:Gender p1=il p2=la ] responsabile[ST:n ]del furto delle chiavi dei Tre Celesti...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0015</td>
+        <td class="side">[ST:Gender p1=Il p2=La ] responsabile dell&#39;omicidio del vostro commilitone[ST:n ]Fosdyke e di tutti gli altri, &#232; proprio dinanzi a voi![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0016</td>
+        <td class="side">Cosa?![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev051302_JNK0010</td>
+        <td class="side">Rimprovera</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev051302_SEL0011</td>
+        <td class="side">Grida contro Ga Bewhe per averti tradito.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev051302_JNK0020</td>
+        <td class="side">Sorprenditi</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev051302_SEL0021</td>
+        <td class="side">Rimani a bocca aperta alla scoperta[ST:n ]che Adolphus fosse il quarto uomo.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev051302_JNK0030</td>
+        <td class="side">Difenditi</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev051302_SEL0031</td>
+        <td class="side">Spiega che i Tre Celesti ti hanno ingannato e che[ST:n ]li hai affrontati solo per difenderti dal loro attacco.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0017</td>
+        <td class="side">Maestro, non prestare orecchio[ST:n ]alle menzogne di [ST:Gender p1=questo p2=questa ] infame.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0018</td>
+        <td class="side">Non sono interessato alle sue spiegazioni, Ga Bewhe.[ST:n ]Ma se ha davvero ucciso Fosdyke e gli altri,[ST:n ]&#232; pi&#249; forte di quel che pensassimo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0019</td>
+        <td class="side">Non dovete preoccuparvi, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0020</td>
+        <td class="side">Sono pi&#249; sorpreso di te, te lo assicuro.[ST:n ]Quali erano le possibilit&#224; di assumere[ST:n ][ST:Gender p1=il loro assassino p2=la loro assassina ]?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0021</td>
+        <td class="side">Ad ogni modo, ci&#242; significa che sei pi&#249; forte[ST:n ]di quel che mi aspettassi. Adesso &#232; necessario[ST:n ]una revisione della mia strategia.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0022</td>
+        <td class="side">Non dovete preoccuparvi, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0023</td>
+        <td class="side">Cupidigia e menzogne si rafforzano a vicenda.[ST:n ]Se non fosse stato per te, quell&#39;Oro bianco[ST:n ]sarebbe gi&#224; in mano mia.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0024</td>
+        <td class="side">Adesso subirai la stessa sorte che[ST:n ]&#232; toccata ai miei compagni.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0025</td>
+        <td class="side">Non &#232; necessario, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0026</td>
+        <td class="side">Le chiavi sono gi&#224; in mio possesso.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0027</td>
+        <td class="side">Ah ah! Ottimo lavoro, Ga Bewhe.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0028</td>
+        <td class="side">Ma, aspetta. Se le hai tu, significa che dovevi gi&#224;[ST:n ]sapere fin dall&#39;inizio che il BLADE qui presente[ST:n ]era in possesso delle chiavi.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0029</td>
+        <td class="side">Esatto, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0030</td>
+        <td class="side">Sembrerebbe che tutto sia andato secondo il tuo piano.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0031</td>
+        <td class="side">Chiedo perdono per avervelo tenuto[ST:n ]nascosto fino ad adesso, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0032</td>
+        <td class="side">Non ha importanza. Finch&#233; sar&#242; in possesso[ST:n ]di tutte e quattro le chiavi, NIENT&#39;ALTRO[ST:n ]avr&#224; importanza.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0033</td>
+        <td class="side">Mmmh? Sembri in confusione, [ST:Gender p1=caro il mio p2=cara la mia ] BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0034</td>
+        <td class="side">Ah, s&#236;. La quarta chiave. Naturalmente.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0035</td>
+        <td class="side">&#200; stata in mio possesso per tutto questo tempo.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0036</td>
+        <td class="side">Ti ho nascosto questo piccolo[ST:n ]dettaglio solo per precauzione.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0037</td>
+        <td class="side">Anche se questo ha implicato farti mandare[ST:n ]da Ga Bewhe alla vana ricerca di una falsa chiave[ST:n ]che ho dato a qualche credulone BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0038</td>
+        <td class="side">Eh eh, eh eh... Ah ah! Aaah ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0039</td>
+        <td class="side">Ga Bewhe![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0040</td>
+        <td class="side">Adesso che abbiamo le chiavi, non ho pi&#249;[ST:n ]bisogno [ST:Gender p1=del nostro amico p2=della nostra amica ] qui presente.[ST:n ]Sbarazzati di [ST:Gender p1=lui p2=lei ].[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0041</td>
+        <td class="side">Come desiderate, maestro.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0042</td>
+        <td class="side">Sei davvero... forte...[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0043</td>
+        <td class="side">Ma non ho pi&#249; ragione di rischiare[ST:n ]la mia vita, qui. Addio![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0044</td>
+        <td class="side">Cosa? No! Aspetta, codarda![ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0045</td>
+        <td class="side">La battaglia non &#232; ancora finita, Ga Bewhe![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0046</td>
+        <td class="side">L&#39;[ST:Gender p1=assassino p2=assassina ] che ci ha rubato le chiavi[ST:n ]mi sta puntando la sua arma contro![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0047</td>
+        <td class="side">Ti proibisco di scappare![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0048</td>
+        <td class="side">A-aspetta... Ti prego... Discutiamone![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0049</td>
+        <td class="side">Abbiamo tutte e quattro le chiavi, adesso! S&#236;, &#232; cos&#236;![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0050</td>
+        <td class="side">Possiamo oltrepassare quella[ST:n ]porta e dividerci l&#39;Oro bianco![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0051</td>
+        <td class="side">Non era forse questo il nostro accordo iniziale?[ST:n ]Non &#232; necessario che qualcuno ci rimetta![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0052</td>
+        <td class="side">Adesso che la Wrothian menzognera se ne &#232; andata,[ST:n ]non c&#39;&#232; motivo per non considerare tutto[ST:n ]questo come acqua passata.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0053</td>
+        <td class="side">Adesso, apriremo la porta blindata. Sono certo[ST:n ]che cambierai umore non appena vedrai[ST:n ]tutto quell&#39;Oro bianco.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0054</td>
+        <td class="side">&#200; aperta...[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0055</td>
+        <td class="side">&#200; tutto nostro! Tutto l&#39;Oro bianco &#232;...[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0056</td>
+        <td class="side">SPARITO???[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0057</td>
+        <td class="side">Non c&#39;&#232; niente! &#200; vuoto![ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0058</td>
+        <td class="side">Com&#39;&#232; possibile?[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0059</td>
+        <td class="side">Qualcuno dev&#39;essere entrato prima di noi e...[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0060</td>
+        <td class="side">Quella maledetta Wrothian![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0061</td>
+        <td class="side">Eh eh... Aaah ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0062</td>
+        <td class="side">Aaaah aaah ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0063</td>
+        <td class="side">&#200; entrata dopo aver preso le tue chiavi![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0064</td>
+        <td class="side">Deve aver preso la mia mentre eri l&#224; fuori[ST:n ]alla ricerca e io ti stavo aspettando.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0065</td>
+        <td class="side">Con tutte e quattro le chiavi in suo possesso,[ST:n ]&#232; stata in grado di prendersi tutto![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0066</td>
+        <td class="side">L&#39;unica ragione per cui ha aspettato eri tu.[ST:n ]Voleva affrontarti e sperava di eliminare[ST:n ]la concorrenza.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0067</td>
+        <td class="side">Quella infida bestia...[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0068</td>
+        <td class="side">Mi ha completamente abbindolato.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0069</td>
+        <td class="side">Ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0070</td>
+        <td class="side">Aaah ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev051302_MSG0071</td>
+        <td class="side">AAAH AAAH AH AH AH AH AH AH!!![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001192_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0001</td>
+        <td class="side">Quoi ? Ce que je fais ? Je joue avec ce chat...[ST:n ]&#199;a ne se voit pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0002</td>
+        <td class="side">Tu ne pensais pas que j&#39;&#233;tais une amie des b&#234;tes ?[ST:n ]Aussi incroyable que &#231;a puisse para&#238;tre, j&#39;avais une[ST:n ]chatte siamoise sur Terre.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0003</td>
+        <td class="side">Quand je lisais un bon bouquin &#224; la maison, elle me[ST:n ]grimpait sur les genoux pour que je lui caresse[ST:n ]le menton.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0004</td>
+        <td class="side">Caresser ou jouer avec des chats me rappelle la vie sur[ST:n ]Terre. Et toi ? Est-ce que les animaux domestiques[ST:n ]t&#39;&#233;voquent des souvenirs ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0010</td>
+        <td class="side">Oui</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0011</td>
+        <td class="side">Dire que vous pensez avoir eu un animal de compagnie[ST:n ]sur Terre.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0020</td>
+        <td class="side">Non</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0021</td>
+        <td class="side">Admettre que &#231;a ne vous rappelle rien de pr&#233;cis.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0005</td>
+        <td class="side">H&#233;... Tu as les yeux qui brillent quand tu en parles.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0006</td>
+        <td class="side">C&#39;est une r&#233;action tr&#232;s forte, pour un souvenir oubli&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0007</td>
+        <td class="side">Je me demande si c&#39;est parce que c&#39;est un v&#233;ritable[ST:n ]souvenir qui te revient ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0008</td>
+        <td class="side">Hmm... Est-ce que tu penses que les animaux de[ST:n ]compagnie peuvent t&#39;aider &#224; retrouver la m&#233;moire ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0009</td>
+        <td class="side">Oh, c&#39;est vrai, oui. Tu as perdu tous tes souvenirs[ST:n ]dans le crash, apr&#232;s tout.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0010</td>
+        <td class="side">Tu as peut-&#234;tre eu des animaux de compagnie, mais tu[ST:n ]ne t&#39;en souviens tout simplement pas.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0011</td>
+        <td class="side">Peut-&#234;tre que les animaux de compagnie peuvent t&#39;aider[ST:n ]&#224; retrouver la m&#233;moire, dans ce cas...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0012</td>
+        <td class="side">Je peux te poser une question ?[ST:n ]C&#39;est juste par curiosit&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0013</td>
+        <td class="side">Quel est ton animal de compagnie pr&#233;f&#233;r&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0030</td>
+        <td class="side">Les chats</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0031</td>
+        <td class="side">Lui dire que vous pr&#233;f&#233;rez les chats.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0040</td>
+        <td class="side">Les chiens</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0041</td>
+        <td class="side">Lui dire que vous pr&#233;f&#233;rez les chiens.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0050</td>
+        <td class="side">Elma</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0051</td>
+        <td class="side">Dire qu&#39;Elma est votre animal de compagnie pr&#233;f&#233;r&#233;.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0014</td>
+        <td class="side">Eh bien &#231;a nous fait un point commun alors. Leur[ST:n ]temp&#233;rament plut&#244;t sauvage me rappelle l&#39;essence[ST:n ]m&#234;me de la vie sur Terre. C&#39;est ce que j&#39;aime chez eux.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0015</td>
+        <td class="side">La siamoise dont je t&#39;ai parl&#233; avait ses bons jours, mais[ST:n ]si elle avait d&#233;cid&#233; que c&#39;&#233;tait un jour sans, elle faisait[ST:n ]ses griffes sur tout ce qu&#39;elle pouvait trouver chez moi.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0016</td>
+        <td class="side">Dans ces moments-l&#224;, je pense qu&#39;elle aurait pu rivaliser[ST:n ]avec n&#39;importe quel indig&#232;ne miran... H&#233; h&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0017</td>
+        <td class="side">Mais... c&#39;est aussi pour &#231;a que je l&#39;aimais tant.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0018</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0019</td>
+        <td class="side">D&#233;sol&#233;e... Je voulais t&#39;aider &#224; retrouver la m&#233;moire et[ST:n ]c&#39;est finalement moi qui plonge dans la m&#233;lancolie...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0020</td>
+        <td class="side">Enfin, j&#39;ai quand m&#234;me appr&#233;ci&#233; notre conversation.[ST:n ]J&#39;esp&#232;re que l&#39;on pourra remettre &#231;a une autre fois.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0021</td>
+        <td class="side">Je ne suis pas surprise... Je trouve qu&#39;il y a quelque[ST:n ]chose en toi qui me fait penser &#224; un chien.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0022</td>
+        <td class="side">Oh, d&#233;sol&#233;e... Ne te mets pas en col&#232;re. &#199;a n&#39;en avait[ST:n ]pas l&#39;air, mais c&#39;&#233;tait un compliment. En tant que chef[ST:n ]d&#39;unit&#233;, j&#39;appr&#233;cie ta fiabilit&#233; et ton entrain...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0023</td>
+        <td class="side">J&#39;esp&#232;re pouvoir encore longtemps compter sur ta[ST:n ]loyaut&#233; envers l&#39;&#233;quipe et sur ton aide lorsque l&#39;on[ST:n ]aura besoin de toi dans les situations difficiles.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0024</td>
+        <td class="side">C&#39;est... int&#233;ressant. Tu te rends compte que je ne suis[ST:n ]pas un animal quand m&#234;me, non ? Je me demande[ST:n ]ce qui peut bien te faire dire &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0025</td>
+        <td class="side">C&#39;est peut-&#234;tre un autre sympt&#244;me d&#251; au choc que ton[ST:n ]mim&#233;osome a absorb&#233; lors de l&#39;impact.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0026</td>
+        <td class="side">Je vais demander un rendez-vous pour toi au centre de[ST:n ]maintenance pour mim&#233;osomes afin qu&#39;ils proc&#232;dent &#224;[ST:n ]un d&#233;sassemblage et &#224; l&#39;analyse de tes composants.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0027</td>
+        <td class="side">Oh ne t&#39;inqui&#232;te pas, c&#39;est une op&#233;ration de routine en[ST:n ]cas de troubles mentaux s&#233;v&#232;res. Je m&#39;assurerai qu&#39;ils[ST:n ]insistent en particulier sur le nettoyage de ton cerveau.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

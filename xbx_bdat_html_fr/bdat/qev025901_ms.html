@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0001</td>
+        <td class="side">Euh, bonjour ? Vous &#234;tes l&#39;humain qui a aid&#233; le[ST:n ]Dr Staccata &#224; arr&#234;ter Fraisie, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0002</td>
+        <td class="side">Bien, tr&#232;s bien. J&#39;ai besoin de votre aide, voyez-vous ?[ST:n ]Le docteur n&#39;est toujours pas revenu de son enqu&#234;te[ST:n ]secr&#232;te et je ne sais pas quoi faire, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025901_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025901_SEL0011</td>
+        <td class="side">Demander &#224; Jalimbo en quoi consiste cette enqu&#234;te[ST:n ]secr&#232;te.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025901_JNK0020</td>
+        <td class="side">Hausser les &#233;paules</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025901_SEL0021</td>
+        <td class="side">Lui dire que le nom de Fraisie ne vous dit rien.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0003</td>
+        <td class="side">Cette m&#233;prisable Fraisie a rassembl&#233; ce qui restait de[ST:n ]sa secte et a disparu dans Cauldros, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0004</td>
+        <td class="side">Oh. Vous &#234;tes tr&#232;s tr&#232;s [ST:Gender p1=&#233;tourdi p2=&#233;tourdie ], non ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0005</td>
+        <td class="side">C&#39;est l&#39;affreuse personne qui a empoisonn&#233; l&#39;eau du lac[ST:n ]Biahno, puis a distribu&#233; un rem&#232;de miraculeux pour que[ST:n ]les Ma-nons rejoignent sa secte, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0006</td>
+        <td class="side">Cela vous rappelle quelque chose, non ? Eh bien il[ST:n ]s&#39;av&#232;re qu&#39;elle a emmen&#233; ses derniers adeptes dans[ST:n ]Cauldros et a disparu, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0007</td>
+        <td class="side">Le docteur &#233;tait s&#251;r qu&#39;elle allait retenter quelque chose,[ST:n ]alors, euh, alors il a fait semblant d&#39;&#234;tre un croyant et[ST:n ]s&#39;est infiltr&#233; dans leur cachette, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0008</td>
+        <td class="side">Mais mais je n&#39;ai pas eu de nouvelles de lui, pas du[ST:n ]tout ! J&#39;ai peur qu&#39;il ait &#233;t&#233; d&#233;couvert, ou...[ST:n ]Vous voyez ? Non ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0009</td>
+        <td class="side">Hein ? Eh bien, quand on parle de la pizza, on en voit[ST:n ]la cro&#251;te... C&#39;est le docteur, savez-vous ? Voulez-vous[ST:n ]bien attendre un instant, s&#39;il vous pla&#238;t ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0010</td>
+        <td class="side">All&#244; ? All&#244; ? Oui, oui, ici Jalimbo. O&#249; &#234;tes-vous,[ST:n ]docteur ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0011</td>
+        <td class="side">Je suis au terrier des Bandits de Cauldros, d&#39;accord ?[ST:n ]Tu dois contacter [ST:playername ]. Dis-lui[ST:n ]que j&#39;ai besoin [ST:Gender p1=de lui p2=d&#39;elle ] et qu&#39;[ST:Gender p1=il p2=elle ] doit se d&#233;p&#234;cher.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0012</td>
+        <td class="side">Oh oh ! On dirait que Fraisie est de retour. S&#39;il te[ST:n ]pla&#238;t, Jalimbo, je n&#39;ai pas beaucoup de temps avant...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0013</td>
+        <td class="side">J&#39;ai perdu le contact...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0014</td>
+        <td class="side">Ce sont de tr&#232;s tr&#232;s tr&#232;s mauvaises nouvelles ! Enfin,[ST:n ]heureusement que vous &#233;tiez l&#224; quand c&#39;est arriv&#233;,[ST:n ]n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0015</td>
+        <td class="side">Je vous en prie, il faut que vous alliez sauver[ST:n ]le docteur, d&#39;accord ? Et peut-&#234;tre emp&#234;cher Fraisie[ST:n ]de faire ce qu&#39;elle est en train d&#39;essayer de faire, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0016</td>
+        <td class="side">Le Dr Staccata est t&#234;tu et impulsif, mais il a vraiment[ST:n ]un cœur d&#39;or, vous savez ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0017</td>
+        <td class="side">Alors d&#233;p&#234;chez-vous d&#39;aller dans Cauldros, non ? Oui ![ST:n ]Et merci.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0022</td>
+        <td class="side">Quoi que Fraisie ait pu inventer cette fois-ci,[ST:n ]cela ne ne peut pas &#234;tre bon, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0023</td>
+        <td class="side">Alors s&#39;il vous pla&#238;t, allez au terrier des Bandits dans[ST:n ]Cauldros et sauvez le Dr Staccata, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0024</td>
+        <td class="side">Le Dr Staccata est de retour sain et sauf, n&#39;est-il pas ?[ST:n ]Et j&#39;ai entendu dire que Fraisie avait &#233;t&#233; captur&#233;e ?[ST:n ]C&#39;est un d&#233;luge de bonnes nouvelles, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0025</td>
+        <td class="side">S&#39;il vous pla&#238;t, laissez-moi vous offrir ceci en[ST:n ]remerciement, s&#39;il vous pla&#238;t ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0026</td>
+        <td class="side">Mais, euh... Je suppose que tous les Ma-nons que[ST:n ]Fraisie avait emmen&#233;s avec elle ont &#233;t&#233; tu&#233;s, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0027</td>
+        <td class="side">Si le Dr Staccata et vous ne m&#39;aviez pas sauv&#233;, j&#39;aurais[ST:n ]sans dout&#233; &#233;t&#233; l&#224;-bas avec eux, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0028</td>
+        <td class="side">Alors j&#39;ai d&#233;cid&#233; de passer ma vie &#224; prot&#233;ger[ST:n ]le docteur. Il est si si impulsif, non ? Enfin, je crois[ST:n ]que c&#39;est la meilleure fa&#231;on de le remercier, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev025901_JNK0030</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev025901_SEL0031</td>
+        <td class="side">Laisser le Dr Staccata aux bons soins de Jalimbo.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev025901_JNK0040</td>
+        <td class="side">Avertir</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev025901_SEL0041</td>
+        <td class="side">Dire &#224; Jalimbo de faire attention aux x&#233;noformes qui se[ST:n ]font passer pour des humains.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0029</td>
+        <td class="side">Laissez-moi faire, d&#39;accord ? Oh, mais, euh...[ST:n ]Si vous pouviez m&#39;apprendre &#224; me battre,[ST:n ]un de ces jours, cela serait tr&#232;s tr&#232;s bien, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev025901_MSG0030</td>
+        <td class="side">Cela semble vraiment vraiment terrifiant, non ? Je vais[ST:n ]m&#39;assurer que le docteur ne s&#39;approche de personne qui[ST:n ]a l&#39;air suspect, m&#234;me un tout petit petit peu, non ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

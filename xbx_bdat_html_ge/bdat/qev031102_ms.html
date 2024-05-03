@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031102_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0001</td>
+        <td class="side">Hmm. Aha, aha. Dann ist das also ebenfalls[ST:n ]eine Pflanze von der Erde?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0002</td>
+        <td class="side">Faszinierend. D&#252;rfte ich sie abschlagen und mit nach[ST:n ]Hause nehmen? Sie w&#228;re f&#252;r meine Forschungen[ST:n ]von gro&#223;em Nutzen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031102_JNK0010</td>
+        <td class="side">Nachhaken</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031102_SEL0011</td>
+        <td class="side">Frage den Orphen, ob er Botaniker ist.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031102_JNK0020</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031102_SEL0021</td>
+        <td class="side">Informiere den Orphen dar&#252;ber, dass B&#228;ume Gemeingut[ST:n ]sind und nicht einfach mitgenommen werden d&#252;rfen.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0003</td>
+        <td class="side">In der Tat. Mein Spezialgebiet sind tiefenbiologische[ST:n ]Analysen sowie die Vermehrung von Pflanzen.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0004</td>
+        <td class="side">Und wer bist du?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0005</td>
+        <td class="side">Aha, verstehe. Du suchst nach Informationen dar&#252;ber,[ST:n ]wie eine Baumart auf Mira angesiedelt werden kann,[ST:n ]die von den Prone auf den Planeten gebracht wurde.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0006</td>
+        <td class="side">Nun, kurz gesagt: Fast jede Baumart w&#228;chst, wenn man[ST:n ]mit Knorrenzweigsaft d&#252;ngt. Zu finden ganz im Norden[ST:n ]des Noctilums, genauer gesagt am Gottkehlchenhorst.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0007</td>
+        <td class="side">Ich bin nun selbst sehr neugierig auf diesen[ST:n ]„Gro&#223;en Baum“, wie du ihn nennst.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0008</td>
+        <td class="side">Auch mein Ovah wallt und wogt. Nun, so sei es denn.[ST:n ]Ich m&#246;chte diese Prone-Frau gerne kennenlernen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0009</td>
+        <td class="side">Ihr behandelt Organismen wie diesen als Eigentum[ST:n ]aller? Ihr Menschen seid in der Tat genauso seltsam,[ST:n ]wie es mir von Anfang an erschien.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0010</td>
+        <td class="side">Nun gut. Ich nehme an, als Bewohner von NLA[ST:n ]m&#252;ssen auch wir uns an eure Regeln halten.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0011</td>
+        <td class="side">Ein Samen wie der, den du erw&#228;hnst, sollte gut[ST:n ]gedeihen, wenn man ihn mit Knorrenzweigsaft d&#252;ngt,[ST:n ]zu finden am Gottkehlchenhorst im Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0012</td>
+        <td class="side">Hach, ich kann es kaum erwarten. Dieser Gro&#223;e Baum[ST:n ]scheint ganz nach meinem Geschmack zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0013</td>
+        <td class="side">Bitte &#252;bergib Naza den Knorrenzweigsaft.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0014</td>
+        <td class="side">Ich bin sehr gespannt, wie dieser Gro&#223;e Baum[ST:n ]sein wird, der aus dem Samen wachsen soll.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0015</td>
+        <td class="side">Oh, wie unangenehm. Ich habe etwas verspeist, was[ST:n ]f&#252;r Naza eine &#228;hnlich gro&#223;e Bedeutung hat wie f&#252;r[ST:n ]mich mein Ovah. Ich bin untr&#246;stlich.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0016</td>
+        <td class="side">Das war wirklich ein schwerer, schwerer Fehler.[ST:n ]Bitte besorge die Materialien, die ich dir genannt habe,[ST:n ]damit ich den Gro&#223;en Baum rekonstruieren kann.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0017</td>
+        <td class="side">Hast du die Materialien besorgt? Ich muss unbedingt[ST:n ]den Gro&#223;en Baum rekonstruieren.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0018</td>
+        <td class="side">Ah, sehr gut. Genau wie gew&#252;nscht.[ST:n ]Ich beginne sofort mit der Arbeit.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0019</td>
+        <td class="side">Um bestm&#246;gliche Ergebnisse zu erzielen, m&#252;sste ich dir[ST:n ]ein paar Fragen &#252;ber den Gro&#223;en Baum stellen, Naza.[ST:n ]Ich hoffe, das ist in Ordnung?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0020</td>
+        <td class="side">Frage.[ST:n ]Frage schnell.[ST:n ]Ist der Baum Kleinholz, bist du Kleinholz.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0021</td>
+        <td class="side">Dein Wissen, in Kombination mit den Daten, die ich[ST:n ]beim Verspeisen des Baums ausgelesen habe, wird[ST:n ]v&#246;llig ausreichen. Da kannst du dir ganz sicher sein.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0022</td>
+        <td class="side">Nun denn, beginnen wir.[ST:n ]Bitte beschreibe die Geschichte, die euch Prone[ST:n ]mit diesen heiligen B&#228;umen verbindet...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0023</td>
+        <td class="side">...Hmmm.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0024</td>
+        <td class="side">Ich versichere: Diese Rekonstruktion entspricht[ST:n ]eins zu eins dem Gro&#223;en Baum, den euer Volk[ST:n ]seit Generationen anbetet.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0025</td>
+        <td class="side">Und wei&#223;t du, was? Wenn ich mir den Baum von hier[ST:n ]aus betrachte... Dann verstehe ich, wie ihr zu dem[ST:n ]Gedanken gelangt, etwas G&#246;ttliches wohne ihm inne.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0026</td>
+        <td class="side">Seltsamer Professor. Nicht schlecht. Seltsam.[ST:n ]Andere Rasse. Seltsam.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0027</td>
+        <td class="side">Rassen m&#252;ssen sprechen. Untereinander. Mehr.[ST:n ]Was denkst du, Erdling?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev031102_JNK0030</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev031102_SEL0031</td>
+        <td class="side">Nicke und sage Naza, dass sie vollkommen recht hat.</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev031102_JNK0040</td>
+        <td class="side">Warnen</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev031102_SEL0041</td>
+        <td class="side">Weise darauf hin, dass v&#246;lliges Verst&#228;ndnis unter[ST:n ]den Kulturen ein Ding der Unm&#246;glichkeit ist.</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0028</td>
+        <td class="side">Erdling, du bist weise. Dein Volk ist weise.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0029</td>
+        <td class="side">Ich lerne von dir. Weniger Gewalt.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0030</td>
+        <td class="side">Vielleicht.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0031</td>
+        <td class="side">H&#246;hlenklan sind Prone. Baumklan sind Prone.[ST:n ]Und doch. Wir k&#228;mpfen seit zehntausend Sonnen.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0032</td>
+        <td class="side">Mein Klan. Orphenklan. Vielleicht k&#246;nnen wir[ST:n ]friedlich sein.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0033</td>
+        <td class="side">Professor. Du a&#223;t den Gro&#223;en Baum.[ST:n ]Du machtest einen neuen Gro&#223;en Baum.[ST:n ]Du lehrtest mich. Wir sind quitt.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0034</td>
+        <td class="side">Nanu?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0035</td>
+        <td class="side">Yun’tonam? Was tust du denn hier?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0036</td>
+        <td class="side">Mein... Oh, wie mein Ovah wallt und wogt![ST:n ]Ich sp&#252;rte, dass hier eine ganz besondere[ST:n ]Genese geschieht, und ich kam, um zu essen.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0037</td>
+        <td class="side">Du. DUUUU. Das war mein Gro&#223;er Baum.[ST:n ]Mein. Gro&#223;er. Baum.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0038</td>
+        <td class="side">Verzeihung? Das Original dieser Pflanze befand[ST:n ]sich in deinem Besitz?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0039</td>
+        <td class="side">Nun, dann lass mich dir mein allergr&#246;&#223;tes Kompliment[ST:n ]&#252;berbringen. Dein Prone-Baum mundete vorz&#252;glich.[ST:n ]Ich w&#252;rde ihn jederzeit wieder verspeisen.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0040</td>
+        <td class="side">Uchk. Grmm. Graaaahhhhauuuu![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0041</td>
+        <td class="side">Hier. Belohnung f&#252;r dich.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0042</td>
+        <td class="side">Ich spreche mit dem neuen Orphen.[ST:n ]Ich spreche. Bis er versteht.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0043</td>
+        <td class="side">Bis er sehr, sehr gut versteht.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0044</td>
+        <td class="side">Nichts zu danken. Solltest du weitere Reproduktionen[ST:n ]des Gro&#223;en Baums ben&#246;tigen, wei&#223;t du, an wen du[ST:n ]dich wenden kannst.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0045</td>
+        <td class="side">Auch dir sei Dank, Erdling.[ST:n ]Ohne dich? Katastrophe.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev031102_MSG0046</td>
+        <td class="side">Nimm dies. Ein Symbol meines Danks.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

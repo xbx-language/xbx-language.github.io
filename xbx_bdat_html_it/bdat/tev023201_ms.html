@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev023201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev023201_SEL0011</td>
+        <td class="side">Chiedi a Rosie del suo lavoro.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev023201_SEL0021</td>
+        <td class="side">Chiedi a Rosie se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0001</td>
+        <td class="side">La mia squadra sta facendo delle ricerche sulla[ST:n ]sostenibilit&#224; ambientale di Neo L.A., specialmente[ST:n ]per quanto riguarda l&#39;acqua.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0002</td>
+        <td class="side">Usare questo impianto di purificazione per trattare e[ST:n ]riutilizzare le acque di scarico e l&#39;acqua piovana[ST:n ]potrebbe essere sufficiente, non credi?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0003</td>
+        <td class="side">Tuttavia, Ajoa si &#232; messa in testa che una grave[ST:n ]carenza idrica colpir&#224; Neo L.A. e che l&#39;unica[ST:n ]soluzione sia usare acqua proveniente da fuori citt&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0004</td>
+        <td class="side">L&#39;unica ragione per cui lo dice, per&#242;, &#232; perch&#233; Ian &#232;[ST:n ]attraente e vuole lavorare con lui al lago. [ST:n ]Uh, davvero poco professionale![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0008</td>
+        <td class="side">Una signora stramba ha cominciato a dare fastidio[ST:n ]alla gente alla cattedrale, di recente.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0009</td>
+        <td class="side">Dice che una divinit&#224; chiamata \&quot;Angelo dei Miracoli\&quot;[ST:n ]ha fatto s&#236; che Neo L.A. si schiantasse su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0010</td>
+        <td class="side">Ma dov&#39;era questo Angelo dei Miracoli quando[ST:n ]gli Xenomorfi ci hanno attaccato?![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0011</td>
+        <td class="side">Uh. Cerco di andare a pregare alla cattedrale[ST:n ]tutti i giorni, ma ora ho paura di andarci perch&#233;[ST:n ]so che quella squinternata mi dar&#224; fastidio.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0010</td>
+        <td class="side">tev023201_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev023201_SEL1011</td>
+        <td class="side">Chiedi a Rosie del suo lavoro.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0020</td>
+        <td class="side">tev023201_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev023201_SEL1021</td>
+        <td class="side">Chiedi a Rosie quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0012</td>
+        <td class="side">A causa dell&#39;aumento della popolazione e della[ST:n ]produzione industriale, la carenza idrica che la mia[ST:n ]squadra aveva previsto &#232; diventata realt&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0013</td>
+        <td class="side">Ma non c&#39;&#232; motivo di preoccuparsi, l&#39;impianto di[ST:n ]purificazione dell&#39;acqua di Biahno che abbiamo[ST:n ]costruito ha stabilizzato le nostre scorte idriche.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0014</td>
+        <td class="side">All&#39;inizio non ero d&#39;accordo con quella strategia, ma[ST:n ]ho cambiato idea adesso che ho visto i benefici[ST:n ]che ha apportato alla citt&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0019</td>
+        <td class="side">Ajoa e Ian si sono trasferiti all&#39;impianto[ST:n ]di purificazione dell&#39;acqua di Biahno.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0020</td>
+        <td class="side">Cosa? Io? Oh, no davvero. Non mi trasferirei[ST:n ]mai laggi&#249;, neanche morta.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0021</td>
+        <td class="side">L&#39;intera zona &#232; ancora piena di mostri, no?[ST:n ]Quale sciocco vorrebbe essere trasferito l&#224;?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0022</td>
+        <td class="side">Per questo non mi sono lamentata quando Ian mi ha[ST:n ]assegnato il comando dell&#39;ufficio di Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0023</td>
+        <td class="side">Anche se sospetto che lo abbia fatto solo per non[ST:n ]avermi tra i piedi durante la loro vacanza[ST:n ]da piccioncini al lago...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0010</td>
+        <td class="side">tev023201_JNK0010</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev023201_SEL2011</td>
+        <td class="side">Chiedi a Rosie degli effetti provocati dal[ST:n ]trasferimento degli Xenomorfi a Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0020</td>
+        <td class="side">tev023201_JNK0020</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev023201_SEL2021</td>
+        <td class="side">Chiedi a Rosie quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0024</td>
+        <td class="side">L&#39;aumento della popolazione di Xenomorfi[ST:n ]ha avuto un forte impatto su Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0025</td>
+        <td class="side">Non vogliamo che rimangano disoccupati, quindi[ST:n ]dobbiamo dare loro la possibilit&#224; di lavorare[ST:n ]e diventare autosufficienti.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0026</td>
+        <td class="side">Dobbiamo anche aumentare la produzione[ST:n ]di cibo e acqua potabile.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0027</td>
+        <td class="side">Oh, e dobbiamo anche fornire loro un posto in cui[ST:n ]vivere. Certo, abbiamo l&#39;astronave Ma-non, ma non[ST:n ]possiamo farli vivere come dei rifugiati in eterno![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0028</td>
+        <td class="side">Quindi non ho tempo da perdere per riposare e[ST:n ]leccarmi le ferite, devo fare del mio meglio per aiutarli.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0031</td>
+        <td class="side">Adesso che i miei amici non sono pi&#249; qua, non &#232;[ST:n ]rimasto nessuno a gestire l&#39;impianto di[ST:n ]purificazione dell&#39;acqua di Biahno.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0032</td>
+        <td class="side">Dopo quell&#39;incidente... speravo che potessimo usare[ST:n ]un sistema di manutenzione automatico nell&#39;impianto,[ST:n ]in modo che nessuno dovesse mai pi&#249; tornarci...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0033</td>
+        <td class="side">Purtroppo per&#242; &#232; impossibile, dato che gran parte della[ST:n ]manutenzione da effettuare all&#39;impianto richiede[ST:n ]la presenza di manodopera umana.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0034</td>
+        <td class="side">Questo significa che dovr&#242; andare l&#224; di persona,[ST:n ]e la cosa mi spaventa parecchio.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0010</td>
+        <td class="side">tev023201_JNK0010</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev023201_SEL2011</td>
+        <td class="side">tev023201_SEL2011</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev023201_SEL3021</td>
+        <td class="side">Chiedi a Rosie quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0035</td>
+        <td class="side">Gli Orphe hanno creato delle Robosentinelle per[ST:n ]l&#39;impianto di purificazione dell&#39;acqua di Biahno![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0036</td>
+        <td class="side">Oh, li hai aiutati tu? Wow![ST:n ]Sei davvero [ST:Gender p1=il nuovo eroe p2=la nuova eroina ] di Neo L.A.![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0037</td>
+        <td class="side">A quanto pare, grazie a te non dovremo pi&#249;[ST:n ]preoccuparci degli attacchi dei mostri all&#39;impianto.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0038</td>
+        <td class="side">Non ho davvero pi&#249; scuse, ci andr&#242;! Per il bene di[ST:n ]Neo L.A. e per assicurarmi che il sacrificio dei[ST:n ]miei colleghi non sia stato vano.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0010</td>
+        <td class="side">tev023201_JNK0010</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev023201_SEL4011</td>
+        <td class="side">Chiedi a Rosie informazioni sui suoi colleghi.</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0020</td>
+        <td class="side">tev023201_JNK0020</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev023201_SEL4021</td>
+        <td class="side">Chiedi a Rosie quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0010</td>
+        <td class="side">tev023201_JNK0010</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev023201_SEL4031</td>
+        <td class="side">Chiedi a Rosie informazioni sui suoi colleghi.</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev023201_JNK0020</td>
+        <td class="side">tev023201_JNK0020</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev023201_SEL4021</td>
+        <td class="side">tev023201_SEL4021</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0039</td>
+        <td class="side">Ho appena avuto notizie da Ajoa! Dice che[ST:n ]finalmente si &#232; svegliata ed &#232; in grado[ST:n ]di muoversi autonomamente.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0040</td>
+        <td class="side">Mi ha persino raccontato qualcosa[ST:n ]di quello che &#232; successo.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0041</td>
+        <td class="side">A quanto pare, un Cabtor ha deposto le uova nel suo[ST:n ]corpo, in modo da sfruttare i componenti organici[ST:n ]del suo mimosoma.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0042</td>
+        <td class="side">Cielo, non voglio neanche pensarci.[ST:n ]Sono davvero dei mostri.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0043</td>
+        <td class="side">&#200; meglio che torni al lavoro. Non voglio che Ajoa sia[ST:n ]delusa del mio operato, una volta tornata.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0046</td>
+        <td class="side">L&#39;aiuto di Tan&#39;celeg si &#232; rivelato preziosissimo. In caso[ST:n ]abbia problemi tecnici, adesso posso rivolgermi a lui.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0047</td>
+        <td class="side">L&#39;unico problema &#232; che, ogni volta che brontolo su[ST:n ]qualcosa, Tan&#39;celeg lo prende sul serio e propone[ST:n ]soluzioni razionali.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0048</td>
+        <td class="side">&#200; cos&#236; serio! &#200; come parlare con una persona che[ST:n ]semplicemente non ti ascolta. Capisci cosa voglio dire?[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0049</td>
+        <td class="side">Questo deve rimanere tra di noi, per&#242;, OK?[ST:n ]Come collega, &#232; fantastico. Non voglio perderlo![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0058</td>
+        <td class="side">Ho avuto notizie dalla squadra di analisti che[ST:n ]stavano facendo ricerche su quello che...[ST:n ]prima era Ajoa.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0059</td>
+        <td class="side">A quanto pare, un Cabtor ha deposto le uova nel suo[ST:n ]corpo, in modo da sfruttare i componenti organici[ST:n ]del suo mimosoma.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0060</td>
+        <td class="side">Cielo, non voglio neanche pensarci.[ST:n ]Sono davvero dei mostri.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0061</td>
+        <td class="side">Deve essere stato orribile...[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev023201_MSG0062</td>
+        <td class="side">Ad ogni modo, da adesso in poi mi prender&#242; cura di[ST:n ]questo posto... come avrebbero fatto Ajoa e Ian.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

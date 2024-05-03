@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev020401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev020401_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev020401_SEL0011</td>
+        <td class="side">Chiedi ad Anna dei siti di installazione delle sonde dati.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev020401_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev020401_SEL0021</td>
+        <td class="side">Chiedi ad Anna se c&#39;&#232; qualcosa che la preoccupa.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev020401_JNK0010</td>
+        <td class="side">tev020401_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev020401_SEL0031</td>
+        <td class="side">Chiedi ad Anna perch&#233; N.L.A. sia costruita solo a met&#224;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev020401_JNK0020</td>
+        <td class="side">tev020401_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev020401_SEL0021</td>
+        <td class="side">tev020401_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev020401_JNK0010</td>
+        <td class="side">tev020401_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev020401_SEL0041</td>
+        <td class="side">Chiedi ad Anna della costruzione di N.L.A.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev020401_JNK0020</td>
+        <td class="side">tev020401_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev020401_SEL0021</td>
+        <td class="side">tev020401_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev020401_SEL1021</td>
+        <td class="side">Chiedi ad Anna quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev020401_SEL1041</td>
+        <td class="side">Chiedi ad Anna quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0001</td>
+        <td class="side">Oh, sei anche tu una nuova recluta?[ST:n ]Io ho appena finito il mio addestramento.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0002</td>
+        <td class="side">Per l&#39;addestramento, noi siamo partiti da questo[ST:n ]cancello e abbiamo esplorato la parte ovest[ST:n ]di Primordia, ma sembra che il tuo sia...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0003</td>
+        <td class="side">Oh, wow! Il tuo &#232; proprio dall&#39;altra parte! Gi&#224;,[ST:n ]ci arriverai molto prima se esci dal cancello[ST:n ]che si trova nella zona amministrativa.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0004</td>
+        <td class="side">Fai attenzione l&#224; fuori: non puoi mai sapere[ST:n ]che tipo di mostri potresti incontrare.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0005</td>
+        <td class="side">E se dovessi finire nei guai, scappa e mettiti in salvo.[ST:n ]Insomma, quanto sarebbe patetico farsi ammazzare[ST:n ]durante l&#39;addestramento?! Che vergognaaa![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0008</td>
+        <td class="side">Vorrei unirmi a una squadra di Pathfinder, ma non[ST:n ]riesco a decidere quale. Mi sembra di stare[ST:n ]invecchiando su questa decisione![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0009</td>
+        <td class="side">Insomma, le responsabilit&#224; di un BLADE sono troppe[ST:n ]per una povera recluta. E poi, andare in missione[ST:n ]senza poter parlare con nessuno... impazzirei![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0010</td>
+        <td class="side">Allora mi sono messa a valutare le varie opzioni:[ST:n ]la squadra di Robert sembra niente male...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0011</td>
+        <td class="side">Come caposquadra, Robert sembra un tipo in gamba[ST:n ]ed &#232; molto bravo a pianificare. Credo che sarei in[ST:n ]buone mani se decidessi di affidargli la mia vita.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0012</td>
+        <td class="side">E poi, sembra simpatico e pulito. Il che &#232; molto[ST:n ]importante, dato che voglio qualcuno che mi[ST:n ]lasci fare il bagno nelle pause durante le missioni.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0020</td>
+        <td class="side">Che? Soffri di amnesia o cosa?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0021</td>
+        <td class="side">Beh, l&#39;Habitat, come veniva chiamata prima quest&#39;unit&#224;[ST:n ]residenziale, &#232; stato costruito dopo la fuga dalla Terra,[ST:n ]mentre la Balena Bianca era in viaggio.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0022</td>
+        <td class="side">Ma poi, il dannato attacco degli Xenomorfi[ST:n ]ci ha fatti schiantare.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0023</td>
+        <td class="side">E l&#39;unit&#224; abitativa, ancora incompleta, ha finito[ST:n ]per precipitare qui su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0024</td>
+        <td class="side">Ora che non abbiamo pi&#249; a disposizione le unit&#224; di[ST:n ]costruzione della Balena, dobbiamo completare[ST:n ]l&#39;opera servendoci della sola forza lavoro umana.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0025</td>
+        <td class="side">E allora, rimbocchiamoci le maniche e[ST:n ]facciamo un lavoro come si deve![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0040</td>
+        <td class="side">&#200; sorprendente che, nonostante un attacco di[ST:n ]quella portata, nessun edificio di Neo L.A.[ST:n ]abbia riportato gravi danni.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0041</td>
+        <td class="side">A prima vista, non si direbbe che[ST:n ]la citt&#224; abbia subito un attacco.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0042</td>
+        <td class="side">Ero curiosa e allora ho chiesto a Ciska,[ST:n ]perch&#233; lei &#232; quella che sa tutto di tutto.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0043</td>
+        <td class="side">Mi ha detto che Neo L.A. &#232; stata progettata per[ST:n ]assomigliare a una tipica cittadina americana.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0044</td>
+        <td class="side">Inoltre, gli edifici sono fatti d&#39;acciaio e ricoperti da[ST:n ]una resina a prova di terremoto e resistente[ST:n ]addirittura ai proiettili d&#39;artiglieria![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev020401_MSG0045</td>
+        <td class="side">Questa s&#236; che &#232; l&#39;ultima roccaforte dell&#39;umanit&#224;![ST:n ]Questo posto pu&#242; anche tenerci al sicuro dai Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1046</td>
+        <td class="side">Ahhh... Non c&#39;&#232; niente di meglio di un bel[ST:n ]bagno caldo per distendersi e rilassarsi.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1047</td>
+        <td class="side">&#200; stato gentile, da parte di Robert, essere cos&#236;[ST:n ]paziente con me. Continuer&#242; a lavorare sodo[ST:n ]anche nella prossima missione![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1048</td>
+        <td class="side">Fare il bagno &#232; il massimo, vero? Non m&#39;importa in[ST:n ]quale angolo sperduto dell&#39;universo finir&#224; l&#39;umanit&#224;:[ST:n ]finch&#233; ci si potr&#224; fare il bagno, io sar&#242; a posto![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1049</td>
+        <td class="side">Ho persino suggerito a Kan&#39;tonam di iniziare[ST:n ]a fare il bagno anche lui.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1050</td>
+        <td class="side">Ma ha detto che gli farebbe gonfiare la pelle.[ST:n ]Sar&#224; cos&#236; per tutti gli Orphe?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1051</td>
+        <td class="side">Nessuno di loro conoscer&#224; mai le gioie del bagno.[ST:n ]Poveri, poveri sfortunati...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1060</td>
+        <td class="side">Adesso sono la presidentessa dell&#39;Associazione pro[ST:n ]Terme a Neo L.A.![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1061</td>
+        <td class="side">Finora abbiamo un solo membro: Ciska, che condivide[ST:n ]con me l&#39;amore per i lunghi bagni caldi e gli[ST:n ]stabilimenti termali.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1062</td>
+        <td class="side">Ma riusciremo a realizzare il nostro piano segreto per[ST:n ]costruire uno stabilimento termale pubblico a Neo L.A.[ST:n ]Spero di poter contare sul tuo aiuto sottobanco![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev020401_MSG1063</td>
+        <td class="side">Il nostro motto &#232;: \&quot;Le Terme prima di tutto.\&quot;[ST:n ]Perch&#233; Neo L.A. non sar&#224; mai davvero completa finch&#233;[ST:n ]non avr&#224; uno stabilimento termale come si deve![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

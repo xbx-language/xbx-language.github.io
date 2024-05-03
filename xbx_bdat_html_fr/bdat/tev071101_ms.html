@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev071101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev071101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev071101_SEL0011</td>
+        <td class="side">Demander &#224; San&#39;luarb de vous parler[ST:n ]des mim&#233;osomes.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev071101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev071101_SEL0021</td>
+        <td class="side">Demander &#224; San&#39;luarb si quelque chose le perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev071101_JNK0010</td>
+        <td class="side">tev071101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev071101_SEL0011</td>
+        <td class="side">tev071101_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev071101_JNK0020</td>
+        <td class="side">tev071101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev071101_SEL1021</td>
+        <td class="side">Demander &#224; San&#39;luarb s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev071101_JNK0010</td>
+        <td class="side">tev071101_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev071101_SEL1031</td>
+        <td class="side">Demander &#224; San&#39;luarb ce qu&#39;il pense faire ensuite.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev071101_JNK0020</td>
+        <td class="side">tev071101_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev071101_SEL1021</td>
+        <td class="side">tev071101_SEL1021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0001</td>
+        <td class="side">J&#39;ai cru comprendre qu&#39;&#233;tant donn&#233; la difficult&#233;[ST:n ]li&#233;e &#224; leur cr&#233;ation, vous subissez r&#233;guli&#232;rement[ST:n ]des p&#233;nuries de pi&#232;ces.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0002</td>
+        <td class="side">J&#39;ai sugg&#233;r&#233; &#224; quelques-uns de vos scientifiques[ST:n ]d&#39;utiliser des composants biotiques cr&#233;&#233;s par[ST:n ]les Orph&#233;ens &#224; la place, mais mon id&#233;e a &#233;t&#233; rejet&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0003</td>
+        <td class="side">Apparemment, ces pi&#232;ces n&#39;&#233;taient pas fiables[ST:n ]en plus d&#39;&#234;tre plut&#244;t... d&#233;go&#251;tantes.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0004</td>
+        <td class="side">Hein ? Vous ne savez pas ce que sont les composants[ST:n ]biotiques ? Eh bien, pour faire simple, ce sont[ST:n ]des pi&#232;ces vivantes de tr&#232;s haute qualit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0005</td>
+        <td class="side">Ils ne sont pas diff&#233;rents des vers sur votre Terre natale,[ST:n ]sauf qu&#39;ils sont programm&#233;s pour bouger[ST:n ]d&#39;une certaine fa&#231;on.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0010</td>
+        <td class="side">Avec mon assistante, Non&#39;barac, je cr&#233;e[ST:n ]des composants utilis&#233;s par Orphean Technologies.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0011</td>
+        <td class="side">Notre incapacit&#233; &#224; nous assurer une r&#233;serve constante[ST:n ]de miranium, que nous utilisons comme mat&#233;riau[ST:n ]primaire, a &#233;t&#233; source de contrari&#233;t&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0012</td>
+        <td class="side">Vous &#234;tes du BLADE, n&#39;est-ce pas ? Pourriez-vous[ST:n ]trouver le moyen de d&#233;velopper FrontierNav plus[ST:n ]rapidement afin d&#39;augmenter la capacit&#233; mini&#232;re ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev071101_MSG0013</td>
+        <td class="side">Merci de vous d&#233;p&#234;cher. Nous avons d&#233;j&#224; utilis&#233;[ST:n ]tout notre stock de miranium.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1001</td>
+        <td class="side">Mon peuple ne se range pas de lui-m&#234;me en structures[ST:n ]hi&#233;rarchiques comme vous les humains avez tendance[ST:n ]&#224; le faire.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1002</td>
+        <td class="side">N&#233;anmoins, dans une tentative d&#39;imiter les entreprises[ST:n ]g&#233;r&#233;es par les humains, je me suis proclam&#233; directeur,[ST:n ]avec Non&#39;barac pour assistante.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1003</td>
+        <td class="side">Cependant, depuis que Non&#39;barac est rentr&#233;e[ST:n ]de son projet de recherches, les choses ont... chang&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1004</td>
+        <td class="side">Elle g&#232;re d&#233;sormais l&#39;emploi du temps de l&#39;entreprise et[ST:n ]n&#233;gocie avec les humains, pendant que je me consacre[ST:n ]enti&#232;rement &#224; la fabrication des composants.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1005</td>
+        <td class="side">Aurions-nous affaire &#224; une inversion de r&#244;les ?[ST:n ]Bien que cela ne me d&#233;range pas si c&#39;est le cas.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1010</td>
+        <td class="side">Avec la disparition du Ganglion, il y aura moins[ST:n ]de demandes en ce qui concerne l&#39;armement.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1011</td>
+        <td class="side">Il est donc tr&#232;s important que nous diversifiions[ST:n ]notre ligne de dispositifs biotiques en nouvelles[ST:n ]cat&#233;gories de produits.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1012</td>
+        <td class="side">Je comprends bien que, en tant qu&#39;humains, la vision[ST:n ]de cr&#233;atures ressemblant &#224; des vers vous r&#233;pugne.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1013</td>
+        <td class="side">Et je vous assure que bien que les produits paraissent[ST:n ]vivants, ils sont faits de miranium et ne vous feront pas[ST:n ]de mal si vous les touchez.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev071101_MSG1014</td>
+        <td class="side">Ce serait peut-&#234;tre une bonne id&#233;e pour que[ST:n ]vous puissiez vous doucher sans eau. Ils enl&#232;veraient[ST:n ]la salet&#233; de votre corps en ondulant sur votre peau.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

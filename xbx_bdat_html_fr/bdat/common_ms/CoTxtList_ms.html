@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CoTxtList_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Dan Sakuraba</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Carmela Celena</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Louis R. Damon</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Tutura</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">De Zardo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">On&#39;tonam</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Nan</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Professeur B</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">（予備）</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">（予備）</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">L&#39;entreprise au cœur du groupe Sakuraba.[ST:n ]Respect&#233;e pour la qualit&#233; de son travail.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Une nouvelle compagnie d&#39;armes espagnole[ST:n ]d&#233;di&#233;e &#224; la recherche sur la technologie laser.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Une jeune entreprise qui cherche &#224; cr&#233;er[ST:n ]une nouvelle g&#233;n&#233;ration d&#39;armes bas&#233;es[ST:n ]sur la technologie du Ganglion.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Une entreprise fond&#233;e pour s&#39;amuser par des[ST:n ]Ma-nons. Elle d&#233;veloppe des produits[ST:n ]garantissant la protection de la vie.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">La branche locale de la manufacture d&#39;armes[ST:n ]wrothianne. Son nom vient des six strat&#232;ges[ST:n ]qui ont cr&#233;&#233; l&#39;entreprise.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Un groupe cr&#233;&#233; par des Orph&#233;ens ayant fui[ST:n ]le Ganglion. Leur &#233;quipement est bien[ST:n ]diff&#233;rent de celui cr&#233;&#233; par les humains.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">Cette entreprise fait partie de la guilde[ST:n ]commerciale nopone, qui a d&#233;but&#233; par[ST:n ]la vente de fruits et noix.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">Un marchand solitaire aux go&#251;ts particuliers.[ST:n ]Ses clients sont nombreux, discrets,[ST:n ]mais extr&#234;mement loyaux.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">（予備）</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">（予備）</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">Leurs armes sont connues pour leur stabilit&#233;,[ST:n ]mais leur r&#233;sistance face aux attributs non-[ST:n ]physiques n&#39;est pas encore tr&#232;s d&#233;velopp&#233;e.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">Leurs principaux produits se concentrent sur[ST:n ]les lasers. Leur &#233;quipement de terrain[ST:n ]anti-laser conna&#238;t un grand succ&#232;s.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">Leur &#233;quipement utilise l&#39;&#233;ther, une technologie[ST:n ]difficile &#224; manipuler. C&#39;est peut-&#234;tre pourquoi[ST:n ]il n&#39;est pas stable.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">Leur &#233;quipement de d&#233;fense haut niveau est[ST:n ]excellent, et ils &#233;largissent leur gamme[ST:n ]avec des armes &#233;lectriques.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">Leurs armes infligent de gros d&#233;g&#226;ts, mais[ST:n ]leur manque de pr&#233;cision doit &#234;tre compens&#233;[ST:n ]par les comp&#233;tences de l&#39;utilisateur.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">Leur production est essentiellement bas&#233;e sur[ST:n ]l&#39;esquive, mais leur meilleure vente est[ST:n ]une ligne d&#39;armes antigravit&#233;.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">Presque toutes leurs armes sont thermiques.[ST:n ]De nombreux mod&#232;les sont modifi&#233;s[ST:n ]pour avoir plus de munitions.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">Il offre une gamme de produits antigravit&#233;[ST:n ]de grande valeur. Il est connu pour son sens[ST:n ]du d&#233;tail dans la forme comme dans[ST:n ]la fonction.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">CoCaption2_09</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">CoCaption2_10</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

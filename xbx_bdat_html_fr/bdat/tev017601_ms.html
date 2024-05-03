@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev017601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0011</td>
+        <td class="side">tev017601_SEL0011</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0021</td>
+        <td class="side">tev017601_SEL0021</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">tev017601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0031</td>
+        <td class="side">Demander &#224; Thomas des informations sur les indig&#232;nes[ST:n ]de Primordia.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">tev017601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0041</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">tev017601_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0031</td>
+        <td class="side">tev017601_SEL0031</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">tev017601_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0061</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">tev017601_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0071</td>
+        <td class="side">Poser des questions &#224; Thomas au sujet des indig&#232;nes[ST:n ]de Primordia.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">tev017601_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0081</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">tev017601_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0071</td>
+        <td class="side">Demander &#224; Thomas des informations sur les indig&#232;nes[ST:n ]de Primordia.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">tev017601_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0101</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">tev017601_JNK0010</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0071</td>
+        <td class="side">Demander &#224; Thomas des informations sur les indig&#232;nes[ST:n ]de Primordia.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">tev017601_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0121</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0010</td>
+        <td class="side">tev017601_JNK0010</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0091</td>
+        <td class="side">Demander &#224; Thomas des informations sur le combat[ST:n ]aux commandes d&#39;un Skell.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev017601_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev017601_SEL0141</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev017601_SEL4021</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev017601_SEL5021</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev017601_SEL6021</td>
+        <td class="side">Demander &#224; Thomas s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0001</td>
+        <td class="side">tev017601_MSG0001</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0002</td>
+        <td class="side">tev017601_MSG0002</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0003</td>
+        <td class="side">tev017601_MSG0003</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0008</td>
+        <td class="side">tev017601_MSG0008</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0009</td>
+        <td class="side">tev017601_MSG0009</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0010</td>
+        <td class="side">tev017601_MSG0010</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0015</td>
+        <td class="side">Et si tu t&#39;entra&#238;nais au combat contre les indig&#232;nes[ST:n ]en affrontant quelques ovis ? Ils pullulent dans[ST:n ]le coin...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0016</td>
+        <td class="side">&#192; l&#39;inverse des grex et d&#39;autres indig&#232;nes plus f&#233;roces,[ST:n ]les ovis ne t&#39;attaqueront que pour se d&#233;fendre. &#199;a en[ST:n ]fait des cibles d&#39;entra&#238;nement plut&#244;t pratiques.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0017</td>
+        <td class="side">Et laisse-moi te donner un autre conseil : ne t&#39;amuse[ST:n ]pas &#224; chercher des noises aux dangereuses bestioles[ST:n ]que l&#39;on trouve pr&#232;s du lac Sayram, au nord.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0018</td>
+        <td class="side">Plus d&#39;un Interceptor y a laiss&#233; sa peau. Et ce n&#39;&#233;tait[ST:n ]pourtant pas des manches.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0019</td>
+        <td class="side">M&#234;me si vouloir prot&#233;ger la ville est un objectif noble,[ST:n ]risquer ta vie de cette mani&#232;re n&#39;en vaut pas la peine.[ST:n ]Si tu en aper&#231;ois un, prends la poudre d&#39;escampette.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0025</td>
+        <td class="side">L&#39;&#233;quipe de Nelson a disparu, apparemment.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0026</td>
+        <td class="side">Ils pr&#233;voyaient d&#39;installer plusieurs sondes de donn&#233;es[ST:n ]et de revenir en ville tout de suite apr&#232;s. Qu&#39;est-ce qui[ST:n ]a bien pu leur arriver ?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0027</td>
+        <td class="side">Je ne sais pas &#224; quel genre d&#39;ennemi ils ont eu &#224; se[ST:n ]frotter, mais que &#231;a nous serve de le&#231;on : il faut rester[ST:n ]sur ses gardes au cours d&#39;une exploration.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0032</td>
+        <td class="side">J&#39;ai entendu dire qu&#39;on avait d&#233;couvert le fort o&#249; les[ST:n ]Prones qui ont massacr&#233; l&#39;&#233;quipe de Nelson sont tapis.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0033</td>
+        <td class="side">Toute la division Interceptor est en alerte maximale,[ST:n ]alors on sera pr&#234;ts &#224; les repousser quand ils[ST:n ]passeront &#224; l&#39;attaque.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0034</td>
+        <td class="side">Bref, laisse-nous nous occuper de &#231;a. Continue donc[ST:n ]&#224; t&#39;occuper de ta mission d&#39;exploration.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0035</td>
+        <td class="side">Je jure sur mon honneur d&#39;Interceptor qu&#39;aucun Prone[ST:n ]ne posera le pied dans cette ville ![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0040</td>
+        <td class="side">Il y a le duoguill enrag&#233;, vers la mare pr&#232;s du rocher[ST:n ]du Toit, le xiphias qui a &#233;t&#233; d&#233;couvert dans la crique[ST:n ]de la Pointe nord...[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0041</td>
+        <td class="side">Luciel l&#39;immortel, le mill&#233;saur des plaines &#224; l&#39;ouest[ST:n ]du lac Janpath...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0042</td>
+        <td class="side">On dirait que pas mal de tyrans apparaissent dans[ST:n ]cette zone ![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0043</td>
+        <td class="side">Plusieurs Harriers ont d&#233;j&#224; perdu la vie &#224; cause d&#39;eux.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0044</td>
+        <td class="side">Alors n&#39;essaie m&#234;me pas de les affronter, &#224; moins[ST:n ]d&#39;avoir une totale confiance en tes capacit&#233;s ![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0050</td>
+        <td class="side">Un vaisseau appartenant &#224; une esp&#232;ce x&#233;noforme[ST:n ]r&#233;cemment d&#233;couverte a &#233;t&#233; vu en Oblivia,[ST:n ]au nord-est de New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0051</td>
+        <td class="side">Les indig&#232;nes d&#39;ici n&#39;arrivent pas &#224; la cheville des[ST:n ]b&#234;tes f&#233;roces qui habitent cette r&#233;gion-l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0052</td>
+        <td class="side">Et pour autant que l&#39;on sache, ces x&#233;nos seront aussi[ST:n ]hostiles que les Prones qu&#39;on a d&#233;j&#224; rencontr&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0053</td>
+        <td class="side">Si tu vas l&#224;-bas pour v&#233;rifier &#231;a, assure-toi d&#39;avoir[ST:n ]tout l&#39;&#233;quipement n&#233;cessaire.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0058</td>
+        <td class="side">Quand le vaisseau ma-non est apparu &#224; l&#39;est, j&#39;&#233;tais[ST:n ]s&#251;r qu&#39;on &#233;tait sur le point d&#39;&#234;tre attaqu&#233;s ![ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0059</td>
+        <td class="side">Tu imagines mon soulagement quand on a appris[ST:n ]qu&#39;ils &#233;taient l&#224; pour signer un trait&#233; d&#39;amiti&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0060</td>
+        <td class="side">Si on peut s&#39;allier &#224; une race extraterrestre &#224; la[ST:n ]technologie si avanc&#233;e, gagner cette guerre[ST:n ]pourrait devenir un jeu d&#39;enfant...[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0061</td>
+        <td class="side">Ces derniers temps n&#39;ont pas &#233;t&#233; des plus faciles pour[ST:n ]nous, mais ces nouveaux &#233;v&#232;nements pourraient bien[ST:n ]nous apporter une raison d&#39;esp&#233;rer...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0065</td>
+        <td class="side">Je n&#39;arrive pas &#224; croire qu&#39;on ait affront&#233;[ST:n ]le Ganglion ! &#199;a, c&#39;&#233;tait de la bagarre ![ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0066</td>
+        <td class="side">Pendant que vous d&#233;fendiez la ville, on courait tout[ST:n ]autour du p&#233;rim&#232;tre pour tenter de repousser[ST:n ]les vagues ennemies.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0067</td>
+        <td class="side">Mais chaque assaillant tu&#233; &#233;tait aussit&#244;t remplac&#233; par[ST:n ]des renforts venus du nord.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0068</td>
+        <td class="side">Si tu continues un long moment vers le nord, tu finiras[ST:n ]par atteindre Sylvalum. Je me demande si le Q.G.[ST:n ]ennemi est dans cette r&#233;gion...[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0069</td>
+        <td class="side">&#201;tablir une pr&#233;sence dans la r&#233;gion pourrait nous &#234;tre[ST:n ]utile pour nous pr&#233;parer &#224; leur prochaine attaque.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0075</td>
+        <td class="side">Pff... Qu&#39;est-ce qu&#39;on s&#39;ennuie ici... Et la m&#233;t&#233;o[ST:n ]n&#39;arrange rien.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0076</td>
+        <td class="side">Hmm ? Tu penses que je suis un gros fain&#233;ant, hein ?[ST:n ]Je le vois bien dans ton regard.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0077</td>
+        <td class="side">Laisse-moi te dire un truc, je passe pas mon[ST:n ]temps plant&#233; l&#224;, les mains dans les poches ![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0078</td>
+        <td class="side">Parfois je vais dehors affronter de f&#233;roces[ST:n ]indig&#232;nes pour m&#39;assurer que la porte est[ST:n ]est s&#233;curis&#233;e ![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0079</td>
+        <td class="side">Alors qu&#39;est-ce que &#231;a peut faire si je me laisse aller[ST:n ]de temps en temps, hein ? &#199;a te pose probl&#232;me ?[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0080</td>
+        <td class="side">Quand je vois quelqu&#39;un utiliser un Skell pour tirer sur[ST:n ]de petits indig&#232;nes comme les ovis, je ne peux que[ST:n ]lever les yeux au ciel.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0081</td>
+        <td class="side">Tuer un adversaire moins gros que ton Skell[ST:n ]ne te donnera que peu d&#39;exp&#233;rience.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0082</td>
+        <td class="side">Un Skell ne fait pas tout. Souvent, l&#39;exp&#233;rience ne[ST:n ]peut s&#39;acqu&#233;rir qu&#39;&#224; pied, en combattant au sol.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>tev017601_MSG0083</td>
+        <td class="side">Tu devrais &#233;tudier chacun de tes ennemis et choisir si[ST:n ]tu les affrontes &#224; pied ou aux commandes d&#39;un Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>tev017601_MSG1001</td>
+        <td class="side">J&#39;ai essay&#233; une boule de fumiel, comme tu me l&#39;as[ST:n ]recommand&#233; et... pfiou ![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>tev017601_MSG1002</td>
+        <td class="side">Au lieu d&#39;avoir &#224; chasser les indig&#232;nes, ce sont eux qui[ST:n ]nous ont couru apr&#232;s.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>tev017601_MSG1003</td>
+        <td class="side">Et vu qu&#39;on n&#39;y voyait plus rien avec cette fum&#233;e, mon[ST:n ]&#233;quipe a &#233;t&#233; d&#233;cim&#233;e et tout le monde a fini au centre[ST:n ]de maintenance. Je leur ai dit de t&#39;envoyer la note.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>tev017601_MSG2001</td>
+        <td class="side">Cette invention de casserole bouillante que tu m&#39;as[ST:n ]recommand&#233;e est incroyable.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>tev017601_MSG2002</td>
+        <td class="side">J&#39;ai entendu dire que sa temp&#233;rature ne retombait[ST:n ]jamais, donc je me suis dit que &#231;a pourrait[ST:n ]faire l&#39;affaire.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>tev017601_MSG2003</td>
+        <td class="side">Je l&#39;ai apport&#233;e &#224; un m&#233;cano x&#233;noforme qui l&#39;a[ST:n ]install&#233;e sur mon Skell et boum ! &#199;a marche comme[ST:n ]sur des roulettes.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>tev017601_MSG2004</td>
+        <td class="side">Au revoir, probl&#232;mes de carburant ! Bonjour, Skell[ST:n ]thermo&#233;lectrique autonome ! [ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>tev017601_MSG2005</td>
+        <td class="side">Bon, c&#39;est s&#251;r, maintenant j&#39;ai un Skell avec une &#233;norme[ST:n ]casserole coll&#233;e dans le dos, ce qui n&#39;est pas forc&#233;ment[ST:n ]tr&#232;s joli... Mais bon ![ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>tev017601_MSG2006</td>
+        <td class="side">Ce qui compte, c&#39;est que mon taux de r&#233;ussite est en[ST:n ]train d&#39;exploser. Et j&#39;accomplis deux fois plus de[ST:n ]missions qu&#39;auparavant. Merci bien ![ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>tev017601_MSG3001</td>
+        <td class="side">Ce hamac &#233;lectrique que tu m&#39;as recommand&#233; est[ST:n ]tout bonnement incroyable ![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>tev017601_MSG3002</td>
+        <td class="side">&#199;a fait un bout de temps que j&#39;ai des probl&#232;mes de[ST:n ]dos, mais apr&#232;s une nuit pass&#233;e dans ce hamac, hop ![ST:n ]La douleur s&#39;est envol&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>tev017601_MSG3003</td>
+        <td class="side">Je ne me s&#233;parerai jamais de ce truc. Merci ![ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>tev017601_MSG4001</td>
+        <td class="side">Tu ne me croirais pas si je te disais combien de[ST:n ]bestioles nous ont encercl&#233;s quand on a lanc&#233;[ST:n ]cette boule de fumiel.[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>tev017601_MSG4002</td>
+        <td class="side">Quel d&#233;sastre... J&#39;ai beaucoup de chance d&#39;&#234;tre en vie ![ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>tev017601_MSG4003</td>
+        <td class="side">Tu sais quoi ? Je vais demander &#224; L de partager la[ST:n ]facture pour les r&#233;parations de mes co&#233;quipiers. Dis-lui[ST:n ]de prendre ses responsabilit&#233;s. Il ne se d&#233;filera pas ![ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>tev017601_MSG5001</td>
+        <td class="side">Je n&#39;aurais jamais pens&#233; qu&#39;une... casserole pouvait[ST:n ]g&#233;n&#233;rer assez de chaleur pour alimenter un Skell[ST:n ]en &#233;nergie.[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>tev017601_MSG5002</td>
+        <td class="side">L est un v&#233;ritable g&#233;nie. Il propose vraiment[ST:n ]des produits fantastiques. Et cette casserole[ST:n ]bouillante en fait partie.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>tev017601_MSG5003</td>
+        <td class="side">Dis-lui que je vais prot&#233;ger la ville aux commandes[ST:n ]de mon super Skell casserole ![ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>tev017601_MSG6001</td>
+        <td class="side">Gr&#226;ce &#224; ce hamac &#233;lectrique que tu m&#39;as recommand&#233;,[ST:n ]mon dos ne me fait plus souffrir.[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>tev017601_MSG6002</td>
+        <td class="side">L est vraiment un g&#233;nie. Je n&#39;arrive pas &#224; croire qu&#39;il[ST:n ]ait d&#233;velopp&#233; des produits ergonomiques qui marchent[ST:n ]m&#234;me sur des mim&#233;osomes.[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>tev017601_MSG6003</td>
+        <td class="side">Son magasin va vite devenir ma destination pr&#233;f&#233;r&#233;e...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

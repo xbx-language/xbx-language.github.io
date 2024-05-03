@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev092601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0001</td>
+        <td class="side">Compito a sorpresa, capo![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0002</td>
+        <td class="side">Hai una richiesta urgente, questione di vita[ST:n ]o di morte, da parte di un Nopon...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0003</td>
+        <td class="side">Dovevate incontrarvi qui, ma lui &#232; in ritardo di ore...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0004</td>
+        <td class="side">Cosa faresti?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0010</td>
+        <td class="side">Cerca</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0011</td>
+        <td class="side">Di&#39; che lo andresti a cercare immediatamente.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0020</td>
+        <td class="side">Attendi</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0021</td>
+        <td class="side">Di&#39; che rimarresti qui ad aspettarlo.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0005</td>
+        <td class="side">Sei sempre cos&#236; di corsa, capo![ST:n ]Mi ricordi com&#39;ero io prima.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0006</td>
+        <td class="side">Non so se &#232; una buona idea. Se me ne vado ora,[ST:n ]potrebbe arrivare e non trovarmi pi&#249;, dico bene?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0007</td>
+        <td class="side">Io dico di essere pazienti e aspettare. Inoltre,[ST:n ]&#232; un&#39;occasione per parlare un po&#39;.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0008</td>
+        <td class="side">Te la prendi sempre con calma, capo![ST:n ]Per&#242; sarebbe bello riposarsi un po&#39;.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0009</td>
+        <td class="side">&#200; piacevole dimenticarsi dei doveri ogni tanto.[ST:n ]Ultimamente, non mi sono fermata un attimo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0010</td>
+        <td class="side">Beh, abbiamo tempo. Ti va una chiacchierata?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0011</td>
+        <td class="side">Ti ricordi questo posto?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0011_2</td>
+        <td class="side">La prima volta che ci siamo incontrati[ST:n ]eravamo esattamente dove siamo ora.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0030</td>
+        <td class="side">Conferma</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0031</td>
+        <td class="side">Di&#39; a Mia che te lo ricordi come se fosse ieri.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0040</td>
+        <td class="side">Nega</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0041</td>
+        <td class="side">Di&#39; che non ricordi.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0012</td>
+        <td class="side">Sapevo che non l&#39;avresti dimenticato.[ST:n ]Ma sono felice di sentirtelo dire.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0013</td>
+        <td class="side">Ah! Ti va sempre di scherzare! Per&#242;, nel[ST:n ]frattempo ne sono successe di cose...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0014</td>
+        <td class="side">Abbiamo esplorato tutto Mira da allora.[ST:n ]Io sono riuscita a diventare una BLADE...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0015</td>
+        <td class="side">Sono entrata nei Curator...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0016</td>
+        <td class="side">Tu e io insieme, abbiamo cominciato ad andare[ST:n ]all&#39;avventura in prima linea...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0017</td>
+        <td class="side">&#200; successo tutto cos&#236; in fretta![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0018</td>
+        <td class="side">Mi chiedo cosa penserebbero i miei[ST:n ]genitori se fossero ancora vivi.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0019</td>
+        <td class="side">Non sono ancora esperta come erano loro,[ST:n ]ma mi piace pensare che sarebbero fieri.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0050</td>
+        <td class="side">Conferma</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0051</td>
+        <td class="side">Di&#39; a Mia che i suoi genitori sarebbero[ST:n ]sicuramente fieri di lei.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0060</td>
+        <td class="side">Rimprovera</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0061</td>
+        <td class="side">Di&#39; a Mia che i suoi genitori penserebbero[ST:n ]che ha ancora tanta strada da fare.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0020</td>
+        <td class="side">Oh, grazie capo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0021</td>
+        <td class="side">Mi ricordo che una volta da piccola mi persi[ST:n ]mentre andavo verso un paese vicino.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0022</td>
+        <td class="side">Quando mi trovarono, non erano neanche[ST:n ]arrabbiati. Anzi, apprezzarono il mio coraggio.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0023</td>
+        <td class="side">Probabilmente lo apprezzerebbero anche adesso.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0024</td>
+        <td class="side">Ah! S&#236;, immagino di s&#236;.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0025</td>
+        <td class="side">Erano entrambi molto simili all&#39;istruttore Walter,[ST:n ]pretendevano tanto. Perch&#233; mi volevano bene.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0026</td>
+        <td class="side">Ma credo di dover ancora migliorare, eh?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0027</td>
+        <td class="side">Scusa! Tora ha fatto tardi! Dov&#39;&#232; amica Mia?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0028</td>
+        <td class="side">Sono io. Tu sei il cliente? Caspita, sei adorabile![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0029</td>
+        <td class="side">Tora non &#232; adorabile! Tora &#232; figo.[ST:n ]Forse anche stupendo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0030</td>
+        <td class="side">Questo &#232; ci&#242; che dicono tutti i maschi[ST:n ]Nopon, ma a me sembra solo carino.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0031</td>
+        <td class="side">Tu non preoccupa. Tora sta davvero per diventare stupendo![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0032</td>
+        <td class="side">Oh, fammi indovinare![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0033</td>
+        <td class="side">Il mio lavoro &#232; quello di trovare la cosa[ST:n ]che lo render&#224; possibile, giusto?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0034</td>
+        <td class="side">Amica &#232; pi&#249; intelligente di quanto Tora pensava.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0035</td>
+        <td class="side">Che dire? Quando uno ha visto tutto quello[ST:n ]che ho visto io, certe cose le percepisce al volo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0036</td>
+        <td class="side">E percepisco che tu vuoi... la Spada leggendosa![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0037</td>
+        <td class="side">Tora non cerca giocattoli, signorina.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0038</td>
+        <td class="side">Oooh...[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0039</td>
+        <td class="side">Tora cerca moneta![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0040</td>
+        <td class="side">Ti servono spicci?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0041</td>
+        <td class="side">Amici conosce carovanepon che viaggia su Mirapon?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0042</td>
+        <td class="side">Certo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0043</td>
+        <td class="side">Prima che Nopon pu&#242; cominciare a vendere con[ST:n ]carovana, deve unirsi a Nopon Commerce Guild.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0044</td>
+        <td class="side">Oh! E questa moneta che cerchi viene usata[ST:n ]per provare che si &#232; membri?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0045</td>
+        <td class="side">Amica &#232; cos&#236; perspicace![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0046</td>
+        <td class="side">Per&#242; s&#236;. Con moneta in palmo di manopon,[ST:n ]Tora non perde contro stupido Tatsu.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0047</td>
+        <td class="side">Cos&#236; Tora pu&#242; andare a trovare babbopon e mammapon![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0070</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0071</td>
+        <td class="side">Chiedi a Tora come mai &#232; arrabbiato con Tatsu.</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev092601_JNK0080</td>
+        <td class="side">Supponi</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev092601_SEL0081</td>
+        <td class="side">Chiedi a Tora se, senza la moneta, non[ST:n ]pu&#242; andare a trovare i suoi genitori.</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0048</td>
+        <td class="side">Stupido Tatsu si vanta sempre di risultati con BLADE![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0049</td>
+        <td class="side">Ecco perch&#233; Tora vuole diventare grande[ST:n ]mercante e fare pernacchie a Tatsu.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0050</td>
+        <td class="side">In pi&#249;, mammapon di Tora tra poco torna a[ST:n ]casa dopo lungo viaggio da mercante.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0051</td>
+        <td class="side">Tora promesso che &#232; indipendente prima di quel momento.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0052</td>
+        <td class="side">Se mammapon torna prima che Tora &#232;[ST:n ]mercante, Tora muore di vergogna.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0053</td>
+        <td class="side">Tora ha promesso che &#232; indipendente[ST:n ]prima che mammapon torna da viaggio.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0054</td>
+        <td class="side">Se mammapon torna prima che Tora &#232;[ST:n ]mercante, Tora muore di vergogna.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0055</td>
+        <td class="side">Oh, i ragazzi pi&#249; piccoli cercano sempre di[ST:n ]impressionare la mamma. Sono adorabili![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0056</td>
+        <td class="side">Tora non &#232; adorabile! Comunque Tora ammette[ST:n ]che amica detto cosa giusta.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0057</td>
+        <td class="side">Genitori di Tora gira per Mira e vende tesori rari e preziosi.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0058</td>
+        <td class="side">Loro &#232; leggenda tra mercanti Nopon.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0059</td>
+        <td class="side">Sembrano proprio come i miei genitori.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0060</td>
+        <td class="side">Mi lasciavano da sola dieci mesi all&#39;anno[ST:n ]per andare in cerca di avventure.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0061</td>
+        <td class="side">Quindi amica capisce dolore di Tora?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0062</td>
+        <td class="side">Oh, credimi, lo capisco. Sono diventata una[ST:n ]BLADE perch&#233; parte di me ancora li rincorreva.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0063</td>
+        <td class="side">Amica e Tora ha molto in comune.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0064</td>
+        <td class="side">Tora vuole diventare forte, indipendente, e[ST:n ]grande figo come mammapon e babbopon.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0065</td>
+        <td class="side">Beh, per me sei gi&#224; abbastanza figo, ma[ST:n ]continua a mirare in alto.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0066</td>
+        <td class="side">Tora ha fatto pieno di complimenti![ST:n ]Tora ora &#232; soddisfatto.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0067</td>
+        <td class="side">Ehi, aspetta, torniamo al punto, OK?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0068</td>
+        <td class="side">Non vorrai mica infrangere la promessa, vero?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0069</td>
+        <td class="side">No![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0070</td>
+        <td class="side">Genitori viene in questa zona solo un giorno[ST:n ]all&#39;anno. &#200; unica mia occasione per vedere loro![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0071</td>
+        <td class="side">Ma Tora non &#232; molto vicino a ottenere[ST:n ]moneta di Nopon Commerce Guild.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0071_2</td>
+        <td class="side">Prospettiva terribile![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0072</td>
+        <td class="side">Amica aiuta Tora?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0073</td>
+        <td class="side">Ma certo![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0073_2</td>
+        <td class="side">Per te, sono anche disposta ad[ST:n ]abbassare il prezzo del servizio.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0074</td>
+        <td class="side">Ti basta una Carota Keppo?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0075</td>
+        <td class="side">Ora non esagerare, amico.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0076</td>
+        <td class="side">OK OK, Tora pensa a qualcosa di buono[ST:n ]quando missione &#232; terminata.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0077</td>
+        <td class="side">Affare fatto. Quindi, da dove cominciamo?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0078</td>
+        <td class="side">Grande Nan qui a Neo L.A. &#232; esperto di monete.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0079</td>
+        <td class="side">Ma testardo Nan non prende Tora sul serio![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0080</td>
+        <td class="side">Forse amica pu&#242; convincere Nan[ST:n ]a dare informazioni su moneta?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0081</td>
+        <td class="side">Sar&#224; fatto![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0082</td>
+        <td class="side">Allora Tora fa strada![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev092601_MSG0083</td>
+        <td class="side">Forza, capo! Dobbiamo correre per stargli dietro![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

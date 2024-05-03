@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CHR_ClassListCaption_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">La classe par laquelle vous d&#233;butez. Elle offre[ST:n ]une palette vari&#233;e d&#39;arts, mais pas de bonus[ST:n ]de statistiques.</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Choisissez cette voie si vous d&#233;sirez d&#233;cha&#238;ner[ST:n ]vos pistolets. M&#233;lange d&#39;arts d&#39;attaque et de[ST:n ]d&#233;fense, elle offre des PV et des bonus de[ST:n ]c.-&#224;-c. &#201;clectique et adapt&#233;e aux d&#233;butants.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">La progression normale depuis Frappeur.[ST:n ]M&#233;lange d&#39;arts d&#39;attaque et de d&#233;fense,[ST:n ]offre des bonus aux PV et au corps-&#224;-corps.[ST:n ]&#201;clectique et adapt&#233;e aux d&#233;butants.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Artilleur samoura&#239; avanc&#233;. Se concentre[ST:n ]sur l&#39;attaque. Offre des bonus aux PV ainsi[ST:n ]qu&#39;aux attaques au corps-&#224;-corps.[ST:n ][ST:col p1=green ]Atteignez le rang 10 pour ma&#238;triser ses armes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Progression alternative depuis Frappeur, avec[ST:n ]de nouvelles armes. Se concentre sur[ST:n ]la d&#233;fense. Am&#233;liore beaucoup les PV[ST:n ]et les attaques au corps-&#224;-corps.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Soldat bouclier avanc&#233; qui augmente les[ST:n ]r&#233;sistances et la d&#233;fense. Am&#233;liore beaucoup[ST:n ]les PV et les attaques au corps-&#224;-corps.[ST:n ][ST:col p1=green ]Atteignez le rang 10 pour ma&#238;triser ses armes.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Choisissez cette voie si vous voulez faire des[ST:n ]d&#233;g&#226;ts. Se concentre sur l&#39;utilisation des[ST:n ]boosters de d&#233;g&#226;ts et donne des bonus de[ST:n ]pr&#233;cision au c.-&#224;-c., &#224; distance et &#224; l&#39;esquive.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Progression normale depuis Commando.[ST:n ]Am&#233;liore vos d&#233;g&#226;ts et donne des bonus de[ST:n ]pr&#233;cision au c.-&#224;-c., &#224; distance et &#224; l&#39;esquive.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Vip&#232;re ail&#233;e avanc&#233;e avec des arts d&#39;attaque[ST:n ]particuliers. Offre des bonus de pr&#233;cision[ST:n ]au corps-&#224;-corps, &#224; distance et &#224; l&#39;esquive.[ST:n ][ST:col p1=green ]Atteignez le rang 10 pour ma&#238;triser ses armes.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Progression alternative depuis Commando avec[ST:n ]de nouvelles armes et qui se concentre sur[ST:n ]les attaques &#224; distance. Offre des bonus[ST:n ]d&#39;attaque et de pr&#233;cision &#224; distance.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Aigle partisan avanc&#233; qui se concentre sur[ST:n ]les attaques &#224; distance. Offre des bonus[ST:n ]d&#39;attaque et de pr&#233;cision &#224; distance.[ST:n ][ST:col p1=green ]Atteignez le rang 10 pour ma&#238;triser ses armes.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Choisissez cette voie si vous voulez apporter[ST:n ]du soutien. Offre des arts &#224; distance et[ST:n ]des bonus d&#39;attaque &#224; distance et au potentiel.[ST:n ]Dure &#224; ma&#238;triser, convient aux professionnels.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Progression normale depuis Ex&#233;cuteur. Affaiblit[ST:n ]l&#39;ennemi par des handicaps et donne des[ST:n ]bonus aux attaques &#224; distance et au potentiel.[ST:n ]Dure &#224; ma&#238;triser, convient aux professionnels.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Psychorrupteur avanc&#233; m&#234;lant arts de[ST:n ]soutien et handicaps. Am&#233;liore les attaques[ST:n ]&#224; distance et le potentiel.[ST:n ][ST:col p1=green ]Atteignez le rang 10 pour ma&#238;triser ses armes.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Progression alternative depuis Ex&#233;cuteur avec[ST:n ]de nouvelles armes et un bon &#233;quilibre entre[ST:n ]attaque et d&#233;fense. Donne des bonus aux[ST:n ]attaques au corps-&#224;-corps et &#224; distance.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Escrimeur explosif avanc&#233; m&#234;lant arts de[ST:n ]r&#233;cup. &#224; l&#39;attaque et &#224; la d&#233;fense. Am&#233;liore[ST:n ]les attaques au corps-&#224;-corps et &#224; distance.[ST:n ][ST:col p1=green ]Atteignez le rang 10 pour ma&#238;triser ses armes.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

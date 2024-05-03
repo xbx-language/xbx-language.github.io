@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev071201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev071201_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev071201_SEL0011</td>
+        <td class="side">Sprich mit Ton’barac &#252;ber diesen Platz hier.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev071201_JNK0020</td>
+        <td class="side">Unterhalten[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev071201_SEL0021</td>
+        <td class="side">Frage Ton’barac, ob ihm irgendetwas Sorgen bereitet.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev071201_SEL0031</td>
+        <td class="side">Sprich mit Ton’barac &#252;ber den Ort,[ST:n ]an dem er sich gerade befindet.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0001</td>
+        <td class="side">Seltsame Markierungen... Objekte ohne erkennbaren[ST:n ]Zweck... Dies ist ein h&#246;chst sonderbarer Ort.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0002</td>
+        <td class="side">Wird an diesem Schauplatz vielleicht eine Art[ST:n ]mystisches Ritual ausge&#252;bt? [ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0003</td>
+        <td class="side">...Du sagst, dies sei ein Ort, an dem „Tennis gespielt“[ST:n ]wird? Ah, das ist sicher die Bezeichnung des Rituals.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0004</td>
+        <td class="side">...Wie? Man verwendet ein mystisches Objekt, das als [ST:n ]Schl&#228;ger bezeichnet wird, um einen Ball auf die andere[ST:n ]Seite eines Netzes zu schlagen?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0005</td>
+        <td class="side">Ich kann nicht behaupten, dass mir der tiefere Sinn[ST:n ]einleuchtet, doch dieses Ritual scheint die Seele der[ST:n ]Menschheit zu portr&#228;tieren. Ich w&#252;rde es gerne sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0008</td>
+        <td class="side">Es war zeitaufwendig, eine Gegend in dieser Stadt[ST:n ]zu finden, in der man Nahrung finden kann. Ich war[ST:n ]froh, als ich diesen gr&#252;nen Teil der Stadt entdeckte.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0009</td>
+        <td class="side">Ich war entt&#228;uscht, als ich feststellte, dass die Begr&#252;nung[ST:n ]zwischen euren H&#228;usern geschmacksarm ausf&#228;llt.[ST:n ]Doch mir blieb nicht viel Zeit, betr&#252;bt zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0010</td>
+        <td class="side">Noch w&#228;hrend ich mit der Nahrungsaufnahme[ST:n ]besch&#228;ftigt war, wurde ich von BLADE festgenommen.[ST:n ]Auff&#228;lliges Verhalten warf man mir vor.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0011</td>
+        <td class="side">Wenn sich Joy nicht f&#252;r meine Freilassung eingesetzt[ST:n ]h&#228;tte, s&#228;&#223;e ich jetzt im Gef&#228;ngnis.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0012</td>
+        <td class="side">Das &#220;berleben innerhalb der Stadt scheint eine ganz[ST:n ]andere Herausforderung zu sein als drau&#223;en im Freien.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0013</td>
+        <td class="side">Dies ist der Ort, an dem die Menschen ihren spirituellen[ST:n ]Brauch aus&#252;ben, der unter dem Namen „Tennis“[ST:n ]bekannt ist.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0014</td>
+        <td class="side">Vor Kurzem habe ich mich dazu entschlossen,[ST:n ]mich in die Reihen der J&#252;nger dieses Kultes[ST:n ]einzugliedern.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0015</td>
+        <td class="side">Es ist &#252;beraus faszinierend. Man muss die Position[ST:n ]seines Gegners absch&#228;tzen und versuchen, den Ball an[ST:n ]die am schwersten zu erreichende Stelle zu spielen.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0016</td>
+        <td class="side">Obwohl mein K&#246;rper noch nicht f&#228;hig ist, die Strategien[ST:n ]meiner geistigen Berechnungen perfekt umzusetzen, ist[ST:n ]mir das grundlegende Konzept nun vertraut.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev071201_MSG0017</td>
+        <td class="side">Ich habe es schon geschafft, Charles zu besiegen.[ST:n ]Als N&#228;chstes beabsichtige ich, Joy herauszufordern![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

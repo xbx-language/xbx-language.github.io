@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev022401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev022401_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev022401_SEL0011</td>
+        <td class="side">Interroger Jo sur les infrastructures de N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev022401_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev022401_SEL0021</td>
+        <td class="side">Demander &#224; Jo s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev022401_SEL0031</td>
+        <td class="side">Interroger Jo sur son travail.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev022401_SEL0051</td>
+        <td class="side">Interroger Jo sur son travail.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0001</td>
+        <td class="side">Cette zone commerciale a &#233;t&#233; pens&#233;e pour avoir[ST:n ]un petit air r&#233;tro.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0002</td>
+        <td class="side">Contrairement &#224; l&#39;all&#233;e des Armes, dans le quartier[ST:n ]administratif, qui est &#224; la pointe de la technologie.[ST:n ]C&#39;est vraiment impressionnant.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0003</td>
+        <td class="side">Il suffit d&#39;appuyer sur quelques touches via un terminal[ST:n ]et vous pouvez tout acheter. M&#234;me des Skells ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0004</td>
+        <td class="side">Mais bon, vu que je casse tout ce que je touche,[ST:n ]je ne compte pas acheter des trucs de ce genre de sit&#244;t.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0005</td>
+        <td class="side">Ah ! Pourquoi mon terminal de commande fait[ST:n ]des &#233;tincelles ? Alors que je viens de dire que...[ST:n ]Aaah ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0008</td>
+        <td class="side">Bienvenue au Sunshine Caf&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0009</td>
+        <td class="side">Oh, bonjour [ST:playername ].[ST:n ]Vous voulez peut-&#234;tre un caf&#233; cr&#232;me ou autre chose ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0010</td>
+        <td class="side">Ah... C&#39;est que la machine &#224; caf&#233;...[ST:n ]Enfin, je l&#39;ai cass&#233;e. Encore.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0011</td>
+        <td class="side">Mais je peux toujours vous faire un caf&#233; filtre avec[ST:n ]cette vieille cafeti&#232;re en plastique ![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0012</td>
+        <td class="side">C&#39;est ce que m&#39;a sugg&#233;r&#233; Letrick &#224; la cath&#233;drale,[ST:n ]puisque celle-ci ne risque pas de se casser m&#234;me[ST:n ]si je la fais tomber. Il est d&#39;un grand secours ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0020</td>
+        <td class="side">Apr&#232;s avoir cass&#233; mon troisi&#232;me terminal[ST:n ]de commande, Coco m&#39;a dit de ne plus utiliser[ST:n ]que du papier et un stylo.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0021</td>
+        <td class="side">Je n&#39;ai pas utilis&#233; de stylos depuis l&#39;&#233;cole.[ST:n ]Je ne sais plus du tout &#233;crire ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0022</td>
+        <td class="side">Et vous, [ST:playername ] ? Je parie que vous[ST:n ]trouvez aussi cela effrayant de voir que nous sommes[ST:n ]devenus d&#233;pendants de la technologie.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0023</td>
+        <td class="side">Bref, on a dit un caf&#233;. K-A-F-&#201; ?[ST:n ]Non, &#231;a fait bizarre. Laissez-moi r&#233;essayer.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0024</td>
+        <td class="side">Hein ? Oh, non ! L’encre ne sort plus ![ST:n ]Un stylo tout neuf ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0039</td>
+        <td class="side">J&#39;ai cass&#233; plein de terminaux, et maintenant, c&#39;est[ST:n ]le papier et le stylo qui ne marchent pas...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0040</td>
+        <td class="side">Donc, je vais tout simplement m&#233;moriser les commandes[ST:n ]de tout le monde ! Alooors, qu&#39;est-ce que je vous sers ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0041</td>
+        <td class="side">D&#39;accord, donc pour vous ce sera la formule plat du[ST:n ]jour et pancakes. Vous voulez du piment sur vos p&#226;tes,[ST:n ]et ensuite un double expresso avec trois sucres.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0042</td>
+        <td class="side">Et en ap&#233;ritif, un caff&#232; corretto et un cappuccino frapp&#233;[ST:n ]&#224; emporter avec de la glace &#224; la pistache et deux...[ST:n ]pailles ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev022401_MSG0043</td>
+        <td class="side">Oh, non ! Mon cerveau ! Il m&#39;a l&#226;ch&#233; aussi ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev030604_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0001</td>
+        <td class="side">Ci manca questo. Ci manca quello. Non abbiamo[ST:n ]il necessario per fare un vero matrimonio Pron.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0002</td>
+        <td class="side">Uomini Pron si ubriacano prima dell&#39;inizio della[ST:n ]cerimonia! Dovrei costringerli ad aiutare a suon di[ST:n ]botte. Ma sono di intralcio pi&#249; che di aiuto.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0003</td>
+        <td class="side">Ah! Sei [ST:playername ]![ST:n ]Hai fatto incontrare gli sposi.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0004</td>
+        <td class="side">Ti ringrazio. Mio fratello minore Nemard aveva[ST:n ]bisogno di aiuto. Aiuto per conquistare Pron[ST:n ]bellissima come Heptana.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0010</td>
+        <td class="side">Sei d&#39;accordo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0011</td>
+        <td class="side">Di&#39; a Duna che non sarebbe mai successo[ST:n ]se non fosse stato per te.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0020</td>
+        <td class="side">Non sei d&#39;accordo</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0021</td>
+        <td class="side">Di&#39; che &#232; tutto merito della gentilezza di Nemard.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0005</td>
+        <td class="side">Hai fatto scelta giusta per stupido indeciso.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0006</td>
+        <td class="side">Anche se ancora non so perch&#233;[ST:n ]Heptana abbia accettato.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0007</td>
+        <td class="side">Eh eh. Mi fa piacere sentirtelo dire. Pron stimano la[ST:n ]forza sopra ogni cosa. Raramente si loda la gentilezza.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0008</td>
+        <td class="side">Allora, mi aiuterai nei preparativi[ST:n ]per il rito di matrimonio?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0009</td>
+        <td class="side">Ci servono Bistecche di gobba dura per il banchetto.[ST:n ]Gli altri sono troppo ubriachi. Non possono aiutare.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0010</td>
+        <td class="side">Finir&#242; i preparativi mentre ti procuri la carne.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0011</td>
+        <td class="side">Prendo sempre in giro mio fratello. Ma gli voglio bene.[ST:n ]Voglio che il suo matrimonio sia perfetto.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0012</td>
+        <td class="side">Il rito di matrimonio Pron &#232; incentrato sulla carne.[ST:n ]E anche sulle bevande forti. Ma soprattutto sulla carne.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0013</td>
+        <td class="side">Le Bistecche di gobba dura sono portata principale![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0014</td>
+        <td class="side">Hai fatto molto per mio fratello. Sono sicura che[ST:n ]troverai bistecche freschissime.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0015</td>
+        <td class="side">Ah, [ST:playername ]. Sono tutte[ST:n ]persone terribili.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0016</td>
+        <td class="side">Mio fratello si sposa prima di me.[ST:n ]Ora tutto Clan mi chiama zitella![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0017</td>
+        <td class="side">Li zittir&#242; quando trover&#242; marito. Un uomo Pron[ST:n ]capace di abbattere Mandos in un sol colpo![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0030</td>
+        <td class="side">Consola</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0031</td>
+        <td class="side">Cerca di rallegrare Duna.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0040</td>
+        <td class="side">Non rispondere</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0041</td>
+        <td class="side">Cambia argomento dicendo a Duna che[ST:n ]le hai portato ci&#242; che ti ha chiesto.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0018</td>
+        <td class="side">Sei gentile. E anche forte. Vorrei incontrare[ST:n ]Pron proprio come te.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0019</td>
+        <td class="side">Ma non esistono Pron cos&#236;. Mia madre dice[ST:n ]di non essere troppo esigente. Ma io non[ST:n ]sar&#242; sposa di Pron di bassa lega.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0020</td>
+        <td class="side">Basta. Parlo troppo. Mi annebbia i pensieri.[ST:n ]Ti avevo chiesto di portarmi qualcosa, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0021</td>
+        <td class="side">Ehm, cosa? Hai bisogno di me per qualcosa?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0022</td>
+        <td class="side">Ah! Scusa. Avevo dimenticato. Ti avevo[ST:n ]mandato a caccia di carne.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0023</td>
+        <td class="side">Gli ospiti anziani si stanno ubriacando.[ST:n ]Inizieremo il rito di matrimonio in anticipo.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0024</td>
+        <td class="side">Grazie alla tua caccia il matrimonio pu&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0025</td>
+        <td class="side">Oh! Tu sei [ST:Gender p1=il famoso p2=la famosa ] [ST:playername ].[ST:n ]Sei proprio [ST:Gender p1=un eroe p2=un&#39;eroina ]... Anche se sei[ST:n ][ST:Gender p1=alieno della Terra p2=aliena della Terra ]![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0026</td>
+        <td class="side">Sono Galba Vassago. Vincitore di mille battaglie.[ST:n ]Guerriero pi&#249; forte di Tormein![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0027</td>
+        <td class="side">Guh ah ah ah! Alieni ballano e cantano ai matrimoni.[ST:n ]Ma Pron sono nati per combattere![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0028</td>
+        <td class="side">Suggelliamo il giorno speciale con una gloriosa[ST:n ]battaglia! Io e te lotteremo finch&#233; non[ST:n ]riusciremo pi&#249; a stare in piedi.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0029</td>
+        <td class="side">Galba &#232; ubriaco. E anche agitato.[ST:n ]Non lotta da quando &#232; arrivato su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0030</td>
+        <td class="side">Lascialo perdere. Abbiamo carne. Possiamo dare[ST:n ]inizio al rito di matrimonio.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0050</td>
+        <td class="side">Tirati indietro</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0051</td>
+        <td class="side">Accetta il suggerimento di Duna[ST:n ]ed evita la lotta con Galba.</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0060</td>
+        <td class="side">Fatti avanti</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0061</td>
+        <td class="side">Accetta la sfida di Galba.</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0031</td>
+        <td class="side">Tu ti credi [ST:Gender p1=un guerriero p2=una guerriera ]? Affrontami! Sono Pron che[ST:n ]ha battuto dozzine di codardi di Clan delle Caverne![ST:n ]Anche con le mani legate! Sono Pron che...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0032</td>
+        <td class="side">Urgh. Adesso Galba parler&#224; per ore.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0033</td>
+        <td class="side">Non possiamo iniziare il rito di matrimonio se non la[ST:n ]smette. Forse tu puoi zittirlo con la forza.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0034</td>
+        <td class="side">S&#236;. Bene! Affrontami! Ti far&#242; vedere cos&#39;&#232; la forza.[ST:n ]La forza che ha abbattuto trenta infami di Clan[ST:n ]delle Caverne in una sola battaglia![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0035</td>
+        <td class="side">Buah ah ah! Ti attendo a Primordia. Sulle Pianure[ST:n ]a nord-est del Lago Sayram. Non puoi fuggire![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0036</td>
+        <td class="side">Oh oh! Sei [ST:Gender p1=coraggioso p2=coraggiosa ] come Vassago, l&#39;animale[ST:n ]da cui ho preso il mio nome![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0037</td>
+        <td class="side">Buah ah! Ti far&#242; vedere cos&#39;&#232; la forza.[ST:n ]La forza che ha abbattuto trenta infami di Clan[ST:n ]delle Caverne in una sola battaglia![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0038</td>
+        <td class="side">Buah ah ah! Ti attendo a Primordia. Sulle Pianure[ST:n ]a nord-est del Lago Sayram. Combatteremo[ST:n ]con tutte le nostre forze![ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0039</td>
+        <td class="side">Sigh... Il vecchio &#232; senza speranza. Vai a buttarlo[ST:n ]a terra. Poi trascinalo e riportalo qui.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0044</td>
+        <td class="side">Ci manca questo. Ci manca quello. Non abbiamo[ST:n ]il necessario per fare un vero matrimonio Pron.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0045</td>
+        <td class="side">Uomini Pron si ubriacano prima dell&#39;inizio della[ST:n ]cerimonia! Dovrei costringerli ad aiutare a suon di[ST:n ]botte. Ma sono di intralcio pi&#249; che di aiuto.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0046</td>
+        <td class="side">Ah! Sei [ST:playername ]![ST:n ]Hai fatto incontrare gli sposi.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0047</td>
+        <td class="side">Ti ringrazio. Mio fratello minore Nemard aveva[ST:n ]bisogno di aiuto. Aiuto per conquistare Pron[ST:n ]bellissima come Enneana.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0070</td>
+        <td class="side">Sei d&#39;accordo</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0071</td>
+        <td class="side">Di&#39; a Duna che non sarebbe mai successo[ST:n ]se non fosse stato per te.</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0080</td>
+        <td class="side">Non sei d&#39;accordo</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0081</td>
+        <td class="side">Di&#39; che &#232; tutto merito della gentilezza di Nemard.</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0048</td>
+        <td class="side">Hai fatto scelta giusta per stupido indeciso.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0049</td>
+        <td class="side">Anche se ancora non so perch&#233; Enneana ha accettato.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0050</td>
+        <td class="side">Eh eh. Mi fa piacere sentirtelo dire. Pron stimano la[ST:n ]forza sopra ogni cosa. Raramente si loda la gentilezza.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0051</td>
+        <td class="side">Allora, mi aiuterai nei preparativi per il matrimonio?[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0052</td>
+        <td class="side">Ci servono Bistecche di gobba dura per il banchetto.[ST:n ]Gli altri sono troppo ubriachi. Non possono aiutare.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0053</td>
+        <td class="side">Finir&#242; i preparativi mentre ti procuri la carne.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0054</td>
+        <td class="side">Prendo sempre in giro mio fratello. Ma gli voglio bene.[ST:n ]Voglio che il suo matrimonio sia perfetto.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0055</td>
+        <td class="side">Il rito di matrimonio Pron &#232; incentrato sulla carne.[ST:n ]E anche sulle bevande forti. Ma soprattutto sulla carne.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0056</td>
+        <td class="side">Le Bistecche di gobba dura sono portata principale![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0057</td>
+        <td class="side">Hai fatto molto per mio fratello. Sono sicura che[ST:n ]troverai bistecche freschissime.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0058</td>
+        <td class="side">Ah, [ST:playername ]. Sono tutte[ST:n ]persone terribili.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0059</td>
+        <td class="side">Mio fratello si sposa prima di me.[ST:n ]Ora tutto Clan mi chiama zitella![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0060</td>
+        <td class="side">Li zittir&#242; quando trover&#242; marito. Un uomo Pron[ST:n ]capace di abbattere Mandos in un sol colpo![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0090</td>
+        <td class="side">Consola</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0091</td>
+        <td class="side">Cerca di rallegrare Duna.</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0100</td>
+        <td class="side">Non rispondere</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0101</td>
+        <td class="side">Cambia argomento dicendo a Duna che[ST:n ]le hai portato ci&#242; che ti ha chiesto.</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0061</td>
+        <td class="side">Sei gentile. E anche forte. Vorrei incontrare[ST:n ]Pron proprio come te.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0062</td>
+        <td class="side">Ma non esistono Pron cos&#236;. Mia madre dice[ST:n ]di non essere troppo esigente. Ma io non[ST:n ]sar&#242; sposa di Pron di bassa lega.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0063</td>
+        <td class="side">Basta. Parlo troppo. Mi annebbia i pensieri.[ST:n ]Ti avevo chiesto di portarmi qualcosa, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0064</td>
+        <td class="side">Ehm, cosa? Hai bisogno di me per qualcosa?[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0065</td>
+        <td class="side">Ah! Scusa. Avevo dimenticato. Ti avevo[ST:n ]mandato a caccia di carne.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0066</td>
+        <td class="side">Gli ospiti anziani si stanno ubriacando.[ST:n ]Inizieremo il rito di matrimonio in anticipo.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0067</td>
+        <td class="side">Grazie alla tua caccia il matrimonio pu&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0068</td>
+        <td class="side">Oh! Tu sei [ST:Gender p1=il famoso p2=la famosa ] [ST:playername ].[ST:n ]Sei proprio [ST:Gender p1=un eroe p2=un&#39;eroina ]... Anche se sei[ST:n ][ST:Gender p1=alieno della Terra p2=aliena della Terra ]![ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0069</td>
+        <td class="side">Sono Galba Vassago. Vincitore di mille battaglie.[ST:n ]Guerriero pi&#249; forte di Tormein![ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0070</td>
+        <td class="side">Guh ah ah ah! Alieni ballano e cantano ai matrimoni.[ST:n ]Ma Pron sono nati per combattere![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0071</td>
+        <td class="side">Suggelliamo il giorno speciale con una gloriosa[ST:n ]battaglia! Io e te lotteremo finch&#233; non[ST:n ]riusciremo pi&#249; a stare in piedi.[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0072</td>
+        <td class="side">Galba &#232; ubriaco. E anche agitato.[ST:n ]Non lotta da quando &#232; arrivato su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0073</td>
+        <td class="side">Lascialo perdere. Abbiamo carne. Possiamo dare[ST:n ]inizio al rito di matrimonio.[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0110</td>
+        <td class="side">Tirati indietro</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0111</td>
+        <td class="side">Accetta il suggerimento di Duna[ST:n ]ed evita la lotta con Galba.</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev030604_JNK0120</td>
+        <td class="side">Fatti avanti</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev030604_SEL0121</td>
+        <td class="side">Accetta la sfida di Galba.</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0074</td>
+        <td class="side">Tu ti credi [ST:Gender p1=un guerriero p2=una guerriera ]? Affrontami! Sono Pron che[ST:n ]ha battuto dozzine di codardi di Clan delle Caverne![ST:n ]Anche con le mani legate! Sono Pron che...[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0075</td>
+        <td class="side">Urgh. Adesso Galba parler&#224; per ore.[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0076</td>
+        <td class="side">Non possiamo iniziare il rito di matrimonio se non la[ST:n ]smette. Forse tu puoi zittirlo con la forza.[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0077</td>
+        <td class="side">S&#236;. Bene! Affrontami! Ti far&#242; vedere cos&#39;&#232; la forza.[ST:n ]La forza che ha abbattuto trenta infami di Clan[ST:n ]delle Caverne in una sola battaglia![ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0078</td>
+        <td class="side">Buah ah ah! Ti attendo a Primordia. Sulla Pianura[ST:n ]a nord-est del Lago Sayram. Non puoi fuggire![ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0079</td>
+        <td class="side">Oh oh! Sei [ST:Gender p1=coraggioso p2=coraggiosa ] come Vassago, l&#39;animale[ST:n ]da cui ho preso il mio nome![ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0080</td>
+        <td class="side">Buah ah! Ti far&#242; vedere cos&#39;&#232; la forza.[ST:n ]La forza che ha abbattuto trenta infami di Clan[ST:n ]delle Caverne in una sola battaglia![ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0081</td>
+        <td class="side">Buah ah ah! Ti attendo a Primordia. Sulle Pianure[ST:n ]a nord-est del Lago Sayram. Combatteremo[ST:n ]con tutte le nostre forze![ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0082</td>
+        <td class="side">Sigh... Il vecchio &#232; senza speranza. Vai e stendilo.[ST:n ]Poi trascinalo e riportalo qui.[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0083</td>
+        <td class="side">Galba Vassago sembra un pallone gonfiato vecchio[ST:n ]e ubriaco. Ma ai suoi tempi era un grande guerriero.[ST:n ]Non prenderlo alla leggera.[ST:wait ]</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0084</td>
+        <td class="side">Ora vai a zittirlo, cos&#236; possiamo iniziare[ST:n ]il rito di matrimonio.[ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0085</td>
+        <td class="side">Sei [ST:Gender p1=tornato p2=tornata ] con Galba?[ST:n ]Il rito di matrimonio pu&#242; iniziare![ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0086</td>
+        <td class="side">Ah ah ah! Nemard sembra proprio nervoso.[ST:n ]Vai a parlargli.[ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0100</td>
+        <td class="side">Stai cercando Nemard? &#200; andato via.[ST:n ]&#200; andato a fare l&#39;anello di fidanzamento.[ST:wait ]</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0101</td>
+        <td class="side">&#200; un pessimo cacciatore. Ma porta sempre a termine[ST:n ]i suoi compiti. Trover&#224; sicuramente il corno di una[ST:n ]bestia per fare l&#39;anello.[ST:wait ]</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0102</td>
+        <td class="side">Un anello che sorprender&#224; perfino l&#39;impetuosa Heptana![ST:wait ]</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0103</td>
+        <td class="side">Stai cercando Nemard? &#200; andato via.[ST:n ]&#200; andato a fare l&#39;anello di fidanzamento.[ST:wait ]</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0104</td>
+        <td class="side">&#200; un pessimo cacciatore. Ma porta sempre a termine[ST:n ]i suoi compiti. Trover&#224; sicuramente il corno di una[ST:n ]bestia per fare l&#39;anello.[ST:wait ]</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td>qev030604_MSG0105</td>
+        <td class="side">Un anello che far&#224; piangere di gioia dolce Enneana![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

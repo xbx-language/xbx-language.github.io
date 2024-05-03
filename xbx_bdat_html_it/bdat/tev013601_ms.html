@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev013601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev013601_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev013601_SEL0011</td>
+        <td class="side">Chiedi a Leroy del dispositivo a cui sta lavorando Lin.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev013601_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev013601_SEL0021</td>
+        <td class="side">Chiedi a Leroy se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev013601_SEL0031</td>
+        <td class="side">Chiedi a Leroy informazioni sugli Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev013601_SEL0041</td>
+        <td class="side">Chiedi a Leroy informazioni[ST:n ]sul modulo di volo per Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0001</td>
+        <td class="side">Sin dal nostro arrivo su Mira, Lin sta cercando[ST:n ]di creare un dispositivo che permetta[ST:n ]agli Skell di volare.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0003</td>
+        <td class="side">Dice che con questo dispositivo qualsiasi Skell avr&#224;[ST:n ]la possibilit&#224; di volare liberamente. Ormai &#232;[ST:n ]una specie di ossessione per lei.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0004</td>
+        <td class="side">Spero che lo finisca presto.[ST:n ]Tutto il BLADE fa il tifo per lei.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0005</td>
+        <td class="side">Beh s&#236;, il nostro collaudatore, Doug, si lamenta sempre.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0006</td>
+        <td class="side">Ma continua a partecipare a tutti i test,[ST:n ]anche quelli pi&#249; pericolosi, quindi sono[ST:n ]sicuro che anche lui tifa per Lin.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0007</td>
+        <td class="side">Non posso dirlo ad alta voce perch&#233; &#232; una di quelle[ST:n ]persone che nasconde i propri sentimenti, quando lo[ST:n ]faccio, arrossisce e dice che non capisco niente.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0010</td>
+        <td class="side">In quanto membro della divisione degli Outfitter, parte[ST:n ]del mio lavoro &#232; provare gli Skell sul campo.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0011</td>
+        <td class="side">Ma anche con gli ultimi modelli, riesco a malapena[ST:n ]a difendermi contro un semplice Blathax.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0012</td>
+        <td class="side">Negli esercizi di prova non sono male, ma non appena[ST:n ]mi trovo davanti un mostro mi faccio prendere dal[ST:n ]panico. So che &#232; solo una cosa psicologica per&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0013</td>
+        <td class="side">... credo di essere sempre stato un codardo.[ST:n ]Combattere contro le specie autoctone[ST:n ]&#232; pi&#249; di quanto io possa gestire.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0014</td>
+        <td class="side">E non &#232; che fuori dal campo di battaglia sia[ST:n ]tanto meglio. Non ho mai avuto il coraggio[ST:n ]di chiedere a una ragazza di uscire con me![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0015</td>
+        <td class="side">Sono patetico... non so pi&#249; cosa fare.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0023</td>
+        <td class="side">Il Comandante Vandham ti ha gi&#224; addestrat[ST:Gender p1=o p2=a ] sugli[ST:n ]Skell? Allora, una volta che avrai il Brevetto...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0024</td>
+        <td class="side">Ehi! Magari puoi sostituire Doug ogni tanto![ST:n ]Cos&#236; potrai aiutare Lin con i suoi esperimenti.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0025</td>
+        <td class="side">Il mimosoma di Doug cadr&#224; a pezzi se nessuno lo[ST:n ]aiuta e gli fa prendere una pausa.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0026</td>
+        <td class="side">Uh? Perch&#233; non lo faccio io?[ST:n ]Beh... S&#236;, dovrei... Per&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0027</td>
+        <td class="side">Il solo pensiero di fare qualcosa di cos&#236; pericoloso[ST:n ]mi fa tremare le ginocchia. Per un codardo come[ST:n ]me &#232; fuori discussione.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0042</td>
+        <td class="side">Finalmente Lin ha finito! Wow,[ST:n ]&#232; proprio incredibile quella ragazza.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0043</td>
+        <td class="side">Eh? Mi stai chiedendo se comprer&#242; uno[ST:n ]Skell dotato di un modulo di volo?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0044</td>
+        <td class="side">No! Assolutamente. No no no. Anche Doug ha[ST:n ]suggerito la stessa cosa, ma non mi interessa.[ST:n ]Non se ne parla proprio di volare![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0045</td>
+        <td class="side">Voglio dire, dai, soffro di vertigini! Se dovessi[ST:n ]volare potrei perdere i sensi... e BAM![ST:n ]Ciao ciao Skell! Ciao ciao Leroy![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0046</td>
+        <td class="side">Doug mi ha sempre detto di dimostrare di avere[ST:n ]fegato, ma non sar&#242; mai coraggioso come lui.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0047</td>
+        <td class="side">Penso che il mio problema sia che non ho mai[ST:n ]capito cosa si prova a essere innamorati.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0048</td>
+        <td class="side">Ho sempre pensato che non sono mai riuscito a uscire[ST:n ]con una ragazza perch&#233; sono un codardo.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0049</td>
+        <td class="side">Ma se fossi stato veramente innamorato, non[ST:n ]avrei lasciato che qualcosa si mettesse in[ST:n ]mezzo tra me e lei. Ora &#232; tutto pi&#249; chiaro.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0050</td>
+        <td class="side">E lo devo solo all&#39;amore della mia vita, Lavina![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0051</td>
+        <td class="side">I Pron sono enormi e mi fanno paura, ma[ST:n ]questo non mi fermer&#224;. Sposer&#242; Lavina![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev013601_SEL2021</td>
+        <td class="side">Chiedi a Leroy quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0052</td>
+        <td class="side">Il Comandante Vandham stesso ti ha addestrat[ST:Gender p1=o p2=a ][ST:n ]sugli Skell? Allora, una volta che avrai il Brevetto...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0053</td>
+        <td class="side">Ehi! Magari puoi sostituire Doug ogni tanto![ST:n ]Cos&#236; potrai aiutare Lin con i suoi esperimenti.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0054</td>
+        <td class="side">Il mimosoma di Doug cadr&#224; a pezzi se nessuno lo[ST:n ]aiuta e gli fa prendere una pausa.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0055</td>
+        <td class="side">Uh? Perch&#233; non lo faccio io?[ST:n ]Beh... S&#236;, dovrei... Per&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0056</td>
+        <td class="side">Sai una cosa? Hai ragione. Se mi lascio[ST:n ]fermare dalla paura, non mi guadagner&#242;[ST:n ]mai il rispetto di mio suocero.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0057</td>
+        <td class="side">D&#39;accordo! Lo far&#242;! Dimostrer&#242;[ST:n ]a tutti quanto sono cambiato![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0060</td>
+        <td class="side">Mio suocero mi ha allenato quotidianamente[ST:n ]nell&#39;arte del combattimento.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0061</td>
+        <td class="side">&#200; un insegnante fantastico. Conosce molte tattiche[ST:n ]di combattimento che non insegnano nel BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0062</td>
+        <td class="side">I Pron sono veramente incredibili. Immagino si impari[ST:n ]qualcosina quando si &#232; in guerra per 10.000 anni.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0063</td>
+        <td class="side">Diventer&#242; esperto in tutte le tecniche e sar&#242; forte[ST:n ]quanto te. Cos&#236; sar&#242; il tipo di uomo che potr&#224;[ST:n ]proteggere Lavina da qualsiasi minaccia![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0071</td>
+        <td class="side">Finalmente Lin ha finito! Wow,[ST:n ]&#232; proprio incredibile quella ragazza.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0072</td>
+        <td class="side">Uh? Mi stai chiedendo se comprer&#242; uno[ST:n ]Skell dotato di un modulo di volo?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0073</td>
+        <td class="side">Beh, s&#236;, voglio dire. Anche Doug mi ha[ST:n ]suggerito di prenderne uno, per&#242;... mmmh...[ST:n ]forse dovrei cominciare a pensarci, eh?[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0074</td>
+        <td class="side">A dir la verit&#224;, soffro di vertigini! Ma se lascio[ST:n ]che la paura mi fermi, non sar&#242; mai il tipo[ST:n ]di uomo capace di proteggere Lavina![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0075</td>
+        <td class="side">&#200; questo lo spirito giusto, Leroy! Parli da vero uomo.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0076</td>
+        <td class="side">Ehi, grazie Doug! Grazie a Lavina forse[ST:n ]non sono pi&#249; un disastro totale.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0077</td>
+        <td class="side">Dovresti farti una ragazza, Doug![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0078</td>
+        <td class="side">Ehi! Pensa agli affari tuoi! E non fare niente[ST:n ]di stupido, non vorrai mica che la tua[ST:n ]preziosa fidanzata diventi vedova?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0083</td>
+        <td class="side">Non vedo l&#39;ora di vedere la faccia di Doug[ST:n ]quando vedr&#224; quanto sono cambiato![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev013601_SEL3011</td>
+        <td class="side">Chiedi a Leroy quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0084</td>
+        <td class="side">Mi dispiace averti coinvolt[ST:Gender p1=o p2=a ] in questa storia con Lavina.[ST:n ]Ma grazie a te, ho finalmente aperto gli occhi.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0085</td>
+        <td class="side">Non puoi costringere qualcuno ad amarti.[ST:n ]Bisogna essere diretti e onesti.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0086</td>
+        <td class="side">Mio suocero, Loda Gorida, mi ha dato la[ST:n ]possibilit&#224; di dimostrare il mio valore,[ST:n ]ma non sono ancora riuscito a farlo.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev013601_MSG0087</td>
+        <td class="side">Ma lavorer&#242; duro per diventare forte quanto te,[ST:n ]cos&#236; guadagner&#242; il suo rispetto![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

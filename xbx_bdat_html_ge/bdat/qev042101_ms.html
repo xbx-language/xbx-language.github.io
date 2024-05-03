@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev042101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0001</td>
+        <td class="side">Hach, Nalu, das war’s also. Ende im Gel&#228;nde.[ST:n ]Aber war gutes Leben.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0002</td>
+        <td class="side">Nalu wird gro&#223;e, h&#252;bsche Welt vermissen![ST:n ]Mach’s gut, Mira! Tsch&#252;ssi![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0010</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0011</td>
+        <td class="side">Frage nach, warum Nalu &#252;ber ihr Schicksal klagt.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0020</td>
+        <td class="side">Necken</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0021</td>
+        <td class="side">Frage sp&#246;ttisch nach, ob Nalu ihren Text f&#252;r ein[ST:n ]Theaterst&#252;ck lernt.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0003</td>
+        <td class="side">Geschichte von Nalu ist sooo traurig, [ST:Gender p1=Freund p2=Freundin ].[ST:n ]Nalu wird von fiesen Ganglion bedroht.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0004</td>
+        <td class="side">Werden jeden Nopon in Karawane totmachen, wenn[ST:n ]Nalu Ganglion nicht bestimmte Dinge bringt.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0005</td>
+        <td class="side">Wollen sechs Abwehrschildspiegel,[ST:n ]drei Fotovoltaik-Multimodule und[ST:n ]f&#252;nf Mark-IX-Hitzekonverter.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0006</td>
+        <td class="side">Aber Nalu schafft nicht allein, alles zu besorgen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0007</td>
+        <td class="side">Kein Theater! Geht um Leben und Tod![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0008</td>
+        <td class="side">Fiese Ganglion drohen mit Haue.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0009</td>
+        <td class="side">Werden jeden Nopon in Karawane totmachen, wenn[ST:n ]Nalu Ganglion nicht bestimmte Dinge bringt.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0010</td>
+        <td class="side">Wollen sechs Abwehrschildspiegel,[ST:n ]drei Fotovoltaik-Multimodule und[ST:n ]f&#252;nf Mark-IX-Hitzekonverter.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0011</td>
+        <td class="side">Aber Nalu schafft nicht allein, alles zu besorgen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0030</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0031</td>
+        <td class="side">Erkundige dich, warum das nicht m&#246;glich ist.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0040</td>
+        <td class="side">Schulter zucken</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0041</td>
+        <td class="side">Sage Nalu, dass sie es wohl[ST:n ]irgendwie selbst hinkriegen muss.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0012</td>
+        <td class="side">Findet man alles nur gaaanz weit weg von hier. Und[ST:n ]Weg dahin ist gef&#228;hrlich![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0013</td>
+        <td class="side">Arme Nalu w&#252;rde bestimmt Reise nicht &#252;berleben.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0014</td>
+        <td class="side">Au&#223;erdem kriegt man alle drei Sachen aus kaputten[ST:n ]Fahrzeugen von Erdpon.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0015</td>
+        <td class="side">Also ist nur fair, wenn Erdpon helfen. Nalu wei&#223;, dass[ST:n ]Freunde gaaanz lieb und hilfsbereit sind![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0016</td>
+        <td class="side">Wenn Nalu sechs Abwehrschildspiegel,[ST:n ]drei Fotovoltaik-Multimodule und f&#252;nf Mark-IX-[ST:n ]Hitzekonverter findet, leben Freundepon weiter.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0017</td>
+        <td class="side">Bittepon! [ST:Gender p1=Freund p2=Freundin ] muss Karawane von Nalu[ST:n ]helfen zu &#252;berleben![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0018</td>
+        <td class="side">Findet man alles nur gaaanz weit weg von hier. Und[ST:n ]Weg dahin ist gef&#228;hrlich![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0019</td>
+        <td class="side">Arme Nalu w&#252;rde bestimmt Reise nicht &#252;berleben.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0020</td>
+        <td class="side">Au&#223;erdem kriegt man alle drei Sachen aus kaputten[ST:n ]Fahrzeugen von Erdpon.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0021</td>
+        <td class="side">Also ist nur fair, wenn Erdpon helfen. Nalu wei&#223;, dass[ST:n ]Freunde gaaanz lieb und hilfsbereit sind![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0022</td>
+        <td class="side">Wenn Nalu sechs Abwehrschildspiegel,[ST:n ]drei Fotovoltaik-Multimodule und f&#252;nf Mark-IX-[ST:n ]Hitzekonverter findet, leben Freundepon weiter.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0023</td>
+        <td class="side">Bittepon! [ST:Gender p1=Freund p2=Freundin ] muss Karawane von Nalu[ST:n ]helfen zu &#252;berleben![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0024</td>
+        <td class="side">Oh, gro&#223;es Dankepon! [ST:Gender p1=Freund p2=Freundin ] ist [ST:Gender p1=Held p2=Heldin ] aller Nopon![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0025</td>
+        <td class="side">Nalu glaubt fest, dass [ST:Gender p1=Freund p2=Freundin ] erfolgreich ist.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0026</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] muss Abwehrschildspiegel,[ST:n ]Fotovoltaik-Multimodul und[ST:n ]Mark-IX-Hitzekonverter f&#252;r Nalu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0027</td>
+        <td class="side">Wenn nicht, kommen Tod und Verzweiflung zu[ST:n ]Karawane von Nalu.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0106</td>
+        <td class="side">Willkommen zur&#252;ck! Hat [ST:Gender p1=Freund p2=Freundin ] alle Sachen f&#252;r Nalu[ST:n ]gefunden?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0028</td>
+        <td class="side">...[ST:Gender p1=Freund p2=Freundin ] hat Gro&#223;es geleistet, alles zu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0029</td>
+        <td class="side">Nalu und Freundepon sind gerettet![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0030</td>
+        <td class="side">Karawane wird Heldenmut von [ST:Gender p1=Freund p2=Freundin ] niemals[ST:n ]vergessen. [ST:Gender p1=Freund p2=Freundin ] wird zu Nopon-Legende![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0031</td>
+        <td class="side">Nalu muss schnell jedem erz&#228;hlen![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0032</td>
+        <td class="side">Nalu sagt Dankepon aus tiefstem Flauscheherz.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0033</td>
+        <td class="side">Hihihihihihi! Erdpon-Freunde sind so leichtgl&#228;ubig![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0034</td>
+        <td class="side">Muss nur f&#252;rchtertraurige Geschichte erz&#228;hlen und[ST:n ]Freunde machen alles, was man will![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0035</td>
+        <td class="side">Fiese Ganglion haben viel Katsching f&#252;r Ware geblecht![ST:n ]Hihihihahaha! Nalu so gl&#252;cklich, kann gar nicht[ST:n ]aufh&#246;ren zu lachen![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0036</td>
+        <td class="side">...HUUUUCH! [ST:Gender p1=F-Freund p2=F-Freundin ] hat aber nicht alles[ST:n ]mitgeh&#246;rt, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0050</td>
+        <td class="side">Zugeben</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0051</td>
+        <td class="side">Sage Nalu, dass du alles geh&#246;rt hast... ALLES!</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0060</td>
+        <td class="side">L&#252;gen</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0061</td>
+        <td class="side">Tu so, als h&#228;ttest du nichts mitbekommen.</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0037</td>
+        <td class="side">A-alles...?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0038</td>
+        <td class="side">A-also, waren nur fiesliche Dinge, die Nalu sagen[ST:n ]musste, als sie Ganglion Sachen gebracht hat.[ST:n ]Ganglion haben Nalu gezwungen.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0039</td>
+        <td class="side">Nalu immer noch ganz durcheinander. Musste so[ST:n ]schlimmes Zeugs sagen. Nalu sch&#228;mt sich so...[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0040</td>
+        <td class="side">Ganglion haben Sachen gekauf... &#228;&#228;&#228;&#228;&#228;h, geschnappt,[ST:n ]die [ST:Gender p1=lieber Freund p2=liebe Freundin ] f&#252;r Nalu gesammelt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0041</td>
+        <td class="side">Nalu nur ganz knapp mit Leben davongekommen, aber[ST:n ]jetzt bedrohen fieslichgemeine Ganglion Karawane[ST:n ]schon wieder.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0042</td>
+        <td class="side">Wollen mehr Erdpon-Zeugs.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0043</td>
+        <td class="side">Diesmal hat Nalu keine Hoffnung mehr...[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0044</td>
+        <td class="side">Oh, puh! War knapp.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0045</td>
+        <td class="side">&#196;h, aber f&#252;rchterfiesliche Ganglion bedrohen Karawane[ST:n ]schon wieder![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0046</td>
+        <td class="side">Wollen mehr Erdpon-Zeugs.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0047</td>
+        <td class="side">Diesmal hat Nalu keine Hoffnung mehr...[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0048</td>
+        <td class="side">Nalu hat Bauchaua, [ST:Gender p1=Freund p2=Freundin ] erneut zu fragen, aber...[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0049</td>
+        <td class="side">...Wird [ST:Gender p1=Freund p2=Freundin ] wieder Erdpon-Sachen suchen, damit[ST:n ]Karawane finsterschreckliches Schicksal erspart bleibt?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0050</td>
+        <td class="side">Wenn nicht, machen Ganglion Hackb&#228;llchen aus allen[ST:n ]Nopon von Nalus Karawane.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0070</td>
+        <td class="side">Widerstand vorschlagen</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0071</td>
+        <td class="side">Biete an, dass du zusammen mit Nalu k&#228;mpfen[ST:n ]wirst, um die Tyrannei der Ganglion zu beenden.</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0080</td>
+        <td class="side">Flucht vorschlagen</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0081</td>
+        <td class="side">Merke an, dass es doch schlau w&#228;re, wenn die[ST:n ]Karawane vor den Ganglion fl&#252;chten w&#252;rde.</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0051</td>
+        <td class="side">Nopon viel zu schwach, um zu k&#228;mpfen. Deshalb[ST:n ]zwingen Ganglion Nalu ja, Dinge zu bringen.[ST:n ]Bitte, bitte! [ST:Gender p1=Freund p2=Freundin ] muss helfen![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0052</td>
+        <td class="side">Sind fiese, garstige Monster. W&#252;rden Karawane[ST:n ]bis an Ende von Mira verfolgen. Bitte, bitte![ST:n ][ST:Gender p1=Freund p2=Freundin ] muss helfen![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0053</td>
+        <td class="side">Ohbitteohbitteohbitte![ST:n ][ST:Gender p1=Freund p2=Freundin ] ist letzte Hoffnung von Nalu![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0090</td>
+        <td class="side">Annehmen</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0091</td>
+        <td class="side">Sage, dass du erneut die ben&#246;tigten[ST:n ]Gegenst&#228;nde sammeln wirst.</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0100</td>
+        <td class="side">Zeit schinden</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0101</td>
+        <td class="side">Habe ein Auge auf Nalu und finde heraus[ST:n ]ob hier alles mit rechten Dingen zugeht.</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0054</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] f&#228;llt wieder darauf rein?[ST:n ]Wie naiv k&#246;nnen Freunde eigentlich sein?[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0055</td>
+        <td class="side">&#196;&#196;&#196;H! Hehe, Missverst&#228;ndnis. Alles, was [ST:Gender p1=Freund p2=Freundin ][ST:n ]geh&#246;rt hat, war nur Verwirrung von Nalu.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0056</td>
+        <td class="side">Dankepon! Flauscheherz von Nalu l&#228;uft &#252;ber vor Gl&#252;ck![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0057</td>
+        <td class="side">Nalu braucht ein Codefragment A-HAB und[ST:n ]acht Nostalgia L-002, um Karawane zu retten.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0058</td>
+        <td class="side">Gro&#223;es Dankepon, [ST:Gender p1=Freund p2=Freundin ]![ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0059</td>
+        <td class="side">Warum schaut [ST:Gender p1=Freund p2=Freundin ] so nachdenklich? Gibt nix[ST:n ]zu denken! Ganze Karawane todgeweiht, wenn[ST:n ][ST:Gender p1=Freund p2=Freundin ] nicht hilft![ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0060</td>
+        <td class="side">Bitte Codefragment A-HAB und acht Nostalgia L-002[ST:n ]finden. Um Karawane Willen.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0061</td>
+        <td class="side">Nalu wird hier auf [ST:Gender p1=Freund p2=Freundin ] warten.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0062</td>
+        <td class="side">Nalu braucht ein Codefragment A-HAB[ST:n ]und acht Nostalgia L-002.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0063</td>
+        <td class="side">Gro&#223;es Dankepon.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0104</td>
+        <td class="side">Und? Hat [ST:Gender p1=Freund p2=Freundin ] Dinge gefunden, nach denen Nalu[ST:n ]so h&#246;flich gefragt hat?[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0064</td>
+        <td class="side">Juhu! Nalu wird reich![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0065</td>
+        <td class="side">Hihihihi... Nalu kann bestimmt noch mehr Katsching[ST:n ]aus [ST:Gender p1=Freund p2=Freundin ] rausquetschen...[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0066</td>
+        <td class="side">Erdpon sind wie Katsching-Automat. Einfach Code[ST:n ]eingeben und Katsching kommt rausgeflutscht![ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0067</td>
+        <td class="side">Huch! Hat [ST:Gender p1=Freund p2=Freundin ]... &#196;h, Nalu hat nur wieder laut[ST:n ]gedacht. Bestimmt nur Angst vor st&#228;ndiger Bedrohung,[ST:n ]die aus Nalu spricht.[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0068</td>
+        <td class="side">Nalu brabbelt vor sich hin wegen fiesem Trauma von[ST:n ]Erpressung. Nur Blabla, kein Sinn.[ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0069</td>
+        <td class="side">Dankepon, f&#252;r, &#228;h, Sachen.[ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0087</td>
+        <td class="side">Wenn so weitergeht, bringen Ganglion alle um.[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0088</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] muss Dinge bringen, um die Nalu gebeten hat.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0105</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] ist zur&#252;ckgekehrt! Hat [ST:Gender p1=Freund p2=Freundin ] alles gefunden?[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0070</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] hat alles dabei...[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0071</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] ist d&#252;mm... &#228;h, liebste Person in ganz Mira![ST:n ]Haha![ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0072</td>
+        <td class="side">Wieder hat [ST:Gender p1=Freund p2=Freundin ] Leben von Nopon gerettet.[ST:n ]Gro&#223;es, gro&#223;es Dankepon![ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0073</td>
+        <td class="side">Muss ganz sch&#246;n schwer gewesen sein, alles zu finden.[ST:n ]Nalu kann [ST:Gender p1=Freund p2=Freundin ] gar nicht genug danken![ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0074</td>
+        <td class="side">Nalu sooo dankbar. &#220;berw&#228;ltigt von Nettigkeit.[ST:n ]Sagt tausend Millionen mal Dankepon![ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0120</td>
+        <td class="side">Err&#246;ten</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0121</td>
+        <td class="side">Zeige, dass du ganz ger&#252;hrt bist.</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev042101_JNK0130</td>
+        <td class="side">Verd&#228;chtigen</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev042101_SEL0131</td>
+        <td class="side">Sage, dass du nicht wirklich von[ST:n ]Nalus Aufrichtigkeit &#252;berzeugt bist.</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0075</td>
+        <td class="side">Hihihihahaha![ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0076</td>
+        <td class="side">Einfach nur ganz viel Dankepon sagen und schon hat[ST:n ][ST:Gender p1=Freund p2=Freundin ] Klo&#223; im Hals![ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0077</td>
+        <td class="side">Jungponleicht! Fast ZU leicht![ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0078</td>
+        <td class="side">...&#196;h, ist Nalu schon wieder was rausgerutscht?[ST:wait ]</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0079</td>
+        <td class="side">Nalu war so aufgew&#252;hlt vor Dankbarkeit, dass[ST:n ]grunzendes Gebrabbel aus Mund gekommen ist.[ST:n ]Hat sich nur zuf&#228;llig wie normale W&#246;rter angeh&#246;rt.[ST:wait ]</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0080</td>
+        <td class="side">Na ja, Nalu wird niemals Nettigkeit vergessen![ST:n ][ST:Gender p1=Freund p2=Freundin ] ist [ST:Gender p1=pers&#246;nlicher Superheld p2=pers&#246;nliche Superheldin ] von Nalu![ST:wait ]</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0081</td>
+        <td class="side">Nalu meint ernst! Nalu dankt [ST:Gender p1=Freund p2=Freundin ] aus[ST:n ]tiefstem Flauscheherz.[ST:wait ]</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0082</td>
+        <td class="side">Moment, hat [ST:Gender p1=Freund p2=Freundin ] gemerkt, dass alles Schwindel ist?[ST:wait ]</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0083</td>
+        <td class="side">&#196;h, nicht Schwindel! Nettigkeit von [ST:Gender p1=Freund p2=Freundin ] macht[ST:n ]Nalu ganz SCHWINDELIG! Ja, genau.[ST:wait ]</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0084</td>
+        <td class="side">[ST:Gender p1=F-Freund p2=F-Freundin ] muss Nalu nur tief in gro&#223;e Kulleraugen[ST:n ]gucken.[ST:wait ]</td>
+      </tr>
+      <tr id="114">
+        <td>114</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0085</td>
+        <td class="side">Kein bisschen b&#246;se Absicht in unschuldigem[ST:n ]Knuffelgesicht von Nalu zu erkennen.[ST:wait ]</td>
+      </tr>
+      <tr id="115">
+        <td>115</td>
+        <td>
+        </td>
+        <td>qev042101_MSG0086</td>
+        <td class="side">Auf jeden Fall sagt Nalu Dankepon![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

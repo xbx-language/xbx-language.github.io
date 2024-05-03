@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0001</td>
+        <td class="side">Essen! Happa! Mampf! Gehilfin Pisa muss f&#252;r Potepote[ST:n ]schnell Porontulpen finden und Pollen zubereiten![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0002</td>
+        <td class="side">Dabei hat Potepote erst gegessen! Vielleicht mampft[ST:n ]Potepote zu viel...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0003</td>
+        <td class="side">Au&#223;erdem ist Happa knapp in Karawane. Als Chefpon[ST:n ]von Karawane sollte Potepote mit gutem Beispiel...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0004</td>
+        <td class="side">Chefpon befiehlt! Wenn Pisa weiterhin nicht gehorcht,[ST:n ]muss Potepote Kitzelfolter anwenden![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0005</td>
+        <td class="side">Kitzelfolter? Ist Verletzung von Noponrechten![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0006</td>
+        <td class="side">Potepote ist auch Chefpon von Noponrechtskommission.[ST:n ]Zu Recht. Pisa tut, was Potepote sagt, oder Potepote[ST:n ]macht kitzelfitzel![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0007</td>
+        <td class="side">...Hm? Was will [ST:Gender p1=Freund p2=Freundin ] hier?[ST:n ]...Hat [ST:Gender p1=Freund p2=Freundin ] was zu mampfen dabei?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041801_JNK0010</td>
+        <td class="side">Erkl&#228;ren</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041801_SEL0011</td>
+        <td class="side">Berichte Potepote von Ngogos Auftrag.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041801_JNK0020</td>
+        <td class="side">Anbieten</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041801_SEL0021</td>
+        <td class="side">Frage Potepote, ob er gerne etwas[ST:n ]von deinem Proviant m&#246;chte.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0008</td>
+        <td class="side">Uiiii! Her damit! Nomnomnomnonm.... Hm?[ST:n ]IIIIIIIIIIIIIIIIIGITT! Pfui! Ist ekelig! Wieso bietet [ST:Gender p1=Freund p2=Freundin ][ST:n ]Potepote so f&#252;rchterlich fades Happa an?![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0009</td>
+        <td class="side">Potepote ist Feinstschmecker und mampft nur[ST:n ]besteste Pollen.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0010</td>
+        <td class="side">...Was? Ngogo schickt [ST:Gender p1=Freund p2=Freundin ] f&#252;r Planung von[ST:n ]Feuerwerk?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0011</td>
+        <td class="side">...Und Potepote muss Opapon besuchen? Och n&#246;&#246;&#246;![ST:n ]Klingt f&#252;rchterlangweilig.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0012</td>
+        <td class="side">Aber Potepote hat keine Wahl. Muss Befehl von[ST:n ]Opapon gehorchen, auch wenn Opapon l&#252;sterner[ST:n ]alter Brummelgrummel ist.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0013</td>
+        <td class="side">Leider sind in Karawane Ressourcen knapp. Gibt nicht[ST:n ]ausreichend Material f&#252;r Feuerwerk.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0014</td>
+        <td class="side">Vielleicht kann [ST:Gender p1=Freund p2=Freundin ] helfen, Infernium und[ST:n ]Knallpulver zu sammeln?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0015</td>
+        <td class="side">Und Porontulpen, ja? Wenn [ST:Gender p1=Freund p2=Freundin ] alles herbringt,[ST:n ]brennt Potepote doofes Feuerwerk f&#252;r Nan ab.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0016</td>
+        <td class="side">Potepote verhungert! [ST:Gender p1=Freund p2=Freundin ] will Feuerwerk?[ST:n ]Muss sich beeilen und Material bringen.[ST:n ]Und Porontulpen![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0017</td>
+        <td class="side">Schn&#252;ffel! Riecht wie... PORONTULPEN! Her damit![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0018</td>
+        <td class="side">Und falls [ST:Gender p1=Freund p2=Freundin ] auch Material f&#252;r Feuerwerk[ST:n ]gefunden hat, soll [ST:Gender p1=Freund p2=Freundin ] Pisa geben.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0019</td>
+        <td class="side">Hmmm, Tulpen sind besteste Qualit&#228;t. Pisa? ...PISA![ST:n ]Warum bringt Pisa Potepote nie so leckere Sachen?![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0020</td>
+        <td class="side">Weil keine guten Tulpen in N&#228;he...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0021</td>
+        <td class="side">Klappe zu! Keine Widerworte! Potepote ist Chefpon[ST:n ]von Karawane und verlangt Gehorsam.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0022</td>
+        <td class="side">Grrr... Fieser Tyrannenpon.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0023</td>
+        <td class="side">Oh, und Pisa besucht Opapon anstelle von Potepote.[ST:n ]Potepote ist doch nicht plemplem und reist sooo weit.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0024</td>
+        <td class="side">WAAAS?! N&#246;. Macht Pisa nicht.[ST:n ]Kann Potepote vergessen![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0025</td>
+        <td class="side">Bei jeder Gro&#223;versammlung hat Oberpon Nan Pisa[ST:n ]ganze Zeit angekrabbelt. Wenn Pisa Schmerzensgeld[ST:n ]daf&#252;r bekommen h&#228;tte, w&#228;re Pisa lange im Ruhestand.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0026</td>
+        <td class="side">Traurig, aber nur Blabla. Ist Potepote egal.[ST:n ]...[ST:Gender p1=Freund p2=Freundin ] meint auch, dass Pisa gehen soll, richtig?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev041801_JNK0040</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev041801_SEL0041</td>
+        <td class="side">Na klar! Nan w&#228;re bestimmt sehr erfreut.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev041801_JNK0030</td>
+        <td class="side">Widersprechen</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev041801_SEL0031</td>
+        <td class="side">Bestehe darauf, dass Potepote da selbst durchmuss.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0032</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] ist vielleicht bisschen schlauer als aussieht.[ST:n ]Vielleicht stellt Potepote [ST:Gender p1=Freund p2=Freundin ] als [ST:Gender p1=Gehilfe p2=Gehilfin ] ein f&#252;r[ST:n ]Zeit, in der Pisa weg ist.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0033</td>
+        <td class="side">Ist nicht fair! Ist FIES! Pisa hat so gemeine Behandlung[ST:n ]nicht verdient![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0034</td>
+        <td class="side">Egal, Stimmen sind zwei zu eins. Potepote k&#252;mmert[ST:n ]sich um Feuerwerk. Pisa sagt Opapon sch&#246;nen Gru&#223;[ST:n ]von Potepote.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0035</td>
+        <td class="side">...Na? Los, hopp! Oder will Pisa ein bisschen[ST:n ]Kitzelfitzel-Folter?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0036</td>
+        <td class="side">Bel&#228;stigung von Opapon, Erpressung von Enkelpon.[ST:n ]Feine Familie, die Potepote da hat![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0027</td>
+        <td class="side">Ja, genau! Au&#223;erdem wird Feuerwerk nicht richtig[ST:n ]gemacht, wenn Pisa weg ist.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0028</td>
+        <td class="side">Pisa wird Karawane verk&#252;nden, dass Potepote sich[ST:n ]auf Weg zu Oberpon Nan macht.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0029</td>
+        <td class="side">Ah! Zur&#252;ckkommen! ...Grrr! Pisa weg. Wenn Pisa[ST:n ]anderen sagt, dass Potepote geht, kann Potepote[ST:n ]nicht mehr Nein sagen. Verliert sonst Gesicht.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0030</td>
+        <td class="side">Potepote hat wirklich &#252;&#252;&#252;berhaupt gar keine Lust zu[ST:n ]gehen, muss aber wohl...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0031</td>
+        <td class="side">Grummel... Ist [ST:Gender p1=Freund p2=Freundin ] jetzt zufrieden?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0037</td>
+        <td class="side">Potepote hat Hunger! Opapon muss Potepote was[ST:n ]zu mampfen geben![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0038</td>
+        <td class="side">Hust! Warum ist Potepote &#252;berhaupt hier?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0039</td>
+        <td class="side">Potepote k&#252;mmert sich schon irgendwie um Feuerwerk.[ST:n ]Vielleicht.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev041801_MSG0040</td>
+        <td class="side">Oh, und wenn [ST:Gender p1=Freund p2=Freundin ] Pisa sieht, muss ausrichten,[ST:n ]dass Pisa Blumen von Reise mitbringen soll.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev085102_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0001</td>
+        <td class="side">&#199;a fume toujours...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0002</td>
+        <td class="side">C&#39;est feu de camp &#224; vilains ![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0003</td>
+        <td class="side">La signature thermique r&#233;siduelle le confirme :[ST:n ]ce feu a &#233;t&#233; &#233;teint il y a peu de temps.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0004</td>
+        <td class="side">C&#39;est &#233;trange... Ce n&#39;est pas leur genre[ST:n ]de faire un feu de camp...[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev085102_JNK0010</td>
+        <td class="side">Conseiller</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev085102_SEL0011</td>
+        <td class="side">Sugg&#233;rer d&#39;aller jeter un œil aux alentours.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev085102_JNK0020</td>
+        <td class="side">Pr&#233;venir</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev085102_SEL0021</td>
+        <td class="side">Avertir les autres que vous avez entendu quelque chose.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0005</td>
+        <td class="side">Bien pens&#233;. Effectuons un balayage standard[ST:n ]du p&#233;rim&#232;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0006</td>
+        <td class="side">Elma, attends ! Tatsu a entendu quelque chose ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0007</td>
+        <td class="side">Quoi donc ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0008</td>
+        <td class="side">Quelqu&#39;un vient par ici...[ST:n ]Tout le monde, &#224; couvert ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0009</td>
+        <td class="side">Ah, on arrive trop tard.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0010</td>
+        <td class="side">Bon sang... Ces deux-l&#224; peuvent &#234;tre[ST:n ]n&#39;importe o&#249;.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0011</td>
+        <td class="side">Oh allez, ce type est aussi grand qu&#39;un mecha ![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0012</td>
+        <td class="side">Il ne doit pas y avoir beaucoup d&#39;endroits[ST:n ]o&#249; il peut se cacher ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0013</td>
+        <td class="side">Bah, peu importe. On ferait mieux d&#39;aller[ST:n ]pr&#233;venir le capitaine.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0014</td>
+        <td class="side">Soldats font partie Ganglion, pour s&#251;r.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0015</td>
+        <td class="side">Elma, vous avez entendu ? &#171; Ce type est aussi[ST:n ]grand qu&#39;un mecha. &#187;[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0016</td>
+        <td class="side">Et ils cherchent deux personnes...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0017</td>
+        <td class="side">Mais pourquoi Dagahn et Ryyz seraient... Ils font[ST:n ]pourtant aussi partie du Ganglion, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0018</td>
+        <td class="side">Peut-&#234;tre ont d&#233;sert&#233; apr&#232;s d&#233;faite am&#232;re[ST:n ]contre Tatsu ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0019</td>
+        <td class="side">Pardon, contre qui ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0020</td>
+        <td class="side">Enfin bref, il semble qu&#39;on recherche[ST:n ]les m&#234;mes individus.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0021</td>
+        <td class="side">C&#39;est le cas, d&#39;apr&#232;s ce qu&#39;ils ont dit...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0022</td>
+        <td class="side">On devrait peut-&#234;tre attraper ces deux-l&#224; pour[ST:n ]leur soutirer des infos, voir ce qu&#39;ils savent.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0023</td>
+        <td class="side">Et toi, qu&#39;en penses-tu ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev085102_JNK0030</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev085102_SEL0031</td>
+        <td class="side">Approuver le plan de Lin et aller leur soutirer des infos.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev085102_JNK0040</td>
+        <td class="side">D&#233;sapprouver</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev085102_SEL0041</td>
+        <td class="side">Dire que vous pr&#233;f&#233;rez continuer &#224; chercher.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0024</td>
+        <td class="side">Tr&#232;s bien. Cela devrait &#234;tre facile de s&#39;occuper[ST:n ]de deux soldats. Voyons ce qu&#39;on peut en tirer.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev085102_MSG0025</td>
+        <td class="side">Tr&#232;s bien. Ne cherchons pas les ennuis[ST:n ]et continuons &#224; chercher dans les environs.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

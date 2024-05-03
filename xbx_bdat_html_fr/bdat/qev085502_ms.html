@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev085502_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0001</td>
+        <td class="side">&#199;a ne va pas... Mes armes n&#39;ont pas assez[ST:n ]de puissance de feu. Il m&#39;en faut des meilleures.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev085502_JNK0010</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev085502_SEL0011</td>
+        <td class="side">Lui dire que son pistolet &#224; eau est inutile.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev085502_JNK0020</td>
+        <td class="side">Faire pression</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev085502_SEL0021</td>
+        <td class="side">Lui demander si c&#39;est vraiment son arme le probl&#232;me.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0002</td>
+        <td class="side">T&#39;as raison ! Apr&#232;s tout, rien ne vaut[ST:n ]un gros fusil pour l&#39;attaque.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0003</td>
+        <td class="side">Tu es s&#251;r de &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0004</td>
+        <td class="side">Euh, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0005</td>
+        <td class="side">Bah, oui. L&#39;arme fait le soldat. C&#39;est logique.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0006</td>
+        <td class="side">Tu as tout faux.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0007</td>
+        <td class="side">Hein ? Comment &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0008</td>
+        <td class="side">Lin ? Quelle est ton analyse de la situation ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0009</td>
+        <td class="side">Eh bien...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0010</td>
+        <td class="side">Sois honn&#234;te, s&#39;il te pla&#238;t.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0011</td>
+        <td class="side">Eh bien, on aurait dit que vos armes vous utilisaient[ST:n ]et non l&#39;inverse.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0012</td>
+        <td class="side">Elles... m&#39;utilisaient ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0013</td>
+        <td class="side">Nous avons un dicton chez les m&#233;caniciens :[ST:n ]&#171; La simplicit&#233; est m&#232;re de s&#251;ret&#233;. &#187;[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0014</td>
+        <td class="side">En d&#39;autres termes, donner un outil compliqu&#233;[ST:n ]&#224; un amateur est inutile.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0015</td>
+        <td class="side">Cela r&#233;sume parfaitement la situation.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0016</td>
+        <td class="side">Tu n&#39;as pas besoin d&#39;une meilleure arme. Tu dois[ST:n ]apprendre &#224; mieux la manier.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0017</td>
+        <td class="side">Sans les bases, m&#234;me une arme surpuissante[ST:n ]ne te servirait &#224; rien.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0018</td>
+        <td class="side">Apprendre les bases, hein ? J&#39;y ai jamais pens&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0019</td>
+        <td class="side">On va commencer par les fondamentaux.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0020</td>
+        <td class="side">Attends, je sais exactement ce qu&#39;il te faut...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev085502_MSG0021</td>
+        <td class="side">Oui, Madame. Et encore merci, Madame ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

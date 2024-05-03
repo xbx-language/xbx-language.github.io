@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0001</td>
+        <td class="side">GRRRRRAAAR! NEIN! Dieses wertlose St&#252;ck Blech[ST:n ]entspricht nicht der Art Schwert, die ich zu fertigen[ST:n ]gedenke! Doch wo liegt der Fehler?![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0002</td>
+        <td class="side">Ist meine Schmiedekunst mangelhaft? Die Qualit&#228;t des[ST:n ]Stahls? Oder tr&#228;gt mein t&#246;richter Lehrling die Schuld?[ST:n ]Rechtfertige dich, Gi Nagri![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0003</td>
+        <td class="side">Was? I-ich, Meister...?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0004</td>
+        <td class="side">WENN du die Schuld tr&#228;gst, werde ich die Situation[ST:n ]umgehend bereinigen. Selbst eine nutzlose Klinge[ST:n ]vermag einen Schw&#228;chling wie dich zu spalten![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0005</td>
+        <td class="side">B-bitte, Meister! Ihr m&#252;sst versuchen, euch zu beruhigen![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0006</td>
+        <td class="side">Seit Jahren bearbeite ich Stahl auf der Suche nach[ST:n ]einer Klinge von un&#252;bertrefflicher Sch&#228;rfe und H&#228;rte.[ST:n ]Dies war mein zehntausendster Versuch![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0007</td>
+        <td class="side">Und du erwartest, dass ich beim Anblick dieser[ST:n ]zehntausend Stahlleichen, die ich trotz meines Herzbluts[ST:n ]nicht mit Leben zu f&#252;llen vermochte, ruhig bleibe?![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0008</td>
+        <td class="side">Ihr da! Mensch! Wenn Ihr in meiner Lage w&#228;ret, w&#252;rde[ST:n ]auch Euch eine wilde Wut &#252;berkommen, nicht wahr?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0010</td>
+        <td class="side">Darauf eingehen</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0011</td>
+        <td class="side">Beginne eine Unterhaltung mit[ST:n ]diesem interessanten Wrothianer.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0020</td>
+        <td class="side">Ausweichen</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0021</td>
+        <td class="side">Halte dich von diesem aggressiven[ST:n ]Schmiedemeister besser fern.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0009</td>
+        <td class="side">Der Ausdruck auf Eurem Gesicht ist mir wohlbekannt.[ST:n ]Ihr m&#252;sst Euch nicht erkl&#228;ren, Mensch. Ich verstehe![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0010</td>
+        <td class="side">Gi Nagri stand dieselbe unverhohlene[ST:n ]Verg&#246;tterung ins Gesicht geschrieben,[ST:n ]als ich ihn als Lehrling aufnahm.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0011</td>
+        <td class="side">Mir scheint, Genies wie ich verm&#246;gen andere durch[ST:n ]unsere blo&#223;e Existenz zu beeindrucken. Jeder Atemzug[ST:n ]von mir ist anbetungsw&#252;rdig. Welch schwere B&#252;rde...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0012</td>
+        <td class="side">Das Schmiedefeuer, das hell in mir lodert, ist hei&#223;[ST:n ]genug, um selbst andere Wrothianer einzusch&#252;chtern.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0013</td>
+        <td class="side">Ich verstehe recht gut, dass Ihr mich f&#252;rchtet und bei[ST:n ]meinem blo&#223;en Anblick in Sprachlosigkeit erstarrt.[ST:n ]Von Ehrfurcht ergriffen und von Neid zerfressen.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0014</td>
+        <td class="side">Aber gut, so sei es! Ich werde Euch gestatten, mir beim[ST:n ]Erreichen meines gro&#223;en Traums zur Hand zu gehen![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0015</td>
+        <td class="side">Vierzig Jahre brachte ich damit zu, Stahl zu schlagen,[ST:n ]stets im Verlangen nach einer Unverw&#252;stlichen Klinge.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0016</td>
+        <td class="side">Einer Klinge, die das Eintauchen in gl&#252;hendes Magma[ST:n ]ebenso unbeschadet &#252;bersteht wie den Aufschlag eines[ST:n ]Kometen. Bisher existiert sie jedoch nur in meinem Kopf.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0017</td>
+        <td class="side">Aber stellt Euch nur vor, wenn solch eine Klinge das[ST:n ]Licht der Welt erblicken w&#252;rde! Versetzt dies nicht auch[ST:n ]Euer Herz und Euren Geist in gr&#246;&#223;te Verz&#252;ckung?![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0018</td>
+        <td class="side">Nun denn! Folgt meiner F&#252;hrung, und wir werden[ST:n ]dieses Schwert des Schicksals gemeinsam erschaffen![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0019</td>
+        <td class="side">An jenem glorreichen Tage, da dieses Schwert vollendet[ST:n ]sein wird, will ich Euch f&#252;rstlich entlohnen. Glaubt mir,[ST:n ]mein Wort ist so verl&#228;sslich wie mein Stahl.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0020</td>
+        <td class="side">Wunderbar! Fortan sollt Ihr mir zugleich als Hammer[ST:n ]wie als Amboss dienen. Ihr werdet mich mit K&#246;rper,[ST:n ]Herz und Seele unterst&#252;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0021</td>
+        <td class="side">Zuvorderst werdet Ihr Neraph, eine Schmiedin der[ST:n ]Ma-non, nach dem h&#228;rtesten Metall auf Mira fragen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0022</td>
+        <td class="side">Sie ist geschickt, jedoch ein Hasenfu&#223;. Meine Pr&#228;senz[ST:n ]versetzt sie in Angst und Schrecken. Wollte ich sie[ST:n ]besuchen, ergriff sie stets die Flucht.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0023</td>
+        <td class="side">Ha ha ha! Doch Euch in Eurer ganzen Gew&#246;hnlichkeit[ST:n ]wird sie sicher mit offenen &#196;rmchen empfangen.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0030</td>
+        <td class="side">Neraph schmiedet Panzerungen f&#252;r Skells. Sicher wei&#223;[ST:n ]sie um den h&#228;rtesten Stahl auf Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0031</td>
+        <td class="side">Gewiss kauert sie unweit von hier in einem versteckten[ST:n ]Winkel und wimmert. Setzt alles daran – was auch[ST:n ]immer daf&#252;r n&#246;tig ist – um ihr Wissen auszusch&#246;pfen![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0032</td>
+        <td class="side">Gi Nagri! Du schmiedest ohne jegliche Leidenschaft![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0033</td>
+        <td class="side">Beim H&#228;mmern einer Klinge musst du all deine[ST:n ]Lebenserfahrung in den Stahl schlagen![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0034</td>
+        <td class="side">Ein schwacher Wille ergibt schwachen Stahl, Bursche.[ST:n ]Lege die Last deiner Vergangenheit in jeden[ST:n ]Hammerschlag! Entfessle all deinen Schmerz![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0035</td>
+        <td class="side">J-ja, Meister! Ich bin unw&#252;rdig, Meister! Ich will mich[ST:n ]m&#252;hen, mein Leben in Eurem Sinne zu f&#252;hren, Meister![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0036</td>
+        <td class="side">Ja. Gut. Streng dich an![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0037</td>
+        <td class="side">...Hm? Was steht Ihr hier herum und starrt? W&#252;nscht[ST:n ]auch Ihr von mir die Kunst des Schmiedens zu erlernen?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0030</td>
+        <td class="side">Bejahen</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0031</td>
+        <td class="side">Nicke mit einem Glitzern in den Augen.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0040</td>
+        <td class="side">Verneinen</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0041</td>
+        <td class="side">Sage De Zing, dass du von Neraph etwas &#252;ber[ST:n ]die Herstellung von Hyperstahl erfahren hast.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0038</td>
+        <td class="side">Ausgezeichnet! Ich wusste, dass der Funke des Ehrgeizes[ST:n ]in Euch glimmt![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0039</td>
+        <td class="side">Aber dieses Wissen ist ein Geheimnis meiner Zunft.[ST:n ]Ihr m&#252;sst es Euch durch harte Arbeit und[ST:n ]Entschlossenheit erst verdienen![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0040</td>
+        <td class="side">...Wie war das? Ihr habt in Erfahrung gebracht, worin[ST:n ]das Geheimnis des Hyperstahls liegt?![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0041</td>
+        <td class="side">Kein Grund, Euer wahres Sehnen zu verbergen, Mensch.[ST:n ]Ziert Euch nicht. Ihr werdet Euch besser f&#252;hlen, wenn Ihr[ST:n ]offen zugebt, dass Ihr Euch nach meiner F&#252;hrung sehnt![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0042</td>
+        <td class="side">Doch ist mir bewusst, dass die Gegenwart eines Genies[ST:n ]wie mir f&#252;r Neid und Verzagen sorgt. So bleibt bei[ST:n ]Eurer Ausrede, und bewahrt Euren verletzlichen Stolz.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0043</td>
+        <td class="side">Nun, dann gebt mir zumindest jene Geheimnisse weiter,[ST:n ]die Neraph Euch offenbarte. Sprecht![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0044</td>
+        <td class="side">...Hm, ja. Ich verstehe. Kimmerischer Zinnober und [ST:n ]Zagyrinischer Biostahl. Eine faszinierende Legierung![ST:n ]Jene Ma-non muss eine vortreffliche Schmiedin sein.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0045</td>
+        <td class="side">Ich sehe es vor meinem geistigen Auge: Miteinander[ST:n ]verschmolzen werden mir jene Materialien eine Klinge[ST:n ]erm&#246;glichen, die alles durchtrennt und niemals bricht![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0046</td>
+        <td class="side">Wohlan, [ST:Gender p1=werter p2=werte ] [ST:playername ]![ST:n ]So ist es nun an der Zeit, dass Ihr[ST:n ]mir besagte Materialien beschafft.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0047</td>
+        <td class="side">Ich werde hier w&#228;hrenddessen &#252;ber meine Lebensjahre[ST:n ]sinnieren, welche ich der Schmiedekunst verschrieb...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0048</td>
+        <td class="side">F&#252;rwahr, ich muss bereit sein, all mein Wissen, meine [ST:n ]Erfahrung und meine Leidenschaft in diese Klinge flie&#223;en[ST:n ]zu lassen. Auch f&#252;r ein Genie wie mich kein Leichtes.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0049</td>
+        <td class="side">Ann&#228;hernd vierzig Jahre widmete ich mein gesamtes[ST:n ]Dasein der Suche nach der vollendeten Klinge.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0050</td>
+        <td class="side">Kimmerischer Zinnober und Zagyrinischer Biostahl,[ST:n ]Mensch! Wenn Ihr mir dies bringt, kann ich mit[ST:n ]meinen eigenen H&#228;nden meinen Traum verwirklichen![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0051</td>
+        <td class="side">Ihr seid zur&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0052</td>
+        <td class="side">Nach der Erforschung meiner Schmiedeseele stehe ich[ST:n ]nun an der Schwelle zur Erleuchtung! &#220;bergebt mir die[ST:n ]Werkstoffe – mein Hammer ist bereit.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0053</td>
+        <td class="side">Die Unverw&#252;stliche Klinge entzog sich mir, als l&#228;ge sie[ST:n ]im Morgennebel verborgen. Doch nun beginnt sich mir[ST:n ]ihre wahre Gestalt zu offenbaren![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0054</td>
+        <td class="side">Dies wird mein Meisterwerk, nach dem ich schon ein[ST:n ]halbes Leben lang strebe. Im Feuer meiner Leidenschaft[ST:n ]werde ich das vollendete Schwert schmieden![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0050</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0051</td>
+        <td class="side">Bitte De Zing, dir mehr &#252;ber[ST:n ]seine Leidenschaft zu erz&#228;hlen.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0060</td>
+        <td class="side">Fordern</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0061</td>
+        <td class="side">Erkl&#228;re De Zing, dass es jetzt an der Zeit[ST:n ]w&#228;re, dich f&#252;r deine Arbeit zu belohnen.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0055</td>
+        <td class="side">Ha! Wie wissbegierig ihr seid! Nun denn, Ihr habt mir[ST:n ]einen guten Dienst getan, da verdient ihr es wohl, mehr[ST:n ]zu erfahren.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0056</td>
+        <td class="side">Mich treibt ein Verlangen an, das ebenso simpel wie[ST:n ]zutiefst kompliziert ist...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0057</td>
+        <td class="side">Schwerter sind einfach &#252;berw&#228;ltigende Waffen.[ST:n ]Insbesondere, wenn sie paarweise im Kampf gef&#252;hrt[ST:n ]werden. Nichts beeindruckt mich mehr.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0058</td>
+        <td class="side">Im Laufe der Zeit muss ich daher wohl noch eine zweite[ST:n ]Unverw&#252;stliche Klinge schmieden. Dann kann ich mich[ST:n ]der Entwicklung neuer Kampftechniken widmen.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0059</td>
+        <td class="side">...Was hat Euer Gesichtsausdruck zu bedeuten?[ST:n ]Wollt Ihr die Leidenschaft verunglimpfen, mit der ich[ST:n ]mich vierzig Jahre lang der Schmiedekunst verschrieb?[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0060</td>
+        <td class="side">...Nein? Ihr w&#252;nscht nun, Eure Belohnung zu erhalten?[ST:n ]Nun gut, so lautete unser Handel.[ST:n ]Dann ist es wohl angemessen.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0061</td>
+        <td class="side">Nun gut... So lautete unser Handel.[ST:n ]Dann ist es wohl angemessen.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0062</td>
+        <td class="side">Jedoch verf&#252;ge ich nicht &#252;ber die n&#246;tigen Mittel.[ST:n ]All diese Jahre lebte ich wie ein Einsiedler. Die [ST:n ]Schmiedekunst ist eher Lebensinhalt als Lebensunterhalt.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0063</td>
+        <td class="side">Dies bedeutet nicht, dass ich Euch hinters Licht f&#252;hrte.[ST:n ]Sobald ich mein vollendetes Schwert geschmiedet habe,[ST:n ]kann mich nichts mehr aufhalten![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0064</td>
+        <td class="side">Die Bestien Cauldros’ werden meiner Klinge zum Opfer[ST:n ]fallen! Kaum dass Ihr Euch’s verseht, werde ich genug[ST:n ]verdient haben, um Euch zu entlohnen.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0065</td>
+        <td class="side">Wohlan! Gi Nagri, bereite umgehend die Schmiede vor![ST:n ]Es gilt, etwas Unvergleichliches zu schaffen![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0066</td>
+        <td class="side">Ja, Meister![ST:n ]Endlich werden wir Eurem Traum Gestalt verleihen![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0067</td>
+        <td class="side">Die Unverw&#252;stliche Klinge... Unsere Mission wird es[ST:n ]sein, das unvergleichlichste Schwert aller Zeiten zu[ST:n ]schmieden![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

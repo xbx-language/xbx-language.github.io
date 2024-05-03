@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev065901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev065901_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev065901_SEL0011</td>
+        <td class="side">Demander &#224; Da Zeulbe de vous parler du Ganglion.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev065901_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev065901_SEL0021</td>
+        <td class="side">Demander &#224; Da Zeulbe si quelque chose le perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev065901_JNK0010</td>
+        <td class="side">tev065901_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev065901_SEL1011</td>
+        <td class="side">Demander &#224; Da Zeulbe pourquoi le Ganglion[ST:n ]pourchasse les humains sans rel&#226;che.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev065901_JNK0020</td>
+        <td class="side">tev065901_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev065901_SEL1021</td>
+        <td class="side">Demander &#224; Da Zeulbe s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev065901_JNK0010</td>
+        <td class="side">tev065901_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev065901_SEL1031</td>
+        <td class="side">Demander &#224; Da Zeulbe de vous parler d&#39;Oblivia.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev065901_JNK0020</td>
+        <td class="side">tev065901_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev065901_SEL1041</td>
+        <td class="side">Demander &#224; Da Zeulbe s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0001</td>
+        <td class="side">Fi ! Le Ganglion ? Ce path&#233;tique et veule Luxaar[ST:n ]agit comme s&#39;il &#233;tait important alors qu&#39;il n&#39;est[ST:n ]qu&#39;un pion &#224; la solde des chiens samaariens.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0002</td>
+        <td class="side">Il n&#39;est pas un leader charismatique comme[ST:n ]notre prince Jiarg.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0003</td>
+        <td class="side">Sa d&#233;faite face &#224; vous, notre trahison...[ST:n ]Son ire doit &#234;tre incommensurable.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0004</td>
+        <td class="side">Si nos troupes &#233;taient par&#233;es au combat,[ST:n ]nous irions promptement en finir.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0005</td>
+        <td class="side">C&#39;est ce que nous ferons d&#232;s que nous serons pr&#234;ts.[ST:n ]Nous nous glisserons dans son repaire[ST:n ]et nous lui &#244;terons la vie ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0010</td>
+        <td class="side">Les Prones ne souhaitent que notre mort.[ST:n ]Une nouvelle escarmouche a lieu chaque jour.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0011</td>
+        <td class="side">Ils ne sont pas matois mais leur force est titanesque.[ST:n ]Nous n&#39;arrivons pas &#224; diminuer leurs effectifs.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0012</td>
+        <td class="side">Mais vous en avez affront&#233; plus d&#39;un, n&#39;est-ce pas ?[ST:n ]Si vous connaissez quelque ruse pour les vaincre,[ST:n ]je vous prie de m&#39;en faire part.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0017</td>
+        <td class="side">Ce serait plut&#244;t &#224; moi de vous poser cette question ![ST:n ]Avez-vous fait quelque chose pour d&#233;cha&#238;ner[ST:n ]leur courroux ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0018</td>
+        <td class="side">Ils ont toujours agi pour r&#233;pondre aux d&#233;sirs[ST:n ]de la Samaar.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0019</td>
+        <td class="side">Mais ce ne sont que des molosses &#233;dent&#233;s[ST:n ]qui ne mettent aucun cœur &#224; l&#39;ouvrage.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0020</td>
+        <td class="side">La situation est bien diff&#233;rente depuis votre apparition.[ST:n ]Alors que la Samaar restait muette, le Ganglion[ST:n ]s&#39;est lanc&#233; dans une grande v&#233;nerie et a sonn&#233; l&#39;hallali.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0021</td>
+        <td class="side">C&#39;est une situation que nous n&#39;avions jamais rencontr&#233;e.[ST:n ]Plus j&#39;y songe et plus je me dis qu&#39;un de vos anc&#234;tres[ST:n ]a d&#251; d&#233;shonorer la m&#232;re de Luxaar.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0026</td>
+        <td class="side">Naguth, mon fr&#232;re, Girhi, ma sœur, et moi-m&#234;me[ST:n ]avons consacr&#233; tout notre temps &#224; traquer[ST:n ]et &#224; &#233;liminer les membres du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0027</td>
+        <td class="side">L&#39;autre jour, nous avons organis&#233; un petit pillage[ST:n ]d&#39;une forteresse marnuck, et nous sommes revenus[ST:n ]avec moult armes.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0028</td>
+        <td class="side">Ah ! Je n&#39;ai jamais daign&#233; m&#39;int&#233;resser aux Marnucks.[ST:n ]Ils se croient tellement sup&#233;rieurs aux autres ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0032</td>
+        <td class="side">J&#39;ai &#233;t&#233; mettre mon courage &#224; l&#39;&#233;preuve en affrontant[ST:n ]de terribles adversaires depuis notre arriv&#233;e.[ST:n ]J&#39;ai combattu Ernest le songeur aux chutes du Roi...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0033</td>
+        <td class="side">Et je n&#39;oublierai jamais mon duel face &#224; Bruno[ST:n ]aux poings de fer sur la cr&#234;te de Keegan ![ST:n ]Mais aucune de ces cr&#233;atures ne peut vous &#233;galer.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0034</td>
+        <td class="side">Luxaar n&#39;a pas choisi un adversaire &#224; sa taille.[ST:n ]Mais laissons-le regretter am&#232;rement son erreur[ST:n ]dans l&#39;au-del&#224; ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0039</td>
+        <td class="side">Naguth, mon fr&#232;re, Girhi, ma sœur et moi-m&#234;me avons[ST:n ]consacr&#233; tout notre temps &#224; traquer et &#224; &#233;liminer[ST:n ]les membres du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0040</td>
+        <td class="side">L&#39;autre jour, nous avons organis&#233; un petit pillage[ST:n ]d&#39;une forteresse marnuck, et nous sommes revenus[ST:n ]avec moult armes.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev065901_MSG0041</td>
+        <td class="side">Ah ! Je n&#39;ai jamais daign&#233; m&#39;int&#233;resser aux Marnucks.[ST:n ]Ils se croient tellement sup&#233;rieurs aux autres ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

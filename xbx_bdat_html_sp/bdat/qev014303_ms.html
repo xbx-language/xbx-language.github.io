@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev014303_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0001</td>
+        <td class="side">&#161;Ah! &#161;Aaah, ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0002</td>
+        <td class="side">&#161;Te encontr&#233;eee![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0003</td>
+        <td class="side">&#161;Ja, ja, ja! Sab&#237;a que vendr&#237;as, &#161;lo sab&#237;a![ST:n ]&#161;Ten&#237;as que venir a intentar matar a &#193;lex![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0004</td>
+        <td class="side">As&#237; sois los humanos. Para eso exist&#237;s: para mataros[ST:n ]los unos a los otros. &#161;Ja, ja, ja! &#161;Es muy gracioso![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0005</td>
+        <td class="side">Anda, no seas tan [ST:Gender p1=soso p2=sosa ]. &#161;Venga, vamos a jugar![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0006</td>
+        <td class="side">Ah, &#191;&#193;leeex? Gan&#233; la apuesta. &#191;Puedo quedarme[ST:n ]tambi&#233;n con [ST:Gender p1=este p2=esta ] alien&#237;gena para jugar con [ST:Gender p1=&#233;l p2=ella ]?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0007</td>
+        <td class="side">Haz lo que quieras, siempre y cuando pares[ST:n ]esa risa ensordecedora.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0008</td>
+        <td class="side">Pero antes voy a necesitar tu ayuda.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0009</td>
+        <td class="side">&#161;Aaaah, ja, ja ja! &#161;Claro![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0010</td>
+        <td class="side">En cuanto te haya matado, &#191;qui&#233;n ser&#225;[ST:n ]el siguiente en venir a matar a &#193;lex?[ST:n ]&#161;Aaah, ja, ja, ja! &#161;Estoy impaciente![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0011</td>
+        <td class="side">&#161;Aaah, ja, ja, ja! &#161;Hemos perdido! &#161;Ja, ja, ja! &#161;Buuuu![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0012</td>
+        <td class="side">&#161;Cof, cof! A-anda, mira... &#161;Sangre! &#161;Ja, ja! &#161;Qu&#233; raro![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0013</td>
+        <td class="side">&#191;Eh? N-no me puedo tener en pie... Pfff, je, je... je...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0014</td>
+        <td class="side">&#161;Aaah, ja, ja, ja! &#161;Mira mi mano, ja, ja! &#161;Est&#225; rota![ST:n ]&#161;C&#243;mo duele! &#161;&#161;Duele!! &#161;Aaaah, ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0015</td>
+        <td class="side">Nunca imagin&#233; que nos encontrar&#237;as aqu&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev014303_JNK0010</td>
+        <td class="side">Explicar</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev014303_SEL0011</td>
+        <td class="side">H&#225;blale a &#193;lex del confidente nopon.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev014303_JNK0020</td>
+        <td class="side">Acusar</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev014303_SEL0021</td>
+        <td class="side">Dile a &#193;lex que todo esto se lo ha buscado &#233;l mismo.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0016</td>
+        <td class="side">Pfff, asquerosos animales. Bueno, eso ya da igual...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0017</td>
+        <td class="side">Hab&#237;a planeado deshacerme de esta escoria ganglion[ST:n ]en cuanto dejasen de ser &#250;tiles.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0018</td>
+        <td class="side">Pero Eliza y t&#250; os hab&#233;is entrometido...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0019</td>
+        <td class="side">&#191;As&#237; que ahora tengo yo la culpa de todo esto?[ST:n ]Qu&#233; interesante.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0020</td>
+        <td class="side">&#161;Lo &#250;nico que haces es seguir ciegamente[ST:n ]a esa ignorante! &#161;Eres su t&#237;tere, ni m&#225;s ni menos![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0021</td>
+        <td class="side">Recuerda que esta victoria no te otorga la raz&#243;n...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0022</td>
+        <td class="side">Estoy entre la espada y la pared,[ST:n ]y aun as&#237; t&#250; pareces tan [ST:Gender p1=tranquilo p2=tranquila ].[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0023</td>
+        <td class="side">&#191;Tan [ST:Gender p1=incauto p2=incauta ] eres que no se te ocurri&#243;[ST:n ]que pudiera tener aliados escondidos?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0024</td>
+        <td class="side">Je... Ahora que lo pienso, dudo mucho que en el cielo[ST:n ]o en el infierno haya lugar para seres artificiales[ST:n ]como nosotros.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0025</td>
+        <td class="side">&#191;Es este... el final que esperaba?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0026</td>
+        <td class="side">Eliza... &#191;Qu&#233; ha pasado?[ST:n ]Sol&#237;amos estar siempre... de acuerdo...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0027</td>
+        <td class="side">Je... Je, &#161;ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0028</td>
+        <td class="side">No pienses que en este futuro tuyo no habr&#225;...[ST:n ]derramamiento de sangre...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0029</td>
+        <td class="side">Je, je, je... &#161;Aaaah, ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev014303_MSG0030</td>
+        <td class="side">&#161;Ja, ja, ja! Ja... Ung...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

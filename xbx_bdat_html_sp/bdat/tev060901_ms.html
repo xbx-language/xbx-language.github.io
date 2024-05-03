@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev060901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev060901_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Lularita si le preocupa algo.</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev060901_MSG1001</td>
+        <td class="side">Hasta Lularita, mejor guerrera de caravana,[ST:n ]tiene problemas que solucionar.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev060901_MSG1002</td>
+        <td class="side">Pero &#161;Lularita ha o&#237;do que hay persona[ST:n ]maravillosa en ciudad de [ST:Gender p1=amigo p2=amiga ] que ayuda[ST:n ]a solucionar cualquier problema![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev060901_MSG1003</td>
+        <td class="side">Si alguna vez Lularita se siente desesperada,[ST:n ]Lularita piensa ir a pedir ayuda.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev060901_MSG1004</td>
+        <td class="side">&#191;Nombre de persona? Eem... &#191;Hype? &#191;Harp? &#191;Hoop?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev060901_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev060901_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Lularita por las defensas de la caravana.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev060901_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev060901_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Lularita si ha o&#237;do alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev060901_JNK0010</td>
+        <td class="side">tev060901_JNK0010</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev060901_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Lularita por los enemigos en Cauldros.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev060901_JNK0020</td>
+        <td class="side">tev060901_JNK0020</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev060901_SEL0021</td>
+        <td class="side">tev060901_SEL0021</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0001</td>
+        <td class="side">Caravana de Drongo es m&#225;s que segura[ST:n ]gracias a nopon superfuerte como Lularita.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0002</td>
+        <td class="side">Otras caravanas tienen propios[ST:n ]trucos para prevenir peligro.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0003</td>
+        <td class="side">Por ejemplo, Lularita ha o&#237;do que algunos[ST:n ]ponen excremento de &#225;prica alrededor[ST:n ]para que bichos peque&#241;os no se acerquen.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0004</td>
+        <td class="side">Pero Lularita se pregunta &#161;&#191;c&#243;mo pueden[ST:n ]vivir en pila de esti&#233;rcol como esa?![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0008</td>
+        <td class="side">Nopon estaban hablando de chica llamada Hope[ST:n ]que escucha todos problemas.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0009</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] deber&#237;a decirle a Hope[ST:n ]que Lularita volver&#225; pronto, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0010</td>
+        <td class="side">Ah, y tambi&#233;n que Lularita quiere ayuda gratis.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0020</td>
+        <td class="side">&#191;Quieres saber cu&#225;l es sitio secreto[ST:n ]de entrenamiento de Lularita?[ST:n ]&#161;Gracias a ese sitio Lularita es m&#225;quina de luchar![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0025</td>
+        <td class="side">Basta con que [ST:Gender p1=amigo p2=amiga ] encuentre tipos malos rondando[ST:n ]por muro exterior cuando [ST:Gender p1=amigo p2=amiga ] sale de oc&#233;ano.[ST:n ]&#161;Atacarlos sienta tan bien![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0026</td>
+        <td class="side">&#191;Meh? &#191;Qu&#233; quiere decir [ST:Gender p1=amigo p2=amiga ] con \&quot;d&#233;bil\&quot;?[ST:n ]&#161;Lularita necesit&#243; mucho tiempo para ponerse[ST:n ]fuerte y poder darles paliza![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev060901_JNK0010</td>
+        <td class="side">tev060901_JNK0010</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev060901_SEL0031</td>
+        <td class="side">tev060901_SEL0031</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev060901_JNK0020</td>
+        <td class="side">tev060901_JNK0020</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev060901_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Lularita si hay alguna novedad.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev060901_SEL1041</td>
+        <td class="side">Preg&#250;ntale a Lularita por los enemigos en Cauldros.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0021</td>
+        <td class="side">&#191;Hope es feliz cuando gente conf&#237;a en ella?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0022</td>
+        <td class="side">Si es as&#237;, Lularita dejar&#225; que Hope escuche tooodas[ST:n ]preocupaciones de Lularita. &#161;Y gratis![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0023</td>
+        <td class="side">Es broma. Lularita pagar&#225;.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0024</td>
+        <td class="side">&#161;Siempre y cuando pago pueda hacerse con mimos[ST:n ]de adorable Lularita! Hope deber&#237;a estar[ST:n ]agradecida por abundante compensaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0027</td>
+        <td class="side">Hay graaaaan nave de guerra que vigila[ST:n ]desde cielo d&#237;a y noche.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0028</td>
+        <td class="side">Destruye cualquier cosa que se acerca. &#161;Pum, pum![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0029</td>
+        <td class="side">Si es inteligente, [ST:Gender p1=amigo p2=amiga ] deber&#237;a quedarse[ST:n ]en suelo mientras explora este continente.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev060901_MSG0030</td>
+        <td class="side">No vigilan suelo. Si no, ya habr&#237;an cosido[ST:n ]a tiros a Lularita y amigos.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

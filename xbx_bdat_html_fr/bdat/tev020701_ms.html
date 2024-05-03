@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev020701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev020701_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev020701_SEL0011</td>
+        <td class="side">Demander &#224; Grette des informations sur les objets[ST:n ]de collection.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev020701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev020701_SEL0021</td>
+        <td class="side">Demander &#224; Grette si quelque chose la perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev020701_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev020701_SEL0031</td>
+        <td class="side">Demander &#224; Grette de parler des mat&#233;riaux.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev020701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev020701_SEL0021</td>
+        <td class="side">Demander &#224; Grette si quelque chose la perturbe.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0001</td>
+        <td class="side">As-tu d&#233;j&#224; cueilli des fruits ou des fleurs qui poussent[ST:n ]sur Mira ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0002</td>
+        <td class="side">Certains de ces objets de collection ont &#233;t&#233; nomm&#233;s[ST:n ]par l&#39;agent du BLADE qui les a d&#233;couverts en premier.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0003</td>
+        <td class="side">J&#39;ai moi-m&#234;me trouv&#233; une plume blanche brillante[ST:n ]que j&#39;ai nomm&#233; &#171; extase de la reine &#187;.[ST:n ]Quelle exp&#233;rience palpitante ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0004</td>
+        <td class="side">J&#39;esp&#232;re que ma ch&#232;re amie Phina pourra ressentir[ST:n ]cela un jour ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0008</td>
+        <td class="side">Notre &#233;quipe va bient&#244;t partir en exp&#233;dition.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0009</td>
+        <td class="side">Nous allons installer un camp qui servira de relais[ST:n ]pendant l&#39;exploration de la zone, ainsi que pendant[ST:n ]l&#39;extermination des dangereux indig&#232;nes.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0010</td>
+        <td class="side">Mais je ne sais pas du tout comment je vais pouvoir[ST:n ]garder une hygi&#232;ne convenable l&#224;-bas.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0011</td>
+        <td class="side">Peut-&#234;tre que je peux convaincre mon serviteur Adelbert[ST:n ]et son assistant Dirk d&#39;installer une douche.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0016</td>
+        <td class="side">Les indig&#232;nes sont connus pour laisser tomber[ST:n ]des objets pr&#233;cieux de temps en temps.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0017</td>
+        <td class="side">Ces objets peuvent &#234;tre vendus contre de belles sommes[ST:n ]d&#39;argent, ou bien &#234;tre utilis&#233;s en tant que mat&#233;riaux[ST:n ]pour fabriquer des &#233;quipements puissants.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0018</td>
+        <td class="side">Tu connais un peu le monstre appel&#233; la cinicula ?[ST:n ]La magnifique corne qu&#39;elle fait tomber parfois[ST:n ]est un exemple parfait de mat&#233;riau tr&#232;s rare.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev020701_MSG0019</td>
+        <td class="side">J&#39;ai vendu beaucoup de mat&#233;riaux r&#233;cup&#233;r&#233;s contre[ST:n ]une grosse somme d&#39;argent, dans l&#39;espoir d&#39;ouvrir[ST:n ]un jour un magasin avec mon amie Phina.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

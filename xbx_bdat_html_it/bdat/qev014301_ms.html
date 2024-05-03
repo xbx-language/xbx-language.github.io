@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev014301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0001</td>
+        <td class="side">Che piacere incontrarti, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0002</td>
+        <td class="side">Alice e io abbiamo indagato sui responsabili[ST:n ]dell&#39;attacco durante il mio discorso.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0003</td>
+        <td class="side">Sono stati Alex e i suoi scagnozzi, abbiamo le prove![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0004</td>
+        <td class="side">Potremmo chiedere ancora il tuo aiuto?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev014301_JNK0010</td>
+        <td class="side">Mostra preoccupazione</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev014301_SEL0011</td>
+        <td class="side">Verifica che Eliza si sia rimessa in forze.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev014301_JNK0020</td>
+        <td class="side">Informati</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev014301_SEL0021</td>
+        <td class="side">Chiedi a Eliza come ha smascherato l&#39;attentatore.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0005</td>
+        <td class="side">Sono come nuova, grazie al Ma-non[ST:n ]che mi ha curata. Un vero mago![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0006</td>
+        <td class="side">E, poich&#233; voglio ripagarlo, sono ancora pi&#249; ansiosa[ST:n ]di sabotare il piano criminale di Alex.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0007</td>
+        <td class="side">Sono fuggiti da Neo L.A. come topi da una nave che[ST:n ]affonda, e si sono dati alla macchia.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0008</td>
+        <td class="side">Secondo le nostre fonti, vogliono sterminare tutti gli[ST:n ]Xeno in citt&#224; e hanno accumulato un bel po&#39; di[ST:n ]armi, Skell inclusi.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0009</td>
+        <td class="side">Ragion per cui, li dobbiamo fermare[ST:n ]prima che succeda l&#39;irreparabile.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0010</td>
+        <td class="side">Vorrei che parlassi con Cheche, l&#39;informatore Nopon[ST:n ]che ha scoperto che l&#39;attentatore era Alex.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0011</td>
+        <td class="side">Una volta scoperto dove si nasconde Alex, potrai[ST:n ]mettere fine, una volta per tutte, a questa follia.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0012</td>
+        <td class="side">A questo punto, abbiamo una vasta rete[ST:n ]di alleati Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0013</td>
+        <td class="side">Un informatore di nome Cheche ha scoperto una[ST:n ]connessione tra il tiratore scelto e Alex.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0014</td>
+        <td class="side">E dice che il gruppo di Alex sta accumulando armi e[ST:n ]Skell, in modo da uccidere tutti gli Xeno di N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0015</td>
+        <td class="side">Posso anche perdonarli per quello che hanno fatto a[ST:n ]me, ma non possiamo permettere questo sterminio.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0016</td>
+        <td class="side">Parla con Cheche e scopri dove si nascondono Alex e i[ST:n ]suoi complici: &#232; ora di mettere fine a questa follia.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0017</td>
+        <td class="side">Posso contare sul tuo aiuto, [ST:playername ]?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0018</td>
+        <td class="side">Spero ancora che Alex rinsavisca e rinunci[ST:n ]a tutta questa violenza.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0019</td>
+        <td class="side">Per&#242;, hanno davvero oltrepassato tutti i limiti,[ST:n ]quindi, se dovessi sentirti in pericolo...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0020</td>
+        <td class="side">Beh, fai pure quello che devi.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0021</td>
+        <td class="side">Sei anche troppo gentile, Eliza. Ricordati che quelli[ST:n ]sono gli stessi che ti hanno SPARATO![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0022</td>
+        <td class="side">Non li perdoner&#242; mai. Meritano solo di morire![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev014301_JNK0110</td>
+        <td class="side">Giudica</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev014301_SEL0111</td>
+        <td class="side">Giudica Alex colpevole: deve pagare per i suoi crimini.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev014301_JNK0120</td>
+        <td class="side">Perdona</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev014301_SEL0121</td>
+        <td class="side">Convieni con Eliza che &#232; meglio agire con diplomazia,[ST:n ]se possibile.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0023</td>
+        <td class="side">Forse, sono davvero troppo generosa...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0024</td>
+        <td class="side">E forse, questo ha causato molta sofferenza...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0025</td>
+        <td class="side">S&#236;, forse dovremmo fare come suggerite tu e Alice.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0026</td>
+        <td class="side">Comunque, lascio fare a te: agisci come meglio credi[ST:n ]per fermarli.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0027</td>
+        <td class="side">Grazie.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0028</td>
+        <td class="side">La tua forza e la tua generosit&#224;, mi danno il coraggio[ST:n ]per andare avanti.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0029</td>
+        <td class="side">E spero che tu conservi sempre quest&#39;animo gentile.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0030</td>
+        <td class="side">Mi fido di te: fermali.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0031</td>
+        <td class="side">Troverai Cheche l&#39;informatore nella zona ovest di via[ST:n ]Melville. Parla con lui, prima di tutto.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0032</td>
+        <td class="side">Troverai Cheche l&#39;informatore nella zona ovest[ST:n ]di via Melville.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0033</td>
+        <td class="side">Non ha voluto svelare il nascondiglio di Alex a una[ST:n ]coppia di novelline come noi.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0034</td>
+        <td class="side">Potresti parlarci tu? Abbiamo bisogno[ST:n ]di quest&#39;informazione su Alex![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0035</td>
+        <td class="side">Quindi, Alex e i suoi sono a Cauldros?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0036</td>
+        <td class="side">Ti prego, vai subito l&#236; e metti fine a questa mostruosit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0053</td>
+        <td class="side">&#200; finita, vero? Una volta per tutte? Beh,[ST:n ]sono contenta che tu stia bene.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0054</td>
+        <td class="side">D&#39;ora in poi, Neo L.A. e tutto Mira potranno costruire[ST:n ]un futuro di pace duratura.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0055</td>
+        <td class="side">S&#236;, ci sar&#224; da rimboccarsi le maniche.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0056</td>
+        <td class="side">Forza e coraggio! Ce la faremo, tutti insieme![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0057</td>
+        <td class="side">Gi&#224; troppi si sono sacrificati per questa causa...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0058</td>
+        <td class="side">Giuro, far&#242; di tutto perch&#233; nessun&#39;altra vita vada persa[ST:n ]nella lotta per l&#39;uguaglianza e la tolleranza a N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev014301_JNK0310</td>
+        <td class="side">Dubita di Eliza</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev014301_SEL0311</td>
+        <td class="side">Chiedi se non sia troppo per Eliza.</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev014301_JNK0320</td>
+        <td class="side">Incoraggia Alice</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev014301_SEL0321</td>
+        <td class="side">Di&#39; ad Alice di tenere duro.</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0059</td>
+        <td class="side">Cielo, spero di non essere la sola.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0060</td>
+        <td class="side">Si tratta del futuro dell&#39;intera citt&#224;, delle vite di tutti[ST:n ]gli umani e gli Xeno che ci vivono.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0061</td>
+        <td class="side">Avr&#242; bisogno dell&#39;aiuto di Alice e di tutti gli altri.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0062</td>
+        <td class="side">Ehi, grazie! Ma non riguarda solo me, sai?[ST:n ]Riguarda anche Eliza e chiunque altro![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0063</td>
+        <td class="side">Dopotutto, trasformeremo Neo L.A. in un posto in cui[ST:n ]umani e Xeno convivranno pacificamente, e ci vorr&#224;[ST:n ]l&#39;aiuto di tutti i cittadini per farcela![ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0064</td>
+        <td class="side">Oh, Eliza, non dimentichiamoci del suo compenso![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0065</td>
+        <td class="side">Certamente. Grazie per l&#39;aiuto che continui a darci.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0066</td>
+        <td class="side">Giuro che questa sar&#224; l&#39;ultima volta che avremo[ST:n ]bisogno del tuo aiuto.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev014301_MSG0067</td>
+        <td class="side">Ma, una volta finita questa dura battaglia,[ST:n ]spero vorrai festeggiare con noi.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

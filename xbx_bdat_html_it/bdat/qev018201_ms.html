@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev018201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0001</td>
+        <td class="side">Ah, sei tu! Come procede con quella sonda da[ST:n ]battaglia? Spero la stia usando con giudizio.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0010</td>
+        <td class="side">Ringrazia</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0011</td>
+        <td class="side">Di&#39; a Hugo che la sonda &#232; una cosa prodigiosa.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0020</td>
+        <td class="side">Fai spallucce</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0021</td>
+        <td class="side">Mostrati indifferente.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0002</td>
+        <td class="side">Non c&#39;&#232; bisogno di ringraziarmi. Facevo il mio[ST:n ]lavoro per il bene del Progetto Terrestre[ST:n ]di Colonizzazione prima di ogni altra cosa, capisci?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0003</td>
+        <td class="side">Ora lavoro per la citt&#224; e per i BLADE.[ST:n ]Non lo faccio per ricevere complimenti.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0004</td>
+        <td class="side">Ora vorrei solo che quegli imbecilli testardi delle[ST:n ]industrie d&#39;armi si svegliassero e si accorgessero[ST:n ]del mio lavoro. E per questo mi serve il tuo aiuto![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0005</td>
+        <td class="side">In ogni caso, il progetto per il mio prossimo modello di[ST:n ]sonda da battaglia &#232; pronto per entrare in produzione.[ST:n ]Questo modello potenzier&#224; l&#39;Attacco in mischia.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0006</td>
+        <td class="side">Le specifiche tecniche richiedono 15.000 unit&#224; di[ST:n ]Miranium. Pensi di potercela fare?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0007</td>
+        <td class="side">Il tuo cinismo non ha confini.[ST:n ]Come fai a dormire la notte?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0008</td>
+        <td class="side">A meno che... Aspetta, ma sei [ST:Gender p1=serio p2=seria ]?[ST:n ]Davvero non &#232; utile sul campo?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0009</td>
+        <td class="side">Oh, cielo... Vorrebbe dire che quegli allocchi delle[ST:n ]industrie d&#39;armi avevano ragione fin dall&#39;inizio.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0010</td>
+        <td class="side">N-no... Mi rifiuto di crederci. E lo dimostrer&#242; con il[ST:n ]mio nuovo tipo di sonda da battaglia! Questa serie[ST:n ]potenzier&#224; l&#39;Attacco in mischia.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0011</td>
+        <td class="side">&#200; pronta per entrare in produzione non appena riesco[ST:n ]a procurarmi 15.000 unit&#224; di Miranium. Giuro che[ST:n ]stavolta rimarrai [ST:Gender p1=stupefatto p2=stupefatta ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0012</td>
+        <td class="side">OK. Mettiti al lavoro appena possibile![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0013</td>
+        <td class="side">Ho ancora progetti per altri tipi di[ST:n ]sonda da battaglia in serbo per te![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0014</td>
+        <td class="side">Non posso fermarmi proprio adesso, capisci?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0016</td>
+        <td class="side">Se piazzi una Sonda Attacco in mischia in un sito[ST:n ]di installazione FrontierNav, tutti i BLADE in quella[ST:n ]regione vedranno aumentare l&#39;Attacco in mischia.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0017</td>
+        <td class="side">Vorresti provarla? Magari subito? Certo che lo vuoi.[ST:n ]E allora vammi a trovare quel benedetto Miranium![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0018</td>
+        <td class="side">Tutto &#232; pronto a partire. Mi serve solo il Miranium.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0019</td>
+        <td class="side">Sei [ST:Gender p1=pronto p2=pronta ] a spalancare le porte di un nuovo[ST:n ]tipo di combattimento? Beh, quel Miranium &#232;[ST:n ]la chiave! Vallo a prendere![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0030</td>
+        <td class="side">Consegna</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0031</td>
+        <td class="side">Consegna 15.000 unit&#224; di Miranium.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev018201_JNK0040</td>
+        <td class="side">Tieni per te</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev018201_SEL0041</td>
+        <td class="side">Tieniti il Miranium, per ora.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0020</td>
+        <td class="side">OK, reggiti forte. Sar&#224; pronta in un batter d&#39;occhio.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0021</td>
+        <td class="side">I BLADE riusciranno ad abbattere nemici potentissimi[ST:n ]come nulla fosse, il tutto semplicemente attivando[ST:n ]una di queste bamboline.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0022</td>
+        <td class="side">Oh, &#232; bellissima. Sono un pap&#224; felice![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0023</td>
+        <td class="side">Ammira la nuova serie di sonde da battaglia:[ST:n ]le Sonde Attacco in mischia![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0024</td>
+        <td class="side">Piazza una di questi portenti in un sito di installazione[ST:n ]FrontierNav. I BLADE in quell&#39;area vedranno[ST:n ]aumentato vertiginosamente l&#39;Attacco in mischia.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0025</td>
+        <td class="side">Prego, valla a provare! Prendi a cazzotti[ST:n ]una bestia alta trenta metri. Divertiti![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0026</td>
+        <td class="side">Nel frattempo mi metto all&#39;opera per ultimare[ST:n ]il mio prossimo progetto.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0027</td>
+        <td class="side">Vieni a trovarmi quando hai un po&#39; di tempo. Se hai il[ST:n ]Miranium, posso realizzare i tuoi sogni da battaglia![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0028</td>
+        <td class="side">Oh, suvvia! Vuoi che mi metta a ballare? Eh?[ST:n ]Perch&#233; lo far&#242;. Lo far&#242; senz&#39;altro. Fidati, non[ST:n ]&#232; uno spettacolo piacevole.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev018201_MSG0029</td>
+        <td class="side">Sbrigati a trovarmi il Miranium, se no non[ST:n ]posso costruire la Sonda Attacco in mischia![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

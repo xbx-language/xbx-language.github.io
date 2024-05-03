@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev026101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev026101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0011</td>
+        <td class="side">Se renseigner aupr&#232;s de Dorothy sur l&#39;&#233;quipement.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev026101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0021</td>
+        <td class="side">Demander &#224; Dorothy si quelque chose la pr&#233;occupe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0031</td>
+        <td class="side">Se renseigner aupr&#232;s de Dorothy sur les mim&#233;osomes.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0041</td>
+        <td class="side">Demander &#224; Dorothy si quelque chose la pr&#233;occupe.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0051</td>
+        <td class="side">tev026101_SEL0051</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0061</td>
+        <td class="side">Demander &#224; Dorothy s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0071</td>
+        <td class="side">Se renseigner aupr&#232;s de Dorothy sur les mim&#233;osomes.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev026101_SEL0081</td>
+        <td class="side">Demander &#224; Dorothy s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0001</td>
+        <td class="side">Ne vous laissez pas influencer par les apparences[ST:n ]quand il s&#39;agit de choisir votre tenue d&#39;agent.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0002</td>
+        <td class="side">J&#39;ai command&#233; un casque absolument charmant,[ST:n ]mais lorsque je l&#39;ai essay&#233;, j&#39;ai senti qu&#39;il aspirait[ST:n ]toute mon &#233;nergie. Mauvaise marchandise.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0003</td>
+        <td class="side">Le confort est plus important que l&#39;apparence.[ST:n ]Suivre la mode n&#39;est pas chose facile, m&#234;me[ST:n ]sur une nouvelle plan&#232;te, je vous le dis.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0051</td>
+        <td class="side">Maintenant que vous le dites, j&#39;ai d&#233;j&#224; vu un agent[ST:n ]du BLADE r&#244;der autour de la boutique,[ST:n ]mais il n&#39;est jamais entr&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0052</td>
+        <td class="side">Peut-&#234;tre avait-il honte ? Je ne l&#39;ai pas vu depuis[ST:n ]un moment, de toute fa&#231;on.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0053</td>
+        <td class="side">Liviana et moi avons discut&#233; du fait de vendre[ST:n ]des produits plus unisexes. Je ne pense pas que[ST:n ]notre patron accepte de perdre de potentiels clients ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0101</td>
+        <td class="side">Savez-vous que vous pouvez customiser[ST:n ]votre mim&#233;osome ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0102</td>
+        <td class="side">Vous pouvez donc vous d&#233;barrassez d&#39;une bedaine[ST:n ]ou dire adieu aux rides qui vous ont toujours[ST:n ]rendu la vie dure.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0103</td>
+        <td class="side">J&#39;ai m&#234;me entendu dire que certaines personnes[ST:n ]avaient r&#233;ussi &#224; avoir des mim&#233;osomes qui font[ST:n ]plus jeunes que leurs &#226;ges.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0104</td>
+        <td class="side">Mais cela n&#39;a pas vraiment d&#39;importance, car nous[ST:n ]retrouverons bient&#244;t nos v&#233;ritables corps, n&#39;est-ce pas ?[ST:n ]Alors, laissons-les profiter de l&#39;instant pr&#233;sent.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0151</td>
+        <td class="side">Maintenant que vous le dites, j&#39;ai d&#233;j&#224; vu un agent[ST:n ]du BLADE r&#244;der autour de la boutique,[ST:n ]mais il n&#39;est jamais entr&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0152</td>
+        <td class="side">Peut-&#234;tre avait-il honte ? Je ne l&#39;ai pas vu depuis[ST:n ]un moment, de toute fa&#231;on.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0153</td>
+        <td class="side">Oh, il avait l&#39;insigne des Pathfinders sur le bras.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0154</td>
+        <td class="side">Si vous le connaissez, pouvez-vous lui dire[ST:n ]qu&#39;il est le bienvenu ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0251</td>
+        <td class="side">tev026101_MSG0251</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0252</td>
+        <td class="side">tev026101_MSG0252</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0253</td>
+        <td class="side">tev026101_MSG0253</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0254</td>
+        <td class="side">tev026101_MSG0254</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0255</td>
+        <td class="side">tev026101_MSG0255</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0351</td>
+        <td class="side">J&#39;ai longtemps craint de r&#233;cup&#233;rer mon v&#233;ritable corps[ST:n ]si le noyau de l&#39;arche de vie &#233;tait retrouv&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0352</td>
+        <td class="side">R&#233;fl&#233;chissez-y. Les mim&#233;osomes ne peuvent pas vieillir.[ST:n ]Nous pourrions rester jeunes &#224; jamais.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0353</td>
+        <td class="side">Mais plus je parle avec Shingo, plus l&#39;id&#233;e de quitter[ST:n ]cette coquille me tente.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0354</td>
+        <td class="side">Nous pourrions vieillir ensemble, tous les deux,[ST:n ]dans nos vrais corps. Ce serait magnifique.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0401</td>
+        <td class="side">C&#39;est assez effrayant quand on y pense, non ?[ST:n ]Les mim&#233;osomes ne vieillissent pas et chaque[ST:n ]dommage inflig&#233; peut &#234;tre effac&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0402</td>
+        <td class="side">Pourtant, nous faisons les m&#234;mes choses jour apr&#232;s[ST:n ]jour, au risque de ne plus aller de l&#39;avant. Et nous[ST:n ]ne pouvons pas non plus nous reproduire.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0403</td>
+        <td class="side">Je suis coinc&#233;e dans le temps, jusqu&#39;&#224; ce[ST:n ]qu&#39;ils retrouvent le noyau de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0404</td>
+        <td class="side">Nous ne pouvons pas continuer comme &#231;a.[ST:n ]C&#39;est impossible. Vous devez retrouver[ST:n ]le noyau, au plus vite.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0451</td>
+        <td class="side">Shingo est mort... C&#39;est un autre agent qui me l&#39;a dit.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0452</td>
+        <td class="side">Il m&#39;a dit qu&#39;il &#233;tait impossible de tuer un mim&#233;osome[ST:n ]de cette fa&#231;on. Que s&#39;est-il pass&#233; ?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0453</td>
+        <td class="side">Une partie de moi veut se rendre au noyau de l&#39;arche[ST:n ]de vie pour assister &#224; son retour.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev026101_MSG0454</td>
+        <td class="side">Il m&#39;en voudra s&#251;rement de ne pas &#234;tre rest&#233;e en s&#251;ret&#233;[ST:n ]en ville, mais je n&#39;en ai rien &#224; faire.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev070301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0001</td>
+        <td class="side">Oye, esto, [ST:playername ]...[ST:n ]Has estado en Sylvalum, &#191;no es as&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0002</td>
+        <td class="side">No habr&#225;s visto a nadie por all&#237; que se pareciese[ST:n ]al jefe, &#191;no? A Profesor B, digo.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0010</td>
+        <td class="side">Responder</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0011</td>
+        <td class="side">Dile a Veven que no has visto a Profesor B.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0020</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Veven por qu&#233; llama \&quot;jefe\&quot; a Profesor B.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0003</td>
+        <td class="side">Ah, vale. Como andas siempre[ST:n ]viajando por ah&#237;, pens&#233; que igual...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0004</td>
+        <td class="side">Bueno, pero mejor te lo explico, &#191;no? El profesor[ST:n ]se fue a Sylvalum a recoger materiales para un nuevo[ST:n ]producto que estamos desarrollando en Factory 1.21.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0005</td>
+        <td class="side">Se llev&#243; el Miramobile, as&#237; que deber&#237;a de poder[ST:n ]regresar literalmente tan pronto como haya[ST:n ]acabado de recoger esos materiales, &#191;me sigues?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0006</td>
+        <td class="side">Pero no s&#233; nada de &#233;l desde que se march&#243;...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0007</td>
+        <td class="side">El profesor fund&#243; una nueva empresa llamada[ST:n ]Factory 1.21, que vende armas a BLADE. Vamos, que[ST:n ]ten&#237;a que hacer algo para pagar esa deuda, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0008</td>
+        <td class="side">Ahora trabajo all&#237;, y cada vez que le llamo Profe[ST:n ]me echa la bronca, &#191;sabes? Dice que el director merece[ST:n ]ser llamado \&quot;jefe\&quot;, as&#237; que es lo que hago, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0009</td>
+        <td class="side">T&#237;pico de Profe, &#191;no? Cuando empez&#243; la empresa,[ST:n ]estaba todo el rato quej&#225;ndose, &#191;sabes?[ST:n ]Y ahora se cree una especie de magnate.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0010</td>
+        <td class="side">Se fue a Sylvalum a recoger materiales para[ST:n ]un nuevo producto que estamos desarrollando,[ST:n ]y ahora hemos perdido todo el contacto con &#233;l...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0011</td>
+        <td class="side">Se llev&#243; el Miramobile, as&#237; que el viaje[ST:n ]no le deber&#237;a de llevar mucho tiempo,[ST:n ]&#191;sabes? O nada de tiempo, de hecho...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0012</td>
+        <td class="side">Si el profesor no vuelve, Factory 1.21 se ir&#225; a pique.[ST:n ]Y entonces nunca voy a recibir[ST:n ]el dinero que me debe, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0013</td>
+        <td class="side">Quedar&#233; al cargo de una buena pila de deudas,[ST:n ]lo que significa que me voy a arruinar, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0014</td>
+        <td class="side">Me desvanecer&#233; para siempre como el profesor, &#191;no?[ST:n ]Y nadie se acordar&#225; de m&#237;... Ja, ja... Jaaaa.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0015</td>
+        <td class="side">Veven, no es justo que yo sea el &#250;nico que sobreviva[ST:n ]a esta pesadilla, &#191;no? As&#237; que ven conmigo.[ST:n ]Ven a un lugar libre de deudas y responsabilidades...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0016</td>
+        <td class="side">P-por favor, Graham, trata de calmarte, &#191;vale?[ST:n ]No sabemos nada sobre el profesor con seguridad...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0017</td>
+        <td class="side">Pero &#161;ha desaparecido del mapa! &#191;Se escap&#243; al futuro?[ST:n ]&#191;Qui&#233;n sabe? Diablos, &#161;&#191;qui&#233;n podr&#237;a saberlo?![ST:n ]Pero da igual a d&#243;nde haya ido, &#161;estamos acabados![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0018</td>
+        <td class="side">&#191;Y t&#250;? &#191;Vienes con nosotros tambi&#233;n?[ST:n ]No hay nada que echar de menos en esta vida.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0030</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0031</td>
+        <td class="side">Dile a Graham que cuente contigo.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0040</td>
+        <td class="side">Rehusar</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0041</td>
+        <td class="side">Dile a Graham que tienes otras cosas que hacer.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0019</td>
+        <td class="side">&#161;&#191;Est&#225;is los dos locos, o qu&#233;?![ST:n ]&#191;Por qu&#233; ibais a querer abandonar esta vida?[ST:n ]Vamos a tomarnos las cosas con calma...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0020</td>
+        <td class="side">&#161;Y t&#250; tambi&#233;n, Graham! La vida est&#225; llena[ST:n ]de cosas bonitas y divertidas, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0021</td>
+        <td class="side">Entonces, [ST:playername ].[ST:n ]&#191;Habr&#237;a alg&#250;n modo de convencerte[ST:n ]para que fueras a buscar a Profe a Sylvalum?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0022</td>
+        <td class="side">El futuro de Factory 1.21 est&#225; en juego, &#191;sabes?[ST:n ]As&#237; que no vamos a escatimar con la recompensa...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0023</td>
+        <td class="side">&#191;Te importar&#237;a? Ahora mismo estoy menos preocupado[ST:n ]por el profesor que por lo que pueda hacer Graham[ST:n ]si no vuelve pronto...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0024</td>
+        <td class="side">Gracias. El Miramobile deber&#237;a de estar en el &#225;rea[ST:n ]de las Dunas de ceniza del norte, en Sylvalum. &#191;Vale?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0025</td>
+        <td class="side">Quiz&#225; encuentres alg&#250;n rastro de Profe por all&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0026</td>
+        <td class="side">Dondequiera o cuando quiera que haya ido,[ST:n ]necesito que lo traigas de vuelta de inmediato, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0027</td>
+        <td class="side">Hay un mont&#243;n de cosas que el profesor[ST:n ]a&#250;n me tiene que ense&#241;ar, &#191;sabes?[ST:n ]Tanto Graham como yo lo necesitamos...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0050</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0051</td>
+        <td class="side">Di que Profesor B tambi&#233;n es importante para ti.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0060</td>
+        <td class="side">Preocuparse</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0061</td>
+        <td class="side">Advierte a Veven de que es posible[ST:n ]que el profesor est&#233; muerto.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0028</td>
+        <td class="side">Para ser un chiflado con un pasado[ST:n ]m&#225;s que sospechoso, el profesor[ST:n ]es tremendamente popular, &#191;no crees?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0029</td>
+        <td class="side">Bueeeno, supongo que a veces[ST:n ]hay que aceptar la cruda realidad, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0030</td>
+        <td class="side">Pero estoy seguro de que Profe no se iba a rendir[ST:n ]tan f&#225;cilmente, &#191;sabes? Creo que sigue con vida.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0040</td>
+        <td class="side">Cuento contigo para traer a Profesor B[ST:n ]de Sylvalum, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0041</td>
+        <td class="side">A&#250;n tiene que ense&#241;arme un mont&#243;n de cosas,[ST:n ]&#191;sabes? Y, sinceramente, no s&#233; qu&#233; va a ser[ST:n ]de Graham si el profesor no vuelve pronto...[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0042</td>
+        <td class="side">Profesor B me cont&#243; lo que hab&#237;a pasado...[ST:n ]Que el tal Gadd ese lo ten&#237;a prisionero, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0043</td>
+        <td class="side">Decir \&quot;gracias\&quot; se queda muy corto despu&#233;s[ST:n ]de lo que has hecho, &#191;sabes? Si no hubieras ido[ST:n ]a buscarle, &#191;qui&#233;n sabe si Profe a&#250;n seguir&#237;a con vida?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0044</td>
+        <td class="side">&#161;Veven! &#191;Qu&#233; te he dicho de llamarme \&quot;Profe\&quot;?[ST:n ]&#161;Soy el fundador, presidente[ST:n ]y director ejecutivo de Factory 1.21![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0045</td>
+        <td class="side">&#161;S-s&#237;, jefe! Lo siento, jefe...[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0046</td>
+        <td class="side">Buuuf... &#218;ltimamente est&#225; obsesionado[ST:n ]con este negocio, &#191;sabes? Bueno, con la parte[ST:n ]de ganar dinero, por lo menos.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0047</td>
+        <td class="side">&#191;Te acuerdas cuando estaba todo el rato[ST:n ]diciendo que la ciencia es la b&#250;squeda noble[ST:n ]y pura de un futuro mejor? Menudo cambio, &#191;eh?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0090</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0091</td>
+        <td class="side">Suspira y admite que Profesor B no tiene remedio.</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0100</td>
+        <td class="side">Discrepar</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0101</td>
+        <td class="side">Explica que esas cosas son parte[ST:n ]del encanto de Profesor B.</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0048</td>
+        <td class="side">Despu&#233;s de todos los problemas que te ha causado,[ST:n ]nadie lo sabe mejor que t&#250;, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0049</td>
+        <td class="side">A veces me pregunto si en el futuro son todos como &#233;l.[ST:n ]Vaya porvenir m&#225;s negro...[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0050</td>
+        <td class="side">&#191;Despu&#233;s de todos los problemas[ST:n ]que te ha causado? Guau...[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0051</td>
+        <td class="side">Bueno, supongo que yo tampoco estoy[ST:n ]mucho m&#225;s cuerdo, &#191;no? Despu&#233;s de todo,[ST:n ]fui yo el que acept&#243; trabajar para &#233;l...[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0052</td>
+        <td class="side">De cualquier modo, aqu&#237; tienes tu recompensa,[ST:n ]&#191;vale? Gracias por salvar nuestra empresa.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0053</td>
+        <td class="side">&#161;Atiende, Veven! &#161;Graham me ha jurado fidelidad y se[ST:n ]ha unido a nuestra peque&#241;a familia de Factory 1.21![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0054</td>
+        <td class="side">&#191;Qu&#233;? &#161;No! Solo te he dicho que te des prisa[ST:n ]y me pagues lo m&#225;s r&#225;pido...[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0055</td>
+        <td class="side">Posible, s&#237;; lo que claramente indica que quieres[ST:n ]que la empresa crezca y prospere y est&#225;s ansioso[ST:n ]por ayudar como sea a que eso ocurra.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0056</td>
+        <td class="side">Oh, qu&#233; adorable eres, Graham. &#161;Tienes suerte,[ST:n ]Veven! &#161;Por fin vas a tener tu propio subalterno![ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0057</td>
+        <td class="side">Uff... Graham es un pusil&#225;nime, &#191;no crees?[ST:n ]Va a acabar trabajando aqu&#237; toda su vida...[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0110</td>
+        <td class="side">Rescatar</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0111</td>
+        <td class="side">Interv&#233;n en defensa de Graham.</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev070301_JNK0120</td>
+        <td class="side">Observar</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev070301_SEL0121</td>
+        <td class="side">Mantente al margen para ver qu&#233; ocurre.</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0058</td>
+        <td class="side">&#161;Exacto! No hay raz&#243;n por la que tenga[ST:n ]que trabajar aq...[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0059</td>
+        <td class="side">&#161;Ey, no te quedes ah&#237; mirando c&#243;mo me pisotean! No[ST:n ]hay raz&#243;n alguna por la que tenga que trabajar aq...[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0060</td>
+        <td class="side">&#161;Ya vale de quejarse! &#161;Ven y empezaremos[ST:n ]con tu per&#237;odo de pr&#225;cticas![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0061</td>
+        <td class="side">&#191;Qu&#233;ee? &#161;&#191;Por qu&#233;?! &#161;No es justo![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0062</td>
+        <td class="side">Bueno, el profesor es un ingeniero competente,[ST:n ]&#191;no? Al menos vas a ayudar a desarrollar[ST:n ]unos productos excelentes...[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev070301_MSG0063</td>
+        <td class="side">Quiz&#225; nos dejes ayudarte la pr&#243;xima vez[ST:n ]que necesites algo de equipo.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

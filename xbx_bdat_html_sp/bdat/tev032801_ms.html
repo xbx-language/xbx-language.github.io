@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032801_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032801_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Adappin sobre la &#233;poca[ST:n ]en la que los ma-non estuvieron en Oblivia.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032801_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032801_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Adappin si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032801_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Adappin c&#243;mo fue todo durante el ataque.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032801_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Adappin sobre los wrothian.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032801_SEL0061</td>
+        <td class="side">Preg&#250;ntale a Adappin si hay alguna novedad.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032801_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Adappin sobre la vida en NLA.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032801_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Adappin si le preocupa algo.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0001</td>
+        <td class="side">Nos tuvimos que esconder durante mucho tiempo[ST:n ]en el ca&#241;&#243;n, &#191;sabes? Ten&#237;amos muy poca comida...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0002</td>
+        <td class="side">Y bueno, cuando se nos estaba acabando,[ST:n ]empezamos a pensar que &#237;bamos a morirnos[ST:n ]de hambre, &#191;entiendes?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0003</td>
+        <td class="side">&#191;Te das cuenta de que nos has salvado al sacarnos[ST:n ]de all&#237;? Ahora podemos comer pizza,[ST:n ]tortitas y toda esa comida rica.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0004</td>
+        <td class="side">Nunca m&#225;s tendremos hambre, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0010</td>
+        <td class="side">Has o&#237;do hablar de aquel ma-non[ST:n ]que una vez no pag&#243; su pizza, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0011</td>
+        <td class="side">Pues bueno, el due&#241;o de la pizzer&#237;a se me acerc&#243;[ST:n ]y me dijo: \&quot;&#161;T&#250; y yo tenemos una cuenta pendiente![ST:n ]&#161;Ll&#233;vame junto a tu l&#237;der!\&quot;. Qu&#233; extra&#241;o, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0012</td>
+        <td class="side">Porque nosotros realmente no tenemos un l&#237;der, &#191;no?[ST:n ]Los ma-non somos todos iguales, &#191;a que s&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0013</td>
+        <td class="side">Esos tres \&quot;representantes\&quot; que has conocido no son[ST:n ]nuestros l&#237;deres. Resulta que justo en ese momento[ST:n ]eran los que estaban fuera de la nave.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0014</td>
+        <td class="side">As&#237; que cuando preguntas por la persona que est&#225;[ST:n ]a cargo, la verdad es que no podemos hacer nada.[ST:n ]Supongo que es una de esas diferencias culturales.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0020</td>
+        <td class="side">Cuando los ganglion empezaban a rodearnos,[ST:n ]decid&#237; pedir algunas pizzas. Ya sabes, por si ten&#237;amos[ST:n ]que quedarnos a cubierto por mucho tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0021</td>
+        <td class="side">Pero parece ser que todos pensamos lo mismo.[ST:n ]El chico de las pizzas no daba abasto.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0022</td>
+        <td class="side">Y resulta que los ganglion llegaron antes de que[ST:n ]se solucionara todo y consigui&#233;semos las pizzas.[ST:n ]Es bastante triste, &#191;no crees?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0023</td>
+        <td class="side">Mientras estaba ah&#237; sentado muerto de hambre,[ST:n ]me pregunt&#233; si ser&#237;a una buena idea que tuvi&#233;semos[ST:n ]un l&#237;der. O al menos algo de organizaci&#243;n, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0024</td>
+        <td class="side">Hasta pens&#233; que quiz&#225; deber&#237;a ser yo el l&#237;der, &#191;no?[ST:n ]Al fin y al cabo, &#191;qui&#233;n mejor para asegurarse[ST:n ]de que consigo mis pizzas antes que nadie?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0030</td>
+        <td class="side">Ahora que todos somos amigos de los wrothian,[ST:n ]creo que ir&#233; a hablar con su l&#237;der.[ST:n ]&#191;C&#243;mo se llamaba? Ga Jiarg, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0031</td>
+        <td class="side">Dicen que naci&#243; para ser l&#237;der, &#191;s&#237;?[ST:n ]Que es admirado por los de su especie y todo eso,[ST:n ]&#191;verdad? Bueno, justo como yo, supongo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0032</td>
+        <td class="side">Quiz&#225; &#233;l y yo deber&#237;amos sentarnos[ST:n ]y aconsejarnos mutuamente, &#191;no crees?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0033</td>
+        <td class="side">Con su apoyo, puede que hasta consiga[ST:n ]demostrarles a todos qui&#233;n est&#225; a la altura[ST:n ]de ser el l&#237;der de la nave ma-non, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0038</td>
+        <td class="side">Sabes que los ma-non nunca han escogido[ST:n ]un l&#237;der como los dem&#225;s xenoformos, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0039</td>
+        <td class="side">Pero si llego a ser l&#237;der, podr&#237;a hacer que cada uno[ST:n ]hiciera lo que yo quisiera, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0040</td>
+        <td class="side">Hasta podr&#237;a hacer que toda la ciudad adoptase[ST:n ]una visi&#243;n pizzac&#233;ntrica de las cosas.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0041</td>
+        <td class="side">&#161;Me comprometo a ser el primer presidente ma-non![ST:n ]Presidente Adappin no suena nada mal,[ST:n ]&#191;no te parece?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev032801_MSG0042</td>
+        <td class="side">Cuando me presente como candidato, no te olvides[ST:n ]de votar a Adappin, &#191;de acuerdo?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1001</td>
+        <td class="side">Ahora todos los de la nave tenemos que pagar[ST:n ]un impuesto nopon que solo les beneficia a ellos.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1002</td>
+        <td class="side">Ese dinero se podr&#237;a invertir en m&#225;s pizza,[ST:n ]&#191;no te parece? Ahora mismo no me puedo[ST:n ]permitir tanta como me gustar&#237;a...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1003</td>
+        <td class="side">No me rendir&#233; con tanta facilidad, &#191;sabes? Quiz&#225; sea[ST:n ]hora de derrocar este gobierno corrupto y comenzar[ST:n ]desde cero. Revoluci&#243;n, &#191;no? &#161;Poder popular![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1004</td>
+        <td class="side">As&#237; que si no gano en las pr&#243;ximas elecciones,[ST:n ]supongo que tendr&#233; que levantarme en armas, &#191;no?[ST:n ]&#161;Que corra la salsa de pizza por NLA![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1010</td>
+        <td class="side">Por fin puedo decir que no...[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1011</td>
+        <td class="side">Durante un tiempo, solo pod&#237;a decir que s&#237; a todo.[ST:n ]Es bastante lioso, &#191;no te parece?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1012</td>
+        <td class="side">Bueno, al que sigo dici&#233;ndole que s&#237; a todo[ST:n ]lo que recomienda es al chico de las pizzas.[ST:n ]La verdad es que eso estuvo bien, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev032801_MSG1013</td>
+        <td class="side">Me ha hecho probar una pizza con chocolate,[ST:n ]pl&#225;tano y mayonesa y &#161;era genial![ST:n ]Se te cae la baba, &#191;no? &#191;No? &#191;En serio?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev032801_MSG2001</td>
+        <td class="side">Desde que Sun&#39;barac se convirti&#243; en l&#237;der,[ST:n ]los ma-non tenemos raciones gratis de pizza.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev032801_MSG2002</td>
+        <td class="side">Y supongo que los nopon tambi&#233;n est&#225;n bastante[ST:n ]contentos ahora que pueden pudrirse de dinero[ST:n ]trabajando para el gobierno provisional, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev032801_MSG2003</td>
+        <td class="side">Bueno, me habr&#237;a gustado mucho haber ganado[ST:n ]las elecciones, pero creo que al final Sun&#39;barac[ST:n ]era la persona perfecta para esto, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev032801_MSG2004</td>
+        <td class="side">Creo que me retirar&#233; de la pol&#237;tica para vivir[ST:n ]el resto de mis d&#237;as ceb&#225;ndome a pizza.[ST:n ]Me parece un buen plan, &#191;no crees? S&#237;...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

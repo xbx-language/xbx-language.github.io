@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0010</td>
+        <td class="side">Frage stellen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0011</td>
+        <td class="side">Unterhalte dich mit Kaisis &#252;ber die Architektur von NLA.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0021</td>
+        <td class="side">Frage Kaisis, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0010</td>
+        <td class="side">tev015501_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0031</td>
+        <td class="side">Frage Kaisis &#252;ber Ma-non-Technologie aus.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0020</td>
+        <td class="side">tev015501_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0021</td>
+        <td class="side">tev015501_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0010</td>
+        <td class="side">tev015501_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0041</td>
+        <td class="side">Frage Kaisis, ob er wei&#223;, welche Sch&#228;den[ST:n ]w&#228;hrend des Angriffs entstanden sind.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0020</td>
+        <td class="side">tev015501_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0021</td>
+        <td class="side">tev015501_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0010</td>
+        <td class="side">tev015501_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0051</td>
+        <td class="side">Unterhalte dich mit Kaisis &#252;ber NLA.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015501_JNK0020</td>
+        <td class="side">tev015501_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015501_SEL0021</td>
+        <td class="side">tev015501_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015501_SEL1021</td>
+        <td class="side">Frage Kaisis, was es Neues gibt.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015501_SEL2021</td>
+        <td class="side">Frage Kaisis, was es Neues gibt.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev015501_SEL3021</td>
+        <td class="side">Frage Kaisis, was es Neues gibt.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0001</td>
+        <td class="side">Wei&#223;t du, warum die Stadt erst zur H&#228;lfte fertig ist?[ST:n ]Ja? Egal, ich erz&#228;hl es trotzdem noch mal.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0002</td>
+        <td class="side">Als die Menschheit in die endlosen Weiten des Alls[ST:n ]aufbrach, war der Plan noch, die Stadt fertigzustellen,[ST:n ]w&#228;hrend wir auf dem Wei&#223;en Wal unterwegs waren.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0003</td>
+        <td class="side">Die Stadt vorher zu vollenden, daf&#252;r blieb keine Zeit.[ST:n ]Wir h&#228;tten niemals rechtzeitig abheben k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0004</td>
+        <td class="side">Wir verlie&#223;en also die Erde und fingen erst dann an,[ST:n ]unsere Baupl&#228;ne umzusetzen. Beim Bau der Wohneinheit[ST:n ]machten wir gute Fortschritte...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0005</td>
+        <td class="side">Alles lief wie am Schn&#252;rchen, bis... Ja, bis wir von[ST:n ]den Xenos abgeschossen wurden und die unvollendete[ST:n ]Wohneinheit mit Ach und Krach notlandeten.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0006</td>
+        <td class="side">Berry sagt, ich bin der gr&#246;&#223;te Architektur-Nerd, den[ST:n ]sie je gesehen hat. Und da hat sie nicht unrecht! Also,[ST:n ]wir k&#246;nnen uns gern bald weiter dr&#252;ber unterhalten![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0008</td>
+        <td class="side">Manchmal, wenn ich hier stehe, h&#246;re ich so ein irres[ST:n ]Ger&#228;usch, so ein bestialisches Quieken und St&#246;hnen.[ST:n ]Und ich hab jetzt auch rausgefunden, woher es kommt![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0009</td>
+        <td class="side">Anscheinend versucht da ein Rudel einheimischer[ST:n ]Kreaturen, mit Rammattacken durch die Befestigung[ST:n ]der Stadt zu brechen – direkt hinter der Mauer dort![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0010</td>
+        <td class="side">Mach dir keine Sorgen, der Mauer kann das so schnell[ST:n ]nichts anhaben. Daf&#252;r braucht es mehr als ein paar[ST:n ]wildgewordene miranische Monsterviecher.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0011</td>
+        <td class="side">Trotzdem k&#246;nnen wir das auf Dauer nicht ignorieren.[ST:n ]Diese verdammten Biester sollen verschwinden![ST:n ]Wo sind denn die Interceptoren, wenn man sie braucht?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0012</td>
+        <td class="side">Ich hab in Latein aufgepasst! „Intercipere: abfangen,[ST:n ]aufhalten, unterbrechen.“ K&#246;nnen die Interceptoren[ST:n ]das bitte mal mit den Viechern da drau&#223;en machen?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0015</td>
+        <td class="side">Tja, was soll man &#252;ber die Technologie der Ma-non[ST:n ]gro&#223; sagen? Eigentlich brauchst du dir nur ihr[ST:n ]unglaubliches Raumschiff anzuschauen.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0016</td>
+        <td class="side">Hm. Einmal hab ich ja ein paar Ma-non gefragt, was[ST:n ]das Geheimnis ihres Fortschritts sei. Sie meinten, das[ST:n ]verraten sie mir nur &#252;ber einer dampfenden Pizza.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0017</td>
+        <td class="side">Also hab ich mich nicht lumpen lassen. 32 Pizzas hab[ST:n ]ich spendiert! Mit K&#228;serand! Aber die dann folgende[ST:n ]Erkl&#228;rung war so abstrus, dass ich nix verstanden hab.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0018</td>
+        <td class="side">Berry sagt, ich bin der weltgr&#246;&#223;te Architektur-Nerd.[ST:n ]Vielleicht juckt es mich deshalb so sehr in den Fingern,[ST:n ]zu verstehen, wie das Ma-non-Schiff gebaut ist.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0025</td>
+        <td class="side">Ich glaube, die Geb&#228;udereparaturen nach dem[ST:n ]Angriff sind schon so gut wie abgeschlossen.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0026</td>
+        <td class="side">Leider haben sie daf&#252;r Baumaterialen verwenden[ST:n ]m&#252;ssen, die eigentlich f&#252;r die Fertigstellung von[ST:n ]NLA gedacht waren.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0027</td>
+        <td class="side">In anderen Worten: ein weiterer R&#252;ckschlag. Dabei[ST:n ]will ich als laut Berry weltgr&#246;&#223;ter Architektur-Nerd[ST:n ]doch nichts so sehr, wie die Stadt vollendet zu sehen![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0028</td>
+        <td class="side">Ich erwarte, dass ihr BLADEs hart daf&#252;r arbeitet,[ST:n ]dass das eines Tages Wirklichkeit wird! Und[ST:n ]nat&#252;rlich unterst&#252;tze ich euch, wo ich nur kann.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0035</td>
+        <td class="side">Ich kann’s kaum erwarten, dass wir die Stadt eines[ST:n ]Tages endlich so fertigbauen, wie es im Projekt Exodus[ST:n ]von Anfang an geplant war.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0036</td>
+        <td class="side">Dann verschwinden endlich diese ganzen Zahnl&#252;cken[ST:n ]aus dem L&#228;cheln der Stadt... Wenn du verstehst, was[ST:n ]ich meine.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0037</td>
+        <td class="side">Ich verrate das eigentlich noch keinem, aber... Wenn[ST:n ]die Stadt endlich fertig ist, dann will ich Berry fragen,[ST:n ]ob sie und ich hier zusammen eine Familie gr&#252;nden...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0038</td>
+        <td class="side">Ein neues Zuhause, eine neue Familie, eine neue Welt.[ST:n ]Ich werde alles daransetzen, dass dieser Traum wahr[ST:n ]wird.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev015501_MSG1013</td>
+        <td class="side">Hast du geh&#246;rt? Ein BLADE hat wohl endlich[ST:n ]diesen Viechern den Garaus gemacht, die sich[ST:n ]an der Nordmauer einnisten wollten.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev015501_MSG1014</td>
+        <td class="side">Hm, wie hie&#223; er noch? Carl. Ja, genau, Carl.[ST:n ]Er hat uns alle besch&#252;tzt! So lobe ich mir das.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev015501_MSG1015</td>
+        <td class="side">Wir d&#252;rfen nicht tatenlos rumstehen, w&#228;hrend wilde[ST:n ]Kreaturen versuchen, unserer H&#228;nde Arbeit zu[ST:n ]zerst&#246;ren![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev015501_MSG1016</td>
+        <td class="side">Und dieser Carl, der hat das voll verstanden.[ST:n ]Er hat sich nicht vor seiner Pflicht gedr&#252;ckt.[ST:n ]Fantastisch.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev015501_MSG2017</td>
+        <td class="side">Ich habe geh&#246;rt, irgend so ein Weichei von einem[ST:n ]BLADE hat die Kreaturen an der Nordmauer in einem[ST:n ]Anfall von falsch verstandener G&#252;te verschont. Grrr![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev015501_MSG2018</td>
+        <td class="side">Ich glaube, sein Name war... Hm... Ja, genau! Carl![ST:n ]So hie&#223; er. Meiner Meinung nach sollte er umgehend[ST:n ]den Dienst quittieren![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev015501_MSG2019</td>
+        <td class="side">Das ist doch eine Schande! Keine einheimische Kreatur,[ST:n ]die es wagt, unserer wundersch&#246;nen Architektur zu nahe[ST:n ]zu kommen, sollte verschont werden. So einfach ist das![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev015501_MSG2020</td>
+        <td class="side">Hat dieser Carl &#252;berhaupt eine Vorstellung davon,[ST:n ]wie sehr er seine Pflichten vernachl&#228;ssigt hat?[ST:n ]Und was er uns allen damit angetan hat? Hm?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0021</td>
+        <td class="side">Ja, also... Der BLADE, der die Monsterviecher an der[ST:n ]Nordmauer verschont hat? Ich habe geh&#246;rt, dass er[ST:n ]get&#246;tet wurde... von eben jenen Kreaturen![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0022</td>
+        <td class="side">Er hie&#223;... Wie hie&#223; er noch? Ach ja, Carl! Genau![ST:n ]Er hat G&#252;te walten lassen... Und was hatte er am[ST:n ]Ende davon?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev015501_MSG0023</td>
+        <td class="side">Na ja, dumm war sein Verhalten allemal. Trotzdem ist[ST:n ]er ein Soldat, der jetzt im Dienst f&#252;r seine Stadt[ST:n ]gefallen ist. Ich werde sein Andenken in Ehren halten.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

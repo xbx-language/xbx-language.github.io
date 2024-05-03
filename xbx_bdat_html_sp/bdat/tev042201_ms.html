@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev042201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev042201_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev042201_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Wazdo por el suministro de comida.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev042201_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev042201_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Wazdo si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev042201_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Wazdo por el suministro de comida.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev042201_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Wazdo si hay alguna novedad.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev042201_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Wazdo si hay alguna novedad.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0001</td>
+        <td class="side">Cosa buena de ciudad es abundancia de comida.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0002</td>
+        <td class="side">Pero necesit&#225;is m&#225;s trozos grandes de carne.[ST:n ]Otra comida es aperitivo. Hace que extra&#241;e mi hogar.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0003</td>
+        <td class="side">Vi trozo muy apetecible llamado \&quot;Tatsu\&quot;.[ST:n ]&#161;Incluso habl&#243; conmigo![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0004</td>
+        <td class="side">Pero cuando me lo intent&#233; comer, ni&#241;a me grit&#243;.[ST:n ]Dijo que \&quot;ella se lo hab&#237;a pedido antes\&quot;.[ST:n ]&#191;Qu&#233; significa eso?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0005</td>
+        <td class="side">&#191;Y c&#243;mo consigo trozo de carne parlante?[ST:n ]&#191;Se venden en tienda?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0008</td>
+        <td class="side">&#191;Conoces a preciosa hembra prone llamada Lavina?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0009</td>
+        <td class="side">&#161;Pronto estar&#225; lista para boda![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0010</td>
+        <td class="side">Debe ser mi compa&#241;era. Tengo que tener boda.[ST:n ]Despu&#233;s &#161;podr&#233; cenar montones de carne de bestia![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0011</td>
+        <td class="side">&#191;Has visto alguna vez boda prone?[ST:n ]Clan completo devora carne de bestia[ST:n ]hasta que casi explotamos. &#161;Eso es vida![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0012</td>
+        <td class="side">Recuerdo estar cautivo en Fortaleza de Scabland.[ST:n ]Clan cavernario encontr&#243; a vendedor nopon n&#243;mada.[ST:n ]Se lo comi&#243; entero.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0013</td>
+        <td class="side">Parec&#237;a delicioso... Eh, pero &#161;eso es pasado![ST:n ]S&#233; que no me permiten comer nopon.[ST:n ]Pero &#191;quiz&#225; puedo darle mordisquito en lado?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0014</td>
+        <td class="side">&#161;Nopon llamado Tatsu est&#225; rechoncho![ST:n ]Puede dejar trocito de lado para prone como yo.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0015</td>
+        <td class="side">&#191;No? &#191;Y darle lamet&#243;n?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0019</td>
+        <td class="side">Uff, estoy tan lleno...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0020</td>
+        <td class="side">Me gusta ese Leroy. &#161;Me trajo toneladas de carne![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0021</td>
+        <td class="side">&#191;Qu&#233;? &#191;Lavina? Eso no importa ahora.[ST:n ]No puedo pensar en parejas despu&#233;s de tanta carne.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0022</td>
+        <td class="side">&#191;Puede que mi debilidad por carne es solo por tipo[ST:n ]que comes? No estoy seguro. Deber&#237;a derrotar[ST:n ]muchos enemigos &#161;para que Loda me d&#233; m&#225;s carne![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0030</td>
+        <td class="side">&#161;Grr! &#161;Maldigo a ese alien&#237;gena terrestre esmirriado![ST:n ]&#161;Intenta robarme a Lavina![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0031</td>
+        <td class="side">Admito que es valiente. Quiz&#225; digno adversario.[ST:n ]Pero &#161;no dejar&#233; que se salga con la suya![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0032</td>
+        <td class="side">&#161;Me casar&#233; con Lavina! Despu&#233;s, &#161;Loda me cubrir&#225;[ST:n ]con monta&#241;a de carne en boda![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0033</td>
+        <td class="side">Eeeh... Tambi&#233;n hago esto por amor. Eso tambi&#233;n.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

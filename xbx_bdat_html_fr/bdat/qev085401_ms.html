@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev085401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0001</td>
+        <td class="side">Salut Mathias.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0002</td>
+        <td class="side">Gwen ! Tu es dans l&#39;escouade d&#39;Elma[ST:n ]aujourd&#39;hui ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0003</td>
+        <td class="side">On ne se conna&#238;t pas, je crois. Je m&#39;appelle Lin Lee Koo.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0004</td>
+        <td class="side">Pr&#233;nom &#224; Tatsu est Tatsu ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0005</td>
+        <td class="side">Je m&#39;appelle Mathias. Je suis un Mediator.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0006</td>
+        <td class="side">Puis-je demander ce que vous faites[ST:n ]tous ensemble, Chef ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0007</td>
+        <td class="side">J&#39;avais besoin d&#39;aide pour une mission,[ST:n ]alors je leur ai demand&#233; de me rendre service.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0008</td>
+        <td class="side">Bon sang, Gwen ! &#202;tre dans l&#39;&#233;quipe d&#39;Irina[ST:n ]c&#39;est d&#233;j&#224; impressionnant, mais &#231;a... Ouah ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0009</td>
+        <td class="side">En r&#233;alit&#233;, Irina et moi nous appuyons beaucoup[ST:n ]sur Gwen.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0010</td>
+        <td class="side">Qu-Quoi ? Vraiment ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0011</td>
+        <td class="side">Bon sang... J&#39;aimerais tellement rejoindre une &#233;quipe d&#39;&#233;lite[ST:n ]du BLADE...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0012</td>
+        <td class="side">Peut-&#234;tre que si j&#39;arr&#234;tais de rater mes missions...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0013</td>
+        <td class="side">H&#233;, c&#39;est quoi cette sinistrose, Mathias ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0014</td>
+        <td class="side">G&#233;n&#233;ralement tu es si enjou&#233; que c&#39;en est presque...[ST:n ]exasp&#233;rant ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0015</td>
+        <td class="side">Gwen ! Soyez gentil.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0016</td>
+        <td class="side">Qu&#39;est-ce qui ne va pas, Mathias ?[ST:n ]Peut-&#234;tre qu&#39;on peut vous aider.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0017</td>
+        <td class="side">Oh, je ne vais pas faire perdre du temps &#224; vous, l&#39;&#233;lite,[ST:n ]juste pour moi.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0018</td>
+        <td class="side">Je vais trouver une solution moi-m&#234;me.[ST:n ]Ce n&#39;est rien, vraiment.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0019</td>
+        <td class="side">Mathias sait vraiment pas mentir.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0020</td>
+        <td class="side">Quoi ? Je ne...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0021</td>
+        <td class="side">Tatsu sent d&#233;sespoir &#224; Mathias.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0022</td>
+        <td class="side">Pote est d&#233;sesp&#233;r&#233; comme si arrivait pas[ST:n ]&#224; d&#233;cider quoi manger pour petit-d&#233;jeuner ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0023</td>
+        <td class="side">Euh... En fait, c&#39;est plut&#244;t li&#233; au boulot, alors...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev085401_JNK0010</td>
+        <td class="side">S&#39;en aller</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev085401_SEL0011</td>
+        <td class="side">Vous &#233;loigner sans forcer Mathias &#224; parler[ST:n ]de ce qui ne va pas.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev085401_JNK0020</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev085401_SEL0021</td>
+        <td class="side">Pousser Mathias &#224; vous dire ce qui ne va pas.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0024</td>
+        <td class="side">Attendez, on va vraiment ignorer son probl&#232;me ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0025</td>
+        <td class="side">Il n&#39;a clairement pas envie d&#39;en parler.[ST:n ]Laissons ce pauvre homme tranquille.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0026</td>
+        <td class="side">Euh, oui, mais...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0026_2</td>
+        <td class="side">Mathias, vous &#234;tes vraiment s&#251;r ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0027</td>
+        <td class="side">[ST:space ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0028</td>
+        <td class="side">Oh, allez ! C&#39;est &#233;vident que vous voulez nous expliquer ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0029</td>
+        <td class="side">Tenez, pourquoi vous n&#39;y r&#233;fl&#233;chiriez pas tout haut,[ST:n ]et nous l&#39;entendrions par accident ?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0030</td>
+        <td class="side">Euh, c&#39;est... un peu bizarre...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0031</td>
+        <td class="side">Mathias, c&#39;est idiot. On est tous du BLADE ici, apr&#232;s tout.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0032</td>
+        <td class="side">S&#39;il y a un probl&#232;me, dis-le tout simplement.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0033</td>
+        <td class="side">Chef, je...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0034</td>
+        <td class="side">Bon d&#39;accord.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0035</td>
+        <td class="side">Alors si &#231;a ne vous d&#233;range vraiment pas... j&#39;ai besoin d&#39;aide.[ST:n ]Tenez, jetez un œil &#224; &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0036</td>
+        <td class="side">Oh mon dieu, il est trop chou ! J&#39;adore les chats ![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0037</td>
+        <td class="side">Aime manger chats, non ? Comme Lin aime faire[ST:n ]&#224; toutes cr&#233;atures adorables.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0038</td>
+        <td class="side">Quoi ?! Je mangerais jamais un chat, &#231;a va pas ![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0039</td>
+        <td class="side">C&#39;est elle, mon probl&#232;me, en fait.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0040</td>
+        <td class="side">Elle s&#39;appelle Aisha et j&#39;ai besoin d&#39;aide[ST:n ]pour la trouver.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0041</td>
+        <td class="side">Oh non ! Votre chatte a disparu ? C&#39;est horrible ![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0042</td>
+        <td class="side">Je me sens b&#234;te de vous ennuyer avec quelque[ST:n ]chose d&#39;aussi insignifiant...[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0043</td>
+        <td class="side">Mais elle n&#39;est pas rentr&#233;e depuis plus de 24 h[ST:n ]et je suis mort d&#39;inqui&#233;tude.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0044</td>
+        <td class="side">Attends une minute, je croyais que[ST:n ]ton probl&#232;me concernait le travail ?[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0045</td>
+        <td class="side">Est-ce que la chatte a un lien avec ton travail[ST:n ]de Mediator ?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0046</td>
+        <td class="side">Eh bien oui.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0047</td>
+        <td class="side">Elle fait partie d&#39;une &#233;tude sur l&#39;adaptabilit&#233;[ST:n ]des esp&#232;ces terriennes sur Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0048</td>
+        <td class="side">Hmm. &#199;a a l&#39;air important, en effet.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0049</td>
+        <td class="side">Oui, enfin, ce n&#39;est pas comme si je d&#233;gommais[ST:n ]des indig&#232;nes toute la journ&#233;e comme vous...[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev085401_JNK0030</td>
+        <td class="side">Rabrouer</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev085401_SEL0031</td>
+        <td class="side">Dire &#224; Mathias qu&#39;il devrait &#234;tre fier de ce qu&#39;il fait.</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev085401_JNK0040</td>
+        <td class="side">Sermonner</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev085401_SEL0041</td>
+        <td class="side">R&#233;p&#233;ter que le travail de Mathias est tr&#232;s utile.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0050</td>
+        <td class="side">&#201;coute, je sais que notre boulot peut sembler plus glamour,[ST:n ]et plus int&#233;ressant...[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0051</td>
+        <td class="side">Bon okay, c&#39;est vraiment plus glamour et plus int&#233;ressant,[ST:n ]mais &#231;a ne veut pas dire que c&#39;est plus important.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0052</td>
+        <td class="side">Gwen a raison. Nous cherchons tous &#224; nous[ST:n ]forger un avenir meilleur sur Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0053</td>
+        <td class="side">Tous les efforts que nous faisons ont la m&#234;me valeur,[ST:n ]pour nous.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0054</td>
+        <td class="side">C&#39;est vrai ! Et ce n&#39;est pas comme si n&#39;importe[ST:n ]quel membre du BLADE pouvait le faire.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0055</td>
+        <td class="side">Lin a raison. Je serais perdue si j&#39;essayais[ST:n ]de faire ton travail.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0056</td>
+        <td class="side">Nous avons tous choisi les t&#226;ches qui nous[ST:n ]permettaient d&#39;utiliser au mieux nos talents.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0057</td>
+        <td class="side">Merci, Madame.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0058</td>
+        <td class="side">Tr&#232;s bien ! Alors partons &#224; la recherche[ST:n ]de la petite Aisha.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0059</td>
+        <td class="side">New L.A. est grande... Je ne sais m&#234;me pas[ST:n ]par o&#249; commencer.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0060</td>
+        <td class="side">Peux-tu nous parler des endroits qu&#39;elle fr&#233;quentait ?[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0061</td>
+        <td class="side">Quelques-uns.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0062</td>
+        <td class="side">Mais j&#39;ai d&#233;j&#224; fouill&#233; tous les parcs alentour et autres.[ST:n ]Au-del&#224; de &#231;a...[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0063</td>
+        <td class="side">Mmh, voyons voir...[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0064</td>
+        <td class="side">Est-ce que vous avez quelque chose avec son[ST:n ]odeur ? Tatsu pourrait peut-&#234;tre flairer sa trace.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0065</td>
+        <td class="side">Mais ! Tatsu pas limier ![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0066</td>
+        <td class="side">Comment tu sais ce qu&#39;est un limier ?[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0067</td>
+        <td class="side">En fait, je viens de penser &#224; quelque chose.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0068</td>
+        <td class="side">Elle est rentr&#233;e plusieurs fois couverte d&#39;une sorte d&#39;huile...[ST:n ]Comme de l&#39;huile de moteur.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0069</td>
+        <td class="side">&#199;a m&#39;a pris une &#233;ternit&#233; &#224; lui enlever.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0070</td>
+        <td class="side">De l&#39;huile de moteur, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0071</td>
+        <td class="side">&#199;a r&#233;duit nos recherches &#224; la zone industrielle[ST:n ]et au niveau inf&#233;rieur du quartier administratif.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0072</td>
+        <td class="side">D&#39;accord. Nous allons fouiller le niveau inf&#233;rieur[ST:n ]du quartier administratif.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0073</td>
+        <td class="side">Mathias, tu prends la zone industrielle.[ST:n ]Si tu trouves quelque chose, pr&#233;viens-nous.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev085401_MSG0074</td>
+        <td class="side">Compris. Merci &#224; tous. Et encore d&#233;sol&#233; de vous emb&#234;ter.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

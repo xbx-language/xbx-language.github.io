@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev015001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0001</td>
+        <td class="side">Hey, du bist doch [ST:playername ], oder?[ST:n ]Hi, ich bin Dirk, von den Harriern. Wir haben im[ST:n ]Moment hier drau&#223;en einen Einsatz.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0002</td>
+        <td class="side">Gerade haben wir &#252;ber [ST:Gender p1=den krassen neuen Rekruten p2=die krasse neue Rekrutin ] in[ST:n ]Elmas Team gesprochen. Sch&#246;n, dich endlich mal[ST:n ]kennenzulernen![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0003</td>
+        <td class="side">Ihr habt den Ganglion ja ganz sch&#246;n gezeigt, wo der[ST:n ]Hammer h&#228;ngt! Wie macht ihr das blo&#223;? Immer flei&#223;ig[ST:n ]trainieren und Pl&#228;ne schmieden, wie?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0010</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0011</td>
+        <td class="side">Prahle mit deinen raffinierten Kampftaktiken.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0020</td>
+        <td class="side">Verbessern</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0021</td>
+        <td class="side">Erkl&#228;re Dirk, dass du deine Erfolge nur roher Gewalt[ST:n ]verdankst.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0004</td>
+        <td class="side">Oh, da musst du mir bei Gelegenheit unbedingt mehr[ST:n ]erz&#228;hlen. Ich bin Scharfsch&#252;tze und gehe auch lieber[ST:n ]taktisch klug vor.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0005</td>
+        <td class="side">Echt, gegen die ganzen z&#228;hen Viecher, die auf Mira[ST:n ]rumkreuchen? Wow, du machst aber jetzt nicht nur auf[ST:n ]dicke Hose, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0006</td>
+        <td class="side">Hey, hast du vielleicht gerade nichts zu tun?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0007</td>
+        <td class="side">Ich und meine Leute, Team Jaeger, sollen hier in [ST:n ]Sylvalum organisches Material „ernten“, sprich:[ST:n ]Viecher jagen und ausschlachten.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0008</td>
+        <td class="side">Wenn du also nichts anderes vorhast, kannst du dich[ST:n ]uns gerne anschlie&#223;en.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0009</td>
+        <td class="side">Ich w&#252;rde dir wirklich gerne mal bei der Arbeit[ST:n ]zusehen. W&#228;re das okay f&#252;r dich?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0010</td>
+        <td class="side">Super! Um ehrlich zu sein, bin ich zum ersten Mal in[ST:n ]Sylvalum und ein wenig aufgeregt. Aber jetzt bist du ja[ST:n ]dabei.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0011</td>
+        <td class="side">&#196;h, Adelbert, das macht dir doch nichts aus, oder? Die[ST:n ]Materialliste ist ziemlich lang, es schadet sicher nicht,[ST:n ]wenn noch jemand mit anpackt.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0012</td>
+        <td class="side">Klingt gut! Jeder, der helfen m&#246;chte, ist herzlich[ST:n ]willkommen.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0014</td>
+        <td class="side">Schlie&#223;lich wimmelt es hier nur so von einheimischen[ST:n ]Kreaturen. Und die Ganglion haben in der Gegend[ST:n ]auch Truppen stationiert.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0015</td>
+        <td class="side">Unter uns: Ich habe mir schon Sorgen gemacht, dass[ST:n ]wir es nicht schaffen w&#252;rden. Schlie&#223;lich m&#252;ssen wir[ST:n ]noch auf den Gr&#252;nschnabel aufpassen.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0016</td>
+        <td class="side">Hey, ich hab auch schon gek&#228;mpft![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0017</td>
+        <td class="side">Pah, euch werd ich’s schon zeigen! Jetzt kann ich Phina[ST:n ]und Grette endlich beweisen, dass ich’s drauf hab![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0030</td>
+        <td class="side">Warnen</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0031</td>
+        <td class="side">Sage Dirk, dass er nicht &#252;berst&#252;rzt handeln soll.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0040</td>
+        <td class="side">Anstacheln</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0041</td>
+        <td class="side">Sage Dirk, dass der Einsatz ein Spaziergang wird.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0018</td>
+        <td class="side">Jetzt fang du nicht auch noch an![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0019</td>
+        <td class="side">Okay, dann schie&#223; ich mir eben ’nen richtig Gro&#223;en.[ST:n ]Dann merkt ihr endlich, dass ich kein Anf&#228;nger mehr[ST:n ]bin![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0020</td>
+        <td class="side">Genau, was soll uns schon aufhalten? Die pusten wir[ST:n ]weg![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0021</td>
+        <td class="side">Na, da bin ich ja mal gespannt, ob und wie du das[ST:n ]hinkriegst, Hei&#223;sporn![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0022</td>
+        <td class="side">Phina, Grette! F&#252;r euch habe ich[ST:n ]eine besondere Aufgabe![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0023</td>
+        <td class="side">Wir werden uns von hier aus vorarbeiten. Ihr beide[ST:n ]geht zum Au&#223;enposten und seht euch noch mal genau[ST:n ]die Liste mit den geforderten Materialien an.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0024</td>
+        <td class="side">Seit wann gibst DU denn hier die Befehle? Auf so einen[ST:n ]langweiligen Job hab ich ja &#252;berhaupt keine Lust.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0025</td>
+        <td class="side">Hey, reg dich nicht auf! Das ist eine wichtige Aufgabe.[ST:n ]Au&#223;erdem hab ich im K&#252;hlschrank noch eine halbe[ST:n ]Eiscremetorte ersp&#228;ht, die k&#246;nnen wir uns schnappen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0026</td>
+        <td class="side">Sabber, Eiscremetorte... Okay, bin dabei.[ST:n ]Aber Phina und ich haben was bei dir gut, Adelbert![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0027</td>
+        <td class="side">Da unterhalten wir uns sp&#228;ter dr&#252;ber. Okay, jetzt lasst[ST:n ]uns das Gebiet sichern. Das erste Ziel sind die Intra-[ST:n ]Monoceres. Erlegt alle, die ihr finden k&#246;nnt.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0028</td>
+        <td class="side">Wie w&#228;r’s mit ’nem kleinen freundschaftlichen Wettstreit,[ST:n ][ST:playername ]? Wenn du so toll bist, wie[ST:n ]alle sagen, solltest du ja ohne Probleme gewinnen.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0050</td>
+        <td class="side">Annehmen</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0051</td>
+        <td class="side">Nimm Adelberts Herausforderung an.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0060</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0061</td>
+        <td class="side">Sage Adelbert, dass er seinen Job ernster nehmen soll.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0029</td>
+        <td class="side">Ha, abgemacht! Schlag ein![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0030</td>
+        <td class="side">Okay, los geht’s! M&#246;ge der Bessere gewinnen![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0031</td>
+        <td class="side">&#214;h... A-aber... Hmmm, du hast ja recht...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0032</td>
+        <td class="side">Hihi, das geschieht ihm recht! Adelbert markiert ja gern[ST:n ]mal den Dicken, aber gerade ist er so klein mit Hut![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0033</td>
+        <td class="side">Schnauze, Gr&#252;nschnabel! Wir werden ja sehen, wer[ST:n ]sp&#228;ter heulend angerannt kommt. So, jetzt aber los.[ST:n ]Waidmannsheil![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0034</td>
+        <td class="side">Seid auf alles vorbereitet! Wir sind das einzige Team[ST:n ]hier drau&#223;en und ich habe keine Lust, irgendwelche[ST:n ]Verletzten zum Lager zur&#252;ckzutragen, kapiert?[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0035</td>
+        <td class="side">Phina und Grette sind beim Au&#223;enposten und[ST:n ]gehen die Liste durch.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0036</td>
+        <td class="side">Unsere Aufgabe ist es, dieses Gebiet von allen[ST:n ]Intra-Monoceres zu s&#228;ubern.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0039</td>
+        <td class="side">Hmmm? Hast du das auch gerade geh&#246;rt?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0070</td>
+        <td class="side">Verneinen</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0071</td>
+        <td class="side">Sage Dirk, dass er sich wohl get&#228;uscht hat.</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0080</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0081</td>
+        <td class="side">Sage Dirk, dass er auf der Hut sein soll.</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0040</td>
+        <td class="side">Puh, ein Gl&#252;ck. Hab schon gedacht...[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0041</td>
+        <td class="side">Ich bin immer ein bisschen nerv&#246;s, wenn ich in[ST:n ]unbekanntem Gebiet unterwegs bin. Da gehen oft die[ST:n ]Nerven mit mir durch.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0042</td>
+        <td class="side">Das klingt vielleicht komisch, aber ich hab’s weniger[ST:n ]geh&#246;rt, als... Ich wei&#223; auch nicht... Gesp&#252;rt?[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0043</td>
+        <td class="side">Wir sollten besser vorsichtig sein.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0044</td>
+        <td class="side">Oh nein, Adelbert... Was soll ich denn jetzt machen?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0045</td>
+        <td class="side">Ein Gl&#252;ck, du bist’s! Ich... Ich wei&#223; nicht, was ich tun[ST:n ]soll. Die werden ihn umbringen, wenn wir nichts[ST:n ]unternehmen![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0090</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0091</td>
+        <td class="side">Frage Dirk, was genau passiert ist.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0100</td>
+        <td class="side">Beruhigen</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0101</td>
+        <td class="side">Sage Dirk, dass er sich erst mal beruhigen soll.</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0046</td>
+        <td class="side">D-du hast recht, ’tschuldigung...[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0047</td>
+        <td class="side">Mich beruhigen? J-ja, ’tschuldigung.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0048</td>
+        <td class="side">Adelbert kam zur&#252;ck und wir haben zu Abend[ST:n ]gegessen.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0049</td>
+        <td class="side">Dann kam pl&#246;tzlich eine ganze Armee von Prone, und...[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0050</td>
+        <td class="side">Und sie haben...[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0051</td>
+        <td class="side">Sie haben Adelbert get&#246;tet! Eiskalt! Er wollte Grette[ST:n ]sch&#252;tzen und hat sich auf die Prone gest&#252;rzt, aber...[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0052</td>
+        <td class="side">Dann haben sie Grette und Phina in S&#228;cke gesteckt und[ST:n ]fortgeschleppt! Sie haben sich mit H&#228;nden und F&#252;&#223;en[ST:n ]gewehrt, aber es hat nichts gebracht.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0053</td>
+        <td class="side">Bitte, du musst sie retten![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0054</td>
+        <td class="side">Sie sind Richtung Nordwesten abger&#252;ckt. Da gibt’s eine[ST:n ]H&#246;hle. Ich bin mir sicher, dass sie die beiden dort[ST:n ]hingebracht haben.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0055</td>
+        <td class="side">Ich... Ich hab mich im Zelt versteckt... Hab zugesehen,[ST:n ]wie sie Adelbert get&#246;tet haben... und die anderen[ST:n ]verschleppt... Ich bin so ein Feigling![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0056</td>
+        <td class="side">Ich... Ich konnte nur zusehen. Mein K&#246;rper... Ich konnte[ST:n ]mich einfach nicht r&#252;hren vor Angst, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0057</td>
+        <td class="side">Ich flehe dich an, bitte hilf Grette und Phina![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0058</td>
+        <td class="side">Die Prone sind Richtung Nordwesten abger&#252;ckt. Da gibt[ST:n ]es eine H&#246;hle – bestimmt haben sie da ihr Lager[ST:n ]aufgeschlagen.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0059</td>
+        <td class="side">Phina hat mir alles erz&#228;hlt.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0060</td>
+        <td class="side">Was... Was sie mit Grette gemacht haben, ist...[ST:n ]Ich kann es immer noch nicht fassen.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0061</td>
+        <td class="side">Dass Phina die Sache heil &#252;berstanden hat, grenzt an[ST:n ]ein Wunder.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0062</td>
+        <td class="side">Ohne dich h&#228;tte sie es nicht geschafft. Vielen, vielen[ST:n ]Dank![ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0110</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0111</td>
+        <td class="side">Erkundige dich, wo Phina jetzt ist.</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0120</td>
+        <td class="side">Entschuldigen</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0121</td>
+        <td class="side">Entschuldige dich daf&#252;r, dass du[ST:n ]Grette nicht retten konntest.</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0063</td>
+        <td class="side">Sie schl&#228;ft im Zelt. Sie musste ihre Neuronalsynapsen[ST:n ]ausschalten, sonst h&#228;tte sie es nicht ausgehalten.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0064</td>
+        <td class="side">Schon beim kleinsten Ger&#228;usch hat sie angefangen zu[ST:n ]zittern und zu schreien. „Die Prone, sie kommen!“ Ein[ST:n ]und denselben Satz, immer und immer wieder.![ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0065</td>
+        <td class="side">Verst&#228;ndlich...[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0066</td>
+        <td class="side">Sie... Sie musste mit ansehen, was...[ST:n ]was sie mit Grette gemacht haben.[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0067</td>
+        <td class="side">Sie hat vor sich hingestammelt, geweint und sich immer[ST:n ]wieder bei Grette entschuldigt, bis sie vor Ersch&#246;pfung[ST:n ]eingeschlafen ist.[ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0068</td>
+        <td class="side">Der Einzige, der sich entschuldigen sollte, bin wohl ich.[ST:n ]Warum bin ich nur so ein Feigling? Ich h&#228;tte sie[ST:n ]besch&#252;tzen k&#246;nnen![ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0069</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0070</td>
+        <td class="side">Ich werde mit Phina zur Stadt zur&#252;ckgehen.[ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0071</td>
+        <td class="side">Bis sie sich erholt hat, werde ich nicht von ihrer Seite[ST:n ]weichen, versprochen![ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0072</td>
+        <td class="side">Egal, wie lange es dauert![ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0073</td>
+        <td class="side">Das bin ich Grette, Phina und Adelbert schuldig.[ST:n ]Ich habe kl&#228;glich versagt...[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0130</td>
+        <td class="side">Tr&#246;sten</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0131</td>
+        <td class="side">Nicke und sage ihm, dass Adelbert und Grette es so[ST:n ]gewollt h&#228;tten.</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev015001_JNK0140</td>
+        <td class="side">Tadeln</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev015001_SEL0141</td>
+        <td class="side">Wirf ihm vor, Phina zu benutzen, um sein Gewissen[ST:n ]reinzuwaschen.</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0074</td>
+        <td class="side">Danke f&#252;r die warmen Worte. Ich hoffe, dass es Phina[ST:n ]auch irgendwann schafft, sich zu vergeben. Die Arme[ST:n ]kann doch nichts daf&#252;r.[ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0075</td>
+        <td class="side">Du hast wohl recht... Ich muss ihr um ihretwegen helfen[ST:n ]– und nicht, um mich besser zu f&#252;hlen. Das ist das[ST:n ]Wenigste, was ich f&#252;r sie tun kann.[ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0076</td>
+        <td class="side">Unseren Job bei BLADE sind wir wohl los. Ich hoffe[ST:n ]aber, dass deine Karriere weiter steil bergauf geht.[ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev015001_MSG0077</td>
+        <td class="side">Hier, f&#252;r dich. Ich wei&#223;, es ist nicht viel, aber vielleicht[ST:n ]kannst du damit ja jemand anderem helfen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

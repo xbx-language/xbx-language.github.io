@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev020101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev020101_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev020101_SEL0011</td>
+        <td class="side">Frage Ajoa nach den Lebensbedingungen auf Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev020101_JNK0020</td>
+        <td class="side">Unterhalten[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev020101_SEL0021</td>
+        <td class="side">Frage Ajoa, ob ihr irgendetwas Sorgen bereitet.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev020101_JNK0010</td>
+        <td class="side">tev020101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev020101_SEL0031</td>
+        <td class="side">Sprich mit Ajoa &#252;ber das Biahno-Wasserwerk.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev020101_JNK0020</td>
+        <td class="side">tev020101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev020101_SEL0041</td>
+        <td class="side">Frage Ajoa, ob ihr irgendetwas Sorgen bereitet.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0001</td>
+        <td class="side">Es gibt mehrere Seen in der N&#228;he von NLA, aber[ST:n ]bei allen gibt es Probleme mit der Wasserqualit&#228;t.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0002</td>
+        <td class="side">Das gr&#246;&#223;te Potenzial als Trinkwasserreservoir hat ein[ST:n ]See westlich von hier, aber er ist von den auf Mira[ST:n ]heimischen X-ii-Bakterien befallen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0003</td>
+        <td class="side">Unsere Forschungen lassen vermuten, dass beim Konsum[ST:n ]dieses Wassers &#252;ber einen l&#228;ngeren Zeitraum unsere[ST:n ]inneren Organe von F&#228;ulnis befallen w&#252;rden.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0004</td>
+        <td class="side">Wenn wir hier Trinkwasser haben wollen, brauchen[ST:n ]wir also eine gro&#223;e Aufbereitungsanlage.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0005</td>
+        <td class="side">Das Forschungsteam, in dem ich arbeite, hat damit[ST:n ]begonnen, Pl&#228;ne f&#252;r eine solche Anlage auszuarbeiten.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0008</td>
+        <td class="side">Rosie, ein Mitglied meines Forschungsteams,[ST:n ]und ich liegen uns wegen der Pl&#228;ne f&#252;r das[ST:n ]Biahno-Wasserwerk in den Haaren.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0009</td>
+        <td class="side">Ich w&#252;rde am liebsten sofort mit dem Bau eines[ST:n ]Wasserwerks hier in Primordia beginnen, um den[ST:n ]chronischen Trinkwassermangel in NLA zu beheben.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0010</td>
+        <td class="side">Rosie h&#228;lt diesen Plan aber f&#252;r zu gef&#228;hrlich.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0011</td>
+        <td class="side">Zugegeben, ein Gro&#223;projekt au&#223;erhalb der Stadt birgt[ST:n ]gewisse Gefahren. Aber auf der anderen Seite riskieren[ST:n ]BLADEs andauernd ihr Leben f&#252;r das Allgemeinwohl.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0012</td>
+        <td class="side">Sollen wir wirklich die beste L&#246;sung f&#252;r unser Problem[ST:n ]au&#223;er Acht lassen, nur weil es f&#252;r uns gef&#228;hrlich w&#228;re?[ST:n ]Das w&#228;re doch nicht im Sinne der Wissenschaft![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0020</td>
+        <td class="side">Die Anlage wurde ohne gr&#246;&#223;ere Zwischenf&#228;lle[ST:n ]fertiggestellt und die Wasseraufbereitung[ST:n ]funktioniert ohne Probleme.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0021</td>
+        <td class="side">Jetzt k&#246;nnen wir unbedenkliches Trinkwasser aus diesem[ST:n ]riesigen See gewinnen und nach NLA bef&#246;rdern.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0022</td>
+        <td class="side">Egal, wie viele Xenoforme in die Stadt kommen –[ST:n ]die Trinkwasserversorgung ist sichergestellt.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0023</td>
+        <td class="side">Nat&#252;rlich gibt es immer noch viele Dinge, die unser[ST:n ]&#220;berleben auf Mira erheblich erschweren, aber wir sind[ST:n ]auf einem guten Weg, passende L&#246;sungen zu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0024</td>
+        <td class="side">Ich bin dir sehr dankbar. Ohne dich h&#228;tten wir das[ST:n ]Wasserwerk wohl nicht fertigstellen k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0027</td>
+        <td class="side">Dank deiner Hilfe konnten wir das[ST:n ]Biahno-Wasserwerk fertigstellen.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0028</td>
+        <td class="side">Aber der Streit zwischen Rosie und mir, der im Laufe[ST:n ]des Projekts entstanden ist, macht mir immer noch[ST:n ]zu schaffen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0029</td>
+        <td class="side">Sie hat sich entschieden, in NLA zu bleiben, also habe[ST:n ]ich nicht viele Gelegenheiten, mit ihr zu sprechen.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev020101_MSG0030</td>
+        <td class="side">Ich hoffe, dass wir unsere Differenzen ausr&#228;umen[ST:n ]k&#246;nnen. Schlie&#223;lich arbeiten wir immer noch im[ST:n ]selben Forschungsteam.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

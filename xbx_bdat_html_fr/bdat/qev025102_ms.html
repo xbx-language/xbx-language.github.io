@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025102_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0001</td>
+        <td class="side">Euh... avez-vous choisi de m&#39;aider &#224; mener mon[ST:n ]enqu&#234;te, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0002</td>
+        <td class="side">J&#39;ai vraiment vraiment besoin de votre aide,[ST:n ]savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0003</td>
+        <td class="side">Oh merci ! Jim m&#39;a dit de demander &#224; un autre[ST:n ]membre du BLADE si j&#39;avais besoin d&#39;aide et il avait[ST:n ]raison, non ? Oui ![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0004</td>
+        <td class="side">J&#39;aimerais vous demander de commencer par[ST:n ]questionner des gens, d&#39;accord ? Il y a un humain[ST:n ]en particulier que j&#39;aimerais que vous interrogiez.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0011</td>
+        <td class="side">Demander &#224; Ackwar ce qu&#39;il va faire entre-temps.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0020</td>
+        <td class="side">Se mettre au travail</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0021</td>
+        <td class="side">Demander qui Ackwar veut que vous interrogiez.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0005</td>
+        <td class="side">Je vais aller examiner la sc&#232;ne de crime, non ? Le[ST:n ]coupable doit bien avoir laiss&#233; une trace, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0006</td>
+        <td class="side">Pendant ce temps, je veux que vous vous rendiez dans[ST:n ]un endroit absolument d&#233;licieux appel&#233; Army Pizza,[ST:n ]d&#39;accord ? C&#39;est si si si bon...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0007</td>
+        <td class="side">Si je me souviens bien, le propri&#233;taire s&#39;appelle Powell,[ST:n ]non ? Il &#233;tait proche de Duduma. La... victime.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0008</td>
+        <td class="side">Posez-lui des questions sur son pass&#233;, d&#39;accord ? Ce[ST:n ]qu&#39;elle aimait, peut-&#234;tre ? Tout ce que vous pouvez[ST:n ]trouver sur elle.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0009</td>
+        <td class="side">Il y a un endroit absolument d&#233;licieux dans la zone[ST:n ]commerciale. Cela s&#39;appelle Army Pizza, d&#39;accord ?[ST:n ]C&#39;est si si si bon...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0010</td>
+        <td class="side">Si je me souviens bien, le propri&#233;taire s&#39;appelle Powell,[ST:n ]non ? Il &#233;tait proche de Duduma. La... victime.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0011</td>
+        <td class="side">Posez-lui des questions sur son pass&#233;, d&#39;accord ? Ce[ST:n ]qu&#39;elle aimait, peut-&#234;tre ? Tout ce que vous pouvez[ST:n ]trouver sur elle.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0012</td>
+        <td class="side">Merci et bonne chance ! Nous allons r&#233;soudre cette[ST:n ]enqu&#234;te ensemble, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0013</td>
+        <td class="side">Si nous consid&#233;rions cette affaire comme une s&#233;rie de[ST:n ]meurtres, alors nous en sommes &#224; cinq victimes[ST:n ]ma-nones, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0014</td>
+        <td class="side">En tant que membre du BLADE et Ma-non, je ne peux[ST:n ]pas laisser ces crimes impunis, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0015</td>
+        <td class="side">Je vais examiner la sc&#232;ne de crime, d&#39;accord ? Vous[ST:n ]pourriez peut-&#234;tre essayer d&#39;obtenir des informations[ST:n ]de Powell ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0016</td>
+        <td class="side">Je crois que je ne trouverai rien d&#39;autre ici, n&#39;est-il[ST:n ]pas ? Avez-vous trouv&#233; quelque chose ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0017</td>
+        <td class="side">Hmm... La victime, Duduma, s&#39;&#233;tait disput&#233;e avec[ST:n ]Gerome ? Cela ressemble fortement &#224; un suspect,[ST:n ]n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0030</td>
+        <td class="side">En savoir plus sur le suspect</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0031</td>
+        <td class="side">Demander &#224; Ackwar ce qu&#39;il sait de Gerome.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0040</td>
+        <td class="side">En savoir plus sur l&#39;affaire</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0041</td>
+        <td class="side">Demander &#224; Ackwar ce qu&#39;il a appris de la sc&#232;ne.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0018</td>
+        <td class="side">Gerome fait partie du BLADE et il est notoire qu&#39;il[ST:n ]nous d&#233;teste, n&#39;est-il pas ? Il a une certaine r&#233;putation[ST:n ]chez nous autres Ma-nons, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0019</td>
+        <td class="side">Duduma &#233;tait loin d&#39;&#234;tre la seule Ma-none &#224; avoir eu[ST:n ]des d&#233;m&#234;l&#233;s avec Gerome, savez-vous ? D&#39;autres ont[ST:n ]dit avoir &#233;t&#233; frapp&#233;s par lui, sans aucune raison.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0020</td>
+        <td class="side">Et il l&#39;avait comme par hasard remarqu&#233;e peu avant[ST:n ]sa chute &#233;trange de tr&#232;s tr&#232;s haut. C&#39;est assez suspect,[ST:n ]non ? Oui. Assez.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0021</td>
+        <td class="side">J&#39;ai aussi d&#233;couvert des indices qui indiquent que[ST:n ]Duduma pourrait avoir succomb&#233; avant sa chute,[ST:n ]voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0022</td>
+        <td class="side">Je crois que nous avons un bon dossier, non ? Non ?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0023</td>
+        <td class="side">Il est presque certain que la victime, Duduma, est morte[ST:n ]avant sa suppos&#233;e chute, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0024</td>
+        <td class="side">On dirait que nous avons affaire &#224; un professionnel,[ST:n ]non ? Et puisque Gerome est membre du BLADE... Eh[ST:n ]bien, vous voyez o&#249; je veux en venir, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0025</td>
+        <td class="side">Je pense que nous avons suffisamment d&#39;&#233;l&#233;ments pour[ST:n ]l&#39;interroger, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0026</td>
+        <td class="side">M&#234;me si j&#39;avais pr&#233;vu un, euh... un d&#238;ner avec Yuyu[ST:n ]chez Army Pizza ce soir, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0027</td>
+        <td class="side">Mais je crois que ce n&#39;est pas le moment, n&#39;est-ce[ST:n ]pas ? Non. Non, non. D&#233;sol&#233; Yuyu, mais le d&#238;ner[ST:n ]devra attendre.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0050</td>
+        <td class="side">F&#233;liciter</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0051</td>
+        <td class="side">Admirer le d&#233;vouement d&#39;Ackwar &#224; son travail.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0060</td>
+        <td class="side">R&#233;primander</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0061</td>
+        <td class="side">Rappeler &#224; Ackwar qu&#39;il ne peut pas travailler 24 heures[ST:n ]sur 24 et sept jours sur sept.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0028</td>
+        <td class="side">Pour vous aussi, le travail passe avant tout alors ?[ST:n ]J&#39;ai toujours admir&#233; les personnes de ce genre.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0029</td>
+        <td class="side">Je vais passer un coup de fil &#224; Yuyu alors, non ?[ST:n ]Donnez-moi une minute, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0030</td>
+        <td class="side">Alors ma partenaire a de la chance de m&#39;avoir,[ST:n ]dites-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0031</td>
+        <td class="side">Mais Yuyu est tr&#232;s d&#233;vou&#233;e &#224; son travail, voyez-vous ?[ST:n ]Elle serait tr&#232;s, tr&#232;s d&#233;&#231;ue si j&#39;abandonnais mon poste[ST:n ]pour &#234;tre avec elle, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0032</td>
+        <td class="side">Je dois me me me concentrer sur cette affaire pour[ST:n ]l&#39;instant, d&#39;accord ? D&#39;accord.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0033</td>
+        <td class="side">Je vais passer un coup de fil &#224; Yuyu alors, non ?[ST:n ]Donnez-moi une minute, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0034</td>
+        <td class="side">All&#244; all&#244; ? Yuyu ?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0035</td>
+        <td class="side">Je suis vraiment vraiment d&#233;sol&#233; mais je dois annuler[ST:n ]pour ce soir, d&#39;accord ? J&#39;en suis &#224; un moment crucial[ST:n ]de l&#39;enqu&#234;te, vois-tu ? Ce n&#39;est pas grave, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0036</td>
+        <td class="side">D&#39;accord... Oui, oui... C&#39;est d&#39;accord. O.K.[ST:n ]Merci Yuyu ![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0037</td>
+        <td class="side">Oh, Yuyu... J&#39;ai l&#39;impression de pouvoir tout faire[ST:n ]lorsque j&#39;entends tes paroles r&#233;confortantes,[ST:n ]n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0038</td>
+        <td class="side">D&#39;accord, &#224; bient&#244;t. Oui. Je t&#39;aime aussi beaucoup[ST:n ]beaucoup. Au revoir.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0039</td>
+        <td class="side">Pfiou.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0040</td>
+        <td class="side">J&#39;ai de la chance d&#39;avoir pour amie une personne si[ST:n ]compr&#233;hensive au sujet de mon travail, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0041</td>
+        <td class="side">Mmh ? Si je peux plut&#244;t vous guider jusqu&#39;&#224; Gerome ?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0042</td>
+        <td class="side">Ha ha, c&#39;est vrai. Vraiment d&#233;sol&#233;. Gerome devrait[ST:n ]se trouver dans une zone de stockage de la zone[ST:n ]commerciale, non ? Nous nous retrouvons l&#224;-bas.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0043</td>
+        <td class="side">Alors Gerome... Je sais que vous connaissiez une[ST:n ]Ma-none du nom de Duduma, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0044</td>
+        <td class="side">Alors euh... Vous devriez peut-&#234;tre sortir de votre[ST:n ]silence et avouer, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0045</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0046</td>
+        <td class="side">Ah, [ST:playername ] ![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0047</td>
+        <td class="side">J&#39;ai trouv&#233; Gerome alors alors alors j&#39;ai pens&#233; que je[ST:n ]devais commencer l&#39;interrogatoire, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0048</td>
+        <td class="side">Mais cet &#226;ne b&#226;t&#233; n&#39;a pas l&#39;air de vouloir parler &#224; un[ST:n ]Ma-non comme moi, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0049</td>
+        <td class="side">Je crois que je vais vous laisser vous occuper de lui,[ST:n ]peut-&#234;tre ? [ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0050</td>
+        <td class="side">Gerome est parti en direction du parc, semble-t-il ?[ST:n ]Suivez ce Ma-nonphobe et essayez d&#39;en apprendre[ST:n ]plus, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0051</td>
+        <td class="side">Avez avez avez-vous trouv&#233; Gerome ? Que s&#39;est-il[ST:n ]pass&#233; ? Vous avez l&#39;air [ST:Gender p1=p&#226;lot p2=p&#226;lotte ], non ?[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0052</td>
+        <td class="side">Comment ? Il portait des explosifs ? Il est mort ?[ST:n ]Oh l&#224; l&#224;... C&#39;est terrible, non ? Oui ! Tout &#224; fait[ST:n ]terrible.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0053</td>
+        <td class="side">Mais pourquoi est-ce qu&#39;il... Est-ce que cela veut dire[ST:n ]qu&#39;il n&#39;est pas notre coupable alors ? Euh, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0054</td>
+        <td class="side">Hmm...[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0055</td>
+        <td class="side">Je comprends cette affaire de moins en moins bien...[ST:n ]Essayons de repartir du d&#233;but, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0056</td>
+        <td class="side">Ah ? D&#233;sol&#233;, je viens de recevoir un message, on dirait.[ST:n ]Et Yuyu est la seule &#224; avoir cette adresse, donc...[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0057</td>
+        <td class="side">Ce... Cette cette cette photo ! C&#39;est Yuyu ![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0058</td>
+        <td class="side">Elle est retenue prisonni&#232;re dans la for&#234;t blanche de[ST:n ]Pleurjadis de de de Noctilum ![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0059</td>
+        <td class="side">Et un un un scirpo menace de l&#39;avaler toute crue ![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0070</td>
+        <td class="side">Se mettre en chemin</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0071</td>
+        <td class="side">Dire &#224; Ackwar que vous devez partir imm&#233;diatement.</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0080</td>
+        <td class="side">Faire une d&#233;duction</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0081</td>
+        <td class="side">Avancer qu&#39;Ackwar conna&#238;t s&#251;rement le coupable.</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0060</td>
+        <td class="side">O-oui ! Je dois la sauver, oui ![ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0061</td>
+        <td class="side">Je ne sais pas... Je ne sais pas, je ne sais pas ![ST:n ]Mais je dois la sauver, non ? Non ? Oui ![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0062</td>
+        <td class="side">Avez avez avez-vous trouv&#233; Gerome ? Que s&#39;est-il[ST:n ]pass&#233; ? Vous avez l&#39;air [ST:Gender p1=p&#226;lot p2=p&#226;lotte ], non ?[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0063</td>
+        <td class="side">Que... Il portait des explosifs ?[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0064</td>
+        <td class="side">Vous les avez d&#233;samorc&#233;s mais il est quand m&#234;me[ST:n ]mort ? Du poison peut-&#234;tre ? Oh l&#224; l&#224;, c&#39;est terrible,[ST:n ]non ? Oui, tout &#224; fait terrible.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0065</td>
+        <td class="side">Hmm...[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0066</td>
+        <td class="side">Le myst&#232;re s&#39;opacifie encore, n&#39;est-ce pas ? Mais je[ST:n ]vous remercie. Sans votre aide, nous aurions perdu[ST:n ]des indices pr&#233;cieux, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0067</td>
+        <td class="side">Je vais appeler des analystes et leur demander d&#39;&#233;tudier[ST:n ]son cadavre, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0068</td>
+        <td class="side">Nous arr&#234;terons le coupable, quel qu&#39;il soit, n&#39;est-il[ST:n ]pas ? Je le jure, d&#39;accord ? Oui. Je le jure.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0069</td>
+        <td class="side">Ah ? D&#233;sol&#233;, je viens de recevoir un message, on dirait.[ST:n ]Et Yuyu est la seule &#224; avoir cette adresse, donc...[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0070</td>
+        <td class="side">Ce... Cette cette cette photo ! C&#39;est Yuyu ![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0071</td>
+        <td class="side">Elle est retenue prisonni&#232;re dans la for&#234;t blanche de[ST:n ]Pleurjadis de de de Noctilum ![ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0072</td>
+        <td class="side">Et un un un scirpo menace de l&#39;avaler toute crue ![ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0090</td>
+        <td class="side">Se mettre en chemin</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0091</td>
+        <td class="side">Dire &#224; Ackwar que vous devez partir imm&#233;diatement.</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0100</td>
+        <td class="side">Faire une d&#233;duction</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0101</td>
+        <td class="side">Avancer qu&#39;Ackwar conna&#238;t s&#251;rement le coupable.</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0073</td>
+        <td class="side">O-oui ! Je dois la sauver, oui ![ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0074</td>
+        <td class="side">Je ne sais pas... Je ne sais pas, je ne sais pas ![ST:n ]Mais je dois la sauver, non ? Non ? Oui ![ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0075</td>
+        <td class="side">Vous avez tu&#233; Powell, n&#39;est-il pas ? Ce dossier est clos,[ST:n ]alors, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0076</td>
+        <td class="side">Je suis s&#251;r que Yuyu aurait &#233;t&#233; fi&#232;re de moi,[ST:n ]n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0077</td>
+        <td class="side">Elle &#233;tait toujours &#224; mes c&#244;t&#233;s pour me faire remonter[ST:n ]la pente apr&#232;s un &#233;chec, voyez-vous ? Elle me hurlait[ST:n ]de me remettre au travail. Oui, elle aurait &#233;t&#233; fi&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0110</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0111</td>
+        <td class="side">Dire que Yuyu aurait &#233;t&#233; tr&#232;s fi&#232;re.</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev025102_JNK0120</td>
+        <td class="side">&#201;mettre des r&#233;serves</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev025102_SEL0121</td>
+        <td class="side">Insinuer que Yuyu se serait attendue &#224; plus de la part[ST:n ]d&#39;Ackwar.</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0078</td>
+        <td class="side">Vous &#234;tes vraiment, vraiment tr&#232;s [ST:Gender p1=gentil p2=gentille ], n&#39;est-il pas ?[ST:n ]J&#39;ai beaucoup de chance de vous avoir [ST:Gender p1=rencontr&#233; p2=rencontr&#233;e ],[ST:n ]non ?[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0079</td>
+        <td class="side">Yuyu... J&#39;esp&#232;re que tu es l&#224;, quelque part. Et que tu[ST:n ]manges de bonnes pizzas, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0080</td>
+        <td class="side">Je dois m&#39;assurer que cette trag&#233;die ne se reproduira[ST:n ]jamais, savez-vous ? Je ne pourrai jamais abandonner,[ST:n ]si ?[ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0081</td>
+        <td class="side">Merci. C&#39;est dans des moments pareils que de tels[ST:n ]encouragements font toute la diff&#233;rence, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0082</td>
+        <td class="side">Ma carri&#232;re d&#39;enqu&#234;teur n&#39;est pas termin&#233;e, non ?[ST:n ]Comme vous le dites si bien, j&#39;ai encore beaucoup[ST:n ]de choses &#224; faire, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0083</td>
+        <td class="side">Et je suis s&#251;r que Yuyu serait &#224; vos c&#244;t&#233;s en ce moment[ST:n ]m&#234;me, pour me dire de continuer. Non ? Oui...[ST:wait ]</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0084</td>
+        <td class="side">Je dois faire en sorte qu&#39;elle continue &#224; &#234;tre fi&#232;re de[ST:n ]moi, tout l&#224;-haut, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0085</td>
+        <td class="side">Je repars pour la ville, d&#39;accord ? Mais permettez-moi[ST:n ]de vous donner ceci avant de partir, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0086</td>
+        <td class="side">C&#39;est gr&#226;ce &#224; vous que nous avons identifi&#233; le tueur,[ST:n ]savez-vous ? Vous &#234;tes [ST:Gender p1=le partenaire r&#234;v&#233; p2=la partenaire r&#234;v&#233;e ] pour[ST:n ]un d&#233;tective.[ST:wait ]</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0087</td>
+        <td class="side">Mais qu&#39;est-ce qui a conduit Powell &#224; faire cela ? Les[ST:n ]personnes qu&#39;il a tu&#233;es n&#39;avaient rien &#224; voir avec ce[ST:n ]qui est arriv&#233; &#224; sa femme, si ?[ST:wait ]</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0088</td>
+        <td class="side">Tous les Ma-nons qui en sont morts, Gerome... Ils[ST:n ]aimaient tout simplement sa cuisine, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td>qev025102_MSG0089</td>
+        <td class="side">Enfin, j&#39;imagine que tout cela est fini maintenant, non ?[ST:n ]Quel g&#226;chis...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

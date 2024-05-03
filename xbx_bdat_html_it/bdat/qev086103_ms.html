@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev086103_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0001</td>
+        <td class="side">Ngogo ha sentito che [ST:Gender p1=amico p2=amica ] cerca[ST:n ]ricette tradizionali Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0002</td>
+        <td class="side">Allora, [ST:Gender p1=amico p2=amica ] deve assolutamente[ST:n ]provare cucina regale tradizionale.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0003</td>
+        <td class="side">Case di anziani tramanda questa ricetta da molto[ST:n ]tempo. Bisogna seguire tante regole e usanze.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev086103_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev086103_SEL0011</td>
+        <td class="side">Chiedi a Ngogo delle regole e delle usanze.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev086103_JNK0020</td>
+        <td class="side">Insisti</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev086103_SEL0021</td>
+        <td class="side">Di&#39; a Ngogo che sei qui per una ricetta,[ST:n ]non per una lezione di cucina.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0004</td>
+        <td class="side">[ST:Gender p1=Amico curiosone p2=Amica curiosona ] &#232; molto ragionevole,[ST:n ]non &#232; come altri umani.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0005</td>
+        <td class="side">Per prima cosa, cuoco deve purificarsi sotto acque[ST:n ]di cascata. Una come Cascata del Re va benissimo.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0006</td>
+        <td class="side">Poi, cuoco deve buttarsi gi&#249; da punto pi&#249;[ST:n ]altissimissimo! Questo &#232; per dimostrare coraggio[ST:n ]necessario per servire cibo a venerabile anziano.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0007</td>
+        <td class="side">E dopo... Aspetta, [ST:Gender p1=amico p2=amica ] vuole sapere di pi&#249;, s&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev086103_JNK0030</td>
+        <td class="side">Annuisci</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev086103_SEL0031</td>
+        <td class="side">Invita Ngogo a continuare la sua spiegazione.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev086103_JNK0040</td>
+        <td class="side">Ferma</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev086103_SEL0041</td>
+        <td class="side">Di&#39; a Ngogo di darti la ricetta e di farla finita.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0008</td>
+        <td class="side">Dopo, per aumentare concentrazione, cuoco[ST:n ]deve scolpire ritratto su fagiolino bianco[ST:n ]e colorare ritratto con tante spezie.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0009</td>
+        <td class="side">E visto che risata &#232; migliore stuzzichino, cuoco deve[ST:n ]raccontare cento barzellette superdivertenti ad anziano.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0010</td>
+        <td class="side">E dopo che pasto &#232; spazzolato via, femmine Nopon[ST:n ]pulisce piatti con lingua.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0011</td>
+        <td class="side">Ehm... ultima &#232; parte nuova che attuale anziano[ST:n ]ha deciso. Ma nessuno vuole fare perch&#233;[ST:n ]&#232; bruttissimissima.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0012</td>
+        <td class="side">Ma regole e usanze sono cos&#236; noiose[ST:n ]che nessuno vuole fare cuoco reale.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0013</td>
+        <td class="side">Guarda pure ricetta. Se interessa,[ST:n ][ST:Gender p1=amico p2=amica ] pu&#242; diventare [ST:Gender p1=cuoco p2=cuoca ] reale![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0014</td>
+        <td class="side">Anche se nessuno &#232; triste[ST:n ]se tradizione finisce. Meh![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0015</td>
+        <td class="side">Giusto, [ST:Gender p1=amico p2=amica ] &#232; molto [ST:Gender p1=saggio p2=saggia ].[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0016</td>
+        <td class="side">Guarda pure ricetta. Se interessa,[ST:n ][ST:Gender p1=amico p2=amica ] pu&#242; diventare [ST:Gender p1=cuoco p2=cuoca ] reale![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0017</td>
+        <td class="side">Anche se nessuno &#232; triste[ST:n ]se tradizione finisce. Meh![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev086103_MSG0018</td>
+        <td class="side">Ngogo voleva solo parlare un pochino con qualcuno.[ST:n ]Ngogo &#232; stato con Grande Nan per troooppo tempo...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

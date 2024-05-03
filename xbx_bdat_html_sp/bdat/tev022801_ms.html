@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev022801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev022801_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev022801_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Julius sobre[ST:n ]el Proyecto de Evacuaci&#243;n Terrestre.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev022801_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev022801_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Julius si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev022801_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Julius si le preocupa algo.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev022801_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Julius sobre su experiencia[ST:n ]con los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev022801_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Julius sobre[ST:n ]el Proyecto de Evacuaci&#243;n Terrestre.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev022801_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Julius si hay alguna novedad.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev022801_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Julius si hay alguna novedad.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0001</td>
+        <td class="side">Varias naves interestelares partieron[ST:n ]desde diferentes puntos de la Tierra[ST:n ]como parte del Proyecto de Evacuaci&#243;n Terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0002</td>
+        <td class="side">Pero no sabemos qu&#233; ha podido pasar con el resto.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0003</td>
+        <td class="side">Desde Mira emitimos una se&#241;al para intentar[ST:n ]establecer contacto, pero por ahora[ST:n ]no hemos recibido ninguna respuesta.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0004</td>
+        <td class="side">Es muy probable que seamos los &#250;ltimos supervivientes[ST:n ]de la raza humana. No, no me hagas caso.[ST:n ]No debemos perder la esperanza.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0008</td>
+        <td class="side">La expansi&#243;n de FrontierNav no ha progresado[ST:n ]tal y como yo esperaba.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0009</td>
+        <td class="side">Sobre todo debido a la intromisi&#243;n de las criaturas[ST:n ]ind&#237;genas. Aunque, bueno, somos nosotros[ST:n ]los que estamos invadiendo su terreno...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0010</td>
+        <td class="side">Es normal que intenten defenderlo.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0011</td>
+        <td class="side">&#161;Ojal&#225; hubiera una forma de instalar las sondas[ST:n ]sin tener que estar luchando todo el rato![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0027</td>
+        <td class="side">Mientras revisaba la informaci&#243;n recogida[ST:n ]por las sondas exploratorias en Noctilum,[ST:n ]algo me llam&#243; la atenci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0028</td>
+        <td class="side">Por desgracia, no tengo todos los datos necesarios[ST:n ]para saber exactamente lo que es.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0029</td>
+        <td class="side">Todav&#237;a no hemos instalado sondas suficientes[ST:n ]para recabar esa informaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0030</td>
+        <td class="side">Necesito averiguar m&#225;s sobre el tema, as&#237; que espero[ST:n ]que se ampl&#237;e la presencia de FrontierNav en Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0035</td>
+        <td class="side">Tuve la ocasi&#243;n de conversar con los ma-non[ST:n ]sobre la vida en NLA, y me dijeron algo... extra&#241;o.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0036</td>
+        <td class="side">Me dijeron que el espacio que rodea este planeta[ST:n ]es muy peque&#241;o.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0037</td>
+        <td class="side">&#191;Eh? &#191;C&#243;mo puede ser el espacio peque&#241;o?[ST:n ]&#191;Qu&#233; significa eso?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0045</td>
+        <td class="side">Los cuerpos que cre&#237;amos que nos estar&#237;an[ST:n ]esperando nunca existieron. Esa es la verdad[ST:n ]del Proyecto de Evacuaci&#243;n Terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0046</td>
+        <td class="side">Gracias a los conocimientos que Elma comparti&#243;[ST:n ]con nosotros, nuestra tecnolog&#237;a avanz&#243; enormemente.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0047</td>
+        <td class="side">Solo hace unas d&#233;cadas, la idea de realizar este &#233;xodo[ST:n ]masivo de la Tierra se habr&#237;a considerado irrealizable.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev022801_MSG0048</td>
+        <td class="side">Si no fuera por ella, la humanidad[ST:n ]habr&#237;a desaparecido hace ya mucho tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev022801_MSG1001</td>
+        <td class="side">Los orphean son una especie demasiado racional[ST:n ]como para entrar en guerra. Al parecer,[ST:n ]renunciaron a la violencia hace eones.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev022801_MSG1002</td>
+        <td class="side">Ahora, cuando se ven ante la amenaza de un enemigo,[ST:n ]solo piensan en correr y buscar el mejor escondite.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev022801_MSG1003</td>
+        <td class="side">Me imagino que por eso no fueron capaces de oponer[ST:n ]resistencia a los ganglion cuando los atacaron.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev022801_MSG1004</td>
+        <td class="side">Aunque posean la tecnolog&#237;a necesaria para construir[ST:n ]armas, los orphean no las utilizan. Es algo muy dif&#237;cil[ST:n ]de comprender para los humanos.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev022801_MSG2035</td>
+        <td class="side">El \&quot;Ovah\&quot; al que veneran los orphean[ST:n ]es en realidad un virus.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev022801_MSG2036</td>
+        <td class="side">Lo que ocurre es que los orphean son capaces de[ST:n ]percibir una especie de conciencia dentro de ese virus.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev022801_MSG2037</td>
+        <td class="side">Para nosotros es un misterio, pero &#161;puede que se trate[ST:n ]de una forma de vida inteligente completamente nueva![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev022801_MSG2038</td>
+        <td class="side">Pero como el Ovah es tan importante para ellos,[ST:n ]es probable que se nieguen a dejarnos estudiarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev022801_MSG2039</td>
+        <td class="side">Aun as&#237;, me gustar&#237;a llevar a cabo una investigaci&#243;n[ST:n ]exhaustiva. Despu&#233;s de todo, &#161;vamos a compartir[ST:n ]espacio con esa entidad aqu&#237; en NLA![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

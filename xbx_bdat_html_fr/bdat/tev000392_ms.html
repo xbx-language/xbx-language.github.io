@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000392_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0001</td>
+        <td class="side">H&#233;, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0002</td>
+        <td class="side">J&#39;essayais juste d&#39;inculquer &#224; Shingo quelques[ST:n ]comp&#233;tences de combat.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0003</td>
+        <td class="side">Nous, les Pathfinders, ne sommes pas vraiment &#233;quip&#233;s[ST:n ]pour le combat, mais ce n&#39;est pas pour autant que le[ST:n ]Ganglion et les indig&#232;nes nous fichent la paix.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0004</td>
+        <td class="side">Lorsqu&#39;on a des probl&#232;mes, j&#39;aimerais qu&#39;il puisse se[ST:n ]d&#233;fendre seul sans avoir &#224; se reposer sur Saiden ou[ST:n ]Mondo tout le temps.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0005</td>
+        <td class="side">Shingo apprend vite, il manque juste d&#39;exp&#233;rience.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0006</td>
+        <td class="side">Comment tu l&#39;entra&#238;nerais si c&#39;&#233;tait un membre[ST:n ]de ton &#233;quipe ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000392_JNK0010</td>
+        <td class="side">Avec s&#233;v&#233;rit&#233;</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000392_SEL0011</td>
+        <td class="side">Sugg&#233;rer une discipline brutale qui ne tol&#232;re pas l&#39;&#233;chec.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000392_JNK0020</td>
+        <td class="side">Avec soutien</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000392_SEL0021</td>
+        <td class="side">Dire que vous le guideriez en l&#39;encourageant.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0007</td>
+        <td class="side">H&#233; h&#233;. Les grands esprits se rencontrent, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0008</td>
+        <td class="side">&#192; mon avis, s&#39;il rencontre un ennemi en dehors de la[ST:n ]ville, il ne sera pas capable de s&#39;en sortir.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0009</td>
+        <td class="side">Alors je dois lui inculquer tout ce que j&#39;ai appris l&#224;-bas[ST:n ]avant que quelque chose n&#39;arrive &#224; l&#39;un de nous.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0010</td>
+        <td class="side">Il y a beaucoup &#224; apprendre. Pas seulement les trucs[ST:n ]que j&#39;ai d&#233;couverts sur Mira, mais aussi les le&#231;ons[ST:n ]apprises sur Terre.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0011</td>
+        <td class="side">Tout ce que je lui demande, c&#39;est d&#39;&#234;tre capable de[ST:n ]survivre &#224; tout ce qui pourrait arriver.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0012</td>
+        <td class="side">Si Saiden ou moi y passons, finalement, je veux &#234;tre[ST:n ]s&#251;r que Shingo pourra continuer sans nous.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0013</td>
+        <td class="side">Hmm. Alors c&#39;est vraiment comme &#231;a que tu entra&#238;nes[ST:n ]ton &#233;quipe ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0014</td>
+        <td class="side">Je suppose que je ferais mieux de l&#39;encourager &#224; fond,[ST:n ]dans ce cas.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0015</td>
+        <td class="side">Il va devenir mon &#233;quipier et mon &#233;tudiant, pas vrai ?[ST:n ]Je ferais sans doute mieux d&#39;y aller doucement.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0016</td>
+        <td class="side">Mais il se passera quoi si Shingo se retrouve s&#233;par&#233;[ST:n ]de l&#39;&#233;quipe ? Ou s&#39;il est, je ne lui souhaite pas, le seul[ST:n ]survivant d&#39;une attaque ? Qu&#39;est-ce qui lui arrivera ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0017</td>
+        <td class="side">Les trucs qu&#39;il ne sait pas sont les m&#234;mes que ceux qui[ST:n ]risquent de le tuer.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0018</td>
+        <td class="side">Un fusil ne peut pas tirer correctement s&#39;il n&#39;est pas[ST:n ]charg&#233; avec les bonnes munitions, pas vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0019</td>
+        <td class="side">Les autochtones de cette plan&#232;te ne lui laisseront pas le[ST:n ]temps d&#39;apprendre de ses erreurs. Je veux qu&#39;il soit[ST:n ]capable de s&#39;extirper de toutes les situations.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0020</td>
+        <td class="side">Enfin bref, d&#233;sol&#233; de m&#39;&#234;tre un peu emport&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0021</td>
+        <td class="side">Je devrais y aller, d&#39;ailleurs. Je dois coller Shingo dans[ST:n ]un Skell pour sa s&#233;ance d&#39;entra&#238;nement.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000392_MSG0022</td>
+        <td class="side">&#192; plus.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

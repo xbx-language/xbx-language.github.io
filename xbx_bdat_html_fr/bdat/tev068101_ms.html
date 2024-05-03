@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev068101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev068101_JNK0010</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev068101_SEL0011</td>
+        <td class="side">Demander &#224; Ge Jewhe de vous parler de Cauldros.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev068101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev068101_SEL0021</td>
+        <td class="side">Demander &#224; Ge Jewhe s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0001</td>
+        <td class="side">J&#39;ai combattu il y a quelque temps les Milsaadis[ST:n ]se trouvant pr&#232;s des fr&#233;gates d&#39;extraction oubli&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0002</td>
+        <td class="side">Seuls, ils sont d&#233;j&#224; capables de terrasser leur adversaire[ST:n ]en un coup. Mais l&#224; ils n&#39;&#233;taient pas seuls, les insectes[ST:n ]qu&#39;ils contr&#244;laient m&#39;attaquaient sans rel&#226;che.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0003</td>
+        <td class="side">Ce sont de grands guerriers. Et malgr&#233; mes efforts[ST:n ]je n&#39;ai pu sortir victorieuse de ce combat.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0004</td>
+        <td class="side">Si vous vous rendez l&#224;-bas, vous devriez aller[ST:n ]les affronter. Quoi qu&#39;il arrive, je vous garantis[ST:n ]que vous en ressortirez plus [ST:Gender p1=fort p2=forte ] ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0006</td>
+        <td class="side">J&#39;avais l&#39;intention d&#39;aller chasser, dans le but[ST:n ]de nous r&#233;approvisionner...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0007</td>
+        <td class="side">Mais lorsqu&#39;elle l&#39;a appris, Vi Sezha s&#39;est violemment[ST:n ]emport&#233;e. Il m&#39;a fallu une demi-journ&#233;e pour[ST:n ]la convaincre de me laisser partir ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0008</td>
+        <td class="side">Il semblerait que je ne puisse plus la laisser[ST:n ]pour vaquer &#224; mes occupations.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0009</td>
+        <td class="side">Les lois de Wroth ne peuvent rien face[ST:n ]&#224; un tel attachement.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev068101_MSG0010</td>
+        <td class="side">Mais quand bien m&#234;me, je suis heureuse.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

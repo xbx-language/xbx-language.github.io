@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev060601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev060601_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev060601_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Pirapira por el cubo.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev060601_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev060601_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Pirapira si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0001</td>
+        <td class="side">Antes de venir a ciudad, Pirapira solo ten&#237;a[ST:n ]que cazar hormigas errantes y escarabajos[ST:n ]cetacegema para mover bigote.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0002</td>
+        <td class="side">Pero aqu&#237; en ciudad, comida cuesta dinero...[ST:n ]Y amigos humanos se ponen quisquillosos[ST:n ]si Pirapira intenta comer flores.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0003</td>
+        <td class="side">&#218;nico refugio es este cubo.[ST:n ]Si Pirapira espera aqu&#237;, &#161;amables amigos[ST:n ]traen muchas cosas buenas para comer![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0004</td>
+        <td class="side">Caja es para&#237;so de comida.[ST:n ]Excepto cuando, a veces, barriga empieza[ST:n ]a doler mucho y entonces... cosas terribles.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0005</td>
+        <td class="side">Arg. Pirapira quiere comer[ST:n ]comida de verdad alg&#250;n d&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0008</td>
+        <td class="side">Pirapira muy entusiasmada con tratado de amistad.[ST:n ]Pirapira se entera que amigos pueden venir a NLA[ST:n ]y atiborrarse de monta&#241;as de comida deliciosa...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0009</td>
+        <td class="side">Pero &#161;nadie dijo a Pirapira[ST:n ]que comida cuesta dinero! &#161;Meh![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0010</td>
+        <td class="side">Pirapira dilapid&#243; ahorros en cromos Miralife[ST:n ]justo despu&#233;s de mudarse aqu&#237; y se arruin&#243;. Ay.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0011</td>
+        <td class="side">Y ahora Pirapira sufrir&#225; muerte ir&#243;nica[ST:n ]con incre&#237;bles cromos Miralife en mano,[ST:n ]pero sin comida en est&#243;mago. Meeeeeeh...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev060601_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Pirapira si hay alguna novedad.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0012</td>
+        <td class="side">&#191;Sab&#237;a [ST:Gender p1=amigo p2=amiga ] que este cubo[ST:n ]se llama \&quot;cubo de basura\&quot;?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0013</td>
+        <td class="side">&#161;&#191;[ST:Gender p1=Amigo p2=Amiga ] sab&#237;a?! &#191;Y por qu&#233; [ST:Gender p1=amigo p2=amiga ][ST:n ]no dijo nada para tratar de impedir que Pirapira[ST:n ]se metiese esos banquetes gastricidas de basura?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0014</td>
+        <td class="side">Adem&#225;s, amigos humanos deber&#237;an de avergonzarse[ST:n ]por tirar comida que a&#250;n puede comerse cuando...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0015</td>
+        <td class="side">&#161;Espera! &#161;Pirapira puede meter[ST:n ]comida de cubo en latas y venderla[ST:n ]a caravanas por pasta gansa! &#161;Qu&#233; idea![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0016</td>
+        <td class="side">Clientes nopon tampoco necesitan saber todos detalles,[ST:n ]como de d&#243;nde proviene comida o de qu&#233; est&#225; hecha.[ST:n ]&#161;Todo es local! &#161;Org&#225;nico! &#161;De granja a cubo a mesa![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0019</td>
+        <td class="side">Pirapira decidi&#243; vender cromos Miralife[ST:n ]m&#225;s comunes y usar dinero para comprar[ST:n ]primera comida decente en mucho tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0020</td>
+        <td class="side">Ahora que Pirapira no est&#225; doblada por agon&#237;a[ST:n ]digestiva, &#161;Pirapira puede volver a comerciar[ST:n ]y ahorrar dinero para cromos y comida![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev060601_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Pirapira si hay alguna novedad.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0021</td>
+        <td class="side">Gracias a generosidad de [ST:Gender p1=amigo p2=amiga ],[ST:n ]Pirapira puede comer, por fin, algo bueno[ST:n ]y decir adi&#243;s a infierno gastrointestinal.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0022</td>
+        <td class="side">&#191;Qu&#233;?... &#191;Pirapira deber&#237;a decir adi&#243;s tambi&#233;n[ST:n ]a vicio de cromos Miralife? &#161;Meh! &#161;Nunca![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev060601_MSG0023</td>
+        <td class="side">&#161;Pirapira va a triunfar como comerciante y ganar[ST:n ]suficiente para comprar comida y cromos![ST:n ]&#161;[ST:Gender p1=Amigo p2=Amiga ] va a ver![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

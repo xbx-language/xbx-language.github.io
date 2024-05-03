@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev010301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0001</td>
+        <td class="side">Ehi, [ST:playername ]![ST:n ]Grazie a te ho potuto contattare la mia squadra.[ST:n ]Stanno arrivando.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0002</td>
+        <td class="side">Perch&#233; sei da queste parti? Ti annoi?[ST:n ]In tal caso, puoi provare a completare una missione[ST:n ]che io non sono riuscito a portare a termine.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0003</td>
+        <td class="side">L&#39;obiettivo &#232; un Cinicula sfrontato[ST:n ]che sta rendendo la vita difficile a tutti.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev010301_JNK0010</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev010301_SEL0011</td>
+        <td class="side">Esprimi interesse nella missione.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev010301_JNK0020</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev010301_SEL0021</td>
+        <td class="side">Rifiuta l&#39;offerta.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0004</td>
+        <td class="side">Ah! Siamo ansiosi di entrare in azione, eh? Scommetto[ST:n ]che puoi sbaragliare quel cattivone senza sforzo.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0005</td>
+        <td class="side">Inoltrer&#242; i dettagli alla tua ricetrasmittente.[ST:n ]Dacci un&#39;occhiata quando vuoi.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0006</td>
+        <td class="side">Ehi, anche le piccole missioni come questa aiutano[ST:n ]a costruire un futuro per l&#39;umanit&#224; su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0007</td>
+        <td class="side">Sai cosa? Lo invio comunque alla tua ricetrasmittente.[ST:n ]Nel caso cambiassi idea.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0008</td>
+        <td class="side">Buona fortuna nella caccia a quel Cinicula sfrontato.[ST:n ]Ricorda di non agitarti. Aspetta che si apra uno[ST:n ]spiraglio e a quel punto colpisci![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0009</td>
+        <td class="side">In realt&#224; non posso darti consigli su come sconfiggerlo.[ST:n ]Quando ci ho provato io, sono fuggito a gambe levate![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

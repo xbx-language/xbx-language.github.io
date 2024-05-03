@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev022601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0011</td>
+        <td class="side">Sprich mit Liviana &#252;ber R&#252;stung.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0021</td>
+        <td class="side">Frage Liviana, was sie gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0010</td>
+        <td class="side">tev022601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0031</td>
+        <td class="side">Sprich mit Liviana &#252;ber die Ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0020</td>
+        <td class="side">tev022601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0021</td>
+        <td class="side">tev022601_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0010</td>
+        <td class="side">tev022601_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0041</td>
+        <td class="side">Sprich mit Liviana &#252;ber den Angriff auf NLA.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0020</td>
+        <td class="side">tev022601_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0021</td>
+        <td class="side">tev022601_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0010</td>
+        <td class="side">tev022601_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0051</td>
+        <td class="side">Sprich mit Liviana &#252;ber Elma.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev022601_JNK0020</td>
+        <td class="side">tev022601_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev022601_SEL0021</td>
+        <td class="side">tev022601_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev022601_SEL1021</td>
+        <td class="side">Frage Liviana, was es Neues gibt.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev022601_SEL1031</td>
+        <td class="side">Frage Liviana, was es Neues gibt.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0001</td>
+        <td class="side">In meinem Gesch&#228;ft wird eine breite Palette an[ST:n ]Herren- und Damenkleidung verkauft.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0002</td>
+        <td class="side">Allerdings ist das nur gew&#246;hnliche Bekleidung.[ST:n ]Schutzpanzerung oder Ausr&#252;stung, die von BLADEs[ST:n ]wie dir getragen wird, bieten wir leider nicht an.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0003</td>
+        <td class="side">Wenn du so was suchst, solltest du besser in die[ST:n ]Arsenal-Allee im Verwaltungsbezirk gehen.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0004</td>
+        <td class="side">Einmal bin ich selbst aus Neugierde hingegangen.[ST:n ]Dort verkaufen sie Produkte von vielen[ST:n ]verschiedenen Herstellern.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0005</td>
+        <td class="side">Ich war &#252;berrascht, wie... gewagt das Design mancher[ST:n ]R&#252;stungen f&#252;r Frauen war! ...Also, ich k&#246;nnte so was[ST:n ]nicht tragen![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0008</td>
+        <td class="side">In letzter Zeit hab ich viel an meine Familie gedacht.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0009</td>
+        <td class="side">Meine Kleine wird dieses Jahr schon zwanzig.[ST:n ]Allerdings liegt sie noch immer im K&#228;lteschlaf [ST:n ]im Lebensspeicher.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0010</td>
+        <td class="side">Als sie noch ein kleines Kind war, hat sie immer[ST:n ]ganz brav auf ihre Kleidung und ihren Schmuck[ST:n ]aufgepasst, wenn ich ihr was gekauft habe...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0011</td>
+        <td class="side">An ihrem Geburtstag wollte sie immer, dass ich ihr[ST:n ]etwas raussuche, was mir gef&#228;llt. Ist doch s&#252;&#223;, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0012</td>
+        <td class="side">Darum hab ich ihr hier zu ihrem 20. Geburtstag ein[ST:n ]sch&#246;nes Kleid gekauft.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0013</td>
+        <td class="side">Aber solange wir den Lebensspeicher nicht finden,[ST:n ]kann ich meiner Tochter ihr Geschenk nicht geben...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0014</td>
+        <td class="side">Ich flehe dich an! Bitte finde den Lebensspeicher und[ST:n ]bring meine Tochter zu mir zur&#252;ck![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0019</td>
+        <td class="side">Vor Kurzem waren ein paar Ma-non in meinem Laden.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0020</td>
+        <td class="side">Die Frauen unter ihnen waren ziemlich entt&#228;uscht,[ST:n ]dass ihnen nichts aus unserem Angebot gepasst hat.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0021</td>
+        <td class="side">Und die M&#228;nner haben sich erst gar nicht f&#252;r unsere[ST:n ]Kleidung interessiert. Sie w&#228;re ihnen viel zu schwach[ST:n ]und d&#252;nn und w&#252;rde keinen richtigen Schutz bieten.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0022</td>
+        <td class="side">Schon komisch! Sie sind zwar Xenoforme, haben aber[ST:n ]genauso wenig Lust auf Shopping wie die M&#228;nner von[ST:n ]der Erde.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0027</td>
+        <td class="side">Ich hab mir die Aufnahmen der Sicherheitskamera[ST:n ]vor meinem Gesch&#228;ft angesehen, also wei&#223; ich schon[ST:n ]Bescheid, was bei dem Angriff los war.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0028</td>
+        <td class="side">Es sah aus wie eine Szene aus einem Albtraum. Wie[ST:n ]sie durch die Stra&#223;en von NLA marschierten und...[ST:n ]Und jedes Mal, wenn sie einen BLADE sahen...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0029</td>
+        <td class="side">Selbst in der H&#246;lle kann es nicht schlimmer sein[ST:n ]als an diesem Tag in NLA![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0030</td>
+        <td class="side">Wir k&#246;nnen uns gl&#252;cklich sch&#228;tzen, das &#252;berlebt zu[ST:n ]haben! Und zwar nicht nur wir beide, sondern diese[ST:n ]ganze Stadt![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0035</td>
+        <td class="side">Ich hab Elma und die andere ber&#252;hmte BLADE, Irina,[ST:n ]neulich in einem Gesch&#228;ft in der N&#228;he einkaufen sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0036</td>
+        <td class="side">Ich war schockiert, wie stark Elma sich ver&#228;ndert hat![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev022601_MSG0037</td>
+        <td class="side">Ob sie wohl ein Geheimnis hat? Hat sie etwa diese[ST:n ]Lebenskapsel benutzt, von der dieser zwielichtige Typ in[ST:n ]der untersten Etage des Verwaltungsbezirks geredet hat?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1001</td>
+        <td class="side">Dorothy, eine meiner Angestellten, hat einen[ST:n ]neuen Freund.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1002</td>
+        <td class="side">Die sehen so putzig zusammen aus. Und sie reden[ST:n ]schon vom Heiraten![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1003</td>
+        <td class="side">Nur... Wenn ich Dorothy so gl&#252;cklich sehe, muss ich[ST:n ]an meine Tochter denken, die noch in Stasis im[ST:n ]Lebensspeicher liegt. Die beiden sind im selben Alter.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1004</td>
+        <td class="side">Trotzdem freue ich mich nat&#252;rlich f&#252;r Dorothy! Und falls[ST:n ]die zwei echt heiraten, bekommt sie von mir das beste[ST:n ]Kleid, das mein Sortiment zu bieten hat.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1005</td>
+        <td class="side">Ich hoffe f&#252;r sie, dass sie eine gl&#252;ckliche[ST:n ]Familie gr&#252;nden.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1011</td>
+        <td class="side">Dorothy ist am Boden zerst&#246;rt. Es schmerzt mich[ST:n ]wahnsinnig, sie in diesem Zustand zu sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1012</td>
+        <td class="side">Sie und ihr Freund wollten heiraten, also hab ich ihr[ST:n ]mein sch&#246;nstes Hochzeitskleid zur Seite gelegt.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1013</td>
+        <td class="side">Aber dann ist ihr Freund...[ST:n ]w&#228;hrend eines Einsatzes gestorben...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev022601_MSG1014</td>
+        <td class="side">Sie erinnert mich so an meine Tochter, die in Stasis[ST:n ]im Lebensspeicher liegt. Ich wollte doch nur, dass sie[ST:n ]gl&#252;cklich ist...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev091202_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0001</td>
+        <td class="side">Questa &#232; la risorsa che stavamo cercando.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0002</td>
+        <td class="side">Questo pianeta non lo capisco proprio.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0003</td>
+        <td class="side">Qua su Mira &#232; tutto una scoperta dopo l&#39;altra,[ST:n ]ma questa &#232; particolarmente affascinante.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0004</td>
+        <td class="side">Se &#232; vero che possiamo utilizzare questa[ST:n ]robaccia, potrebbe esserci di grande aiuto.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0005</td>
+        <td class="side">Sono d&#39;accordo. Le misurazioni sono schizzate alle stelle.[ST:n ]Potrebbe dar luogo a una rivoluzione tecnologica.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0006</td>
+        <td class="side">Grandioso.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0007</td>
+        <td class="side">Essere un Prospector ogni tanto[ST:n ]d&#224; delle belle soddisfazioni.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0008</td>
+        <td class="side">Bene, bando alle ciance. Mettiamoci al lavoro![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0009</td>
+        <td class="side">Potremo dare aria alla bocca quando[ST:n ]saremo alla tavola calda.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0010</td>
+        <td class="side">OK. Prelevo un campione.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0011</td>
+        <td class="side">[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0012</td>
+        <td class="side">Uh?[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev091202_JNK0010</td>
+        <td class="side">Mostra sorpresa</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev091202_SEL0011</td>
+        <td class="side">Scioccati di fronte alla scomparsa della risorsa.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev091202_JNK0020</td>
+        <td class="side">Deridi</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev091202_SEL0021</td>
+        <td class="side">Accusa Phog di aver combinato un casino.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0013</td>
+        <td class="side">Ehi, &#232; scomparsa![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0014</td>
+        <td class="side">Non dar la colpa a me, Frye![ST:n ]Non ho fatto niente.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0015</td>
+        <td class="side">Gi&#224;, Phog! Cos&#39;hai fatto?![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0015_02</td>
+        <td class="side">Come sempre sei stato avventato[ST:n ]e ne hai combinata una delle tue![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0016</td>
+        <td class="side">Ho solo provato a raccoglierlo[ST:n ]come faccio sempre, Frye![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0017</td>
+        <td class="side">&#200; come quella volta che hai fatto scattare[ST:n ]l&#39;allarme antincendio senza motivo.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0018</td>
+        <td class="side">Era un grande bottone rosso, Frye.[ST:n ]E avevo sette anni![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0019</td>
+        <td class="side">L&#39;ho fatto per lo stesso motivo per cui mi sono[ST:n ]arrampicato sulla porta del campo da calcio.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0019_02</td>
+        <td class="side">Perch&#233; era davanti a me.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0020</td>
+        <td class="side">Ah! Quella me la ero dimenticata. Bei tempi![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0021_02</td>
+        <td class="side">In ogni caso![ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0021</td>
+        <td class="side">Ci siamo distratti abbastanza, e non ce lo possiamo[ST:n ]permettere. Questa roba &#232; strana e inaffidabile quanto te.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0022</td>
+        <td class="side">La possiamo chiamare \&quot;Phogrium\&quot;.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0023</td>
+        <td class="side">Mmmh... non mi dispiacerebbe se dessero[ST:n ]il mio nome a una nuova scoperta.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0024</td>
+        <td class="side">Non era un complimento.[ST:wait ][ST:n ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev091202_MSG0025</td>
+        <td class="side">Comunque, sembra che ci siano altri[ST:n ]campioni qui vicino. Proviamo con quelli.[ST:wait ][ST:n ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

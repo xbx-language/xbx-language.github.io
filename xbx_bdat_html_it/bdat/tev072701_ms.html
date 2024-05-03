@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev072701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev072701_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev072701_SEL0011</td>
+        <td class="side">Chiedi a Han&#39;barac dei corpi degli Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev072701_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev072701_SEL0021</td>
+        <td class="side">Chiedi a Han&#39;barac se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev072701_JNK0010</td>
+        <td class="side">tev072701_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev072701_SEL1011</td>
+        <td class="side">Chiedi a Han&#39;barac dei corpi degli Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev072701_JNK0020</td>
+        <td class="side">tev072701_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev072701_SEL1021</td>
+        <td class="side">Chiedi a Han&#39;barac quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev072701_JNK0010</td>
+        <td class="side">tev072701_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev072701_SEL1031</td>
+        <td class="side">Chiedi a Han&#39;barac dei Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev072701_JNK0020</td>
+        <td class="side">tev072701_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev072701_SEL1021</td>
+        <td class="side">tev072701_SEL1021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0001</td>
+        <td class="side">Noi Orphe abbiamo una capacit&#224; di rigenerarci[ST:n ]ben superiore a quella della tua specie.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0002</td>
+        <td class="side">Se dovessimo perdere un arto, ad esempio,[ST:n ]questo ricrescerebbe entro il giorno dopo.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0003</td>
+        <td class="side">Diversamente da voi, non necessitiamo di pezzi di[ST:n ]ricambio. Ed &#232; davvero una caratteristica utile.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0004</td>
+        <td class="side">Gradisci una dimostrazione? Prego, afferra pure un mio[ST:n ]braccio e tira fino a staccarlo. Quello nuovo inizier&#224;[ST:n ]immediatamente a crescere.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0005</td>
+        <td class="side">Penso che lo troverai un fenomeno[ST:n ]decisamente interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0010</td>
+        <td class="side">C&#39;&#232; un BLADE, di nome Julius, che mi &#232; stato di grande[ST:n ]aiuto sin da quando sono giunto in citt&#224;. Per&#242;...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0011</td>
+        <td class="side">Beh, sembrava troppo interessato al modo in cui il[ST:n ]nostro Ovah protegge i nostri corpi.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0012</td>
+        <td class="side">Cercava continuamente di convincermi a dargli un[ST:n ]campione di sangue. Mi metteva molto a disagio.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0013</td>
+        <td class="side">Naturalmente, rispetto molto la nostra alleanza con la[ST:n ]vostra gente e sarei felice di fornirvi qualsiasi[ST:n ]cosa fosse in mio potere darvi.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev072701_MSG0014</td>
+        <td class="side">Ma questa &#232; l&#39;unica cosa della quale non possa fare[ST:n ]a meno. L&#39;Ovah che scorre nel nostro sangue[ST:n ]&#232; tutto ci&#242; che ci rende degli Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1001</td>
+        <td class="side">Noi Orphe abbiamo una capacit&#224; di rigenerarci[ST:n ]ben superiore a quella della tua specie.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1002</td>
+        <td class="side">Se dovessimo perdere un arto, ad esempio,[ST:n ]questo ricrescerebbe entro il giorno dopo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1003</td>
+        <td class="side">Vorrei potermi staccare un braccio[ST:n ]per mostrarti come funziona.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1004</td>
+        <td class="side">Ma io e Julius abbiamo convenuto che noi Orphe[ST:n ]dovremmo evitare di spargere inutilmente[ST:n ]il nostro sangue.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1005</td>
+        <td class="side">Se per combinazione un altro Xenomorfo dovesse[ST:n ]assorbire il nostro sangue e il nostro Ovah,[ST:n ]potrebbe essere molto pericoloso.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1010</td>
+        <td class="side">La mia gente non ha mai parlato del nostro sangue[ST:n ]con esseri provenienti da altri mondi.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1011</td>
+        <td class="side">Il nostro Ovah &#232; cos&#236; sacro per noi che la sola idea di[ST:n ]un&#39;intromissione dall&#39;esterno &#232; impensabile.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1012</td>
+        <td class="side">Ma se ci tenessimo nascoste a vicenda informazioni[ST:n ]specifiche riguardo noi stessi, avremmo difficolt&#224;[ST:n ]a risolvere situazioni come questa.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1013</td>
+        <td class="side">Quindi, ho deciso di fidarmi di voi e fornire a Julius[ST:n ]informazioni riguardo al nostro sangue.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1014</td>
+        <td class="side">Vi prego, non traditeci. Le informazioni che sto[ST:n ]fornendo rappresentano veramente tutto[ST:n ]quello che noi Orphe siamo.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1019</td>
+        <td class="side">Non so dove ne abbia sentito parlare,[ST:n ]ma un Nopon mi ha chiesto l&#39;Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1020</td>
+        <td class="side">Teoricamente, l&#39;Ovah non dovrebbe essere compatibile[ST:n ]con altre forme di vita, a meno che non siano[ST:n ]estremamente primitive.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1021</td>
+        <td class="side">Per&#242;, &#232; difficile pensare ai Nopon come forme di vita[ST:n ]avanzate. Magari esiste davvero il rischio che[ST:n ]possano essere compatibili...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1022</td>
+        <td class="side">Mmmh, penso sia meglio dir loro che, con la scissione,[ST:n ]anche le nostre aspettative di vita vengono dimezzate.[ST:n ]Questo dovrebbe scoraggiarli dal provare a imitarci.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev072701_MSG1023</td>
+        <td class="side">Detesto mentire, ma far&#242; tutto il necessario per[ST:n ]proteggere il nostro Ovah. Ti sarei grato[ST:n ]se avvalorassi la mia bugia.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev010301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0001</td>
+        <td class="side">&#161;Hola, [ST:playername ]![ST:n ]Gracias a ti, he podido contactar con mi equipo.[ST:n ]Ya est&#225;n de camino.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0002</td>
+        <td class="side">&#191;C&#243;mo es que has vuelto por aqu&#237; otra vez?[ST:n ]Oye, si te aburres, creo que puedo pasarte ese[ST:n ]trabajito de cazarrecompensas en el que yo la pifi&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0003</td>
+        <td class="side">El objetivo es una cin&#237;cula temeraria que ha[ST:n ]estado correteando por ah&#237;, haci&#233;ndole la vida[ST:n ]imposible a todo el mundo.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev010301_JNK0010</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev010301_SEL0011</td>
+        <td class="side">Expresa inter&#233;s en esta tarea.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev010301_JNK0020</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev010301_SEL0021</td>
+        <td class="side">Rechaza la oferta.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0004</td>
+        <td class="side">&#161;Aj&#225;! Alguien se est&#225; mordiendo las u&#241;as, &#191;eh? Apuesto[ST:n ]a que acabas con ese malote sin mover una pesta&#241;a.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0005</td>
+        <td class="side">Te enviar&#233; toda la informaci&#243;n a tu telecomunicador.[ST:n ]As&#237; dispondr&#225;s de ella siempre que quieras.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0006</td>
+        <td class="side">Incluso estos trabajillos ayudan a forjar[ST:n ]el futuro de la humanidad en Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0007</td>
+        <td class="side">&#191;Sabes qu&#233;? Te la voy a pasar a tu telecomunicador[ST:n ]de todas formas, por si cambias de opini&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0008</td>
+        <td class="side">&#161;Buena suerte cuando caces esa cin&#237;cula temeraria![ST:n ]Recuerda: mant&#233;n siempre la calma, busca el punto[ST:n ]d&#233;bil y... &#161;ataca![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev010301_MSG0009</td>
+        <td class="side">No deber&#237;a ir dando consejos de caza, ya que[ST:n ]la &#250;ltima vez hui despavorido, pero bueno...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

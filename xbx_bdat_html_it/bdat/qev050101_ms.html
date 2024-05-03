@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0001</td>
+        <td class="side">Mmmh, hai un aspetto familiare.[ST:n ]Hai un contegno da persona esperta.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0002</td>
+        <td class="side">Ah! Adesso mi sovviene![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0003</td>
+        <td class="side">Non sei tu forse [ST:playername ]?[ST:n ]La creatura terrestre che ha battuto[ST:n ]il Principe Ga Jiarg?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0010</td>
+        <td class="side">Ammetti</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0011</td>
+        <td class="side">Conferma l&#39;ipotesi di Go Belg.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0020</td>
+        <td class="side">Nega</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0021</td>
+        <td class="side">Diffida delle intenzioni di Go Belg e di&#39; che si sbaglia.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0004</td>
+        <td class="side">Ne ero certo. Sebbene il mio corpo sia vetusto,[ST:n ]il mio sguardo rimane acuto.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0005</td>
+        <td class="side">Eccellente. Confido di poter alfine raggiungere la pace,[ST:n ]affidando a te il mio sogno.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0006</td>
+        <td class="side">Ah ah ah! Non essere umile, terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0007</td>
+        <td class="side">Le tue gesta ti sono valse grande fama tra i Wrothian.[ST:n ]Il tuo volto mi &#232; ben noto, al pari del mio.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0008</td>
+        <td class="side">Il mio nome &#232; Go Belg. Sebbene mi sia oramai ritirato,[ST:n ]un tempo ero un guerriero di grande fama,[ST:n ]nella mia terra.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0009</td>
+        <td class="side">Al giorno d&#39;oggi, mi dedico ad addestrare la[ST:n ]generazione futura.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0010</td>
+        <td class="side">La nostra &#232; una stirpe di guerrieri: ancorch&#233; fossimo[ST:n ]in indigenza o carestia, il nostro orgoglio e la nostra[ST:n ]cultura giammai si perderanno.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0011</td>
+        <td class="side">Mostrami la tua forza, sodale [ST:Gender p1=guerriero p2=guerriera ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0012</td>
+        <td class="side">I miei ancestrali armamenti e una modesta somma ti[ST:n ]attendono, se completi questa missione. Cosa rispondi?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0013</td>
+        <td class="side">Te ne sono grato. Prima, come dimostrazione delle tue[ST:n ]capacit&#224;, ti domando di cacciare un mostro.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0014</td>
+        <td class="side">Il tuo bersaglio &#232; una creatura chiamata Levitath celeste:[ST:n ]vorrei che ne abbattessi due.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0015</td>
+        <td class="side">Mi &#232; giunta voce che dimorano a Primordia.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0016</td>
+        <td class="side">Attender&#242; qui la novella del tuo trionfo.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0017</td>
+        <td class="side">Due Levitath celesti sono il tuo traguardo.[ST:n ]Recati a Primordia e abbattili.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0018</td>
+        <td class="side">Pi&#249; osservo il tuo corpo, pi&#249; esso mi appare[ST:n ]come una meraviglia immensa.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0019</td>
+        <td class="side">&#200; sorprendente che cotanta potenza sia racchiusa[ST:n ]entro una struttura s&#236; ridotta. Indubbiamente hai[ST:n ]conosciuto innumerevoli battaglie.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0020</td>
+        <td class="side">Hai dunque debellato i due Levitath celesti? Molto bene.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0021</td>
+        <td class="side">Quelle fiere ricordano quelle che i Wrothian solevano[ST:n ]sfidare al raggiungimento dell&#39;et&#224; adulta.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0022</td>
+        <td class="side">Ho ritenuto fossero avversari adeguati, per valutare le[ST:n ]tue capacit&#224; di combattente.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0110</td>
+        <td class="side">Vantati</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0111</td>
+        <td class="side">Di&#39; che non &#232; stato affatto impegnativo.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0120</td>
+        <td class="side">Borbotta</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0121</td>
+        <td class="side">Lamentati dei metodi brutali dei Wrothian.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0023</td>
+        <td class="side">Vedo che la tua tempra &#232; pari alla tua abilit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0024</td>
+        <td class="side">Mi rallegro! Sarei lieto di avere qualcuno del pari tuo,[ST:n ]come terzo elemento tra i miei allievi.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0025</td>
+        <td class="side">Cionondimeno, hai sconfitto le belve.[ST:n ]Hai condotto una buona caccia.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0026</td>
+        <td class="side">Ma &#232; giunto il momento della prova reale.[ST:n ]Ora desidero che ti confronti con i miei allievi.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0027</td>
+        <td class="side">Due maschi Wrothian che rispondono ai nomi di[ST:n ]Gi Ziordo e Gi Ziorde.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0028</td>
+        <td class="side">Sono entrambi guerrieri capaci, e ancor pi&#249;[ST:n ]formidabili se combattono insieme.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0029</td>
+        <td class="side">Tuttavia, recentemente, tale forza li ha insuperbiti.[ST:n ]Si son divisi per addestrarsi autonomamente,[ST:n ]non riconoscendo pi&#249; il bisogno l&#39;uno dell&#39;altro.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0030</td>
+        <td class="side">A questo punto, temo possano sprecare il loro talento,[ST:n ]finendo per divenire semplicemente mediocri.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0031</td>
+        <td class="side">Per questo motivo, ti domando aiuto per inculcare[ST:n ]nuovamente in loro la ragione.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0032</td>
+        <td class="side">Gi Ziordo si trova alle Cascate del Re, a Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0033</td>
+        <td class="side">Mentre Gi Ziorde si trova a Sylvalum,[ST:n ]presso la Roccia Incudine II.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0034</td>
+        <td class="side">Ti affido questo compito. Mi ritroverai qui.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0035</td>
+        <td class="side">I miei allievi un tempo si spronavano vicendevolmente[ST:n ]come fratelli e, come rivali, s&#39;incitavano l&#39;un l&#39;altro[ST:n ]nel perseguire la grandezza.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0056</td>
+        <td class="side">Tuttavia, improvvisamente, hanno perduto tale[ST:n ]sentimento, finendo per contare meramente[ST:n ]sulla propria forza.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0036</td>
+        <td class="side">Gi Ziordo si trova alle Cascate del Re, a Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0037</td>
+        <td class="side">Mentre Gi Ziorde si trova a Sylvalum,[ST:n ]presso la Roccia Incudine II.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0038</td>
+        <td class="side">Ti chiedo di impiegare la tua forza per inculcare[ST:n ]nuovamente in loro la ragione.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0040</td>
+        <td class="side">Al fin giungesti! Eccellente. Ero esausto per l&#39;attesa.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0041</td>
+        <td class="side">E dunque? Son riusciti, i miei allievi, a colpirti?[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0030</td>
+        <td class="side">Vantati</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0031</td>
+        <td class="side">Impettisciti come a dire che &#232; stato facilissimo.</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0040</td>
+        <td class="side">Sorprenditi</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0041</td>
+        <td class="side">Di’ che ti sei [ST:Gender p1=arreso p2=arresa ] e [ST:Gender p1=meravigliato p2=meravigliata ][ST:n ]davanti alla loro forza.</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0042</td>
+        <td class="side">E cos&#236;, persino loro sono stati poca cosa, per te...[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0043</td>
+        <td class="side">Ci&#242; rafforza la mia convinzione di aver fatto bene[ST:n ]a reclutarti, giacch&#233; persino la tua superbia[ST:n ]&#232; prova di potenza e abilit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0044</td>
+        <td class="side">Capisco. Ch&#39;essi siano sciocchi superbi o meno, sono[ST:n ]pur sempre guerrieri da me addestrati con amore.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0045</td>
+        <td class="side">Mi auguravo che perfino qualcuno abile a combattere[ST:n ]come te facesse fatica contro di loro, almeno un po&#39;.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0046</td>
+        <td class="side">Molto bene. Sembra che l&#39;aver subito una sconfitta da[ST:n ]te abbia loro ricordato che la strada per l&#39;eccellenza[ST:n ]devono percorrerla insieme.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0047</td>
+        <td class="side">Sono ritornati da me, facendosi un esame di coscienza.[ST:n ]Dunque, li ho inviati all&#39;hangar dei test degli Outfitter,[ST:n ]nella zona amministrativa di Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0048</td>
+        <td class="side">Non appena si rivedranno, immagino che sar&#224; come[ST:n ]se il tempo non fosse trascorso.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0049</td>
+        <td class="side">Il che conduce alla mia ultima richiesta: vorrei che tu[ST:n ]sfidassi entrambi i miei allievi ancora una volta, ma[ST:n ]questa volta in coppia.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0050</td>
+        <td class="side">Codesta sar&#224; la loro prima battaglia[ST:n ]insieme dopo lungo tempo.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0051</td>
+        <td class="side">Va&#39; e metti alla prova il loro legame, ci&#242; sar&#224;[ST:n ]indubbiamente in tuo potere.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0072</td>
+        <td class="side">Quando Gi Ziordo e Gi Ziorde si battono insieme,[ST:n ]la loro potenza viene decuplicata.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0073</td>
+        <td class="side">O cos&#236; era, l&#39;ultima volta che combatterono uniti. Prego,[ST:n ]va&#39; a sincerarti che tale legame ancora esista.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0074</td>
+        <td class="side">Sei infine di ritorno! Apparentemente si &#232; trattato di[ST:n ]una battaglia impetuosa.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0075</td>
+        <td class="side">Cosa pensi? I miei allievi sono dunque in grado di[ST:n ]credere l&#39;uno nell&#39;altro e sviluppare una potenza[ST:n ]maggiore di quella dei singoli?[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0050</td>
+        <td class="side">Conferma[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0051</td>
+        <td class="side">Di&#39; che sembravano combattenti completamente diversi.</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev050101_JNK0060</td>
+        <td class="side">Nega[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev050101_SEL0061</td>
+        <td class="side">Di&#39; che hanno ancora molta strada da fare.</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0052</td>
+        <td class="side">Detto da qualcuno con le tue capacit&#224; di[ST:n ]combattimento, non ne dubito.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0053</td>
+        <td class="side">Dal tuo punto di vista superiore, deve sembrare cos&#236;.[ST:n ]Tuttavia, da quando sono tornati, ho osservato i loro[ST:n ]occhi che brillano veri e sinceri.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0054</td>
+        <td class="side">Eh, questa volta i miei allievi si sono recati[ST:n ]in viaggio al fine di addestrarsi insieme.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0055</td>
+        <td class="side">Dubito che smarriranno ancora la strada. La rivalit&#224;[ST:n ]reciproca li forger&#224; come lame affilate.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0058</td>
+        <td class="side">Ti ringrazio di aver usato la tua potenza per guidarli.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev050101_MSG0057</td>
+        <td class="side">Questa &#232; la misera gratitudine che un vecchio maestro[ST:n ]pu&#242; offrire, ti prego di accettarla.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

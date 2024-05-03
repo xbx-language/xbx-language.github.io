@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0001</td>
+        <td class="side">Mmmh? Tu sssei l&#39;uman[ST:Gender p1=o p2=a ] che mi ha aiutato[ST:n ]prima! Non sssaresti potut[ST:Gender p1=o p2=a ] arrivare[ST:n ]in un momento migliore. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0002</td>
+        <td class="side">Cosa? Sei insieme a questo ladro di gioielli? Ah![ST:n ]Allora dovr&#242; mettervi entrambi al fresco![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0003</td>
+        <td class="side">Ecco. Sssuppongo che questo delinei un quadro molto[ST:n ]chiaro del mio problema attuale. Questa BLADE mi[ST:n ]sssta trattando come un criminale senza motivo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0004</td>
+        <td class="side">Per uno Zaruboggan i gioielli non sssono altro che[ST:n ]sssassi colorati. Perch&#233; dovrei rubare qualcosa[ST:n ]che per me non ha valore? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060901_JNK0010</td>
+        <td class="side">Compatisci</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060901_SEL0011</td>
+        <td class="side">Di&#39; a Shiraton che ti dispiace che[ST:n ]debba passare tutto questo.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060901_JNK0020</td>
+        <td class="side">Dubita</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060901_SEL0021</td>
+        <td class="side">Chiedi a Shiraton se &#232; vero che[ST:n ]non gli piacciono i gioielli.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0005</td>
+        <td class="side">Ssse sssolo tutti gli umani fossero cos&#236; comprensivi...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0006</td>
+        <td class="side">Per quanto mi dolga trascinarti in questa[ST:n ]ssstoria, pensi di potermi aiutare? Sssei[ST:n ][ST:Gender p1=l&#39;unico p2=l&#39;unica ] a cui possa rivolgermi. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0007</td>
+        <td class="side">Sssinceramente, il luccichio e lo ssscintillio mi inquieta.[ST:n ]Non riesco a capire perch&#233; gli umani li[ST:n ]adorino cos&#236; tanto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0008</td>
+        <td class="side">Posso dichiarare con assoluta certezza che non ho[ST:n ]rubato e non ruberei mai gioielli. Per quanto mi dolga[ST:n ]chiedertelo, mi potresti aiutare? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0009</td>
+        <td class="side">Sssei [ST:Gender p1=l&#39;unico p2=l&#39;unica ] a cui possa rivolgermi[ST:n ]in questa citt&#224; straniera. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0010</td>
+        <td class="side">Grazie. Innanzitutto ti chiederei di provare[ST:n ]a parlare con questa agente BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0013</td>
+        <td class="side">Ero qui di passaggio. Raccoglievo Voltant,[ST:n ]quando questa donna ha cominciato ad[ST:n ]aggredirmi con delle accuse. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0014</td>
+        <td class="side">Giuro di non aver rubato nessun gioiello.[ST:n ]Per favore aiutami a provare la mia innocenza. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0015</td>
+        <td class="side">La macchina che &#232; passata per l&#39;uscita est[ST:n ]sssembrava andare di fretta. Mi sssembra[ST:n ]un comportamento sospetto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0055</td>
+        <td class="side">A giudicare dalla sssua velocit&#224;, potrebbe essere gi&#224;[ST:n ]arrivata alla Pianura orientale del Lago Janpath. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0016</td>
+        <td class="side">Per favore, trova il colpevole e[ST:n ]prova la mia innocenza. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0019</td>
+        <td class="side">Bene. Ssspero che il problema sia risolto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0020</td>
+        <td class="side">Grazie mille per l&#39;aiuto. Accetta questo[ST:n ]come ricompensa per il tuo disturbo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0021</td>
+        <td class="side">E ora, devo tornare alla mia raccolta.[ST:n ]Neo L.A. ha ancora montagne di Voltant[ST:n ]in attesa di essere rivendicate. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0022</td>
+        <td class="side">Uhm...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0023</td>
+        <td class="side">Ascolta, mi dispiace. &#200; stato sbagliato da parte[ST:n ]mia giudicarti in base alla tua apparenza.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0024</td>
+        <td class="side">Finch&#233; posso tornare al lavoro sssenza problemi, sssono[ST:n ]contento. Ssstavi sssolo facendo il tuo lavoro. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0025</td>
+        <td class="side">Perlomeno, ssspero che questo contrattempo faccia in[ST:n ]modo che lo ssstesso errore non si ripeta in futuro.[ST:n ]Sssbagliando si impara, giusto? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0026</td>
+        <td class="side">Quelli della sua razza sono tutti cos&#236; gentili?[ST:n ]L&#39;ho appena trattato come un criminale[ST:n ]solo a causa della sua apparenza.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0027</td>
+        <td class="side">Argh, sono cos&#236;... stupida![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060901_JNK0030</td>
+        <td class="side">Rassicura</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060901_SEL0031</td>
+        <td class="side">Di&#39; a Tracey che sbagliando s&#39;impara.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060901_JNK0040</td>
+        <td class="side">Incolpa</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060901_SEL0041</td>
+        <td class="side">Di&#39; a Tracey di non lanciare mai pi&#249; accuse infondate.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0028</td>
+        <td class="side">Eh. Anche tu sei gentile.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0029</td>
+        <td class="side">Oggi ho imparato che il mio istinto da[ST:n ]investigatrice non costituisce una prova.[ST:n ]&#200; una lezione che non dimenticher&#242;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0030</td>
+        <td class="side">La prossima volta far&#242; affidamento[ST:n ]sul mio istinto femminile![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0031</td>
+        <td class="side">Bene! A partire da questo momento sono una donna[ST:n ]nuova! Arrester&#242; chiunque dia l&#39;impressione di[ST:n ]creare problemi ai miei amici Zaruboggan![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0032</td>
+        <td class="side">Hai ragione. Grazie per la franchezza.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0033</td>
+        <td class="side">Oggi ho imparato che il mio istinto da[ST:n ]investigatrice non costituisce una prova.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0034</td>
+        <td class="side">La prossima volta far&#242; affidamento[ST:n ]sul mio istinto femminile![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0035</td>
+        <td class="side">Bene! A partire da questo momento sono una donna[ST:n ]nuova! Arrester&#242; chiunque dia l&#39;impressione di[ST:n ]creare problemi ai miei amici Zaruboggan![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0017</td>
+        <td class="side">Poich&#233; anche tu mi hai tradito, ssse questo non dovesse[ST:n ]funzionare mi rassegner&#242; al mio destino.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0018</td>
+        <td class="side">Per&#242;, per favore, perlomeno indaga sssulla[ST:n ]macchina che &#232; passata per l&#39;uscita est. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0056</td>
+        <td class="side">A giudicare dalla sssua velocit&#224;, potrebbe essere gi&#224;[ST:n ]arrivata alla Pianura orientale del Lago Janpath. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0036</td>
+        <td class="side">Bene. Spero che il problema sssia risolto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0037</td>
+        <td class="side">Potrai avermi trattato come un criminale per un po&#39;,[ST:n ]ma alla fine sssei venut[ST:Gender p1=o p2=a ] in mio aiuto.[ST:n ]Hai la mia gratitudine per questo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0038</td>
+        <td class="side">Questa &#232; una ricompensa per il tuo disturbo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev060901_JNK0050</td>
+        <td class="side">Rassicura</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev060901_SEL0051</td>
+        <td class="side">Di&#39; a Tracey che sbagliando s&#39;impara.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev060901_JNK0060</td>
+        <td class="side">Incolpa</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev060901_SEL0061</td>
+        <td class="side">Di&#39; a Tracey di non lanciare mai pi&#249; accuse infondate.</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0046</td>
+        <td class="side">Beh, lo stesso vale anche per te. Dovremo stare attenti[ST:n ]a non commettere lo stesso errore un&#39;altra volta.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0047</td>
+        <td class="side">Oggi ho imparato che il mio istinto da[ST:n ]investigatrice non costituisce una prova...[ST:n ]&#200; una lezione che non dimenticher&#242;.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0048</td>
+        <td class="side">La prossima volta far&#242; affidamento[ST:n ]sul mio istinto femminile![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0049</td>
+        <td class="side">Bene! A partire da questo momento sono una donna[ST:n ]nuova! Arrester&#242; chiunque dia l&#39;impressione di[ST:n ]creare problemi ai miei amici Zaruboggan![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0050</td>
+        <td class="side">Ma... eri d&#39;accordo con me prima...[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0051</td>
+        <td class="side">No, hai ragione. Non &#232; una scusa valida. Devo[ST:n ]imparare sia dai buoni che dai cattivi esempi.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0052</td>
+        <td class="side">Oggi ho imparato che il mio istinto da[ST:n ]investigatrice non costituisce una prova.[ST:n ]&#200; una lezione che non dimenticher&#242;.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0053</td>
+        <td class="side">La prossima volta far&#242; affidamento[ST:n ]sul mio istinto femminile![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev060901_MSG0054</td>
+        <td class="side">Bene! A partire da questo momento sono una donna[ST:n ]nuova! Arrester&#242; chiunque dia l&#39;impressione di[ST:n ]creare problemi ai miei amici Zaruboggan![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

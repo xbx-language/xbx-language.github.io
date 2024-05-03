@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev056101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0001</td>
+        <td class="side">Ah, [ST:playername ]![ST:n ]Ti stavo cercando.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0002</td>
+        <td class="side">Ho nuovamente bisogno della tua forza, che[ST:n ]ci ha liberato dai Ganglion e portato in salvo.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0003</td>
+        <td class="side">Prima di ulteriori spiegazioni, permettimi di chiederti[ST:n ]se hai saputo delle recenti anomalie riscontrate[ST:n ]nella popolazione degli Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0004</td>
+        <td class="side">La scissione di un membro della mia specie ha prodotto[ST:n ]una mutazione. Hai sentito parlare di questo fenotipo[ST:n ]beta o semplicemente \&quot;Beta\&quot;?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0011</td>
+        <td class="side">Chiedi pi&#249; informazioni al riguardo.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0020</td>
+        <td class="side">Conferma</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0021</td>
+        <td class="side">Assicurati che On&#39;tonam intenda l&#39;Orphe rosso.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0005</td>
+        <td class="side">Sono di un colore rosso acceso e hanno iniziato[ST:n ]a comparire da quando ci siamo rifugiati a Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0006</td>
+        <td class="side">Le differenze rispetto agli altri Orphe non sono[ST:n ]solamente morfologiche, ma anche psicologiche.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0007</td>
+        <td class="side">Quindi sai gi&#224; a cosa mi riferisco?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0008</td>
+        <td class="side">Allora, avrai gi&#224; osservato di persona[ST:n ]quanto la loro psicologia sia diversa[ST:n ]da quella degli Orphe tradizionali.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0009</td>
+        <td class="side">Non seguono un pensiero logico e sono[ST:n ]estremamente curiosi. Quasi come gli umani.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0010</td>
+        <td class="side">Ultimamente, questi Beta hanno iniziato a sostenere[ST:n ]che gli Orphe dovrebbero ignorare la voce[ST:n ]del loro Ovah e vivere a modo loro.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0011</td>
+        <td class="side">La questione &#232; degenerata. Sono addirittura[ST:n ]arrivati a sostenere la necessit&#224; di una[ST:n ]rivoluzione contro l&#39;Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0012</td>
+        <td class="side">Dopo una serie di lunghi dibattiti e di scontri[ST:n ]con il mio gruppo, sono partiti[ST:n ]alla volta di Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0013</td>
+        <td class="side">Come saprai, quella foresta &#232; irta di pericoli.[ST:n ]Non &#232; un posto dove un Orphe pu&#242;[ST:n ]sopravvivere senza essere difeso.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0014</td>
+        <td class="side">Vorrei che tu li trovassi e li riportassi in citt&#224;,[ST:n ]utilizzando anche la forza, se necessario.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0110</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0111</td>
+        <td class="side">Sostieni che gli Orphe dovrebbero risolvere[ST:n ]la questione internamente.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0120</td>
+        <td class="side">Informati</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0121</td>
+        <td class="side">Chiedi maggiori informazioni su questa nuova fazione.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0130</td>
+        <td class="side">Consiglia</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0131</td>
+        <td class="side">Di&#39; a On&#39;tonam che il suo gruppo dovrebbe[ST:n ]rispettare la scelta degli altri Orphe.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0015</td>
+        <td class="side">Io non sono abbastanza forte per[ST:n ]occuparmi di questo problema.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0016</td>
+        <td class="side">E anche se fossi in grado di individuarli, Run&#39;tonam,[ST:n ]il capo del movimento rivoluzionario anti-Ovah,[ST:n ]si rifiuterebbe di darmi ascolto.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0017</td>
+        <td class="side">Abbiamo avuto numerosi scambi di opinioni durante[ST:n ]le nostre discussioni, ma non siamo mai[ST:n ]riusciti a farle cambiare idea.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0018</td>
+        <td class="side">Forse sar&#224; pi&#249; disponibile nei tuoi confronti.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0019</td>
+        <td class="side">Il loro capo, Run&#39;tonam, sta esortando a[ST:n ]porre fine all&#39;obbedienza all&#39;Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0020</td>
+        <td class="side">Vorrebbe che gli Orphe seguissero[ST:n ]la loro volont&#224; individuale, in modo[ST:n ]analogo a voi umani.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0021</td>
+        <td class="side">Abbiamo molto discusso l&#39;argomento durante[ST:n ]innumerevoli dibattiti, ma non siamo riusciti[ST:n ]a farle cambiare idea.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0022</td>
+        <td class="side">Forse sar&#224; pi&#249; disponibile nei tuoi confronti.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0023</td>
+        <td class="side">Mi sembri molto simile a Run&#39;tonam, il capo[ST:n ]del movimento rivoluzionario anti-Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0024</td>
+        <td class="side">Ma rimane il fatto che moriranno sicuramente[ST:n ]se li lasciamo l&#224; da soli.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0025</td>
+        <td class="side">Il loro modo di pensare sar&#224; anche simile a quello[ST:n ]di voi umani, ma la loro fisiologia rimane[ST:n ]quella di noi fragili Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0026</td>
+        <td class="side">Posso confidare nelle tue capacit&#224; per ritrovare[ST:n ]Run&#39;tonam e gli altri che sono andati con lei?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0027</td>
+        <td class="side">Run&#39;tonam &#232; andata via con Mun&#39;luarb,[ST:n ]Man&#39;celeg e Rin&#39;luarb.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0028</td>
+        <td class="side">Secondo i nostri calcoli, le probabilit&#224; che hanno[ST:n ]di sopravvivere a Noctilum, senza alcun[ST:n ]tipo di aiuto, sono pari a zero.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0029</td>
+        <td class="side">Ma in passato, voi umani ci avete[ST:n ]gi&#224; sorpreso in diverse occasioni.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0030</td>
+        <td class="side">Vorrei chiederti di mettere queste imperscrutabili[ST:n ]e imprevedibili capacit&#224; al servizio dei miei[ST:n ]compagni Orphe in pericolo.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0031</td>
+        <td class="side">Run&#39;tonam &#232; convinta che nelle profondit&#224;[ST:n ]di Noctilum esista qualcosa di vitale[ST:n ]importanza per noi Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0032</td>
+        <td class="side">&#200; solo il delirio di una sciocca.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0033</td>
+        <td class="side">Il nostro Ovah ci ha proibito categoricamente[ST:n ]di avvicinarci di nuovo a quella regione.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0034</td>
+        <td class="side">Per favore, trovali e riportali indietro sani e salvi.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0035</td>
+        <td class="side">Ma cosa... Il mio Ovah ribolle dalla rabbia![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0036</td>
+        <td class="side">Cos&#39;&#232; successo? Dove sono Run&#39;tonam e gli altri?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0210</td>
+        <td class="side">Racconta</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0211</td>
+        <td class="side">Di&#39; a On&#39;tonam che sono stati divorati dai mostri.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0220</td>
+        <td class="side">Riferisci</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0221</td>
+        <td class="side">Riferisci il messaggio di Run&#39;tonam.</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0037</td>
+        <td class="side">Questa &#232; la fine di coloro[ST:n ]che disconoscono l&#39;Ovah...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0038</td>
+        <td class="side">La nostra priorit&#224; &#232; quella di garantire il futuro[ST:n ]degli Orphe su Mira espandendo la nostra[ST:n ]popolazione. Avremmo dovuto restare uniti.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0039</td>
+        <td class="side">Divorata da una bestia? E con le sue ultime parole[ST:n ]ha affermato che dobbiamo imparare[ST:n ]a dominare il nostro Ovah?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0040</td>
+        <td class="side">Ma &#232; ridicolo! Ma l&#39;Ovah &#232; sempre[ST:n ]con noi e noi con esso![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0041</td>
+        <td class="side">Non riconoscerlo &#232; come negare[ST:n ]la ragione della nostra esistenza![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0042</td>
+        <td class="side">Speriamo almeno che tutto ci&#242; serva di lezione[ST:n ]agli altri rivoluzionari mostrando loro[ST:n ]quanto sia folle la loro posizione.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0043</td>
+        <td class="side">Queste morti sono la prova lampante che[ST:n ]per noi sia impossibile sopravvivere[ST:n ]senza la guida dell&#39;Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0044</td>
+        <td class="side">La perdita di Run&#39;tonam e degli altri mi addolora,[ST:n ]ma spero che almeno serva per ristabilire[ST:n ]l&#39;unit&#224; tra gli Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0045</td>
+        <td class="side">Ho intenzione di assumere un ruolo attivo nella[ST:n ]guida delle nuove scissioni, dimodoch&#233;[ST:n ]questa tragedia non si ripeta pi&#249;.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0046</td>
+        <td class="side">Ma nel frattempo, accetta questa ricompensa[ST:n ]per aver completato la missione.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0047</td>
+        <td class="side">Ma cosa... Il mio Ovah ribolle dalla rabbia![ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0048</td>
+        <td class="side">Cos&#39;&#232; successo? Dove sono Run&#39;tonam e gli altri?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0049</td>
+        <td class="side">Questo... Questo &#232; davvero il suo braccio destro?[ST:n ]Allora &#232; stata divorata...[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0050</td>
+        <td class="side">... ...[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0051</td>
+        <td class="side">Mmmh... Percepisco ancora l&#39;Ovah che scorreva in lei.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0052</td>
+        <td class="side">Solo...[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0053</td>
+        <td class="side">No! Non pu&#242; essere![ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0054</td>
+        <td class="side">&#200; questo il mondo che apparteneva all&#39;Ovah[ST:n ]prima che iniziasse a dimorare negli Orphe?[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0055</td>
+        <td class="side">Allora avevamo gi&#224; affrontato quella terribile bestia?[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0310</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0311</td>
+        <td class="side">Chiedi a On&#39;tonam cosa abbia visto.</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev056101_JNK0320</td>
+        <td class="side">Riferisci</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev056101_SEL0321</td>
+        <td class="side">Riferisci il messaggio di Run&#39;tonam.</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0056</td>
+        <td class="side">Era un ricordo... Risalente a un periodo[ST:n ]antecedente all&#39;evoluzione degli Orphe.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0057</td>
+        <td class="side">Un ricordo che risale all&#39;epoca in cui l&#39;Ovah[ST:n ]era una singola entit&#224; che fluttuava[ST:n ]nell&#39;oceano di un altro mondo.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0058</td>
+        <td class="side">La visione non era n&#233; chiara n&#233; sensata...[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0059</td>
+        <td class="side">Ma la creatura che hai ucciso era l&#224;,[ST:n ]viveva in un ecosistema differente.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0060</td>
+        <td class="side">Non so quale significato possa[ST:n ]avere questo ricordo.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0061</td>
+        <td class="side">Ma ho il sentore che nasconda una qualche profonda[ST:n ]verit&#224; per la quale Run&#39;tonam ha sacrificato la sua vita.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0062</td>
+        <td class="side">Dobbiamo cambiare...[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0063</td>
+        <td class="side">Adesso che ho toccato il suo Ovah, &#232; come se[ST:n ]potessi capire quello che lei intendeva dire.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0064</td>
+        <td class="side">Non riuscivo a comprendere le ragioni di[ST:n ]coloro i quali si erano opposti all&#39;Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0065</td>
+        <td class="side">Ma questo pianeta &#232; una miniera di misteri che non[ST:n ]possono essere spiegati con le nostre conoscenze[ST:n ]attuali. Quella bestia ne &#232; un perfetto esempio.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0066</td>
+        <td class="side">Se vogliamo preservare la nostra specie su Mira,[ST:n ]bisogner&#224; ampliare il nostro modo di pensare[ST:n ]perfino oltre a quello imposto dal volere dell&#39;Ovah.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0067</td>
+        <td class="side">Porter&#242; sempre con me le parole[ST:n ]e la vita di Run&#39;tonam.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0068</td>
+        <td class="side">D&#39;ora in avanti, cercher&#242; di intraprendere[ST:n ]un nuovo percorso come lei ha fatto.[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0069</td>
+        <td class="side">Grazie per avermi riferito il messaggio con le sue[ST:n ]ultime volont&#224;. Ti sono sinceramente grato.[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev056101_MSG0070</td>
+        <td class="side">Mi hai aiutato a cambiare la mia visione del mondo.[ST:n ]Adesso sono pronto a stabilire un dialogo senza[ST:n ]pregiudizi con i rivoluzionari anti-Ovah.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

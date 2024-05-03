@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev070303_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0001</td>
+        <td class="side">Tu peux me faire ce que tu veux, tu n&#39;obtiendras rien[ST:n ]de moi.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0002</td>
+        <td class="side">Gadd, c&#39;est &#231;a ? Si tu me hais autant, alors vas-y[ST:n ]tue-moi, esp&#232;ce de sale petit #a+3&#171;&#187;% ![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev070303_JNK0010</td>
+        <td class="side">Expliquer</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev070303_SEL0011</td>
+        <td class="side">Dire &#224; Professeur B que vous &#234;tes ici pour l&#39;aider.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev070303_JNK0020</td>
+        <td class="side">Plaisanter</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev070303_SEL0021</td>
+        <td class="side">Faire votre plus belle imitation de Gadd.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0003</td>
+        <td class="side">Nom d&#39;une pipe... [ST:playername ] ![ST:n ]C&#39;est Veven qui t&#39;envoie ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0004</td>
+        <td class="side">Woup, woup, ouf ! J&#39;ai bien cru que cette mission[ST:n ]serait la derni&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0005</td>
+        <td class="side">Franchement, tu me fais piti&#233;. Tu n&#39;as pas une once[ST:n ]de talent, alors &#224; la place tu kidnappes les g&#233;nies[ST:n ]pour les vendre.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0006</td>
+        <td class="side">&#199;a ne t&#39;emp&#234;che pas de dormir la nuit, d&#39;&#234;tre aussi[ST:n ]path&#233;tique ? Peu importe combien de personnes tu[ST:n ]vends, tu ne seras jamais qu&#39;un sale #a+3&#171;&#187;%.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0007</td>
+        <td class="side">Nom d&#39;une pipe ! Attends une seconde,[ST:n ]tu n&#39;es pas Gadd. Je connais cette voix...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0008</td>
+        <td class="side">C&#39;est toi, [ST:playername ] ? Oui ! C&#39;est[ST:n ]ta fr&#233;quence, sans aucun doute ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0009</td>
+        <td class="side">Eh bien, si tu as fini de faire des blagues stupides,[ST:n ]d&#233;p&#234;che-toi de me sortir de l&#224; ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0010</td>
+        <td class="side">Je t&#39;expliquerai la situation quand on sera loin d&#39;ici.[ST:n ]Mais avant, il faut que tu r&#233;cup&#232;res la carte magn&#233;tique[ST:n ]grise qui d&#233;sactive cette barri&#232;re ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0011</td>
+        <td class="side">Elle doit &#234;tre entre les mains d&#39;un Marnuck,[ST:n ]dans le coin.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0012</td>
+        <td class="side">C&#39;est une t&#226;che tr&#232;s importante que je te confie,[ST:n ][ST:Gender p1=gamin p2=gamine ].[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0013</td>
+        <td class="side">Maintenant que je suis P.-D.G., je suis un homme tr&#232;s[ST:n ]occup&#233;. Je ne peux pas me permettre de perdre encore[ST:n ]du temps ici. J&#39;ai des produits &#224; vendre aux masses ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0014</td>
+        <td class="side">Woup, woup ? Tu as oubli&#233; ? Un Marnuck poss&#232;de la[ST:n ]carte magn&#233;tique grise.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev070303_MSG0015</td>
+        <td class="side">Bats-le, prends la carte, et sors-moi d&#39;ici, [ST:Gender p1=gamin p2=gamine ] ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

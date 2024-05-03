@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev014301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev014301_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev014301_SEL0011</td>
+        <td class="side">Sprich mit Conner &#252;ber Kampfrufe.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev014301_JNK0020</td>
+        <td class="side">Unterhalten</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev014301_SEL0021</td>
+        <td class="side">Frage Conner, was sich in letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev014301_JNK0010</td>
+        <td class="side">tev014301_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev014301_SEL0031</td>
+        <td class="side">Bitte Conner, dir ein paar Tipps[ST:n ]f&#252;r den Kampf zu geben.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev014301_JNK0020</td>
+        <td class="side">tev014301_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev014301_SEL0021</td>
+        <td class="side">tev014301_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev014301_JNK0010</td>
+        <td class="side">tev014301_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev014301_SEL0041</td>
+        <td class="side">Erkundige dich bei Conner &#252;ber[ST:n ]die Tyrannen in Primordia.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev014301_JNK0020</td>
+        <td class="side">tev014301_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev014301_SEL0021</td>
+        <td class="side">tev014301_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0001</td>
+        <td class="side">Als ich neulich drau&#223;en an der Stadtmauer[ST:n ]patrouillierte, wurde ich pl&#246;tzlich von einem[ST:n ]Tyrannen angegriffen![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0002</td>
+        <td class="side">Dieses Vieh zerst&#246;rte meinen Skell, schlug Monica[ST:n ]bewusstlos verwundete mich schwer.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0003</td>
+        <td class="side">Und dann, kurz bevor er uns den Rest geben konnte,[ST:n ]h&#246;rten wir unseren Teamf&#252;hrer rufen: „Zielt auf seine[ST:n ]Schwachstelle!“[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0004</td>
+        <td class="side">Adrenalin durchstr&#246;mte meinen K&#246;rper und ich sprang[ST:n ]auf den Tyrannen! Ich sp&#252;rte eine ungeahnte Kraft in[ST:n ]mir und streckte ihn mit einem Schlag nieder![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0005</td>
+        <td class="side">Ich kann immer noch nicht fassen. Es war, als h&#228;tte die[ST:n ]Stimme meines Anf&#252;hrers mich irgendwie aufgeputscht...[ST:n ]Keine Ahnung, was da passiert ist.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0008</td>
+        <td class="side">Danke noch mal, dass du mein Comm-Ger&#228;t gefunden[ST:n ]hast! Ohne dich h&#228;tte ich es wohl nie zur&#252;ck nach NLA[ST:n ]geschafft.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0009</td>
+        <td class="side">Nur, damit du im Bilde bist: Monica und Nathan[ST:n ]kamen mir damals &#252;brigens auf auf halbem Wege[ST:n ]entgegen und Monica hat mir erst mal eine gescheuert.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0010</td>
+        <td class="side">Und den Rest des Heimwegs durfte ich mir eine Endlos-[ST:n ]predigt des Herrn Anf&#252;hrers anh&#246;ren... R&#252;ckblickend[ST:n ]war die Zeit vor meiner Rettung wesentlich angenehmer.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0011</td>
+        <td class="side">Ist ja eigentlich nicht so meine Art, erst zu denken und[ST:n ]dann zu handeln. Aber ich glaube, in Zukunft werde[ST:n ]ich versuchen, vorsichtiger zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0012</td>
+        <td class="side">Wenn ich sehe, wie nahe die beiden manchmal am[ST:n ]Nervenzusammenbruch entlangkratzen, rei&#223; ich mich[ST:n ]vielleicht doch besser ein bisschen zusammen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0015</td>
+        <td class="side">Erst diese Tentakeltussi der Ganglion, dann die[ST:n ]Korruptores aus dem Noctilum. Gibt’s da irgendwo ein[ST:n ]Nest, wo fiese Monster schl&#252;pfen, oder was?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0016</td>
+        <td class="side">Aber so gef&#228;hrlich sie auch erscheinen m&#246;gen: alle[ST:n ]benutzen nur sehr spezialisierte Angriffe oder haben[ST:n ]einen gro&#223;en Schwachpunkt.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0017</td>
+        <td class="side">Ist Ersteres der Fall, dann solltest du einfach Ausr&#252;stung[ST:n ]mit Attributen verwenden, die dich vor den jeweiligen[ST:n ]Attacken sch&#252;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0018</td>
+        <td class="side">Und im zweiten Fall konzentrierst du dich einfach auf[ST:n ]ihre Schwachpunkte oder nutzt ihre Verwundbarkeit aus.[ST:n ]Dann sind die K&#228;mpfe ein Kinderspiel![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0019</td>
+        <td class="side">Nat&#252;rlich nur in der Theorie. W&#252;rde ich im echten[ST:n ]Leben einem solchen Feind gegen&#252;berstehen, h&#228;tte ich[ST:n ]die Hosen voll und w&#252;rde mich aus dem Staub machen.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0025</td>
+        <td class="side">Es stimmt, dass das „Versteck der Bestie“ n&#246;rdlich von[ST:n ]NLA sehr gef&#228;hrlich ist, zumindest gemessen an dem[ST:n ]Rest der Kreaturen der Umgebung.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0026</td>
+        <td class="side">Anscheinend werden dort alle einheimischen Kreaturen[ST:n ]von einem einzigen Grex angef&#252;hrt.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0027</td>
+        <td class="side">Wenn wir den ausschalten k&#246;nnten, w&#252;rde das das[ST:n ]Gefahrenpotenzial au&#223;erhalb der Stadtmauern drastisch[ST:n ]reduzieren.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0028</td>
+        <td class="side">Allerdings wehrt sich das Vieh mit H&#228;nden und F&#252;&#223;en.[ST:n ]Zahllose Interceptoren haben sich bereits mit dem Grex[ST:n ]angelegt, aber keiner war bisher erfolgreich.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev014301_MSG0029</td>
+        <td class="side">Spiel also nicht den Helden, wenn du dieser Kreatur[ST:n ]begegnest. Umdrehen und weglaufen lautet die Devise![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

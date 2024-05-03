@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev090103_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0001</td>
+        <td class="side">Muy bien. Vamos a ver qu&#233; tenemos aqu&#237;...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0002</td>
+        <td class="side">Un rollo... Aburrido... Uy, &#191;violentos ind&#237;genas [ST:n ]matan tres docenas de BLADE? Suena bien.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0003</td>
+        <td class="side">Qu&#233; m&#225;s... &#191;Reunir diez cardifresas?[ST:n ]Pfff. Eso es para ni&#241;os.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0004</td>
+        <td class="side">O... recuperar fragmentos de la Ballena Blanca.[ST:n ]Un cl&#225;sico. Eso es para los Reclaimer.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0005</td>
+        <td class="side">Bueno, figura, &#191;hay algo que te mole?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev090103_JNK0010</td>
+        <td class="side">Cazar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev090103_SEL0011</td>
+        <td class="side">Elige luchar contra los ind&#237;genas.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev090103_JNK0020</td>
+        <td class="side">Reunir</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev090103_SEL0021</td>
+        <td class="side">Elige reunir las cardifresas.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev090103_JNK0030</td>
+        <td class="side">Recuperar</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev090103_SEL0031</td>
+        <td class="side">Elige encontrar los restos de la Ballena Blanca.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0006</td>
+        <td class="side">&#161;Tienes las mismas ansias de sangre que &#233;l![ST:n ]&#161;Me encanta![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0007</td>
+        <td class="side">Sab&#237;a que no me equivocaba contigo.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0008</td>
+        <td class="side">Pero s&#237;, creo que ser&#237;a lo suyo inaugurar[ST:n ]esta amistad con algo m&#225;s... del rollo Reclaimer.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0009</td>
+        <td class="side">Voy a apuntarnos para coger de la playa[ST:n ]los trozos de la Ballena Blanca.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0010</td>
+        <td class="side">&#191;Me est&#225;s vacilando, figura? [ST:n ]&#161;Eso es para ni&#241;os![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0011</td>
+        <td class="side">Bah, cavar... Mejor escojo yo.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0012</td>
+        <td class="side">Vale. Vamos a coger restos[ST:n ]de la Ballena Blanca a la playa.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0013</td>
+        <td class="side">&#161;Me gusta tu rollo, figura![ST:n ]Ese es el que iba a pillar.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0014</td>
+        <td class="side">Parece que a&#250;n no ha ido nadie hasta all&#225;.[ST:n ]Acaba de aparecer en FrontierNav.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0015</td>
+        <td class="side">Creo que es un trabajo dabuti para[ST:n ]los nuevos &#237;dolos Reclaimer, &#191;eh?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev090103_MSG0016</td>
+        <td class="side">&#161;Vamos! &#161;Ponte en marcha, figura![ST:n ]&#161;Tira millas![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev014201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0011</td>
+        <td class="side">Sprich mit Nathan &#252;ber die Au&#223;enposten,[ST:n ]die &#252;berall auf Mira zu finden sind.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">Unterhalten</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">Sprich Nathan auf die j&#252;ngsten Ereignisse an.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">tev014201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0031</td>
+        <td class="side">Sprich mit Nathan &#252;ber die Au&#223;enposten,[ST:n ]die &#252;berall auf Mira zu finden sind.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">tev014201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">tev014201_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">tev014201_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0051</td>
+        <td class="side">Sprich mit Nathan &#252;ber Au&#223;enposten in Sylvalum.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">tev014201_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">tev014201_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0010</td>
+        <td class="side">tev014201_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0071</td>
+        <td class="side">Sprich mit Nathan &#252;ber Au&#223;enposten in Sylvalum.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev014201_JNK0020</td>
+        <td class="side">tev014201_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev014201_SEL0021</td>
+        <td class="side">Sprich Nathan auf die j&#252;ngsten Ereignisse an.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0001</td>
+        <td class="side">Wenn du Mira erkundest, wirst du immer wieder[ST:n ]an Au&#223;enposten vorbeikommen, die von den BLADE-[ST:n ]Divisionen errichtet wurden.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0002</td>
+        <td class="side">Die kann nat&#252;rlich jeder BLADE nutzen, unabh&#228;ngig[ST:n ]von der Division, der er oder sie angeh&#246;rt.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0003</td>
+        <td class="side">Wenn du m&#252;de bist, kannst du dich dort in Zelten oder[ST:n ]Waggons so lange du m&#246;chtest ausruhen.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0004</td>
+        <td class="side">Und wenn du zum ersten Mal in einer Region[ST:n ]unterwegs bist, solltest du dich unbedingt bei[ST:n ]ortskundigen BLADEs &#252;ber das Gebiet informieren.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0005</td>
+        <td class="side">Nutze unsere Au&#223;enposten, um dich in unbekannten[ST:n ]Gebieten so wenig Gefahr wie m&#246;glich auszusetzen.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0008</td>
+        <td class="side">Dieser Conner... Jetzt hat er sich eine Kette gekauft.[ST:n ]Eine Kette f&#252;r sein Comm-Ger&#228;t. Damit er es nie[ST:n ]wieder verliert, verstehst du? Ha ha...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0009</td>
+        <td class="side">Drollig, oder? Wie dem auch sein – er scheint sich[ST:n ]ernsthaft vorgenommen zu haben, nicht noch einmal[ST:n ]so einen Bock zu schie&#223;en.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0010</td>
+        <td class="side">Und Monica hat sich bei mir entschuldigt. Sie sagt, sie[ST:n ]habe eingesehen, dass sie mir die Entscheidung durch[ST:n ]ihren Aufstand nicht unbedingt erleichtert hat...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0011</td>
+        <td class="side">Und ich dachte schon, das Team w&#252;rde an dem ganzen[ST:n ]Schlamassel zerbrechen! Aber es sieht so aus, als h&#228;tten[ST:n ]wir noch mal die Kurve gekriegt.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0012</td>
+        <td class="side">...Vielen Dank f&#252;r deine Hilfe. Ohne dich w&#228;re das alles[ST:n ]ganz anders ausgegangen, glaub mir.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0021</td>
+        <td class="side">Das Instandhalten der Au&#223;enposten ist ein ganz sch&#246;n[ST:n ]gef&#228;hrlicher Job. Besonders, wenn sich so ein Posten[ST:n ]in einem Gebiet voller aggressiver Kreaturen befindet.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0022</td>
+        <td class="side">Deshalb sind da auch nur knallharte BLADEs stationiert.[ST:n ]Macht auch Sinn bei den fiesen Viechern da drau&#223;en.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0023</td>
+        <td class="side">Wie dem auch sei: Falls du noch jemanden f&#252;r dein[ST:n ]Team suchst, solltest du dich bei den Au&#223;enposten[ST:n ]umh&#246;ren.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0024</td>
+        <td class="side">Ich bin mir sicher, dass du dort gute, kr&#228;ftige BLADEs[ST:n ]finden wirst, die dir gerne bei der Erkundung des[ST:n ]Gebiets helfen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0029</td>
+        <td class="side">Der Nadelschlag-Au&#223;enposten befindet sich gleich hinter[ST:n ]dem M&#246;wenholm in Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0030</td>
+        <td class="side">Einige BLADEs, die dort stationiert sind, haben hinter[ST:n ]einer riesigen kuppelf&#246;rmigen Pflanze &#246;stlich des Lagers[ST:n ]eine seltsame H&#246;hle entdeckt.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0031</td>
+        <td class="side">Allerdings befindet sich der Eingang auf halber H&#246;he[ST:n ]auf der Innenseite der Klippen, die den Kontinent[ST:n ]umgeben. Da kamen sie selbst vom Meer aus nicht hin.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0032</td>
+        <td class="side">Das sieht mir schwer nach einem Geheimpunkt aus.[ST:n ]Sicher ist da ein Schatz verborgen! In unzug&#228;nglichen[ST:n ]H&#246;hlen sind doch immer Sch&#228;tze versteckt![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0033</td>
+        <td class="side">Wie w&#228;re es, wenn du dir einen dieser neuen[ST:n ]fliegenden Skells besorgst und dir diese H&#246;hle[ST:n ]mal genauer ansiehst?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev014201_MSG0043</td>
+        <td class="side">Da die Skell-Flugmodule jetzt f&#252;r Eins&#228;tze freigegeben[ST:n ]wurden, solltest du dir eins besorgen und antesten.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

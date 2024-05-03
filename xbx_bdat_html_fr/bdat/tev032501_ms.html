@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0011</td>
+        <td class="side">Interroger Jeshero sur le vaisseau ma-non.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0021</td>
+        <td class="side">Demander &#224; Jeshero s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0010</td>
+        <td class="side">tev032501_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0031</td>
+        <td class="side">Interroger Jeshero sur les Ma-nons.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0020</td>
+        <td class="side">tev032501_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0021</td>
+        <td class="side">tev032501_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0010</td>
+        <td class="side">tev032501_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0041</td>
+        <td class="side">Interroger Jeshero sur les Ma-nons.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0020</td>
+        <td class="side">tev032501_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0021</td>
+        <td class="side">tev032501_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0001</td>
+        <td class="side">Les humains ne ma&#238;trisent pas la ferronnerie aussi bien[ST:n ]que les Ma-nons, n&#39;est-il pas ? Loin de l&#224;...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0002</td>
+        <td class="side">Le vaisseau ma-non est robuste, n&#39;est-il pas ?[ST:n ]C&#39;est parce que nous avons utilis&#233; des mat&#233;riaux[ST:n ]solides pour le construire.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0003</td>
+        <td class="side">Le vaisseau a travers&#233; l&#39;atmosph&#232;re de Mira sans[ST:n ]difficult&#233;, n&#39;est-il pas ? M&#234;me les tirs antia&#233;riens[ST:n ]du Ganglion ne pouvaient pas l&#39;atteindre.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0004</td>
+        <td class="side">Les humains devraient construire des choses aussi[ST:n ]robustes ou vous ne survivrez jamais &#224; une guerre[ST:n ]contre le Ganglion, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0008</td>
+        <td class="side">Vous connaissez un humain du nom d&#39;Omari ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0009</td>
+        <td class="side">Cet Omari a &#233;t&#233; tr&#232;s tr&#232;s surpris quand j&#39;ai grav&#233;[ST:n ]une minuscule pierre matrimoniale nopone,[ST:n ]savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0010</td>
+        <td class="side">Apr&#232;s que vous &#234;tes [ST:Gender p1=parti p2=partie ], il est venu me demander[ST:n ]si je pouvais lui apprendre...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0011</td>
+        <td class="side">Il avait l&#39;air gentil, donc j&#39;ai promis de lui enseigner[ST:n ]la technique. J&#39;ai rajout&#233; quelques le&#231;ons, pour faire[ST:n ]bonne mesure. C&#39;est plut&#244;t gentil de ma part, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0012</td>
+        <td class="side">Omari m&#39;a offert une pizza pour me remercier.[ST:n ]Ce qui est super, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0017</td>
+        <td class="side">Les Ma-nons ont un d&#233;faut, n&#39;est-il pas ? Une fois que[ST:n ]quelque chose nous fascine, nous ne sommes heureux[ST:n ]qu&#39;une fois que nous nous l&#39;avons d&#233;cortiqu&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0018</td>
+        <td class="side">Comment ? Vous pensez que c&#39;est une qualit&#233; ?[ST:n ]Tout d&#233;pend de votre d&#233;finition de &#171; d&#233;cortiquer &#187;,[ST:n ]n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0019</td>
+        <td class="side">Les Ma-nons feraient n&#39;importe quoi pour faire avancer[ST:n ]leurs recherches, savez-vous ? M&#234;me si cela signifie[ST:n ]enfreindre la loi...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0020</td>
+        <td class="side">Pas moi, bien s&#251;r. Mais Lulladu ? Le Ma-non qui tient[ST:n ]une boutique de r&#233;paration dans la zone industrielle ?[ST:n ]Je le surveillerais de pr&#232;s si j&#39;&#233;tais vous...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0026</td>
+        <td class="side">Les Ma-nons ont un d&#233;faut, n&#39;est-il pas ? Une fois que[ST:n ]quelque chose nous fascine, nous ne sommes heureux[ST:n ]qu&#39;une fois que nous nous l&#39;avons d&#233;cortiqu&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0027</td>
+        <td class="side">Et parfois cela tourne mal, comme pour Lulladu, le[ST:n ]Ma-non de la boutique de r&#233;paration dans la zone[ST:n ]industrielle. Il aurait vol&#233; le b&#226;ton d&#39;un Zaruboggan.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0028</td>
+        <td class="side">Lamentable, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0029</td>
+        <td class="side">Si c&#39;&#233;tait moi, j&#39;aurais fabriqu&#233; une r&#233;plique parfaite[ST:n ]du b&#226;ton, comme &#231;a personne n&#39;aurait su que[ST:n ]je l&#39;avais vol&#233;, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0030</td>
+        <td class="side">Ne me regardez pas comme &#231;a.[ST:n ]C&#39;est une bonne id&#233;e, non ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

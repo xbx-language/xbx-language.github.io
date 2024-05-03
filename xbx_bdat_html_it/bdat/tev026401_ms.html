@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev026401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev026401_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev026401_SEL0011</td>
+        <td class="side">Chiedi a Brenna di Vandham.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev026401_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev026401_SEL0021</td>
+        <td class="side">Chiedi a Brenna se c&#39;&#232; qualcosa che la preoccupa.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev026401_JNK0010</td>
+        <td class="side">tev026401_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev026401_SEL0031</td>
+        <td class="side">Chiedi a Brenna degli Skell.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev026401_JNK0020</td>
+        <td class="side">tev026401_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev026401_SEL0021</td>
+        <td class="side">tev026401_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev026401_SEL1021</td>
+        <td class="side">Chiedi a Brenna quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0001</td>
+        <td class="side">Un momento prima sta supervisionando[ST:n ]la manutenzione degli Skell all&#39;hangar[ST:n ]dei test e nella zona amministrativa...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0002</td>
+        <td class="side">... e quello dopo, &#232; in un campo base BLADE[ST:n ]in prima linea a pianificare strategie tattiche[ST:n ]per la battaglia. Non riesco a stargli dietro![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0003</td>
+        <td class="side">Salta fuori dal nulla. Deve aver imparato[ST:n ]a teletrasportarsi o roba simile...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0004</td>
+        <td class="side">Ma perlomeno abbiamo un comandante competente.[ST:n ]Senza di lui, non saremmo arrivati cos&#236; lontano.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0005</td>
+        <td class="side">Non amo particolarmente il suo carattere[ST:n ]indipendente, ma la citt&#224; ha bisogno di qualcuno[ST:n ]come lui, ora pi&#249; che mai.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0011</td>
+        <td class="side">Lavoro con questo tecnico di nome Alan. Lo conosci?[ST:n ]Devo ammettere che ha molto talento,[ST:n ]ma ha sempre la testa tra le nuvole.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0012</td>
+        <td class="side">Pensa fuori dagli schemi, che &#232; una buona cosa, ma[ST:n ]i progetti che porta avanti sono tutti molto rischiosi.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0013</td>
+        <td class="side">Non credo abbia metabolizzato il fatto che non sia[ST:n ]pi&#249; un tirocinante. Gli incidenti possono avere gravi[ST:n ]conseguenze e qualcuno potrebbe perdere la vita.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0014</td>
+        <td class="side">Non so se sia pronto a farsi carico[ST:n ]di responsabilit&#224; cos&#236; grosse...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0020</td>
+        <td class="side">Se il braccio del tuo Skell &#232; danneggiato,[ST:n ]non sarai in grado di utilizzare l&#39;arma[ST:n ]che impugna. Mi sembra logico, non trovi?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0021</td>
+        <td class="side">Non ha senso comprare armi potenti se il tuo Skell[ST:n ]non &#232; abbastanza solido da sostenerle.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev026401_MSG0022</td>
+        <td class="side">Ti suggerisco, dunque, di scegliere delle parti per le[ST:n ]braccia con una corazza adeguata quando[ST:n ]decidi di rendere le tue armi pi&#249; potenti.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev026401_MSG1001</td>
+        <td class="side">Devo ammettere che Alan ha ragione: anche il solo[ST:n ]pensare di utilizzare tecnologie Ganglion per creare[ST:n ]una nuova arma &#232; geniale. Figuriamoci farlo davvero![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev026401_MSG1002</td>
+        <td class="side">Penso sia l&#39;unica persona, fra le mie conoscenze, a[ST:n ]essere cos&#236; pazza da concepire un progetto del genere.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev026401_MSG1003</td>
+        <td class="side">Sono stata critica nei suoi confronti e gli ho dato[ST:n ]dell&#39;irresponsabile, ma ha preso la decisione giusta.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev026401_MSG1004</td>
+        <td class="side">Per tutto questo tempo, ho avuto cos&#236; tanta paura[ST:n ]di commettere errori ed essere criticata, che[ST:n ]non ho realizzato niente di significativo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev026401_MSG1005</td>
+        <td class="side">Beh, questo progetto mi ha aperto gli occhi.[ST:n ]D&#39;ora in poi seguir&#242; l&#39;esempio di Alan[ST:n ]e Lin e correr&#242; pi&#249; rischi a lavoro![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev010801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0001</td>
+        <td class="side">Donc, on nous a demand&#233; d&#39;aller v&#233;rifier une esp&#232;ce[ST:n ]de grotte, plus au nord. Mais, je me disais...[ST:n ]On est vraiment oblig&#233;s d&#39;y aller ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0002</td>
+        <td class="side">Tu fais partie du BLADE, c&#39;est &#231;a ? Tu as d&#251; avoir ton[ST:n ]lot de missions p&#233;nibles ces derniers temps, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev010801_JNK0010</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev010801_SEL0011</td>
+        <td class="side">Se plaindre de la qualit&#233; des missions qui vous sont[ST:n ]confi&#233;es.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev010801_JNK0020</td>
+        <td class="side">R&#233;primander</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev010801_SEL0021</td>
+        <td class="side">Rappeler &#224; Carl que chaque mission compte.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0003</td>
+        <td class="side">Ha ! On dirait qu&#39;on a pas mal en commun, toi et[ST:n ]moi. En tout cas, on s&#39;est trouv&#233; un compagnon[ST:n ]d&#39;infortune.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0004</td>
+        <td class="side">Et puisqu&#39;on en parle, &#233;coute un peu &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0005</td>
+        <td class="side">Oh l&#224; l&#224;... Tu dois pas rigoler tous les jours, avec une[ST:n ]attitude pareille. D&#233;tends-toi un peu, quand m&#234;me ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0006</td>
+        <td class="side">Tiens, et si tu t&#39;asseyais l&#224; et que tu &#233;coutais un peu[ST:n ]pendant que je continue &#224; me plaindre, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0007</td>
+        <td class="side">Donc cette grotte, l&#224;, qu&#39;on va fouiller... Ben &#231;a grouille[ST:n ]de bestioles. Pourquoi faire simple, pas vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0008</td>
+        <td class="side">D&#39;apr&#232;s eux, elles sont &#171; trop dangereuses pour qu&#39;on[ST:n ]les laisse vivre &#187;. Ce qui, en gros, veut dire : &#171; Tirez[ST:n ]sur tout ce qui bouge, les p&#39;tits gars ! &#187;... Beurk ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0009</td>
+        <td class="side">Je comprends pas. Pourquoi est-ce que Trevor me refile[ST:n ]toujours les boulots les plus... &#233;cœurants ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0010</td>
+        <td class="side">Peut-&#234;tre que si j&#39;attends assez longtemps, un fou[ST:n ]furieux adepte du combat en solo tombera sur la grotte[ST:n ]et s&#39;en chargera pour moi...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0011</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0012</td>
+        <td class="side">H&#233;, j&#39;ai vu ton regard ! Si, si, c&#39;&#233;tait un regard ![ST:n ]Tu veux t&#39;en occuper, pas vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0013</td>
+        <td class="side">Vraiment ? Tu veux vraiment y aller ? Sapristi ![ST:n ]J&#39;arrive pas &#224; croire que &#231;a ait march&#233;... J&#39;aurais d&#251;[ST:n ]essayer &#231;a plus t&#244;t.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0014</td>
+        <td class="side">Bon, d&#39;accord. Tu devrais d&#39;abord partir en[ST:n ]prospection, non ? La grotte est l&#233;g&#232;rement[ST:n ]au nord de la porte ouest.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0015</td>
+        <td class="side">C&#39;est peut-&#234;tre un peu hypocrite de dire &#231;a mais... [ST:n ]Ces animaux &#233;taient bien l&#224; avant nous, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0016</td>
+        <td class="side">Et voil&#224; qu&#39;on s&#39;&#233;crase sur leur plan&#232;te, qu&#39;on y installe[ST:n ]une ville, et qu&#39;on d&#233;gomme tout ce qui bouge.[ST:n ]C&#39;est &#224; se demander qui sont les m&#233;chants, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0017</td>
+        <td class="side">Enfin... Une raison de plus pour moi de ne pas jouer[ST:n ]mon r&#244;le dans tout &#231;a. La grotte est donc au nord,[ST:n ]pas loin de la porte ouest. Merci, hein ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0018</td>
+        <td class="side">H&#233; ! Te revoil&#224; ! Comment s&#39;est pass&#233; le massacre des[ST:n ]esp&#232;ces autochtones ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0019</td>
+        <td class="side">Quoi ? Tu as tu&#233; des porcelets ? Et leur m&#232;re est[ST:n ]arriv&#233;e ? Tu as d&#251; la tuer, elle aussi ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0020</td>
+        <td class="side">Pfiou... Tuer un parent qui essaie de prot&#233;ger ses[ST:n ]enfants, c&#39;est... c&#39;est du tr&#232;s, tr&#232;s lourd, [ST:Gender p1=mec p2=frangine ].[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0021</td>
+        <td class="side">Sans parler que c&#39;&#233;tait s&#251;rement une famille heureuse et[ST:n ]unie avant qu’on arrive...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0022</td>
+        <td class="side">Et voil&#224; qu&#39;on se pointe et... et on assassine toute la[ST:n ]famille juste parce que &#231;a nous chante ! Tu trouves pas[ST:n ]&#231;a horrible ?![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev010801_JNK0030</td>
+        <td class="side">Oui</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev010801_SEL0031</td>
+        <td class="side">Admettre que c&#39;est horrible.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev010801_JNK0040</td>
+        <td class="side">Non</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev010801_SEL0041</td>
+        <td class="side">D&#233;clarer que tout ce qui peut &#234;tre un obstacle &#224; la[ST:n ]survie de l&#39;humanit&#233; doit &#234;tre &#233;limin&#233; !</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0023</td>
+        <td class="side">C&#39;est d&#233;primant... &#199;a me file le bourdon.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0024</td>
+        <td class="side">Euh, d&#39;accord... C&#39;est un peu une r&#233;ponse de[ST:n ]sociopathe si tu veux mon avis, mais bon... je pr&#233;f&#232;re[ST:n ]pas discuter, du coup.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0025</td>
+        <td class="side">Enfin... Tout &#231;a est arriv&#233; &#224; cause de moi, donc je vais[ST:n ]quand m&#234;me te payer.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0026</td>
+        <td class="side">Pouah. Toute cette histoire va me laisser un go&#251;t amer.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0027</td>
+        <td class="side">H&#233; ! Te revoil&#224; ! Comment s&#39;est pass&#233; le massacre des[ST:n ]esp&#232;ces autochtones ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0028</td>
+        <td class="side">Oh, tu les as laiss&#233; partir ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0029</td>
+        <td class="side">Non non, je comprends. Monstres ou pas, tuer des[ST:n ]enfants, c&#39;est plut&#244;t malsain.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev010801_JNK0050</td>
+        <td class="side">Oui</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev010801_SEL0051</td>
+        <td class="side">Acquiescer.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev010801_JNK0060</td>
+        <td class="side">S&#39;inqui&#233;ter</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev010801_SEL0061</td>
+        <td class="side">&#201;mettre des r&#233;serves sur les cons&#233;quences de vos actes.</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0030</td>
+        <td class="side">Je suis bien content d&#39;&#234;tre tomb&#233; sur quelqu&#39;un comme[ST:n ]toi, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0031</td>
+        <td class="side">Oh, ne t&#39;inqui&#232;te pas pour &#231;a. On trouvera bien le[ST:n ]moyen de r&#233;gler ce probl&#232;me sans mettre en danger[ST:n ]la vie d&#39;enfants innocents.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0032</td>
+        <td class="side">Tiens, j&#39;ai pris &#231;a dans les r&#233;serves. Ce n&#39;est pas[ST:n ]grand-chose, mais ne te g&#234;ne pas ![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0033</td>
+        <td class="side">Je m&#39;occupe du reste. Je suis s&#251;r que mon sup&#233;rieur[ST:n ]Trevor a sa petite id&#233;e pour la suite des &#233;v&#232;nements.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0034</td>
+        <td class="side">H&#233;, je me sens toujours au top apr&#232;s une B.A.[ST:n ]C&#39;est pas g&#233;nial ?![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0035</td>
+        <td class="side">qev010801_MSG0035</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0036</td>
+        <td class="side">qev010801_MSG0036</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev010801_MSG0037</td>
+        <td class="side">qev010801_MSG0037</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

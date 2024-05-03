@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0011</td>
+        <td class="side">Chiedi a Sostenasa informazioni sul suo lavoro.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0021</td>
+        <td class="side">Chiedi a Sostenasa se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0031</td>
+        <td class="side">Chiedi a Sostenasa riguardo all&#39;assicurazione Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0041</td>
+        <td class="side">Chiedi a Sostenasa qualche consiglio sul[ST:n ]combattimento con gli Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0001</td>
+        <td class="side">La nostra astronave si occupa di tutto ci&#242; che[ST:n ]concerne il vestire, nutrire e dare alloggio[ST:n ]ai Ma-non, capisci?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0002</td>
+        <td class="side">Questo significa che gran parte del nostro lavoro[ST:n ]consiste nel mantenere operative quelle macchine.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0003</td>
+        <td class="side">Non ci preoccupiamo dei lavori ripetitivi che sembrano[ST:n ]stare tanto a cuore a voi umani, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0008</td>
+        <td class="side">Che vuoi che ti dica? &#200; solo un altro giorno in cui[ST:n ]voi rompete tutto ci&#242; che toccate e noi[ST:n ]dobbiamo aggiustarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0009</td>
+        <td class="side">Ma ritengo che sia giusto, visto che ve ne state l&#224; fuori[ST:n ]a combattere sul campo rischiando la vita, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0010</td>
+        <td class="side">Abbiamo fatto una promessa, &#232; vero? Voi rompete[ST:n ]il vostro equipaggiamento e noi lo ripariamo.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0011</td>
+        <td class="side">&#200; un lavoro duro, ma penso che Fozimure e io[ST:n ]siamo pronti ad affrontarlo e portarlo a termine...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0018</td>
+        <td class="side">Se vi facessimo pagare ogni volta che rompete uno[ST:n ]Skell, basterebbe un solo incidente grave[ST:n ]a mandarvi in bancarotta, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0019</td>
+        <td class="side">Ecco perch&#233; quasi tutti i vostri Skell[ST:n ]sono assicurati, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0020</td>
+        <td class="side">Finch&#233; sono assicurati, siamo disposti a riparare[ST:n ]gli Skell anche a titolo gratuito, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0021</td>
+        <td class="side">Ma questo non deve essere un incentivo a trattarli[ST:n ]senza riguardo, OK? Il quartier generale fa molti[ST:n ]sacrifici per pagare quelle assicurazioni premium.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0022</td>
+        <td class="side">Cerca di tenere a mente che uno Skell[ST:n ]non ti rende invincibile, d&#39;accordo?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0023</td>
+        <td class="side">Hai mai dato un&#39;occhiata ai costi di riparazione[ST:n ]di uno Skell? Sono davvero-davvero alti...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0024</td>
+        <td class="side">Se il tuo Skell sta per essere abbattuto, non essere[ST:n ]irresponsabile, OK? Abbandonalo e combatti a terra,[ST:n ]oppure scappa via, o qualcosa del genere...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0025</td>
+        <td class="side">Se facessero tutti cos&#236;, forse noi potremmo addirittura[ST:n ]prenderci qualche giorno libero ogni tanto.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0010</td>
+        <td class="side">tev030801_JNK0010</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030801_SEL0011</td>
+        <td class="side">tev030801_SEL0011</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev030801_JNK0020</td>
+        <td class="side">tev030801_JNK0020</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev030801_SEL1011</td>
+        <td class="side">Chiedi a Sostenasa quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0012</td>
+        <td class="side">Tu non mi sembri come i soliti imbranati. Sai,[ST:n ]quelli che sono soliti schiantare il proprio[ST:n ]Skell sul terreno, no?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0013</td>
+        <td class="side">Ma questo non significa che io sia uno che apprezza[ST:n ]gli umani, capito? Neanche lontanamente.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0014</td>
+        <td class="side">Non fate altro che andarvene per la citt&#224; come se tutto[ST:n ]fosse sacrificabile e sostituibile, vero? Non sapete[ST:n ]apprezzare quello che avete...[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0015</td>
+        <td class="side">Al Ma-non medio, che ha passato tutta la vita[ST:n ]a costruire e riparare ogni sorta di macchinario,[ST:n ]voi sembrate tutti piuttosto... superficiali?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0016</td>
+        <td class="side">Ma quello smidollato di Fozimure continua a prostrarsi[ST:n ]alle vostre ridicole richieste di riparazione, non &#232; vero?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev030801_MSG0017</td>
+        <td class="side">Quindi forse dovresti dire ai tuoi amici BLADE di avere[ST:n ]un pizzico di rispetto in pi&#249; per le loro macchine,[ST:n ]e per i meccanici che continuano a lavorarci, no?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

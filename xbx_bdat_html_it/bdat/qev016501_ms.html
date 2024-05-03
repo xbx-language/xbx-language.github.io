@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev016501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0001</td>
+        <td class="side">Ah, [ST:playername ]! Perfetto,[ST:n ]ho proprio il lavoro adatto a te![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0002</td>
+        <td class="side">Quest&#39;ultimo periodo di combattimenti &#232; stato tremendo.[ST:n ]La flotta Skell &#232; piuttosto malconcia. E anche le nostre[ST:n ]apparecchiature.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0003</td>
+        <td class="side">C&#39;&#232; da fare un grosso lavoro di manutenzione, ma[ST:n ]siamo a corto di Aurorite, una risorsa relativamente[ST:n ]comune che si utilizza per fare riparazioni.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0004</td>
+        <td class="side">Mira &#232; gi&#224; abbastanza pericoloso se hai[ST:n ]equipaggiamento funzionante, figurati[ST:n ]quando &#232; rotto![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0010</td>
+        <td class="side">Sei d&#39;accordo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0011</td>
+        <td class="side">Di&#39; a Kirsty che la pensi allo stesso modo: lavorare[ST:n ]con equipaggiamento fuori uso sarebbe un suicidio.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0020</td>
+        <td class="side">Sbeffeggia</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0021</td>
+        <td class="side">Di&#39; che ci&#242; che conta sono le abilit&#224; della persona.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0005</td>
+        <td class="side">Ti sei gi&#224; [ST:Gender p1=trovato p2=trovata ] in situazioni spinose, perci&#242; sai[ST:n ]come ci si sente, anche con equipaggiamento[ST:n ]funzionante al cento per cento.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0006</td>
+        <td class="side">Oh guarda, ecco qui [ST:Gender p1=il re p2=la regina ] di Mira![ST:n ]Non tutti i BLADE hanno abilit&#224; stupefacenti[ST:n ]come voi, Vostra Maest&#224;. Lo sapevate?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0007</td>
+        <td class="side">Molti di loro non erano nemmeno dei militari.[ST:n ]Non possiamo aspettarci che vadano a combattere[ST:n ]armati solo di un bastone appuntito.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0008</td>
+        <td class="side">Ci sono Pathfinder e Prospector al lavoro, l&#224; fuori.[ST:n ]Pi&#249; il loro equipaggiamento &#232; difettoso,[ST:n ]pi&#249; &#232; probabile che si verifichino incidenti.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0009</td>
+        <td class="side">Vorrei chiederti di estrarre l&#39;Aurorite necessaria alle[ST:n ]riparazioni e di procurarmi otto Reattori a ioni HI9.[ST:n ]Puoi trovarli a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0010</td>
+        <td class="side">Gi&#224; che ci sei, se potessi anche recuperare l&#39;Unit&#224;[ST:n ]dati che &#232; caduta laggi&#249;, mi faresti un grosso favore.[ST:n ]Ti dispiace?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0011</td>
+        <td class="side">Ti ringrazio molto.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0012</td>
+        <td class="side">Sono certa che riuscirai a trovare tutto, perci&#242; comincio[ST:n ]a preparare un piano di manutenzione mentre sei via.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0013</td>
+        <td class="side">Accedi alla tua ricetrasmittente per connetterti a[ST:n ]FrontierNav ed estrarre l&#39;Aurorite. Per il resto...[ST:n ]Beh, vedi di tornare [ST:Gender p1=sano e salvo p2=sana e salva ]. &#200; un ordine![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0014</td>
+        <td class="side">OK. Questo &#232; tutto. Vai pure![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0015</td>
+        <td class="side">Puoi trovare risorse preziose come l&#39;Aurorite solo[ST:n ]tramite una sonda da estrazione. Lo sapevi, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0016</td>
+        <td class="side">Se tutte le tue sonde dati sono impostate come[ST:n ]sonde di ricerca, per esempio, devi sostituirle[ST:n ]con delle sonde da estrazione.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0017</td>
+        <td class="side">Non c&#39;&#232; bisogno che ti insegni come fare,[ST:n ]ormai sei [ST:Gender p1=un p2=una ] professionista di FrontierNav.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0018</td>
+        <td class="side">Perfetto. Abbiamo abbastanza Aurorite per[ST:n ]riparare gli equipaggiamenti BLADE e[ST:n ]rimetterli in forma per la battaglia![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0019</td>
+        <td class="side">Ora ci servono solo gli oggetti da Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0020</td>
+        <td class="side">Grazie. Sembra esserci tutto.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0021</td>
+        <td class="side">I materiali che hai raccolto serviranno a rimettere[ST:n ]in piedi gli Skell guasti e a riparare l&#39;equipaggiamento[ST:n ]dei nostri agenti BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0022</td>
+        <td class="side">Io penser&#242; a far iniziare l&#39;analisi dell&#39;Unit&#224;[ST:n ]dati che hai appena recuperato.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0030</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0031</td>
+        <td class="side">Chiedi a Kirsty cosa si aspetta[ST:n ]di trovare nell&#39;Unit&#224; dati.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0040</td>
+        <td class="side">Sbadiglia</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0041</td>
+        <td class="side">Passa direttamente alla parte in cui ti ricompensano.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0023</td>
+        <td class="side">Informazioni segrete su un progetto speciale[ST:n ]a cui ho lavorato. Non posso dirti di pi&#249;.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0024</td>
+        <td class="side">Beh, magari ne posso parlare un pochino...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0025</td>
+        <td class="side">Quell&#39;Unit&#224; dati rappresenta un legame[ST:n ]con alcuni dei miei colleghi pi&#249; cari.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0026</td>
+        <td class="side">OK, questo &#232; per te. Credo che sia la giusta[ST:n ]ricompensa per tutto ci&#242; che hai fatto.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0027</td>
+        <td class="side">Pi&#249; che un BLADE dovresti pensare a diventare[ST:n ][ST:Gender p1=un mercenario p2=una mercenaria ]. S&#236;, comunque ecco il tuo compenso.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0028</td>
+        <td class="side">Le risorse preziose estratte dal suolo miriano possono[ST:n ]essere trasformate in una gran variet&#224; di oggetti utili[ST:n ]a mantenere la pace a Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0029</td>
+        <td class="side">Spero continuerai a usare FrontierNav per cercare[ST:n ]materiali e minerali di tutti i tipi.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0030</td>
+        <td class="side">A dire il vero, contiamo tutti sul fatto[ST:n ]che continuerai a farlo.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0031</td>
+        <td class="side">Mira &#232; una terra crudele, piena di cose terribili e[ST:n ]pericolose. Senza l&#39;aiuto di persone come te, nemmeno[ST:n ]i nostri migliori combattenti resisterebbero a lungo.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

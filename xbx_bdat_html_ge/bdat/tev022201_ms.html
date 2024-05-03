@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev022201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev022201_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev022201_SEL0011</td>
+        <td class="side">Frage Kirsty, was sie &#252;ber[ST:n ]Verteidigungsminister Nagi wei&#223;.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev022201_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1021</td>
+        <td class="side">Frage Kirsty, ob sie etwas auf dem Herzen hat.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1041</td>
+        <td class="side">Frage Kirsty, ob sie etwas auf dem Herzen hat.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1051</td>
+        <td class="side">Bitte Kirsty, dir mehr &#252;ber die Aufgaben zu erz&#228;hlen,[ST:n ]die man als BLADE &#252;bernehmen muss.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1061</td>
+        <td class="side">Frage Kirsty, ob sie etwas auf dem Herzen hat.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1051</td>
+        <td class="side">tev022201_SEL1051</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1081</td>
+        <td class="side">Frage Kirsty, ob was Neues[ST:n ]in der Ger&#252;chtek&#252;che k&#246;chelt.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1091</td>
+        <td class="side">Bitte Kirsty, dir mehr &#252;ber[ST:n ]das FrontierNav zu erz&#228;hlen.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1101</td>
+        <td class="side">Frage Kirsty, ob was Neues[ST:n ]in der Ger&#252;chtek&#252;che k&#246;chelt.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1121</td>
+        <td class="side">Frage Kirsty, was in letzter[ST:n ]Zeit so vorgefallen ist.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1141</td>
+        <td class="side">Frage Kirsty, ob was Neues[ST:n ]in der Ger&#252;chtek&#252;che k&#246;chelt.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1151</td>
+        <td class="side">Bitte Kirsty, dir mehr &#252;ber[ST:n ]das FrontierNav zu erz&#228;hlen.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev022201_SEL1161</td>
+        <td class="side">Frage Kirsty, was in letzter[ST:n ]Zeit so vorgefallen ist.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0001</td>
+        <td class="side">Verteidigungsminister Nagi ist f&#252;r alle milit&#228;rischen[ST:n ]Belange zust&#228;ndig. Ihm untersteht Kommandant[ST:n ]Vandham, der wiederum uns Befehle erteilt.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0002</td>
+        <td class="side">So wie ich das verstehe, ist der Posten[ST:n ]des Verteidigungsministers weitestgehend[ST:n ]ein politisches Amt.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0003</td>
+        <td class="side">Normalerweise h&#228;tte jemand in einer so gehobenen[ST:n ]Position mit uns einfachem Fu&#223;volk &#252;berhaupt nichts[ST:n ]am Hut.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0004</td>
+        <td class="side">Aber Nagi hat schon immer darauf bestanden, dass er[ST:n ]„einfach nur B&#252;rger“ ist. L&#228;uft auch immer ganz ohne[ST:n ]Gefolge durch NLA. Sehr beeindruckend, der Mann.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0007</td>
+        <td class="side">Warum fragst du? Wolltest du etwa deine Hilfe[ST:n ]anbieten? Dann sag ich n&#228;mlich nicht Nein.[ST:n ]Ich hab h&#246;llisch viel zu tun![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0008</td>
+        <td class="side">Hmm... Aber wenn du bisher nicht mal die einfachsten[ST:n ]Schritte kennst, wei&#223; ich gar nicht, wie hilfreich du[ST:n ]&#252;berhaupt f&#252;r uns sein kannst.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0009</td>
+        <td class="side">Frag am besten deinen Begleitdackel – &#228;hm, ich meine[ST:n ]nat&#252;rlich: Elma. Sie soll dir alles erkl&#228;ren.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0010</td>
+        <td class="side">Wenn du dann irgendwann wei&#223;t, was du tust,[ST:n ]dann kannst du wiederkommen, okay?[ST:n ]Dann unterhalten wir uns.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0012</td>
+        <td class="side">In NLA herrscht zurzeit die absolute Flaute,[ST:n ]was Rohstoffe angeht. Das ist wirklich ein Problem.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0013</td>
+        <td class="side">Sobald du einmal verstehst, wie das FrontierNav[ST:n ]funktioniert, kannst du uns bei dessen L&#246;sung[ST:n ]aber zur Hand gehen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0014</td>
+        <td class="side">Im Augenblick ist erst mal wichtig, dass du so viele[ST:n ]Datensonden installierst, wie du nur kannst. Denk immer[ST:n ]an das, was wir dir beigebracht haben, klar?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0029</td>
+        <td class="side">Dank dir klappt es mit dem Miranium-Abbau jetzt viel[ST:n ]besser als vorher. Unsere Versorgungsschwierigkeiten[ST:n ]sind vorerst Geschichte.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0030</td>
+        <td class="side">Du kannst jetzt wieder deinen ganz normalen[ST:n ]Pflichten in Elmas Team nachkommen.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0031</td>
+        <td class="side">Die Rohstoffe, die du gesammelt hast, werden wir[ST:n ]einsetzen, um NLA auszubauen.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0039</td>
+        <td class="side">Ich w&#252;sste im Augenblick nichts, was ich dir[ST:n ]beibringen k&#246;nnte.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0040</td>
+        <td class="side">Obwohl... Eine Sache w&#228;re da. Dir ist doch sicher[ST:n ]aufgefallen, dass jede Gegend auf Mira ihren eigenen[ST:n ]Namen hat. Die Kummersteppe, der Stille Sumpf...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0041</td>
+        <td class="side">Was du aber bestimmt noch nicht wusstest:[ST:n ]Der oder die BLADE, der – oder die – das Gebiet[ST:n ]entdeckt, darf es auch benennen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0042</td>
+        <td class="side">Deshalb schimmern in vielen der Namen kulturelle[ST:n ]Vorlieben oder Eigenschaften des Entdeckers durch.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0043</td>
+        <td class="side">Wie gern w&#252;rde ich einen malerischen Fluss oder[ST:n ]ein majest&#228;tisches Gebirge entdecken und nach[ST:n ]mir benennen lassen...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0044</td>
+        <td class="side">Aber bei meinem Gl&#252;ck werde ich wahrscheinlich mit[ST:n ]einem stinkenden Sumpfgebiet vorliebnehmen m&#252;ssen.[ST:n ]Kannst du dir das vorstellen? „Kirsty-Sumpf“? Seufz...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0047</td>
+        <td class="side">Jetzt, wo wir genug Rohstoffe haben, versuchen wir,[ST:n ]einen Plan zu erstellen, wie und wann Ausr&#252;stung[ST:n ]inspiziert und ausgetauscht werden kann.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0048</td>
+        <td class="side">Dazu br&#228;uchten wir eigentlich so eine Art Einsatzplan[ST:n ]von allen BLADE-Teams, damit wir wissen, wann die[ST:n ]&#252;berhaupt zur Verf&#252;gung stehen.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0049</td>
+        <td class="side">Aber leichter gesagt als getan! Ihr BLADEs scheint ja[ST:n ]einfach zu kommen und zu gehen, wie es euch gerade[ST:n ]passt. P&#252;nktlichkeit ist f&#252;r euch ein Fremdwort![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0050</td>
+        <td class="side">Na ja, aber mach dir keinen Kopf. Konzentrier dich[ST:n ]einfach auf deine Aufgaben. Ich krieg das schon hin.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0065</td>
+        <td class="side">Hast du von der Geld-gegen-Miranium-Tauschb&#246;rse[ST:n ]geh&#246;rt, die die Ma-non ins Leben gerufen haben?[ST:n ]Die „Finanzgruppe Glitzer &amp; Funkel“ hei&#223;t sie wohl.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0066</td>
+        <td class="side">Wenn man ihren Auftrag am BLADE-Terminal annimmt[ST:n ]und ihnen Miranium bringt, kann man viele Credits[ST:n ]verdienen.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0067</td>
+        <td class="side">W&#228;re das nicht was f&#252;r dich? Ich denke, das ist eine[ST:n ]gute Gelegenheit, wenn man sich eine ordentliche,[ST:n ]das hei&#223;t: kriegsgeeignete Garderobe zulegen will...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0068</td>
+        <td class="side">Jedenfalls: Die Eigent&#252;merin der Finanzgruppe findest[ST:n ]du auf dem Schiff der Ma-non. Sie kann dich bestimmt[ST:n ]mit allen weiteren Details versorgen.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0076</td>
+        <td class="side">Das FrontierNav war urspr&#252;nglich als modulares[ST:n ]Erforschungssystem f&#252;r unbekannte Planeten ausgelegt.[ST:n ]Heute ist es weit mehr als das. Ein Licht im Dunkel.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0077</td>
+        <td class="side">Meine Kollegen und ich verbrachten die zwei Jahre[ST:n ]auf dem Wei&#223;en Wal mit der Konzeption und[ST:n ]Entwicklung des Systems.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0078</td>
+        <td class="side">Talentierten BLADEs wie dir ist es zu verdanken,[ST:n ]dass wir mit dem FrontierNav schon heute viel mehr[ST:n ]erreicht haben, als wir es uns je h&#228;tten tr&#228;umen lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0079</td>
+        <td class="side">Danke. Und ich wei&#223;, dass auch meine Kollegen,[ST:n ]die jetzt im Lebensspeicher schlafen, dir sehr[ST:n ]dankbar w&#228;ren.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0080</td>
+        <td class="side">Bitte mach weiter wie bisher und installiere[ST:n ]Datensonden, bis wir irgendwann alles wissen,[ST:n ]was es &#252;ber Mira zu wissen gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0083</td>
+        <td class="side">Da gibt es anscheinend einen BLADE, der das[ST:n ]FrontierNav einzig und allein f&#252;r seine eigenen[ST:n ]Zwecke nutzt und damit ein Riesenverm&#246;gen anh&#228;uft.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0084</td>
+        <td class="side">Wie hei&#223;t er noch? ...Tobias.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0085</td>
+        <td class="side">Der Typ widert mich an. Das FrontierNav sollte der[ST:n ]Menschheit Hoffnung bringen! Aber er denkt blo&#223;[ST:n ]daran, sich selbst zu bereichern.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0086</td>
+        <td class="side">Bitte versprich mir, dass du nie so wirst.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0101</td>
+        <td class="side">Tut mir leid, ich bin noch nicht fertig mit der[ST:n ]Analyse der Daten, die du mir gebracht hast.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0102</td>
+        <td class="side">Es muss sich um ein Geheimprojekt gehandelt haben.[ST:n ]Die Verschl&#252;sselung ist so komplex... Da wollte jemand[ST:n ]nicht, dass unsere Vorgesetzten etwas rausfinden![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0103</td>
+        <td class="side">Ehrlich gesagt finde ich das ziemlich kindisch.[ST:n ]Aber gut, was habe ich auch erwartet?[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0104</td>
+        <td class="side">Dass sie in relativer Freiheit forschen konnten, ist wohl[ST:n ]auch der Grund, warum sie das FrontierNav &#252;berhaupt[ST:n ]in so kurzer Zeit auf die Beine stellen konnten.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0105</td>
+        <td class="side">Tobias, dieser Schn&#252;ffler, versucht herauszufinden,[ST:n ]was f&#252;r Daten das sind, die du gefunden hast.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0106</td>
+        <td class="side">So wie ich ihn kenne, wittert er wieder eine Chance,[ST:n ]irgendwie an schnelles Geld zu kommen.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0107</td>
+        <td class="side">Die Pl&#228;ne, die in diesen Daten enthalten sind, stehen f&#252;r[ST:n ]die Tr&#228;ume und Hoffnungen meiner Kollegen. Ich lasse[ST:n ]nicht zu, dass er sie in seine dreckigen Finger kriegt.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0108</td>
+        <td class="side">Egal, was er dich fragt: Sag ihm nichts! Solange ich[ST:n ]die Verschl&#252;sselung nicht geknackt habe, behalten wir[ST:n ]die Sache sch&#246;n f&#252;r uns, okay?[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0109</td>
+        <td class="side">Wir haben den Lebensspeicher gerade noch rechtzeitig[ST:n ]gefunden. Viel l&#228;nger und unsere Mimoiden w&#228;ren f&#252;r[ST:n ]immer runtergefahren![ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0110</td>
+        <td class="side">Diesen Erfolg haben wir nicht zuletzt dir[ST:n ]zu verdanken. Du hast das FrontierNav[ST:n ]weit ins Feindesgebiet ausgedehnt![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0111</td>
+        <td class="side">Ich hoffe und bange, dass unsere echten[ST:n ]K&#246;rper auch wirklich alle noch sicher im[ST:n ]Kern des Lebensspeichers schlafen.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0112</td>
+        <td class="side">Vielleicht k&#246;nnen wir sogar meine Kollegen zur&#252;ck ins[ST:n ]Leben holen, deren Mimos beim Aufprall irgendwo auf[ST:n ]der Oberfl&#228;che Miras verstreut wurden.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0113</td>
+        <td class="side">Ich m&#246;chte mich bei dir bedanken! Es hat mir Spa&#223;[ST:n ]gemacht, dir alles beizubringen, was ich wusste.[ST:n ]Bei so [ST:Gender p1=einem Sch&#252;ler p2=einer Sch&#252;lerin ] ist man gern Lehrerin![ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0114</td>
+        <td class="side">Tobias hat jetzt wirklich angefangen,[ST:n ]mit mir zusammenzuarbeiten. Und es[ST:n ]geht ihm gar nicht nur ums Geld![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0115</td>
+        <td class="side">Manchmal arbeitet er ganze N&#228;chte durch, um die[ST:n ]Infrastruktur f&#252;r das interplanetare Netzwerk auf die[ST:n ]Beine zu stellen.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0116</td>
+        <td class="side">So allm&#228;hlich glaub ich fast selbst daran, dass ein[ST:n ]FrontierNav 2.0, wie meine Kollegen es ertr&#228;umten,[ST:n ]vielleicht doch kein reines Luftschloss ist.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0117</td>
+        <td class="side">Aber ja, das ist Zukunftsmusik.[ST:n ]&#220;ber Nacht ist die Arbeit nicht getan.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev022201_MSG0118</td>
+        <td class="side">Trotzdem... Eines Tages k&#246;nnten ferne Planeten[ST:n ]in den Tiefen des Weltalls Teil desselben FrontierNav[ST:n ]sein, das heute schon auf Mira funktioniert.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

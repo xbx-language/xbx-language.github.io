@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev097701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0001</td>
+        <td class="side">&#161;Holaaa! &#161;S&#237;, t&#250;, bomboncito![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0002</td>
+        <td class="side">Ha llegado a mis o&#237;dos un encargo[ST:n ]de lo m&#225;s jugoso. &#191;Te interesa?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0003</td>
+        <td class="side">Segur&#237;simo que si aceptas, no te arrepentir&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev099701_JNK0010</td>
+        <td class="side">Escuchar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev099701_SEL0011</td>
+        <td class="side">Escucha lo que tenga que decir Lara Mara.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev099701_JNK0020</td>
+        <td class="side">Ignorar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev099701_SEL0021</td>
+        <td class="side">Di que suena demasiado sospechoso y m&#225;rchate.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0004</td>
+        <td class="side">Tienes curiosidad, &#191;eh?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0005</td>
+        <td class="side">Me encanta la gente que tiene mentalidad abierta[ST:n ]y ambici&#243;n. Adem&#225;s, &#191;qu&#233; gracia tendr&#237;a BLADE[ST:n ]si no pudieras sacarte algo de dinerillo?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0006</td>
+        <td class="side">&#161;Qu&#233; [ST:Gender p1=maleducado p2=maleducada ]! &#161;Y eso que te dije[ST:n ]que no te ibas a arrepentir![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0007</td>
+        <td class="side">&#161;Arrea! Lo menos que podr&#237;as hacer[ST:n ]es escucharme un segundito.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0008</td>
+        <td class="side">&#191;O es que te est&#225;s haciendo [ST:Gender p1=el duro p2=la dura ]? &#161;[ST:Gender p1=Pill&#237;n p2=Pillina ]![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0009</td>
+        <td class="side">Mucho me temo que eso no funciona conmigo, cari&#241;o.[ST:n ]S&#233; [ST:Gender p1=buen chico p2=buena chica ] y esc&#250;chame.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0010</td>
+        <td class="side">A ver, tengo una misi&#243;n que me ha llegado[ST:n ]por orden directa del comandante Vandham.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0011</td>
+        <td class="side">Han localizado una unidad del Arca de la vida[ST:n ]en Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0012</td>
+        <td class="side">El caso es que hab&#237;a pensado que [ST:Gender p1=alg&#250;n mozo p2=alguna moza ][ST:n ]tan [ST:Gender p1=fornido p2=fornida ] como t&#250; podr&#237;a ayudarme a recuperarla.[ST:n ]&#191;Ves? Te dije que era un encargo jugoso.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0013</td>
+        <td class="side">Claro, que la misi&#243;n viene con una lista[ST:n ]interminable de preguntas...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0014</td>
+        <td class="side">&#191;Por qu&#233; hemos tardado tanto en localizarla?[ST:n ]&#191;Por qu&#233; no la han tocado los ganglion todav&#237;a?[ST:n ]Etc&#233;tera...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0015</td>
+        <td class="side">Aunque, bueno, &#161;es parte de la gracia![ST:n ]En trabajos como este es donde un BLADE[ST:n ]puede demostrar toda su val&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0016</td>
+        <td class="side">Es cierto que hay bastantes lagunas[ST:n ]en toda esta historia, pero aun as&#237;[ST:n ]me parece un encargo sencillito.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0017</td>
+        <td class="side">Pues nada, eso es todo. Me debes una.[ST:n ]&#161;Que tengas suerte, fiera![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0018</td>
+        <td class="side">Me sigue pareciendo extra&#241;o que los ganglion[ST:n ]no hayan localizado una unidad del Arca de la vida[ST:n ]en Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0019</td>
+        <td class="side">Supongo que todav&#237;a no tenemos una idea exacta[ST:n ]del alcance de su tecnolog&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0020</td>
+        <td class="side">Quiz&#225; nuestros radares y sistemas de vigilancia[ST:n ]sean m&#225;s efectivos que los suyos.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0021</td>
+        <td class="side">Si nosotros tuvi&#233;ramos esa desventaja,[ST:n ]estar&#237;amos metidos en un buen l&#237;o.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0022</td>
+        <td class="side">&#161;Al menos esta vez somos nosotros[ST:n ]los que vamos por delante![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0023</td>
+        <td class="side">&#191;Mmm? &#191;C&#243;mo? &#191;Que has encontrado el c&#243;digo[ST:n ]de acceso para abrir la unidad del Arca de la vida?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0024</td>
+        <td class="side">&#191;Qu&#233;ee? &#191;Y que el c&#243;digo era[ST:n ]una trampa de los ganglion?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0025</td>
+        <td class="side">&#161;Mira que son rastreros! Espero que vayas a darles[ST:n ]una buena tunda hasta que no quede ni uno en pie.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev099701_MSG0026</td>
+        <td class="side">&#161;Ve a acabar con esas babosas y trae[ST:n ]de vuelta la unidad del Arca de la vida![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

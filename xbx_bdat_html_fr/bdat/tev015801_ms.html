@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015801_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015801_SEL0011</td>
+        <td class="side">Demander &#224; Beats des informations sur les fonctions[ST:n ]d&#39;un Mediator.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015801_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015801_SEL0021</td>
+        <td class="side">Demander &#224; Beats s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015801_SEL0031</td>
+        <td class="side">Demander &#224; Beats des informations sur la m&#233;t&#233;o mirane.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015801_SEL0051</td>
+        <td class="side">Demander &#224; Beats des informations sur les r&#233;compenses[ST:n ]des divisions.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015801_SEL1021</td>
+        <td class="side">Demander &#224; Beats si quelque chose le perturbe.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015801_SEL1041</td>
+        <td class="side">Demander &#224; Beats s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0001</td>
+        <td class="side">Les Mediators sont les hommes &#224; tout faire de[ST:n ]New L.A. Les habitants de la ville viennent[ST:n ]nous voir d&#232;s qu&#39;ils ont un petit probl&#232;me.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0002</td>
+        <td class="side">Ils nous soumettent toutes sortes de requ&#234;tes[ST:n ]compliqu&#233;es qui ne sont m&#234;me pas publi&#233;es[ST:n ]sur le tableau des missions.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0003</td>
+        <td class="side">Mais tu dois savoir de quoi je parle. Je suis s&#251;r que[ST:n ]tu es le genre de personne qui attire ceux[ST:n ]dans le besoin.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0004</td>
+        <td class="side">J&#39;esp&#232;re que tu les aides quand ils viennent vers toi.[ST:n ]Parce que &#231;a nous facilite un peu le travail.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0005</td>
+        <td class="side">Compris ? Tu dois tout faire pour aider. Pour les gens[ST:n ]et pour le futur de New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0008</td>
+        <td class="side">Tu sais comment ils appellent cette route inachev&#233;e[ST:n ]l&#224;-bas ? La &#171; longue route vers l&#39;enfer &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0009</td>
+        <td class="side">C&#39;est parce qu&#39;en pleine nuit, les gens saouls[ST:n ]et les maladroits ne voient pas le bord[ST:n ]et chutent tout en bas de la ville.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0010</td>
+        <td class="side">Heureusement qu&#39;il y a ce gel amortissant en bas[ST:n ]qui leur sauve la vie.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0011</td>
+        <td class="side">Mais une fois en bas, le seul moyen de remonter ici[ST:n ]c&#39;est de grimper sur l&#39;un de ces tuyaux rouges, puis[ST:n ]d&#39;emprunter un escalier d&#39;urgence super long.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0012</td>
+        <td class="side">La chute n&#39;est pas mortelle, mais c&#39;est la remont&#233;e[ST:n ]qui l&#39;est. C&#39;est pour &#231;a qu&#39;ils appellent &#231;a l&#39;enfer ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0017</td>
+        <td class="side">En dehors de la ville, un changement m&#233;t&#233;o peut[ST:n ]faire basculer de la vie &#224; la mort.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0018</td>
+        <td class="side">La pluie obstrue la visibilit&#233;, donc viser les indig&#232;nes[ST:n ]avec une arme devient difficile.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0019</td>
+        <td class="side">J&#39;ai m&#234;me entendu dire qu&#39;&#224; certains endroits,[ST:n ]il pleut litt&#233;ralement du feu et du soufre ![ST:n ]Il est p&#233;rilleux de s&#39;y promener.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0020</td>
+        <td class="side">Si le temps devient dangereux, la meilleure fa&#231;on de se[ST:n ]prot&#233;ger est d&#39;aller se r&#233;fugier dans une grotte[ST:n ]ou quelque chose du genre.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0021</td>
+        <td class="side">Fais attention au temps si tu veux survivre[ST:n ]dans ce monde hostile.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0027</td>
+        <td class="side">L&#39;argent et les provisions que re&#231;oit une division sont[ST:n ]des r&#233;compenses r&#233;parties parmi les membres.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0028</td>
+        <td class="side">Plus la division est active, plus elle re&#231;oit de l&#39;argent[ST:n ]et des objets.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0029</td>
+        <td class="side">J&#39;ai d&#251; d&#233;penser tout mon argent, jusqu&#39;au dernier[ST:n ]centime pour payer les r&#233;parations du Skell[ST:n ]de mon fr&#232;re Dart, et maintenant, je suis ruin&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev015801_MSG0030</td>
+        <td class="side">Donc ce serait sympa si tu pouvais terminer un peu plus[ST:n ]de missions Mediators. S&#39;il te pla&#238;t, j&#39;ai besoin d&#39;argent.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1001</td>
+        <td class="side">J&#39;ai vu une bande de Prones danser bizarrement[ST:n ]l&#39;autre jour. Je leur ai demand&#233; pourquoi.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1002</td>
+        <td class="side">&#199;a les a &#233;nerv&#233;s et ils m&#39;ont demand&#233; de ne pas[ST:n ]interrompre leur &#171; danse hommage &#224; la Terre &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1003</td>
+        <td class="side">Je me fiche que ce soit culturel et tr&#232;s important[ST:n ]pour eux, mais s&#39;ils continuent de danser comme &#231;a,[ST:n ]les gens vont commencer &#224; flipper.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1004</td>
+        <td class="side">J&#39;aimerais leur faire comprendre, mais j&#39;arriverais[ST:n ]jamais &#224; leur expliquer maintenant.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1005</td>
+        <td class="side">On a de plus en plus de probl&#232;mes de ce type[ST:n ]depuis que les x&#233;noformes se sont install&#233;s ici.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1010</td>
+        <td class="side">On va cohabiter avec ces Prones ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1011</td>
+        <td class="side">Je sais que la &#171; danse hommage &#224; la Terre &#187; est[ST:n ]un peu douteuse, mais on ne doit pas les juger.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1012</td>
+        <td class="side">En fait, je me suis dit que j&#39;allais essayer de bouger en[ST:n ]rythme pour voir comment c&#39;&#233;tait. Et tu sais quoi... ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1013</td>
+        <td class="side">C&#39;est incroyable ! Ces derniers jours, j&#39;ai mis de c&#244;t&#233;[ST:n ]mes responsabilit&#233;s et j&#39;ai dans&#233; avec les Prones[ST:n ]jusqu&#39;&#224; l&#39;aube ![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev015801_MSG1014</td>
+        <td class="side">Tu devrais essayer. Non mais vraiment ! Allez ![ST:n ]Allons bouger notre corps, en mode prone ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

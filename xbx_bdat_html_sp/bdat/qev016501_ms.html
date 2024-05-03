@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev016501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0001</td>
+        <td class="side">&#161;Ah, [ST:playername ]! Qu&#233; bien.[ST:n ]Justo tengo un trabajito para ti.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0002</td>
+        <td class="side">Estos &#250;ltimos combates han sido muy intensos.[ST:n ]Nuestra flota de Skells y gran parte de nuestro[ST:n ]equipo han resultado da&#241;ados.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0003</td>
+        <td class="side">Tenemos que empezar a arreglarlos, pero casi[ST:n ]no nos queda aurorita, un material com&#250;n[ST:n ]que necesitamos para las reparaciones.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0004</td>
+        <td class="side">Mira ya es lo suficientemente peligroso cuando[ST:n ]tu equipo funciona correctamente, pero &#191;sin &#233;l?[ST:n ]Es un infierno.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0010</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0011</td>
+        <td class="side">Dile a Kirsty que t&#250; tambi&#233;n crees que salir[ST:n ]con el equipo roto ser&#237;a un suicidio.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0020</td>
+        <td class="side">Mofarte</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0021</td>
+        <td class="side">Dile que si fuesen lo suficientemente buenos,[ST:n ]tener el equipo roto no ser&#237;a un problema.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0005</td>
+        <td class="side">T&#250; ya has vivido suficientes situaciones peligrosas[ST:n ]como para saber lo terror&#237;fico que ser&#237;a salir ah&#237; fuera[ST:n ]sin un equipo en condiciones.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0006</td>
+        <td class="side">Anda, pero si est&#225; hablando [ST:Gender p1=el p2=la ] supermegasoldado...[ST:n ]Por desgracia, no todos los BLADE son expertos[ST:n ]en el arte de la guerra, como t&#250;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0007</td>
+        <td class="side">Hay muchos agentes de BLADE que antes eran civiles,[ST:n ]as&#237; que no me parece buena idea mandarlos[ST:n ]a la aventura con un palo afilado.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0008</td>
+        <td class="side">En este mismo momento, hay Pathfinder y Prospector[ST:n ]que est&#225;n recogiendo materiales y cada vez que uno[ST:n ]de sus equipos falla, es una baja m&#225;s que lamentar.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0009</td>
+        <td class="side">Tu misi&#243;n es extraer la aurorita que necesitamos[ST:n ]para las reparaciones y conseguir ocho propulsores[ST:n ]i&#243;nicos HI9 que podr&#225;s encontrar en Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0010</td>
+        <td class="side">Ser&#237;a de gran ayuda si pudieras recuperar[ST:n ]tambi&#233;n la unidad de almacenamiento de datos[ST:n ]que se estrell&#243; all&#237;. &#191;Qu&#233; me dices?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0011</td>
+        <td class="side">Te lo agradezco.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0012</td>
+        <td class="side">No me cabe duda de que encontrar&#225;s todo[ST:n ]lo que te he pedido, as&#237; que me pondr&#233; a planificar[ST:n ]los horarios de las tareas de reparaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0013</td>
+        <td class="side">Con&#233;ctate a FrontierNav a trav&#233;s de tu telecomunicador[ST:n ]para extraer la aurorita. El resto del encargo... Bueno,[ST:n ]lo primero es que vuelvas de una pieza. &#161;Es una orden![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0014</td>
+        <td class="side">Eso es todo. Puedes retirarte.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0015</td>
+        <td class="side">Sabes que la &#250;nica forma de encontrar[ST:n ]recursos valiosos como la aurorita es[ST:n ]con una sonda de extracci&#243;n, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0016</td>
+        <td class="side">As&#237; que si todas tus sondas son de investigaci&#243;n[ST:n ]u otro tipo, deber&#225;s cambiar unas cuantas[ST:n ]por sondas de extracci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0017</td>
+        <td class="side">No te voy a explicar ahora c&#243;mo se hace eso;[ST:n ]a estas alturas ya eres [ST:Gender p1=todo un experto p2=toda una experta ][ST:n ]en FrontierNav.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0018</td>
+        <td class="side">Muy bien. Esta cantidad de aurorita deber&#237;a[ST:n ]de ser suficiente para volver a poner a punto[ST:n ]todos los equipos de BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0019</td>
+        <td class="side">Ahora solo nos falta lo que te ped&#237; de Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0020</td>
+        <td class="side">Gracias. Creo que eso es todo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0021</td>
+        <td class="side">Con los materiales que nos has tra&#237;do, podremos[ST:n ]arreglar los Skells y asegurarnos de que todos[ST:n ]los equipos de BLADE funcionen a la perfecci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0022</td>
+        <td class="side">Tambi&#233;n me asegurar&#233; de que se comiencen a analizar[ST:n ]de inmediato la unidad de datos que has recuperado.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0030</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Kirsty qu&#233; es lo que espera encontrar[ST:n ]en la unidad de almacenamiento de datos.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev016501_JNK0040</td>
+        <td class="side">Bostezar</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev016501_SEL0041</td>
+        <td class="side">Dile que te aburres y quieres que te pague.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0023</td>
+        <td class="side">Se trata de informaci&#243;n clasificada sobre[ST:n ]un proyecto especial en el que estuve trabajando.[ST:n ]No te puedo contar nada m&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0024</td>
+        <td class="side">Bueno, a lo mejor un poquito m&#225;s s&#237; te puedo contar...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0025</td>
+        <td class="side">Esta unidad es el nexo de uni&#243;n que tengo[ST:n ]con algunos de mis compa&#241;eros m&#225;s queridos.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0026</td>
+        <td class="side">Aqu&#237; tienes tu recompensa. Creo que es justa,[ST:n ]teniendo en cuenta el trabajo realizado.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0027</td>
+        <td class="side">No s&#233; qu&#233; haces en BLADE... &#161;Deber&#237;as ser[ST:n ][ST:Gender p1=un mercenario p2=una mercenaria ]! Tranquil&#237;zate, que no te vas[ST:n ]a quedar sin tu recompensa. Aqu&#237; la tienes.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0028</td>
+        <td class="side">Todos los recursos valiosos que extraemos de Mira[ST:n ]se pueden convertir en objetos que se utilizan[ST:n ]para hacer de NLA un lugar m&#225;s seguro.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0029</td>
+        <td class="side">Espero que sigas utilizando FrontierNav para conseguir[ST:n ]todo tipo de minerales y materiales.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0030</td>
+        <td class="side">De hecho, todos dependemos de ello.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev016501_MSG0031</td>
+        <td class="side">Mira es un lugar hostil poblado por horribles[ST:n ]criaturas. Sin gente como t&#250;, ni siquiera nuestros[ST:n ]soldados m&#225;s expertos sobrevivir&#237;an.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

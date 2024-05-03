@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0011</td>
+        <td class="side">Chiedi a Bihabba cosa ne pensa degli umani.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">Chiedi a Bihabba quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0031</td>
+        <td class="side">Chiedi a Bihabba dello Skell scoperto a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0041</td>
+        <td class="side">Chiedi a Bihabba dello Skell rubato dai Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0051</td>
+        <td class="side">Chiedi a Bihabba della gente che vive[ST:n ]sulla nave Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0061</td>
+        <td class="side">Chiedi a Bihabba della battaglia finale[ST:n ]al Nucleo del Centro vitale.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032701_SEL1011</td>
+        <td class="side">Chiedi a Bihabba cosa ne pensa degli umani.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032701_SEL1021</td>
+        <td class="side">Chiedi a Bihabba quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0001</td>
+        <td class="side">Abbiamo viaggiato in lungo e in largo per le galassie,[ST:n ]ma &#232; la prima volta che incontriamo una specie[ST:n ]come la vostra, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0002</td>
+        <td class="side">I vostri corpi sono meccanici... ma vi piacciono tutti[ST:n ]questi cibi stranissimi... E i vostri vestiti sono cos&#236;...[ST:n ]Beh, &#232; solo che &#232; tutto molto-molto insolito, capisci?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0003</td>
+        <td class="side">Ci divertiremo molto a studiare dei misteri[ST:n ]viventi come voi, vero? Spero che valga[ST:n ]lo stesso anche per voi, OK?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0008</td>
+        <td class="side">Noi Ma-non stiamo sfruttando al massimo le nostre[ST:n ]capacit&#224; per aiutarvi qui su Mira, non &#232; vero?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0009</td>
+        <td class="side">Abbiamo persino messo in piedi la Candid &amp; Credible[ST:n ]per fornirvi le armi, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0010</td>
+        <td class="side">E altri, come Heradot, stanno riparando[ST:n ]la nostra nave cos&#236; da poter tornare nello spazio[ST:n ]quando sar&#224; il momento, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0011</td>
+        <td class="side">Cosa, io? Oh, io non sono pratico con le macchine[ST:n ]cos&#236; come gli altri Ma-non, quindi, diciamo che li[ST:n ]tengo d&#39;occhio. Non voglio che si facciano male, no?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0016</td>
+        <td class="side">Oh, hai trovato uno Skell sul quale i Ganglion stavano[ST:n ]cercando di-di mettere le loro brutte mani? Ottimo![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0017</td>
+        <td class="side">Se lo stavano cercando nonostante avessero gi&#224; molti[ST:n ]pericolosi Skell, non &#232; un buon segno, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0018</td>
+        <td class="side">Quell&#39;affare non porter&#224; niente di buono, non trovi?[ST:n ]Forse sar&#224; anche peggio di quello che immaginiamo...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0019</td>
+        <td class="side">Comunque, ti consiglio di pensarci due volte[ST:n ]prima di iniziare ad armeggiarci, s&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0025</td>
+        <td class="side">Non pensi che quello Skell sia una furia che aspetta[ST:n ]solo di essere scatenata? Non mi sorprenderebbe[ST:n ]se fosse in grado di annientare l&#39;intero pianeta, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0026</td>
+        <td class="side">Voglio dire, sono i Ganglion, no? E guarda cos&#39;hanno[ST:n ]fatto pur di riprenderselo. Solo per le cose molto-molto[ST:n ]importanti si fanno cose del genere, no?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0027</td>
+        <td class="side">Adesso &#232; andato, ma dobbiamo essere pronti[ST:n ]per qualsiasi orribile sorpresa abbiano[ST:n ]in serbo per noi, non credi?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0035</td>
+        <td class="side">C&#39;era davvero qualcuno dei vostri che faceva il doppio[ST:n ]gioco lavorando per i Ganglion? Siamo terrorizzati[ST:n ]da-da quando abbiamo appreso la notizia.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0036</td>
+        <td class="side">Se hanno reclutato un umano per farlo, allora[ST:n ]qualcuno potrebbe semplicemente entrare nella[ST:n ]nostra nave e farla saltare in aria, no?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0037</td>
+        <td class="side">C&#39;&#232; gi&#224; chi sta proponendo di vietare l&#39;ingresso[ST:n ]agli umani sulla nostra nave. Non &#232; una[ST:n ]cosa buona, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0038</td>
+        <td class="side">Anche perch&#233; c&#39;&#232; gi&#224; abbastanza caos sulla nostra[ST:n ]nave... Spero che la situazione si[ST:n ]risolva velocemente, s&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0045</td>
+        <td class="side">Almeno, quella mostruosit&#224; dello Zu Pharg[ST:n ]non &#232; pi&#249; un problema, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0046</td>
+        <td class="side">Comunque, adesso che ci stiamo avvicinando alla[ST:n ]conclusione, i Ganglion faranno di tutto[ST:n ]per vincere, non credi?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0047</td>
+        <td class="side">Non dimenticare che hanno ancora quello Skell[ST:n ]misterioso che hanno rubato, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0048</td>
+        <td class="side">Ad ogni modo, dovrai essere superprudente l&#224; fuori,[ST:n ]credo? Recupera i veri corpi degli umani[ST:n ]e torna [ST:Gender p1=tutto intero p2=tutta intera ].[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1001</td>
+        <td class="side">Adesso che tu hai sistemato i Ganglion e noi abbiamo[ST:n ]quasi ultimato le riparazioni alla nostra nave...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1002</td>
+        <td class="side">Ne abbiamo parlato, e penso che che a breve[ST:n ]torneremo nello spazio, va bene?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1003</td>
+        <td class="side">Come? Tornare presto? Vi mancheremo?[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1004</td>
+        <td class="side">Beh, uhm... Non ti preoccupare, credo? Torneremo[ST:n ]a Neo L.A. non appena finiremo la nostra[ST:n ]spedizione di ricerca, va bene?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1005</td>
+        <td class="side">Voi umani avete cambiato il destino della nostra specie[ST:n ]rendendoci dipendenti dalla pizza, quindi chiss&#224;[ST:n ]cosa succederebbe se non tornassimo...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1010</td>
+        <td class="side">Adesso che non dobbiamo pi&#249; preoccuparci degli[ST:n ]attacchi aerei, Heradot ha deciso di gustarsi[ST:n ]una pizza in cima alla nave, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1011</td>
+        <td class="side">Stava andando tutto per il meglio finch&#233;[ST:n ]non le &#232; caduta l&#39;ultima fetta... E lei...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1012</td>
+        <td class="side">Beh, si &#232; lanciata gi&#249; dalla nave[ST:n ]e l&#39;ha presa! Riesci a crederci?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1013</td>
+        <td class="side">Pensavo che ormai fosse andata ma &#232; riuscita ad[ST:n ]acciuffarla a mezz&#39;aria, e e con un doppio salto[ST:n ]mortale si &#232; tuffata in acqua! Incredibile, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1014</td>
+        <td class="side">Che riflessi, giusto?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

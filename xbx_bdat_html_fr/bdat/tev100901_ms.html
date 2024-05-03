@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev100901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev100901_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev100901_SEL0011</td>
+        <td class="side">Demander &#224; Professeur B de vous parler de Mira.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev100901_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev100901_SEL0021</td>
+        <td class="side">Demander &#224; Professeur B s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0001</td>
+        <td class="side">&#192; mon &#233;poque, la plupart des galaxies ont d&#233;j&#224;[ST:n ]&#233;t&#233; explor&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0002</td>
+        <td class="side">Mais ces cr&#233;atures indig&#232;nes appel&#233;es Nopons ![ST:n ]Et le 8%&#187;$ qui enveloppe cette plan&#232;te ![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0003</td>
+        <td class="side">Je n&#39;avais jamais entendu parler d&#39;un monde comme[ST:n ]celui-ci. Je n&#39;avais m&#234;me jamais entendu parler[ST:n ]d&#39;une galaxie pareille ![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0004</td>
+        <td class="side">Et les r&#233;sultats du =#o&#177;$4\\\\›*... Ce monde renferme[ST:n ]peut-&#234;tre des secrets bien plus complexes que ce que[ST:n ]nous aurions jamais pu imaginer.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0005</td>
+        <td class="side">Tu ne peux pas savoir &#224; quel point je suis excit&#233;[ST:n ]&#224; l&#39;id&#233;e de r&#233;soudre la multitude de myst&#232;res[ST:n ]de ce monde ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0009</td>
+        <td class="side">Un scientifique de mon envergure ne devrait pas perdre[ST:n ]son temps avec des choses terre &#224; terre comme[ST:n ]la gestion d&#39;une entreprise.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0010</td>
+        <td class="side">Mais par piti&#233; pour Graham, j&#39;ai ouvert une entreprise[ST:n ]de fabrication d&#39;armes pour rembourser la dette[ST:n ]dont ce gamin me parle tout le temps.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0011</td>
+        <td class="side">Je l&#39;ai appel&#233;e &#171; Factory 1.21 &#187;.[ST:n ]C&#39;est un beau nom, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0012</td>
+        <td class="side">L&#39;entreprise vend des armes qui ont &#233;t&#233; con&#231;ues gr&#226;ce[ST:n ]aux connaissances que j&#39;ai ramen&#233;es du futur.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0013</td>
+        <td class="side">Toi et tes amis du BLADE, vous feriez bien d&#39;en acheter[ST:n ]beaucoup et d&#39;&#234;tre &#233;ternellement reconnaissants[ST:n ]que j&#39;aie daign&#233; vous les vendre.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev100901_JNK0010</td>
+        <td class="side">tev100901_JNK0010</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev100901_SEL0011</td>
+        <td class="side">tev100901_SEL0011</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev100901_JNK0020</td>
+        <td class="side">tev100901_JNK0020</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev100901_SEL1021</td>
+        <td class="side">Demander &#224; Professeur B s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0014</td>
+        <td class="side">Je te remercie encore. &#192; ce stade, je dois commencer[ST:n ]&#224; avoir une sacr&#233;e dette envers toi.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0015</td>
+        <td class="side">C&#39;est pourquoi, comme r&#233;compense sp&#233;ciale, je vais[ST:n ]te donner acc&#232;s &#224; encore plus de marchandises[ST:n ]extraordinaires de Factory 1.21 ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0016</td>
+        <td class="side">Est-ce que tu esp&#232;res que je te fasse l&#39;aum&#244;ne ?[ST:n ]Andouille ! Va les acheter toi-m&#234;me en magasin ![ST:n ]Je ne peux pas les distribuer &#224; tour de bras ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0017</td>
+        <td class="side">Tu ne r&#233;alises pas &#224; quel point les membres du BLADE[ST:n ]ont de la chance ? Tu crois que beaucoup de monde[ST:n ]peut acheter des armes faites par un homme du futur ?![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev100901_MSG0018</td>
+        <td class="side">Allez allez ! D&#233;p&#234;che-toi d&#39;aller dans les boutiques ![ST:n ]Profite de mes produits extraordinaires,[ST:n ][ST:Gender p1=petit chanceux. p2=petite chanceuse. ][ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

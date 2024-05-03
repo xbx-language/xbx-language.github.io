@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev035101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev035101_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev035101_SEL0011</td>
+        <td class="side">Frage Aalis nach ihrer Arbeit.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev035101_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev035101_SEL0021</td>
+        <td class="side">Frage Aalis, was sie gerade besch&#228;ftigt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev035101_SEL0031</td>
+        <td class="side">Sprich mit Aalis &#252;ber ihre Arbeit.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev035101_SEL0041</td>
+        <td class="side">Frage Aalis, was die Grenada Galactic Group[ST:n ]so besonders macht.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev035101_SEL1011</td>
+        <td class="side">Sprich mit Aalis &#252;ber die Ereignisse der letzten Zeit.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0001</td>
+        <td class="side">Ich habe einen Job bei einer R&#252;stungsfirma der[ST:n ]Menschen namens Grenada Galactic Group[ST:n ]angenommen, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0002</td>
+        <td class="side">Das macht das Ma-non-Unternehmen Lieb &amp; Stichfest[ST:n ]zu unserem direkten Konkurrenten... Aber dort kaufst[ST:n ]du wahrscheinlich sowieso keine Waffen, oder? Oder?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0003</td>
+        <td class="side">Es ist sehr, sehr wichtig, von welchem Unternehmen[ST:n ]ihr BLADEs ausger&#252;stet werdet. Schlie&#223;lich seid ihr[ST:n ]so etwas wie wandelnde Werbeplakate, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0004</td>
+        <td class="side">Und wenn du flei&#223;ig die Produkte deiner Lieblingsfirma[ST:n ]kaufst, bekommt sie mehr Geld und kann irgendwann[ST:n ]neue und noch bessere Ausr&#252;stung herstellen, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0008</td>
+        <td class="side">Die Ma-non-Kleidung, die ich trage, ist sehr, sehr[ST:n ]funktional, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0009</td>
+        <td class="side">Aber Panyar sagt, sie w&#228;re „langweilig“.[ST:n ]Kannst du dir das vorstellen?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0010</td>
+        <td class="side">Ist es vielleicht „langweilig“, wenn man zu wenig[ST:n ]Haut zeigt? Ich sollte Panyar bitten, mir ihre[ST:n ]Kleidungsphilosophie n&#228;her zu erkl&#228;ren...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0016</td>
+        <td class="side">Wusstest du, dass ich f&#252;r eine R&#252;stungsfirma der[ST:n ]Menschen namens Grenada Galactic Group arbeite?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0017</td>
+        <td class="side">Ich habe Kunden beobachtet, um herauszufinden,[ST:n ]welche Art von Ausr&#252;stung die Menschen bevorzugen.[ST:n ]Ich glaube, allm&#228;hlich verstehe ich ihre Vorlieben.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0018</td>
+        <td class="side">Bei Lieb &amp; Stichfest waren zum Beispiel zwei weibliche[ST:n ]BLADEs, die dar&#252;ber kichern mussten, dass eine R&#252;stung[ST:n ]zu viel von der Taille preisgegeben hat, wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0019</td>
+        <td class="side">Sie haben zwar abwertend dar&#252;ber geredet, aber sie[ST:n ]haben die ganze Zeit gelacht. Das hei&#223;t, unsere[ST:n ]Produkte sollten noch MEHR Taille zeigen, richtig?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0020</td>
+        <td class="side">Meine Analysen des menschlichen Modegeschmacks[ST:n ]zahlen sich aus, wei&#223;t du? Seit unsere Ausr&#252;stung ein[ST:n ]bisschen freiz&#252;giger ist, verkauft sie sich prima![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0021</td>
+        <td class="side">Das Design geht zwar auf Kosten der Panzerung, aber[ST:n ]das haben wir wieder wettgemacht, indem wir unsere[ST:n ]ber&#252;hmte Strahlenummantelung weiterentwickelt haben.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0022</td>
+        <td class="side">Das Gleiche habe ich f&#252;r unsere Herrenkollektion[ST:n ]vorgeschlagen, aber, aber, aber unsere menschlichen[ST:n ]Designer haben mich nur ausgelacht. Komisch, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0023</td>
+        <td class="side">Ich verstehe das nicht... Warum wollen die Leute[ST:n ]weibliche K&#246;rperteile herumwackeln sehen, aber[ST:n ]keine m&#228;nnlichen?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0011</td>
+        <td class="side">„Unterw&#228;sche“ ist ein faszinierender Name f&#252;r eine[ST:n ]Wunderwaffe, nicht wahr?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0012</td>
+        <td class="side">Ein Kollege von mir hat gesagt, dass ein menschlicher[ST:n ]Mann nur einen Blick darauf werfen muss, um sofort[ST:n ]kampfunf&#228;hig zu werden. So, so gef&#228;hrlich, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0013</td>
+        <td class="side">Jedenfalls hat mir Panyar als Dank f&#252;r meine Ma&#223;e eine[ST:n ]Flasche mit einer seltsam riechenden Fl&#252;ssigkeit gegeben.[ST:n ]Ich habe noch nicht herausgefunden, wof&#252;r sie gut ist...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0014</td>
+        <td class="side">...Wie bitte? Das nennt sich „Paar-F&#252;m“?[ST:n ]Klingt aber komisch, oder etwa nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev035101_MSG0015</td>
+        <td class="side">Vielleicht kann man es verwenden, um den Geruchssinn[ST:n ]eines Feindes vor&#252;bergehend zu bet&#228;uben, damit man[ST:n ]sich an ihn heranschleichen kann? Ja? Vielleicht?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

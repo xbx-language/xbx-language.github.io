@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev021601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev021601_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev021601_SEL0011</td>
+        <td class="side">Chiedi a Phina dell&#39;attacco alla Balena Bianca.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev021601_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev021601_SEL0021</td>
+        <td class="side">Chiedi a Phina quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev021601_SEL1011</td>
+        <td class="side">Chiedi a Phina della guerra contro i Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev021601_SEL1021</td>
+        <td class="side">Chiedi a Phina quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev021601_SEL1031</td>
+        <td class="side">Chiedi a Phina del Nucleo del Centro vitale.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev021601_SEL1051</td>
+        <td class="side">Chiedi a Phina del Nucleo del Centro vitale.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0001</td>
+        <td class="side">L&#39;attacco alla Balena da parte delle forze[ST:n ]Xenomorfe &#232; stato un vero incubo.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0002</td>
+        <td class="side">Per quanti ne uccidessimo, quei maledetti Xeno[ST:n ]continuavano ad arrivare dallo spazio profondo.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0003</td>
+        <td class="side">Ho visto gli Skell dei miei amici mentre venivano[ST:n ]distrutti nel silenzio e lo scafo della Balena Bianca[ST:n ]mentre veniva fatto a pezzi senza neanche un rumore.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0004</td>
+        <td class="side">Abbiamo combattuto al meglio delle nostre forze, ma[ST:n ]alla fine hanno sfondato la nostra linea difensiva[ST:n ]e sono riusciti a infiltrarsi nella nave.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0005</td>
+        <td class="side">Moltissime persone sono morte per mano di quei[ST:n ]mostri senza saperne nemmeno il motivo.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0006</td>
+        <td class="side">Voglio continuare a battermi per il bene dell&#39;umanit&#224;,[ST:n ]ma spero di non trovarmi mai pi&#249; nel mezzo[ST:n ]di una battaglia del genere.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0008</td>
+        <td class="side">Hai mai affrontato Eckart l&#39;Indistruttibile,[ST:n ]il Tyrant che si aggira in cima[ST:n ]alle Pianure del Pianto?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0009</td>
+        <td class="side">Potrei dire che solo noi Harrier siamo in grado[ST:n ]di affrontare una creatura del genere[ST:n ]e sopravvivere per raccontarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0010</td>
+        <td class="side">Ma in verit&#224; non avevamo alcuna possibilit&#224;.[ST:n ]Quella cosa non ha battuto ciglio, nonostante[ST:n ]i nostri quattro Skell sparassero a tutto spiano.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0011</td>
+        <td class="side">Adelbert, il nostro capo, ha ordinato la ritirata dopo[ST:n ]che il mostro ha distrutto lo Skell di Grette.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0012</td>
+        <td class="side">Tra tutti i pianeti sui quali potevamo finire, mi chiedo[ST:n ]perch&#233; proprio su questo... Comunque sono felice[ST:n ]che almeno Grette non sia stata ferita.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0021</td>
+        <td class="side">Non perdoner&#242; mai i mostri che[ST:n ]hanno ucciso Grette e gli altri.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0022</td>
+        <td class="side">Ho intenzione di lasciare il BLADE, perci&#242;[ST:n ]quello che sto per chiederti potrebbe[ST:n ]sembrare spudorato...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0023</td>
+        <td class="side">Ma ti prego, ti supplico, uccidi[ST:n ]tutti quei maledetti per me...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0024</td>
+        <td class="side">Scovali e spazzali via fino all&#39;ultimo. Nessuno dovr&#224;[ST:n ]neppure pi&#249; ricordarsi che siano esistiti i Ganglion![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0014</td>
+        <td class="side">Lo psicologo e il tecnico di mimosomi che ha trovato[ST:n ]Dirk mi hanno aiutata a guarire.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0015</td>
+        <td class="side">Grazie a loro posso finalmente[ST:n ]uscire di nuovo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0016</td>
+        <td class="side">Ma ho comunque intenzione di lasciare il BLADE.[ST:n ]Non voglio pi&#249; assistere a niente[ST:n ]di simile a quello &#232; successo.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0017</td>
+        <td class="side">Ma stavo pensando di cercare qualche lavoro[ST:n ]per essere d&#39;aiuto qui in citt&#224;. &#200; il minimo[ST:n ]che possa fare, no?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0018</td>
+        <td class="side">Non posso continuare a chiedere[ST:n ]aiuto a Dirk per ogni cosa.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0030</td>
+        <td class="side">Ho sentito che hanno trovato il Nucleo del Centro vitale[ST:n ]grazie ai dati che ha recuperato la tua squadra.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0031</td>
+        <td class="side">Grazie mille.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0032</td>
+        <td class="side">Adesso, se tutto andr&#224; bene, potrebbero riuscire[ST:n ]a riportare in vita Adelbert e Grette, insieme[ST:n ]a tutti gli altri che sono morti.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0033</td>
+        <td class="side">Per il bene di tutti i nostri amici caduti, ti auguro[ST:n ]buona fortuna per la missione di recupero finale.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0040</td>
+        <td class="side">Il mio vero corpo &#232; addormentato nel Nucleo[ST:n ]del Centro vitale assieme al tuo, quello[ST:n ]di Adelbert, Grette e quelli di tutti gli altri.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0041</td>
+        <td class="side">Se l&#39;abbiamo messo al sicuro, significa che adesso[ST:n ]tutti potranno tornare come prima, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0042</td>
+        <td class="side">Grette torner&#224; a comandare tutti a bacchetta,[ST:n ]e Adelbert cercher&#224; di nuovo di fare[ST:n ]di tutto per renderla felice.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0043</td>
+        <td class="side">E io e Dirk potremo guardarli e farci quattro risate...[ST:n ]Sar&#224; davvero possibile rivivere quei giorni?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev021601_MSG0044</td>
+        <td class="side">Spero che completino la loro indagine al pi&#249; presto.[ST:n ]Cos&#236; tutti quelli di noi che hanno perso famiglia[ST:n ]e amici potranno tornare ad abbracciarli.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

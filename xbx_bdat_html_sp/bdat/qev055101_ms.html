@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev055101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0001</td>
+        <td class="side">Le agradezco su ayuda en Noctilum,[ST:n ][ST:Gender p1=humano p2=humana ]. De no haber sido por usted,[ST:n ]no hubi&#233;ramos llegado a Nueva Los &#193;ngeles.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0002</td>
+        <td class="side">Estaba discutiendo con los m&#237;os sobre qu&#233; hacer[ST:n ]de ahora en adelante.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0003</td>
+        <td class="side">Aunque \&quot;discutir\&quot; es una descripci&#243;n de esta[ST:n ]actividad m&#225;s bien imprecisa y excesivamente humana.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0004</td>
+        <td class="side">Los orphean no somos susceptibles a la disparidad[ST:n ]de opini&#243;n. Esta actividad es meramente[ST:n ]una verificaci&#243;n final por cuestiones de... formalidad.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0005</td>
+        <td class="side">Muy cierto. Somos los siervos del Ovah.[ST:n ]La discrepancia es una imposibilidad te&#243;rica.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0011</td>
+        <td class="side">Pregunta qu&#233; es el Ovah.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0020</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0021</td>
+        <td class="side">Pregunta por qu&#233; es imposible la discrepancia.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0006</td>
+        <td class="side">El Ovah es la raz&#243;n de nuestra existencia[ST:n ]y la incontrovertible voluntad que nos gu&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0007</td>
+        <td class="side">Es la paz en s&#237; misma para mi especie,[ST:n ]y tambi&#233;n el v&#237;nculo que nos mantiene unidos.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0008</td>
+        <td class="side">En verdad, es algo complicado de expresar[ST:n ]con palabras, pero lo sentimos en nuestro[ST:n ]interior de forma muy instintiva.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0009</td>
+        <td class="side">Vivimos de acuerdo a lo que nos dicta[ST:n ]el Ovah que habita en nuestros cuerpos.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0010</td>
+        <td class="side">El Ovah existe en todos los de mi especie,[ST:n ]y su voluntad nos une.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0011</td>
+        <td class="side">Es complicado expresarlo con palabras, pero los[ST:n ]orphean siempre llegamos a las mismas conclusiones[ST:n ]ya que tenemos en el Ovah una voluntad com&#250;n.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0012</td>
+        <td class="side">Kun&#39;luarb: &#191;d&#243;nde est&#225;n Sun&#39;celeg y Kon&#39;luarb?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0013</td>
+        <td class="side">Como l&#237;der nuestro, reunirlos aqu&#237;[ST:n ]es su responsabilidad.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0014</td>
+        <td class="side">No vi a Sun&#39;celeg aqu&#237;, as&#237; que envi&#233;[ST:n ]a Kon&#39;luarb a buscarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0015</td>
+        <td class="side">Aun as&#237;, la probabilidad de que llegara tarde[ST:n ]era de un nimio 6,4 por ciento. Espero que[ST:n ]no le haya sobrevenido ning&#250;n contratiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0016</td>
+        <td class="side">&#161;Kun&#39;luarb! Tenemos un problema.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0017</td>
+        <td class="side">&#161;He encontrado pruebas de una infiltraci&#243;n definian[ST:n ]en Nueva Los &#193;ngeles mientras buscaba a Sun&#39;celeg![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0018</td>
+        <td class="side">&#191;Definian? &#191;Son ellas la raz&#243;n[ST:n ]de que Sun&#39;celeg a&#250;n no haya llegado?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0030</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0031</td>
+        <td class="side">Pide que te den m&#225;s informaci&#243;n sobre las definian.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0040</td>
+        <td class="side">Ayudar</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0041</td>
+        <td class="side">Ofrece tu ayuda a los visiblemente[ST:n ]preocupados orphean.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0019</td>
+        <td class="side">Son una fuerza encubierta al mando de los ganglion.[ST:n ]Su habilidad para adoptar la forma de otras criaturas[ST:n ]les otorga una gran ventaja en misiones de infiltraci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0020</td>
+        <td class="side">Por ejemplo, ser&#237;a bastante sencillo[ST:n ]para una de ellas el tomar la apariencia[ST:n ]de un humano y entrar en esta ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0021</td>
+        <td class="side">Si han entrado en Nueva Los &#193;ngeles[ST:n ]y Sun&#39;celeg est&#225; desaparecido...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0022</td>
+        <td class="side">No debemos sacar conclusiones precipitadas,[ST:n ]pero bien podr&#237;a hallarse en un grave peligro.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0023</td>
+        <td class="side">BLADE [ST:Gender p1=humano p2=humana ], &#191;aceptar&#237;a usted[ST:n ]una petici&#243;n formal para localizar a Sun&#39;celeg?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0024</td>
+        <td class="side">Ay&#250;denos, por favor. Si las definian est&#225;n detr&#225;s[ST:n ]de esto, ser&#237;a un desprop&#243;sito ir a buscarlo[ST:n ]nosotros solos. Nos aguardar&#237;a la muerte.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0025</td>
+        <td class="side">Gracias. Si es tan amable de mostrarme[ST:n ]su telecomunicador, formalizar&#233; el contrato.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0026</td>
+        <td class="side">Bien, tenemos un acuerdo. Kon&#39;luarb, comparta[ST:n ]toda la informaci&#243;n pertinente de la que disponga[ST:n ]con [ST:Gender p1=este humano p2=esta humana ], por favor.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0027</td>
+        <td class="side">La &#250;ltima vez que vi a Sun&#39;celeg[ST:n ]fue en el ascensor del distrito residencial.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0028</td>
+        <td class="side">Le vi tomarlo para ir a la nave ma-non.[ST:n ]Despu&#233;s volv&#237; al distrito residencial.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0029</td>
+        <td class="side">Por consiguiente, deber&#237;a de haber testigos presenciales[ST:n ]dondequiera que haya ido a partir de ah&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0030</td>
+        <td class="side">Como [ST:Gender p1=humano p2=humana ] que usted es, reunir testimonios[ST:n ]de residentes de su misma especie[ST:n ]deber&#237;a de ser una tarea sencilla.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0031</td>
+        <td class="side">Por favor, descubra d&#243;nde han llevado[ST:n ]a Sun&#39;celeg tan pronto como sea posible.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0032</td>
+        <td class="side">&#191;Ha considerado ir a buscar a Sun&#39;celeg?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0033</td>
+        <td class="side">Si acepta el encargo, haga el favor[ST:n ]de mostrarme su telecomunicador[ST:n ]para que pueda formalizar el contrato.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0034</td>
+        <td class="side">Bien, tenemos un acuerdo. Kon&#39;luarb, comparta[ST:n ]toda la informaci&#243;n pertinente de la que disponga[ST:n ]con [ST:Gender p1=este humano p2=esta humana ], por favor.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0035</td>
+        <td class="side">La &#250;ltima vez que vi a Sun&#39;celeg[ST:n ]fue en el ascensor del distrito residencial.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0036</td>
+        <td class="side">Le vi tomarlo para ir a la nave ma-non.[ST:n ]Despu&#233;s volv&#237; al distrito residencial.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0037</td>
+        <td class="side">Por consiguiente, deber&#237;a de haber testigos presenciales[ST:n ]dondequiera que haya ido a partir de ah&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0038</td>
+        <td class="side">Como [ST:Gender p1=humano p2=humana ] que usted es, reunir testimonios[ST:n ]de residentes de su misma especie[ST:n ]deber&#237;a de ser una tarea sencilla.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0039</td>
+        <td class="side">Por favor, descubra d&#243;nde han llevado[ST:n ]a Sun&#39;celeg tan pronto como sea posible.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0040</td>
+        <td class="side">Numerosos desertores de los ganglion han sido[ST:n ]asesinados por las definian a trav&#233;s de los a&#241;os.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0041</td>
+        <td class="side">Es mediante esa amenaza constante de represalias[ST:n ]que su organizaci&#243;n se mantiene a flote.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0042</td>
+        <td class="side">Dese prisa, por favor. Haga buen uso[ST:n ]de la informaci&#243;n facilitada por Kon&#39;luarb[ST:n ]y encuentre a Sun&#39;celeg.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0043</td>
+        <td class="side">&#191;Ha averiguado algo acerca[ST:n ]del paradero de Sun&#39;celeg?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0050</td>
+        <td class="side">Informar</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0051</td>
+        <td class="side">Dile a Sun&#39;barac que lo m&#225;s probable[ST:n ]es que Sun&#39;celeg est&#233; en Oblivia.</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0060</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0061</td>
+        <td class="side">Preguntar si \&quot;uno de esos que parecen insectos\&quot;[ST:n ]podr&#237;a ser Sun&#39;celeg.</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0044</td>
+        <td class="side">&#191;Oblivia? Mmm. Inquietantes noticias.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0045</td>
+        <td class="side">Parece l&#243;gico que un humano considere nuestras formas[ST:n ]como insectoides. As&#237; que s&#237;, \&quot;uno de los[ST:n ]que parecen insectos\&quot; bien podr&#237;a ser Sun&#39;celeg.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0046</td>
+        <td class="side">&#191;Oblivia, dice? Inquietantes noticias.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0047</td>
+        <td class="side">Pero somos afortunados de que no haya sido liquidado[ST:n ]al momento. Eso parece indicar que lo consideran lo[ST:n ]suficientemente valioso como para mantenerlo con vida.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0048</td>
+        <td class="side">A&#250;n puede haber tiempo para salvar a Sun&#39;celeg.[ST:n ]Hemos de hacer los preparativos[ST:n ]para partir hacia Oblivia de inmediato.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0049</td>
+        <td class="side">Mejor apresurarnos; el Ovah est&#225; algo inquieto.[ST:n ]Creo que esto es se&#241;al de que va a ocurrir[ST:n ]algo importante.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0050</td>
+        <td class="side">Usted est&#225; especialmente [ST:Gender p1=sintonizado p2=sintonizada ] con la actividad[ST:n ]tonal del Ovah. Sin duda, sus preocupaciones[ST:n ]merecen consideraci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0051</td>
+        <td class="side">Solicito que se adelante y ayude[ST:n ]a Sun&#39;celeg de cualquier manera[ST:n ]que pueda, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0052</td>
+        <td class="side">Cualquiera que sea su condici&#243;n, usaremos todo[ST:n ]nuestro conocimiento para asegurarnos de llevarlo[ST:n ]a casa sano y salvo. Suponiendo que est&#233; vivo.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0070</td>
+        <td class="side">Proponer</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0071</td>
+        <td class="side">Sugiere que es m&#225;s l&#243;gico viajar todos juntos.</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev055101_JNK0080</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev055101_SEL0081</td>
+        <td class="side">Obedece a Sun&#39;barac y dir&#237;gete a Oblivia.</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0053</td>
+        <td class="side">Es cierto que viajar solos entra&#241;a un cierto riesgo.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0054</td>
+        <td class="side">Pero con cada hora que pasa, disminuyen[ST:n ]las posibilidades de encontrar a Sun&#39;celeg con vida.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0055</td>
+        <td class="side">Esta es nuestra conclusi&#243;n,[ST:n ]dadas todas las circunstancias.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0056</td>
+        <td class="side">Por favor, dir&#237;jase a Oblivia de inmediato y no se[ST:n ]preocupe por nosotros. Mi especie sabe c&#243;mo evitar[ST:n ]el peligro, siempre que tengamos el equipo adecuado.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0057</td>
+        <td class="side">Las definian poseen magn&#237;ficas habilidades de combate,[ST:n ]pero conf&#237;o en que usted se alzar&#225; [ST:Gender p1=victorioso p2=victoriosa ].[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0058</td>
+        <td class="side">Y ahora, dir&#237;jase hacia Oblivia[ST:n ]y ayude a Sun&#39;celeg, por favor.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0059</td>
+        <td class="side">Suponiendo que lo encontremos con vida,[ST:n ]lo traeremos de vuelta a Nueva Los &#193;ngeles[ST:n ]a salvo a cualquier precio.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0060</td>
+        <td class="side">Y ahora, apres&#250;rese hacia Oblivia[ST:n ]y ayude a Sun&#39;celeg, por favor.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev055101_MSG0061</td>
+        <td class="side">Su dominio de la tecnolog&#237;a es fundamental[ST:n ]para nuestra prosperidad en Mira.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev041901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev041901_JNK0010</td>
+        <td class="side">Fragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev041901_SEL0011</td>
+        <td class="side">H&#246;re dir an, was Lebora &#252;ber[ST:n ]den H&#246;hlenklan zu sagen hat.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev041901_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev041901_SEL0021</td>
+        <td class="side">Frage Lebora, ob sich in[ST:n ]letzter Zeit etwas getan hat.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0001</td>
+        <td class="side">H&#246;hlenklan besteht aus Monstern. M&#246;rdern.[ST:n ]Ohne Ausnahme.[ST:n ]So dachte ich.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0002</td>
+        <td class="side">Doch Slovity ist anders.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0003</td>
+        <td class="side">Sie f&#252;hlt f&#252;r ihre Leute.[ST:n ]Vielleicht mehr als manche im Baumklan.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0004</td>
+        <td class="side">Ich w&#252;rde gerne wieder gegen sie k&#228;mpfen.[ST:n ]Ohne Hass. Ohne Zorn.[ST:n ]Nur Freude am Kampf.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0009</td>
+        <td class="side">Ich komme jeden Tag hierher.[ST:n ]Ich rede mit Slovity. Ich rede mit anderen.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0010</td>
+        <td class="side">Fr&#252;her sprach ich nie mit dem H&#246;hlenklan.[ST:n ]Au&#223;er sie waren meine Gefangenen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0011</td>
+        <td class="side">Sie sind dumm. So dachte ich.[ST:n ]Sie kennen nur Hass und Tod. So dachte ich.[ST:n ]Doch es ist nicht die Wahrheit.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0012</td>
+        <td class="side">Gestern zum Beispiel. Ich ging zu Slovity.[ST:n ]Sie a&#223; Fleisch. Viel Fleisch. Riesiges St&#252;ck.[ST:n ]Sie kaute. Dann schlief sie ein.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev041901_MSG0013</td>
+        <td class="side">Ich selbst tat das schon hundertmal.[ST:n ]Sie ist wie ich.[ST:n ]Prone sind Prone. Vielleicht ist das die Wahrheit.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

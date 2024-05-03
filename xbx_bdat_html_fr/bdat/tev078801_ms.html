@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev078801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev078801_JNK0010</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev078801_SEL0011</td>
+        <td class="side">Demander &#224; Trachlo de vous parler du syst&#232;me[ST:n ]hi&#233;rarchique zaruboggan.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev078801_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev078801_SEL0021</td>
+        <td class="side">Demander &#224; Trachlo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev078801_SEL0031</td>
+        <td class="side">Demander &#224; Trachlo ce qu&#39;il compte faire maintenant.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0001</td>
+        <td class="side">Lorsque nous remplissons notre fonction, nous,[ST:n ]les Zaruboggans, suivons les ordres des directeurs[ST:n ]de l&#39;organisation affect&#233;s &#224; chaque zone.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0002</td>
+        <td class="side">Kchh. Mais de tous les Zaruboggans qui sont arriv&#233;s[ST:n ]sur Mira, je suis le seul &#224; avoir ce statut.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0003</td>
+        <td class="side">C&#39;est pourquoi je suis le seul Zaruboggan en position[ST:n ]de pouvoir, capable d&#39;effectuer des t&#226;ches comme[ST:n ]n&#233;gocier avec le directeur g&#233;n&#233;ral Chausson. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0004</td>
+        <td class="side">Mais je ne reste qu&#39;un simple &#233;missaire qui se contente[ST:n ]de remplir son devoir transmis par Golbogga. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0005</td>
+        <td class="side">Le seul v&#233;ritable dirigeant des Zaruboggans[ST:n ]est Golbogga, qui a submerg&#233; notre monde[ST:n ]de voltant et fait na&#238;tre notre peuple. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0008</td>
+        <td class="side">J&#39;ai entam&#233; des n&#233;gociations avec les humains[ST:n ]de N.L.A. afin de nous assurer un approvisionnement[ST:n ]r&#233;gulier en voltant. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0009</td>
+        <td class="side">Pour cela, la zone industrielle est la plus prometteuse.[ST:n ]Kchh. Contrairement aux Ma-nons, les humains utilisent[ST:n ]beaucoup de produits chimiques.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0010</td>
+        <td class="side">Que vous fabriquiez des Skells ou des consommables,[ST:n ]il en d&#233;rive toujours de grandes quantit&#233;s de tr&#232;s bon[ST:n ]voltant. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0011</td>
+        <td class="side">Si j&#39;ai bien compris, ces produits chimiques sont[ST:n ]dangereux pour vous. Kchh. Alors les donner[ST:n ]&#224; d&#39;autres races peut &#234;tre tr&#232;s probl&#233;matique.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0012</td>
+        <td class="side">Je compte bien prouver que vous pouvez faire confiance[ST:n ]aux Zaruboggans. Kchh. J&#39;esp&#232;re ainsi nous assurer[ST:n ]l&#39;approvisionnement en voltant n&#233;cessaire &#224; notre survie.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0013</td>
+        <td class="side">Liza nous a parl&#233; en d&#233;tail du travail[ST:n ]qu&#39;elle effectue ici. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0014</td>
+        <td class="side">Ces &#171; services de traitement des ordures &#187;[ST:n ]dont elle parle correspondent aux r&#234;ves[ST:n ]les plus fous des Zaruboggans. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0015</td>
+        <td class="side">Si on nous laissait acc&#233;der &#224; ces installations,[ST:n ]je suis certain qu&#39;il y aurait tout un tas[ST:n ]de Zaruboggans voulant y travailler. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0016</td>
+        <td class="side">Nous ne pouvions esp&#233;rer de meilleure offre.[ST:n ]Liza est une Golbogga &#224; forme humaine ! Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0035</td>
+        <td class="side">Nous ne pourrons peut-&#234;tre jamais rentrer sur Bedun,[ST:n ]la plan&#232;te que nous &#233;tions destin&#233;s &#224; purifier. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0036</td>
+        <td class="side">C&#39;est pourquoi je compte d&#233;clarer cette plan&#232;te comme[ST:n ]&#233;tant notre nouvelle Bedun et tout faire pour[ST:n ]compl&#232;tement la d&#233;voltantiser. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0037</td>
+        <td class="side">Cette plan&#232;te est extr&#234;mement dangereuse, &#224; cause[ST:n ]des indig&#232;nes f&#233;roces et des sympathisants[ST:n ]du Ganglion en d&#233;route qui la parcourent. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0038</td>
+        <td class="side">Mais nous sommes des Zaruboggans, les enfants[ST:n ]de Golbogga, et quels que soient les obstacles,[ST:n ]nous accomplirons la t&#226;che qui nous incombe. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0039</td>
+        <td class="side">Je prie pour que vous continuiez &#224; partager[ST:n ]votre pouvoir avec nous, mon [ST:Gender p1=ami p2=amie ]. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev078801_SEL1021</td>
+        <td class="side">Demander &#224; Trachlo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev078801_SEL2021</td>
+        <td class="side">Demander &#224; Trachlo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0017</td>
+        <td class="side">Liza nous a parl&#233; en d&#233;tail du travail[ST:n ]qu&#39;elle effectue ici. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0018</td>
+        <td class="side">Ces &#171; services de traitement des ordures &#187;[ST:n ]dont elle parle correspondent aux r&#234;ves[ST:n ]les plus fous des Zaruboggans. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0019</td>
+        <td class="side">Si on nous laissait acc&#233;der &#224; ces installations,[ST:n ]je suis certain qu&#39;il y aurait tout un tas[ST:n ]de Zaruboggans voulant y travailler. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0020</td>
+        <td class="side">J&#39;aimerais vraiment m&#39;attarder sur cette possibilit&#233;.[ST:n ]Cela pourrait &#234;tre la premi&#232;re &#233;tape vers une amiti&#233;[ST:n ]entre les humains et les Zaruboggans. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev078801_SEL3021</td>
+        <td class="side">Demander &#224; Trachlo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0021</td>
+        <td class="side">J&#39;aimerais qu&#39;Orleron soit le prochain[ST:n ]directeur de l&#39;organisation. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0022</td>
+        <td class="side">C&#39;est pourquoi je lui apprends tout ce qu&#39;il faut savoir[ST:n ]sur l&#39;essence m&#234;me de la d&#233;voltantisation et l&#39;histoire[ST:n ]de Golbogga. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0023</td>
+        <td class="side">Il semblerait qu&#39;en ce moment, une femme humaine[ST:n ]occupe ses pens&#233;es. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0024</td>
+        <td class="side">Mais ce n&#39;est pas plus mal. Kchh. Le Zaruboggan qui[ST:n ]dirigera les autres dans N.L.A. se doit de conna&#238;tre[ST:n ]les humains aussi bien que son propre peuple.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev078801_SEL4021</td>
+        <td class="side">Demander &#224; Trachlo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0025</td>
+        <td class="side">Orleron a partag&#233; avec tous les autres Zaruboggans[ST:n ]la d&#233;voltantisation du voltant qu&#39;il avait ramen&#233;[ST:n ]de Cauldros. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0026</td>
+        <td class="side">Quand Orleron a commenc&#233; &#224; faire parler de lui,[ST:n ]je me suis rendu compte que nous l&#39;enviions tous[ST:n ]un petit peu. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0027</td>
+        <td class="side">Il est n&#233; avec les traits de n&#39;importe quel Zaruboggan,[ST:n ]mais cela ne l&#39;a jamais emp&#234;ch&#233; de se rapprocher[ST:n ]des humains. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0028</td>
+        <td class="side">Il semblerait m&#234;me qu&#39;il oublie parfois sa fonction[ST:n ]et qu&#39;il agisse comme bon lui semble. Kchh. C&#39;est[ST:n ]inhabituel chez nous et nous l&#39;avions rejet&#233; pour cela.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0029</td>
+        <td class="side">Mais nous ne devons plus marginaliser un membre[ST:n ]aussi essentiel &#224; notre communaut&#233;. Kchh.[ST:n ]Nous devrions exploiter nos atouts tous ensemble.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0030</td>
+        <td class="side">Pour tout vous avouer, je n&#39;aurais jamais cru[ST:n ]que des cr&#233;atures telles que nous arriveraient[ST:n ]&#224; s&#39;int&#233;grer &#224; N.L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0031</td>
+        <td class="side">Mais gr&#226;ce &#224; Liza, beaucoup de Zaruboggans[ST:n ]peuvent go&#251;ter aux joies du travail aux services[ST:n ]de traitement des ordures. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0032</td>
+        <td class="side">Elle est vraiment l&#39;incarnation de Golbogga[ST:n ]chez les humains. Kchh. Je meurs d&#39;envie[ST:n ]de la v&#233;n&#233;rer ![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0033</td>
+        <td class="side">Kchh. Pourtant elle semble toujours surmen&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev078801_MSG0034</td>
+        <td class="side">Peut-&#234;tre devrions-nous lui offrir du voltant d&#39;excellente[ST:n ]qualit&#233; en guise de remerciement. Kchh. Le d&#233;voltantiser[ST:n ]devrait la remettre sur pieds ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

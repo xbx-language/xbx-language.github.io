@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050302_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0001</td>
+        <td class="side">Pourquoi mon Skell d&#233;tecte-t-il... ?[ST:n ]Vi Sezha ! Est-ce vous ? [ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0002</td>
+        <td class="side">Combien de fois vous ai-je dit de ne pas venir ?![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0003</td>
+        <td class="side">Il s&#39;agit de mon combat. Je ne vous m&#234;lerai pas &#224; cela.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050302_JNK0010</td>
+        <td class="side">Rejoindre</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050302_SEL0011</td>
+        <td class="side">Lui dire que vous &#234;tes l&#224; pour l&#39;aider.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050302_JNK0020</td>
+        <td class="side">Expliquer</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050302_SEL0021</td>
+        <td class="side">Expliquer &#224; Ge Jewhe que Vi Sezha vous a [ST:Gender p1=envoy&#233; p2=envoy&#233;e ][ST:n ]pour l&#39;aider.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0004</td>
+        <td class="side">Cette vengeance ne regarde que mon peuple, humain.[ST:n ]Je ne laisserai pas [ST:Gender p1=un &#233;tranger p2=une &#233;trang&#232;re ] s&#39;y m&#234;ler.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0005</td>
+        <td class="side">Comment... ? Vi Sezha vous envoie ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0006</td>
+        <td class="side">Grr ! Je lui avais dit qu&#39;il valait mieux pour elle[ST:n ]qu&#39;elle m&#39;oublie ! Mais elle ne m&#39;&#233;coute jamais.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0007</td>
+        <td class="side">Vi Sezha vous envoie... ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0008</td>
+        <td class="side">Grr ! Je lui avais dit qu&#39;il valait mieux pour elle[ST:n ]qu&#39;elle m&#39;oublie ! Mais elle ne m&#39;&#233;coute jamais.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0009</td>
+        <td class="side">J&#39;ai vu bien trop d&#39;hommes et de femmes manipul&#233;s[ST:n ]par le Ganglion p&#233;rir inutilement. Je boirai[ST:n ]&#224; leur m&#233;moire le sang de nos ennemis.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0010</td>
+        <td class="side">Veuillez m&#39;excuser pour ce d&#233;rangement. Retournez voir[ST:n ]Vi Sezha et dites-lui que Ge Jewhe est morte[ST:n ]glorieusement.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050302_JNK0030</td>
+        <td class="side">Faire la morale</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050302_SEL0031</td>
+        <td class="side">Demander &#224; Ge Jewhe de prendre en compte[ST:n ]les sentiments de Vi Sezha.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050302_JNK0040</td>
+        <td class="side">Convaincre</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050302_SEL0041</td>
+        <td class="side">Persuader Ge Jewhe en usant de logique.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0011</td>
+        <td class="side">Vous ne savez pas le temps que j&#39;ai pass&#233;[ST:n ]&#224; prendre en consid&#233;ration Vi Sezha, humain.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0012</td>
+        <td class="side">Mais je ne peux vivre en sachant que l&#39;insulte[ST:n ]du Ganglion envers mon peuple reste impunie.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0013</td>
+        <td class="side">Vos paroles ne sont que preuves et d&#233;tails. Tout ce que[ST:n ]je sais, c&#39;est qu&#39;il existe une chose bien plus importante[ST:n ]que ma vie ou que les liens qui m&#39;unissent aux autres.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0014</td>
+        <td class="side">L&#39;insulte envers mon peuple doit &#234;tre punie ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0015</td>
+        <td class="side">Je suis une guerri&#232;re avant d&#39;&#234;tre une femme.[ST:n ]J&#39;emprunterai le chemin qui m&#232;ne &#224; la vengeance,[ST:n ]m&#234;me si cela signifie briser le cœur de Vi Sezha.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0016</td>
+        <td class="side">Je devrais me d&#233;faire imm&#233;diatement de ce bracelet,[ST:n ]suivre mon propre conseil et l&#39;oublier.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0017</td>
+        <td class="side">Une femme qui s&#39;appr&#234;te &#224; mourir n&#39;a que faire[ST:n ]des sentiments. J&#39;aimerais laisser mes regrets[ST:n ]derri&#232;re moi.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050302_MSG0018</td>
+        <td class="side">Vous devriez quitter ces lieux dangereux.[ST:n ]Cela pullule de Marnucks &#233;claireurs.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

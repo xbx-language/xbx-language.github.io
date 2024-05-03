@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0001</td>
+        <td class="side">Bienvenue ! Les d&#233;chets te d&#233;priment ? Les ordures[ST:n ]t&#39;oppressent ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0002</td>
+        <td class="side">Ne t&#39;en fais plus, mon pote de poubelles ![ST:n ]Notre humble centre de traitement des ordures[ST:n ]est l&#224; pour toi.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0003</td>
+        <td class="side">C&#39;est moi la directrice. Je m&#39;appelle Liza.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0083</td>
+        <td class="side">Alors, tu as quelque chose dont tu souhaites[ST:n ]te d&#233;barrasser ? Peu importe ce que tu nous ram&#232;nes,[ST:n ]nos incin&#233;rateurs &#224; haute temp&#233;rature s&#39;en chargeront ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0011</td>
+        <td class="side">Dire &#224; Liza que vous avez des choses dont vous[ST:n ]ne voulez plus.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0021</td>
+        <td class="side">Dire que tout va bien pour le moment.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0004</td>
+        <td class="side">Ah oui ? Je m&#39;en doutais. La plupart des agents du[ST:n ]BLADE ne sont pas du genre &#224; rester &#224; la maison[ST:n ]pour s&#39;occuper du m&#233;nage.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0005</td>
+        <td class="side">Oooh, voil&#224; quelqu&#39;un d&#39;organis&#233;. Une place pour[ST:n ]chaque chose et chaque chose &#224; sa place. J&#39;aime ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0006</td>
+        <td class="side">Les quartiers du BLADE d&#233;bordent de cochonneries[ST:n ]ramen&#233;es du dehors. Les agents sont de vrais &#233;cureuils.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0007</td>
+        <td class="side">D&#232;s qu&#39;on a ouvert, ils faisaient d&#233;j&#224; la queue[ST:n ]avec une collection d&#39;ordures impressionnante ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0008</td>
+        <td class="side">Vraiment, je ne sais pas o&#249; vous r&#233;ussissez &#224; d&#233;nicher[ST:n ]des trucs pareils.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0009</td>
+        <td class="side">Mais on est en sous-effectif donc si je n&#39;engage pas[ST:n ]quelqu&#39;un tr&#232;s vite, on va se faire d&#233;border ! Alors[ST:n ]humain ou alien, je m&#39;en fiche tant qu&#39;il est bon.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0010</td>
+        <td class="side">H&#233;, mais tu as l&#39;air de t&#39;y conna&#238;tre ! Je parie que[ST:n ]tu sais tout ce qu&#39;il y a &#224; savoir sur toutes ces races[ST:n ]qu&#39;on a rencontr&#233;es, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0011</td>
+        <td class="side">Du coup, est-ce que tu en connais une qui serait[ST:n ]qualifi&#233;e pour faire carri&#232;re dans le traitement[ST:n ]des ordures ? S&#39;il te pla&#238;t ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0030</td>
+        <td class="side">Sugg&#233;rer les Ma-nons</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0031</td>
+        <td class="side">Dire &#224; Liza que les Ma-nons seront parfaits.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0040</td>
+        <td class="side">Sugg&#233;rer les Nopons[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0041</td>
+        <td class="side">Dire &#224; Liza que les Nopons ont un talent inn&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0050</td>
+        <td class="side">Sugg&#233;rer les Zaruboggans</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0051</td>
+        <td class="side">Dire &#224; Liza que les Zaruboggans sont n&#233;s pour &#231;a.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0012</td>
+        <td class="side">Oh, ceux qui sont trop mignons l&#224; ? Oui, ils ont l&#39;air[ST:n ]vraiment dou&#233;s avec les machines et tout. &#199;a pourrait[ST:n ]coller.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0013</td>
+        <td class="side">Les grosses boules de poils ? Tu penses qu&#39;ils peuvent[ST:n ]s&#39;en sortir avec la manutention ? Hmm... Peut-&#234;tre[ST:n ]qu&#39;ils ont un superpouvoir cach&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0014</td>
+        <td class="side">Ceux qui sont trop flippants avec leurs masques ?[ST:n ]Ils sont tellement myst&#233;rieux. Tu penses vraiment qu&#39;on[ST:n ]peut... tu sais... leur faire confiance ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0015</td>
+        <td class="side">On dirait bien que je vais avoir des tas de recherches[ST:n ]&#224; faire durant mes longues heures de temps libre...[ST:n ]Ha ha ! Je plaisante. Je te fais confiance.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0016</td>
+        <td class="side">Je leur rendrai une petite visite pour voir si je ne peux[ST:n ]pas recruter quelqu&#39;un pour travailler sur le site.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0017</td>
+        <td class="side">Directrice terrestre ! J&#39;ai un message ! Trop d&#39;ordures[ST:n ]ont &#233;t&#233; amen&#233;es. J&#39;ai &#233;t&#233; d&#233;bord&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0018</td>
+        <td class="side">L&#39;unit&#233; de traitement s&#39;est mise en col&#232;re. Elle a crach&#233;[ST:n ]de la fum&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0019</td>
+        <td class="side">&#199;a a l&#39;air grave.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0020</td>
+        <td class="side">Mais qu&#39;est-ce que... Aaah ! Une surchauffe ! Quand...[ST:n ]Comment... Mais pourquoi as-tu attendu que &#231;a soit[ST:n ]aussi grave pour agir ?![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0021</td>
+        <td class="side">J&#39;ai fait beaucoup de choses. J&#39;ai frapp&#233; la machine[ST:n ]plein de fois. J&#39;ai pouss&#233; tr&#232;s fort les ordures coinc&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0022</td>
+        <td class="side">Pour l&#39;amour de... Pff... D&#39;accord, ce recrutement-l&#224;[ST:n ]n&#39;&#233;tait pas une tr&#232;s bonne id&#233;e. C&#39;est enti&#232;rement de[ST:n ]ma faute.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0023</td>
+        <td class="side">Bon, je vais essayer de vite trouver quelqu&#39;un d&#39;autre.[ST:n ]En attendant, tu vas m&#39;aider ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0024</td>
+        <td class="side">J&#39;ai besoin que tu te serves de FrontierNav et que[ST:n ]tu m&#39;apportes trois gros morceaux de minerai d&#39;&#233;tergel[ST:n ]pour servir de liquide de refroidissement, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0085</td>
+        <td class="side">Et si jamais tu as du mal &#224; en trouver, 10 morceaux[ST:n ]de cuivre jagitos feront l&#39;affaire.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0025</td>
+        <td class="side">Tu vas le faire, hein ? Parce que sinon, des liquides[ST:n ]toxiques vont se d&#233;verser dans la ville. Donc... voil&#224;.[ST:n ]Vaut mieux que tu t&#39;en charges.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0026</td>
+        <td class="side">&#201;videmment, le plus t&#244;t sera le mieux.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0027</td>
+        <td class="side">Argh, on est si proches du caf&#233;-restaurant. S&#39;il se fait[ST:n ]contaminer aussi, je vais me faire s&#233;v&#232;rement remonter[ST:n ]les bretelles...[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0059</td>
+        <td class="side">C&#39;est une tr&#232;s grosse crise. Probablement la deuxi&#232;me[ST:n ]plus grave que j&#39;aie eu &#224; g&#233;rer. Ou plut&#244;t la troisi&#232;me[ST:n ]si on compte la fois o&#249;... Bref.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0060</td>
+        <td class="side">Parfait ! Tu as ramen&#233; du minerai d&#39;&#233;tergel ?[ST:n ]Ou du cuivre jagitos sinon ? &#199;a ne va pas r&#233;gler[ST:n ]le probl&#232;me, mais &#231;a am&#233;liorera la situation...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0061</td>
+        <td class="side">La vache, c&#39;est froid ! Bien. &#199;a devrait baisser[ST:n ]la temp&#233;rature de l&#39;unit&#233; bousill&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0062</td>
+        <td class="side">Merci mille fois. J&#39;aimerais seulement que tout se passe[ST:n ]aussi bien de mon c&#244;t&#233;...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0063</td>
+        <td class="side">J&#39;ai r&#233;ussi &#224; trouver des candidats, mais quand je les[ST:n ]ai amen&#233;s, ils ont dit que c&#39;&#233;tait la mort assur&#233;e ici[ST:n ]et ils ont fui.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0064</td>
+        <td class="side">Bon, ils n&#39;ont pas tort. Mais il va bien falloir que [ST:n ]quelqu&#39;un se charge des salet&#233;s dangereuses qui[ST:n ]coulent partout. Je suis compl&#232;tement paum&#233;e...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0080</td>
+        <td class="side">Encourager</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0081</td>
+        <td class="side">Essayer de remonter le moral de Liza.</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0090</td>
+        <td class="side">R&#233;primander</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0091</td>
+        <td class="side">Pousser fermement Liza &#224; agir.</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0065</td>
+        <td class="side">Oui, voil&#224; ! Dis-moi encore des choses gentilles ![ST:n ]J&#39;en ai besoin ! Oh oui, encore... Continue...[ST:n ]Mmh...[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0066</td>
+        <td class="side">Nooon ! Si tu me cries dessus, je suis capable de tout[ST:n ]laisser tomber et de prendre mes jambes &#224; mon cou.[ST:n ]Je suis si sensible...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0067</td>
+        <td class="side">Voulez-vous vraiment contaminer toute la ville, Liza ?[ST:n ]Ne serait-ce pas pr&#233;f&#233;rable que cela... ne se produise[ST:n ]pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0068</td>
+        <td class="side">Et pourquoi avez-vous demand&#233; &#224; une brute prone[ST:n ]de s&#39;occuper d&#39;un appareil si d&#233;licat ? Ne vous avais-je[ST:n ]pas conseill&#233; de trouver quelqu&#39;un de plus comp&#233;tent ?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0069</td>
+        <td class="side">Hiii ! Conseiller technique Dazbeno ! Ne m&#39;accable[ST:n ]pas de reproches comme &#231;a, s&#39;il te pla&#238;t. Je suis d&#233;j&#224;[ST:n ]plong&#233;e dans une spirale infernale de honte.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0070</td>
+        <td class="side">Kchh. Aaah... La douce odeur de voltant m&#39;a conduit[ST:n ]jusqu&#39;ici. Quelle vue ![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0071</td>
+        <td class="side">Trachlo Lythren, j&#39;ai vraiment tr&#232;s envie de d&#233;voltantiser.[ST:n ]Kchh. D&#232;s que possible. Voire maintenant. Puis-je ?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0072</td>
+        <td class="side">D&#233;sol&#233;, je ne peux... pas me retenir ! Aaah !![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0073</td>
+        <td class="side">Mais qui sont ces tar&#233;s et qu&#39;est-ce qu&#39;ils font ?![ST:n ]Je veux dire, &#224; part me filer les p&#233;toches.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0074</td>
+        <td class="side">Attends... Quoi ?! Pince-moi je r&#234;ve ! Pourquoi[ST:n ]le taux de contamination est &#224; z&#233;ro maintenant ?[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0075</td>
+        <td class="side">Kchh... Ah... Tr&#232;s plaisant.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0076</td>
+        <td class="side">Je ne sais pas pourquoi il y avait tant de voltant[ST:n ]&#233;manant de cet endroit. Consid&#233;rons cela comme[ST:n ]un don de Golbogga. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0077</td>
+        <td class="side">Il est &#233;vident que nous devons louer Golbogga ! Kchh.[ST:n ]Bon, nous devrions y aller, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0078</td>
+        <td class="side">Diantre ! Ce sont eux qui ont fait &#231;a ?[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0100</td>
+        <td class="side">Confirmer</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0101</td>
+        <td class="side">Acquiescer et dire que vous en &#234;tes [ST:Gender p1=certain p2=certaine ].</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev060501_JNK0110</td>
+        <td class="side">R&#233;futer</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev060501_SEL0111</td>
+        <td class="side">Secouer la t&#234;te et dire que vous n&#39;en savez rien.</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0079</td>
+        <td class="side">Pur&#233;e ! Je dois vraiment les engager imm&#233;diatement ![ST:n ]Peu importe quelle magie ils ont utilis&#233;e, c&#39;est super[ST:n ]pratique ![ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0080</td>
+        <td class="side">Je vais au moins aller leur parler pour y voir plus clair.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0081</td>
+        <td class="side">Avec un peu de chance, ils seront les sauveurs de[ST:n ]mon service de traitement des ordures ![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0035</td>
+        <td class="side">Je vais essayer de trouver quelqu&#39;un en urgence[ST:n ]en attendant que tu ram&#232;nes de l&#39;&#233;tergel ou[ST:n ]du cuivre jagitos.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0036</td>
+        <td class="side">Tu m&#39;as parl&#233; des Ma-nons, c&#39;est &#231;a ? Cool.[ST:n ]Ils devraient savoir quoi faire pour s&#39;occuper de[ST:n ]ce bazar.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0037</td>
+        <td class="side">Je vais essayer de trouver quelqu&#39;un en urgence[ST:n ]en attendant que tu ram&#232;nes de l&#39;&#233;tergel ou[ST:n ]du cuivre jagitos.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev060501_MSG0038</td>
+        <td class="side">Tu m&#39;as parl&#233; des Nopons, c&#39;est &#231;a ? Je suppose[ST:n ]que je vais devoir parier sur leur potentiel incroyable.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

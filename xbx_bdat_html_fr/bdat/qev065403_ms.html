@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev065403_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0001</td>
+        <td class="side">J&#39;ai des amis qui font partie de cette &#233;quipe.[ST:n ]Tu dois les aider, je t&#39;en prie.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0002</td>
+        <td class="side">Et essaie de ne pas &#233;bruiter cette affaire, d&#39;accord ?[ST:n ]On ne veut pas causer de panique g&#233;n&#233;rale en ville.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0003</td>
+        <td class="side">Il vaut donc mieux qu&#39;il n&#39;y ait qu&#39;une petite &#233;quipe[ST:n ]qui se rende &#224; la forteresse nord.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0004</td>
+        <td class="side">Oh, tu es l&#39;agent du BLADE que Lara a [ST:Gender p1=recrut&#233; p2=recrut&#233;e ][ST:n ]pour nous aider ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0005</td>
+        <td class="side">H&#233; ! Calme-toi ! Je suis le v&#233;ritable Clemons,[ST:n ]pas l&#39;Illusiane aux infos pourries ![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0006</td>
+        <td class="side">Je ne m&#39;&#233;tais m&#234;me pas aper&#231;u qu&#39;on avait pris[ST:n ]mon apparence.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0007</td>
+        <td class="side">J&#39;&#233;tais en mission en dehors de la ville. Quand je suis[ST:n ]revenu, je me suis retrouv&#233; plong&#233; dans un cauchemar[ST:n ]bizarre.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0008</td>
+        <td class="side">Et maintenant, cette chose a pris l&#39;apparence[ST:n ]de Suriella ! En tout cas, je ne l&#39;ai pas vue par ici,[ST:n ]tu devrais peut-&#234;tre chercher ailleurs.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0009</td>
+        <td class="side">Attends, avant que tu partes...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0010</td>
+        <td class="side">J&#39;ai entendu quelqu&#39;un dire qu&#39;il avait vu un corps[ST:n ]dans la zone industrielle.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0011</td>
+        <td class="side">&#199;a pourrait avoir un rapport avec cette affaire.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0012</td>
+        <td class="side">Lara a dit qu&#39;il s&#39;y rendait. &#199;a vaut peut-&#234;tre[ST:n ]le coup de le rejoindre ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0013</td>
+        <td class="side">Tu pourrais... en apprendre plus.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev065403_MSG0014</td>
+        <td class="side">&#192; plus tard ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

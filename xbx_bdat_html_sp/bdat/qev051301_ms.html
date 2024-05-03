@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0001</td>
+        <td class="side">Me llena de j&#250;bilo que hay&#225;is venido,[ST:n ]como hab&#237;ais acordado.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0002</td>
+        <td class="side">Permitidme que os presente a mi se&#241;or, Adolphus.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0003</td>
+        <td class="side">Ojal&#225; tuvi&#233;ramos tiempo para tomar algo[ST:n ]y llegar a conocernos adecuadamente,[ST:n ]pero me temo que he de ir directamente al grano.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0004</td>
+        <td class="side">Han surgido nuevos rumores sobre el Tr&#237;o celeste.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0005</td>
+        <td class="side">Unos hombres est&#225;n... bueno, estaban custodiando[ST:n ]un acopio de oro blanco.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0006</td>
+        <td class="side">Estos hombres ya no est&#225;n vivos.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0007</td>
+        <td class="side">Su tesoro, sin embargo, permanece oculto[ST:n ]tras una puerta equipada con un formidable[ST:n ]sistema de seguridad, o eso es lo que dicen.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051301_JNK0010</td>
+        <td class="side">Asentir</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051301_SEL0011</td>
+        <td class="side">Di que es una historia que conoces bien.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051301_JNK0020</td>
+        <td class="side">Suponer</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051301_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Adolphus si piensa abrir esa puerta.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0008</td>
+        <td class="side">Tus fuentes de informaci&#243;n son excelentes.[ST:n ]Pareces ser el tipo de BLADE que necesito.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0009</td>
+        <td class="side">Sab&#237;a que Ga Bewhe me encontrar&#237;a [ST:Gender p1=un BLADE astuto p2=una BLADE astuta ],[ST:n ]y no me ha decepcionado.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0010</td>
+        <td class="side">Lo que nos lleva a mi propuesta.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0011</td>
+        <td class="side">Tendr&#225;s que reunir las cuatro llaves[ST:n ]necesarias para abrir la puerta.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0012</td>
+        <td class="side">A cambio, te pagar&#233; una m&#225;s que generosa[ST:n ]recompensa. &#191;Qu&#233; te parece cinco millones de cr&#233;ditos?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev051301_JNK0030</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev051301_SEL0031</td>
+        <td class="side">Acepta el trato.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev051301_JNK0040</td>
+        <td class="side">Negociar</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev051301_SEL0041</td>
+        <td class="side">Intenta sacarle m&#225;s dinero a Adolphus.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0013</td>
+        <td class="side">Siempre es un placer trabajar con gente sensata.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0014</td>
+        <td class="side">La cotizaci&#243;n del oro blanco siempre[ST:n ]ha sido considerablemente vol&#225;til, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0015</td>
+        <td class="side">Me esperaba lo peor al negociar el trato.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0016</td>
+        <td class="side">Parece que tenemos ante nosotros[ST:n ]a [ST:Gender p1=un hombre p2=una mujer ] de negocios.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0017</td>
+        <td class="side">Supongo que es el procedimiento[ST:n ]habitual en este tipo de situaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0018</td>
+        <td class="side">La cotizaci&#243;n del oro blanco es particularmente vol&#225;til,[ST:n ]incluso en comparaci&#243;n con otros metales preciosos.[ST:n ]Supongo que est&#225;s al corriente de este dato, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0019</td>
+        <td class="side">Comprendo tu deseo de conseguir un precio m&#225;s alto,[ST:n ]pero mi posici&#243;n ya es bastante comprometida.[ST:n ]Este es un riesgo que tenemos que correr juntos.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0020</td>
+        <td class="side">Lo que te puedo ofrecer es compartir[ST:n ]a partes iguales, lo cual es m&#225;s que justo.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0021</td>
+        <td class="side">T&#243;malo o d&#233;jalo.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0022</td>
+        <td class="side">Como dije, tendr&#225;s que reunir cuatro llaves en total.[ST:n ]Puedes comenzar la b&#250;squeda inmediatamente.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0023</td>
+        <td class="side">Espero noticias tuyas, y conf&#237;o en que sean buenas.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0024</td>
+        <td class="side">La pr&#243;xima vez que nos veamos, ser&#225; sin duda ante[ST:n ]la puerta acorazada. Anhelo impaciente el momento.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0025</td>
+        <td class="side">Y ahora, en lo que al paradero de las llaves[ST:n ]se refiere, podr&#237;a seros de cierta ayuda.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0026</td>
+        <td class="side">Si no me equivoco, ya est&#225;is[ST:n ]en posesi&#243;n de tres de ellas.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0027</td>
+        <td class="side">Mi se&#241;or a&#250;n no est&#225; al corriente de este dato[ST:n ]en concreto, pero no hab&#233;is de ocult&#225;rmelo a m&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0028</td>
+        <td class="side">Os escog&#237; para este quehacer precisamente[ST:n ]porque sab&#237;a que las pose&#237;ais.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0029</td>
+        <td class="side">Si entreg&#225;is esas tres, os revelar&#233;[ST:n ]el paradero de la cuarta.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0030</td>
+        <td class="side">Una propuesta enteramente beneficiosa, &#191;no cre&#233;is?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0031</td>
+        <td class="side">Lo &#250;nico que pido a cambio es una parte de vuestro[ST:n ]bot&#237;n. Sin duda, una opci&#243;n m&#225;s gozosa para ambas[ST:n ]partes que tomar vuestras llaves por la fuerza.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev051301_JNK0050</td>
+        <td class="side">Averiguar</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev051301_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Ga Bewhe por qu&#233; no le ha dicho[ST:n ]nada a Adolphus de las llaves.</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev051301_JNK0060</td>
+        <td class="side">Provocar</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev051301_SEL0061</td>
+        <td class="side">B&#250;rlate de Ga Bewhe por ser tan calculadora.</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0032</td>
+        <td class="side">Conf&#237;o en que pueda contar con vuestra discreci&#243;n,[ST:n ]por mor de mi confianza al incluiros en esta propuesta.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0033</td>
+        <td class="side">Los negocios de mi se&#241;or proporcionan ping&#252;es[ST:n ]beneficios, mas mi jornal contin&#250;a siendo una miseria.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0034</td>
+        <td class="side">Preciso tanto dinero como fuere posible[ST:n ]para aplacar la pobreza de mi gente.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0035</td>
+        <td class="side">Y por vuestra parte, recibir&#233;is una fortuna[ST:n ]por el nimio esfuerzo de hallar una mera llave m&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0036</td>
+        <td class="side">Nada m&#225;s lejos de la realidad, os lo aseguro.[ST:n ]Es mi se&#241;or el villano en esta historia.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0037</td>
+        <td class="side">Pero la influencia que ejerce lo torna inexpugnable.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0038</td>
+        <td class="side">Simplemente intento procurar riquezas para mejorar[ST:n ]las condiciones de vida de mi necesitado pueblo.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0039</td>
+        <td class="side">Indubitablemente es una m&#225;s que razonable[ST:n ]justificaci&#243;n, &#191;no cre&#233;is?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0040</td>
+        <td class="side">Ahora pues, en cuanto a la llave final...[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0041</td>
+        <td class="side">Por lo que trasciende, est&#225; en posesi&#243;n[ST:n ]de un BLADE que responde al nombre de Law.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0042</td>
+        <td class="side">Trabaja para un sujeto llamado Wang;[ST:n ]tengo razones para creer que su equipo[ST:n ]se encuentra actualmente en una misi&#243;n en Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0043</td>
+        <td class="side">Como [ST:Gender p1=compa&#241;ero p2=compa&#241;era ] BLADE que sois,[ST:n ]no tendr&#233;is problema para acercaros a ellos.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0044</td>
+        <td class="side">Por ventura, si os un&#237;s a ellos en su quehacer,[ST:n ]se presentar&#225; una oportunidad de adquirir la llave.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0045</td>
+        <td class="side">Dejo los medios a vuestro juicio. A nosotros lo que nos[ST:n ]importa es que la consig&#225;is.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev051301_MSG0046</td>
+        <td class="side">Os deseo buenaventura y &#233;xito en vuestra empresa.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

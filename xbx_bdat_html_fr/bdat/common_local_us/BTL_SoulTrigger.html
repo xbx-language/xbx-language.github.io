@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>BTL_SoulTrigger</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">Name</th>
+          <th>Caption</th>
+          <th>Priority</th>
+          <th>ExecB</th>
+          <th>Voice1</th>
+          <th>Voice2</th>
+          <th>Voice3</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Corps-&#224;-corps</td>
+        <td>S&#39;enclenche si vous commencez le combat au corps-&#224;-corps</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Attaque &#224; distance</td>
+        <td>S&#39;enclenche si vous commencez le combat &#224; distance</td>
+        <td>2</td>
+        <td>1</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Art d&#39;engagement</td>
+        <td>S&#39;enclenche si vous commencez le combat en ex&#233;cutant un art</td>
+        <td>1</td>
+        <td>1</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">PV en danger</td>
+        <td>S&#39;enclenche si vos PV descendent en dessous de 60 %</td>
+        <td>15</td>
+        <td>1</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">PV en p&#233;ril</td>
+        <td>S&#39;enclenche si vos PV descendent en dessous de 30 %</td>
+        <td>14</td>
+        <td>1</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Derniers mots</td>
+        <td>S&#39;enclenche si vous &#234;tes hors combat</td>
+        <td>3</td>
+        <td>1</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Poids lourd</td>
+        <td>S&#39;enclenche si vous portez un coup critique &#224; l&#39;ennemi</td>
+        <td>17</td>
+        <td>1</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">D&#233;membreur</td>
+        <td>S&#39;enclenche si vous d&#233;truisez un appendice de l&#39;ennemi</td>
+        <td>8</td>
+        <td>1</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Outsider</td>
+        <td>S&#39;enclenche si vous r&#233;duisez de moiti&#233; les PV d&#39;un ennemi massif</td>
+        <td>10</td>
+        <td>1</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Dans les r&#232;gles de l&#39;art</td>
+        <td>S&#39;enclenche si vous utilisez avec succ&#232;s l&#39;effet sp&#233;cial d&#39;un art</td>
+        <td>16</td>
+        <td>1</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">Aura</td>
+        <td>S&#39;enclenche si vous activez une aura en utilisant un art</td>
+        <td>13</td>
+        <td>1</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+          <details>
+            <summary>36 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#23">DEF_PcList#Player 4</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#65">DEF_PcList#DEF_CLASS_Assault</a>
+            <a href="DEF_PcList.html#66">DEF_PcList#DEF_CLASS_Command</a>
+            <a href="DEF_PcList.html#67">DEF_PcList#DEF_CLASS_Forcer</a>
+            <a href="DEF_PcList.html#68">DEF_PcList#DEF_CLASS_Spartan</a>
+            <a href="DEF_PcList.html#74">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#95">DEF_PcList#DEF_PC_CHK10_name</a>
+            <a href="DEF_PcList.html#96">DEF_PcList#DEF_PC_CHK11_name</a>
+            <a href="DEF_PcList.html#97">DEF_PcList#DEF_PC_CHK12_name</a>
+            <a href="DEF_PcList.html#98">DEF_PcList#DEF_PC_CHK13_name</a>
+            <a href="DEF_PcList.html#99">DEF_PcList#DEF_PC_CHK14_name</a>
+            <a href="DEF_PcList.html#100">DEF_PcList#DEF_PC_CHK15_name</a>
+            <a href="DEF_PcList.html#101">DEF_PcList#DEF_PC_CHK16_name</a>
+            <a href="DEF_PcList.html#102">DEF_PcList#DEF_PC_CHK17_name</a>
+            <a href="DEF_PcList.html#103">DEF_PcList#DEF_PC_CHK18_name</a>
+            <a href="DEF_PcList.html#104">DEF_PcList#DEF_PC_CHK19_name</a>
+          </details>
+        </td>
+        <td class="side">M&#233;tamode activ&#233;</td>
+        <td>S&#39;enclenche si vous activez le m&#233;tamode</td>
+        <td>4</td>
+        <td>1</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+          <details>
+            <summary>9 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+          </details>
+        </td>
+        <td class="side">Coup de gr&#226;ce</td>
+        <td>S&#39;enclenche si vous portez le coup de gr&#226;ce &#224; un ennemi</td>
+        <td>5</td>
+        <td>1</td>
+        <td>37</td>
+        <td>38</td>
+        <td>39</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+          <details>
+            <summary>5 refs</summary>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+          </details>
+        </td>
+        <td class="side">Intouchable</td>
+        <td>S&#39;enclenche si vous esquivez trois attaques d&#39;un ennemi</td>
+        <td>6</td>
+        <td>1</td>
+        <td>40</td>
+        <td>41</td>
+        <td>42</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+          <details>
+            <summary>8 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+          </details>
+        </td>
+        <td class="side">Encha&#238;nement critique</td>
+        <td>S&#39;enclenche si vous portez trois coups critiques &#224; la suite</td>
+        <td>6</td>
+        <td>1</td>
+        <td>43</td>
+        <td>44</td>
+        <td>45</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+          <details>
+            <summary>4 refs</summary>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+          </details>
+        </td>
+        <td class="side">M&#233;t&#233;o impr&#233;visible</td>
+        <td>S&#39;enclenche si la m&#233;t&#233;o change pendant le combat</td>
+        <td>7</td>
+        <td>1</td>
+        <td>46</td>
+        <td>47</td>
+        <td>48</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+          <details>
+            <summary>1 refs</summary>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+          </details>
+        </td>
+        <td class="side">Sprinteur</td>
+        <td>S&#39;enclenche si vous sprintez pendant trois secondes ou plus</td>
+        <td>7</td>
+        <td>1</td>
+        <td>49</td>
+        <td>50</td>
+        <td>51</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+          <details>
+            <summary>5 refs</summary>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+          </details>
+        </td>
+        <td class="side">Gu&#233;risseur</td>
+        <td>S&#39;enclenche si un alli&#233; masculin vous soigne ou vous soutient</td>
+        <td>18</td>
+        <td>1</td>
+        <td>52</td>
+        <td>53</td>
+        <td>54</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+          <details>
+            <summary>6 refs</summary>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+          </details>
+        </td>
+        <td class="side">Gu&#233;risseuse</td>
+        <td>S&#39;enclenche si un alli&#233; f&#233;minin vous soigne ou vous soutient</td>
+        <td>1</td>
+        <td>1</td>
+        <td>55</td>
+        <td>56</td>
+        <td>57</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+          <details>
+            <summary>8 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#6">DEF_PcList#Frye</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#11">DEF_PcList#Elma</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+            <a href="DEF_PcList.html#46">DEF_PcList#Elma</a>
+          </details>
+        </td>
+        <td class="side">Casse-cou</td>
+        <td>S&#39;enclanche en utilisant un art et si les PV sont inf&#233;rieurs &#224; 30 %</td>
+        <td>9</td>
+        <td>1</td>
+        <td>58</td>
+        <td>59</td>
+        <td>60</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+          <details>
+            <summary>5 refs</summary>
+            <a href="DEF_PcList.html#1">DEF_PcList#Nagi</a>
+            <a href="DEF_PcList.html#3">DEF_PcList#Lao</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+          </details>
+        </td>
+        <td class="side">Position dominante</td>
+        <td>S&#39;enclenche si vous attaquez un ennemi par le dessus</td>
+        <td>11</td>
+        <td>1</td>
+        <td>61</td>
+        <td>62</td>
+        <td>63</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+          <details>
+            <summary>6 refs</summary>
+            <a href="DEF_PcList.html#2">DEF_PcList#L</a>
+            <a href="DEF_PcList.html#4">DEF_PcList#H.B.</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+            <a href="DEF_PcList.html#19">DEF_PcList#Joueur 1</a>
+          </details>
+        </td>
+        <td class="side">Renverseur</td>
+        <td>S&#39;enclenche si vous infligez Chute &#224; un ennemi</td>
+        <td>8</td>
+        <td>1</td>
+        <td>64</td>
+        <td>65</td>
+        <td>66</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+          <details>
+            <summary>3 refs</summary>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+          </details>
+        </td>
+        <td class="side">Assommeur</td>
+        <td>S&#39;enclenche si vous infligez &#201;tourdissement &#224; un ennemi</td>
+        <td>10</td>
+        <td>1</td>
+        <td>67</td>
+        <td>68</td>
+        <td>69</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+          <details>
+            <summary>3 refs</summary>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#14">DEF_PcList#Irina</a>
+            <a href="DEF_PcList.html#15">DEF_PcList#La Sicaire</a>
+          </details>
+        </td>
+        <td class="side">Marchand de sable</td>
+        <td>S&#39;enclenche si vous infligez Sommeil &#224; un ennemi</td>
+        <td>10</td>
+        <td>1</td>
+        <td>70</td>
+        <td>71</td>
+        <td>72</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+          <details>
+            <summary>4 refs</summary>
+            <a href="DEF_PcList.html#10">DEF_PcList#Phog</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#13">DEF_PcList#Celica</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+          </details>
+        </td>
+        <td class="side">Immobilisateur</td>
+        <td>S&#39;enclenche si vous utilisez un Skell pour immobiliser un ennemi</td>
+        <td>8</td>
+        <td>0</td>
+        <td>73</td>
+        <td>74</td>
+        <td>75</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+          <details>
+            <summary>4 refs</summary>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#8">DEF_PcList#Yelv</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+          </details>
+        </td>
+        <td class="side">Skell endommag&#233;</td>
+        <td>S&#39;enclenche si un appendice du votre Skell est d&#233;truit</td>
+        <td>12</td>
+        <td>1</td>
+        <td>76</td>
+        <td>77</td>
+        <td>78</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+          <details>
+            <summary>5 refs</summary>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#7">DEF_PcList#Doug</a>
+            <a href="DEF_PcList.html#9">DEF_PcList#Bozé</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#17">DEF_PcList#Hope</a>
+          </details>
+        </td>
+        <td class="side">Skell d&#233;truit</td>
+        <td>S&#39;enclenche si votre Skell est d&#233;truit et retir&#233; du combat</td>
+        <td>3</td>
+        <td>0</td>
+        <td>79</td>
+        <td>80</td>
+        <td>81</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+          <details>
+            <summary>4 refs</summary>
+            <a href="DEF_PcList.html#5">DEF_PcList#Gwen</a>
+            <a href="DEF_PcList.html#12">DEF_PcList#Lin</a>
+            <a href="DEF_PcList.html#16">DEF_PcList#Alexa</a>
+            <a href="DEF_PcList.html#18">DEF_PcList#Mia</a>
+          </details>
+        </td>
+        <td class="side">&#192; sec !</td>
+        <td>S&#39;enclenche si la jauge de carburant est &#224; moins de 30 %</td>
+        <td>13</td>
+        <td>1</td>
+        <td>82</td>
+        <td>83</td>
+        <td>84</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

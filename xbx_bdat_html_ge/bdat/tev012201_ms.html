@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev012201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev012201_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0011</td>
+        <td class="side">Erkundige dich bei Powell nach den Einwohnern NLAs.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev012201_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0021</td>
+        <td class="side">Frage Powell, ob ihn etwas bedr&#252;ckt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0031</td>
+        <td class="side">Frage Powell, was er von den Ma-non h&#228;lt.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0051</td>
+        <td class="side">Frage Powell nach seiner Meinung zu den Mimoiden.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0061</td>
+        <td class="side">Frage Powell, was sich in letzter Zeit so alles getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0001</td>
+        <td class="side">Beim Angriff, der den Wei&#223;en Wal abst&#252;rzen lie&#223;,[ST:n ]haben wir ’nen Haufen Crewmitglieder verloren.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0002</td>
+        <td class="side">Diese Stadt, unser neues Zuhause, ist viel zu gro&#223; f&#252;r[ST:n ]uns. Selbst die &#220;berlebenden, die wir ab und zu finden,[ST:n ]sind nur ein Tropfen auf den hei&#223;en Stein.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0003</td>
+        <td class="side">Das bedeutet f&#252;r Army Pizza nat&#252;rlich auch, dass wir[ST:n ]viel zu wenige Kunden haben und die Verkaufszahlen[ST:n ]mehr als mickrig sind.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0004</td>
+        <td class="side">Auf der anderen Seite haben meine Frau und ich so[ST:n ]mehr Zeit, uns neue Rezepte auszudenken, w&#228;hrend[ST:n ]wir auf Kunden warten. Ist aber nicht wirklich ein Trost.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0005</td>
+        <td class="side">Kannst du uns mit deinen BLADE-Kumpels nicht helfen?[ST:n ]Ihr k&#246;nntet zum Beispiel eure Hintern in Bewegung[ST:n ]setzen und nach weiteren &#220;berlebenden suchen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0008</td>
+        <td class="side">Ich sag’s dir, ein Gesch&#228;ft zu f&#252;hren ist auch nicht mehr[ST:n ]das, was es mal war. Unser gr&#246;&#223;tes Problem sind[ST:n ]heutzutage die Stra&#223;enverh&#228;ltnisse in NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0009</td>
+        <td class="side">Wir bei Army Pizza br&#252;sten uns ja damit, dass wir[ST:n ]unsere Pizzas in unter 30 Minuten liefern.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0010</td>
+        <td class="side">Allerdings sind die meisten Stra&#223;en im Wohngebiet[ST:n ]noch nicht miteinander verbunden, sodass die Lieferung[ST:n ]in vielen F&#228;llen wesentlich l&#228;nger dauert.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0011</td>
+        <td class="side">Camilla, meine Frau, arbeitet wie besessen. Je besser[ST:n ]das Gesch&#228;ft l&#228;uft, umso schwerer wird es f&#252;r sie. Der[ST:n ]Job macht sie noch fix und fertig![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0012</td>
+        <td class="side">Ich wei&#223;, dass ihr BLADEs da drau&#223;en st&#228;ndig neue[ST:n ]Wege erschlie&#223;t, aber es w&#228;r echt sch&#246;n, wenn man[ST:n ]sich mehr auf die Stra&#223;en in NLA konzentrieren w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0020</td>
+        <td class="side">Tut mir leid, [ST:Gender p1=Kumpel p2=Lady ], aber wenn du ’ne Pizza Granata[ST:n ]m&#246;chtest, musst du dich gedulden.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0021</td>
+        <td class="side">Oh, dich interessiert meine Meinung zu den Ma-non?[ST:n ]Hm, ich kann nicht viel &#252;ber sie sagen, aber eins wei&#223;[ST:n ]ich... Die Kerlchen LIEBEN Pizza! Ohne Ausnahme![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0022</td>
+        <td class="side">Die stehen von morgens bis abends hier Schlange und[ST:n ]betteln um eine Pizza wie ein Verdurstender um ’nen[ST:n ]Schluck Wasser.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0023</td>
+        <td class="side">Wie du siehst, laufen die Gesch&#228;fte bei Army Pizza[ST:n ]super. Fast schon ZU gut! Ich komme kaum mit den[ST:n ]Bestellungen hinterher.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0024</td>
+        <td class="side">Meine Frau und ich sind nur noch am Schuften, seit die[ST:n ]Ma-non in NLA sind. Da ist nicht mal mehr Zeit f&#252;r[ST:n ]’ne Pause.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0025</td>
+        <td class="side">Hey, wenn du grad nichts vorhast, k&#246;nntest du Camilla[ST:n ]und mir zur Hand gehen, oder? W&#228;re doch ’ne tolle[ST:n ]Gelegenheit, deinen Sold aufzubessern.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0028</td>
+        <td class="side">Einer unserer Stammg&#228;ste, Gerome, macht mir ein[ST:n ]wenig Sorgen. Der hat wohl was gegen Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0029</td>
+        <td class="side">Der setzt sich immer in die hinterste Ecke und... starrt[ST:n ]sie einfach nur hasserf&#252;llt an.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0030</td>
+        <td class="side">Ich wei&#223; ja, dass er einiges durchgemacht hat, als die[ST:n ]Xenos die Erde angegriffen haben. Aber das ging uns[ST:n ]doch allen so, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0031</td>
+        <td class="side">Immer, wenn ich ihn darauf anspreche und ihm sage,[ST:n ]dass er da doch endlich mal dr&#252;ber wegkommen muss,[ST:n ]wird er gleich ausfallend.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0032</td>
+        <td class="side">Hey, dieser Planet ist die letzte Zuflucht der Menschheit![ST:n ]Er muss doch endlich einsehen, dass er sich[ST:n ]zusammenrei&#223;en und das Beste draus machen muss.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0040</td>
+        <td class="side">Ich hab geh&#246;rt, dass sie Mimoiden, die durch[ST:n ]Selbstmord kaputtgehen, nicht reparieren. Laut offizieller[ST:n ]Aussage um „die W&#252;nsche der Person zu respektieren“.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0041</td>
+        <td class="side">Das ist aber nur Gew&#228;sch. Tats&#228;chlich wollen die nur[ST:n ]keine Ersatzteile f&#252;r... solche Leute verschwenden.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0042</td>
+        <td class="side">Was f&#252;r ein Bl&#246;dsinn! Solange wir noch am Leben[ST:n ]sind, sollte jeder die Chance auf einen neuen Start[ST:n ]haben![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0043</td>
+        <td class="side">Sollten wir da nicht irgendwie ein Gesetz einf&#252;hren?[ST:n ]Dass jeder ein Mal „wiederbelebt“ wird?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0047</td>
+        <td class="side">Vor Kurzem habe ich... Ich...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0048</td>
+        <td class="side">Ach, vergiss es. Passt schon.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0049</td>
+        <td class="side">Wie geht’s eigentlich Gerome? Alles klar bei dem?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0050</td>
+        <td class="side">Er l&#228;sst sich nicht mehr oft im Restaurant blicken, seit[ST:n ]da so viele Ma-non essen.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0051</td>
+        <td class="side">W&#228;re sch&#246;n, wenn er mal wieder reinschaut. Er war[ST:n ]einer meiner wenigen menschlichen Stammkunden.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

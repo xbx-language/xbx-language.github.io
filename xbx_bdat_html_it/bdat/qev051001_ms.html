@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0001</td>
+        <td class="side">AAARRRGHHH! NO! Questo rottame[ST:n ]non &#232; la lama che avrei voluto creare![ST:n ]Dov&#39;&#232; che sto sbagliando?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0002</td>
+        <td class="side">Forse sono le mie scarse abilit&#224;? La qualit&#224; dell&#39;acciaio?[ST:n ]O magari qualche mancanza del mio apprendista?[ST:n ]Beh, esponi il tuo pensiero, Gi Nagri![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0003</td>
+        <td class="side">Cosa? I-io, signore?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0004</td>
+        <td class="side">Se TU fossi il responsabile, non esiterei un sol istante a[ST:n ]porre rimedio al problema! Anche questa lama guasta[ST:n ]potrebbe fendere in due un essere debole come te![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0005</td>
+        <td class="side">M-maestro, calmatevi, vi prego![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0006</td>
+        <td class="side">Sono anni che lavoro l&#39;acciaio cercando di creare una[ST:n ]lama affilata come un rasoio e di adamantina[ST:n ]resistenza. Codesto &#232; il decimillesimo tentativo![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0007</td>
+        <td class="side">Non puoi pretendere che rimanga calmo dopo[ST:n ]aver versato il mio animo in ciascuno di questi[ST:n ]diecimila freddi corpi d&#39;acciaio![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0008</td>
+        <td class="side">Ehi, tu! [ST:Gender p1=Umano p2=Umana ]! Se ti trovassi nella mia situazione,[ST:n ]saresti in preda a deliri di rabbia anche tu, non credi?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0010</td>
+        <td class="side">Fatti coinvolgere</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0011</td>
+        <td class="side">Parla con il curioso Wrothian.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0020</td>
+        <td class="side">Evita</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0021</td>
+        <td class="side">Mantieni le distanze dal fabbro arrabbiato.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0009</td>
+        <td class="side">Conosco bene quello sguardo. Non ho bisogno[ST:n ]di ulteriori spiegazioni, [ST:Gender p1=umano p2=umana ].[ST:n ]Ho capito perfettamente![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0010</td>
+        <td class="side">Anche il qui presente Gi Nagri aveva lo stesso[ST:n ]atteggiamento d&#39;adulazione nel suo primo[ST:n ]giorno come apprendista.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0011</td>
+        <td class="side">Sembra che noi geni siamo in grado di attirare[ST:n ]persone solamente con la nostra presenza.[ST:n ]Non &#232; cosa semplice da gestire.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0012</td>
+        <td class="side">Il fuoco della fucina che arde dentro me &#232; tale[ST:n ]da spaventare financo i miei compagni Wrothian![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0013</td>
+        <td class="side">&#200; perfettamente comprensibile che tu mi tema.[ST:n ]Che tu sia senza parole e [ST:Gender p1=turbato p2=turbata ]. E anche [ST:Gender p1=invidioso p2=invidiosa ]...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0014</td>
+        <td class="side">E cos&#236; sia! Ti permetter&#242; di aiutarmi[ST:n ]nel raggiungere il mio pi&#249; grande sogno![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0015</td>
+        <td class="side">Ho passato gli ultimi quaranta anni lavorando[ST:n ]l&#39;acciaio per forgiare una Spada indistruttibile.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0016</td>
+        <td class="side">Una spada che non si sciogliesse se immersa nella[ST:n ]lava, che non si frantumasse se colpita da una stella[ST:n ]cadente. Ma per ora esiste solo nella mia mente.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0017</td>
+        <td class="side">Ma pensa se esistesse anche nella realt&#224;![ST:n ]Non senti gi&#224; il tuo cuore galoppare?[ST:n ]Il tuo animo cantare?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0018</td>
+        <td class="side">Andiamo, adesso! Prendi la mia mano, e forgiamo[ST:n ]insieme questa spada del destino![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0019</td>
+        <td class="side">E il giorno in cui la spada verr&#224; alla luce, ti aspetter&#224;[ST:n ]una lauta ricompensa. E ricorda, la mia parola[ST:n ]&#232; solida come l&#39;acciaio.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0020</td>
+        <td class="side">Splendido! Da questo momento sarai la mia[ST:n ]incudine e il mio martello. Mi aiuterai[ST:n ]con anima, corpo e cuore.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0021</td>
+        <td class="side">Inizierai chiedendo al fabbro Ma-non, Neraph,[ST:n ]quale sia il metallo pi&#249; resistente su Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0022</td>
+        <td class="side">&#200; sapiente, ma troppo impressionabile. La mia presenza[ST:n ]la terrorizza. Fugge via ogniqualvolta[ST:n ]tento di farle visita.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0023</td>
+        <td class="side">Ah ah ah! Ma sono sicuro che accoglierebbe a braccia[ST:n ]aperte una persona come te, con le tue fattezze[ST:n ]straordinariamente mediocri.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0030</td>
+        <td class="side">Neraph forgia corazze per gli Skell. Sar&#224; certamente[ST:n ]a conoscenza di informazioni sull&#39;acciaio[ST:n ]pi&#249; duro di Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0031</td>
+        <td class="side">Deve nascondersi da qualche parte qua attorno.[ST:n ]Usa ogni mezzo necessario per appropriarti[ST:n ]di codesta informazione![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0032</td>
+        <td class="side">Gi Nagri! La tua forgiatura manca di passione![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0033</td>
+        <td class="side">Quando colpisci la lama, &#232; come se[ST:n ]tu stessi inculcando l&#39;insieme delle[ST:n ]tue esperienze in quell&#39;acciaio![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0034</td>
+        <td class="side">Una fragile determinazione non pu&#242; che risultare in[ST:n ]un fragile acciaio, ragazzo. Lascia che il peso del tuo[ST:n ]passato gravi su ogni colpo! Scatena il tuo dolore![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0035</td>
+        <td class="side">S-sissignore! Ho sbagliato, signore! Cercher&#242;[ST:n ]di migliorare! Nella mia vita in generale, signore![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0036</td>
+        <td class="side">S&#236;. Bene. Migliora la tua vita![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0037</td>
+        <td class="side">Mmmh? Cosa stai facendo l&#224; immobile?[ST:n ]Sei anche tu qui per imparare[ST:n ]l&#39;arte della forgiatura?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0030</td>
+        <td class="side">Conferma</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0031</td>
+        <td class="side">Annuisci mentre i tuoi occhi brillano di impazienza.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0040</td>
+        <td class="side">Nega</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0041</td>
+        <td class="side">Di&#39; a De Zing che hai recuperato le informazioni[ST:n ]sull&#39;Ultracciaio da Neraph.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0038</td>
+        <td class="side">Eccellente! Sapevo che c&#39;era qualcosa di speciale in te![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0039</td>
+        <td class="side">Ma queste abilit&#224; sono segrete. Dovrai guadagnartele[ST:n ]con il sudore della tua fronte e molto olio di gomito![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0040</td>
+        <td class="side">Cosa? Neraph ti ha insegnato[ST:n ]come fondere l&#39;Ultracciaio?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0041</td>
+        <td class="side">Eh eh. Coraggio, [ST:Gender p1=umano p2=umana ]. Non temere.[ST:n ]La verit&#224; sar&#224; come una liberazione.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0042</td>
+        <td class="side">Ma capisco come il mio genio innato sia fonte[ST:n ]di gelosia per molti. &#200; naturale che tu voglia[ST:n ]sdegnarmi per preservare il tuo delicato orgoglio.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0043</td>
+        <td class="side">Beh, non importa. Svelami i segreti[ST:n ]della fusione dell&#39;Ultracciaio.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0044</td>
+        <td class="side">Mmmh, s&#236;... S&#236;, capisco. Cinabro scuro[ST:n ]e Precipietra Zagyrin. Che lega magnifica![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0045</td>
+        <td class="side">Ah! S&#236;, adesso capisco. Unendo le loro propriet&#224;,[ST:n ]&#232; possibile forgiare una lama in grado di fendere[ST:n ]qualsiasi cosa senza spezzarsi![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0046</td>
+        <td class="side">Bene, [ST:playername ]! Come prossimo[ST:n ]passo, dovrai procurarmi questi materiali.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0047</td>
+        <td class="side">Nel frattempo, rimarr&#242; qui a meditare sulla met&#224;[ST:n ]della mia vita che ho passato come fabbro...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0048</td>
+        <td class="side">Devo essere pronto a infondere tutto il mio essere[ST:n ]in questo acciaio. Anche per un genio come me,[ST:n ]questa non &#232; impresa da poco.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0049</td>
+        <td class="side">Ho passato quaranta anni cercando[ST:n ]assiduamente di creare la spada perfetta.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0050</td>
+        <td class="side">Cinabro scuro e Precipietra Zagyrin, [ST:Gender p1=uomo p2=donna ]![ST:n ]Quando me li avrai portati, potr&#242; realizzare[ST:n ]il mio sogno con le mie stesse mani.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0051</td>
+        <td class="side">Eccoti qua, alla fine.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0052</td>
+        <td class="side">Mmmh... Dopo aver scandagliato le profondit&#224; della[ST:n ]mia anima forgiatrice, ho raggiunto la soglia[ST:n ]dell&#39;illuminazione. Portami i materiali. Sono pronto.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0053</td>
+        <td class="side">La Spada indistruttibile da sempre mi elude[ST:n ]come fosse avvolta da una densa nebbia.[ST:n ]Ma adesso ho scorto la sua vera forma![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0054</td>
+        <td class="side">Condenser&#242; met&#224; della mia vita nella creazione[ST:n ]di questo capolavoro. Forger&#242; la spada perfetta[ST:n ]nel fuoco ardente della mia passione![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0050</td>
+        <td class="side">Informati</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0051</td>
+        <td class="side">Chiedi pi&#249; informazioni sulla passione di De Zing.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0060</td>
+        <td class="side">Pretendi</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0061</td>
+        <td class="side">Di&#39; a De Zing che &#232; l&#39;ora di ricompensare il tuo lavoro.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0055</td>
+        <td class="side">[ST:Gender p1=Curioso p2=Curiosa ], eh? Dato che il tuo aiuto mi &#232; stato[ST:n ]indispensabile, ritengo che tu abbia guadagnato[ST:n ]il diritto di saperlo. Te lo dir&#242;, come dono speciale.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0056</td>
+        <td class="side">Sono guidato da una ragione molto[ST:n ]complessa, pur nella sua semplicit&#224;...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0057</td>
+        <td class="side">Le spade sono GRANDIOSE! Le amo.[ST:n ]Soprattutto quando brandite in coppia.[ST:n ]Non c&#39;&#232; niente di equiparabile.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0058</td>
+        <td class="side">Perci&#242;, non appena potr&#242;, dovr&#242; forgiare una seconda[ST:n ]Spada indistruttibile. In tal modo, potr&#242; ideare[ST:n ]delle mosse speciali e dare loro un nome.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0059</td>
+        <td class="side">Cosa? Perch&#233; quello sguardo? Non vorrai[ST:n ]sottovalutare la passione che ha guidato[ST:n ]la mia carriera per quaranta anni?[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0060</td>
+        <td class="side">No? Vuoi solo una ricompensa?[ST:n ]Mmmh... Beh, in effetti, tale era[ST:n ]il nostro accordo. Molto bene.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0061</td>
+        <td class="side">Mmmh... Beh, in effetti, tale era[ST:n ]il nostro accordo. Molto bene.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0062</td>
+        <td class="side">L&#39;unico inconveniente &#232; che non ho denaro. Ho vissuto[ST:n ]come eremita per tutti questi anni. Fare il fabbro &#232; una[ST:n ]mia impresa personale, pi&#249; che un&#39;attivit&#224; redditizia.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0063</td>
+        <td class="side">Ma con questo non intendo dire che[ST:n ]ti ho ingannato. Non appena avr&#242; forgiato[ST:n ]la Spada indistruttibile, sar&#242; inarrestabile![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0064</td>
+        <td class="side">Tutte le bestie di Cauldros cadranno dinnanzi a me![ST:n ]In men che non si dica, guadagner&#242; soldi[ST:n ]a sufficienza per onorare il mio debito.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0065</td>
+        <td class="side">Gi Nagri! Prepara la fucina, all&#39;istante![ST:n ]C&#39;&#232; del lavoro che ci aspetta![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0066</td>
+        <td class="side">Sissignore! Dopo mille difficolt&#224;, daremo[ST:n ]finalmente forma al vostro sogno![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0067</td>
+        <td class="side">La Spada indistruttibile... Ci stiamo imbarcando[ST:n ]nella creazione della spada pi&#249; grandiosa[ST:n ]che sia mai stata forgiata![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

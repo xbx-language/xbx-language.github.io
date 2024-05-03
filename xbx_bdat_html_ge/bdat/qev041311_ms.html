@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041311_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0001</td>
+        <td class="side">Wie viele P&#228;ckchen MiraMonsterMix-Karten ich auch[ST:n ]kaufe, nie finde ich eine Goldene Nopopotamus-Karte,[ST:n ]wei&#223;t du? Ob es die &#252;berhaupt gibt?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0002</td>
+        <td class="side">Schon wieder nichts? Seufz. So, so frustrierend...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0003</td>
+        <td class="side">&#196;hm, hallo? Du hast nicht zuf&#228;llig die Silberne[ST:n ]Mortifole-Karte, oder doch? Die suche ich schon ewig.[ST:n ]Wir k&#246;nnten tauschen, ja? Ich hab noch eine...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0004</td>
+        <td class="side">Oh! Ich hab leider... gar nichts. T-tut mir leid, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0005</td>
+        <td class="side">Oder hast du Interesse an dieser brandneuen[ST:n ]Ma-non-Jagdausr&#252;stung, die ich entwickelt hab?[ST:n ]Vielleicht? Du hast doch die Karte, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0010</td>
+        <td class="side">Yippiiie! Mortifolen sind einfach super, nicht wahr?[ST:n ]Wenn ich mal gefressen werde, dann aber bitte von[ST:n ]einer Mortifole! Sooo liebenswert, findest du nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0011</td>
+        <td class="side">Oh, aber wir sind uns einig, oder nicht?[ST:n ]Dann ist ja gut! Ich pr&#228;sentiere – deinen neuen[ST:n ]treuen Begleiter, die Ma-non-Jagdausr&#252;stung![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0012</td>
+        <td class="side">Aber bitte nimm den Namen nicht zu w&#246;rtlich, ja?[ST:n ]Das Set ist nicht zur Ma-non-Jagd bestimmt![ST:n ]Ansonsten tob dich ruhig aus, okay?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0013</td>
+        <td class="side">Ach so... Nein, nein! &#220;berhaupt kein Problem![ST:n ]Entschuldige die St&#246;rung, ja?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev012202_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0001</td>
+        <td class="side">On y est ! Je suis bien contente de revoir ma petite[ST:n ]fifille...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0002</td>
+        <td class="side">Je m&#39;occupe des r&#233;parations, chef ! Laisse-moi juste[ST:n ]une seconde...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0003</td>
+        <td class="side">Oh, et essaie de pas trop pleurer en voyant ta prot&#233;g&#233;e[ST:n ]s&#39;&#233;loigner vers le soleil couchant sur son Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0004</td>
+        <td class="side">Bien, il est temps de s&#39;y mettre ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0008</td>
+        <td class="side">Et voil&#224; !! Elle est comme neuve.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0009</td>
+        <td class="side">Je suis une rapide, hein ? Quand je travaillais dans[ST:n ]l&#39;&#233;quipe technique, on m&#39;appelait Mia l&#39;&#233;clair.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0010</td>
+        <td class="side">Super ! Tous les voyants sont au vert...[ST:n ]Visibilit&#233; parfaite.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0011</td>
+        <td class="side">Merci pour ton aide, chef ! Ma fid&#232;le monture est de[ST:n ]retour et pr&#234;te pour l&#39;aventure ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev012202_JNK0010</td>
+        <td class="side">Observer</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev012202_SEL0011</td>
+        <td class="side">Regarder Mia partir.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev012202_JNK0020</td>
+        <td class="side">L&#39;arr&#234;ter</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev012202_SEL0021</td>
+        <td class="side">Demander &#224; Mia une r&#233;compense pour votre aide.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0012</td>
+        <td class="side">Et... D&#233;part en trombe ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0013</td>
+        <td class="side">Oh, c&#39;est pas vrai ?! On m&#39;a encore tir&#233; dessus ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0014</td>
+        <td class="side">Mais qu&#39;est-ce que j&#39;ai bien pu leur faire &#224; ces types ?[ST:n ]Ils ont vraiment du mal &#224; g&#233;rer leur col&#232;re...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0015</td>
+        <td class="side">Oh, mais cette fois, je me suis pas content&#233;e de rester[ST:n ]plant&#233;e l&#224; comme un pigeon. Oh que non.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0016</td>
+        <td class="side">Cette fois-ci, j&#39;ai identifi&#233; la provenance des tirs.[ST:n ]Ils venaient d&#39;une tourelle dans ce fort, droit devant ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0017</td>
+        <td class="side">On dirait que je ne d&#233;collerai pas d&#39;ici avant d&#39;avoir[ST:n ]r&#233;gl&#233; ce probl&#232;me...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0018</td>
+        <td class="side">C&#39;est l&#39;heure de mettre au point un plan infaillible pour[ST:n ]d&#233;truire ce fort ! Et boum ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0019</td>
+        <td class="side">Mais bon, &#231;a pourrait &#234;tre dur maintenant que mon[ST:n ]Skell est fichu. Une nouvelle fois...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0020</td>
+        <td class="side">Mais restons optimistes ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0021</td>
+        <td class="side">Les d&#233;g&#226;ts ne sont pas si terribles, et il me reste des[ST:n ]pi&#232;ces de rechange pour la r&#233;paration.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0022</td>
+        <td class="side">Je m&#39;y mets de ce pas ! Oh, et si jamais tu as du[ST:n ]temps &#224; tuer et... oh, je sais pas, tu peux... r&#233;duire ce[ST:n ]fort en cendres ? Ben ce serait super.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0023</td>
+        <td class="side">Le travail d&#39;&#233;quipe triomphera, chef ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0024</td>
+        <td class="side">Notre travail d&#39;&#233;quipe ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0025</td>
+        <td class="side">Euh... Qu&#39;est-ce qui s&#39;est pass&#233; ? Ils t&#39;ont coll&#233;[ST:n ]une racl&#233;e ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0026</td>
+        <td class="side">Pfiou... Faut pas me faire peur comme &#231;a ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0027</td>
+        <td class="side">Les r&#233;parations se passent bien. J&#39;ai juste besoin d&#39;un[ST:n ]peu plus de temps.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev012202_MSG0028</td>
+        <td class="side">Je vais continuer &#224; faire de mon mieux, O.K. ?[ST:n ]Fais-en de m&#234;me, chef ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

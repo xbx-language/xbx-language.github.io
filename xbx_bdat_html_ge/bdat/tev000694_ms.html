@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000694_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0001</td>
+        <td class="side">Hey, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0002</td>
+        <td class="side">Komm her, sto&#223; mit uns an. Mein neuer wrothianischer[ST:n ]Kumpel und ich wollten uns gerade die Kante geben.[ST:n ]H&#228;ttest mal h&#246;ren sollen, was er gerade erz&#228;hlt hat![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0003</td>
+        <td class="side">Als erstgeborener Sohn einer wrothianischen Familie hat[ST:n ]man echt schlechte Karten! Die m&#252;ssen da die Familien-[ST:n ]schwertkunst weiterf&#252;hren, ob sie wollen oder nicht.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0004</td>
+        <td class="side">Ich war auch nie gern der &#228;lteste Sohn. Das hei&#223;t, es[ST:n ]war okay, bis irgendwann pl&#246;tzlich alle ankamen und[ST:n ]wollten, dass ich mich wie ein &#228;lterer Bruder benehme.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0005</td>
+        <td class="side">Und dann war mein kleiner Bruder auch noch in allem[ST:n ]besser als ich. Wegen dem Vogel bin ich heute[ST:n ]verbittert ohne Ende und h&#228;ng an der Flasche.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0006</td>
+        <td class="side">Jetzt sag du doch mal. Was w&#228;rst du lieber?[ST:n ]Ein &#228;lterer Bruder oder ein j&#252;ngerer Bruder?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000694_JNK0010</td>
+        <td class="side">&#196;lter</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000694_SEL0011</td>
+        <td class="side">Sage, dass du lieber ein &#228;lterer Bruder w&#228;rst.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000694_JNK0020</td>
+        <td class="side">J&#252;nger</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000694_SEL0021</td>
+        <td class="side">Sage, dass du lieber ein j&#252;ngerer Bruder w&#228;rst.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000694_JNK0030</td>
+        <td class="side">Keiner von beiden</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000694_SEL0031</td>
+        <td class="side">Erkl&#228;re, dass du Geschwister[ST:n ]generell schrecklich findest.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0007</td>
+        <td class="side">Ha! Willst es auf die harte Tour, was? So wie ich und[ST:n ]der Kollege hier.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0008</td>
+        <td class="side">Hmpf. Ich wette ja, j&#252;ngere Br&#252;der behaupten,[ST:n ]dass sie’s schwerer haben als wir. Aber – nur mal[ST:n ]ein Beispiel jetzt![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0009</td>
+        <td class="side">Schulnoten![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0010</td>
+        <td class="side">Ich hatte immer &#252;berall ordentliche B-Minusse![ST:n ]...Also, &#228;h, mehr oder weniger.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0011</td>
+        <td class="side">Und dann kam Phog an und hatte pl&#246;tzlich &#252;berall[ST:n ]A-Plusse! Und die ganze Verwandtschaft hat sich[ST:n ]vor lauter Lob kaum noch eingekriegt![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0012</td>
+        <td class="side">„Was f&#252;r ein Musterknabe! Er ist ja viel schlauer[ST:n ]als Frye!“ Und was wei&#223; ich noch alles![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0013</td>
+        <td class="side">Haben mich einfach anhand meiner uralten Tests mit[ST:n ]Phog verglichen! War denen v&#246;llig egal, was ich[ST:n ]seitdem alles geleistet hab.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0014</td>
+        <td class="side">Aber was h&#228;tte ich schon tun sollen? Mich aufregen?[ST:n ]Da h&#228;tte ich mich nur l&#228;cherlich gemacht.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0015</td>
+        <td class="side">Also hab ich meine ganze Verbitterung angestaut.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0016</td>
+        <td class="side">Wenn ich’s mir heute &#252;berlege, h&#228;tt ich wahrscheinlich[ST:n ]einfach dranbleiben m&#252;ssen. Mich nicht &#252;berrunden[ST:n ]lassen d&#252;rfen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0017</td>
+        <td class="side">Aber damals konnte ich nat&#252;rlich nicht ahnen, dass[ST:n ]mir das heute noch so nahegehen w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0018</td>
+        <td class="side">Und jetzt h&#246;r ich auf zu reden, bevor ich hier[ST:n ]alle vergraule.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0019</td>
+        <td class="side">Dann ist es eben so. Phog ist Phog und ich bin ich.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0020</td>
+        <td class="side">Und heute denk ich auch nicht mehr dar&#252;ber nach,[ST:n ]wer von uns beiden der bessere ist.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0021</td>
+        <td class="side">Klar. Ist ja auch bequemer.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0022</td>
+        <td class="side">Ich k&#246;nnte mir allerdings vorstellen, dass du gar[ST:n ]nicht mal den schlechtesten kleinen Bruder[ST:n ]abgegeben h&#228;ttest.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0023</td>
+        <td class="side">Phog war ja immer irre schwer aus seinem Zimmer[ST:n ]rauszukriegen. Wir haben so gut wie nie zusammen[ST:n ]gespielt.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0024</td>
+        <td class="side">Er war immer am kr&#228;nkeln. Im Sommer konnte man[ST:n ]keine zehn Minuten mit ihm raus, bis er Migr&#228;ne und [ST:n ]einen Hitzeschlag und was wei&#223; ich gekriegt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0025</td>
+        <td class="side">Du und ich, wir w&#228;ren sicher nonstop zusammen[ST:n ]auf die Jagd gegangen und h&#228;tten Fu&#223;ball gespielt[ST:n ]und alles! Wir h&#228;tten richtig Spa&#223; gehabt.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0026</td>
+        <td class="side">Jetzt hat Phog einen Mimoiden und die ganze[ST:n ]Schw&#228;chelei ist Schnee von gestern...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0027</td>
+        <td class="side">Wer wei&#223;, vielleicht nehm ich ihn ja irgendwann mal[ST:n ]mit zum Angeln oder so. Wenn das Leben hier nicht[ST:n ]mehr ganz so gef&#228;hrlich ist.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0028</td>
+        <td class="side">Das meinst du aber nicht im Ernst. Oder?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0029</td>
+        <td class="side">Du erinnerst dich ja auch nicht mehr an die Erde.[ST:n ]Wahrscheinlich hattest du da eine Familie und hast[ST:n ]es blo&#223; vergessen.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0030</td>
+        <td class="side">Glaub mir, es ist gut, einen Bruder zu haben. Selbst[ST:n ]dann noch, wenn ihr euch nicht riechen k&#246;nnt.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0031</td>
+        <td class="side">Br&#252;der verbindet was, das ist unzerst&#246;rbar. So was[ST:n ]gibt einem Halt. Ich merk das vor allem, seitdem wir[ST:n ]auf diesem gottlosen Planeten ums &#220;berleben k&#228;mpfen.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0032</td>
+        <td class="side">Mit normaler Freundschaft l&#228;sst sich das gar nicht[ST:n ]vergleichen. Kann’s nicht erkl&#228;ren.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev000694_MSG0033</td>
+        <td class="side">Man muss das selbst erleben. Ehrlich, ich w&#252;nsch dir,[ST:n ]dass du hier auf Mira irgendwann Leute findest, zu[ST:n ]denen du eine solche Verbindung aufbauen kannst.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

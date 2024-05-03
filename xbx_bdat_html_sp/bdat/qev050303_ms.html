@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050303_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0001</td>
+        <td class="side">Un momento. &#191;Sois vos quien me ha interpelado?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0002</td>
+        <td class="side">Os he dicho que regres&#233;is a vuestro hogar.[ST:n ]Esto es un campo de batalla wrothian.[ST:n ]Ning&#250;n humano deber&#237;a estar aqu&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050303_JNK0010</td>
+        <td class="side">Asentir</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050303_SEL0011</td>
+        <td class="side">Dile que sabes que este conflicto[ST:n ]no es asunto tuyo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050303_JNK0020</td>
+        <td class="side">Negar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050303_SEL0021</td>
+        <td class="side">Dile que no te ir&#225;s mientras ella siga all&#237;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0003</td>
+        <td class="side">Es un placer tratar con una persona[ST:n ]que es capaz de comprenderlo. Por favor,[ST:n ]id a decirle a Vi Sezha que Ge Jewhe ha perecido.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0004</td>
+        <td class="side">Y quiz&#225; podr&#237;ais... no s&#233;... &#191;intentar reconfortarla?[ST:n ]Me temo que no son nuevas f&#225;ciles de digerir.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0005</td>
+        <td class="side">Preferir&#237;a que fuerais vos quien est&#233; a su lado[ST:n ]y no un wrothian, porque... Bueno, digamos que no[ST:n ]somos muy duchos en cuestiones sentimentales.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0006</td>
+        <td class="side">Mmm. Sois igual de [ST:Gender p1=testarudo p2=testaruda ] que Vi Sezha.[ST:n ]Ahora entiendo por qu&#233; os llev&#225;is tan bien.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0007</td>
+        <td class="side">Pero deb&#233;is marcharos. Ni ella ni vos comprend&#233;is[ST:n ]hasta d&#243;nde ser&#237;a capaz de llegar por cumplir[ST:n ]con mi deber.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0008</td>
+        <td class="side">Incluso me he deshecho de su brazalete para poder[ST:n ]olvidar mi pasado. As&#237; que, &#191;por qu&#233; me segu&#237;s?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0009</td>
+        <td class="side">Pero &#191;c&#243;mo...? Este es el s&#237;mbolo de nuestra uni&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0010</td>
+        <td class="side">Grrr... &#161;Aaaaaah! &#161;&#191;Por qu&#233; me hac&#233;is esto?![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0011</td>
+        <td class="side">Estoy a punto de dar mi vida para defender[ST:n ]el honor de los wrothian y &#161;&#191;vos me tra&#233;is esto?![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0012</td>
+        <td class="side">Cuando decid&#237; vengarme, supe que ten&#237;a que olvidar[ST:n ]mis sentimientos. Si me dejo arrastrar por ellos,[ST:n ]&#161;caer&#233; antes de poder acabar con un solo ganglion![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0013</td>
+        <td class="side">Os lo ruego: dejad de seguirme.[ST:n ]Los ganglion han arruinado nuestras vidas[ST:n ]y nuestro orgullo reclama venganza.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0014</td>
+        <td class="side">Incre&#237;ble. Casi aterrador.[ST:n ]Ahora entiendo c&#243;mo los humanos fuisteis[ST:n ]capaces de plantar cara a los wrothian.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0015</td>
+        <td class="side">Y... gracias. Vivir&#233; para mantener[ST:n ]la promesa que le hice a Vi Sezha.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050303_JNK0030</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050303_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Ge Jewhe por la promesa.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050303_JNK0040</td>
+        <td class="side">Comprobar</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050303_SEL0041</td>
+        <td class="side">Aseg&#250;rate de que Ge Jewhe no tiene[ST:n ]m&#225;s planes disparatados.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0016</td>
+        <td class="side">Cuando yo me convert&#237; en guerrera y ella en joyera,[ST:n ]nuestros caminos se separaron. Por esa raz&#243;n,[ST:n ]ella hizo estos brazaletes a juego.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0017</td>
+        <td class="side">Y escribi&#243; en ellos: \&quot;Compartamos nuestras vidas\&quot;.[ST:n ]Entonces, juramos que nunca nos separar&#237;amos,[ST:n ]fuera lo que fuera lo que nos aguardara el destino.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0018</td>
+        <td class="side">Conmovedor, &#191;verdad? Si no fuese porque soy mujer,[ST:n ]probablemente le hubiera pedido matrimonio[ST:n ]en ese mismo momento.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0019</td>
+        <td class="side">En cualquier caso, en eso consiste nuestra promesa.[ST:n ]As&#237; que, mientras Vi Sezha viva, he jurado[ST:n ]protegerla de cualquier amenaza.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0020</td>
+        <td class="side">No os preocup&#233;is, [ST:Gender p1=humano p2=humana ].[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0021</td>
+        <td class="side">Di mi palabra de que la proteger&#237;a mientras[ST:n ]me quedara aliento. Y no pienso morir[ST:n ]sin haber cumplido mi promesa.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0022</td>
+        <td class="side">La proteger&#233;, incluso si ello implica darle la espalda[ST:n ]a los valores wrothian. &#161;Ser&#237;a capaz de poner[ST:n ]el mundo patas arriba por Vi Sezha![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0023</td>
+        <td class="side">Aquello fue hace tanto tiempo y han ocurrido[ST:n ]tantas cosas desde que llegaron los ganglion,[ST:n ]que me hab&#237;a olvidado.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0024</td>
+        <td class="side">Pero cuando me has ense&#241;ado el brazalete,[ST:n ]he vuelto a acordarme de todo.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0025</td>
+        <td class="side">La verg&#252;enza que siento es como una punzada[ST:n ]en el coraz&#243;n, pero debo volver junto a Sezha.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0036</td>
+        <td class="side">Solo con mirar a esta chica frente a m&#237;,[ST:n ]exultante y con l&#225;grimas de alegr&#237;a, se evapora[ST:n ]todo el orgullo que me hizo llegar a este extremo.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0037</td>
+        <td class="side">Basta para hacer que me pregunte c&#243;mo algo[ST:n ]tan nimio como la venganza o el orgullo ha hecho[ST:n ]que fuera incapaz de ver algo tan importante.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0026</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0027</td>
+        <td class="side">&#191;[ST:playername ]? Hola, em...[ST:n ]Soy Vi Sezha...[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0028</td>
+        <td class="side">Siento molestaros, pero ha empezado a latirme[ST:n ]con fuerza el coraz&#243;n... Tengo un mal[ST:n ]presentimiento, as&#237; que he decidido llamaros.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0029</td>
+        <td class="side">&#191;C&#243;mo va la b&#250;squeda? &#191;La hab&#233;is encontrado?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev050303_JNK0050</td>
+        <td class="side">Confesar</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev050303_SEL0051</td>
+        <td class="side">Dile a Vi Sezha que Ge Jewhe muri&#243; luchando.</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev050303_JNK0060</td>
+        <td class="side">Ocultar</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev050303_SEL0061</td>
+        <td class="side">No digas nada para no herir[ST:n ]los sentimientos de Vi Sezha.</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0030</td>
+        <td class="side">&#191;La han matado? Oh, Jewhe... No...[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0031</td>
+        <td class="side">No hay buenas noticias, &#191;verdad?[ST:n ]No ten&#233;is que ocultarme nada.[ST:n ]Estoy preparada para o&#237;r la verdad.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0032</td>
+        <td class="side">Entonces... &#191;muri&#243; enfrent&#225;ndose a ellos?[ST:n ]Oh, Jewhe... No...[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0033</td>
+        <td class="side">Ay... Cre&#237; que estaba preparada para soportar[ST:n ]lo peor que pudiera pasar, pero...[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0034</td>
+        <td class="side">Perdonadme. Me est&#225; costando asimilar todo esto.[ST:n ]Traedme su daga, por favor...[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0035</td>
+        <td class="side">Ayy...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev050303_MSG0038</td>
+        <td class="side">qev050303_MSG0038</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

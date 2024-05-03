@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev042201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev042201_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev042201_SEL0011</td>
+        <td class="side">Demander &#224; Wazdo de vous parler des provisions.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev042201_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev042201_SEL0021</td>
+        <td class="side">Demander &#224; Wazdo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev042201_SEL1011</td>
+        <td class="side">Poser des questions &#224; Wazdo au sujet des provisions.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev042201_SEL1021</td>
+        <td class="side">Demander &#224; Wazdo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev042201_SEL2021</td>
+        <td class="side">Demander &#224; Wazdo s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0001</td>
+        <td class="side">Ce qui est bien dans cette ville, c&#39;est qu&#39;il y a beaucoup[ST:n ]de nourriture.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0002</td>
+        <td class="side">Mais il faut plus d&#39;&#233;normes morceaux de viande ![ST:n ]Le reste n&#39;est qu&#39;une distraction. C&#39;est ce qui me[ST:n ]fait regretter notre plan&#232;te.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0003</td>
+        <td class="side">M&#234;me si j&#39;ai vu un morceau de viande app&#233;tissant[ST:n ]appel&#233; &#171; Tatsu &#187;. Il m&#39;a m&#234;me parl&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0004</td>
+        <td class="side">Mais quand j&#39;ai essay&#233; de manger Tatsu, une petite[ST:n ]fille m&#39;a cri&#233; dessus. Elle a dit qu&#39;elle &#233;tait &#171; prem&#39;s &#187;.[ST:n ]Qu&#39;est-ce que &#231;a veut dire ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0005</td>
+        <td class="side">O&#249; pourrais-je trouver un morceau de viande[ST:n ]qui parle ? Est-ce qu&#39;on les vend en magasin ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0008</td>
+        <td class="side">Connaissez-vous une femme prone magnifique[ST:n ]appel&#233;e Lavina ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0009</td>
+        <td class="side">Elle sera bient&#244;t bonne &#224; marier ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0010</td>
+        <td class="side">Je dois l&#39;avoir pour compagne. Je dois l&#39;&#233;pouser.[ST:n ]Et je pourrai manger des tas entiers[ST:n ]de viande de b&#234;te ![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0011</td>
+        <td class="side">Avez-vous d&#233;j&#224; vu un mariage prone ? Le clan entier[ST:n ]mange de la viande de b&#234;te jusqu&#39;&#224; se faire craquer[ST:n ]le ventre. &#199;a c&#39;est vivre ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0012</td>
+        <td class="side">Je me souviens de ma captivit&#233; dans la forteresse[ST:n ]de Terre-s&#232;che. Le Clan troglodyte avait trouv&#233;[ST:n ]un marchand ambulant nopon. Ils l&#39;ont mang&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0013</td>
+        <td class="side">Il avait l&#39;air d&#233;licieux... Mais, euh, c&#39;est du pass&#233;[ST:n ]tout &#231;a ! Je sais que je n&#39;ai pas le droit de manger[ST:n ]les Nopons. Mais peut-&#234;tre une petite bouch&#233;e ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0014</td>
+        <td class="side">Le Nopon appel&#233; Tatsu est si rond ! Il peut se passer[ST:n ]d&#39;un morceau de fesse pour un digne guerrier prone.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0015</td>
+        <td class="side">Non ? Peut-&#234;tre juste les l&#233;cher alors ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0019</td>
+        <td class="side">Argh... Mon ventre est tellement plein...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0020</td>
+        <td class="side">J&#39;aime ce Leroy. Il m&#39;a donn&#233; des tas de morceaux[ST:n ]de viande ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0021</td>
+        <td class="side">Quoi ? Lavina ? Ce n&#39;est pas important.[ST:n ]Je ne peux pas penser &#224; une compagne[ST:n ]apr&#232;s toute cette viande.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0022</td>
+        <td class="side">Peut-&#234;tre que mon int&#233;r&#234;t pour la chair se limite &#224; celle[ST:n ]que l&#39;on peut manger ? Je ne suis pas s&#251;r. Je dois tuer[ST:n ]plein d&#39;ennemis pour que Loda m&#39;en donne encore plus.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0030</td>
+        <td class="side">Graaah ! Maudit soit ce terrestre malingre ![ST:n ]Il essaie de me voler Lavina ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0031</td>
+        <td class="side">J&#39;admets qu&#39;il est courageux. Peut-&#234;tre m&#234;me est-il[ST:n ]un ennemi digne de respect. Mais je ne le laisserai[ST:n ]pas gagner ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0032</td>
+        <td class="side">J&#39;&#233;pouserai Lavina ! Et Loda me donnera des tas[ST:n ]de morceaux de viande pour le mariage ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev042201_MSG0033</td>
+        <td class="side">Euh... Et aussi parce que je l&#39;aime.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

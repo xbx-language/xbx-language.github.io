@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev057801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev057801_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev057801_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Gotsu por los secretos[ST:n ]de los ind&#237;genas de Noctilum.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev057801_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev057801_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Gotsu si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev057801_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Gotsu por los secretos[ST:n ]de los ind&#237;genas de Noctilum.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0001</td>
+        <td class="side">Simius siempre van en parejas, &#191;verdad?[ST:n ]Pues, hace mucho tiempo, &#161;esos simius eran nopon![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0002</td>
+        <td class="side">Dos amantes nopon no ten&#237;an permiso para casarse[ST:n ]porque familia de uno pensaba[ST:n ]que era mejor que familia de otro.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0003</td>
+        <td class="side">As&#237; que amantes prometieron renacer como simius[ST:n ]porque simius son todos iguales. Entonces, &#161;amantes[ST:n ]saltaron desde Cataratas eternas para acabar con todo![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0004</td>
+        <td class="side">&#191;Qu&#233; opina [ST:Gender p1=amigo p2=amiga ]? &#191;Le gusta cuento triste[ST:n ]y conmovedor que imaginaci&#243;n de Gotsu invent&#243;?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0008</td>
+        <td class="side">Gotsu nunca conoci&#243; a verdadero papap&#243;n...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0009</td>
+        <td class="side">Hermanop&#243;n Tatsu es a quien Gotsu[ST:n ]deber&#237;a llamar papap&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0010</td>
+        <td class="side">Gotsu quiere contar a papap&#243;n[ST:n ]todos los cuentos que Gotsu inventa.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0011</td>
+        <td class="side">&#161;Luego papap&#243;n puede hacer libro y venderlo,[ST:n ]ganar mucho dinero y vivir bien![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0012</td>
+        <td class="side">As&#237; rico papap&#243;n no tiene que preocuparse[ST:n ]por ser maltratado por amigos y... Oh, &#161;meh![ST:n ]Gotsu empieza a perder el hilo de discurso.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0021</td>
+        <td class="side">Muchas criaturas en Noctilum parecen[ST:n ]flores y &#225;rboles, &#191;sabe [ST:Gender p1=amigo p2=amiga ] por qu&#233;?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0022</td>
+        <td class="side">&#161;Porque est&#225;n jugando a escondite![ST:n ]Bichos est&#225;n condenados a jugar a escondite[ST:n ]para siempre hasta que alguien los encuentre.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0023</td>
+        <td class="side">&#191;[ST:Gender p1=Amigo p2=Amiga ] oye voces atormentadas que resuenan[ST:n ]en bosque? \&quot;Encuentra a bicho... Libera a bicho...\&quot;[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0024</td>
+        <td class="side">&#191;Qu&#233; opina [ST:Gender p1=amigo p2=amiga ]? &#191;Le gusta escalofriante[ST:n ]y misteriosa historia de Gotsu?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev057801_JNK0010</td>
+        <td class="side">tev057801_JNK0010</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev057801_SEL0011</td>
+        <td class="side">tev057801_SEL0011</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev057801_JNK0020</td>
+        <td class="side">tev057801_JNK0020</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev057801_SEL1021</td>
+        <td class="side">tev057801_SEL1021</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0013</td>
+        <td class="side">tev057801_MSG0013</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0014</td>
+        <td class="side">tev057801_MSG0014</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0015</td>
+        <td class="side">tev057801_MSG0015</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev057801_JNK0010</td>
+        <td class="side">tev057801_JNK0010</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev057801_SEL0011</td>
+        <td class="side">tev057801_SEL0011</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev057801_JNK0020</td>
+        <td class="side">tev057801_JNK0020</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev057801_SEL2021</td>
+        <td class="side">Pregunta a Gotsu si hay alguna novedad.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0016</td>
+        <td class="side">Gotsu se dirigi&#243; a Manantial soleado despu&#233;s[ST:n ]de que Satsu desapareciera. &#191;Sabe [ST:Gender p1=amigo p2=amiga ] por qu&#233;?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0017</td>
+        <td class="side">&#161;Porque Gotsu ha o&#237;do hablar de extra&#241;a caja[ST:n ]que hay all&#237;! No por estar preocupado por Satsu...[ST:n ]Perdona, hermanop&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0018</td>
+        <td class="side">As&#237; que Gotsu fue all&#237; y encontr&#243; extra&#241;a caja,[ST:n ]pero &#161;estaba rota y achicharrada![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0019</td>
+        <td class="side">&#191;Qu&#233; le pas&#243; a gran caja? &#191;Qui&#233;n es tan grande,[ST:n ]malo y est&#225; tan enfadado como para hacer eso?[ST:n ]&#161;Gotsu piensa que algo huele a chamusquina![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev057801_MSG0020</td>
+        <td class="side">&#161;Meh, meh! Ahora Gotsu tiene que inventarse[ST:n ]historia &#233;pica para que alguien la convierta en libro[ST:n ]superventas y &#161;hacer a Gotsu inmensamente rico![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

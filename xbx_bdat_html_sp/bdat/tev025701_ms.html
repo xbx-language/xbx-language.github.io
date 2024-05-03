@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev025701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Mika por el nivel inferior.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Mika si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0010</td>
+        <td class="side">tev025701_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Mika por el nivel inferior.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0020</td>
+        <td class="side">tev025701_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0021</td>
+        <td class="side">tev025701_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0010</td>
+        <td class="side">tev025701_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Mika por el hangar restringido.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0020</td>
+        <td class="side">tev025701_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0021</td>
+        <td class="side">tev025701_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0010</td>
+        <td class="side">tev025701_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0061</td>
+        <td class="side">Preg&#250;ntale a Mika por Lao.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0020</td>
+        <td class="side">tev025701_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0021</td>
+        <td class="side">tev025701_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0010</td>
+        <td class="side">tev025701_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0091</td>
+        <td class="side">Preg&#250;ntale a Mika por Lao.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev025701_JNK0020</td>
+        <td class="side">tev025701_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev025701_SEL0021</td>
+        <td class="side">tev025701_SEL0021</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev025701_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Mika si hay alguna novedad.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev025701_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Mika si hay alguna novedad.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0001</td>
+        <td class="side">De verdad, &#161;&#191;podr&#237;a alguien pensar un poquito y poner[ST:n ]defensas alrededor de esta zona de mantenimiento?![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0002</td>
+        <td class="side">Si un magno decide presentarse cuando todos[ST:n ]los Skells est&#225;n fuera de servicio... Estamos apa&#241;ados.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0003</td>
+        <td class="side">Cuando me quej&#233;, mis superiores me dijeron[ST:n ]que aprendiera a derribar magnos con el equipo[ST:n ]de campo. &#161;Imag&#237;nate a d&#243;nde les mand&#233;![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0004</td>
+        <td class="side">Que s&#237;, que con el equipamiento adecuado y mejoras[ST:n ]podemos luchar perfectamente. Pero &#161;eso no significa[ST:n ]que tengamos que dejar que se pudran los Skells![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0010</td>
+        <td class="side">&#191;Has conocido a esa chica del hangar de pruebas[ST:n ]Outfitter que no deja de hablar de Skells?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0013</td>
+        <td class="side">Los Outfitter est&#225;n locos al permitirle tocar[ST:n ]las &#250;ltimas armas que se han desarrollado.[ST:n ]&#161;Si casi no ha estado en combate![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0014</td>
+        <td class="side">Deber&#237;an dejar las pruebas a un equipo[ST:n ]entrenado en combate como el m&#237;o,[ST:n ]en vez de a esa rarita de los Skells.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0015</td>
+        <td class="side">Tarde o temprano pasar&#225; algo. Ya ver&#225;s.[ST:n ]Esperemos que nadie resulte herido...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0024</td>
+        <td class="side">&#161;&#191;De d&#243;nde han salido esos gatos alien&#237;genas?![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0025</td>
+        <td class="side">El equipo Belisarda tuvo que salir pitando porque[ST:n ]necesitaban refuerzos en las calles y nos dejaron solos.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0026</td>
+        <td class="side">&#191;Y qu&#233; se supone que ten&#237;amos que hacer?[ST:n ]Yo soy m&#225;s de armas, &#191;sabes? A m&#237; estas chorradas[ST:n ]de contacto tipo ninjitsu no me van.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0027</td>
+        <td class="side">As&#237; que esos desgraciados cogieron el Skell del hangar[ST:n ]restringido e hirieron a gran parte del equipo.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0043</td>
+        <td class="side">&#191;Qu&#233; ha sido todo ese jaleo[ST:n ]que se ha montado delante del hangar?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0044</td>
+        <td class="side">Vi al comandante Vandham llegar corriendo[ST:n ]con un grupo de BLADE con cara de enfado.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0045</td>
+        <td class="side">Pero &#191;nos ha dicho alguien algo? &#161;Claro que no![ST:n ]&#191;Por qu&#233; siempre tienen que dejarnos[ST:n ]a los Outfitter al margen?[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0050</td>
+        <td class="side">El l&#237;der del equipo Belisarda es un trepa, te lo digo yo.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0051</td>
+        <td class="side">No solo nos roba el Skell negro, sino que,[ST:n ]adem&#225;s, &#161;se lleva la puerta por delante![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0052</td>
+        <td class="side">Me dan pena sus compa&#241;eros fallecidos.[ST:n ]&#191;De verdad se han sacrificado por este tipo?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0057</td>
+        <td class="side">Ahora que hemos localizado el n&#250;cleo[ST:n ]del Arca de la vida, es hora de pasar p&#225;gina.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0058</td>
+        <td class="side">Creo que Lao ya ha recibido suficiente castigo.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0059</td>
+        <td class="side">Adem&#225;s, sus compa&#241;eros van a volver a la vida[ST:n ]de todas formas, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev025701_MSG0060</td>
+        <td class="side">As&#237; que no tiene sentido darle m&#225;s vueltas.[ST:n ]Lo pasado, pasado est&#225;. &#191;No?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev025701_MSG1001</td>
+        <td class="side">Te interesar&#225; saber que he hablado de mis sentimientos[ST:n ]con Camber y se lo he contado todo.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev025701_MSG1002</td>
+        <td class="side">Por supuesto, no me olvid&#233; de mencionar la obsesi&#243;n[ST:n ]enfermiza de Alexa con los altos, fuertes[ST:n ]y guapos Skells. &#161;No me dej&#233; ni un detalle![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev025701_MSG1003</td>
+        <td class="side">&#191;Y sabes qu&#233;? &#161;Que le import&#243; un pepino![ST:n ]Empez&#243; a re&#237;rse y murmur&#243; algo sobre que no estaba[ST:n ]seguro de cu&#225;l de las dos estaba m&#225;s loca.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev025701_MSG1004</td>
+        <td class="side">Creo que le debo una. Sin Alexa, nunca[ST:n ]habr&#237;a aprendido a hablar con Camber de t&#250; a t&#250;.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev025701_MSG2001</td>
+        <td class="side">Los ganglion aparecieron poco despu&#233;s[ST:n ]de que fu&#233;ramos a hacer pruebas al sur.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev025701_MSG2002</td>
+        <td class="side">Dos personas no eran suficientes para hacerles frente.[ST:n ]Esos malnacidos nos ten&#237;an contra la pared.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev025701_MSG2003</td>
+        <td class="side">Intentamos deshacernos de nuestros Skells y correr,[ST:n ]pero se cargaron a Hanna en un visto y no visto.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev025701_MSG2004</td>
+        <td class="side">Yo segu&#237; corriendo hasta que no pude m&#225;s[ST:n ]y ah&#237; es cuando apareci&#243; Alexa y me salv&#243;.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev025701_MSG2005</td>
+        <td class="side">Sinceramente, no pens&#233; que volver&#237;a a ver a Camber.[ST:n ]Pero ahora que lo he recuperado, me quedar&#233; aqu&#237;[ST:n ]&#161;para asegurarme de no perderlo de nuevo![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

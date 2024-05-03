@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050503_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0001</td>
+        <td class="side">&#161;Quieto ah&#237;! &#161;No, por favor! &#161;Aaaah![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0002</td>
+        <td class="side">Por favor, no grit&#233;is, mi estimada f&#233;mina humana.[ST:n ]Tan solo deseo haceros una petici&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0003</td>
+        <td class="side">&#161;Que alguien me ayude! &#161;Socorroooo![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0004</td>
+        <td class="side">Os ruego que me escuch&#233;is... Eeh, si no es molestia...[ST:n ]&#161;Escuchad! Ejem, por favor, se&#241;ora.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0005</td>
+        <td class="side">&#161;Socorro! &#161;Eh, t&#250;! &#161;Este \&quot;ser\&quot; me est&#225; amenazando![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0006</td>
+        <td class="side">Disc&#250;lpeme, se&#241;ora, mas &#161;no estoy haciendo tal cosa![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0007</td>
+        <td class="side">&#161;Oh, claro que no! &#161;Solo me ha agarrado[ST:n ]y me ha dicho que le tengo que escuchar![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0008</td>
+        <td class="side">Y &#191;cu&#225;l de esas dos cosas constituye[ST:n ]una amenaza, exactamente?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0009</td>
+        <td class="side">&#161;Todo lo que est&#225; haciendo es una amenaza![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0010</td>
+        <td class="side">Al contrario... Se&#241;ora, &#161;est&#225;is siendo[ST:n ]muy poco razonable![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0011</td>
+        <td class="side">&#161;&#191;Qu&#233;?! Est&#225; de broma, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0012</td>
+        <td class="side">Grrr...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0013</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0014</td>
+        <td class="side">Bah. Esto est&#225; siendo imposible...[ST:n ]&#191;Mmm? &#161;Ey! &#161;[ST:Gender p1=Buen hombre p2=Buena mujer ]! &#161;Esperad, por favor![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0015</td>
+        <td class="side">&#191;No sois...? &#161;S&#237;! Sois [ST:Gender p1=el p2=la ] BLADE[ST:n ]que me ayud&#243; antes, &#191;me equivoco?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0016</td>
+        <td class="side">Os pido mil disculpas por incomodaros[ST:n ]tan repentinamente, pero &#191;ten&#233;is una espada?[ST:n ]Cualquier espada que pod&#225;is ofrecerme servir&#225;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0017</td>
+        <td class="side">&#161;&#191;Que quiere una espada?! &#161;No se la d&#233;![ST:n ]&#161;&#191;Se ha vuelto [ST:Gender p1=loco p2=loca ]?![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0018</td>
+        <td class="side">Creo que eso lo har&#225; todo m&#225;s sencillo.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0019</td>
+        <td class="side">&#191;Qu&#233;eee?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0020</td>
+        <td class="side">&#161;R&#225;pido! Dadme una espada. &#161;Os lo ruego![ST:n ]Antes de que sea demasiado tarde.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0021</td>
+        <td class="side">Os ruego me perdon&#233;is por mi burda insistencia,[ST:n ]pero &#191;hab&#233;is logrado haceros con esa espada?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0022</td>
+        <td class="side">Perdonad mi impaciencia. Sois muy amable[ST:n ]al ayudarme; pero, por favor, no os demor&#233;is.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050503_MSG0023</td>
+        <td class="side">La conversaci&#243;n con esta se&#241;ora se hace[ST:n ]m&#225;s inc&#243;moda cada minuto que pasa...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

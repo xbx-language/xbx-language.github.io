@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0001</td>
+        <td class="side">Grande Nan! Cosa succede?![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0002</td>
+        <td class="side">Coff... Che male! Che dolori... ma tu non deve temere.[ST:n ]Nessuno importa se povero vecchio Nan[ST:n ]va in paradisopon. Coff coff...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0003</td>
+        <td class="side">Tanto vale che Nan va ora... Se resta, &#232; maleducato.[ST:n ]Coff! Pt&#249;! Gasp! Tanta sofferenza...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0004</td>
+        <td class="side">Meh meh! Se Nan dice cos&#236;, peggiora solo[ST:n ]sua bruttissimissima malattia.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0011</td>
+        <td class="side">Chiedi a Ngogo del problema di Nan.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0020</td>
+        <td class="side">Preoccupati</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0021</td>
+        <td class="side">Esprimi preoccupazione per la salute di Nan.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0005</td>
+        <td class="side">Grande Nan ha brutta tosse da un po&#39; di tempo.[ST:n ]Lui dice sempre che sta maluccio maluccissimo.[ST:n ]Per&#242; ultimamente Nan DAVVERO irritabile![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0006</td>
+        <td class="side">Tu &#232; molto gentile, [ST:Gender p1=amico p2=amica ] di passaggio. Se Nopon[ST:n ]era gentile come te, condizioni di Nan non era[ST:n ]cos&#236; tanto brutte![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0007</td>
+        <td class="side">A dire verit&#224;, Ngogo esausto! Per tanto tempo me[ST:n ]ha badato a Grande Nan, vecchio bofonchione.[ST:n ]Se [ST:Gender p1=amico p2=amica ] rimane e parla con Nan, &#232; grande aiuto![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0008</td>
+        <td class="side">Adesso Grande Nan &#232; triste tristissimo,[ST:n ]ma quando sta bene &#232; capopon di[ST:n ]tutti Nopon, saggio e affidabile![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0009</td>
+        <td class="side">In ultima grande assemblea, Nan proposto di trasferire[ST:n ]tutti Nopon a Neo L.A. cos&#236; amici umani li protegge.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0010</td>
+        <td class="side">Ma altri capipon preso a schiaffi Grande Nan.[ST:n ]Loro ha detto che Nan non &#232; pi&#249; Nopon se[ST:n ]vuole rinunciare a vita di nomade![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0011</td>
+        <td class="side">Nan rimasto molto scioccato. Ora lui ammalato,[ST:n ]borbotta tutti giorni. Dice che vuole sparire.[ST:n ]Mio lavoro di assistente molto difficile, ora![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0012</td>
+        <td class="side">Ora [ST:Gender p1=amico p2=amica ] sicuramente capisce dolore traumatico[ST:n ]e lancinante di povero Ngogo![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0030</td>
+        <td class="side">Esprimi compassione</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0031</td>
+        <td class="side">Compatisci Ngogo sentitamente.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0040</td>
+        <td class="side">Critica</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0041</td>
+        <td class="side">Di&#39; che ti dispiace di pi&#249; per il Grande Nan.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0013</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] &#232; molto [ST:Gender p1=comprensivo p2=comprensiva ]. Magari un giorno me e te[ST:n ]va a bere un bicchierino dopo lavoro.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0014</td>
+        <td class="side">Se Nan ha tanta fretta di sparire, pu&#242; sparire![ST:n ]Ngogo sta molto peggio, perch&#233; deve[ST:n ]sopportare pena di Grande Nan.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0015</td>
+        <td class="side">Oh! Idea! Meh meh! [ST:Gender p1=Amico p2=Amica ] pu&#242; aiutare Ngogo con[ST:n ]piano per rallegrare Nan... Nome di piano &#232;...[ST:n ]Operazione Piro-pirotecnica![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0016</td>
+        <td class="side">Se Grande Nan &#232; depresso ancora per molto...[ST:n ]Ngogo impazzisce![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0017</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] deve solo andare in carovane e far firmare[ST:n ]contratti a Nopon. Lavoro facilissimissimo! Anche[ST:n ]Nopopotamus stupido &#232; capace di fare![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0018</td>
+        <td class="side">Deciso! Se noi riesce a fare sorpresa,[ST:n ]Nan diventa pi&#249; felice di sicuro![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0019</td>
+        <td class="side">Coff! Pt&#249;! Gasp! Ngogo... Nan sente[ST:n ]tutto quello che tu dice.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0020</td>
+        <td class="side">Nan non &#232; triste e... coff![ST:n ]A Nan non serve che tu rallegri![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0021</td>
+        <td class="side">Mmmh. Adesso piano segreto di Ngogo[ST:n ]&#232; un po&#39; meno segreto. Vabb&#232;![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0022</td>
+        <td class="side">Comunque, ora tu va a parlare con Nopon in ogni[ST:n ]carovana e chiede di mandare fuochi artificiali[ST:n ]per vecchio Nan coraggioso.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0023</td>
+        <td class="side">Meh! Ah, tu deve ricordare che promessa[ST:n ]fatta a voce da Nopon non vale niente.[ST:n ]Ricorda di mettere per iscritto.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0024</td>
+        <td class="side">Meh meh! Ah, se tu pu&#242;, porta con te capopon di[ST:n ]carovana di Cauldros. Si chiama Popote.[ST:n ]Popote &#232; nipotepon di Nan.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0025</td>
+        <td class="side">Se Nan tira cuoia, sua famiglia deve stare vicino a lui.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0026</td>
+        <td class="side">Nan non &#232; morto! Coff! Pt&#249;![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0027</td>
+        <td class="side">E poi, famiglia di Nan &#232; andata via.[ST:n ]Abbandonato Nan. Non torner&#224; mai pi&#249;! Coff![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0050</td>
+        <td class="side">Rallegra</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0051</td>
+        <td class="side">Esprimi fiducia nel ritorno della famiglia di Nan[ST:n ]nel tentativo di sollevargli il morale.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0060</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0061</td>
+        <td class="side">Di&#39; che potrebbe essere cos&#236;,[ST:n ]poi resta in silenzio.</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0028</td>
+        <td class="side">Coff! Nan non si fida pi&#249; di nessuno.[ST:n ][ST:Gender p1=Amico p2=Amica ] non deve fare niente. Tra poco[ST:n ]Nan sparisce in fredda oscurit&#224; di notte.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0029</td>
+        <td class="side">Coff! [ST:Gender p1=Amico p2=Amica ] capisce. Tutta famiglia odia Nan.[ST:n ]Nan vuole solo sparire, adesso...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0030</td>
+        <td class="side">Ah ah ah! Ignora vecchio Nopon depresso, per piacere.[ST:n ]Buona fortuna per tua missione![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0047</td>
+        <td class="side">C&#39;&#232; carovane Nopon a Noctilum,[ST:n ]Oblivia, Sylvalum e Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0048</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] deve andare a far firmare contratti mentre[ST:n ]Ngogo rimane qui e fa finta di essere interessato[ST:n ]a problemi di Grande Nan bofonchione.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0049</td>
+        <td class="side">Ah, ricorda anche di portare con te[ST:n ]Popote da carovana di Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0050</td>
+        <td class="side">Oh oh oooh! Grazie, [ST:Gender p1=amico p2=amica ]! Tu ha portato con te[ST:n ]Popote! Guarda loro![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0051</td>
+        <td class="side">Meh meh! Prepara cena, nonnopon, presto![ST:n ]Io stufo di guardare nonnopon che dorme.[ST:n ]Noi deve fare cose divertenti![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0052</td>
+        <td class="side">Coff! Coff! Che screanzato... Cosa &#232;[ST:n ]venuto a fare qui, Popote?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0053</td>
+        <td class="side">Visto? Grande Nan &#232; pieno di energia ora che[ST:n ]nipotepon Popote &#232; con lui.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0054</td>
+        <td class="side">Quando noi spara fuochi artificiali, Grande Nan[ST:n ]pu&#242; morire senza rimorsi. Ehm, [ST:Gender p1=amico p2=amica ]...[ST:n ]Tu ha fatto firmare contratti, VERO?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0055</td>
+        <td class="side">Meh! Perfetto! Sembra ben scritto[ST:n ]e legalmente vincolante![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0056</td>
+        <td class="side">Nopon &#232; terribili a mantenere promesse, ma contratti[ST:n ]&#232; senza scampo! Tutto sistemato![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0057</td>
+        <td class="side">Ngogo porta Grande Nan in bel posticino con bella[ST:n ]vista. Tu viene a incontrarci davanti a Torre BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0058</td>
+        <td class="side">qev041401_MSG0058</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0059</td>
+        <td class="side">Tu ha portato Sapi! Grazie, [ST:Gender p1=amico p2=amica ]. Nan &#232; ancora[ST:n ]irritabile, ma sembra molto meglio.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0060</td>
+        <td class="side">Oh oh oooh! Sapi ha un po&#39; di pelucchi addosso![ST:n ]Nessun problema. Ci pensa Nan.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0061</td>
+        <td class="side">MEH MEH MEH! Attento con zampe,[ST:n ]Grande Nan! Fermo![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0062</td>
+        <td class="side">Coff! Coff! Ohi, che male! Nan sta malissimissimo![ST:n ]Tu deve avere piet&#224; per vecchio Nopon malato![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0063</td>
+        <td class="side">A me sembra che Grande Nan sta ancora abbastanza[ST:n ]bene. &#200; terribile come sempre![ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0064</td>
+        <td class="side">Quando noi spara fuochi artificiali, Grande Nan[ST:n ]pu&#242; morire senza rimorsi. Ehm, [ST:Gender p1=amico p2=amica ]...[ST:n ]Tu ha fatto firmare contratti, VERO?[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0065</td>
+        <td class="side">Meh! Perfetto! Sembra ben scritto[ST:n ]e legalmente vincolante![ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0066</td>
+        <td class="side">Nopon &#232; terribili a mantenere promesse, ma contratti[ST:n ]&#232; senza scampo! Tutto sistemato![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0067</td>
+        <td class="side">Ngogo porta Grande Nan in bel posticino con bella[ST:n ]vista. Tu viene a incontrarci davanti a Torre BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0068</td>
+        <td class="side">qev041401_MSG0068</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0069</td>
+        <td class="side">qev041401_MSG0069</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0070</td>
+        <td class="side">Forse Popote volato via, e atterrato da qualche[ST:n ]parte a Cauldros. Ricerca &#232; difficile, ma tu deve[ST:n ]cercare per bene di vecchio Nan malato.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0071</td>
+        <td class="side">Allora? Popote sta bene?[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0072</td>
+        <td class="side">Fiuuu! Ngogo &#232; felice che Popote tornato sano e[ST:n ]salvo in carovana. Sembra che Grande Nan sta[ST:n ]meglio da quando ha visto Sapi.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0073</td>
+        <td class="side">&#200; stata strada lunga e tortuosa, ma alla fine &#232; andato[ST:n ]tutto bene. Ecco a te pagamento concordato, [ST:Gender p1=amico p2=amica ].[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0074</td>
+        <td class="side">Ah, me sentito dire che adesso Sapi comincia lavoro[ST:n ]a Neo L.A. come cosa che si chiama \&quot;modella\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0075</td>
+        <td class="side">Sapi sembra tanto emozionata. Ngogo non vede[ST:n ]ora di smettere di fare badante per Grande Nan[ST:n ]e iniziare vita nuova![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0090</td>
+        <td class="side">Sei d&#39;accordo</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0091</td>
+        <td class="side">Di&#39; a Ngogo che sarebbe meglio se cominciasse[ST:n ]una nuova vita il prima possibile.</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev041401_JNK0100</td>
+        <td class="side">Non sei d&#39;accordo</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev041401_SEL0101</td>
+        <td class="side">Di&#39; a Ngogo che dovrebbe concentrarsi a fare[ST:n ]il suo lavoro attuale il meglio possibile.</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0076</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ], tu &#232; serissimissim[ST:Gender p1=o p2=a ]! Beh, tanto Grande Nan[ST:n ]tra poco schiatta. Io continua a fare mio lavoro[ST:n ]fino ad allora.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev041401_MSG0077</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] ha proprio testa a posto. Magari anche un po&#39;[ST:n ][ST:Gender p1=freddo p2=fredda ]... Beh, tanto Grande Nan tra poco schiatta.[ST:n ]Io continua a fare mio lavoro fino ad allora.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

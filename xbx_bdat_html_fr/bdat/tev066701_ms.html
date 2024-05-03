@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev066701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev066701_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev066701_SEL0011</td>
+        <td class="side">Interroger Ni Zain sur sa cuisine.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev066701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev066701_SEL0021</td>
+        <td class="side">Demander &#224; Ni Zain s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0001</td>
+        <td class="side">Une fois que j&#39;aurai ma&#238;tris&#233; l&#39;art du curry, j&#39;essaierai[ST:n ]de r&#233;aliser des plats r&#233;gionaux. Les ingr&#233;dients[ST:n ]peu communs font ressortir le meilleur d&#39;un chef.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0002</td>
+        <td class="side">J&#39;entreprenais la pr&#233;paration d&#39;un curry rouge &#224; base[ST:n ]du plus obscur des additifs nopons : l&#39;orbe de pollen[ST:n ]roux ![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0003</td>
+        <td class="side">Mais lorsque Tatsu s&#39;est pr&#233;sent&#233; pour go&#251;ter mes plats,[ST:n ]je lui en ai touch&#233; un mot et il me l&#39;a fortement[ST:n ]d&#233;conseill&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0004</td>
+        <td class="side">C&#39;est bien dommage. J&#39;&#233;tais persuad&#233; que mon curry[ST:n ]rouge serait une sorte de coup de fouet pour le monde[ST:n ]qui nous entoure.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0008</td>
+        <td class="side">Ah ! Voyez, [ST:Gender p1=mon cher p2=ma ch&#232;re ] [ST:playername ] ![ST:n ]Je croule sous les commandes ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0009</td>
+        <td class="side">Le monde br&#251;le de d&#233;sir pour mon curry ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0010</td>
+        <td class="side">Je n&#39;ai jamais conquis autant de cœurs, m&#234;me[ST:n ]du temps o&#249; je maniais l&#39;&#233;p&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0011</td>
+        <td class="side">Je vous dois tellement, &#224; vous ainsi qu&#39;&#224; Meg, pour[ST:n ]m&#39;avoir enseign&#233; l&#39;art culinaire.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev066701_NSG0012</td>
+        <td class="side">Si seulement le prince Jiarg n&#39;&#233;tait pas en Oblivia...[ST:n ]Il pourrait go&#251;ter &#224; mes exploits ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

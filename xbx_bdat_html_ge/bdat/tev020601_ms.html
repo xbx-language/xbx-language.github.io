@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev020601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev020601_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev020601_SEL0011</td>
+        <td class="side">Lasse dir von Victoria etwas &#252;ber[ST:n ]das Gesch&#228;ftsviertel erz&#228;hlen.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev020601_JNK0020</td>
+        <td class="side">Unterhalten</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev020601_SEL0021</td>
+        <td class="side">Frage Victoria, was sich in letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev020601_JNK0010</td>
+        <td class="side">tev020601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev020601_SEL0011</td>
+        <td class="side">tev020601_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev020601_JNK0020</td>
+        <td class="side">tev020601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev020601_SEL0031</td>
+        <td class="side">Frage Victoria, ob ihr irgendetwas Sorgen bereitet.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev020601_SEL1011</td>
+        <td class="side">Frage Victoria nach Belle Betty Style.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev020601_SEL1021</td>
+        <td class="side">Frage Victoria, was sich in letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev020601_SEL1031</td>
+        <td class="side">Frage Victoria nach Belle Betty Style.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev020601_SEL2021</td>
+        <td class="side">Frage Victoria, was sich in letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0001</td>
+        <td class="side">Es gibt hier alle m&#246;glichen tollen Gesch&#228;fte.[ST:n ]Caf&#233;s, Pizzerien, Modeboutiquen...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0002</td>
+        <td class="side">Hier vergisst man leicht, dass man nicht auf der Erde,[ST:n ]sondern auf einem weit entfernten Planeten ist, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0003</td>
+        <td class="side">Genau daf&#252;r ist dieses Viertel nat&#252;rlich da. Wir k&#246;nnten[ST:n ]es auf Dauer nicht ertragen, so weit weg von der Erde[ST:n ]nur von unbekannten Dingen umgeben zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0004</td>
+        <td class="side">Das Gesch&#228;ftsviertel soll uns ein paar Annehmlichkeiten[ST:n ]der Erde bieten und dabei helfen, den Stress in den[ST:n ]Griff zu kriegen, den unsere Situation mit sich bringt.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0005</td>
+        <td class="side">Du solltest von Zeit zu Zeit hier vorbeikommen und es[ST:n ]dir gut gehen lassen, anstatt immer nur von einer[ST:n ]verr&#252;ckten Mission zur n&#228;chsten zu hetzen.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0008</td>
+        <td class="side">Der Laden, in dem ich arbeite, hei&#223;t[ST:n ]„Belle Betty Style“.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0009</td>
+        <td class="side">Wir sind das angesagteste Label in NLA und kreieren[ST:n ]Mode f&#252;r stilbewusste, anspruchsvolle Frauen.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0010</td>
+        <td class="side">Oh, ich wei&#223;, was viele Leute sagen: Wir sollten uns[ST:n ]lieber um unser nacktes &#220;berleben als um unsere[ST:n ]&#228;u&#223;ere Erscheinung Gedanken machen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0011</td>
+        <td class="side">Aber ich sage, dass so ein &#220;berlebenskampf ein Grund[ST:n ]mehr ist, sich h&#252;bsch zu machen! Wer heute mit sich[ST:n ]selbst zufrieden ist, ist bereit, f&#252;r morgen zu k&#228;mpfen.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0016</td>
+        <td class="side">Wir bei Belle Betty Style w&#252;rden gern auch Mode[ST:n ]f&#252;r Ma-non-Frauen entwerfen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0017</td>
+        <td class="side">Aber ihr Modegeschmack ist ziemlich... ausgefallen.[ST:n ]Sie k&#246;nnen anscheinend nicht viel mit Kleidung[ST:n ]von menschlichen Designern anfangen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0018</td>
+        <td class="side">Wir haben nach guten Designern unter den Ma-non[ST:n ]Ausschau gehalten, aber ohne gro&#223;en Erfolg.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev020601_MSG0019</td>
+        <td class="side">Ich bin mir sicher, dass es irgendwo einen Ma-non[ST:n ]mit einem guten Gesp&#252;r f&#252;r &#196;sthetik gibt, der seinen[ST:n ]Artgenossen die Welt der Mode n&#228;herbringen kann.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1001</td>
+        <td class="side">Wir sind froh, in letzter Zeit so viele xenoforme Kunden[ST:n ]in unserem Laden zu begr&#252;&#223;en. Unser Umsatz hat sich[ST:n ]dadurch deutlich gesteigert.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1002</td>
+        <td class="side">Aber vor Kurzem gab es einen be&#228;ngstigenden Vorfall[ST:n ]mit einem BLADE, der in den Laden kam.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1003</td>
+        <td class="side">Er br&#252;llte herum und bezeichnete uns als Verr&#228;ter,[ST:n ]weil wir die Ma-non bedienen. Dann forderte er uns[ST:n ]auf, unseren Laden auf der Stelle dichtzumachen![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1004</td>
+        <td class="side">Unsere Kunden waren nat&#252;rlich schockiert und wir[ST:n ]haben sofort eine Beschwerde an die BLADE-Zentrale[ST:n ]geschickt.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1005</td>
+        <td class="side">Versteh mich nicht falsch – wir sind dankbar f&#252;r alles,[ST:n ]was BLADE f&#252;r uns getan hat. Aber dieser Spinner[ST:n ]wollte nichts als &#196;rger machen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1010</td>
+        <td class="side">Mmmh... Dieser Duft ist wild! Irgendetwas daran[ST:n ]jagt mir einen Schauer &#252;ber den R&#252;cken.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1011</td>
+        <td class="side">Ich wette, dass er bei den Damen von BLADE ein[ST:n ]richtiger Kassenschlager wird.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1012</td>
+        <td class="side">Wir werden versuchen, zusammen mit Panyar Produkte[ST:n ]zu entwickeln, die nicht nur Ma-non-Frauen begeistern.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1013</td>
+        <td class="side">Du wirst sehen – die neue Produktlinie von[ST:n ]Belle Betty Style wird die Herzen der Damen[ST:n ]h&#246;herschlagen lassen! Und zwar v&#246;lker&#252;bergreifend![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1020</td>
+        <td class="side">Eine Weile lang hat ein BLADE namens Alex im[ST:n ]Laden f&#252;r &#196;rger gesorgt. Er hat uns als Verr&#228;ter[ST:n ]beschimpft, weil wir die Ma-non bedienen.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1021</td>
+        <td class="side">Er hat uns einen Haufen Stammkunden vergrault und[ST:n ]uns damit eine Stange Geld gekostet. Aber anscheinend[ST:n ]ist die ganze Sache endlich ausgestanden![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1022</td>
+        <td class="side">Wir haben von BLADE geh&#246;rt, was mit Alex passiert ist.[ST:n ]Auch wenn es hart klingt: Der Mann hat bekommen,[ST:n ]was er verdient hat.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1023</td>
+        <td class="side">D&#252;mmliche Menschen, die ihre Vorurteile vor sich[ST:n ]hertragen, gab es wahrscheinlich zu jeder Zeit.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev020601_MSG1024</td>
+        <td class="side">Aber nach dieser Geschichte frage ich mich,[ST:n ]ob wir nicht irgendetwas tun k&#246;nnen, um[ST:n ]sie zum Umdenken zu bewegen.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev020601_MSG2001</td>
+        <td class="side">Mmmh... Dieser Duft ist so beruhigend.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev020601_MSG2002</td>
+        <td class="side">Ich glaube, jeder hat so seine Schwierigkeiten zu[ST:n ]entspannen, seit wir hier auf Mira sind.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev020601_MSG2003</td>
+        <td class="side">Ein Duft wie dieser k&#246;nnte f&#252;r uns ein richtiger[ST:n ]Kassenschlager werden![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev020601_MSG2004</td>
+        <td class="side">Wir werden versuchen, zusammen mit Panyar Produkte[ST:n ]zu entwickeln, die nicht nur Ma-non-Frauen begeistern.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev020601_MSG2005</td>
+        <td class="side">Du wirst sehen – die neue Produktlinie von[ST:n ]Belle Betty Style wird die Herzen der Damen[ST:n ]h&#246;herschlagen lassen! Und zwar v&#246;lker&#252;bergreifend![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

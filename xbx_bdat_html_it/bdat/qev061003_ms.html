@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev061003_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0001</td>
+        <td class="side">Mmmh? Non sssi vedono molti umani da [ST:n ]queste parti. Cosa ti porta qui? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0002</td>
+        <td class="side">Molti mostri malvagi vivono in questa zona. Non &#232;[ST:n ]certo il posto in cui passare sssenza ragione. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev061003_JNK0010</td>
+        <td class="side">Richiedi</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev061003_SEL0011</td>
+        <td class="side">Mostra a Kiliran il disco criptato.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev061003_JNK0020</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev061003_SEL0021</td>
+        <td class="side">Chiedi a Kiliran cosa ci fa qui.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0003</td>
+        <td class="side">Ssstavi cercando me? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0004</td>
+        <td class="side">Giro per il pianeta disegnando una mappa[ST:n ]della dispersione del Voltant. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0005</td>
+        <td class="side">Questa informazione &#232; cruciale per portare a termine[ST:n ]la missione che Golbogga ci ha assegnato. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0006</td>
+        <td class="side">E tu? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0011</td>
+        <td class="side">Ah, vogliono che il disco venga decodificato. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0012</td>
+        <td class="side">Posso vederlo un momento? Non ho[ST:n ]dimestichezza con questo modello. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0007</td>
+        <td class="side">Mmmh... Per&#242; dovrei essere in grado di decrittarlo.[ST:n ]Non ci dovrebbe volere molto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0008</td>
+        <td class="side">Mi dispiace fare della tua richiesta uno scambio[ST:n ]di favori, ma mentre aspetti, potresti dare la caccia[ST:n ]a uno Xe-dom Sarto che gira in questa zona? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0009</td>
+        <td class="side">Quel coso ssstava per farmi fuori un paio di volte[ST:n ]durante i miei rilevamenti. &#200; una ssseccatura. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0010</td>
+        <td class="side">Prometto che decodificher&#242; questo disco e[ST:n ]aspetter&#242; il tuo ritorno. Ti dispiace? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0013</td>
+        <td class="side">Il crittaggio &#232; molto complesso. Mi ci vorr&#224;[ST:n ]pi&#249; tempo del previsto per decifrarlo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0014</td>
+        <td class="side">Ti sssarei grato ssse nel frattempo dessi[ST:n ]la caccia allo Xe-dom Sarto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0015</td>
+        <td class="side">Quel coso ha interrotto la mia localizzazione del[ST:n ]Voltant pi&#249; e pi&#249; volte, e sssono sssempre pi&#249;[ST:n ]indietro nella conclusione del mio progetto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0023</td>
+        <td class="side">Lo hai fatto fuori? Finalmente! Ora posso[ST:n ]fare grandi progressi nel mio lavoro. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0024</td>
+        <td class="side">E la fortuna vuole che io abbia appena finito[ST:n ]di decodificare il tuo disco. Eccolo qua.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0025</td>
+        <td class="side">Sssembra contenere informazioni riguardo Bedun[ST:n ]prima del Giorno della rigenerazione. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0026</td>
+        <td class="side">Potrebbe anche contenere l&#39;immagine del volto di[ST:n ]Golbogga, il creatore in persona. Devo[ST:n ]ammettere che sssono curioso. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev061003_JNK0050</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev061003_SEL0051</td>
+        <td class="side">Chiedi a Kiliran se vuole vedere il contenuto del disco.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev061003_JNK0060</td>
+        <td class="side">Concorda</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev061003_SEL0061</td>
+        <td class="side">Di&#39; a Kiliran che anche tu muori dalla curiosit&#224;.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0027</td>
+        <td class="side">Ssso che Golbogga ci ha creato, e ssso[ST:n ]che &#232; suo volere che devoltantizziamo.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0028</td>
+        <td class="side">La mia unica preoccupazione &#232; quella di fare rilievi[ST:n ]sssul terreno per facilitare questa nostra missione. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0029</td>
+        <td class="side">La curiosit&#224; intellettuale di voi umani &#232; meravigliosa.[ST:n ]Sssiete interessati anche alla ssstoria di altre ssspecie.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0030</td>
+        <td class="side">Ma temo che questa sssia una verit&#224; che non ho[ST:n ]il coraggio di apprendere. Ti chiedo di aspettare[ST:n ]e rivelarla a uno Zaruboggan che ne abbia. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0031</td>
+        <td class="side">Ora ssse mi puoi scusare, ho ancora[ST:n ]molto terreno da rilevare. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev061003_MSG0032</td>
+        <td class="side">Che la grazia di Golbogga ti accompagni[ST:n ]sssempre nella tua ssstrada. Fsss...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

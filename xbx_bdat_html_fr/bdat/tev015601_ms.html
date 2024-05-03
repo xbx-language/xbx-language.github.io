@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0011</td>
+        <td class="side">Demander &#224; Oliver des d&#233;tails sur son travail.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0021</td>
+        <td class="side">Demander &#224; Oliver s&#39;il a des nouvelles int&#233;ressantes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0010</td>
+        <td class="side">tev015601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0031</td>
+        <td class="side">Demander &#224; Oliver de parler de son exp&#233;rience[ST:n ]avec les Ma-nons.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0020</td>
+        <td class="side">tev015601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0021</td>
+        <td class="side">tev015601_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0010</td>
+        <td class="side">tev015601_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0041</td>
+        <td class="side">Demander &#224; Oliver de vous parler de son exp&#233;rience[ST:n ]avec les Prones.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0020</td>
+        <td class="side">tev015601_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0021</td>
+        <td class="side">tev015601_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0010</td>
+        <td class="side">tev015601_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0051</td>
+        <td class="side">Demander &#224; Oliver son opinion sur les x&#233;noformes[ST:n ]vivant &#224; N.L.A.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015601_JNK0020</td>
+        <td class="side">tev015601_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0021</td>
+        <td class="side">tev015601_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015601_SEL1021</td>
+        <td class="side">Demander &#224; Oliver s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0041</td>
+        <td class="side">Demander &#224; Oliver de parler de son exp&#233;rience[ST:n ]avec les Prones.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev015601_SEL0051</td>
+        <td class="side">Demander &#224; Oliver son opinion sur les x&#233;noformes[ST:n ]vivant &#224; N.L.A.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0001</td>
+        <td class="side">On manque de main-d&#39;œuvre et la construction[ST:n ]de la ville a tr&#232;s peu avanc&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0002</td>
+        <td class="side">Il va falloir trouver le moyen d&#39;arranger ce probl&#232;...[ST:n ]H&#233; ! Je sais ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0003</td>
+        <td class="side">Tu sais, ces indig&#232;nes grex qui courent partout[ST:n ]en dehors de la ville ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0004</td>
+        <td class="side">Ils sont robustes ! Si on en capturait quelques-uns et[ST:n ]qu&#39;on les attachait &#224; des chariots pour transporter[ST:n ]les mat&#233;riaux lourds ?![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0005</td>
+        <td class="side">Attends... Non. C&#39;est d&#233;bile. Je suis b&#234;te.[ST:n ]Ils mangeraient probablement tout le monde[ST:n ]une fois &#224; l&#39;int&#233;rieur de la ville.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0006</td>
+        <td class="side">Hmm... Je dois trouver une meilleure id&#233;e. Je ne peux[ST:n ]pas laisser New L.A. croupir dans cet &#233;tat ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0008</td>
+        <td class="side">J&#39;ai rencontr&#233; un agent du BLADE du nom de Robert &#224;[ST:n ]la porte ouest, alors que j&#39;allais chercher des mat&#233;riaux[ST:n ]dans la zone industrielle. Ce type fait attention &#224; tout ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0009</td>
+        <td class="side">Il v&#233;rifie et rev&#233;rifie tout son &#233;quipement, et remplit ses[ST:n ]missions de la fa&#231;on la plus m&#233;ticuleuse qui soit.[ST:n ]C&#39;est un type tr&#232;s prudent.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0010</td>
+        <td class="side">T&#39;as d&#233;j&#224; entendu l&#39;expression &#171; plut&#244;t deux fois[ST:n ]qu&#39;une &#187; ? Eh bien, j&#39;imagine m&#234;me pas le nombre[ST:n ]de v&#233;rifications qu&#39;effectue Robert ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0011</td>
+        <td class="side">Il doit y avoir une expression pour &#231;a, non ?[ST:n ]Du genre &#171; v&#233;rifier 9 fois plut&#244;t qu&#39;oublier &#187;, ...[ST:n ]Je sais pas. J&#39;vais y r&#233;fl&#233;chir.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0016</td>
+        <td class="side">&#171; C&#39;est quoi ce bidule, peut-&#234;tre ? &#187;[ST:n ]&#171; C&#39;est quoi &#231;a ? &#187; Ils ne peuvent pas[ST:n ]arr&#234;ter avec leurs questions, les Ma-nons ?![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0017</td>
+        <td class="side">Avoir affaire aux Ma-nons est &#233;reintant. C&#39;est comme[ST:n ]essayer d&#39;avoir une conversation avec un colibri qui[ST:n ]manque d&#39;assurance.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0018</td>
+        <td class="side">Je devrais aller manger de l&#39;ail shinuyuni qui pousse[ST:n ]en Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0019</td>
+        <td class="side">Parce que je n&#39;arriverai jamais &#224; les supporter si[ST:n ]je n&#39;ai pas assez d&#39;&#233;nergie.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0025</td>
+        <td class="side">Regarde ce Prone, l&#224;-bas ! Il soul&#232;ve une caisse que[ST:n ]je serais incapable de bouger, et il la trimballe[ST:n ]comme si c&#39;&#233;tait aussi l&#233;ger que du papier de soie.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0026</td>
+        <td class="side">C&#39;est g&#233;nial de pouvoir d&#233;placer des trucs comme &#231;a,[ST:n ]sans utiliser de machines. Mais bon sang, qu&#39;est-ce[ST:n ]qu&#39;ils mangent ![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0027</td>
+        <td class="side">Chacun d&#39;entre eux engloutit autant de nourriture que[ST:n ]20 humains ! Ils sont plus efficaces qu&#39;une machine,[ST:n ]mais ils ont besoin de beaucoup plus de carburant.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0028</td>
+        <td class="side">Ce qu&#39;ils pr&#233;f&#232;rent, ce sont les escargots nutritifs :[ST:n ]les ashizels.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0029</td>
+        <td class="side">Ils vivent dans les plaines, &#224; la sortie de la porte ouest.[ST:n ]Je devrais engager un agent du BLADE pour qu&#39;il m&#39;en[ST:n ]ram&#232;ne un bon paquet.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0035</td>
+        <td class="side">D&#39;abord il y a eu les Ma-nons, puis les Prones,[ST:n ]et maintenant, on a les Orph&#233;ens, les Wrothians[ST:n ]et les Nopons.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0036</td>
+        <td class="side">J&#39;aurais jamais pens&#233; qu&#39;il y aurait autant de[ST:n ]x&#233;noformes &#224; New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0037</td>
+        <td class="side">Que ce soit clair, je d&#233;teste ces ordures d&#39;extraterrestres[ST:n ]qui ont fait exploser la Terre.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev015601_MSG0038</td>
+        <td class="side">Mais heureusement qu&#39;il existe aussi de bons x&#233;nos.[ST:n ]On n&#39;a jamais assez d&#39;amis, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev015601_MSG1001</td>
+        <td class="side">J&#39;ai parl&#233; &#224; un agent du BLADE, Robert, &#224; la porte[ST:n ]ouest quand je suis all&#233; chercher des mat&#233;riaux[ST:n ]dans la zone industrielle.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev015601_MSG1002</td>
+        <td class="side">Il m&#39;a dit qu&#39;il s&#39;&#233;tait mis dans la mouise lors d&#39;une[ST:n ]mission en collaboration avec des Orph&#233;ens.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev015601_MSG1003</td>
+        <td class="side">En bon perfectionniste, il a fait une r&#233;vision compl&#232;te de[ST:n ]son v&#233;hicule blind&#233; et il pensait qu&#39;il &#233;tait pr&#234;t, mais[ST:n ]tu devineras jamais ce qu&#39;il s&#39;est pass&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev015601_MSG1004</td>
+        <td class="side">Hein ? C&#39;est toi qui l&#39;as aid&#233; &#224; se sortir de ce p&#233;trin ?[ST:n ]Oh, ouah ! T&#39;es incroyable ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

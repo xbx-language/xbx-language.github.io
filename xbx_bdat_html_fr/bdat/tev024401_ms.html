@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev024401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev024401_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev024401_SEL0011</td>
+        <td class="side">Se renseigner sur l&#39;entreprise de Pepper.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev024401_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev024401_SEL0021</td>
+        <td class="side">Demander si Pepper a de bonnes nouvelles.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev024401_JNK0010</td>
+        <td class="side">tev024401_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev024401_SEL0031</td>
+        <td class="side">Se renseigner aupr&#232;s de Pepper sur les armes[ST:n ]de chez Meredith &amp; Co.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev024401_JNK0020</td>
+        <td class="side">tev024401_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev024401_SEL0021</td>
+        <td class="side">tev024401_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev024401_SEL0041</td>
+        <td class="side">Se renseigner aupr&#232;s de Pepper sur les armes[ST:n ]de la guilde commerciale nopone.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev024401_SEL0051</td>
+        <td class="side">Se renseigner aupr&#232;s de Pepper sur les armes[ST:n ]de chez Six Stars.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev024401_SEL1021</td>
+        <td class="side">Demander &#224; Pepper s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev024401_SEL2021</td>
+        <td class="side">Demander &#224; Pepper s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0001</td>
+        <td class="side">Est-ce que tu as vu les bureaux qui se trouvent [ST:n ]dans la zone commerciale ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0002</td>
+        <td class="side">C&#39;est l&#224; que se trouve mon entreprise. Je suis sous[ST:n ]les ordres de notre pr&#233;sident, Wilbur.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0003</td>
+        <td class="side">Au d&#233;but, nous voulions nous baser pr&#232;s des bureaux[ST:n ]des usines d&#39;armes dans le quartier administratif.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0004</td>
+        <td class="side">Mais on nous a dit que c&#39;&#233;tait r&#233;serv&#233; aux fabricants[ST:n ]d&#39;armes, alors nous avons abandonn&#233; l&#39;id&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0005</td>
+        <td class="side">M&#234;me si c&#39;est notre entreprise qui s&#39;occupe de la vente[ST:n ]et de la distribution de leurs armes.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0008</td>
+        <td class="side">Ces cartes Miravie vont avoir du succ&#232;s...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0009</td>
+        <td class="side">Tu les as vues ? Elles sont illustr&#233;es avec des indig&#232;nes[ST:n ]que je n&#39;avais jamais rencontr&#233;s ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0010</td>
+        <td class="side">Et chaque carte contient une description tr&#232;s d&#233;taill&#233;e[ST:n ]de la cr&#233;ature. Ces informations peuvent s&#39;av&#233;rer utiles[ST:n ]et m&#234;me amusantes ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0011</td>
+        <td class="side">Je n&#39;ai jamais vu de telles cartes &#224; collectionner sur[ST:n ]Terre. Je parie qu&#39;elles auront du succ&#232;s ici ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0012</td>
+        <td class="side">Tu devrais t&#39;en procurer autant que tu le peux,[ST:n ]si tu ne veux pas &#234;tre &#224; la tra&#238;ne ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0013</td>
+        <td class="side">Mmh ? Moi ? Euh... Je vais essayer de convaincre[ST:n ]Wilbur de m&#39;en acheter ![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0015</td>
+        <td class="side">Les armes Meredith &amp; Co. sont cr&#233;&#233;es gr&#226;ce[ST:n ]&#224; la r&#233;tro-ing&#233;nierie des armes du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0016</td>
+        <td class="side">Elles causent des dommages &#224; leurs cibles avec ce qui[ST:n ]s&#39;appelle de l&#39; &#171; &#233;nergie d&#39;&#233;ther &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0017</td>
+        <td class="side">Les indig&#232;nes tels que les insectes et les b&#234;tes semblent[ST:n ]particuli&#232;rement sensibles &#224; l&#39;&#233;nergie d&#39;&#233;ther.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0018</td>
+        <td class="side">L&#39;entreprise fait face &#224; une rude comp&#233;tition,[ST:n ]mais je ne serais pas surprise de voir leurs produits[ST:n ]rattraper les autres.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0019</td>
+        <td class="side">Je trouve leurs designs assez grotesques, mais beaucoup[ST:n ]d&#39;agents du BLADE semblent les appr&#233;cier.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0022</td>
+        <td class="side">La guilde commerciale nopone se concentre sur[ST:n ]les armes incendiaires.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0031</td>
+        <td class="side">Tu as donc l&#39;avantage lorsque tu fais face &#224; un ennemi[ST:n ]sensible au feu ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0032</td>
+        <td class="side">Ces Nopons sont tr&#232;s dou&#233;s pour les affaires.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0033</td>
+        <td class="side">Peu importe la qualit&#233; de leurs produits,[ST:n ]ceux qui pensent pouvoir b&#233;n&#233;ficier de leur vente[ST:n ]vont se heurter &#224; des difficult&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0034</td>
+        <td class="side">Si vous vous laissez embobiner par des Nopons,[ST:n ]vous finirez par vous faire aspirer toutes vos &#233;conomies[ST:n ]par la guilde commerciale nopone ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0030</td>
+        <td class="side">Les katanas wrothians sont connus pour leur tranchant.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0035</td>
+        <td class="side">Il est difficile de les manier, mais les d&#233;g&#226;ts[ST:n ]qu&#39;ils infligent sont d&#233;vastateurs.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0036</td>
+        <td class="side">Leurs produits ont un design assez oriental, si tu aimes[ST:n ]ce genre de chose.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0037</td>
+        <td class="side">Ils vont faire un carton aupr&#232;s des agents du BLADE[ST:n ]qui r&#234;vaient d&#39;&#234;tre ninja.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0038</td>
+        <td class="side">Notre entreprise serait ravie de les aider &#224; importer[ST:n ]plus de produits sur le march&#233; aux armes de New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0021</td>
+        <td class="side">H&#233; h&#233;. Tout semble se d&#233;rouler comme je l’avais pr&#233;vu.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0023</td>
+        <td class="side">Ce n’est pas tr&#232;s gentil pour Wilbur, mais je compte[ST:n ]c&#233;der ma collection de cartes Miravie.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0024</td>
+        <td class="side">J’en profiterai pour voyager, et ensuite,[ST:n ]je lui proposerai un nouveau projet.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0025</td>
+        <td class="side">Si je parviens &#224; voir tous les x&#233;noformes,[ST:n ]je vais gagner en performance en un rien de temps ![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0026</td>
+        <td class="side">Wilbur s&#39;est retir&#233; de l&#39;entreprise, je suis donc[ST:n ]la nouvelle pr&#233;sidente.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0027</td>
+        <td class="side">Mon flair a toujours &#233;t&#233; reconnu, je vais &#233;craser[ST:n ]la concurrence en pr&#233;voyant mieux les tendances[ST:n ]du march&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0028</td>
+        <td class="side">Ou mieux, je vais cr&#233;er de nouvelles tendances[ST:n ]et mettre mon entreprise au centre des flux qui[ST:n ]parcourent New L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev024401_MSG0029</td>
+        <td class="side">Quant &#224; la fa&#231;on dont je vais m&#39;y prendre...[ST:n ]C&#39;est un secret professionnel ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

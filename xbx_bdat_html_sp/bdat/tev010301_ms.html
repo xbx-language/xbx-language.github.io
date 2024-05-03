@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev010301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev010301_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Wilbur acerca de la situaci&#243;n de NLA.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev010301_JNK0020</td>
+        <td class="side">Consultar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Wilbur si ha o&#237;do[ST:n ]alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Wilbur acerca del Arca de la vida.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0091</td>
+        <td class="side">Preg&#250;ntale a Wilbur acerca del Arca de la vida.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0001</td>
+        <td class="side">Bueno, unos xenoformos abatieron la Ballena Blanca[ST:n ]y ahora, lo &#250;nico que separa a los ciudadanos de NLA[ST:n ]de un planeta lleno de atroces ind&#237;genas es un muro.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0003</td>
+        <td class="side">Creo que los ciudadanos de NLA son optimistas[ST:n ]por naturaleza, pero albergan muchos miedos.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0004</td>
+        <td class="side">He o&#237;do que muchos est&#225;n haciendo terapia[ST:n ]debido a diversos problemas psicol&#243;gicos.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0005</td>
+        <td class="side">Supongo que la clase media siempre ha[ST:n ]carecido de la resistencia de la clase alta.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0006</td>
+        <td class="side">Yo, incluso aqu&#237;, he sido capaz de crear una empresa[ST:n ]de &#233;xito con una secretaria atractiva e inteligente.[ST:n ]Y tengo una mansi&#243;n con una piscina enorme.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0007</td>
+        <td class="side">Da igual d&#243;nde est&#233;s: la humanidad siempre[ST:n ]se dividir&#225; en ganadores y perdedores.[ST:n ]Y eso es lo &#250;nico que nos diferencia.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0010</td>
+        <td class="side">Han sacado una colecci&#243;n de cromos[ST:n ]llamados \&quot;cromos Miralife\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0011</td>
+        <td class="side">Mi atractiva secretaria, Pepper, los colecciona.[ST:n ]&#161;Est&#225; obsesionada con ellos![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0012</td>
+        <td class="side">As&#237; que compr&#233; un paquete para ver[ST:n ]qu&#233; ten&#237;an de especial; pero son simples cromos[ST:n ]con dibujos cutres de ind&#237;genas.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0013</td>
+        <td class="side">La verdad es que no entiendo qu&#233; les ve la gente.[ST:n ]Pero parece que Pepper est&#225; muy entusiasmada[ST:n ]en aprender cosas de la vida salvaje de Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0014</td>
+        <td class="side">Y si hay algo que se le d&#233; bien a esa chica,[ST:n ]es captar tendencias.[ST:n ]&#191;Me pregunto cu&#225;l ser&#225; la siguiente?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0022</td>
+        <td class="side">&#191;Cu&#225;nto tiempo m&#225;s tengo que aguantar con esa[ST:n ]nave gigante ah&#237;? &#161;No constru&#237; mi mansi&#243;n en el mejor[ST:n ]lugar de la ciudad para que me taparan las vistas![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0023</td>
+        <td class="side">Cada vez que llamo a los BLADE para quejarme,[ST:n ]me dicen no s&#233; qu&#233; de un tratado de amistad[ST:n ]y que no pueden hacer que muevan la nave.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0024</td>
+        <td class="side">&#161;Chorradas! Me encantar&#237;a hacer negocios con ellos[ST:n ]si pudiera, pero...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0025</td>
+        <td class="side">&#161;No puedo pasar esto por alto![ST:n ]&#161;Soy un hombre muy rico! Pero ni con toda mi fortuna[ST:n ]consigo que saquen esa dichosa nave de en medio.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0041</td>
+        <td class="side">&#161;He o&#237;do que hab&#233;is localizado la ubicaci&#243;n[ST:n ]del n&#250;cleo del Arca de la vida![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0042</td>
+        <td class="side">&#161;Me alegro mucho de ver que el enorme capital[ST:n ]que he invertido en esa organizaci&#243;n a la que llam&#225;is[ST:n ]BLADE por fin ha dado sus frutos![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0043</td>
+        <td class="side">No obstante, a&#250;n hay algo que me preocupa.[ST:n ]Cuando abramos el n&#250;cleo del Arca de la vida,[ST:n ]&#191;me obligar&#225;n a volver a mi antiguo cuerpo?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0044</td>
+        <td class="side">Porque no quiero deshacerme de un cuerpo[ST:n ]que me garantiza la juventud eterna.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0045</td>
+        <td class="side">Deber&#237;an darnos a elegir si queremos permanecer en[ST:n ]los mimeosomas o volver a nuestros cuerpos de carne[ST:n ]y hueso. Al menos los ricos deber&#237;an poder elegir...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev010301_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Wilbur si hay alguna novedad.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0046</td>
+        <td class="side">&#161;He o&#237;do que una nopon llamada Warawa[ST:n ]ha conseguido un cromo Miralife[ST:n ]dorado de nopop&#243;tamo![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0047</td>
+        <td class="side">&#161;Habr&#233; comprado como la mitad de los cromos[ST:n ]que hay en circulaci&#243;n, pero nunca me ha salido ese![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0048</td>
+        <td class="side">&#161;Arg! &#161;Qu&#233; desesperante! Quiz&#225; deber&#237;a[ST:n ]de haber confiado en Pepper y haber empezado[ST:n ]a comprar cromos de la primera edici&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0049</td>
+        <td class="side">&#161;Grrr! &#161;Esto me pone de los nervios![ST:n ]Quiz&#225; compre diez cajas m&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0050</td>
+        <td class="side">&#191;Cu&#225;nto tiempo m&#225;s tengo que aguantar con esa[ST:n ]nave gigante ah&#237;? &#161;No constru&#237; mi mansi&#243;n en el mejor[ST:n ]lugar de la ciudad para que me taparan las vistas![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0051</td>
+        <td class="side">Cada vez que llamo a los BLADE para quejarme,[ST:n ]me dicen no s&#233; qu&#233; de un tratado de amistad[ST:n ]y que no pueden hacer que muevan la nave.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0052</td>
+        <td class="side">Comprendo que los ma-non son grandes aliados [ST:n ]y que los BLADE tienen que protegerlos, pero...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0053</td>
+        <td class="side">&#161;No puedo pasar esto por alto![ST:n ]&#161;Soy un hombre muy rico! Pero ni con toda mi fortuna[ST:n ]consigo que saquen esa dichosa nave de en medio.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0057</td>
+        <td class="side">&#161;[ST:Gender p1=Bienvenido p2=Bienvenida ]! &#161;Qu&#233; placer volver a verte![ST:n ]Gracias por encontrarme aquel objeto,[ST:n ]ya me he alistado en BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0058</td>
+        <td class="side">Tambi&#233;n he dejado a Pepper, mi preciosa secretaria,[ST:n ]a cargo de la empresa; as&#237; que ya no hay nada[ST:n ]que me retenga.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0059</td>
+        <td class="side">Soy libre para viajar por Mira cuando quiera[ST:n ]y capturar a todos los ind&#237;genas[ST:n ]que aparecen en los cromos Miralife esos.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0060</td>
+        <td class="side">Es gracias a ti que puedo dar este paso[ST:n ]en mi desarrollo personal. As&#237; pues,[ST:n ]te lo agradezco de coraz&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0068</td>
+        <td class="side">&#161;He o&#237;do que hemos encontrado[ST:n ]la ubicaci&#243;n del n&#250;cleo del Arca de la vida![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0069</td>
+        <td class="side">Ha sido una lucha ardua e interminable, pero pronto[ST:n ]&#161;los BLADE obtendremos nuestra merecida victoria![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0070</td>
+        <td class="side">No obstante, a&#250;n hay algo que me preocupa.[ST:n ]Cuando abramos el n&#250;cleo del Arca de la vida,[ST:n ]&#191;me obligar&#225;n a volver a mi antiguo cuerpo?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0071</td>
+        <td class="side">Porque si quiero seguir luchando contra ind&#237;genas,[ST:n ]me costar&#225; mucho menos con este cuerpo[ST:n ]que con uno fr&#225;gil de carne y hueso.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0072</td>
+        <td class="side">Si fuera posible, me gustar&#237;a que nos dieran a elegir[ST:n ]entre permanecer en los mimeosomas[ST:n ]o volver a nuestros cuerpos de carne y hueso.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0073</td>
+        <td class="side">He o&#237;do que hemos encontrado[ST:n ]el n&#250;cleo del Arca de la vida.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0074</td>
+        <td class="side">A&#250;n no me han pedido que abandone el mimeosoma[ST:n ]y vuelva a mi verdadero cuerpo,[ST:n ]pero espero que no me lo pidan nunca.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0075</td>
+        <td class="side">Un mimeosoma nunca se pone enfermo; si se da&#241;a,[ST:n ]se le pueden cambiar las piezas y, sobre todo,[ST:n ]te libra de los achaques de la edad.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev010301_MSG0076</td>
+        <td class="side">Si fuera posible, me gustar&#237;a que nos dieran a elegir[ST:n ]entre permanecer en los mimeosomas[ST:n ]o volver a nuestros cuerpos de carne y hueso.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

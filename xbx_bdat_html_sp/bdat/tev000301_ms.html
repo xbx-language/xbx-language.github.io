@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0001</td>
+        <td class="side">Vamos, ll&#233;vame contigo.[ST:n ]Quiero ver el Arca de la vida con mis propios ojos.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0010</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0011</td>
+        <td class="side">A&#241;ade a Lao a tu equipo.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0020</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0021</td>
+        <td class="side">Rechaza la petici&#243;n de Lao de momento.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0004</td>
+        <td class="side">Sab&#237;a que pod&#237;a contar contigo. T&#250; tambi&#233;n puedes[ST:n ]contar conmigo, te aseguro que no ser&#233; un estorbo.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0005</td>
+        <td class="side">Vamos, no seas as&#237;. Pi&#233;nsatelo mejor, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0006</td>
+        <td class="side">Oye, t&#250; eres del equipo de Elma, &#191;no?[ST:n ][ST:playername ], &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0007</td>
+        <td class="side">&#191;C&#243;mo va todo?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0008</td>
+        <td class="side">Si est&#225;s [ST:Gender p1=liado p2=liada ] con alguna misi&#243;n, me encantar&#237;a[ST:n ]participar. Puedo sacar algo de tiempo y dejar un rato[ST:n ]la estresante labor de estar mano sobre mano.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0030</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0031</td>
+        <td class="side">A&#241;ade a Lao a tu equipo.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0040</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0041</td>
+        <td class="side">Rechaza la petici&#243;n de Lao de momento.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0009</td>
+        <td class="side">No se me ocurre una manera mejor de matar[ST:n ]el tiempo. Venga, yo te sigo, [ST:Gender p1=jefe p2=jefa ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0010</td>
+        <td class="side">&#191;En serio? Bueno, si no me necesitas,[ST:n ]no te voy a obligar a que me lleves contigo.[ST:n ]&#161;Ten cuidado ah&#237; fuera![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0015</td>
+        <td class="side">El enemigo de nuestro enemigo es nuestro amigo, &#191;no?[ST:n ]Ojal&#225; fuera as&#237; de simple.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0016</td>
+        <td class="side">Cuando lidias con xenoformos que no conoces,[ST:n ]lo mejor es cubrirte las espaldas siempre.[ST:n ]Yo podr&#237;a encargarme de eso si me llevas contigo.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0050</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0051</td>
+        <td class="side">A&#241;ade a Lao a tu equipo.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0060</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0061</td>
+        <td class="side">Rechaza la petici&#243;n de Lao de momento.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0017</td>
+        <td class="side">Genial. No te arrepentir&#225;s, puedes contar[ST:n ]conmigo para lo que sea.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0018</td>
+        <td class="side">Lo que t&#250; digas, [ST:Gender p1=jefe p2=jefa ]. Si cambias de opini&#243;n,[ST:n ]estar&#233; aqu&#237;, matando el tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0023</td>
+        <td class="side">Acaban de informarme de que los ganglion[ST:n ]han atacado al equipo de Irina. &#161;Maldici&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0024</td>
+        <td class="side">Tenemos que ir r&#225;pidamente a Oblivia[ST:n ]e intentar salvarlos. Te acompa&#241;o, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0070</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0071</td>
+        <td class="side">A&#241;ade a Lao a tu equipo.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000301_JNK0080</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000301_SEL0081</td>
+        <td class="side">Rechaza la petici&#243;n de Lao de momento.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0025</td>
+        <td class="side">&#161;Te acompa&#241;ar&#233; vayas a donde vayas![ST:n ]Cuenta conmigo para lo que sea.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0026</td>
+        <td class="side">Est&#225; bien. Si cambias de opini&#243;n,[ST:n ]estoy aqu&#237; para ayudarte en lo que sea.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0031</td>
+        <td class="side">Buena suerte. Har&#233; lo que pueda desde aqu&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000301_MSG0032</td>
+        <td class="side">Bueno, la pr&#243;xima vez ser&#225;. &#161;Que te vaya bien![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

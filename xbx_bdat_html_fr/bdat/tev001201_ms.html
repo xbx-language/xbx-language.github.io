@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0001</td>
+        <td class="side">[ST:playername ] ! H&#233; ! Tu vas quelque part ?[ST:n ]&#199;a t&#39;ennuie si je t&#39;accompagne ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0002</td>
+        <td class="side">Je travaille sur ce module de vol pour Skell et je suis[ST:n ]totalement dans l&#39;impasse. Je commence &#224; avoir une de[ST:n ]ces migraines...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0003</td>
+        <td class="side">Un petit peu de travail &#224; l&#39;ext&#233;rieur serait tout juste ce[ST:n ]qu&#39;il me faut pour me vider la t&#234;te. T&#39;en dis quoi ?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0011</td>
+        <td class="side">Ajouter Lin &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0021</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Lin pour le moment.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0004</td>
+        <td class="side">Merci, [ST:playername ] ![ST:n ]L&#39;air frais me fera du bien ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0005</td>
+        <td class="side">Oh, d&#39;accord. Je suppose que cette mission est du[ST:n ]genre costaud, hein ? Merci de faire attention &#224; moi.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0010</td>
+        <td class="side">Alors, ton module de vol Skell tient bien la route ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0011</td>
+        <td class="side">J&#39;aimerais vraiment le voir en action...[ST:n ]&#199;a t&#39;ennuierait de m&#39;emmener avec toi ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0150</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0151</td>
+        <td class="side">Ajouter Lin &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0160</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0161</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Lin pour le moment.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0012</td>
+        <td class="side">G&#233;nial ! Je suis super impatiente ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0013</td>
+        <td class="side">Oh, bon, tant pis. Je vais aller pr&#233;parer le d&#238;ner alors.[ST:n ]Reviens ici si tu as un petit creux ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0018</td>
+        <td class="side">Je n&#39;y crois pas, on va enfin r&#233;cup&#233;rer le noyau de[ST:n ]l&#39;arche de vie ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0019</td>
+        <td class="side">Je ferais n&#39;importe quoi pour qu&#39;on y arrive, alors[ST:n ]emm&#232;ne-moi, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0150</td>
+        <td class="side">tev001201_JNK0150</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0151</td>
+        <td class="side">tev001201_SEL0151</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0160</td>
+        <td class="side">tev001201_JNK0160</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0161</td>
+        <td class="side">tev001201_SEL0161</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0020</td>
+        <td class="side">Merci, [ST:playername ] ![ST:n ]Tu ne le regretteras pas ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0021</td>
+        <td class="side">Oh, bon, d&#39;accord. Bonne chance, alors. Reviens en un[ST:n ]seul morceau, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0026</td>
+        <td class="side">H&#233;, tu t&#39;en vas encore ? Je m&#39;&#233;tais dit que je[ST:n ]participerais bien &#224; une petite aventure, moi aussi...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0027</td>
+        <td class="side">Allez, emm&#232;ne-moi avec toi, d&#39;accord ? S&#39;il te pla&#238;t ?[ST:n ]J&#39;irai o&#249; tu veux ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0170</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0171</td>
+        <td class="side">Ajouter Lin &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001201_JNK0180</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001201_SEL0181</td>
+        <td class="side">D&#233;cliner la requ&#234;te de Lin pour le moment.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0028</td>
+        <td class="side">Fantastique ! Que la f&#234;te commence ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001201_MSG0029</td>
+        <td class="side">D&#39;accord... Je vais juste m&#39;ennuyer &#224; la maison alors...[ST:n ]Au moins, ram&#232;ne-moi quelques ingr&#233;dients frais pour[ST:n ]que je puisse m&#39;amuser dans la cuisine, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

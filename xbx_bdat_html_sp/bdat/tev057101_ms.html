@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev057101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Jalolo por los nopon.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Jalolo si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Jalolo c&#243;mo fue todo durante el ataque.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Jalolo por el Zu Pharg.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Jalolo qu&#233; tal van los negocios.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0001</td>
+        <td class="side">Dinero es cosa m&#225;s importante para nopon.[ST:n ]Pero &#161;pagar&#233; firmado es segunda cosa m&#225;s importante![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0002</td>
+        <td class="side">Nopon saben que no se pueden hacer tratos[ST:n ]de palabra. &#161;Eso es pedir problemas a gritos![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0003</td>
+        <td class="side">Mejor dejar todos detalles por escrito.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0004</td>
+        <td class="side">Jalolo puede ser rastrero si hace falta,[ST:n ]pero &#161;[ST:Gender p1=amigo p2=amiga ] nunca ver&#225; a Jalolo mentir[ST:n ]por escrito! Si Jalolo lo escribe, &#161;es legal![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0008</td>
+        <td class="side">&#191;C&#243;mo puede nenap&#243;n irse con ese pobret&#243;n pat&#233;tico?[ST:n ]&#161;Meeeh! &#161;Jalolo est&#225; contrariado![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0009</td>
+        <td class="side">&#161;[ST:Gender p1=Bienvenido p2=Bienvenida ] a Pr&#233;stamos Jalolo! Inter&#233;s normalmente[ST:n ]empieza a cincuenta por ciento cada diez d&#237;as, pero[ST:n ]Jalolo tiene mal d&#237;a, as&#237; que ser&#225; ochenta por ciento.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0010</td>
+        <td class="side">Pens&#225;ndolo mejor, [ST:Gender p1=amigo p2=amiga ] no parece de fiar[ST:n ]como para prestarle dinero. &#161;As&#237; que aire![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0015</td>
+        <td class="side">&#161;Jalolo lo ve todo! Mont&#243;n de ganglion vuelan a sur,[ST:n ]y un rato despu&#233;s vuelven a norte.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0016</td>
+        <td class="side">Jalolo puede ser bastante rastrero[ST:n ]si hace falta, pero tampoco tanto...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0017</td>
+        <td class="side">Jalolo no es nada comparado con esos tipos[ST:n ]tan malvados y ominosos y aterradores...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0018</td>
+        <td class="side">Quiz&#225; Jalolo deber&#237;a hacer negocios con ganglion[ST:n ]e intentar caerles bien mientras a&#250;n es posible.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0023</td>
+        <td class="side">Jalolo cre&#237;a que descubri&#243; primera monta&#241;a viviente[ST:n ]de Mira, pero &#161;era en realidad arma ganglion![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0024</td>
+        <td class="side">Esto hizo a Jalolo preguntarse si hacer negocios[ST:n ]con clientes tan peligrosos fue buena idea.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0025</td>
+        <td class="side">Pero amigos humanos que derrotaron gran arma[ST:n ]malvada deben de ser incluso m&#225;s aterradores,[ST:n ]y Jalolo hizo negocios con ellos...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0026</td>
+        <td class="side">Quiz&#225; Jalolo necesita elegir bando de una vez[ST:n ]por todas, por propia seguridad. Pero &#191;cu&#225;l? Mmm...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0030</td>
+        <td class="side">&#161;Meh! Jalolo no se ganar&#237;a vida como adivino.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0031</td>
+        <td class="side">Jalolo estaba seguro de que amigos humanos perder&#237;an[ST:n ]y decidi&#243; hacer negocios solo con ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0032</td>
+        <td class="side">Nada personal, [ST:Gender p1=amigo p2=amiga ]. Negocios son negocios.[ST:n ]Y adem&#225;s, Jalolo se llev&#243; su merecido.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0033</td>
+        <td class="side">Ahora que ganglion han sido destruidos,[ST:n ]&#161;Jalolo endeudado hasta mata de pelo![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0034</td>
+        <td class="side">Pero [ST:Gender p1=amigo humano p2=amiga humana ] no ha de apiadarse.[ST:n ]Esto no es culpa de nadie excepto de Jalolo.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0010</td>
+        <td class="side">tev057101_JNK0010</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0011</td>
+        <td class="side">tev057101_SEL0011</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0020</td>
+        <td class="side">tev057101_JNK0020</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev057101_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Jalolo si hay alguna novedad.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0011</td>
+        <td class="side">&#161;Jalolo estaba completamente seguro[ST:n ]de que Nio hab&#237;a entregado mata de pelo![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0012</td>
+        <td class="side">As&#237; que &#191;c&#243;mo le pudo crecer a Nio tan r&#225;pido[ST:n ]otra vez, eh? &#191;Y por qu&#233; se lleva tan bien[ST:n ]con nenap&#243;n? &#161;Hasta est&#250;pido anillo le queda bien![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0013</td>
+        <td class="side">Grrr... &#161;No! &#161;Jalolo no acepta esto! Si Nio[ST:n ]y nenap&#243;n van a vivir aqu&#237;, &#161;Jalolo va a dedicar[ST:n ]cada momento a hacerles vida imposible![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0014</td>
+        <td class="side">&#161;Jalolo se niega a ser &#250;nica persona sin felicidad![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

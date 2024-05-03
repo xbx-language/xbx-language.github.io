@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030502_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0001</td>
+        <td class="side">Aaah... Quelle douleur... Tout mon corps souffre,[ST:n ]savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0002</td>
+        <td class="side">Je dois boire de l&#39;eau miraculeuse avant qu&#39;il ne soit[ST:n ]trop tard, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030502_JNK0010</td>
+        <td class="side">S&#39;inqui&#233;ter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030502_SEL0011</td>
+        <td class="side">Dire &#224; Jalimbo qu&#39;il n&#39;a pas l&#39;air d&#39;aller bien.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030502_JNK0020</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030502_SEL0021</td>
+        <td class="side">Demander &#224; Jalimbo de vous parler[ST:n ]de l&#39;eau miraculeuse.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0009</td>
+        <td class="side">Je suis dans cet &#233;tat depuis un long moment,[ST:n ]savez-vous ? Mon m&#233;decin, le Dr Staccata,[ST:n ]n&#39;a su trouver ni la cause, ni le rem&#232;de...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0010</td>
+        <td class="side">Je souffre, voil&#224; pourquoi je suis venu prendre[ST:n ]de cette eau miraculeuse, vous comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0011</td>
+        <td class="side">Je suis pr&#234;t &#224; croire en un &#234;tre invisible si si cela[ST:n ]me permet d&#39;aller mieux, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0014</td>
+        <td class="side">Fraisie et les autres qui croient au Porteur de miracles[ST:n ]distribuent l&#39;eau, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0015</td>
+        <td class="side">On raconte qu&#39;une seule gorg&#233;e peut gu&#233;rir[ST:n ]la plus terrible des maladies...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030502_MSG0016</td>
+        <td class="side">Je n&#39;accorde pas de cr&#233;dit aux dieux ou aux miracles,[ST:n ]mais s&#39;ils peuvent me gu&#233;rir, je suis peut-&#234;tre pr&#234;t[ST:n ]&#224; croire &#224; n&#39;importe quoi, savez-vous ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

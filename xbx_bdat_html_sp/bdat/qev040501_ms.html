@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev040501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0001</td>
+        <td class="side">&#161;&#191;Moimoi a&#250;n no termin&#243; radario?![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0002</td>
+        <td class="side">&#161;Silencio, Muimui! Moimoi es rey de inventos,[ST:n ]pero incluso a rey tarda en llegar inspiraci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0003</td>
+        <td class="side">&#161;Venga! Dos no podemos vivir mucho[ST:n ]m&#225;s tiempo de bolsillo de rey hermanop&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0004</td>
+        <td class="side">&#161;Ah, hola! Eres [ST:Gender p1=amigo p2=amiga ] BLADE, &#191;verdad? Muimui[ST:n ]y Moimoi se unieron a BLADE para ganar dinerito.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0005</td>
+        <td class="side">&#161;Shhh! &#161;Silencio! &#191;Quiere Muimui[ST:n ]que l&#237;der de BLADE le grite otra vez?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0006</td>
+        <td class="side">&#161;Ay! En realidad... Muimui y Moimoi se unieron[ST:n ]a BLADE para hacer cosas buenas. Casi seguro...[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0007</td>
+        <td class="side">Pero ahora [ST:Gender p1=amigo p2=amiga ] debe mostrar camino[ST:n ]a Muimui para saber c&#243;mo ser BLADE.[ST:n ]Y, sobre todo, para saber c&#243;mo hacerse rico.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0010</td>
+        <td class="side">Aceptar</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0011</td>
+        <td class="side">Ens&#233;&#241;ale a Muimui lo que necesita[ST:n ]saber para ser un miembro de BLADE.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0020</td>
+        <td class="side">Rechazar</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0021</td>
+        <td class="side">Rega&#241;a a Muimui por ser tan ego&#237;sta.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0008</td>
+        <td class="side">Aj&#225;... Mmmm... S&#237;. Muimui entiende. BLADE[ST:n ]arriesgan vida y cuello para luchar contra[ST:n ]enemigos fuertes y mantener a salvo ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0009</td>
+        <td class="side">Pero a Muimui eso le da igual.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0010</td>
+        <td class="side">Muimui quiere saber c&#243;mo conseguir[ST:n ]recompensa m&#225;s grande con m&#237;nimo esfuerzo.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0011</td>
+        <td class="side">&#161;Venga, jo, [ST:Gender p1=amigo p2=amiga ]![ST:n ]&#161;Ense&#241;a a Muimui trucos de BLADE para forrarse![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0012</td>
+        <td class="side">&#161;Di a Muimui c&#243;mo conseguir[ST:n ]trabajos f&#225;ciles con buenas recompensas![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0013</td>
+        <td class="side">&#191;C&#243;mo?... &#191;Esos trabajos no existen? &#191;Muimui[ST:n ]tiene que trabajar mucho como todos dem&#225;s tontos?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0014</td>
+        <td class="side">Quiz&#225; [ST:Gender p1=amigo p2=amiga ] no entendi&#243; situaci&#243;n. Muimui[ST:n ]y Moimoi m&#225;s pobres que ratas. No podemos tomar[ST:n ]ni respiro entre trabajillos. &#191;[ST:Gender p1=Amigo p2=Amiga ] entiende ya?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0015</td>
+        <td class="side">&#161;Meh! &#161;No importa! Parece que[ST:n ]&#250;nica opci&#243;n es jug&#225;rselo todo a radario.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0030</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0031</td>
+        <td class="side">Preg&#250;ntale qu&#233; narices es un \&quot;radario\&quot;.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0040</td>
+        <td class="side">Rega&#241;ar</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0041</td>
+        <td class="side">Dale una charla sobre el placer que se siente[ST:n ]tras un duro d&#237;a de trabajo.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0016</td>
+        <td class="side">&#161;Radario es radar extraordinario![ST:n ]Es &#250;ltima creaci&#243;n de hermanop&#243;n[ST:n ]peque&#241;o de Muimui, rey nopon de inventos.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0017</td>
+        <td class="side">Recoge d&#233;bil se&#241;al emitida por tesoro de[ST:n ]antepasados nopon. Tesoro perdido para historia[ST:n ]de Mira. &#161;Rastrea Espada legendar&#237;sima![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0018</td>
+        <td class="side">Espada es &#250;nica: no hay nada m&#225;s excepcional,[ST:n ]incluso entre todas cosas nopon c&#233;lebres.[ST:n ]Curator pagar&#225;n fortuna por ella.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0019</td>
+        <td class="side">&#161;Discursito no da de comer a Muimui![ST:n ]Ya gastamos mont&#243;n de dinero en desarrollar radario,[ST:n ]aparato rastreador de Espada legendar&#237;sima nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0020</td>
+        <td class="side">Ya puede llevarnos a espada... o Muimui[ST:n ]pasar&#225; resto de sus d&#237;as debajo de puente.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0021</td>
+        <td class="side">Da igual si tardamos, encontraremos antigua espada.[ST:n ]Es m&#225;s excepcional de cosas nopon legendarias[ST:n ]y Curator pagar&#225;n fortuna por ella.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0022</td>
+        <td class="side">Bueno... Incluso cuando radar terminado,[ST:n ]equipo de Muimui no muy adecuado[ST:n ]para viajar fuera de ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0023</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] es BLADE [ST:Gender p1=experto p2=experta ] y [ST:Gender p1=generoso p2=generosa ], &#191;verdad?[ST:n ]&#161;Pues [ST:Gender p1=amigo p2=amiga ] debe ayudar a novato intr&#233;pido Muimui[ST:n ]a fabricar un par de infinigafas![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0024</td>
+        <td class="side">Despu&#233;s de todo, BLADE hacen descuentos[ST:n ]al ayudar a otros BLADE, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0025</td>
+        <td class="side">&#161;Trato hecho! [ST:Gender p1=Amigo p2=Amiga ] deber&#237;a empezar por recoger[ST:n ]materiales necesarios para fabricar infinigafas.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0026</td>
+        <td class="side">Moimoi necesita cinco trozos de cuero firme y[ST:n ]dos espejos blancos para crear infinigafas en pisp&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0027</td>
+        <td class="side">Ah, y tentempi&#233;... Esto... &#161;comida de emergencia para[ST:n ]misiones! Tres limones s&#243;nar tampoco vendr&#237;an mal.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0028</td>
+        <td class="side">Mientras [ST:Gender p1=amigo p2=amiga ] consigue todo,[ST:n ]Moimoi terminar&#225; radario.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0029</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] BLADE y Moimoi dejar&#225;n ir tambi&#233;n[ST:n ]a Muimui en busca de Espada legendar&#237;sima nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0036</td>
+        <td class="side">&#161;[ST:Gender p1=Amigo p2=Amiga ] tiene que recoger materiales para[ST:n ]fabricar infinigafas personalizadas![ST:n ]Moimoi necesita cuero firme y espejo blanco.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0037</td>
+        <td class="side">&#161;Ah! Como viaje largo y mucha hambre,[ST:n ][ST:Gender p1=amigo p2=amiga ] trae tambi&#233;n limones s&#243;nar.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0038</td>
+        <td class="side">&#161;No pierde tiempo! &#161;Muimui est&#225; impaciente por[ST:n ]encontrar Espada legendar&#237;sima y hacerse rico![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0039</td>
+        <td class="side">&#191;[ST:Gender p1=Amigo p2=Amiga ] trajo materiales? &#161;Justo a tiempo![ST:n ]Moimoi, hermanop&#243;n de Muimui,[ST:n ]acaba de terminar radario.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0040</td>
+        <td class="side">&#161;Gracias, [ST:Gender p1=amigo p2=amiga ]! &#161;Moimoi podr&#225;[ST:n ]fabricar infinigafas geniales con esto![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0041</td>
+        <td class="side">Ya puede empezar b&#250;squeda de Espada legendar&#237;sima.[ST:n ]&#161;Muimui va a forrarse por fin![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0050</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Muimui d&#243;nde est&#225; Moimoi.</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0060</td>
+        <td class="side">Alabar</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0061</td>
+        <td class="side">Alaba el entusiasmo de Muimui.</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0042</td>
+        <td class="side">&#161;Confiamos en experiencia de [ST:Gender p1=experto amigo p2=experta amiga ] BLADE[ST:n ]para ocuparse de detalles![ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0043</td>
+        <td class="side">Moimoi fue a comprobar radario[ST:n ]por &#250;ltima vez. No tarda.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0044</td>
+        <td class="side">&#161;[ST:Gender p1=Amigo p2=Amiga ] da muchos &#225;nimos![ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0045</td>
+        <td class="side">Solo tenemos que esperar a Moimoi. Cuando[ST:n ]radario comprobado por &#250;ltima vez, podremos...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0046</td>
+        <td class="side">&#191;Meh?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0047</td>
+        <td class="side">Hermanop&#243;n... Snif... Moimoi[ST:n ]tiene muy malas noticias.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0048</td>
+        <td class="side">&#191;Qu&#233;? &#191;Qu&#233; pas&#243;? &#191;Por qu&#233;[ST:n ]Moimoi apesta a algo raro?[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0049</td>
+        <td class="side">Moimoi sigui&#243; se&#241;al de radario... snif... hasta[ST:n ]lago de Biahno. Entonces terebra feroz apareci&#243;.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0050</td>
+        <td class="side">&#161;Se zamp&#243; a Moimoi! Pataleando y d&#225;ndole[ST:n ]pu&#241;etazos Moimoi consigui&#243; escapar. Pero[ST:n ]&#161;boca de terebra huele a rayos![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0070</td>
+        <td class="side">Preocuparse</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0071</td>
+        <td class="side">Preg&#250;ntale a Moimoi si est&#225; bien.</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0080</td>
+        <td class="side">Sugerir</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0081</td>
+        <td class="side">Proponle a Moimoi que se deje de[ST:n ]charla y vaya a ba&#241;arse inmediatamente.</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0051</td>
+        <td class="side">Muy considerado por parte de [ST:Gender p1=amigo p2=amiga ] no mencionar[ST:n ]profundo hedor de terebra en cuerpo de Moimoi.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0052</td>
+        <td class="side">Pero &#161;tenemos que preocuparnos de cosas[ST:n ]m&#225;s importantes que Moimoi ahora mismo![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0053</td>
+        <td class="side">S&#237;, apesta. Seguro que terebra[ST:n ]comi&#243; algo raro aparte de Moimoi.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0054</td>
+        <td class="side">Pero &#161;no hay tiempo para ba&#241;os![ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0055</td>
+        <td class="side">&#161;Terebra se trag&#243; radario tambi&#233;n! Hermanop&#243;n,[ST:n ]Moimoi... snif... &#161;siente mucho![ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0056</td>
+        <td class="side">Bueno, hermanop&#243;n. Moimoi volvi&#243;[ST:n ]a casa sano y salvo, dem&#225;s no importa.[ST:n ]No preocuparse por peque&#241;as cosas.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0057</td>
+        <td class="side">&#191;Y ahora qu&#233;? Costar&#237;a 30 000 cr&#233;ditos construir[ST:n ]otro nuevo desde principio y Moimoi sin blanca.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0058</td>
+        <td class="side">&#161;[ST:Gender p1=Amigo p2=Amiga ] BLADE nos ayudar&#225;![ST:n ]Pondr&#225; pasta o echar&#225; guante a terebra.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0059</td>
+        <td class="side">Muimui no sabe c&#243;mo, pero[ST:n ]&#161;[ST:Gender p1=amigo generoso p2=amiga generosa ] nos salvar&#225; vida![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0060</td>
+        <td class="side">&#161;Por favor, [ST:Gender p1=amigo p2=amiga ]! Si dinero invertido en radario[ST:n ]perdido para siempre, Muimui en ruina.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0061</td>
+        <td class="side">As&#237; que dar a Moimoi dinero para[ST:n ]nuevo radario o atrapar a terebra salvaje[ST:n ]en lago de Biahno, en oeste. &#161;[ST:Gender p1=Amigo p2=Amiga ] decide![ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0062</td>
+        <td class="side">En tiempos dif&#237;ciles, BLADE siempre se ayudan[ST:n ]unos a otros, as&#237; que Muimui conf&#237;a en [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0063</td>
+        <td class="side">&#161;Ooh! &#161;[ST:Gender p1=Amigo p2=Amiga ] recuper&#243; radario![ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0064</td>
+        <td class="side">&#161;Meh, meh, meh! &#161;Huele fatal! Y parece[ST:n ]un poco escacharrado...[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0065</td>
+        <td class="side">Muimui no puede usarlo as&#237;. Por favor, lleva a[ST:n ]Moimoi para ponerlo a punto. Y lavarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0066</td>
+        <td class="side">&#191;Ya tenemos radario? &#161;Qu&#233; bien![ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0067</td>
+        <td class="side">&#161;Jo, jo, jooooo! &#161;Radario recibe se&#241;al![ST:n ]&#161;Ahora Muimui puede rastrear Espada legendar&#237;sima![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0068</td>
+        <td class="side">&#161;Ey, hermanop&#243;n! Moimoi tambi&#233;n termin&#243; infinigafas.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0069</td>
+        <td class="side">Ahora Muimui puede localizar bichos peligrosos[ST:n ]mucho antes de acabar en su barriga.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0070</td>
+        <td class="side">Muy bien. Todo preparado.[ST:n ]&#161;Hora de empezar con b&#250;squeda![ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0090</td>
+        <td class="side">Animar</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0091</td>
+        <td class="side">Dile a Muimui que esperas[ST:n ]que encuentre la espada.</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev040501_JNK0100</td>
+        <td class="side">Advertir</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev040501_SEL0101</td>
+        <td class="side">Advierte a Muimui de que el mundo[ST:n ]est&#225; lleno de peligros.</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0071</td>
+        <td class="side">M&#225;s claro que agua. &#161;Tenemos radario de Moimoi![ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0072</td>
+        <td class="side">&#161;[ST:Gender p1=Amigo p2=Amiga ] no se preocupa! Muimui localizar&#225;[ST:n ]enemigos antes que ellos a Muimui con[ST:n ]infinigafas de hermanop&#243;n. Luego se alejar&#225; gritando.[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0073</td>
+        <td class="side">&#161;Muimui se va![ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev040501_MSG0074</td>
+        <td class="side">&#161;Buena suerte! &#161;Ten mucho cuidado![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

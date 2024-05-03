@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev031201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev031201_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev031201_SEL0011</td>
+        <td class="side">Frage Fodjimua nach seiner Arbeit.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev031201_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev031201_SEL0021</td>
+        <td class="side">Lass dir von Fodjimua die neuesten Ger&#252;chte erz&#228;hlen.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev031201_SEL0031</td>
+        <td class="side">Sprich mit Fodjimua &#252;ber die[ST:n ]Ausr&#252;stung von Lieb &amp; Stichfest.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev031201_SEL1011</td>
+        <td class="side">Frage Fodjimua, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev031201_SEL2011</td>
+        <td class="side">Frage Fodjimua, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0001</td>
+        <td class="side">Ich habe mich freiwillig als BLADE-Mechaniker gemeldet,[ST:n ]weil ich den Menschen so gut es geht helfen wollte,[ST:n ]wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0002</td>
+        <td class="side">Ich tu, was ich kann, ja? In letzter Zeit habe ich nicht[ST:n ]nur Skells repariert, sondern mich au&#223;erdem noch um[ST:n ]die Wartung von Mimoiden gek&#252;mmert. Gut, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0003</td>
+        <td class="side">Aber, aber, aber selbst mit meinen Kenntnissen der[ST:n ]Ma-non-Technologie f&#228;llt es mir schwer, die Mimoiden[ST:n ]v&#246;llig zu verstehen. Komisch, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0004</td>
+        <td class="side">Na ja, zumindest lerne ich jeden Tag etwas dazu...[ST:n ]Aber wer auch immer diese Mimoiden entwickelt hat,[ST:n ]muss ein waschechtes Genie sein, meinst du nicht auch?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0008</td>
+        <td class="side">In der Stra&#223;e der Divisionen h&#228;ngt ein Ma-non namens[ST:n ]Ackwar rum. Hast du ihn schon mal getroffen?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0009</td>
+        <td class="side">Er ist eine richtig ehrliche Haut, wei&#223;t du?[ST:n ]Und er hat einen starken Gerechtigkeitssinn.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0010</td>
+        <td class="side">Anscheinend hat er sich als Mediator beworben und[ST:n ]wurde vom Fleck weg eingestellt, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0011</td>
+        <td class="side">Ich w&#252;nschte, mein kleiner Bruder Sostenasa w&#228;re so[ST:n ]strebsam und zielorientiert wie er. Dann h&#228;tte ich eine[ST:n ]Sorge weniger. Oder? Ja.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0020</td>
+        <td class="side">S&#228;mtliche Ausr&#252;stung aus dem Sortiment von Lieb &amp;[ST:n ]Stichfest wurde nach dem Vorbild unserer Raumanz&#252;ge[ST:n ]entworfen, wei&#223;t du? Da bist du baff, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0021</td>
+        <td class="side">Die Produkte sind generell ziemlich widerstandsf&#228;hig[ST:n ]gegen elektromagnetische Wellen, verstehst du? Ihr[ST:n ]sprecht da meistens von Elektro-Angriffen, stimmt’s?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0022</td>
+        <td class="side">Also... Falls du mal in einen Sonnensturm ger&#228;tst,[ST:n ]oder so? Man wei&#223; ja nie... Aber, wohl eher nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0023</td>
+        <td class="side">Auf jeden Fall wirst du mit solcher Ausr&#252;stung auch von[ST:n ]Blitzen nicht durchgegrillt wie ein Knusperh&#252;hnchen, ja?[ST:n ]Ist doch echt praktisch, findest du nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0012</td>
+        <td class="side">Hast du schon die schlimmen Neuigkeiten geh&#246;rt?[ST:n ]&#220;ber Ackwar?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0013</td>
+        <td class="side">So ein brutaler Verbrecher hat ihn[ST:n ]hinterr&#252;cks ermordet...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0014</td>
+        <td class="side">Das ist zum Heulen, oder? Ackwar war ein Ma-non, zu[ST:n ]dem wir alle aufsehen konnten. Und... ich wollte, dass[ST:n ]Sostenasa ihm nacheifert, wei&#223;t du? Aber jetzt...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0015</td>
+        <td class="side">Damit befindet sich das Freundschaftsverh&#228;ltnis zwischen[ST:n ]Menschen und Ma-non an einem Tiefpunkt, wei&#223;t du?[ST:n ]Ich hoffe, wir k&#246;nnen unsere Differenzen beilegen, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0016</td>
+        <td class="side">Hast du schon die tollen Neuigkeiten geh&#246;rt?[ST:n ]&#220;ber Ackwar, den Mediator?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0017</td>
+        <td class="side">Anscheinend hat er einen gef&#228;hrlichen Verbrecher[ST:n ]dingfest gemacht. Das ist ein stolzer Tag f&#252;r das[ST:n ]gesamte Ma-non-Volk, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0018</td>
+        <td class="side">Ich denke, Ackwar ist der geborene Mediator...[ST:n ]Vielleicht?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev031201_MSG0019</td>
+        <td class="side">Hoffentlich wird mein kleiner Bruder Sostenasa auch nur[ST:n ]halbwegs so aufrichtig und flei&#223;ig wie er...[ST:wait ][ST:n ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

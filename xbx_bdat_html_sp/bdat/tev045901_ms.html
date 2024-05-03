@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev045901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev045901_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev045901_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Hala c&#243;mo[ST:n ]son verdaderamente los prones.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev045901_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev045901_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Hala si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev045901_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Hala si hay alguna novedad.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev045901_SEL1031</td>
+        <td class="side">Preg&#250;ntale a Hala por los ganglion.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev045901_SEL1051</td>
+        <td class="side">Preg&#250;ntale a Hala por la traici&#243;n de Lao.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev045901_SEL1071</td>
+        <td class="side">Preg&#250;ntale a Hala qu&#233; va a hacer ahora.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0001</td>
+        <td class="side">Hasta ahora solo conoc&#237;as a prones de clan cavernario.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0002</td>
+        <td class="side">&#161;Pensar&#225;s que todos prones son cobardes y violentos![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0003</td>
+        <td class="side">Pero prones de clan arb&#243;reo somos pac&#237;ficos[ST:n ]y amables. Nunca luchamos si no es irremediable.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0004</td>
+        <td class="side">&#161;A clan arb&#243;reo le gusta bailar y beber![ST:n ]Cuando capturamos gran bestia,[ST:n ]celebramos hasta amanecer.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0005</td>
+        <td class="side">Odio a ganglion tanto como t&#250;, alien&#237;gena terrestre.[ST:n ]Pero ojal&#225; guerra llega a fin. Entonces podr&#233; sonre&#237;r.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0008</td>
+        <td class="side">Thea no es misma desde que muri&#243;[ST:n ]su prometido. Nunca la vi tan triste.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0009</td>
+        <td class="side">Hago todo posible para animarla. Pero no es suficiente.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0010</td>
+        <td class="side">&#191;BLADE ayuda a otras especies con asuntos privados?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0011</td>
+        <td class="side">Cuando situaci&#243;n se calme, tengo que encontrar[ST:n ]a BLADE [ST:Gender p1=dispuesto p2=dispuesta ] a ayudarme.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0012</td>
+        <td class="side">Thea merece ser feliz. &#161;Merece volver a bailar![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0013</td>
+        <td class="side">Yo tambi&#233;n sol&#237;a bailar. Madre de Thea y yo &#233;ramos[ST:n ]mejores bailarinas de todo clan arb&#243;reo.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0014</td>
+        <td class="side">Pero guerra puso fin a eso. Clan cavernario[ST:n ]me lastim&#243; pierna. Tuve que renunciar a mi sue&#241;o.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0015</td>
+        <td class="side">Quiz&#225; por eso me gusta ver bailar a Thea.[ST:n ]As&#237; tengo sensaci&#243;n de bailar con ella.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0016</td>
+        <td class="side">Si ella es feliz, yo tambi&#233;n lo soy.[ST:n ]Nunca podr&#233; agradec&#233;rtelo lo suficiente.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0017</td>
+        <td class="side">&#191;Eeeh? &#191;Thea? Fue a bailar a restaurante[ST:n ]en distrito industrial. &#161;Deber&#237;as ir a verla![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev045901_MSG0018</td>
+        <td class="side">Te cautivar&#225;. &#161;No podr&#225;s marcharte de restaurante![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1001</td>
+        <td class="side">Prones tenemos larga tradici&#243;n b&#233;lica. Guerra actual[ST:n ]dura ya diez mil soles. Pero somos pac&#237;ficos[ST:n ]comparados con ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1002</td>
+        <td class="side">Esos malditos pelean con misma facilidad que respiran.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1003</td>
+        <td class="side">Alien&#237;genas terrestres cre&#233;is que sab&#233;is lo terrible[ST:n ]que es guerra. Pero est&#225;is equivocados.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1004</td>
+        <td class="side">Ganglion te sorprender&#225;n con sucios trucos.[ST:n ]&#161;Mantente siempre alerta![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1009</td>
+        <td class="side">O&#237;mos que ganglion intentaron robar informaci&#243;n.[ST:n ]Sobornaron a miembro de BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1010</td>
+        <td class="side">As&#237; act&#250;an ganglion. Tambi&#233;n enga&#241;aron[ST:n ]a clan cavernario que hizo trabajo sucio[ST:n ]capturando a clan arb&#243;reo.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1011</td>
+        <td class="side">Son peores que sabandijas. &#161;Debes detenerles![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1016</td>
+        <td class="side">L&#237;der ganglion fue derrotado. Resto de clan cavernario[ST:n ]se dispers&#243; por todos lados.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1017</td>
+        <td class="side">Por primera vez en diez mil soles,[ST:n ]clan arb&#243;reo conocer&#225; paz.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1018</td>
+        <td class="side">Eso me gusta. Se acab&#243; ver amigos morir.[ST:n ]No m&#225;s muertes.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1019</td>
+        <td class="side">Prones podemos despertarnos y pensar c&#243;mo vivir.[ST:n ]No c&#243;mo morir.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev045901_MSG1020</td>
+        <td class="side">Podemos reunirnos en torno a fuego y bailar.[ST:n ]Disfrutar de paz. &#161;Celebrar vida![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

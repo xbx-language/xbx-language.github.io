@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev016901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev016901_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev016901_SEL0011</td>
+        <td class="side">Frage Solan nach den Aufgaben[ST:n ]der Unterst&#252;tzungstruppen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev016901_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev016901_SEL0021</td>
+        <td class="side">Frage Solan, ob er irgendwelche[ST:n ]interessanten Neuigkeiten geh&#246;rt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev016901_SEL0031</td>
+        <td class="side">Sprich mit Solan &#252;ber Mimoiden.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev016901_SEL0041</td>
+        <td class="side">Sprich mit Solan &#252;ber Mimoiden.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0001</td>
+        <td class="side">Von uns Unterst&#252;tzungstruppen wird grunds&#228;tzlich[ST:n ]verlangt, alles wieder zu richten, wenn die Herrschaften[ST:n ]von BLADE sich wieder einmal &#252;bernommen haben.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0002</td>
+        <td class="side">Derzeit bin ich hier als „Doktor“ im Einsatz, um die[ST:n ]Wunden der BLADEs zu heilen. Und damit habe ich[ST:n ]weit mehr zu tun, als mir lieb ist![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0003</td>
+        <td class="side">Es gibt mehr als genug t&#246;richte BLADEs, die sich kopflos[ST:n ]in den Kampf st&#252;rzen und bei nahezu jeder Schlacht[ST:n ]vermeidbare Verletzungen davontragen.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0004</td>
+        <td class="side">Solltest du jemals bei der k&#228;mpfenden Truppe landen,[ST:n ]tu mir den Gefallen und r&#252;ste dich ordentlich aus, um[ST:n ]unn&#246;tige Verletzungen zu vermeiden. Vielen Dank.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0010</td>
+        <td class="side">Ein ehemaliger Kommilitone meiner Eliteuniversit&#228;t hat[ST:n ]sich daf&#252;r entschieden, ein BLADE zu werden. Es will[ST:n ]mir noch immer nicht in den Kopf. Ein BLADE![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0013</td>
+        <td class="side">Er war so gut, dass er sogar unter den besten[ST:n ]Studenten der Universit&#228;t herausragte. Er h&#228;tte alles[ST:n ]werden k&#246;nnen! Sogar ein Politiker oder ein Manager![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0014</td>
+        <td class="side">Aber stattdessen setzt er lieber sein Leben bei einer[ST:n ]waghalsigen Mission nach der anderen aufs Spiel.[ST:n ]Ich kann das einfach nicht nachvollziehen.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0024</td>
+        <td class="side">Willst du mir etwa sagen, dass du wegen deiner[ST:n ]Amnesie sogar vergessen hast, dass dein richtiger[ST:n ]K&#246;rper gegen einen Mimoiden ausgetauscht wurde?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0025</td>
+        <td class="side">Das ist doch v&#246;llig absurd! Aber das bedeutet wohl,[ST:n ]dass wir Ingenieure stolz auf unsere Arbeit sein k&#246;nnen,[ST:n ]wenn sie den Originalen so t&#228;uschend &#228;hnlich ist.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0026</td>
+        <td class="side">Schlie&#223;lich ist es der endg&#252;ltige Beweis daf&#252;r,[ST:n ]dass Mimoiden menschlichen K&#246;rpern immer[ST:n ]&#228;hnlicher werden.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0027</td>
+        <td class="side">Unsere unvorstellbar fortschrittliche Technologie[ST:n ]erm&#246;glicht es, in Mimoiden zu leben, ohne sich ihrer[ST:n ]im Alltag jemals bewusst zu werden.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0028</td>
+        <td class="side">Und auch wenn man die Wahrheit kennt, lebt es sich[ST:n ]doch angenehm in einem Mimoiden, oder? Falls ja,[ST:n ]respektiere bitte unsere Arbeit und gib gut auf ihn acht![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0033</td>
+        <td class="side">Sobald wir die echten K&#246;rper wiederhaben, werden wir[ST:n ]Zivilisten von den BLADE-Unterst&#252;tzungstruppen uns wohl[ST:n ]von unseren Mimoiden verabschieden.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0034</td>
+        <td class="side">Aber ich gehe davon aus, dass die weiterhin aktiven[ST:n ]BLADEs ihre Mimoiden erst einmal behalten wollen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0035</td>
+        <td class="side">Bei den zahllosen Gefahren, denen sich BLADEs hier[ST:n ]auf Mira tagt&#228;glich aussetzten, w&#252;rden sie in ihrer[ST:n ]menschlichen H&#252;lle sicher nicht lange durchhalten.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0041</td>
+        <td class="side">Solange wilde Kreaturen auf Mira existieren,[ST:n ]sollten sich Mimoiden weiterhin als n&#252;tzlich erweisen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0042</td>
+        <td class="side">Das hei&#223;t aber auch, dass NLA in absehbarer Zeit wohl[ST:n ]nicht ohne meinen &#252;berlegenen Intellekt auskommen[ST:n ]wird. Hach, es ist nicht leicht, so schlau zu sein![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev016901_SEL1021</td>
+        <td class="side">Frage Solan, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev016901_JNK0010</td>
+        <td class="side">tev016901_JNK0010</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev016901_SEL1041</td>
+        <td class="side">Sprich mit Solan &#252;ber den Lebensspeicher.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev016901_SEL1021</td>
+        <td class="side">tev016901_SEL1021</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0029</td>
+        <td class="side">Wir von den Unterst&#252;tzungstruppen halten hier die[ST:n ]Stellung und unterst&#252;tzen euch BLADEs, wenn ihr[ST:n ]unterwegs im Einsatz seid.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0030</td>
+        <td class="side">Wir erf&#252;llen viele unerl&#228;ssliche Aufgaben. Da w&#228;ren die[ST:n ]Ingenieure wie ich, aber auch die H&#228;ndler, die euch[ST:n ]dringend ben&#246;tigte Gegenst&#228;nde verschaffen.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0031</td>
+        <td class="side">Ich bin quasi der „Doktor“, der eure Wunden versorgt.[ST:n ]Und diese Arbeit h&#228;lt mich wirklich auf Trab.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0032</td>
+        <td class="side">Als Gegenleistung verlange ich lediglich, dass du dich[ST:n ]gewissenhaft ausr&#252;stest, damit ich meine wertvolle Zeit[ST:n ]nicht auf vermeidbare Sch&#228;den verschwenden muss.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0036</td>
+        <td class="side">Ah, du warst doch neulich mit H. B. unterwegs...[ST:n ]Wie macht der Gute sich denn so als BLADE?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0037</td>
+        <td class="side">Wir haben damals zusammen studiert. Er war sogar[ST:n ]unter den besten Studenten noch hervorragend. Und das[ST:n ]selbst nach dem hohen Ma&#223;stab unserer Eliteuniversit&#228;t![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0038</td>
+        <td class="side">Ich hatte erwartet, dass er in die Politik geht oder eine[ST:n ]eigene Firma gr&#252;ndet. Aber stattdessen hat der sich[ST:n ]direkt nach dem Abschluss f&#252;rs Milit&#228;r gemeldet.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0039</td>
+        <td class="side">Und jetzt dient er als BLADE. Ich komme nicht umhin,[ST:n ]mich zu fragen, was ein Genie wie er an dieser Arbeit[ST:n ]so reizvoll findet.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0040</td>
+        <td class="side">Das Streben nach Gerechtigkeit? Der Dienst an der[ST:n ]Gesellschaft? Seit ich ihn kenne, war ich nie in der[ST:n ]Lage, die Ursachen seiner Motivation zu ergr&#252;nden.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0048</td>
+        <td class="side">Willst du mir etwa sagen, dass du wegen deiner[ST:n ]Amnesie sogar vergessen hast, dass dein richtiger[ST:n ]K&#246;rper gegen einen Mimoiden ausgetauscht wurde?[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0049</td>
+        <td class="side">Aber das bedeutet wohl, dass wir Ingenieure stolz auf[ST:n ]unsere Arbeit sein k&#246;nnen, wenn sie den Originalen so[ST:n ]t&#228;uschend &#228;hnlich ist.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0050</td>
+        <td class="side">Das ist der ultimative Beweis daf&#252;r, wie nahe wir dem[ST:n ]menschlichen K&#246;rper schon gekommen sind. Ich nehme[ST:n ]doch an, dass du dich in deinem Mimoiden wohlf&#252;hlst?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0051</td>
+        <td class="side">Eine Reihe unvorstellbar fortschrittlicher Technologien[ST:n ]waren n&#246;tig, um in dieser Umgebung sorgenfrei leben[ST:n ]zu k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0052</td>
+        <td class="side">Und solche Technologien sind ebenso unvorstellbar[ST:n ]kostspielig. Also denk blo&#223; nicht, dass du mit deinem[ST:n ]Mimoiden umgehen kannst, wie es dir beliebt![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0067</td>
+        <td class="side">Sobald wir unsere richtigen K&#246;rper wieder haben,[ST:n ]werden wir uns wohl von unseren[ST:n ]Mimoiden verabschieden.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0068</td>
+        <td class="side">Und wer wei&#223;? Vielleicht h&#228;nge ich dann ja meinen[ST:n ]Job als Mimoiden-Ingenieur an den Nagel und werde[ST:n ]ein richtiger Mediziner.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0069</td>
+        <td class="side">Ich habe so lange f&#252;r die BLADEs den Doktor gespielt,[ST:n ]dass ich mittlerweile Gefallen daran gefunden habe,[ST:n ]Leben zu retten. Vielleicht mache ich das hauptberuflich.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0070</td>
+        <td class="side">Allerdings w&#252;rde ich damit nicht nur meinen Doktor in[ST:n ]Maschinenbau wegwerfen, sondern obendrein[ST:n ]meine Karriere als Mimoiden-Ingenieur.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev016901_MSG0071</td>
+        <td class="side">Hm... Und auch &#252;ber H. B. d&#252;rfte ich dann eigentlich[ST:n ]nicht mehr lachen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

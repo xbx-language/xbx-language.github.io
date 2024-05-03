@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev057901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0011</td>
+        <td class="side">Interroger Mujiji sur la caravane.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0021</td>
+        <td class="side">Demander &#224; Mujiji s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0001</td>
+        <td class="side">Cette zone d&#233;pend de caravane Dorian &#224; Mujiji.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0002</td>
+        <td class="side">Nourriture ! Armes ! Mat&#233;riaux ! Tout ce que potes[ST:n ]d&#233;sirent commander, caravane le trouvera et le livrera.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0003</td>
+        <td class="side">Pas d&#39;exceptions ! Mujiji approvisionne chaque pote[ST:n ]bizarre, qu&#39;il soit couvert de peau rouge[ST:n ]ou d&#39;un manteau en duvet.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0004</td>
+        <td class="side">Mujiji approvisionnera aussi potes humains, mais potes[ST:n ]doivent d&#39;abord gagner confiance.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0008</td>
+        <td class="side">Pote vient du vaisseau qui s&#39;est &#233;cras&#233; &#224; l&#39;ouest ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0009</td>
+        <td class="side">Mmpf. Mujiji peut pas se permettre de marchander[ST:n ]avec des clients louches.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0010</td>
+        <td class="side">Si pote veut acheter quelque chose, il doit amener[ST:n ]&#233;missaire nopon pour parler &#224; sa place ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0010</td>
+        <td class="side">tev057901_JNK0010</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0011</td>
+        <td class="side">tev057901_SEL0011</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0020</td>
+        <td class="side">tev057901_JNK0020</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0021</td>
+        <td class="side">tev057901_SEL0021</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0011</td>
+        <td class="side">Caravanes nopones prennent nom &#224; fondateur.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0012</td>
+        <td class="side">Dorian &#233;tait grand chef. Fallait courage pour[ST:n ]s&#39;aventurer dans inconnu et y &#233;tablir commerce ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0013</td>
+        <td class="side">Dorian &#233;tait plus courageux qu&#39;Ancien Nan, qui[ST:n ]cherche qu&#39;&#224; se cacher comme un pleurnichard[ST:n ]dans ville humaine. Pff ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0014</td>
+        <td class="side">Nan veut que Mumun, Mogugu et Mimiru[ST:n ]deviennent ses aides personnelles. Jamais de la vie ![ST:n ]Ancien g&#226;t&#233; et paresseux veut juste serviteurs...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0018</td>
+        <td class="side">Ah ! Pote humain ! Maintenant que trait&#233; d&#39;amiti&#233;[ST:n ]sign&#233;, peut demander n&#39;importe quoi.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0019</td>
+        <td class="side">Hein ? Pote veut aide pour combattre indig&#232;nes ?[ST:n ]Pote cherche alli&#233;s pour guerre contre Ganglion ?[ST:n ]Raaah...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0020</td>
+        <td class="side">Hum... Naturellement, Mujiji et caravane Dorian[ST:n ]sont assez forts pour en venir &#224; bout,[ST:n ]mais veulent pas voler vedette &#224; potes.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0021</td>
+        <td class="side">Alors euh... Caravane va plut&#244;t chercher nourriture &#224;[ST:n ]livrer pour potes ! Pas de combat si estomac vide,[ST:n ]pas vrai ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0010</td>
+        <td class="side">tev057901_JNK0010</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0011</td>
+        <td class="side">tev057901_SEL0011</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0020</td>
+        <td class="side">tev057901_JNK0020</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0021</td>
+        <td class="side">tev057901_SEL0021</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0022</td>
+        <td class="side">Caravanes nopones prennent nom &#224; fondateur.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0023</td>
+        <td class="side">Dorian &#233;tait grand chef. Fallait courage pour[ST:n ]s&#39;aventurer dans inconnu et y &#233;tablir commerce ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0024</td>
+        <td class="side">Mujiji veut aussi &#234;tre grand chef, alors Mujiji doit[ST:n ]prendre soin d&#39;amipons Mumun, Mogugu[ST:n ]et Mimiru.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0025</td>
+        <td class="side">Mujiji pr&#233;tendrait jamais &#234;tre centre du monde et serait [ST:n ]pas un probl&#232;me comme certain vieux Nopon g&#226;t&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0029</td>
+        <td class="side">Bonjour pote ! Beaucoup de Nopons organisent[ST:n ]feux d&#39;artifice, mais sont pas aussi spectaculaires[ST:n ]que ceux de Mujiji ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0030</td>
+        <td class="side">H&#233; h&#233;. Caravane &#224; Mujiji est tr&#232;s fi&#232;re d&#39;ancien savoir[ST:n ]pyrotechnique transmis par grand Dorian lui-m&#234;me ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0031</td>
+        <td class="side">Grand et puissant Dorian a utilis&#233; m&#234;mes feux[ST:n ]d&#39;artifice pour effrayer monstres dans cette zone[ST:n ]avant de d&#233;marrer caravane.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0032</td>
+        <td class="side">Quel courage ! Quel esprit ! Dorian &#233;tait meilleur[ST:n ]chef que sale Ancien pervers.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0033</td>
+        <td class="side">Mujiji va travailler dur pour &#234;tre chef que caravane[ST:n ]suivra avec fiert&#233;.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

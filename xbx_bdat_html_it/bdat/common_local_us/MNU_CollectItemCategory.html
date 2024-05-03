@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MNU_CollectItemCategory</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>CategoryID</th>
+          <th class="side">CategoryName</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+          <details>
+            <summary>27 refs</summary>
+            <a href="ITM_CollectList.html#1">ITM_CollectList#Melone Ajira</a>
+            <a href="ITM_CollectList.html#2">ITM_CollectList#Patata legata</a>
+            <a href="ITM_CollectList.html#3">ITM_CollectList#Lattuga Sadelana</a>
+            <a href="ITM_CollectList.html#4">ITM_CollectList#Cavolo Mosa</a>
+            <a href="ITM_CollectList.html#5">ITM_CollectList#Carota Keppo</a>
+            <a href="ITM_CollectList.html#6">ITM_CollectList#Pomodoro Amidoresia</a>
+            <a href="ITM_CollectList.html#7">ITM_CollectList#Fungo Caseras</a>
+            <a href="ITM_CollectList.html#8">ITM_CollectList#Melanzana Zandemo</a>
+            <a href="ITM_CollectList.html#9">ITM_CollectList#Felce mattutina</a>
+            <a href="ITM_CollectList.html#10">ITM_CollectList#Erbe Fodornallow</a>
+            <a href="ITM_CollectList.html#11">ITM_CollectList#Fungo Sibercaseras</a>
+            <a href="ITM_CollectList.html#12">ITM_CollectList#Foglia di cavolo Gubura</a>
+            <a href="ITM_CollectList.html#13">ITM_CollectList#Aglio Shinuyuni</a>
+            <a href="ITM_CollectList.html#14">ITM_CollectList#Fagiolo a cosse</a>
+            <a href="ITM_CollectList.html#15">ITM_CollectList#Zucca Gi Dou</a>
+            <a href="ITM_CollectList.html#16">ITM_CollectList#Peperone della volontà</a>
+            <a href="ITM_CollectList.html#17">ITM_CollectList#Foglia Charupa</a>
+            <a href="ITM_CollectList.html#18">ITM_CollectList#Broccoli Dobobora</a>
+            <a href="ITM_CollectList.html#19">ITM_CollectList#Radice Daikon</a>
+            <a href="ITM_CollectList.html#20">ITM_CollectList#Fagiolo Dosoram</a>
+            <a href="ITM_CollectList.html#21">ITM_CollectList#Sesamo Yaya</a>
+            <a href="ITM_CollectList.html#22">ITM_CollectList#Mais bianco</a>
+            <a href="ITM_CollectList.html#23">ITM_CollectList#Sedano di Mizar</a>
+            <a href="ITM_CollectList.html#24">ITM_CollectList#Cipolla Kyatara</a>
+            <a href="ITM_CollectList.html#25">ITM_CollectList#Peperoncino potente</a>
+            <a href="ITM_CollectList.html#26">ITM_CollectList#Germoglio di Bibambù</a>
+            <a href="ITM_CollectList.html#27">ITM_CollectList#Cipollotto Belzadozebu</a>
+          </details>
+        </td>
+        <td>1</td>
+        <td class="side">Vegetali</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+          <details>
+            <summary>28 refs</summary>
+            <a href="ITM_CollectList.html#28">ITM_CollectList#Mirtillograno</a>
+            <a href="ITM_CollectList.html#29">ITM_CollectList#Rocciarancia</a>
+            <a href="ITM_CollectList.html#30">ITM_CollectList#Bardanfragola</a>
+            <a href="ITM_CollectList.html#31">ITM_CollectList#Mela lucente</a>
+            <a href="ITM_CollectList.html#32">ITM_CollectList#Mondociliegia</a>
+            <a href="ITM_CollectList.html#33">ITM_CollectList#Limone sonar</a>
+            <a href="ITM_CollectList.html#34">ITM_CollectList#Guaiava Socha</a>
+            <a href="ITM_CollectList.html#35">ITM_CollectList#Prapaia</a>
+            <a href="ITM_CollectList.html#36">ITM_CollectList#Foglia di babaco</a>
+            <a href="ITM_CollectList.html#37">ITM_CollectList#Durian Amana</a>
+            <a href="ITM_CollectList.html#38">ITM_CollectList#Magmango</a>
+            <a href="ITM_CollectList.html#39">ITM_CollectList#Prugna aspra</a>
+            <a href="ITM_CollectList.html#40">ITM_CollectList#Foglia di banana</a>
+            <a href="ITM_CollectList.html#41">ITM_CollectList#Melone divino</a>
+            <a href="ITM_CollectList.html#42">ITM_CollectList#Cocomero Suna</a>
+            <a href="ITM_CollectList.html#43">ITM_CollectList#Uva reale</a>
+            <a href="ITM_CollectList.html#44">ITM_CollectList#Kiwuovo</a>
+            <a href="ITM_CollectList.html#45">ITM_CollectList#Melagrana spinata</a>
+            <a href="ITM_CollectList.html#46">ITM_CollectList#Cachi Shido</a>
+            <a href="ITM_CollectList.html#47">ITM_CollectList#Bacca fredda</a>
+            <a href="ITM_CollectList.html#48">ITM_CollectList#Ribes bianco</a>
+            <a href="ITM_CollectList.html#49">ITM_CollectList#Uva smeraldo</a>
+            <a href="ITM_CollectList.html#50">ITM_CollectList#Papaia a grappolo</a>
+            <a href="ITM_CollectList.html#51">ITM_CollectList#Gyulali</a>
+            <a href="ITM_CollectList.html#52">ITM_CollectList#Magmarrone</a>
+            <a href="ITM_CollectList.html#53">ITM_CollectList#Frutto Akebi di ferro</a>
+            <a href="ITM_CollectList.html#54">ITM_CollectList#Crisantemi striati</a>
+            <a href="ITM_CollectList.html#55">ITM_CollectList#Ananas dell’incubo</a>
+          </details>
+        </td>
+        <td>2</td>
+        <td class="side">Frutti</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+          <details>
+            <summary>30 refs</summary>
+            <a href="ITM_CollectList.html#56">ITM_CollectList#Plantago Zezè</a>
+            <a href="ITM_CollectList.html#57">ITM_CollectList#Norangiglio</a>
+            <a href="ITM_CollectList.html#58">ITM_CollectList#Nerina dolce</a>
+            <a href="ITM_CollectList.html#59">ITM_CollectList#Erba gatta Kiran</a>
+            <a href="ITM_CollectList.html#60">ITM_CollectList#Tarassaco Doga</a>
+            <a href="ITM_CollectList.html#61">ITM_CollectList#Erba Sona</a>
+            <a href="ITM_CollectList.html#62">ITM_CollectList#Ortica minima Garudo</a>
+            <a href="ITM_CollectList.html#63">ITM_CollectList#Jonquilla Nirvana</a>
+            <a href="ITM_CollectList.html#64">ITM_CollectList#Girasole timido</a>
+            <a href="ITM_CollectList.html#65">ITM_CollectList#Leagiglio</a>
+            <a href="ITM_CollectList.html#66">ITM_CollectList#Erba rampicamaleonte</a>
+            <a href="ITM_CollectList.html#67">ITM_CollectList#Fiormuneria</a>
+            <a href="ITM_CollectList.html#68">ITM_CollectList#Cosmea Sekka</a>
+            <a href="ITM_CollectList.html#69">ITM_CollectList#Cedro Masuke</a>
+            <a href="ITM_CollectList.html#70">ITM_CollectList#Amarillide dormiente</a>
+            <a href="ITM_CollectList.html#71">ITM_CollectList#Primula Jobo</a>
+            <a href="ITM_CollectList.html#72">ITM_CollectList#Aglio Gudo</a>
+            <a href="ITM_CollectList.html#73">ITM_CollectList#Raponzolo Banban</a>
+            <a href="ITM_CollectList.html#74">ITM_CollectList#Avena Mya</a>
+            <a href="ITM_CollectList.html#75">ITM_CollectList#Cactus Myuena</a>
+            <a href="ITM_CollectList.html#76">ITM_CollectList#Agrifoglio Kepha</a>
+            <a href="ITM_CollectList.html#77">ITM_CollectList#Artemisia Bude</a>
+            <a href="ITM_CollectList.html#78">ITM_CollectList#Violetta esplosiva</a>
+            <a href="ITM_CollectList.html#79">ITM_CollectList#Giglio Sese</a>
+            <a href="ITM_CollectList.html#80">ITM_CollectList#Rosa di Antorus</a>
+            <a href="ITM_CollectList.html#81">ITM_CollectList#Shia cattleya</a>
+            <a href="ITM_CollectList.html#82">ITM_CollectList#Tulipano Poron</a>
+            <a href="ITM_CollectList.html#83">ITM_CollectList#Jaharmum</a>
+            <a href="ITM_CollectList.html#84">ITM_CollectList#Erba Bogano</a>
+            <a href="ITM_CollectList.html#85">ITM_CollectList#Muranadium</a>
+          </details>
+        </td>
+        <td>3</td>
+        <td class="side">Flora</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+          <details>
+            <summary>30 refs</summary>
+            <a href="ITM_CollectList.html#86">ITM_CollectList#Rizattice</a>
+            <a href="ITM_CollectList.html#87">ITM_CollectList#Coaletri</a>
+            <a href="ITM_CollectList.html#88">ITM_CollectList#Scoiattolo roditore</a>
+            <a href="ITM_CollectList.html#89">ITM_CollectList#Pipistrello strisciante</a>
+            <a href="ITM_CollectList.html#90">ITM_CollectList#Sardina dorata</a>
+            <a href="ITM_CollectList.html#91">ITM_CollectList#Coniglio Zizi</a>
+            <a href="ITM_CollectList.html#92">ITM_CollectList#Ashizel</a>
+            <a href="ITM_CollectList.html#93">ITM_CollectList#Armadillo roccia</a>
+            <a href="ITM_CollectList.html#94">ITM_CollectList#Platessa multiforme</a>
+            <a href="ITM_CollectList.html#95">ITM_CollectList#Oranghiottone</a>
+            <a href="ITM_CollectList.html#96">ITM_CollectList#Iguari</a>
+            <a href="ITM_CollectList.html#97">ITM_CollectList#Pavone specchiato</a>
+            <a href="ITM_CollectList.html#98">ITM_CollectList#Medusa continentale</a>
+            <a href="ITM_CollectList.html#99">ITM_CollectList#Cangudora</a>
+            <a href="ITM_CollectList.html#100">ITM_CollectList#Tanuki fantasma</a>
+            <a href="ITM_CollectList.html#101">ITM_CollectList#Topo Denemozumi</a>
+            <a href="ITM_CollectList.html#102">ITM_CollectList#Polposuka</a>
+            <a href="ITM_CollectList.html#103">ITM_CollectList#Tartaruga jet</a>
+            <a href="ITM_CollectList.html#104">ITM_CollectList#Cetriolo della sabbia</a>
+            <a href="ITM_CollectList.html#105">ITM_CollectList#Scimmia tonta</a>
+            <a href="ITM_CollectList.html#106">ITM_CollectList#Babbuino fugace</a>
+            <a href="ITM_CollectList.html#107">ITM_CollectList#Tremendopecora</a>
+            <a href="ITM_CollectList.html#108">ITM_CollectList#Calamaro medusa</a>
+            <a href="ITM_CollectList.html#109">ITM_CollectList#Beaporge</a>
+            <a href="ITM_CollectList.html#110">ITM_CollectList#Pinguinion</a>
+            <a href="ITM_CollectList.html#111">ITM_CollectList#Serpente fucile</a>
+            <a href="ITM_CollectList.html#112">ITM_CollectList#Cinghiale infernale</a>
+            <a href="ITM_CollectList.html#113">ITM_CollectList#Oca canterina</a>
+            <a href="ITM_CollectList.html#114">ITM_CollectList#Volpe di lava</a>
+            <a href="ITM_CollectList.html#115">ITM_CollectList#Sciacallo Gibney</a>
+          </details>
+        </td>
+        <td>4</td>
+        <td class="side">Fauna</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+          <details>
+            <summary>33 refs</summary>
+            <a href="ITM_CollectList.html#116">ITM_CollectList#Zanzara palla</a>
+            <a href="ITM_CollectList.html#117">ITM_CollectList#Locusta elastica</a>
+            <a href="ITM_CollectList.html#118">ITM_CollectList#Scarabeo trattore</a>
+            <a href="ITM_CollectList.html#119">ITM_CollectList#Coccinella maculata</a>
+            <a href="ITM_CollectList.html#120">ITM_CollectList#Mangiameteo</a>
+            <a href="ITM_CollectList.html#121">ITM_CollectList#Formica errante</a>
+            <a href="ITM_CollectList.html#122">ITM_CollectList#Collembolo assassino</a>
+            <a href="ITM_CollectList.html#123">ITM_CollectList#Libellula nottilucente</a>
+            <a href="ITM_CollectList.html#124">ITM_CollectList#Tafano intermittente</a>
+            <a href="ITM_CollectList.html#125">ITM_CollectList#Falena tenace</a>
+            <a href="ITM_CollectList.html#126">ITM_CollectList#Mantidama</a>
+            <a href="ITM_CollectList.html#127">ITM_CollectList#Calabrone della follia</a>
+            <a href="ITM_CollectList.html#128">ITM_CollectList#Ragnopardo</a>
+            <a href="ITM_CollectList.html#129">ITM_CollectList#Scarabeo Kusakiri</a>
+            <a href="ITM_CollectList.html#130">ITM_CollectList#Papilionide di Absop</a>
+            <a href="ITM_CollectList.html#131">ITM_CollectList#Geco Panciapiena</a>
+            <a href="ITM_CollectList.html#132">ITM_CollectList#Vermetalpa</a>
+            <a href="ITM_CollectList.html#133">ITM_CollectList#Cimice ingannatrice</a>
+            <a href="ITM_CollectList.html#134">ITM_CollectList#Mosca ombra</a>
+            <a href="ITM_CollectList.html#135">ITM_CollectList#Insetto stecco comune</a>
+            <a href="ITM_CollectList.html#136">ITM_CollectList#Scorpione frusta</a>
+            <a href="ITM_CollectList.html#137">ITM_CollectList#Scarabeo squartatore</a>
+            <a href="ITM_CollectList.html#138">ITM_CollectList#Scarabeo sabbia bianca</a>
+            <a href="ITM_CollectList.html#139">ITM_CollectList#Scarabeo Baibai</a>
+            <a href="ITM_CollectList.html#140">ITM_CollectList#Grillo di vetro</a>
+            <a href="ITM_CollectList.html#141">ITM_CollectList#Grillo della pioggia</a>
+            <a href="ITM_CollectList.html#142">ITM_CollectList#Farfalla di cristallo</a>
+            <a href="ITM_CollectList.html#143">ITM_CollectList#Filangelo di neve</a>
+            <a href="ITM_CollectList.html#144">ITM_CollectList#Lucciola fatua</a>
+            <a href="ITM_CollectList.html#145">ITM_CollectList#Grillo degli abissi</a>
+            <a href="ITM_CollectList.html#146">ITM_CollectList#Scarabeo Cetecegem</a>
+            <a href="ITM_CollectList.html#147">ITM_CollectList#Mosca proiettile</a>
+            <a href="ITM_CollectList.html#148">ITM_CollectList#Grillo pungente</a>
+          </details>
+        </td>
+        <td>5</td>
+        <td class="side">Insetti</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+          <details>
+            <summary>31 refs</summary>
+            <a href="ITM_CollectList.html#149">ITM_CollectList#Legno marino di Logunie</a>
+            <a href="ITM_CollectList.html#150">ITM_CollectList#Sabbia ferrifera bianca</a>
+            <a href="ITM_CollectList.html#151">ITM_CollectList#Residuo cristallino</a>
+            <a href="ITM_CollectList.html#152">ITM_CollectList#Perla Sanelac</a>
+            <a href="ITM_CollectList.html#153">ITM_CollectList#Cristallo Arnacian</a>
+            <a href="ITM_CollectList.html#154">ITM_CollectList#Osso d’Aurora</a>
+            <a href="ITM_CollectList.html#155">ITM_CollectList#Foglia Katoan</a>
+            <a href="ITM_CollectList.html#156">ITM_CollectList#Argilla Oranghiottone</a>
+            <a href="ITM_CollectList.html#157">ITM_CollectList#Terra da zucchero</a>
+            <a href="ITM_CollectList.html#158">ITM_CollectList#Pietraspecchio Noka</a>
+            <a href="ITM_CollectList.html#159">ITM_CollectList#Cristallo Galjim</a>
+            <a href="ITM_CollectList.html#160">ITM_CollectList#Cotone Harnenga</a>
+            <a href="ITM_CollectList.html#161">ITM_CollectList#Muschio eterno</a>
+            <a href="ITM_CollectList.html#162">ITM_CollectList#Fossile Wainess</a>
+            <a href="ITM_CollectList.html#163">ITM_CollectList#Ramoscello Zedis</a>
+            <a href="ITM_CollectList.html#164">ITM_CollectList#Stalattite Exubera</a>
+            <a href="ITM_CollectList.html#165">ITM_CollectList#Resina cactacea argentata</a>
+            <a href="ITM_CollectList.html#166">ITM_CollectList#Brezza Kridokan</a>
+            <a href="ITM_CollectList.html#167">ITM_CollectList#Fango fluido</a>
+            <a href="ITM_CollectList.html#168">ITM_CollectList#Scaglie di roccia Acton</a>
+            <a href="ITM_CollectList.html#169">ITM_CollectList#Corallo Fullerene</a>
+            <a href="ITM_CollectList.html#170">ITM_CollectList#Acido Taoman</a>
+            <a href="ITM_CollectList.html#171">ITM_CollectList#Roccia Grandan</a>
+            <a href="ITM_CollectList.html#172">ITM_CollectList#Rame Jagitos</a>
+            <a href="ITM_CollectList.html#173">ITM_CollectList#Spora Pomio</a>
+            <a href="ITM_CollectList.html#174">ITM_CollectList#Lava raffreddante</a>
+            <a href="ITM_CollectList.html#175">ITM_CollectList#Terra Zalon</a>
+            <a href="ITM_CollectList.html#176">ITM_CollectList#Elettrogemma Rogebra</a>
+            <a href="ITM_CollectList.html#177">ITM_CollectList#Polvere Autiga</a>
+            <a href="ITM_CollectList.html#178">ITM_CollectList#Precipietra Zagyrin</a>
+            <a href="ITM_CollectList.html#179">ITM_CollectList#Olio Cliord</a>
+          </details>
+        </td>
+        <td>6</td>
+        <td class="side">Artefatti naturali</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+          <details>
+            <summary>29 refs</summary>
+            <a href="ITM_CollectList.html#180">ITM_CollectList#Specchioscudo deflettore</a>
+            <a href="ITM_CollectList.html#181">ITM_CollectList#Radiatore anidro</a>
+            <a href="ITM_CollectList.html#182">ITM_CollectList#Tubo inossidabile isolante</a>
+            <a href="ITM_CollectList.html#183">ITM_CollectList#Serbatoio L-002</a>
+            <a href="ITM_CollectList.html#184">ITM_CollectList#Spaziometro L-002</a>
+            <a href="ITM_CollectList.html#185">ITM_CollectList#Tuta spaziale US-X</a>
+            <a href="ITM_CollectList.html#186">ITM_CollectList#Generatore a raggi</a>
+            <a href="ITM_CollectList.html#187">ITM_CollectList#Congelaterra</a>
+            <a href="ITM_CollectList.html#188">ITM_CollectList#Nostalgia L-002</a>
+            <a href="ITM_CollectList.html#189">ITM_CollectList#Reattore a ioni HI9</a>
+            <a href="ITM_CollectList.html#190">ITM_CollectList#Iperdissipatore Mk. IX</a>
+            <a href="ITM_CollectList.html#191">ITM_CollectList#Guanto interattivo</a>
+            <a href="ITM_CollectList.html#192">ITM_CollectList#Stampante 3D</a>
+            <a href="ITM_CollectList.html#193">ITM_CollectList#Deflettore AiR</a>
+            <a href="ITM_CollectList.html#194">ITM_CollectList#Drone solare multispecchio</a>
+            <a href="ITM_CollectList.html#195">ITM_CollectList#Riciclatore avanzato</a>
+            <a href="ITM_CollectList.html#196">ITM_CollectList#Degenereattore L-002</a>
+            <a href="ITM_CollectList.html#197">ITM_CollectList#Trasformatore senza fili</a>
+            <a href="ITM_CollectList.html#198">ITM_CollectList#Pellicola protettiva</a>
+            <a href="ITM_CollectList.html#199">ITM_CollectList#Generatore di DNA</a>
+            <a href="ITM_CollectList.html#200">ITM_CollectList#Laser Dagoo L-002</a>
+            <a href="ITM_CollectList.html#201">ITM_CollectList#I.A. indipendente A-HAB</a>
+            <a href="ITM_CollectList.html#202">ITM_CollectList#Invertitore vento solare</a>
+            <a href="ITM_CollectList.html#203">ITM_CollectList#Freno a ossigeno</a>
+            <a href="ITM_CollectList.html#204">ITM_CollectList#Vernice fluorescente</a>
+            <a href="ITM_CollectList.html#205">ITM_CollectList#Autoposizionatore</a>
+            <a href="ITM_CollectList.html#206">ITM_CollectList#Idroestrattore</a>
+            <a href="ITM_CollectList.html#207">ITM_CollectList#Prototipo di FN 3</a>
+            <a href="ITM_CollectList.html#208">ITM_CollectList#Polpo meccanico</a>
+          </details>
+        </td>
+        <td>7</td>
+        <td class="side">Rottami</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+          <details>
+            <summary>31 refs</summary>
+            <a href="ITM_CollectList.html#209">ITM_CollectList#Mortaio rifinito</a>
+            <a href="ITM_CollectList.html#210">ITM_CollectList#Abaco a ghiande</a>
+            <a href="ITM_CollectList.html#211">ITM_CollectList#Mascorteccia</a>
+            <a href="ITM_CollectList.html#212">ITM_CollectList#Borsa di canapa</a>
+            <a href="ITM_CollectList.html#213">ITM_CollectList#Intonapietra</a>
+            <a href="ITM_CollectList.html#214">ITM_CollectList#Massa ripugnante</a>
+            <a href="ITM_CollectList.html#215">ITM_CollectList#Piatto di frutti di mare</a>
+            <a href="ITM_CollectList.html#216">ITM_CollectList#Barca di Legno marino</a>
+            <a href="ITM_CollectList.html#217">ITM_CollectList#Lampada luccicante</a>
+            <a href="ITM_CollectList.html#218">ITM_CollectList#Raddrizzaschiena</a>
+            <a href="ITM_CollectList.html#219">ITM_CollectList#Scatola spinata</a>
+            <a href="ITM_CollectList.html#220">ITM_CollectList#Lancia fatale</a>
+            <a href="ITM_CollectList.html#221">ITM_CollectList#Incisione su arenaria</a>
+            <a href="ITM_CollectList.html#222">ITM_CollectList#Bacchetta Trovatutto</a>
+            <a href="ITM_CollectList.html#223">ITM_CollectList#Bracciale Uroboro</a>
+            <a href="ITM_CollectList.html#224">ITM_CollectList#Tamburo del valore</a>
+            <a href="ITM_CollectList.html#225">ITM_CollectList#Nopolito</a>
+            <a href="ITM_CollectList.html#226">ITM_CollectList#Unguento Yabuyabu</a>
+            <a href="ITM_CollectList.html#227">ITM_CollectList#Salvagente di paglia</a>
+            <a href="ITM_CollectList.html#228">ITM_CollectList#Pallone spora</a>
+            <a href="ITM_CollectList.html#229">ITM_CollectList#Osservastelle</a>
+            <a href="ITM_CollectList.html#230">ITM_CollectList#Cappa mimetica</a>
+            <a href="ITM_CollectList.html#231">ITM_CollectList#Rametto degli spiriti</a>
+            <a href="ITM_CollectList.html#232">ITM_CollectList#Trampoelastico</a>
+            <a href="ITM_CollectList.html#233">ITM_CollectList#Pietra affilatrice</a>
+            <a href="ITM_CollectList.html#234">ITM_CollectList#Vaso carbonizzato</a>
+            <a href="ITM_CollectList.html#235">ITM_CollectList#Lente di pietra</a>
+            <a href="ITM_CollectList.html#236">ITM_CollectList#Lanterna oscura</a>
+            <a href="ITM_CollectList.html#237">ITM_CollectList#Ali di Icaro</a>
+            <a href="ITM_CollectList.html#238">ITM_CollectList#Sacco a pelo Bogano</a>
+            <a href="ITM_CollectList.html#239">ITM_CollectList#Salvadanaiopon</a>
+          </details>
+        </td>
+        <td>8</td>
+        <td class="side">Reliquie</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+          <details>
+            <summary>28 refs</summary>
+            <a href="ITM_CollectList.html#240">ITM_CollectList#Acceleratore verticale</a>
+            <a href="ITM_CollectList.html#241">ITM_CollectList#Anello stritolante</a>
+            <a href="ITM_CollectList.html#242">ITM_CollectList#Luce a raggi T</a>
+            <a href="ITM_CollectList.html#243">ITM_CollectList#Fiasca maculata</a>
+            <a href="ITM_CollectList.html#244">ITM_CollectList#Nucleo Grosium</a>
+            <a href="ITM_CollectList.html#245">ITM_CollectList#Terminale cerebrale</a>
+            <a href="ITM_CollectList.html#246">ITM_CollectList#Esagoscanner</a>
+            <a href="ITM_CollectList.html#247">ITM_CollectList#Serbatoio Joad</a>
+            <a href="ITM_CollectList.html#248">ITM_CollectList#Ammattatore risonante</a>
+            <a href="ITM_CollectList.html#249">ITM_CollectList#Ultrafiltro</a>
+            <a href="ITM_CollectList.html#250">ITM_CollectList#Visore inquisitore</a>
+            <a href="ITM_CollectList.html#251">ITM_CollectList#Reattore sacrificale</a>
+            <a href="ITM_CollectList.html#252">ITM_CollectList#Paracoda in acciaio</a>
+            <a href="ITM_CollectList.html#253">ITM_CollectList#Elmo cornuto</a>
+            <a href="ITM_CollectList.html#254">ITM_CollectList#Osso da guerra</a>
+            <a href="ITM_CollectList.html#255">ITM_CollectList#Pelle luccicante</a>
+            <a href="ITM_CollectList.html#256">ITM_CollectList#Dispositivo Detilid</a>
+            <a href="ITM_CollectList.html#257">ITM_CollectList#Cavi per missili</a>
+            <a href="ITM_CollectList.html#258">ITM_CollectList#Dose di furia cieca</a>
+            <a href="ITM_CollectList.html#259">ITM_CollectList#Emblema del fulmine</a>
+            <a href="ITM_CollectList.html#260">ITM_CollectList#Corona dolente</a>
+            <a href="ITM_CollectList.html#261">ITM_CollectList#Metalliquido intelligente</a>
+            <a href="ITM_CollectList.html#262">ITM_CollectList#Analizzatore assoluto</a>
+            <a href="ITM_CollectList.html#263">ITM_CollectList#Artiglio selvaggio</a>
+            <a href="ITM_CollectList.html#264">ITM_CollectList#Batteria elementale</a>
+            <a href="ITM_CollectList.html#265">ITM_CollectList#Alternatore di gravità</a>
+            <a href="ITM_CollectList.html#266">ITM_CollectList#Frammento di Dilama</a>
+            <a href="ITM_CollectList.html#267">ITM_CollectList#Scanner Voltant</a>
+          </details>
+        </td>
+        <td>9</td>
+        <td class="side">Tecnologie Xeno</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+          <details>
+            <summary>33 refs</summary>
+            <a href="ITM_CollectList.html#268">ITM_CollectList#Polvere di meditazione</a>
+            <a href="ITM_CollectList.html#269">ITM_CollectList#Tramonto californiano</a>
+            <a href="ITM_CollectList.html#270">ITM_CollectList#Miraggioscopio</a>
+            <a href="ITM_CollectList.html#271">ITM_CollectList#Richiamo primordiale</a>
+            <a href="ITM_CollectList.html#272">ITM_CollectList#Bacio di dea</a>
+            <a href="ITM_CollectList.html#273">ITM_CollectList#Magnete scintillante</a>
+            <a href="ITM_CollectList.html#274">ITM_CollectList#Specchio ingannevole</a>
+            <a href="ITM_CollectList.html#275">ITM_CollectList#Bilancia della giustizia</a>
+            <a href="ITM_CollectList.html#276">ITM_CollectList#Motore sferico EM</a>
+            <a href="ITM_CollectList.html#277">ITM_CollectList#Statua degli idoli antichi</a>
+            <a href="ITM_CollectList.html#278">ITM_CollectList#Forteferro</a>
+            <a href="ITM_CollectList.html#279">ITM_CollectList#Sabbia camaleonte</a>
+            <a href="ITM_CollectList.html#280">ITM_CollectList#Guardiastella della fanciulla</a>
+            <a href="ITM_CollectList.html#281">ITM_CollectList#Roccia dell’eco</a>
+            <a href="ITM_CollectList.html#282">ITM_CollectList#Incisioni indecifrabili</a>
+            <a href="ITM_CollectList.html#283">ITM_CollectList#Pietra d’angelo</a>
+            <a href="ITM_CollectList.html#284">ITM_CollectList#Sintetizzatore di memoria</a>
+            <a href="ITM_CollectList.html#285">ITM_CollectList#Sale doppia elica</a>
+            <a href="ITM_CollectList.html#286">ITM_CollectList#Liquido verde brillante</a>
+            <a href="ITM_CollectList.html#287">ITM_CollectList#Uovo fiorito</a>
+            <a href="ITM_CollectList.html#288">ITM_CollectList#Estasi di regina</a>
+            <a href="ITM_CollectList.html#289">ITM_CollectList#Vite di pietra</a>
+            <a href="ITM_CollectList.html#290">ITM_CollectList#Mostrastelle</a>
+            <a href="ITM_CollectList.html#291">ITM_CollectList#Trasmettitofono</a>
+            <a href="ITM_CollectList.html#292">ITM_CollectList#Catenamici dell'Intesa</a>
+            <a href="ITM_CollectList.html#293">ITM_CollectList#Pompamuscoli</a>
+            <a href="ITM_CollectList.html#294">ITM_CollectList#Bastone brutale +10</a>
+            <a href="ITM_CollectList.html#295">ITM_CollectList#Calderone capriccioso</a>
+            <a href="ITM_CollectList.html#296">ITM_CollectList#Sonaglio sismico</a>
+            <a href="ITM_CollectList.html#297">ITM_CollectList#Scettro superiore</a>
+            <a href="ITM_CollectList.html#298">ITM_CollectList#Maschera bieca</a>
+            <a href="ITM_CollectList.html#299">ITM_CollectList#Bozzetto selvaggio</a>
+            <a href="ITM_CollectList.html#300">ITM_CollectList#Tomo della morte e rinascita</a>
+          </details>
+        </td>
+        <td>10</td>
+        <td class="side">Misteriosi</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev017001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev017001_JNK0010</td>
+        <td class="side">Fragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev017001_SEL0011</td>
+        <td class="side">Sprich mit Otis &#252;ber die BLADEs.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev017001_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev017001_SEL0021</td>
+        <td class="side">Frage Otis, was hier eigentlich vor sich geht.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev017001_JNK0010</td>
+        <td class="side">tev017001_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev017001_SEL0031</td>
+        <td class="side">tev017001_SEL0031</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev017001_JNK0020</td>
+        <td class="side">tev017001_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev017001_SEL0041</td>
+        <td class="side">Frage Otis, was es so Neues gibt.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev017001_JNK0010</td>
+        <td class="side">tev017001_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev017001_SEL0051</td>
+        <td class="side">Befrage Otis zu Mimoiden.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev017001_JNK0020</td>
+        <td class="side">tev017001_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev017001_SEL0041</td>
+        <td class="side">tev017001_SEL0041</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev017001_SEL1021</td>
+        <td class="side">tev017001_SEL1021</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0001</td>
+        <td class="side">BLADEs mit Milit&#228;rvergangenheit sind oft ziemlich[ST:n ]eingebildet.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0002</td>
+        <td class="side">Ich versteh einfach nicht, warum sie sich unbedingt mit[ST:n ]ihren alten Rangbezeichnungen ansprechen m&#252;ssen.[ST:n ]Bei BLADE gibt’s so was doch gar nicht![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0003</td>
+        <td class="side">Und dauernd quatschen sie von Disziplin und so![ST:n ]Warum klammern die sich denn so an Milit&#228;rstrukturen,[ST:n ]die auf dieser Welt keine Sau interessieren?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0008</td>
+        <td class="side">Siehst du doch! Hier l&#228;uft ein kleines Kr&#228;ftemessen![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0009</td>
+        <td class="side">Den Gewinner nimmt sie dann mit auf ihre n&#228;chste[ST:n ]Mission. Na, nun guck nicht so dumm aus der W&#228;sche.[ST:n ]Du kannst dir doch denken, wen ich meine...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0010</td>
+        <td class="side">Ihre Missionen sind kein Spa&#223;! Aber ich sag dir, es[ST:n ]lohnt sich, ha ha! Die Frau ist... einfach traumhaft.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0015</td>
+        <td class="side">tev017001_MSG0015</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0016</td>
+        <td class="side">tev017001_MSG0016</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0017</td>
+        <td class="side">tev017001_MSG0017</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0025</td>
+        <td class="side">Das ist doch typisch f&#252;r die M&#246;rderin, ihre Beute halb[ST:n ]tot hier anzuschleppen, um das Kopfgeld zu kassieren![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0026</td>
+        <td class="side">Sie h&#228;tte ihre Beute aus Versehen fast umgebracht![ST:n ]Nein, ich denke, sie wei&#223; ganz genau,[ST:n ]wie weit sie gehen kann.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0027</td>
+        <td class="side">Pass blo&#223; auf, dass niemals ein Kopfgeld auf dich[ST:n ]ausgesetzt wird, klar?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0028</td>
+        <td class="side">Sonst hast du die M&#246;rderin am Hals! Sie wird anfangs[ST:n ]ganz freundlich auftreten, um an dich ranzukommen...[ST:n ]Und irgendwann – zack! Hast ’n Messer im R&#252;cken![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0035</td>
+        <td class="side">Findest du’s nicht auch irgendwie komisch,[ST:n ]dass ein Mimoid betrunken werden kann?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0036</td>
+        <td class="side">Also ich find’s super! He he! Ich h&#228;tt eh keinen Bock[ST:n ]hier n&#252;chtern zu bleiben. Nicht in diesem K&#246;rper![ST:n ]Und erst recht nicht auf diesem Planeten![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0037</td>
+        <td class="side">Allerdings h&#228;tten sie ruhig was gegen den Kater[ST:n ]unternehmen k&#246;nnen![ST:n ]Alter... is’ mir schlecht![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev017001_MSG0038</td>
+        <td class="side">Ich hoffe, diese ganze Sauferei schadet meinem[ST:n ]Mimoiden nicht zuuu sehr. Ach, was soll’s! Ich g&#246;nn mir[ST:n ]jetzt erstmal ’n Konterbierchen![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev017001_MSG1001</td>
+        <td class="side">tev017001_MSG1001</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev017001_MSG1002</td>
+        <td class="side">tev017001_MSG1002</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev017001_MSG1003</td>
+        <td class="side">tev017001_MSG1003</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev017001_MSG1010</td>
+        <td class="side">tev017001_MSG1010</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev017001_MSG1011</td>
+        <td class="side">tev017001_MSG1011</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev017001_MSG1012</td>
+        <td class="side">tev017001_MSG1012</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

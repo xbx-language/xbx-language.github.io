@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031206_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0001</td>
+        <td class="side">Lo siento, padre. Pero voy a casarme con Leroy.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0002</td>
+        <td class="side">Grrr... &#191;Por qu&#233;? &#191;Qu&#233; ves en &#233;l?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0003</td>
+        <td class="side">S&#233; que no es fuerte como prones.[ST:n ]S&#233; que no es fuerte ni para alien&#237;genas terrestres.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0004</td>
+        <td class="side">Pero me quiere como nadie. Se pone en peligro[ST:n ]por m&#237;. Arriesga mucho por m&#237;. Hace todo por m&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0005</td>
+        <td class="side">Te enga&#241;as, hija. Tus ojos no quieren ver realidad.[ST:n ]&#161;Eh, t&#250;! &#161;Alien&#237;gena terrestre! &#191;Qu&#233; opinas de Leroy?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031206_JNK0010</td>
+        <td class="side">Apoyar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031206_SEL0011</td>
+        <td class="side">Dile que Leroy es un hombre digno de tu confianza.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031206_JNK0020</td>
+        <td class="side">Dudar</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031206_SEL0021</td>
+        <td class="side">Confiesa que no sabes qu&#233; pensar de Leroy.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0006</td>
+        <td class="side">Vaya, espero estar a la altura de tus expectativas...[ST:n ]&#161;Qu&#233; presi&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0007</td>
+        <td class="side">Es normal que no lo sepas,[ST:n ]despu&#233;s de que huyera y todo eso.[ST:n ]Pero juro que, a partir de ahora, voy a cambiar.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0008</td>
+        <td class="side">Har&#233; lo que haga falta por Lavina.[ST:n ]Cortar&#233; toda relaci&#243;n con mi familia y amigos,[ST:n ]&#161;hasta renegar&#233; de la humanidad si es necesario![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0009</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0010</td>
+        <td class="side">Gracias. Ahora coloca anillo c&#243;rneo[ST:n ]de compromiso en mi dedo...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0011</td>
+        <td class="side">&#191;Ves, padre? Ahora mi vida est&#225; unida a Leroy.[ST:n ]No tienes derecho a separarnos.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0012</td>
+        <td class="side">Pero me niego a perder padre. Volvemos a NLA.[ST:n ]Hablamos all&#237; de futuro de todos nosotros.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0013</td>
+        <td class="side">Lavina...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0014</td>
+        <td class="side">S&#237;, volvamos a casa. &#191;Puedes levantarte, suegro?[ST:n ]Si te cuesta, te ayudar&#233; encant...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0015</td>
+        <td class="side">&#161;Silencio! Yo no soy tu suegro.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0016</td>
+        <td class="side">Eres d&#233;bil. No sabes nada de ser hombre prone.[ST:n ]&#161;Aprender&#225;s por malas![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031206_MSG0017</td>
+        <td class="side">Venga, &#161;deja de arrastrar pies y s&#237;guenos![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050902_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0001</td>
+        <td class="side">&#161;Alto! &#161;&#191;Qui&#233;n anda ah&#237;?![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0002</td>
+        <td class="side">&#191;Gu Ladha? &#191;Y [ST:Gender p1=un humano p2=una humana ]?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0003</td>
+        <td class="side">Aunque supongo que no se trata de una estampa[ST:n ]tan inusual... &#191;Qu&#233; os trae por aqu&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0004</td>
+        <td class="side">Se&#241;or, os pido disculpas por presentarme[ST:n ]sin previo aviso y acompa&#241;ada de [ST:Gender p1=un forastero p2=una forastera ].[ST:n ]Acudo a vos con una humilde petici&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0005</td>
+        <td class="side">Mmm. No es propio de vos tomar la iniciativa.[ST:n ]Adelante. Escuchar&#233; vuestra petici&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0006</td>
+        <td class="side">Se&#241;or, &#161;he venido para solicitar un traslado![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0007</td>
+        <td class="side">&#191;Un traslado? &#191;A d&#243;nde?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0008</td>
+        <td class="side">Se&#241;or, quiero servir de intermediaria[ST:n ]entre los wrothian y los humanos.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0009</td>
+        <td class="side">En otras palabras: quer&#233;is que os retire[ST:n ]del campo de batalla.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0010</td>
+        <td class="side">&#191;C&#243;mo? &#161;No, se&#241;or! &#161;Esa no es mi intenci&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0011</td>
+        <td class="side">&#161;No me mint&#225;is, Gu Ladha![ST:n ]Esta propuesta apesta a cobard&#237;a y a excusas.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0012</td>
+        <td class="side">&#191;De verdad pensabais que iba a ceder ante tal idea?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0013</td>
+        <td class="side">&#161;Se&#241;or, me hab&#233;is malinterpretado! Solo intentaba...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0014</td>
+        <td class="side">Adem&#225;s, hab&#233;is tra&#237;do aqu&#237; a [ST:Gender p1=un humano p2=una humana ].[ST:n ]&#191;Para qu&#233;? &#191;Para que sirva de apoyo[ST:n ]a vuestra cobarde maquinaci&#243;n?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0015</td>
+        <td class="side">Se&#241;or, esta persona entiende mi situaci&#243;n.[ST:n ]La petici&#243;n de traslado ha sido sugerencia suya.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0016</td>
+        <td class="side">Entonces se trata de [ST:Gender p1=un p2=una ] camarada[ST:n ][ST:Gender p1=vuestro p2=vuestra ], &#191;no? Ya entiendo...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0017</td>
+        <td class="side">Y &#191;cu&#225;n fiable es [ST:Gender p1=vuestro p2=vuestra ] camarada?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0018</td>
+        <td class="side">Exijo una demostraci&#243;n de su sinceridad y aptitud.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0019</td>
+        <td class="side">Si puede probar que es [ST:Gender p1=un guerrero p2=una guerrera ] de val&#237;a[ST:n ]y logra satisfacer mi petici&#243;n,[ST:n ]depositar&#233; mi confianza en [ST:Gender p1=&#233;l p2=ella ].[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0020</td>
+        <td class="side">Y solo entonces considerar&#233; vuestro traslado.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0021</td>
+        <td class="side">&#191;Qu&#233; petici&#243;n es esa, se&#241;or?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0022</td>
+        <td class="side">Es muy sencillo.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0023</td>
+        <td class="side">Deseo dos caras con sangre, tres filos remodelados[ST:n ]y un repuesto avanzado. Traedme las piezas[ST:n ]que os indico y estar&#233; satisfecho.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0024</td>
+        <td class="side">&#191;Eso... es todo, se&#241;or?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0025</td>
+        <td class="side">Eso es todo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0026</td>
+        <td class="side">[ST:Gender p1=Estimado p2=Estimada ] BLADE, deb&#233;is encontrar las caras[ST:n ]con sangre, los filos remodelados[ST:n ]y el repuesto avanzado.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0027</td>
+        <td class="side">&#191;Har&#233;is esto por Gu Ladha?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0028</td>
+        <td class="side">Preciso un repuesto avanzado, dos caras con sangre[ST:n ]y tres filos remodelados. S&#233; que es m&#225;s[ST:n ]un recado que una prueba.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0029</td>
+        <td class="side">Supongo que no esperabais venir aqu&#237;[ST:n ]y que os pusieran a trabajar. Mis disculpas.[ST:n ]Mas aun as&#237;, espero que hag&#225;is esto por Gu Ladha.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0030</td>
+        <td class="side">Puede que se&#225;is [ST:Gender p1=el amigo p2=la amiga ] que ha estado esperando[ST:n ]todo este tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050902_MSG0031</td>
+        <td class="side">Alguien que le d&#233; un empujoncito.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

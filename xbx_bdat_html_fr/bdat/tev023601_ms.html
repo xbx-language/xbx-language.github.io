@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev023601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0011</td>
+        <td class="side">Demander des d&#233;tails sur le travail de Quince.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0021</td>
+        <td class="side">Demander &#224; Quince si elle a entendu des rumeurs[ST:n ]int&#233;ressantes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0010</td>
+        <td class="side">tev023601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0031</td>
+        <td class="side">Demander &#224; Quince de vous parler de son exp&#233;rience[ST:n ]avec les Ma-nons.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0020</td>
+        <td class="side">tev023601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0021</td>
+        <td class="side">tev023601_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0010</td>
+        <td class="side">tev023601_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0041</td>
+        <td class="side">Demander &#224; Quince de vous parler de son exp&#233;rience[ST:n ]avec les Ma-nons.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev023601_JNK0020</td>
+        <td class="side">tev023601_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0021</td>
+        <td class="side">tev023601_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev023601_SEL0051</td>
+        <td class="side">Demander &#224; Quince de vous parler de son exp&#233;rience[ST:n ]avec la technologie ma-none.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0001</td>
+        <td class="side">Eh bien je suis responsable des euh... mat&#233;riaux ?[ST:n ]Vous voyez, la ville n&#39;est pas encore achev&#233;e[ST:n ]donc, euh...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0002</td>
+        <td class="side">D&#233;sol&#233;e, je ne suis pas dou&#233;e pour expliquer. Les gens[ST:n ]me disent toujours qu&#39;ils ne comprennent pas ce que[ST:n ]je raconte.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0003</td>
+        <td class="side">Bref, on a besoin de pas mal de chose, donc...[ST:n ]Je vous conseille FrontierNav ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0004</td>
+        <td class="side">FrontierNav rassemble les informations et extrait les[ST:n ]min&#233;raux mirans et euh, ben c&#39;est plut&#244;t g&#233;nial.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0005</td>
+        <td class="side">Quand les agents du BLADE se concentrent sur[ST:n ]FrontierNav, alors tout le monde est content ![ST:n ]Vous... comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0008</td>
+        <td class="side">Quand je travaillais dans le quartier administratif,[ST:n ]j&#39;ai vu un document marqu&#233; &#171; top secret &#187; ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0009</td>
+        <td class="side">Je pensais que ce serait quelque chose de cool, genre[ST:n ]des dossiers sur tous les hommes que Gina a laiss&#233;[ST:n ]tomb&#233;s. Mais en fait c&#39;&#233;tait nul. Carr&#233;ment nul. [ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0010</td>
+        <td class="side">Hein ? Gina ? Oh, c&#39;est la serveuse qui fait du gringue[ST:n ]&#224; tous les agents du BLADE. Et ouais. Ils l&#39;appr&#233;cient[ST:n ]tous beaucoup.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0011</td>
+        <td class="side">Hein ? Ah ! Vous vouliez en savoir plus sur[ST:n ]le document ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0012</td>
+        <td class="side">C&#39;&#233;tait genre bla bla bla, si vous d&#233;truisez certaines[ST:n ]parties du corps d&#39;un ennemi, alors il ne pourra pas[ST:n ]utiliser certains arts, bla bla bla. Tellement barbant ![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0020</td>
+        <td class="side">Hum... Je vois, je vois. Donc si vous utilisez[ST:n ]cette puce...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0021</td>
+        <td class="side">Je comprends que Quiquat soit frustr&#233;e, mais j&#39;ai du mal[ST:n ]&#224; assimiler les choses quand je lis sur un terminal, je[ST:n ]pr&#233;f&#232;re qu&#39;on m&#39;explique.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0022</td>
+        <td class="side">Ils nous ont beaucoup aid&#233;s &#224; optimiser notre travail,[ST:n ]mais nous avons toujours du mal &#224; communiquer.[ST:n ]Pourtant je ne suis pas idiote ! Enfin je crois ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0039</td>
+        <td class="side">Quand on s&#39;est r&#233;fugi&#233;s sur le vaisseau ma-non,[ST:n ]Quiquat a expliqu&#233; comment la source de puissance[ST:n ]du vaisseau marchait ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0040</td>
+        <td class="side">Ces volutes brillantes de lumi&#232;re sont des &#234;tres vivants[ST:n ]qui se rassemblent en source d&#39;&#233;nergie autour de ces[ST:n ]machins sur les bords.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0041</td>
+        <td class="side">Alors ? Vous y comprenez quelque chose ?[ST:n ]C&#39;est du charabia, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0042</td>
+        <td class="side">Je ne suis pas idiote, si ? C&#39;est juste que la technologie[ST:n ]ma-none est tr&#232;s avanc&#233;e ! C&#39;est &#231;a, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0048</td>
+        <td class="side">Je veux retourner dans mon vrai corps ![ST:n ]Je veux retourner dans mon vrai corps ! [ST:n ]Dans ! Mon ! Vrai ! Corps ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0049</td>
+        <td class="side">Quiquat disait qu&#39;ils d&#233;tiennent cette technologie[ST:n ]incroyable qui permet d&#39;implanter des informations[ST:n ]directement dans mon cerveau ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0050</td>
+        <td class="side">Et donc elle pr&#233;voit de m&#39;implanter des informations[ST:n ]sur leur technologie ! Exactement comme dans un film[ST:n ]de science-fiction ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0051</td>
+        <td class="side">Elle sera s&#251;rement capable de voir dans mon cerveau,[ST:n ]non ? Et genre, si pile &#224; ce moment-l&#224; il y a une[ST:n ]panne de courant, je vais oublier tout ce que je sais ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev023601_MSG0052</td>
+        <td class="side">Donc quand pensez-vous qu&#39;on pourra aller au noyau[ST:n ]de l&#39;arche de vie ? Aujourd&#39;hui ? Demain ?[ST:n ]Apr&#232;s-demain ? Dans une semaine ? 15 jours ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

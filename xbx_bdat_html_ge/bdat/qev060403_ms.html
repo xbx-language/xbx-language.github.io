@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060403_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0003</td>
+        <td class="side">Aaaah... Uuuh...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0001</td>
+        <td class="side">Kchhkk. Puh! Diese Entvoltanisierungssitzung[ST:n ]hat mich tief im Inneren meines Seins ber&#252;hrt.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0002</td>
+        <td class="side">Wer bist du? Kchhk.[ST:n ]Und was tust du an einem Ort wie diesem?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060403_JNK0010</td>
+        <td class="side">Erkl&#228;ren</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060403_SEL0011</td>
+        <td class="side">Erl&#228;utere die Situation.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060403_JNK0020</td>
+        <td class="side">&#196;chzen</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060403_SEL0021</td>
+        <td class="side">Wie kann man so ahnungslos sein? Seufze theatralisch.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0009</td>
+        <td class="side">Du bist hier, weil Trachlo Lythren dich[ST:n ]darum gebeten hat? Kchk. Interessant.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0012</td>
+        <td class="side">...Was?! Ich wurde von einer einheimischen[ST:n ]Kreatur angegriffen? Kchhhkkk.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0010</td>
+        <td class="side">Es tut mir leid! Kchhk. W&#228;hrend ich entvoltanisiere,[ST:n ]ist meine Aufmerksamkeit f&#252;r meine Umgebung oft sehr[ST:n ]beschr&#228;nkt. Dann bekomme ich nicht mit, was passiert.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0011</td>
+        <td class="side">Kchhkk. Vielen Dank f&#252;r die ausf&#252;hrliche Erkl&#228;rung.[ST:n ]Ich verstehe jetzt, dass ich dir mein Leben verdanke.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0014</td>
+        <td class="side">Kchhkk. Nun, wie du sicher verstehst, kann ich mich[ST:n ]w&#228;hrend des Entvoltanisierens nicht vom Fleck bewegen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0015</td>
+        <td class="side">...Was?! Ich wurde von einer einheimischen[ST:n ]Kreatur angegriffen? Kchhhkkk.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0016</td>
+        <td class="side">Und du... hast mich gerettet? Kchhkk.[ST:n ]Ich habe das alles &#252;berhaupt nicht mitbekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0017</td>
+        <td class="side">Du bist zu Recht verstimmt. Kchhkk.[ST:n ]Ich entschuldige mich von ganzem Herzen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0020</td>
+        <td class="side">Danke. Kchhkk.[ST:n ]Ich kehre umgehend nach NLA zur&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0021</td>
+        <td class="side">Ich habe meinen Leuten wohl einigen &#196;rger bereitet.[ST:n ]Kchhkk. Vielleicht sollte ich ihnen auf dem Heimweg[ST:n ]ein paar Giftpilze pfl&#252;cken, als Wiedergutmachung.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0022</td>
+        <td class="side">Hng... Meine Seele vertrocknet... Kchhkk.[ST:n ]Muss... die Unreinheit der Welt entvoltanisieren.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0023</td>
+        <td class="side">...N-nein! Kchhkk. Muss stark bleiben...[ST:n ]Aber sobald ich einen Moment lang nicht aufpasse,[ST:n ]wandern meine Gedanken... immer zu dem Einen...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0024</td>
+        <td class="side">Arsenican! Kchhkk. Hat Golbogga dir etwa das Leben[ST:n ]geschenkt, damit du hingehst und es v&#246;llig ungeniert[ST:n ]aufs Spiel setzt?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0025</td>
+        <td class="side">&#196;-&#228;h, nein, nat&#252;rlich nicht. Kchhk. Ich werde mich nur[ST:n ]noch auf das Voltan konzentrieren, das in der Stadt zu[ST:n ]finden ist.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060403_MSG0026</td>
+        <td class="side">Und doch... Das Voltan Miras ruft... Es ruft mich...[ST:n ]Nein! Ich muss stark bleiben! M-muss! Kchhkkk.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

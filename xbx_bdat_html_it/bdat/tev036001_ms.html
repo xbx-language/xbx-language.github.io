@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev036001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev036001_JNK0010</td>
+        <td class="side">Chiedi[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev036001_SEL0011</td>
+        <td class="side">Chiedi a Malyteth informazioni riguardo ai Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev036001_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev036001_SEL0021</td>
+        <td class="side">Chiedi a Malyteth quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev036001_SEL0031</td>
+        <td class="side">Chiedi a Malyteth quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0001</td>
+        <td class="side">Hai mai notato come-come sono gioiosi i Ma-non?[ST:n ]Sembra che non siano turbati dal fatto di essere[ST:n ]bloccati su questo pianeta nel bel mezzo del nulla, no?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0002</td>
+        <td class="side">Credo che ci stiamo solo prendendo in giro, non trovi?[ST:n ]Potremmo non trovare mai il modo di-di tornare sul[ST:n ]nostro pianeta natale, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0003</td>
+        <td class="side">Ad ogni modo, pi&#249; sto sulla nave, pi&#249; mi intristisco.[ST:n ]Quindi, mi sono ripromessa di venire quaggi&#249; a[ST:n ]parlare con-con Fraisie tutti i giorni. Mi segui?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0004</td>
+        <td class="side">Le cose che dice... Beh, in qualche modo riempiono[ST:n ]il vuoto nel mio cuore, sai? Vorrei poter condividere[ST:n ]questa sensazione con-con tutti.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0011</td>
+        <td class="side">C&#39;&#232; un impianto di purificazione qui, ma non[ST:n ]&#232; abbastanza per pompare la quantit&#224; d&#39;acqua di cui[ST:n ]necessita una citt&#224; di queste dimensioni, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0012</td>
+        <td class="side">Sapevi che c&#39;&#232; un lago d&#39;acqua pura e fresca[ST:n ]a ovest di Neo L.A.?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0013</td>
+        <td class="side">Se riuscissimo a portare quell&#39;acqua in citt&#224;, scommetto[ST:n ]che risolveremmo tutti i nostri problemi idrici, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0016</td>
+        <td class="side">Ad ogni modo, l&#39;umano addetto all&#39;impianto di[ST:n ]purificazione era d&#39;accordo, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0017</td>
+        <td class="side">Spero riusciranno ad avviare i lavori[ST:n ]senza-senza nessun ritardo, no?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0034</td>
+        <td class="side">Hai sentito che sono terminati i lavori per l&#39;impianto[ST:n ]idrico del Lago di Biahno?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0035</td>
+        <td class="side">Ho sentito dire che anche i Ma-non sulla nave sono[ST:n ]felici, sai? Soprattutto perch&#233; ora hanno accesso[ST:n ]a un-un flusso d&#39;acqua continuo.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev036001_MSG0036</td>
+        <td class="side">Abbiamo bisogno di acqua per vivere[ST:n ]almeno quanto voi, sai?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

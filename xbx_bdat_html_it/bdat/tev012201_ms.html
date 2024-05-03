@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev012201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev012201_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0011</td>
+        <td class="side">Chiedi a Powell degli abitanti di Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev012201_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0021</td>
+        <td class="side">Chiedi a Powell se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0031</td>
+        <td class="side">Chiedi a Powell cosa ne pensa dei Ma-Non.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0051</td>
+        <td class="side">Chiedi a Powell dei mimosomi.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev012201_SEL0061</td>
+        <td class="side">Chiedi a Powell quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0001</td>
+        <td class="side">Quando ci siamo schiantati su questo pianeta,[ST:n ]dopo l&#39;attacco, abbiamo perso molti membri[ST:n ]dell&#39;equipaggio della Balena Bianca.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0002</td>
+        <td class="side">Questa citt&#224; ora &#232; casa nostra, anche se non &#232; molto[ST:n ]popolata. E sono contento che abbiano trovato altri[ST:n ]sopravvissuti, ma... sono solo una goccia nell&#39;oceano.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0003</td>
+        <td class="side">Pochi abitanti significa pochi clienti, il che[ST:n ]significa che Army Pizza non vende niente![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0004</td>
+        <td class="side">Certo, io e mia moglie abbiamo tempo per cimentarci[ST:n ]nella creazione di nuove pizze nell&#39;attesa dei clienti,[ST:n ]ma con le idee non si pagano le bollette.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0005</td>
+        <td class="side">Non &#232; che tu e i tuoi amici BLADE potete aiutarci?[ST:n ]Magari potete trovare qualche sopravvissuto in pi&#249;?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0008</td>
+        <td class="side">Gestire questo ristorante &#232; sempre pi&#249; difficile.[ST:n ]Ho un sacco di problemi, ma quello del traffico[ST:n ]&#232; il peggiore in assoluto, diavola![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0009</td>
+        <td class="side">Noi di Army Pizza prendiamo molto seriamente[ST:n ]la promessa che facciamo ai nostri clienti di[ST:n ]consegnare la pizza in meno di trenta minuti.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0010</td>
+        <td class="side">Ma la maggior parte delle strade della zona[ST:n ]residenziale non sono neanche collegate tra loro,[ST:n ]quindi ci vuole pi&#249; tempo del normale per le consegne.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0011</td>
+        <td class="side">La mia povera moglie Camilla si sta facendo gi&#224; in[ST:n ]quattro, e quando gli affari andranno a gonfie vele,[ST:n ]il carico di lavoro diventer&#224; insostenibile per lei.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0012</td>
+        <td class="side">I BLADE stanno facendo progressi nell&#39;esplorazione del[ST:n ]mondo esterno, ma a Neo L.A. non ci pensa nessuno?[ST:n ]Potrebbero darsi una mossa a completare le strade.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0020</td>
+        <td class="side">Mi dispiace [ST:Gender p1=amico p2=amica ], se sei qui per la[ST:n ]Pizza Granata ti toccher&#224; aspettare.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0021</td>
+        <td class="side">Ah, volevi chiedermi dei Ma-non? Beh non so molto su[ST:n ]di loro, ma una cosa la so... adorano la pizza![ST:n ]Non c&#39;&#232; un Ma-non che non ne vada pazzo![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0022</td>
+        <td class="side">Fanno la fila fuori dal mio ristorante ventiquattro[ST:n ]ore al giorno e ordinano pizza come se[ST:n ]non mangiassero da secoli.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0023</td>
+        <td class="side">Inutile dirti che gli affari vanno a gonfie vele[ST:n ]per Army Pizza. Vanno cos&#236; bene che[ST:n ]non so pi&#249; dove sbattere la testa![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0024</td>
+        <td class="side">Io e mia moglie stiamo lavorando come pazzi[ST:n ]da quando sono arrivati i Ma-non. Non ho[ST:n ]nemmeno il tempo per andare in bagno![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0025</td>
+        <td class="side">Ehi, se hai un po&#39; di tempo libero, perch&#233; non[ST:n ]dai una mano a me e Camilla? Potresti fare[ST:n ]qualche soldino in pi&#249; da mettere in tasca.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0028</td>
+        <td class="side">Gerome, uno dei nostri clienti abituali, ha[ST:n ]qualche problemino con i nostri clienti Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0029</td>
+        <td class="side">Si siede il pi&#249; lontano possibile[ST:n ]da loro e resta fermo a fissarli.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0030</td>
+        <td class="side">Lo so che ha passato un periodo difficile[ST:n ]quando gli Xeno hanno attaccato la Terra,[ST:n ]ma che diavola! Non credo sia stato l&#39;unico![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0031</td>
+        <td class="side">Non importa quante volte gli abbia detto di lasciar[ST:n ]perdere, non riesce a voltare pagina.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0032</td>
+        <td class="side">Questo pianeta &#232; l&#39;ultimo rifugio che resta[ST:n ]all&#39;umanit&#224;. Voglio solo che accetti la[ST:n ]situazione e che si rifaccia una vita.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0040</td>
+        <td class="side">I mimosomi che muoiono a causa di suicidi non[ST:n ]vengono resuscitati. Secondo la versione[ST:n ]ufficiale &#232; \&quot;Per rispettare la loro volont&#224;\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0041</td>
+        <td class="side">Ma la verit&#224; &#232; che non vogliono sprecare[ST:n ]delle parti per qualcuno che potrebbe...[ST:n ]fare una cosa del genere.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0042</td>
+        <td class="side">Non &#232; giusto! Finch&#233; sei vivo, hai sempre[ST:n ]la possibilit&#224; di ricominciare da zero![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0043</td>
+        <td class="side">Non potremmo dar loro un&#39;altra possibilit&#224;?[ST:n ]Almeno una resurrezione per mimosoma?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0047</td>
+        <td class="side">Ultimamente, io... Ehm...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0048</td>
+        <td class="side">Lascia stare. Non &#232; importante.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0049</td>
+        <td class="side">Dovremmo parlare di Gerome. Sta bene?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0050</td>
+        <td class="side">Non l&#39;ho visto molto qui, da quando[ST:n ]il ristorante si &#232; riempito di Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev012201_MSG0051</td>
+        <td class="side">Certo, mi farebbe piacere se passasse di qui[ST:n ]ogni tanto. Era uno dei pochi clienti[ST:n ]abituali umani che avevo...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

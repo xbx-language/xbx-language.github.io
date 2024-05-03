@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev024501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Joy por su trabajo.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Joy si ha o&#237;do alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0010</td>
+        <td class="side">tev024501_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Joy por los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0020</td>
+        <td class="side">tev024501_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0021</td>
+        <td class="side">tev024501_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Joy por el da&#241;o sufrido durante el ataque.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0020</td>
+        <td class="side">tev024501_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0061</td>
+        <td class="side">Preg&#250;ntale a Joy si ha o&#237;do alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0010</td>
+        <td class="side">tev024501_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0071</td>
+        <td class="side">Preg&#250;ntale a Joy por la gente de NLA.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev024501_JNK0020</td>
+        <td class="side">tev024501_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev024501_SEL0061</td>
+        <td class="side">tev024501_SEL0061</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev024501_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Joy si hay alguna novedad.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0001</td>
+        <td class="side">Soy psicoterapeuta. &#191;Mmm? &#191;Que por qu&#233;[ST:n ]no estoy trabajando? S&#237; que estoy trabajando.[ST:n ]&#161;Estoy siguiendo uno de mis propios tratamientos![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0002</td>
+        <td class="side">Ahora que parece que ya hemos empezado a asumir[ST:n ]lo de nuestro aterrizaje forzoso, la gente se est&#225;[ST:n ]volviendo m&#225;s vulnerable al estr&#233;s postraum&#225;tico.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0003</td>
+        <td class="side">Personalmente, prefiero aconsejar a mis pacientes[ST:n ]que vengan a practicar deporte[ST:n ]en vez de que se atiborren a pastillas.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0004</td>
+        <td class="side">El deporte es un tratamiento maravilloso. Sudar juntos[ST:n ]refuerza los v&#237;nculos y aclara nuestras mentes.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0005</td>
+        <td class="side">Y, si todav&#237;a no me crees,[ST:n ]&#161;te lo demostrar&#233; ret&#225;ndote a un partido![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0006</td>
+        <td class="side">Despu&#233;s del partido, seguro que tienes una pinta[ST:n ]tan saludable como la de Charles.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0008</td>
+        <td class="side">Incluso los BLADE tienen limitado el acceso a muchos[ST:n ]lugares mientras se acostumbran al trabajo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0009</td>
+        <td class="side">Despu&#233;s de haber completado un par de misiones[ST:n ]importantes, son considerados BLADE de pleno derecho[ST:n ]y ya pueden ir adonde quieran.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0010</td>
+        <td class="side">Cuando est&#233;s tan [ST:Gender p1=seguro p2=segura ] de tus habilidades,[ST:n ]&#191;por qu&#233; no partir hacia alg&#250;n destino remoto?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0011</td>
+        <td class="side">Cuando experimentes la verdadera majestuosidad[ST:n ]del paisaje de Mira, empezar&#225;s a apreciar la magnitud[ST:n ]de lo que BLADE est&#225; intentando conseguir.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0020</td>
+        <td class="side">&#191;Has visto c&#243;mo juegan los ma-non? &#161;Es encantador![ST:n ]Experimentan el juego de una manera que no est&#225;[ST:n ]al alcance de los que acatamos las reglas.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0021</td>
+        <td class="side">Poseen una incre&#237;ble tecnolog&#237;a, pero hablan[ST:n ]y se comportan casi como ni&#241;os.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0022</td>
+        <td class="side">Quiz&#225; el secreto de su destreza tecnol&#243;gica reside[ST:n ]en esas costumbres.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0023</td>
+        <td class="side">Pero cuando se lo suger&#237; a Charles, solo dijo[ST:n ]que son unos tarambanas y puso punto final[ST:n ]a la conversaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0028</td>
+        <td class="side">Me alegro mucho de que los ma-non[ST:n ]hayan venido a ayudarnos.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0029</td>
+        <td class="side">Gracias a ellos, se pudo evitar que la poblaci&#243;n civil[ST:n ]de NLA tuviera que vivir el combate en su propia piel.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0030</td>
+        <td class="side">A diferencia de los BLADE, los civiles[ST:n ]no estamos acostumbrados a la guerra. As&#237; que ver[ST:n ]c&#243;mo tu propia ciudad es atacada...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0031</td>
+        <td class="side">Sobra decir que ha sido una fuente de ansiedad[ST:n ]de la que mucha gente viene a hablarme.[ST:n ]Y, como es natural, yo tambi&#233;n siento esa ansiedad.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0032</td>
+        <td class="side">&#161;No s&#233; c&#243;mo podr&#237;a vivir si no tuviera el deporte[ST:n ]para despejar la mente y el coraz&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0037</td>
+        <td class="side">&#191;Has o&#237;do eso de que hay islas peque&#241;as[ST:n ]a lo lejos en el oc&#233;ano de Mira?[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0038</td>
+        <td class="side">Parece que los BLADE han encontrado unas cuantas[ST:n ]en varios lugares.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0039</td>
+        <td class="side">&#161;La imagen de una isla al final del mar inspira[ST:n ]unos recuerdos fascinantes[ST:n ]de la Era de los descubrimientos![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0045</td>
+        <td class="side">&#218;ltimamente, en mi trabajo como psicoterapeuta,[ST:n ]los temas de conversaci&#243;n que he estado tratando[ST:n ]han cambiado much&#237;simo.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0046</td>
+        <td class="side">La gente quiere hablar de sus inquietudes por el futuro.[ST:n ]Eso no es nuevo, pero el futuro que se imaginan ahora[ST:n ]es mucho mejor que el que se imaginaban antes.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0047</td>
+        <td class="side">Mis clientes hablan de casarse y formar una familia,[ST:n ]o encontrar un trabajo fuera de BLADE. &#161;Temas m&#225;s[ST:n ]propios de esta cancha de tenis que de mi consulta![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0048</td>
+        <td class="side">Cuando volvamos a nuestros cuerpos tendremos nuevas[ST:n ]preocupaciones. Pero, por ahora, espero que podamos[ST:n ]reflexionar con calma sobre nuestro nuevo lugar.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0049</td>
+        <td class="side">Le he ense&#241;ado las reglas del tenis[ST:n ]al orphean Ton&#39;barac. &#161;Las entendi&#243; enseguida [ST:n ]y en nada estaba preparado para jugar![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0050</td>
+        <td class="side">Ya domina la t&#225;ctica y la teor&#237;a del tenis.[ST:n ]Si tan solo lograra mejorar su t&#233;cnica, podr&#237;a ser[ST:n ]f&#225;cilmente el mejor jugador de NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0051</td>
+        <td class="side">Lo &#250;nico malo es que parece que ve el tenis[ST:n ]como alg&#250;n tipo de... ritual humano,[ST:n ]y no como un deporte.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev024501_MSG0052</td>
+        <td class="side">Quiz&#225; como un ritual para descargar el estr&#233;s.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev057001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev057001_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev057001_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Nio por el tiempo en Cauldros.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev057001_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev057001_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Nio si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0001</td>
+        <td class="side">Tiempo en Cauldros puede ser horrible.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0002</td>
+        <td class="side">De d&#237;a, suele llover... Pero &#161;no llueve agua, no![ST:n ]&#161;Llueve fuego! Y justo cuando Nio cree que vida[ST:n ]va a terminar en cataclismo de llamas...[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0003</td>
+        <td class="side">&#161;Entonces cae noche y llega neblina[ST:n ]de energ&#237;a brillante! Neblina hace[ST:n ]a criaturas oscuras muuucho m&#225;s fuertes.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0004</td>
+        <td class="side">Nio ni se acuerda de veces que tuvo que coger[ST:n ]a Popo y cobijarse en cuevas hasta amanecer.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0005</td>
+        <td class="side">Si [ST:Gender p1=amigo viajero p2=amiga viajera ] planea ir all&#237;,[ST:n ][ST:Gender p1=amigo p2=amiga ] deber&#237;a pensar en buen lugar[ST:n ]para esconderse si tiempo se pone feo.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0008</td>
+        <td class="side">Normalmente, Nio se gana vida vendiendo[ST:n ]cosas en Caravana de Drongo, en Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0009</td>
+        <td class="side">Pero &#161;mira este sitio! &#191;Ha visto [ST:Gender p1=amigo p2=amiga ] alg&#250;n lugar[ST:n ]tan blanco y brillante e impresionante?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0010</td>
+        <td class="side">A Popo, novia de Nio, le gusta mucho esto,[ST:n ]as&#237; que venimos a menudo de escapada rom&#225;ntica.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0011</td>
+        <td class="side">Nio tiene vacaciones acumuladas,[ST:n ]&#161;as&#237; que aqu&#237; estamos![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0012</td>
+        <td class="side">Por cierto, &#191;vio [ST:Gender p1=amigo p2=amiga ] vestido de novia[ST:n ]que venden en esa tienda de ah&#237;? &#161;Qu&#233; bonito![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0013</td>
+        <td class="side">Ayy... Nio no ve hora en que Popo[ST:n ]se pone bonito vestido para casarse con Nio.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev057001_JNK0010</td>
+        <td class="side">tev057001_JNK0010</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev057001_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Nio por el tiempo en Sylvalum.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev057001_JNK0020</td>
+        <td class="side">tev057001_JNK0020</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev057001_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Nio si hay alguna novedad.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0018</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] seguro que ya sabe esto, pero...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0019</td>
+        <td class="side">Cuando se llena de esporas, puede ser[ST:n ]complicado ver qu&#233; est&#225; pasando.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0020</td>
+        <td class="side">Y de noche, sale aurora roja.[ST:n ]A Popo le gusta aurora roja por aura rom&#225;ntica,[ST:n ]pero [ST:Gender p1=amigo p2=amiga ] debe tener cuidado.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0021</td>
+        <td class="side">Destellos de aurora irritan ojos[ST:n ]y dificultan apuntar a enemigos a distancia.[ST:n ]&#161;Es para tirarse de mata de pelo![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0014</td>
+        <td class="side">&#161;Nio a&#250;n no se cree que [ST:Gender p1=amigo p2=amiga ][ST:n ]ten&#237;a anillo despu&#233;s de todo este tiempo![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0015</td>
+        <td class="side">Nio se siente un poco est&#250;pido por incordiar tanto,[ST:n ]pero bien est&#225; lo que bien se acaba.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0016</td>
+        <td class="side">&#161;De ahora en adelante, Nio va a trabajar superduro[ST:n ]en Caravana de Drongo para dar a Popo vida feliz![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev057001_MSG0017</td>
+        <td class="side">Pero &#161;no demasiado duro! Nio sabe que no hay[ST:n ]que pasarse. &#161;Nio va a reservar tiempo para pasar[ST:n ]con Popo y darle todo amor que Popo merece![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

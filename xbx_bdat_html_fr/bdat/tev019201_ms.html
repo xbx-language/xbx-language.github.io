@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev019201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev019201_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0011</td>
+        <td class="side">Demander &#224; Lara Mara ce qu&#39;il pense de vous.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev019201_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0021</td>
+        <td class="side">Demander &#224; Lara Mara si quelque chose l&#39;ennuie.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0031</td>
+        <td class="side">Demander &#224; Lara Mara de vous parler des Prones.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0041</td>
+        <td class="side">Demander si Lara Mara a entendu[ST:n ]des rumeurs int&#233;ressantes.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0051</td>
+        <td class="side">Demander &#224; Lara Mara ce qu&#39;il pense des x&#233;noformes[ST:n ]de New L.A.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0061</td>
+        <td class="side">Demander &#224; Lara Mara son opinion sur les Ma-nons.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0071</td>
+        <td class="side">Demander si Lara Mara a entendu[ST:n ]des rumeurs int&#233;ressantes.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev019201_SEL0081</td>
+        <td class="side">Demander &#224; Lara Mara comment il se sent apr&#232;s[ST:n ]l&#39;attaque du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev019201_SEL1011</td>
+        <td class="side">Demander &#224; Lara Mara pourquoi, selon lui, le Ganglion[ST:n ]est tellement obs&#233;d&#233; par les humains.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev019201_SEL1021</td>
+        <td class="side">Demander &#224; Lara Mara s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev019201_SEL2021</td>
+        <td class="side">Demander &#224; Lara Mara s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev019201_SEL2031</td>
+        <td class="side">Demander &#224; Lara Mara ce qu&#39;il ressent &#224; l&#39;id&#233;e de[ST:n ]rendre son mim&#233;osome et de retrouver son corps.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0001</td>
+        <td class="side">C&#39;est toi le nouveau membre de l&#39;&#233;quipe qu&#39;Elma et[ST:n ]Vandham cherchaient, mmh ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0002</td>
+        <td class="side">Oh, j&#39;en &#233;tais s&#251;r. Tu as l&#39;air beaucoup plus[ST:n ]fortiche que les autres membres du BLADE...[ST:n ]Et tu as l&#39;air [ST:Gender p1=perdu p2=perdue ].[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0003</td>
+        <td class="side">Ils ont dit avoir retrouv&#233; 10 personnes,[ST:n ]mais je n&#39;ai vu que toi. Int&#233;ressant...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0004</td>
+        <td class="side">Le directeur g&#233;n&#233;ral Chausson a l&#39;air honn&#234;te et s&#233;rieux,[ST:n ]mais c&#39;est avant tout un politicien. Et on sait bien[ST:n ]ce que &#231;a veut dire, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0008</td>
+        <td class="side">Oh, tu t&#39;inqui&#233;tais pour moi ? C&#39;est trop mignon ![ST:n ]Est-ce que j&#39;ai rougi ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0009</td>
+        <td class="side">Puisque tu es si adorable, j&#39;ai une mission importante[ST:n ]pour toi : faire mon bonheur pour toujours[ST:n ]et &#224; jamais ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0010</td>
+        <td class="side">Je plaisante ! Je plaisante. N&#39;affole pas tes biorythmes.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0011</td>
+        <td class="side">Mais je ne plaisantais pas &#224; propos de cette mission[ST:n ]importante. Tu as... quelque chose de particulier.[ST:n ]Tu n&#39;es pas comme tous les membres du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0017</td>
+        <td class="side">J&#39;en ai vu un ! J&#39;en ai vu un ! J&#39;ai vu un de[ST:n ]ces machins prones ![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0018</td>
+        <td class="side">Sa bouche semblait &#234;tre con&#231;ue pour avaler des t&#234;tes[ST:n ]humaines, tout rond, brr ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0019</td>
+        <td class="side">Je me demande comment ces gros affreux savent[ST:n ]qu&#39;on existe, nous autres petits humains ?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0020</td>
+        <td class="side">Ce n&#39;est pas que la c&#233;l&#233;brit&#233; me g&#234;ne, je t&#39;assure.[ST:n ]Je ne veux juste pas &#234;tre connu pour avoir bon go&#251;t.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0025</td>
+        <td class="side">Savais-tu qu&#39;en attaquant un ennemi par derri&#232;re,[ST:n ]il &#233;tait plus facile de porter un coup, et que la force[ST:n ]du coup &#233;tait plus &#233;lev&#233;e ? Mmh...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0026</td>
+        <td class="side">Quoi... ? Tu trouves que frapper par derri&#232;re[ST:n ]est l&#226;che et immoral ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0027</td>
+        <td class="side">[ST:Gender p1=Ch&#233;ri p2=Ch&#233;rie ], les seuls &#224; &#234;tre chevaleresque sur le champ[ST:n ]de bataille finissent morts.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0028</td>
+        <td class="side">Si tu veux survivre dans ce monde cruel,[ST:n ]il faut parfois &#234;tre une ordure.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0035</td>
+        <td class="side">Je ne dis pas que j&#39;aime la t&#234;te qu&#39;ont la majorit&#233;[ST:n ]des x&#233;noformes que l&#39;on a rencontr&#233;s jusqu&#39;&#224; pr&#233;sent.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0036</td>
+        <td class="side">Mais ces Nopons sont si doux et adorables ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0037</td>
+        <td class="side">Oh, et le type que je viens de voir dans l&#39;all&#233;e[ST:n ]des Armes est absolument canon.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0042</td>
+        <td class="side">Je me demande s&#39;il a des amis c&#233;libataires...[ST:n ]Ah, quand on parle du loup ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0043</td>
+        <td class="side">Oh ? Parleriez-vous de nous par hasard ?[ST:n ]Cela fait longtemps que nous suspectons[ST:n ]notre pouvoir de s&#233;duction.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0044</td>
+        <td class="side">Pour r&#233;pondre &#224; votre question, h&#233;las, non. Nous[ST:n ]sommes bien malheureusement le seul de notre[ST:n ]genre. Un exemplaire unique ![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0045</td>
+        <td class="side">Oh, tu as d&#251; en passer des nuits seul, l&#224;-bas...[ST:n ]Mais je parie que je peux apaiser ta solitude,[ST:n ]maintenant que tu es l&#224; ![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0046</td>
+        <td class="side">Je me demande s&#39;il a des amis ? Si on accueille des[ST:n ]x&#233;nos mignons comme lui et les Nopons, je les[ST:n ]accueillerai &#224; bras ouverts. Grr ![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0051</td>
+        <td class="side">Quand le gouvernement a annonc&#233; que les Ma-nons[ST:n ]allaient vivre &#224; New L.A. et que je les ai vus pour[ST:n ]la premi&#232;re fois, je les ai trouv&#233;s d&#233;go&#251;tants.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0052</td>
+        <td class="side">Mais plus maintenant. En fait, j&#39;ai m&#234;me honte[ST:n ]de l&#39;avoir pens&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0053</td>
+        <td class="side">Rutantan nous donne plein de bonnes id&#233;es.[ST:n ]Il nous aide vraiment beaucoup ![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0054</td>
+        <td class="side">Et puis, la beaut&#233;, c&#39;est subjectif, non ?[ST:n ]C&#39;est ce qu&#39;il y a &#224; l&#39;int&#233;rieur qui compte.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0055</td>
+        <td class="side">J&#39;aimerais avoir un petit ami cool, qui dirait ce genre[ST:n ]de trucs &#224; propos de moi...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0060</td>
+        <td class="side">Tu peux donner le butin que tu r&#233;cup&#232;res apr&#232;s[ST:n ]un combat &#224; d&#39;autres membres du BLADE[ST:n ]gr&#226;ce &#224; l&#39;option &#171; offre rare &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0061</td>
+        <td class="side">Ces petits cadeaux sont un bon moyen de faire monter[ST:n ]le niveau d&#39;affection de la personne qui te fait craquer.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0062</td>
+        <td class="side">Quoi ? &#199;a ne sert &#224; rien ? Alors pourquoi le faire ?[ST:n ]Je ne fais pas la charit&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0063</td>
+        <td class="side">Eh bien, ce n&#39;est pas grave. Mon b&#233;guin a sans doute[ST:n ]d&#233;j&#224; craqu&#233; sous mon charme d&#233;vastateur ![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0070</td>
+        <td class="side">Il y a quelque temps, je pensais &#224; l&#39;horreur de notre[ST:n ]vie ici. Peu importe le temps que tu passes &#224; t&#39;entra&#238;ner,[ST:n ]&#224; acheter du mat&#233;riel, &#224; l&#39;entretenir, etc.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0071</td>
+        <td class="side">La mort peut quand m&#234;me te faucher &#224; tout instant.[ST:n ]Et quand je m&#39;en suis rendu compte,[ST:n ]ma gorge s&#39;est serr&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0072</td>
+        <td class="side">Et d&#39;un coup, ce petit x&#233;no, que je n&#39;avais jamais vu[ST:n ]pr&#234;ter attention &#224; qui que ce soit, est venu essayer[ST:n ]de me remonter le moral ![ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0073</td>
+        <td class="side">Alors j&#39;ai d&#233;cid&#233; de continuer &#224; avancer pour lui.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev019201_MSG0074</td>
+        <td class="side">Si seulement c&#39;&#233;tait un humain, &#231;a aurait vraiment pu[ST:n ]se finir en conte de f&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1001</td>
+        <td class="side">Pourquoi crois-tu que le Ganglion nous pourchasse[ST:n ]comme &#231;a, nous les humains ?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1002</td>
+        <td class="side">Est-ce qu&#39;ils veulent l&#39;arche de vie ? Ou est-ce qu&#39;ils[ST:n ]ne veulent pas qu&#39;on s&#39;installe sur cette plan&#232;te ?[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1003</td>
+        <td class="side">Ou peut-&#234;tre qu&#39;ils sont juste atrocement jaloux de ma[ST:n ]beaut&#233; et de ma gr&#226;ce ? Ce ne serait pas la premi&#232;re[ST:n ]fois que &#231;a arriverait...[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1004</td>
+        <td class="side">Oh, c&#39;&#233;tait une blaaague ! Ne me regarde pas comme[ST:n ]si j&#39;&#233;tais zinzin.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1010</td>
+        <td class="side">J&#39;ai l&#39;impression que le Ganglion nous mets[ST:n ]sa sup&#233;riorit&#233; technologique sous le nez.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1011</td>
+        <td class="side">Mais je ne me d&#233;courage pas.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1012</td>
+        <td class="side">Apr&#232;s tout, Rutantan d&#233;monte et analyse maintenant [ST:n ]tous les petits gadgets qu&#39;ils ont pass&#233; tant de temps[ST:n ]&#224; d&#233;velopper.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev019201_MSG1013</td>
+        <td class="side">Oh, et bien s&#251;r, il y a toi : la bleusaille[ST:n ]qui les d&#233;gomme ![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2001</td>
+        <td class="side">J&#39;ai &#233;cout&#233; certains des journaux de communication[ST:n ]que tu as ramen&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2002</td>
+        <td class="side">Comme il s&#39;agit de communications d&#39;urgence,[ST:n ]la plupart sont r&#233;dig&#233;s dans la langue natale[ST:n ]des intervenants.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2003</td>
+        <td class="side">Je peux te dire qu&#39;ils parlaient japonais et russe,[ST:n ]mais je suis incapable de savoir ce qu&#39;ils racontaient.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2004</td>
+        <td class="side">H&#233;, attends une minute. Je viens tout juste de r&#233;aliser[ST:n ]que tous ces x&#233;noformes parlent notre langue ![ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2005</td>
+        <td class="side">Notre langue est d&#233;j&#224; devenue la lingua franca[ST:n ]de l&#39;espace ? Bon sang, &#231;a a &#233;t&#233; vite ![ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2010</td>
+        <td class="side">Si on retrouve nos corps biologiques, je veux redevenir[ST:n ]l&#39;ado aux yeux brillants et aux joues roses que j&#39;&#233;tais ![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2011</td>
+        <td class="side">Enfin, c&#39;est ce que j&#39;ai racont&#233; &#224; Rutantan. Mais il a dit[ST:n ]que les Ma-nons n&#39;avaient, eux non plus, jamais r&#233;ussi[ST:n ]&#224; cr&#233;er une fontaine de jouvence.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev019201_MSG2012</td>
+        <td class="side">Alors dans ce cas, je veux rester jeune et magnifique[ST:n ]pour toujours, dans ce mim&#233;osome.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

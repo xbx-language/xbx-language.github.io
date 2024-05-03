@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0011</td>
+        <td class="side">Chiedi a Giogion del negozio di L.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0021</td>
+        <td class="side">Chiedi a Giogion se ha sentito qualche[ST:n ]pettegolezzo interessante.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0010</td>
+        <td class="side">tev032601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0011</td>
+        <td class="side">tev032601_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">tev032601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0031</td>
+        <td class="side">Chiedi a Giogion se se ha sentito qualche[ST:n ]pettegolezzo interessante.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0001</td>
+        <td class="side">Se hai Miranium a sufficienza, non &#232; difficile aprire[ST:n ]degli alloggiamenti nel tuo equipaggiamento, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0002</td>
+        <td class="side">Una volta che hai trovato il tuo equipaggiamento[ST:n ]preferito, vuoi aprire tutti gli alloggiamenti[ST:n ]e potenziarlo al massimo, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0003</td>
+        <td class="side">L &#232; un vero artista, non trovi? Quella macchina[ST:n ]&#232; davvero una bellezza...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0004</td>
+        <td class="side">Pensi che potrei convincerlo a progettarne[ST:n ]una che converta il Miranium in pizza?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0008</td>
+        <td class="side">Mia sorella Neraph era sulla nave con noi, ma[ST:n ]sono mesi che non la vedo...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0009</td>
+        <td class="side">Quando trova il soggetto adatto per i suoi studi,[ST:n ]diventa un&#39;eremita, mi segui? Non si fa vedere[ST:n ]per mesi e poi spunta fuori pallida e smunta.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0010</td>
+        <td class="side">Ad ogni modo, mi ha inviato un messaggio sulla mia[ST:n ]ricetrasmittente dicendomi che &#232; stata assunta[ST:n ]da un&#39;azienda qui in citt&#224;. Mi chiedo quale sia...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0011</td>
+        <td class="side">Se mai la vedessi, dille di fare un salto al negozio[ST:n ]di L per salutare suo fratello, puoi?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0027</td>
+        <td class="side">Ho appena visto mia sorella Neraph. Era un sacco[ST:n ]di tempo che non ci incontravamo, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0028</td>
+        <td class="side">Non la vedevo da cos&#236; tanto che praticamente[ST:n ]non mi ricordavo pi&#249; i suoi lineamenti, s&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0029</td>
+        <td class="side">Penso che qualche Wrothian la stesse seguendo,[ST:n ]o qualcosa del genere? Mi sembrava[ST:n ]veramente esausta.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0030</td>
+        <td class="side">E visto che sono un buon fratello, le ho detto che[ST:n ]dovrebbe uscire pi&#249; spesso, fare pi&#249; attivit&#224; fisica[ST:n ]e aumentare la sua resistenza. Ho fatto bene, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032601_JNK1010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032601_SEL1041</td>
+        <td class="side">Chiedi a Giogion del negozio di L.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">tev032601_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0021</td>
+        <td class="side">tev032601_SEL0021</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032601_JNK1010</td>
+        <td class="side">tev032601_JNK1010</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032601_SEL1041</td>
+        <td class="side">tev032601_SEL1041</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">tev032601_JNK0020</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0031</td>
+        <td class="side">tev032601_SEL0031</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0031</td>
+        <td class="side">Ah, L &#232; il mio artista preferito! Non preoccuparti, OK?[ST:n ]Mi sto occupando io del suo negozio.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0032</td>
+        <td class="side">Tu vai l&#224; fuori e goditi i panorami di Mira, va bene?[ST:n ]Dai libero sfogo alla tua immaginazione![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0033</td>
+        <td class="side">So che inventerai tutti i pi&#249; assurdi tipi di macchine.[ST:n ]Il tuo cervello si potrebbe vendere a peso d&#39;oro, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0034</td>
+        <td class="side">E la prima sar&#224; una macchina che trasforma[ST:n ]il Miranium in pizza, giusto? Giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0035</td>
+        <td class="side">Ehm, cercavo di inviarti dei messaggi subliminali, sai?[ST:n ]Macchina per la pizza, s&#236;? Per favore?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

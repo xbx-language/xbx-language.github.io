@@ -1,0 +1,3647 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ITM_CollectList_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Ajiramelone</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Spitzkartoffel</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Flammensalat</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Moserkohl</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Keppokarotte</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Amidresia-Tomate</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Kaiserpilz</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Zandemo-Aubergine</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Bl&#252;hender Morgenfarn</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Fodornalvengr&#252;n</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Kaiserschirmling</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Gubulakohl</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Dolchknoblauch</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">M&#252;tlibohne</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Flohsackk&#252;rbis</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Wildpaprika</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">Chalupablatt</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">Dobobora-Brokkoli</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">Roter Riesenrettich</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">Bierbohnen</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">Sch&#252;ttelsesam</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">Federmais</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">Leichensellerie</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">Kyatara-Zwiebel</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">Elektrisierter Cayenne</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">Bramblussprossen</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">Teufelszwiebel</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">Glibberbeere</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">Steinorange</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">Xerdbeere</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td class="side">Sternkernapfel</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td class="side">Hei&#223;es Fr&#252;chtchen</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td class="side">Echolotrone</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td class="side">Sotschaguave</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td class="side">Parapaya</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td class="side">Karambolone</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td class="side">Amana-Stinkfrucht</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td class="side">Gummimango</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td class="side">Sauerpflaume</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td class="side">Blattbanane</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td class="side">Gottmelone</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td class="side">Sandmelone</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td class="side">Pomp&#246;se Pseudotraube</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td class="side">Eierkiwi</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td class="side">Splittergranatapfel</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td class="side">Shido-Kaki</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td class="side">Frostbeere</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td class="side">Flauschefr&#252;chtchen</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td class="side">Smaragdtraube</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td class="side">Detonananas</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td class="side">Gyulali</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td class="side">Lavakastanie</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td class="side">S&#252;&#223;e Eisenavocado</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td class="side">Hammerpflaume</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td class="side">Oculananas</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td class="side">Nickerwegerich</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td class="side">Noranlilie</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td class="side">Honigkuchenblume</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td class="side">Kiran-Katzenminze</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td class="side">Dogal&#246;wenzahn</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td class="side">Sonablatt</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td class="side">Kleine Garudonessel</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td class="side">Nirvana-Jonquille</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td class="side">Sonnentrauerblume</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td class="side">Silbergl&#246;ckchen</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td class="side">Cham&#228;leonranke</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td class="side">Munerie</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td class="side">Sekka-Kosmee</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td class="side">Masuke-Zeder</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td class="side">Schlafende Amaryllis</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td class="side">Joboschl&#252;sselblume</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td class="side">Gudoschalotte</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td class="side">Banban-Eichenkraut</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td class="side">Myahafer</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td class="side">Myuena-Kaktus</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td class="side">Kefa-Stechpalme</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td class="side">Budebeifu&#223;</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td class="side">Knallstiefm&#252;tterchen</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td class="side">Schillerfarn</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td class="side">Antorusrose</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td class="side">Shia-Cattleya</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td class="side">Porontulpe</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td class="side">Jaharmum</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td class="side">Boganowinde</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td class="side">Muranadie</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td class="side">Risateidechse</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td class="side">Koaletri</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td class="side">Bei&#223;h&#246;rnchen</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td class="side">Krabbelfleder</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td class="side">Goldsardine</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td class="side">Zizi-Hasling</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td class="side">Ashizel</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td class="side">Felsg&#252;rteltier</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td class="side">Wandelflunder</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td class="side">Wampenprimat</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td class="side">Leguari</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td class="side">Spiegelpfau</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td class="side">Landqualle</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td class="side">Doraguruh</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td class="side">Phantom-Tanuki</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td class="side">Milit&#228;rmaus</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td class="side">Oktopedes</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td class="side">&#220;berschallschildkr&#246;te</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td class="side">Sandgurke</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td class="side">Gesichtsloses &#196;ffchen</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td class="side">Progerieprimat</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td class="side">Schattenschaf</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td class="side">Medusenkrake</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td class="side">Schrubbb&#228;r</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td class="side">Pinginion</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td class="side">Revolverschlange</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td class="side">Teufelskeiler</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td class="side">Tr&#228;llergans</td>
+      </tr>
+      <tr id="114">
+        <td>114</td>
+        <td>
+        </td>
+        <td class="side">Lavafennek</td>
+      </tr>
+      <tr id="115">
+        <td>115</td>
+        <td>
+        </td>
+        <td class="side">D&#228;mmerschakal</td>
+      </tr>
+      <tr id="116">
+        <td>116</td>
+        <td>
+        </td>
+        <td class="side">Kugelmoskito</td>
+      </tr>
+      <tr id="117">
+        <td>117</td>
+        <td>
+        </td>
+        <td class="side">Streckschrecke</td>
+      </tr>
+      <tr id="118">
+        <td>118</td>
+        <td>
+        </td>
+        <td class="side">Elchk&#228;fer</td>
+      </tr>
+      <tr id="119">
+        <td>119</td>
+        <td>
+        </td>
+        <td class="side">Mehrfleckk&#228;fer</td>
+      </tr>
+      <tr id="120">
+        <td>120</td>
+        <td>
+        </td>
+        <td class="side">Meteofresser</td>
+      </tr>
+      <tr id="121">
+        <td>121</td>
+        <td>
+        </td>
+        <td class="side">Landstreicherameise</td>
+      </tr>
+      <tr id="122">
+        <td>122</td>
+        <td>
+        </td>
+        <td class="side">Attent&#228;ter-Springschwanz</td>
+      </tr>
+      <tr id="123">
+        <td>123</td>
+        <td>
+        </td>
+        <td class="side">Leuchtende Nachtlibelle</td>
+      </tr>
+      <tr id="124">
+        <td>124</td>
+        <td>
+        </td>
+        <td class="side">Stroboskopbremse</td>
+      </tr>
+      <tr id="125">
+        <td>125</td>
+        <td>
+        </td>
+        <td class="side">St&#246;rrische Motte</td>
+      </tr>
+      <tr id="126">
+        <td>126</td>
+        <td>
+        </td>
+        <td class="side">Zickenschrecke</td>
+      </tr>
+      <tr id="127">
+        <td>127</td>
+        <td>
+        </td>
+        <td class="side">Irrsinnshornisse</td>
+      </tr>
+      <tr id="128">
+        <td>128</td>
+        <td>
+        </td>
+        <td class="side">Bleispinne</td>
+      </tr>
+      <tr id="129">
+        <td>129</td>
+        <td>
+        </td>
+        <td class="side">Kusakiri-K&#228;fer</td>
+      </tr>
+      <tr id="130">
+        <td>130</td>
+        <td>
+        </td>
+        <td class="side">Solarfalter</td>
+      </tr>
+      <tr id="131">
+        <td>131</td>
+        <td>
+        </td>
+        <td class="side">Gieriger Gecko</td>
+      </tr>
+      <tr id="132">
+        <td>132</td>
+        <td>
+        </td>
+        <td class="side">Buddelwurm</td>
+      </tr>
+      <tr id="133">
+        <td>133</td>
+        <td>
+        </td>
+        <td class="side">Nopon-Wanze</td>
+      </tr>
+      <tr id="134">
+        <td>134</td>
+        <td>
+        </td>
+        <td class="side">D&#252;sterfliege</td>
+      </tr>
+      <tr id="135">
+        <td>135</td>
+        <td>
+        </td>
+        <td class="side">Stabscheuschrecke</td>
+      </tr>
+      <tr id="136">
+        <td>136</td>
+        <td>
+        </td>
+        <td class="side">Peitschenskorpion</td>
+      </tr>
+      <tr id="137">
+        <td>137</td>
+        <td>
+        </td>
+        <td class="side">Serienkillerk&#228;fer</td>
+      </tr>
+      <tr id="138">
+        <td>138</td>
+        <td>
+        </td>
+        <td class="side">Sandskarab&#228;us</td>
+      </tr>
+      <tr id="139">
+        <td>139</td>
+        <td>
+        </td>
+        <td class="side">Ikarusk&#228;fer</td>
+      </tr>
+      <tr id="140">
+        <td>140</td>
+        <td>
+        </td>
+        <td class="side">Glaszikade</td>
+      </tr>
+      <tr id="141">
+        <td>141</td>
+        <td>
+        </td>
+        <td class="side">Zankzikade</td>
+      </tr>
+      <tr id="142">
+        <td>142</td>
+        <td>
+        </td>
+        <td class="side">Kristallschmetterling</td>
+      </tr>
+      <tr id="143">
+        <td>143</td>
+        <td>
+        </td>
+        <td class="side">Engelshaar</td>
+      </tr>
+      <tr id="144">
+        <td>144</td>
+        <td>
+        </td>
+        <td class="side">Vergl&#252;hw&#252;rmchen</td>
+      </tr>
+      <tr id="145">
+        <td>145</td>
+        <td>
+        </td>
+        <td class="side">Hades-Schrecke</td>
+      </tr>
+      <tr id="146">
+        <td>146</td>
+        <td>
+        </td>
+        <td class="side">Kolossk&#228;fer</td>
+      </tr>
+      <tr id="147">
+        <td>147</td>
+        <td>
+        </td>
+        <td class="side">Kugelfliege</td>
+      </tr>
+      <tr id="148">
+        <td>148</td>
+        <td>
+        </td>
+        <td class="side">Hitzh&#252;pfer</td>
+      </tr>
+      <tr id="149">
+        <td>149</td>
+        <td>
+        </td>
+        <td class="side">Schwemmholz</td>
+      </tr>
+      <tr id="150">
+        <td>150</td>
+        <td>
+        </td>
+        <td class="side">Wei&#223;er Eisensand</td>
+      </tr>
+      <tr id="151">
+        <td>151</td>
+        <td>
+        </td>
+        <td class="side">Fillelf&#228;kalien</td>
+      </tr>
+      <tr id="152">
+        <td>152</td>
+        <td>
+        </td>
+        <td class="side">Sanelacperle</td>
+      </tr>
+      <tr id="153">
+        <td>153</td>
+        <td>
+        </td>
+        <td class="side">Arnasisches Wiederz</td>
+      </tr>
+      <tr id="154">
+        <td>154</td>
+        <td>
+        </td>
+        <td class="side">Auroraknochen</td>
+      </tr>
+      <tr id="155">
+        <td>155</td>
+        <td>
+        </td>
+        <td class="side">Katoablatt</td>
+      </tr>
+      <tr id="156">
+        <td>156</td>
+        <td>
+        </td>
+        <td class="side">Wampenprimatlatex</td>
+      </tr>
+      <tr id="157">
+        <td>157</td>
+        <td>
+        </td>
+        <td class="side">Zuckerbrotboden</td>
+      </tr>
+      <tr id="158">
+        <td>158</td>
+        <td>
+        </td>
+        <td class="side">Nokaspiegelstein</td>
+      </tr>
+      <tr id="159">
+        <td>159</td>
+        <td>
+        </td>
+        <td class="side">Galdschiemkristall</td>
+      </tr>
+      <tr id="160">
+        <td>160</td>
+        <td>
+        </td>
+        <td class="side">Harnengabaumwolle</td>
+      </tr>
+      <tr id="161">
+        <td>161</td>
+        <td>
+        </td>
+        <td class="side">Rieselmoos</td>
+      </tr>
+      <tr id="162">
+        <td>162</td>
+        <td>
+        </td>
+        <td class="side">Wenessfossil</td>
+      </tr>
+      <tr id="163">
+        <td>163</td>
+        <td>
+        </td>
+        <td class="side">Zediszweig</td>
+      </tr>
+      <tr id="164">
+        <td>164</td>
+        <td>
+        </td>
+        <td class="side">Bellatropfstein</td>
+      </tr>
+      <tr id="165">
+        <td>165</td>
+        <td>
+        </td>
+        <td class="side">Silbriges Kaktusharz</td>
+      </tr>
+      <tr id="166">
+        <td>166</td>
+        <td>
+        </td>
+        <td class="side">Kridokandunst</td>
+      </tr>
+      <tr id="167">
+        <td>167</td>
+        <td>
+        </td>
+        <td class="side">Rutschpf&#252;tze</td>
+      </tr>
+      <tr id="168">
+        <td>168</td>
+        <td>
+        </td>
+        <td class="side">Aktofelssplitter</td>
+      </tr>
+      <tr id="169">
+        <td>169</td>
+        <td>
+        </td>
+        <td class="side">Fullerenkoralle</td>
+      </tr>
+      <tr id="170">
+        <td>170</td>
+        <td>
+        </td>
+        <td class="side">Taomanas&#228;ure</td>
+      </tr>
+      <tr id="171">
+        <td>171</td>
+        <td>
+        </td>
+        <td class="side">Grandastein</td>
+      </tr>
+      <tr id="172">
+        <td>172</td>
+        <td>
+        </td>
+        <td class="side">Jakitoskupfer</td>
+      </tr>
+      <tr id="173">
+        <td>173</td>
+        <td>
+        </td>
+        <td class="side">Glimmspore</td>
+      </tr>
+      <tr id="174">
+        <td>174</td>
+        <td>
+        </td>
+        <td class="side">Lavah&#228;ufchen</td>
+      </tr>
+      <tr id="175">
+        <td>175</td>
+        <td>
+        </td>
+        <td class="side">Zalonhumus</td>
+      </tr>
+      <tr id="176">
+        <td>176</td>
+        <td>
+        </td>
+        <td class="side">Rogebra-Brizzelstein</td>
+      </tr>
+      <tr id="177">
+        <td>177</td>
+        <td>
+        </td>
+        <td class="side">Knallpulver</td>
+      </tr>
+      <tr id="178">
+        <td>178</td>
+        <td>
+        </td>
+        <td class="side">Zagyrinischer Biostahl</td>
+      </tr>
+      <tr id="179">
+        <td>179</td>
+        <td>
+        </td>
+        <td class="side">Cliordblut&#246;l</td>
+      </tr>
+      <tr id="180">
+        <td>180</td>
+        <td>
+        </td>
+        <td class="side">Abwehrschildspiegel</td>
+      </tr>
+      <tr id="181">
+        <td>181</td>
+        <td>
+        </td>
+        <td class="side">Anhydrischer K&#252;hlk&#246;rper</td>
+      </tr>
+      <tr id="182">
+        <td>182</td>
+        <td>
+        </td>
+        <td class="side">Hitzebest&#228;ndiges Rohr</td>
+      </tr>
+      <tr id="183">
+        <td>183</td>
+        <td>
+        </td>
+        <td class="side">Treibstofftank L-002</td>
+      </tr>
+      <tr id="184">
+        <td>184</td>
+        <td>
+        </td>
+        <td class="side">Biosph&#228;renpr&#252;fer L-002</td>
+      </tr>
+      <tr id="185">
+        <td>185</td>
+        <td>
+        </td>
+        <td class="side">US-X-Raumanzug</td>
+      </tr>
+      <tr id="186">
+        <td>186</td>
+        <td>
+        </td>
+        <td class="side">Lichtstrahlzentrifuge</td>
+      </tr>
+      <tr id="187">
+        <td>187</td>
+        <td>
+        </td>
+        <td class="side">DNS-K&#252;hlkapsel</td>
+      </tr>
+      <tr id="188">
+        <td>188</td>
+        <td>
+        </td>
+        <td class="side">Nostalgia L-002</td>
+      </tr>
+      <tr id="189">
+        <td>189</td>
+        <td>
+        </td>
+        <td class="side">Ionenschubd&#252;se HI9</td>
+      </tr>
+      <tr id="190">
+        <td>190</td>
+        <td>
+        </td>
+        <td class="side">Mark-IX-Hitzekonverter</td>
+      </tr>
+      <tr id="191">
+        <td>191</td>
+        <td>
+        </td>
+        <td class="side">Interaktiver Handschuh</td>
+      </tr>
+      <tr id="192">
+        <td>192</td>
+        <td>
+        </td>
+        <td class="side">3D-Drucker</td>
+      </tr>
+      <tr id="193">
+        <td>193</td>
+        <td>
+        </td>
+        <td class="side">Deflektorfeld AiR</td>
+      </tr>
+      <tr id="194">
+        <td>194</td>
+        <td>
+        </td>
+        <td class="side">Fotovoltaik-Multimodul</td>
+      </tr>
+      <tr id="195">
+        <td>195</td>
+        <td>
+        </td>
+        <td class="side">Recyclotonne V</td>
+      </tr>
+      <tr id="196">
+        <td>196</td>
+        <td>
+        </td>
+        <td class="side">Degenerationsreaktor L-002</td>
+      </tr>
+      <tr id="197">
+        <td>197</td>
+        <td>
+        </td>
+        <td class="side">Energiesender</td>
+      </tr>
+      <tr id="198">
+        <td>198</td>
+        <td>
+        </td>
+        <td class="side">Schutzfolie</td>
+      </tr>
+      <tr id="199">
+        <td>199</td>
+        <td>
+        </td>
+        <td class="side">DNS-Tarnkappe</td>
+      </tr>
+      <tr id="200">
+        <td>200</td>
+        <td>
+        </td>
+        <td class="side">Dagoo-Strahler L-002</td>
+      </tr>
+      <tr id="201">
+        <td>201</td>
+        <td>
+        </td>
+        <td class="side">Codefragment A-HAB</td>
+      </tr>
+      <tr id="202">
+        <td>202</td>
+        <td>
+        </td>
+        <td class="side">Sternwindumwandler</td>
+      </tr>
+      <tr id="203">
+        <td>203</td>
+        <td>
+        </td>
+        <td class="side">Sauerstoffbremssystem</td>
+      </tr>
+      <tr id="204">
+        <td>204</td>
+        <td>
+        </td>
+        <td class="side">Lumineszente Farbe</td>
+      </tr>
+      <tr id="205">
+        <td>205</td>
+        <td>
+        </td>
+        <td class="side">Orientierungsmodul</td>
+      </tr>
+      <tr id="206">
+        <td>206</td>
+        <td>
+        </td>
+        <td class="side">H2O-Extraktor</td>
+      </tr>
+      <tr id="207">
+        <td>207</td>
+        <td>
+        </td>
+        <td class="side">FN-Prototyp X3</td>
+      </tr>
+      <tr id="208">
+        <td>208</td>
+        <td>
+        </td>
+        <td class="side">Krakendrohne</td>
+      </tr>
+      <tr id="209">
+        <td>209</td>
+        <td>
+        </td>
+        <td class="side">Riffelreibsch&#252;ssel</td>
+      </tr>
+      <tr id="210">
+        <td>210</td>
+        <td>
+        </td>
+        <td class="side">Eichelabakus</td>
+      </tr>
+      <tr id="211">
+        <td>211</td>
+        <td>
+        </td>
+        <td class="side">Spr&#246;sslingsmaske</td>
+      </tr>
+      <tr id="212">
+        <td>212</td>
+        <td>
+        </td>
+        <td class="side">Blattgeldb&#246;rse</td>
+      </tr>
+      <tr id="213">
+        <td>213</td>
+        <td>
+        </td>
+        <td class="side">Summsummstein</td>
+      </tr>
+      <tr id="214">
+        <td>214</td>
+        <td>
+        </td>
+        <td class="side">Pfuipfui-Bollen</td>
+      </tr>
+      <tr id="215">
+        <td>215</td>
+        <td>
+        </td>
+        <td class="side">Perlmutterfutterplatte</td>
+      </tr>
+      <tr id="216">
+        <td>216</td>
+        <td>
+        </td>
+        <td class="side">Zubergondel</td>
+      </tr>
+      <tr id="217">
+        <td>217</td>
+        <td>
+        </td>
+        <td class="side">Flimmerglimmerleuchte</td>
+      </tr>
+      <tr id="218">
+        <td>218</td>
+        <td>
+        </td>
+        <td class="side">Streckschreckapparat</td>
+      </tr>
+      <tr id="219">
+        <td>219</td>
+        <td>
+        </td>
+        <td class="side">Pollendose</td>
+      </tr>
+      <tr id="220">
+        <td>220</td>
+        <td>
+        </td>
+        <td class="side">Speer der Vernichtung</td>
+      </tr>
+      <tr id="221">
+        <td>221</td>
+        <td>
+        </td>
+        <td class="side">Sandsteintafel</td>
+      </tr>
+      <tr id="222">
+        <td>222</td>
+        <td>
+        </td>
+        <td class="side">W&#252;nschelr&#252;terich</td>
+      </tr>
+      <tr id="223">
+        <td>223</td>
+        <td>
+        </td>
+        <td class="side">Kringelreif</td>
+      </tr>
+      <tr id="224">
+        <td>224</td>
+        <td>
+        </td>
+        <td class="side">Brummtopf</td>
+      </tr>
+      <tr id="225">
+        <td>225</td>
+        <td>
+        </td>
+        <td class="side">Nopolith</td>
+      </tr>
+      <tr id="226">
+        <td>226</td>
+        <td>
+        </td>
+        <td class="side">Yabuyabu-Balsam</td>
+      </tr>
+      <tr id="227">
+        <td>227</td>
+        <td>
+        </td>
+        <td class="side">Schrumpfschwimmfl&#252;gel</td>
+      </tr>
+      <tr id="228">
+        <td>228</td>
+        <td>
+        </td>
+        <td class="side">Schuftballon</td>
+      </tr>
+      <tr id="229">
+        <td>229</td>
+        <td>
+        </td>
+        <td class="side">Fernefunkelgucker</td>
+      </tr>
+      <tr id="230">
+        <td>230</td>
+        <td>
+        </td>
+        <td class="side">Cham&#228;leontuch</td>
+      </tr>
+      <tr id="231">
+        <td>231</td>
+        <td>
+        </td>
+        <td class="side">G&#246;tterst&#246;ckchen</td>
+      </tr>
+      <tr id="232">
+        <td>232</td>
+        <td>
+        </td>
+        <td class="side">Krampfolin</td>
+      </tr>
+      <tr id="233">
+        <td>233</td>
+        <td>
+        </td>
+        <td class="side">Klongklong</td>
+      </tr>
+      <tr id="234">
+        <td>234</td>
+        <td>
+        </td>
+        <td class="side">Glutkeramik</td>
+      </tr>
+      <tr id="235">
+        <td>235</td>
+        <td>
+        </td>
+        <td class="side">Steinlinse</td>
+      </tr>
+      <tr id="236">
+        <td>236</td>
+        <td>
+        </td>
+        <td class="side">Leuchtlaterne</td>
+      </tr>
+      <tr id="237">
+        <td>237</td>
+        <td>
+        </td>
+        <td class="side">Schwindelschwingen</td>
+      </tr>
+      <tr id="238">
+        <td>238</td>
+        <td>
+        </td>
+        <td class="side">Gigantische Schlafh&#252;lse</td>
+      </tr>
+      <tr id="239">
+        <td>239</td>
+        <td>
+        </td>
+        <td class="side">Katschingschatulle</td>
+      </tr>
+      <tr id="240">
+        <td>240</td>
+        <td>
+        </td>
+        <td class="side">Raketenrucksack</td>
+      </tr>
+      <tr id="241">
+        <td>241</td>
+        <td>
+        </td>
+        <td class="side">Qu&#228;lspirale</td>
+      </tr>
+      <tr id="242">
+        <td>242</td>
+        <td>
+        </td>
+        <td class="side">Radiographielampe</td>
+      </tr>
+      <tr id="243">
+        <td>243</td>
+        <td>
+        </td>
+        <td class="side">Verziertes Fl&#228;schchen</td>
+      </tr>
+      <tr id="244">
+        <td>244</td>
+        <td>
+        </td>
+        <td class="side">Grosiumkern</td>
+      </tr>
+      <tr id="245">
+        <td>245</td>
+        <td>
+        </td>
+        <td class="side">Hirnschmelzer</td>
+      </tr>
+      <tr id="246">
+        <td>246</td>
+        <td>
+        </td>
+        <td class="side">Hexamesslehre</td>
+      </tr>
+      <tr id="247">
+        <td>247</td>
+        <td>
+        </td>
+        <td class="side">Joachtank</td>
+      </tr>
+      <tr id="248">
+        <td>248</td>
+        <td>
+        </td>
+        <td class="side">Hochfrequenz-Konfusor</td>
+      </tr>
+      <tr id="249">
+        <td>249</td>
+        <td>
+        </td>
+        <td class="side">Insolenter Filter</td>
+      </tr>
+      <tr id="250">
+        <td>250</td>
+        <td>
+        </td>
+        <td class="side">Vernichtungsvisier</td>
+      </tr>
+      <tr id="251">
+        <td>251</td>
+        <td>
+        </td>
+        <td class="side">Opferreaktor</td>
+      </tr>
+      <tr id="252">
+        <td>252</td>
+        <td>
+        </td>
+        <td class="side">Stahlschwanzschutz</td>
+      </tr>
+      <tr id="253">
+        <td>253</td>
+        <td>
+        </td>
+        <td class="side">Geh&#246;rnter Helm</td>
+      </tr>
+      <tr id="254">
+        <td>254</td>
+        <td>
+        </td>
+        <td class="side">Kriegsknochen</td>
+      </tr>
+      <tr id="255">
+        <td>255</td>
+        <td>
+        </td>
+        <td class="side">H&#246;llenhei&#223;e Haut</td>
+      </tr>
+      <tr id="256">
+        <td>256</td>
+        <td>
+        </td>
+        <td class="side">Modischer Reif</td>
+      </tr>
+      <tr id="257">
+        <td>257</td>
+        <td>
+        </td>
+        <td class="side">Projektilkabel</td>
+      </tr>
+      <tr id="258">
+        <td>258</td>
+        <td>
+        </td>
+        <td class="side">Amokwurzel</td>
+      </tr>
+      <tr id="259">
+        <td>259</td>
+        <td>
+        </td>
+        <td class="side">Blitzschlagemblem</td>
+      </tr>
+      <tr id="260">
+        <td>260</td>
+        <td>
+        </td>
+        <td class="side">Krone des Ketzers</td>
+      </tr>
+      <tr id="261">
+        <td>261</td>
+        <td>
+        </td>
+        <td class="side">Intelligente Schmelze</td>
+      </tr>
+      <tr id="262">
+        <td>262</td>
+        <td>
+        </td>
+        <td class="side">Absoluter Analysator</td>
+      </tr>
+      <tr id="263">
+        <td>263</td>
+        <td>
+        </td>
+        <td class="side">Todeskralle</td>
+      </tr>
+      <tr id="264">
+        <td>264</td>
+        <td>
+        </td>
+        <td class="side">Elementare Batterie</td>
+      </tr>
+      <tr id="265">
+        <td>265</td>
+        <td>
+        </td>
+        <td class="side">Schwerkraftb&#228;ndiger</td>
+      </tr>
+      <tr id="266">
+        <td>266</td>
+        <td>
+        </td>
+        <td class="side">Stromklingenfragment</td>
+      </tr>
+      <tr id="267">
+        <td>267</td>
+        <td>
+        </td>
+        <td class="side">Voltanscanner</td>
+      </tr>
+      <tr id="268">
+        <td>268</td>
+        <td>
+        </td>
+        <td class="side">Meditationspulver</td>
+      </tr>
+      <tr id="269">
+        <td>269</td>
+        <td>
+        </td>
+        <td class="side">Kalifornisches Abendrot</td>
+      </tr>
+      <tr id="270">
+        <td>270</td>
+        <td>
+        </td>
+        <td class="side">Illusionsbinokular</td>
+      </tr>
+      <tr id="271">
+        <td>271</td>
+        <td>
+        </td>
+        <td class="side">Walze der Wissbegier</td>
+      </tr>
+      <tr id="272">
+        <td>272</td>
+        <td>
+        </td>
+        <td class="side">Kuss der G&#246;ttin</td>
+      </tr>
+      <tr id="273">
+        <td>273</td>
+        <td>
+        </td>
+        <td class="side">Glei&#223;ender Magnet</td>
+      </tr>
+      <tr id="274">
+        <td>274</td>
+        <td>
+        </td>
+        <td class="side">Scharlatankompass</td>
+      </tr>
+      <tr id="275">
+        <td>275</td>
+        <td>
+        </td>
+        <td class="side">Waage der Gerechtigkeit</td>
+      </tr>
+      <tr id="276">
+        <td>276</td>
+        <td>
+        </td>
+        <td class="side">&#196;onenmotor</td>
+      </tr>
+      <tr id="277">
+        <td>277</td>
+        <td>
+        </td>
+        <td class="side">Steing&#246;tze</td>
+      </tr>
+      <tr id="278">
+        <td>278</td>
+        <td>
+        </td>
+        <td class="side">Starkes Eisen</td>
+      </tr>
+      <tr id="279">
+        <td>279</td>
+        <td>
+        </td>
+        <td class="side">Cham&#228;leonsand</td>
+      </tr>
+      <tr id="280">
+        <td>280</td>
+        <td>
+        </td>
+        <td class="side">Venusjuwel</td>
+      </tr>
+      <tr id="281">
+        <td>281</td>
+        <td>
+        </td>
+        <td class="side">Echostein</td>
+      </tr>
+      <tr id="282">
+        <td>282</td>
+        <td>
+        </td>
+        <td class="side">Pythischer Lithograf</td>
+      </tr>
+      <tr id="283">
+        <td>283</td>
+        <td>
+        </td>
+        <td class="side">Engelsstein</td>
+      </tr>
+      <tr id="284">
+        <td>284</td>
+        <td>
+        </td>
+        <td class="side">Ged&#228;chtnisgenerator</td>
+      </tr>
+      <tr id="285">
+        <td>285</td>
+        <td>
+        </td>
+        <td class="side">Doppelhelix-Salz</td>
+      </tr>
+      <tr id="286">
+        <td>286</td>
+        <td>
+        </td>
+        <td class="side">Gl&#228;nzender Glibber</td>
+      </tr>
+      <tr id="287">
+        <td>287</td>
+        <td>
+        </td>
+        <td class="side">Prachtei</td>
+      </tr>
+      <tr id="288">
+        <td>288</td>
+        <td>
+        </td>
+        <td class="side">Ekstase der K&#246;nigin</td>
+      </tr>
+      <tr id="289">
+        <td>289</td>
+        <td>
+        </td>
+        <td class="side">Steinschraube</td>
+      </tr>
+      <tr id="290">
+        <td>290</td>
+        <td>
+        </td>
+        <td class="side">Sternprojektor</td>
+      </tr>
+      <tr id="291">
+        <td>291</td>
+        <td>
+        </td>
+        <td class="side">Hallo-Hallo-Sender</td>
+      </tr>
+      <tr id="292">
+        <td>292</td>
+        <td>
+        </td>
+        <td class="side">Seelenkette</td>
+      </tr>
+      <tr id="293">
+        <td>293</td>
+        <td>
+        </td>
+        <td class="side">Muskelprotzexpander</td>
+      </tr>
+      <tr id="294">
+        <td>294</td>
+        <td>
+        </td>
+        <td class="side">Fiese Fuchtel</td>
+      </tr>
+      <tr id="295">
+        <td>295</td>
+        <td>
+        </td>
+        <td class="side">Kauziger Kessel</td>
+      </tr>
+      <tr id="296">
+        <td>296</td>
+        <td>
+        </td>
+        <td class="side">Erdbebenrassel</td>
+      </tr>
+      <tr id="297">
+        <td>297</td>
+        <td>
+        </td>
+        <td class="side">Elit&#228;res Zepter</td>
+      </tr>
+      <tr id="298">
+        <td>298</td>
+        <td>
+        </td>
+        <td class="side">Parasitmaske</td>
+      </tr>
+      <tr id="299">
+        <td>299</td>
+        <td>
+        </td>
+        <td class="side">Be&#228;ngstigendes Bildnis</td>
+      </tr>
+      <tr id="300">
+        <td>300</td>
+        <td>
+        </td>
+        <td class="side">Pr&#228;historisches Pergament</td>
+      </tr>
+      <tr id="301">
+        <td>301</td>
+        <td>
+        </td>
+        <td class="side">Das wei&#223;e Fruchtfleisch im Inneren der[ST:n ]schwarzen Schale ist geschmacklos, wegen[ST:n ]seines hohen N&#228;hrstoffgehalts aber als[ST:n ]Beigabe zu diversen Gerichten gesch&#228;tzt.</td>
+      </tr>
+      <tr id="302">
+        <td>302</td>
+        <td>
+        </td>
+        <td class="side">Tropfenf&#246;rmige Kartoffelart Primordias.[ST:n ]Sie ist bitter und in rohem Zustand[ST:n ]ungenie&#223;bar, findet aber dank ihres[ST:n ]Proteinreichtums oft als Zutat Verwendung.</td>
+      </tr>
+      <tr id="303">
+        <td>303</td>
+        <td>
+        </td>
+        <td class="side">Eine Art Hitzeflimmern entsteht &#252;ber den[ST:n ]gekr&#228;uselten Bl&#228;ttern dieser Salatart.[ST:n ]Kann nur an Regentagen geerntet werden,[ST:n ]da an trockener Luft hochentz&#252;ndlich.</td>
+      </tr>
+      <tr id="304">
+        <td>304</td>
+        <td>
+        </td>
+        <td class="side">Die &#228;u&#223;eren Bl&#228;tter sind gr&#252;n, die inneren[ST:n ]blau, indigo, violett, rot, orange und gelb.[ST:n ]Trotz seiner Regenbogenfarbpracht &#228;hnelt[ST:n ]er im Geschmack dem ordin&#228;ren Kohl.</td>
+      </tr>
+      <tr id="305">
+        <td>305</td>
+        <td>
+        </td>
+        <td class="side">Die ber&#252;chtigte achtwurzelige M&#246;hre.[ST:n ]Sieben Wurzeln sind s&#252;&#223;, die achte aber[ST:n ]so bitter, dass einem die Tr&#228;nen kommen.[ST:n ]Das wei&#223; man aber erst beim Reinbei&#223;en.</td>
+      </tr>
+      <tr id="306">
+        <td>306</td>
+        <td>
+        </td>
+        <td class="side">Eine Tomatenpflanze, die gro&#223;e Mengen[ST:n ]Wasser speichert und nur bei Regen[ST:n ]Fr&#252;chte tr&#228;gt. Nahe an Fl&#252;ssen bricht sie[ST:n ]h&#228;ufig unter ihrer eigenen Last zusammen.</td>
+      </tr>
+      <tr id="307">
+        <td>307</td>
+        <td>
+        </td>
+        <td class="side">Der Pilz aus dem Noctilum gibt Sporen an[ST:n ]die Umgebung ab, die Sinnest&#228;uschungen[ST:n ]hervorrufen k&#246;nnen. Sein Verzehr l&#246;st[ST:n ]mitunter euphorische Zust&#228;nde aus.</td>
+      </tr>
+      <tr id="308">
+        <td>308</td>
+        <td>
+        </td>
+        <td class="side">Eine s&#252;&#223; schmeckende Aubergine, die in[ST:n ]Symbiose mit bestimmten B&#228;umen lebt. Sie[ST:n ]entzieht ihrem Wirt Giftstoffe, was dessen[ST:n ]Lebensdauer deutlich erh&#246;ht.</td>
+      </tr>
+      <tr id="309">
+        <td>309</td>
+        <td>
+        </td>
+        <td class="side">Die tellerfallenartig geformten Bl&#252;tenbl&#228;tter[ST:n ]bilden M&#252;nder, die nach Insekten[ST:n ]schnappen. Gewitzte Nopon versuchen[ST:n ]mitunter, sie als Essgeschirr zu verkaufen.</td>
+      </tr>
+      <tr id="310">
+        <td>310</td>
+        <td>
+        </td>
+        <td class="side">Ist durch Absorption leitf&#228;higen Plasmas[ST:n ]aus der Atmosph&#228;re f&#228;hig, die Farbe[ST:n ]seiner Bl&#228;tter zu ver&#228;ndern. Bei Verzehr[ST:n ]stellt sich schmerzlindernde Wirkung ein.</td>
+      </tr>
+      <tr id="311">
+        <td>311</td>
+        <td>
+        </td>
+        <td class="side">Verwandter des Kaiserpilzes, w&#228;chst aber[ST:n ]nur alle 100 Jahre. Wer ihn isst, verf&#228;llt[ST:n ]in lebenslange halluzinatorische Euphorie.[ST:n ]Wird in der Regel nur einmal verzehrt.</td>
+      </tr>
+      <tr id="312">
+        <td>312</td>
+        <td>
+        </td>
+        <td class="side">Der Geschmack erinnert an Chinakohl. [ST:n ]Der schwarze Farbton verdunkelt sich[ST:n ]beim Kochen noch weiter. Ein brennendes[ST:n ]Gubulakohlfeld bewirkt eine fr&#252;he Nacht.</td>
+      </tr>
+      <tr id="313">
+        <td>313</td>
+        <td>
+        </td>
+        <td class="side">Achtung, scharfkantig! Die Zehen sollten[ST:n ]nicht mit blo&#223;en H&#228;nden ber&#252;hrt werden.[ST:n ]Ihr Genuss hat heilende Wirkung, f&#252;hrt[ST:n ]aber auch zu irre schlechtem Atem.</td>
+      </tr>
+      <tr id="314">
+        <td>314</td>
+        <td>
+        </td>
+        <td class="side">Die dicke Schale enth&#228;lt mehrere faust-[ST:n ]gro&#223;e Bohnen. Bereits eine einzige enth&#228;lt[ST:n ]N&#228;hrstoffe f&#252;r einen ganzen Marschtag,[ST:n ]was sie zu idealem Reiseproviant macht.</td>
+      </tr>
+      <tr id="315">
+        <td>315</td>
+        <td>
+        </td>
+        <td class="side">Von Xenoformen nach Mira gebracht, in[ST:n ]deren Heimat er ein Grundnahrungsmittel[ST:n ]darstellte. Kaum Eigengeschmack. Unter[ST:n ]H&#228;ndlern beliebtes Streckmittel.</td>
+      </tr>
+      <tr id="316">
+        <td>316</td>
+        <td>
+        </td>
+        <td class="side">Eine farbenpr&#228;chtige, wild wachsende[ST:n ]Paprika, deren ansprechendes &#196;u&#223;eres das[ST:n ]Auge erfreut, w&#228;hrend ihr facettenreicher[ST:n ]Geschmack dem Gaumen schmeichelt.</td>
+      </tr>
+      <tr id="317">
+        <td>317</td>
+        <td>
+        </td>
+        <td class="side">Dieses weit verbreitete Heilkraut ist[ST:n ]magnetisch aufgeladen und besitzt die[ST:n ]Eigenschaft, den K&#246;rper nach Aufnahme[ST:n ]von &#252;bersch&#252;ssigem Eisen zu befreien.</td>
+      </tr>
+      <tr id="318">
+        <td>318</td>
+        <td>
+        </td>
+        <td class="side">Legenden zufolge verleiht der Verzehr die[ST:n ]Herrschaft &#252;ber Mira. Tats&#228;chlich gen&#252;gt[ST:n ]bereits ein Bissen, um ein Gef&#252;hl[ST:n ]der &#220;berheblichkeit auszul&#246;sen.</td>
+      </tr>
+      <tr id="319">
+        <td>319</td>
+        <td>
+        </td>
+        <td class="side">Die komplexe Verflechtung der zahllosen[ST:n ]Wurzelstr&#228;nge dieses Rettichs kann leider[ST:n ]nicht &#252;ber seinen eher unspektakul&#228;ren[ST:n ]Geschmack hinwegt&#228;uschen.</td>
+      </tr>
+      <tr id="320">
+        <td>320</td>
+        <td>
+        </td>
+        <td class="side">Sie tragen ihren Namen aufgrund ihrer[ST:n ]Alkohol verst&#228;rkenden Wirkung.[ST:n ]Trotz diverser F&#228;lle von Alkoholvergiftung[ST:n ]werden sie immer wieder zu Bier gereicht.</td>
+      </tr>
+      <tr id="321">
+        <td>321</td>
+        <td>
+        </td>
+        <td class="side">Sch&#252;ttelsesamsamen sind fein wie Sand.[ST:n ]Rhythmisches Sch&#252;tteln der Frucht erzeugt[ST:n ]Kl&#228;nge, die Stress lindern und den H&#246;rer[ST:n ]in beschwingte Stimmung versetzen.</td>
+      </tr>
+      <tr id="322">
+        <td>322</td>
+        <td>
+        </td>
+        <td class="side">Ein blauwei&#223;er Kolben, dem gew&#246;hnlichen[ST:n ]Mais nicht un&#228;hnlich. Seine K&#246;rner f&#252;llen[ST:n ]sich allm&#228;hlich mit einem leichten Gas,[ST:n ]bis sie sich abl&#246;sen und davonschweben.</td>
+      </tr>
+      <tr id="323">
+        <td>323</td>
+        <td>
+        </td>
+        <td class="side">Eine &#252;beraus seltene Sellerieart, die nur[ST:n ]in den verwesenden K&#246;rpern einheimischer[ST:n ]Fauna heranreift. Der Geschmack h&#228;ngt[ST:n ]von der Beschaffenheit des Kadavers ab.</td>
+      </tr>
+      <tr id="324">
+        <td>324</td>
+        <td>
+        </td>
+        <td class="side">Sch&#228;lt man die edels&#252;&#223; schmeckende[ST:n ]&#228;u&#223;ere Schale ab, bleibt nur ein[ST:n ]ungenie&#223;bares Inneres zur&#252;ck. Leider nur[ST:n ]eine mickrige Portion pro Zwiebel.</td>
+      </tr>
+      <tr id="325">
+        <td>325</td>
+        <td>
+        </td>
+        <td class="side">Diese stromgeladene Chilischote bringt[ST:n ]den st&#228;rksten Mann zu Fall. Sie findet[ST:n ]h&#228;ufiger in der Waffenherstellung[ST:n ]Verwendung als in der heimischen K&#252;che.</td>
+      </tr>
+      <tr id="326">
+        <td>326</td>
+        <td>
+        </td>
+        <td class="side">Sieht vielleicht aus wie ein Baum, erinnert[ST:n ]vom Geschmack her aber eher an Bambus.[ST:n ]Die cauldronische Fauna poliert sich oft[ST:n ]die grausigen Hauer mit Bramblussprossen.</td>
+      </tr>
+      <tr id="327">
+        <td>327</td>
+        <td>
+        </td>
+        <td class="side">Diese hochgiftige, schwarze Wurzel t&#246;tet[ST:n ]bei blo&#223;er Ber&#252;hrung selbst die gr&#246;&#223;ten[ST:n ]Lebewesen. Ihr Gift ist so toxisch, dass sie[ST:n ]irgendwann selbst daran zu Grunde geht.</td>
+      </tr>
+      <tr id="328">
+        <td>328</td>
+        <td>
+        </td>
+        <td class="side">Ihre transparente Haut umschlie&#223;t ein[ST:n ]s&#252;&#223;es, geleeartiges, extrem klebriges [ST:n ]Fruchtmark. Obacht, beim Verzehr gilt:[ST:n ]klebenbleiben oder lebenbleiben.</td>
+      </tr>
+      <tr id="329">
+        <td>329</td>
+        <td>
+        </td>
+        <td class="side">Sehr leicht mit einem Stein zu verwechseln.[ST:n ]So fein und k&#246;stlich der Geschmack auch[ST:n ]sein mag, so schwer f&#228;llt es vielen, &#252;ber[ST:n ]das unappetitliche &#196;u&#223;ere hinwegzusehen.</td>
+      </tr>
+      <tr id="330">
+        <td>330</td>
+        <td>
+        </td>
+        <td class="side">Schmeckt wie eine Erdbeere, sieht aber[ST:n ]eher aus wie ein Spargel. So grotesk,[ST:n ]dass sie erst in Erdbeerform gepresst wird,[ST:n ]bevor sie auf den Markt kommt. Lecker...</td>
+      </tr>
+      <tr id="331">
+        <td>331</td>
+        <td>
+        </td>
+        <td class="side">Unter der schwarzen Haut funkeln Kerne[ST:n ]wie Sterne am Nachthimmel. Mit etwa[ST:n ]demselben Supernovapotenzial. Leider[ST:n ]erlischt beim Entkernen auch das Leuchten.</td>
+      </tr>
+      <tr id="332">
+        <td>332</td>
+        <td>
+        </td>
+        <td class="side">Der Verzehr kann Gef&#252;hle der Erregung[ST:n ]hervorrufen. M&#246;gliche Nebenwirkungen: [ST:n ]Brusttrommeln und Freudenschreie. Nur[ST:n ]mit Vorsicht zu genie&#223;en.</td>
+      </tr>
+      <tr id="333">
+        <td>333</td>
+        <td>
+        </td>
+        <td class="side">Eine Zitrone, die im Ultraschallbereich[ST:n ]Laute aussendet. Kreaturen, die dieses[ST:n ]Heulen wahrnehmen k&#246;nnen, suchen[ST:n ]oft verzweifelt nach der Ger&#228;uschquelle.</td>
+      </tr>
+      <tr id="334">
+        <td>334</td>
+        <td>
+        </td>
+        <td class="side">Eine handtellergro&#223;e Frucht, die wild in[ST:n ]den W&#228;ldern des Noctilum w&#228;chst.[ST:n ]Anhaltendes Sonnenlicht l&#246;st ihre Schale[ST:n ]auf und offenbart das Fruchtfleisch.</td>
+      </tr>
+      <tr id="335">
+        <td>335</td>
+        <td>
+        </td>
+        <td class="side">Gereift l&#246;st sich die Frucht vom Baum und[ST:n ]f&#228;llt zu Boden. Zieht bei einem Treffer[ST:n ]schwere Verletzungen nach sich. Ihr Wurf-[ST:n ]waffenpotenzial wird derzeit untersucht.</td>
+      </tr>
+      <tr id="336">
+        <td>336</td>
+        <td>
+        </td>
+        <td class="side">Ein Sternfruchtgew&#228;chs, das sich aggressiv[ST:n ]auf dem ganzen Planeten ausbreitet und[ST:n ]dabei von Pflanzen bis zu kleineren Felsen[ST:n ]alles aus dem Weg zu r&#228;umen wei&#223;.</td>
+      </tr>
+      <tr id="337">
+        <td>337</td>
+        <td>
+        </td>
+        <td class="side">Eine lumineszierende Frucht, die in den[ST:n ]riesigen Blumen des Noctilum w&#228;chst. Was[ST:n ]von ihrem Licht angelockt wird, findet an [ST:n ]langen, scharfen Dornen sein Ende.</td>
+      </tr>
+      <tr id="338">
+        <td>338</td>
+        <td>
+        </td>
+        <td class="side">Die elastische Schale dieser Frucht wird[ST:n ]zur Herstellung von Kleidung verwendet.[ST:n ]Die z&#228;he Konsistenz und der s&#252;&#223;e[ST:n ]Geschmack erinnern an Kaugummi.</td>
+      </tr>
+      <tr id="339">
+        <td>339</td>
+        <td>
+        </td>
+        <td class="side">Diese Pflaumenart gedeiht nur in dunklen[ST:n ]H&#246;hlen. Selbst die robustesten Kreaturen[ST:n ]fliehen nach dem ersten Bissen in Panik.[ST:n ]Der saure Geschmack ist pure Folter!</td>
+      </tr>
+      <tr id="340">
+        <td>340</td>
+        <td>
+        </td>
+        <td class="side">Ein langweilig aussehendes Blatt, das nach[ST:n ]Banane schmeckt. Obwohl diese Frucht bei[ST:n ]allen beliebt ist, bleibt sie wegen ihrer[ST:n ]geschickten Tarnung ein seltener Genuss.</td>
+      </tr>
+      <tr id="341">
+        <td>341</td>
+        <td>
+        </td>
+        <td class="side">Eine seltene, hell leuchtende Melone.[ST:n ]Seit Anbeginn der Zeit als heilig verehrt.[ST:n ]Ein einzelner Bissen soll zu Erleuchtung[ST:n ]f&#252;hren. Oder wenigstens zu einem L&#228;cheln.</td>
+      </tr>
+      <tr id="342">
+        <td>342</td>
+        <td>
+        </td>
+        <td class="side">Sie w&#228;chst nur in den st&#252;rmischsten Zonen[ST:n ]und ist zun&#228;chst nicht von einem Klumpen[ST:n ]Sand zu unterscheiden. Aber gereift sieht[ST:n ]sie aus wie eine saftige Wassermelone.</td>
+      </tr>
+      <tr id="343">
+        <td>343</td>
+        <td>
+        </td>
+        <td class="side">Sieht aus wie eine Traube, ist aber zehn[ST:n ]Mal so gro&#223;. Eignet sich nicht zum[ST:n ]Weinkeltern, l&#228;sst sich aber mit Alkohol[ST:n ]aufgie&#223;en und in einer Bowle genie&#223;en.</td>
+      </tr>
+      <tr id="344">
+        <td>344</td>
+        <td>
+        </td>
+        <td class="side">Eine Kiwi. In Eierschale. Kein Beispiel f&#252;r[ST:n ]kreative Namensgebung, wohl aber f&#252;r[ST:n ]kreativen Selbstschutz: Die harte H&#252;lle[ST:n ]h&#228;lt miranische Insekten fern.</td>
+      </tr>
+      <tr id="345">
+        <td>345</td>
+        <td>
+        </td>
+        <td class="side">Eine mit scharfen Dornen bewehrte Frucht[ST:n ]mit blutstillenden Eigenschaften. Welche[ST:n ]allerdings oft schon gleich nach der Ernte[ST:n ]zum Einsatz kommen m&#252;ssen.</td>
+      </tr>
+      <tr id="346">
+        <td>346</td>
+        <td>
+        </td>
+        <td class="side">Kaum Fruchtfleisch und dazu unansehnliche[ST:n ]Samen, die obendrein bitter schmecken.[ST:n ]Allerdings machen sie auch s&#252;chtig... Wer[ST:n ]einmal probiert hat, kann nicht aufh&#246;ren.</td>
+      </tr>
+      <tr id="347">
+        <td>347</td>
+        <td>
+        </td>
+        <td class="side">Diese Beeren nehmen die kalte Luft ihrer[ST:n ]Umgebung auf und k&#252;hlen so stark ab,[ST:n ]dass eine Ber&#252;hrung Erfrierungen nach sich[ST:n ]zieht. Zerst&#246;ren jeden K&#252;hlschrank.</td>
+      </tr>
+      <tr id="348">
+        <td>348</td>
+        <td>
+        </td>
+        <td class="side">Das Aussehen von zarten Schneefl&#246;ckchen,[ST:n ]der Geschmack jedoch herb und bitter. Die[ST:n ]Beeren werden gern von Bewohnern kalter[ST:n ]Klimazonen als Aufputschmittel verwendet.</td>
+      </tr>
+      <tr id="349">
+        <td>349</td>
+        <td>
+        </td>
+        <td class="side">Traubenfrucht mit juwelenartig facettierten[ST:n ]Beeren. Meistens unertr&#228;glich sauer, doch[ST:n ]in seltenen F&#228;llen so k&#246;stlich s&#252;&#223;, dass es[ST:n ]eine wahre Freude ist.</td>
+      </tr>
+      <tr id="350">
+        <td>350</td>
+        <td>
+        </td>
+        <td class="side">Eine Geschmacksexplosion. Im wahrsten[ST:n ]Sinne des Wortes. Kein sch&#246;nes Ende f&#252;r[ST:n ]alle Umstehenden, wenn sie mal jemandem[ST:n ]aus der Hand rutscht. Ist aber lecker.</td>
+      </tr>
+      <tr id="351">
+        <td>351</td>
+        <td>
+        </td>
+        <td class="side">Fruchtfleisch, das seinem Namen alle Ehre[ST:n ]macht. Erhitzen ver&#228;ndert den Geschmack:[ST:n ]auf hohen Temperaturen zu Rind- und auf[ST:n ]niedrigeren zu Schweinefleisch. Und Huhn?</td>
+      </tr>
+      <tr id="352">
+        <td>352</td>
+        <td>
+        </td>
+        <td class="side">Eine feuerfeste Nuss, die oft in erkalteter[ST:n ]Lava zu keimen beginnt. Schmeckt s&#252;&#223;lich[ST:n ]und ist &#228;u&#223;erst nahrhaft, aber sehr schwer[ST:n ]zu finden und noch schwerer zu knacken.</td>
+      </tr>
+      <tr id="353">
+        <td>353</td>
+        <td>
+        </td>
+        <td class="side">Um in ihrer rauen Umwelt zu bestehen,[ST:n ]haben diese Fr&#252;chte eine stahlharte Schale[ST:n ]entwickelt. Das hohe Alter der Gattung[ST:n ]verspricht wertvolles genetisches Material.</td>
+      </tr>
+      <tr id="354">
+        <td>354</td>
+        <td>
+        </td>
+        <td class="side">Eine Frucht, die auch im schlechtesten[ST:n ]Boden gedeiht. Sollte ihrer abf&#252;hrenden[ST:n ]Wirkung wegen nicht grundlos verzehrt[ST:n ]werden. Hat durchschlagenden Erfolg...</td>
+      </tr>
+      <tr id="355">
+        <td>355</td>
+        <td>
+        </td>
+        <td class="side">Augen auf beim Fr&#252;chtekauf: Die schwarze[ST:n ]Ananas ist von Ausw&#252;chsen &#252;bers&#228;t, die[ST:n ]Aug&#228;pfeln verd&#228;chtig &#228;hnlich sehen. Nichts[ST:n ]f&#252;r schwache Gem&#252;ter.</td>
+      </tr>
+      <tr id="356">
+        <td>356</td>
+        <td>
+        </td>
+        <td class="side">Diese Pflanzenart wuchert ungebremst,[ST:n ]sobald man versucht, sie abzuschneiden.[ST:n ]Der einzige Weg, dieses Unkraut loszu-[ST:n ]werden, besteht darin, es zu verbrennen.</td>
+      </tr>
+      <tr id="357">
+        <td>357</td>
+        <td>
+        </td>
+        <td class="side">In Mondlicht getaucht schimmert diese[ST:n ]eigentlich wei&#223;e Lilienart golden. Ihre[ST:n ]Bl&#252;ten ziehen oft scharenweise Insekten an.</td>
+      </tr>
+      <tr id="358">
+        <td>358</td>
+        <td>
+        </td>
+        <td class="side">Honigkuchenblumen zeigen ihre Bl&#252;ten nur[ST:n ]einmal pro Tag, wenige Minuten vor[ST:n ]Einbruch der Nacht. Daf&#252;r ist ihr Duft[ST:n ]allerdings wirklich etwas Besonderes.</td>
+      </tr>
+      <tr id="359">
+        <td>359</td>
+        <td>
+        </td>
+        <td class="side">Dieser Lippenbl&#252;tler hat nicht nur auf[ST:n ]Katzen eine bet&#246;rende Wirkung. Der[ST:n ]starke Duft der Pflanze zieht alle[ST:n ]m&#246;glichen Kreaturen in seinen Bann.</td>
+      </tr>
+      <tr id="360">
+        <td>360</td>
+        <td>
+        </td>
+        <td class="side">Dogal&#246;wenzahn schie&#223;t seine Samen auf[ST:n ]vorbeilaufende Kreaturen und nutzt diese[ST:n ]als Wirt, was deren Lebensspanne nicht[ST:n ]unbedingt erh&#246;ht.</td>
+      </tr>
+      <tr id="361">
+        <td>361</td>
+        <td>
+        </td>
+        <td class="side">Ein aromatisches Kraut mit einem frischen,[ST:n ]s&#252;&#223;-w&#252;rzigen Duft, dem nachgesagt wird,[ST:n ]selbst die wildesten Kreaturen bes&#228;nftigen[ST:n ]zu k&#246;nnen.</td>
+      </tr>
+      <tr id="362">
+        <td>362</td>
+        <td>
+        </td>
+        <td class="side">Die gro&#223;en Samen dieser Pflanze gehen[ST:n ]oft in Felsspalten ohne N&#228;hrboden auf.[ST:n ]Weil sie dort nicht richtig keimen k&#246;nnen,[ST:n ]sind Garudonesseln eine bedrohte Art.</td>
+      </tr>
+      <tr id="363">
+        <td>363</td>
+        <td>
+        </td>
+        <td class="side">Eine narzissen&#228;hnliche Gattung mit kleinem[ST:n ]Bl&#252;tenstand. Pfl&#252;ckt man diese Blume,[ST:n ]leuchtet sie richtiggehend auf und[ST:n ]verstrahlt ein g&#246;ttlich erscheinendes Licht.</td>
+      </tr>
+      <tr id="364">
+        <td>364</td>
+        <td>
+        </td>
+        <td class="side">Diese Pflanze wendet sich stets vom[ST:n ]Licht ab. Setzt man die Bl&#252;ten allerdings[ST:n ]direktem Sonnenlicht aus, w&#228;chst die[ST:n ]Pflanze h&#246;her als gew&#246;hnlich.</td>
+      </tr>
+      <tr id="365">
+        <td>365</td>
+        <td>
+        </td>
+        <td class="side">Die silbernen Bl&#252;ten dieser Pflanze sind[ST:n ]metallhart und papierd&#252;nn. Sie l&#228;uten wie[ST:n ]helle Gl&#246;ckchen im Wind und bezaubern[ST:n ]Besucher des Noctilums mit ihrem Klang.</td>
+      </tr>
+      <tr id="366">
+        <td>366</td>
+        <td>
+        </td>
+        <td class="side">Diese fleischfressende Pflanze lockt Insekten[ST:n ]mit ihrem s&#252;&#223;en Duft in die Falle. Einmal[ST:n ]verdaut, zeichnen sich diese als Umrisse[ST:n ]auf den Bl&#252;tenbl&#228;ttern der Pflanze ab.</td>
+      </tr>
+      <tr id="367">
+        <td>367</td>
+        <td>
+        </td>
+        <td class="side">Man kann die Bl&#252;tenbl&#228;tter dieser Pflanze[ST:n ]ausrupfen, sooft man will – sie wachsen[ST:n ]immer wieder nach. Vielleicht sagt man[ST:n ]ihnen deshalb heilende Effekte nach.</td>
+      </tr>
+      <tr id="368">
+        <td>368</td>
+        <td>
+        </td>
+        <td class="side">Eine gro&#223;e Kosmeenart, deren Bl&#252;tenbl&#228;tter[ST:n ]auf Ber&#252;hrungen reagieren. Viele glauben[ST:n ]deshalb, die Pflanze bes&#228;&#223;e ein zumindest[ST:n ]rudiment&#228;res Nervensystem.</td>
+      </tr>
+      <tr id="369">
+        <td>369</td>
+        <td>
+        </td>
+        <td class="side">Es handelt sich um eine Grasart, deren[ST:n ]Halme auf den ersten Blick wie Miniatur-[ST:n ]b&#228;ume aussehen. Sie sind aber &#228;u&#223;erst[ST:n ]biegsam und lassen sich leicht schneiden.</td>
+      </tr>
+      <tr id="370">
+        <td>370</td>
+        <td>
+        </td>
+        <td class="side">Die Bl&#252;tenbl&#228;tter dieser Amaryllis passen[ST:n ]sich der Farbe ihrer Umgebung an,[ST:n ]weswegen die Pflanze nur sehr schwer[ST:n ]auszumachen sein kann.</td>
+      </tr>
+      <tr id="371">
+        <td>371</td>
+        <td>
+        </td>
+        <td class="side">Einheimische Kreaturen, die diese Pflanze[ST:n ]fressen, scheiden deren unverdauliche[ST:n ]Samen sp&#228;ter wieder aus und sorgen so[ST:n ]f&#252;r die Verbreitung der Gattung.</td>
+      </tr>
+      <tr id="372">
+        <td>372</td>
+        <td>
+        </td>
+        <td class="side">Auf der Erde bekannten Schalotten nicht[ST:n ]un&#228;hnlich. Gudoschalotten wachsen[ST:n ]allerdings wesentlich schneller, und es[ST:n ]handelt sich um nur einj&#228;hrige Pflanzen.</td>
+      </tr>
+      <tr id="373">
+        <td>373</td>
+        <td>
+        </td>
+        <td class="side">Dank ihrer Bitterstoffe l&#228;sst sich aus den[ST:n ]Bl&#228;ttern dieser Pflanze ein kaffeeartiges[ST:n ]Getr&#228;nk br&#252;hen, auf das Gourmets aus[ST:n ]NLA ganz versessen sind.</td>
+      </tr>
+      <tr id="374">
+        <td>374</td>
+        <td>
+        </td>
+        <td class="side">Eine unauff&#228;llig aussehende Grasart, die[ST:n ]bei Verzehr Brechreiz ausl&#246;st. Kann[ST:n ]demnach gleicherma&#223;en als Heilmittel[ST:n ]wie als Giftstoff verwendet werden.</td>
+      </tr>
+      <tr id="375">
+        <td>375</td>
+        <td>
+        </td>
+        <td class="side">Die Stacheln dieser Kakteen sind weich[ST:n ]wie Quallenarme. Verrottende Myuena[ST:n ]produzieren, wenn sie Regen ausgesetzt[ST:n ]werden, manchmal Silbriges Kaktusharz.</td>
+      </tr>
+      <tr id="376">
+        <td>376</td>
+        <td>
+        </td>
+        <td class="side">Diese Stechpalmen bringen gro&#223;e, blaue[ST:n ]Fr&#252;chte hervor, die bei Ber&#252;hrung platzen[ST:n ]und ihre Pollen verstreuen. Manche[ST:n ]Kreaturen hassen den Geruch der Pollen.</td>
+      </tr>
+      <tr id="377">
+        <td>377</td>
+        <td>
+        </td>
+        <td class="side">Gl&#228;nzende Bl&#228;tter und lange St&#228;ngel kenn-[ST:n ]zeichnen den Budebeifu&#223;. Kommt er mit[ST:n ]Speichel in Ber&#252;hrung, sondert er Sekret[ST:n ]ab, das zum Erstickungstod f&#252;hren kann.</td>
+      </tr>
+      <tr id="378">
+        <td>378</td>
+        <td>
+        </td>
+        <td class="side">Diese Blume l&#228;sst ein knallendes Ger&#228;usch[ST:n ]ert&#246;nen, sobald sie Ersch&#252;tterungen in der[ST:n ]N&#228;he wahrnimmt. Bleibt nur: schleichen[ST:n ]wie ein Ninja oder Geh&#246;rsturz erleiden.</td>
+      </tr>
+      <tr id="379">
+        <td>379</td>
+        <td>
+        </td>
+        <td class="side">Einmal pro Tag setzt diese Pflanze eine[ST:n ]Art Seifenblase frei, welche die Sporen[ST:n ]des Farns an andere Orte tr&#228;gt.</td>
+      </tr>
+      <tr id="380">
+        <td>380</td>
+        <td>
+        </td>
+        <td class="side">Aus den Bl&#252;tenbl&#228;ttern dieser Rose lassen[ST:n ]sich F&#228;rbemittel in allen erdenklichen[ST:n ]Schattierungen herstellen. Man sagt, diese[ST:n ]Farben w&#252;rden nie verblassen.</td>
+      </tr>
+      <tr id="381">
+        <td>381</td>
+        <td>
+        </td>
+        <td class="side">Diese Blume erstrahlt wie ein Juwel. Da[ST:n ]sie anderen Pflanzen in der Umgebung[ST:n ]N&#228;hrstoffe stiehlt, eignet sie sich au&#223;er-[ST:n ]dem hervorragend als Unkrautvertilger.</td>
+      </tr>
+      <tr id="382">
+        <td>382</td>
+        <td>
+        </td>
+        <td class="side">Diese Blume steckt voller Pollen, die mit[ST:n ]Vorliebe von den Nopon verspeist werden.[ST:n ]Sie ist au&#223;erdem f&#252;r ihre rasche[ST:n ]Ausbreitung bekannt.</td>
+      </tr>
+      <tr id="383">
+        <td>383</td>
+        <td>
+        </td>
+        <td class="side">Diese Chrysanthemenart l&#228;sst sich von den[ST:n ]Winden in Cauldros davontragen und[ST:n ]absorbiert im Flug Schwefel. Verh&#228;rtet[ST:n ]vor dem Verbl&#252;hen zu Schwefelkristallen.</td>
+      </tr>
+      <tr id="384">
+        <td>384</td>
+        <td>
+        </td>
+        <td class="side">Ein Windengew&#228;chs, das selbst dem[ST:n ]Feuerregen von Cauldros standhalten kann.[ST:n ]K&#228;lte dagegen vertr&#228;gt diese Pflanze[ST:n ]&#252;berhaupt nicht.</td>
+      </tr>
+      <tr id="385">
+        <td>385</td>
+        <td>
+        </td>
+        <td class="side">Ureinwohner von Cauldros m&#252;ssen diese[ST:n ]Pflanze sehr gesch&#228;tzt haben, und auch[ST:n ]einheimische Kreaturen k&#246;nnen selten[ST:n ]widerstehen. Zu finden nur in Cauldros.</td>
+      </tr>
+      <tr id="386">
+        <td>386</td>
+        <td>
+        </td>
+        <td class="side">Dieses Reptil ist nicht in der Lage, selbst[ST:n ]Feuchtigkeit zu speichern und muss sich[ST:n ]daher von Wasserinsekten ern&#228;hren, um[ST:n ]nicht auszutrocknen.</td>
+      </tr>
+      <tr id="387">
+        <td>387</td>
+        <td>
+        </td>
+        <td class="side">Ein kleines, dem Koala verwandtes[ST:n ]Nagetier. Obwohl Koletris theoretisch[ST:n ]fliegen k&#246;nnten, sind sie dazu viel zu[ST:n ]faul.</td>
+      </tr>
+      <tr id="388">
+        <td>388</td>
+        <td>
+        </td>
+        <td class="side">Ihre messerscharfen Z&#228;hne nutzen sie, um[ST:n ]sich eine Behausung in harten Fels zu[ST:n ]schlagen. Spielt man ihnen Rock vor,[ST:n ]verdrehen sie vertr&#228;umt ihre Augen.</td>
+      </tr>
+      <tr id="389">
+        <td>389</td>
+        <td>
+        </td>
+        <td class="side">Die Fl&#252;gel dieser Fledermaus sind im Laufe[ST:n ]der Zeit degeneriert. Auf Futtersuche[ST:n ]bewegt sie sich daher nur kriechend fort.[ST:n ]Sie leidet unter akuter Achluophobie.</td>
+      </tr>
+      <tr id="390">
+        <td>390</td>
+        <td>
+        </td>
+        <td class="side">Erinnert von Aussehen und Geschmack an[ST:n ]gew&#246;hnliche Heringe. Oft sieht man die[ST:n ]g&#252;ldenen Fische wild aus dem Wasser[ST:n ]h&#252;pfen. Ein sehenswertes Spektakel!</td>
+      </tr>
+      <tr id="391">
+        <td>391</td>
+        <td>
+        </td>
+        <td class="side">Dreiohriger Hase mit gro&#223;em Appetit auf[ST:n ]Schie&#223;pulver. S&#228;ubert Schlachtfelder[ST:n ]penibel von Munitionsresten, weshalb er[ST:n ]auch „M&#252;llschlucker“ genannt wird.</td>
+      </tr>
+      <tr id="392">
+        <td>392</td>
+        <td>
+        </td>
+        <td class="side">Eine gro&#223;e, schneckenartige Kreatur.[ST:n ]Ein Fettspeicher in ihrem Schneckenhaus[ST:n ]dient ihr in D&#252;rrezeiten als[ST:n ]Nahrungsquelle.</td>
+      </tr>
+      <tr id="393">
+        <td>393</td>
+        <td>
+        </td>
+        <td class="side">Kugelt sich bei Gefahr ein und tarnt sich[ST:n ]als Fels. Ein schwerf&#228;lliges Tierchen mit[ST:n ]enormem Gewicht.</td>
+      </tr>
+      <tr id="394">
+        <td>394</td>
+        <td>
+        </td>
+        <td class="side">Dieser Plattfisch hat nur ein Auge, das[ST:n ]jedoch nicht fest an einer Stelle sitzt,[ST:n ]sondern frei &#252;ber den K&#246;rper bewegt[ST:n ]werden kann.</td>
+      </tr>
+      <tr id="395">
+        <td>395</td>
+        <td>
+        </td>
+        <td class="side">Der oft f&#228;lschlich f&#252;r einen Schmerbauch[ST:n ]gehaltene Bauchbeutel ist zumeist prall[ST:n ]gef&#252;llt mit Sch&#228;tzen des Waldes, die der[ST:n ]Wampenprimat vehement verteidigt.</td>
+      </tr>
+      <tr id="396">
+        <td>396</td>
+        <td>
+        </td>
+        <td class="side">Seine lange Zunge macht den Leguari zu[ST:n ]einem geschickten Angler. Wer die meisten[ST:n ]Fische f&#228;ngt, steigt in der Hackordnung[ST:n ]auf und wird seinerseits zum Rudelf&#252;hrer.</td>
+      </tr>
+      <tr id="397">
+        <td>397</td>
+        <td>
+        </td>
+        <td class="side">Ein Wildvogel mit verspiegeltem Gefieder.[ST:n ]Er nutzt es, um Sonnenlicht zu b&#252;ndeln[ST:n ]und Angreifer zu verwirren. Diese Schreck-[ST:n ]sekunde nutzt der Spiegelpfau zur Flucht.</td>
+      </tr>
+      <tr id="398">
+        <td>398</td>
+        <td>
+        </td>
+        <td class="side">Eine an Land lebende Quallenart. Zur[ST:n ]Fortbewegung dienen ihre zahlreichen[ST:n ]Tentakel, mit deren Hilfe sie auch ihre[ST:n ]Beute ergreift und in ihren Schlund zerrt.</td>
+      </tr>
+      <tr id="399">
+        <td>399</td>
+        <td>
+        </td>
+        <td class="side">Vollbringt kilometerweite Riesenspr&#252;nge.[ST:n ]Aufgrund seines unterentwickelten[ST:n ]Orientierungssinns schie&#223;t das winzige[ST:n ]Doraguruh dabei h&#228;ufig &#252;bers Ziel hinaus.</td>
+      </tr>
+      <tr id="400">
+        <td>400</td>
+        <td>
+        </td>
+        <td class="side">Weil er gelernt hat, das Raum-Zeit-[ST:n ]Kontinuum zu beeinflussen, kann dieser[ST:n ]Tanuki jede beliebige Gestalt annehmen.[ST:n ]Er ist zudem unerh&#246;rt knuffig.</td>
+      </tr>
+      <tr id="401">
+        <td>401</td>
+        <td>
+        </td>
+        <td class="side">Diese Spezies Maus beherrscht milit&#228;rische[ST:n ]Strategien. F&#252;hlen sie sich bedroht,[ST:n ]teilen sich die listigen Tiere in mehrere[ST:n ]Bataillone auf und &#252;berw&#228;ltigen den Feind.</td>
+      </tr>
+      <tr id="402">
+        <td>402</td>
+        <td>
+        </td>
+        <td class="side">Der Oktopedes bewegt sich auf acht[ST:n ]langen Beinen fort – er lebt an Land.[ST:n ]Durch sein geringes K&#246;rpergewicht wird[ST:n ]er bei steifer Brise oft davongeweht.</td>
+      </tr>
+      <tr id="403">
+        <td>403</td>
+        <td>
+        </td>
+        <td class="side">Auf ihrem Speiseplan steht vorwiegend der[ST:n ]Zizi-Hasling. Bewegt sich durch Rotation[ST:n ]ihres Panzers fort und erreicht dabei[ST:n ]erstaunliche Geschwindigkeiten.</td>
+      </tr>
+      <tr id="404">
+        <td>404</td>
+        <td>
+        </td>
+        <td class="side">Diese Spezies &#228;hnelt den auf der Erde[ST:n ]bekannten Seegurken, besteht aber zu[ST:n ]90 Prozent aus Sand.</td>
+      </tr>
+      <tr id="405">
+        <td>405</td>
+        <td>
+        </td>
+        <td class="side">Ein kleiner Affe, der weder Augen, Ohren,[ST:n ]noch Mund besitzt. Sein hoch entwickelter[ST:n ]Tastsinn l&#228;sst diesen misstrauischen[ST:n ]Primaten jede kleinste Bewegung ersp&#252;ren.</td>
+      </tr>
+      <tr id="406">
+        <td>406</td>
+        <td>
+        </td>
+        <td class="side">Die Lebensspanne dieses auffallend stark[ST:n ]behaarten Primaten betr&#228;gt nur ungef&#228;hr[ST:n ]eine Woche. Nach f&#252;nf Tagen gilt der[ST:n ]Affe bereits als weise und lebenserfahren.</td>
+      </tr>
+      <tr id="407">
+        <td>407</td>
+        <td>
+        </td>
+        <td class="side">Sein flauschig weiches Fell wird als Wolle[ST:n ]f&#252;r Bekleidung hoch gesch&#228;tzt. Das von[ST:n ]Natur aus cholerische Schaf wird beim[ST:n ]Scheren allerdings sehr schnell aggressiv.</td>
+      </tr>
+      <tr id="408">
+        <td>408</td>
+        <td>
+        </td>
+        <td class="side">Aus dem Haupt dieses Kopff&#252;&#223;lers[ST:n ]sprie&#223;en zwanzig lange Fangarme. Oft[ST:n ]st&#252;rzt er sich in Gefechte mit anderen[ST:n ]Arten, die er aber nur selten &#252;berlebt.</td>
+      </tr>
+      <tr id="409">
+        <td>409</td>
+        <td>
+        </td>
+        <td class="side">Ein kleiner Waschb&#228;r mit weichem Fell.[ST:n ]Genie&#223;t es, andere Kreaturen ausgiebig zu[ST:n ]reinigen. Bei Gelegenheit w&#252;rde er sicher[ST:n ]auch einen Skell blitzblank polieren.</td>
+      </tr>
+      <tr id="410">
+        <td>410</td>
+        <td>
+        </td>
+        <td class="side">Eine pinguinartige Kreatur, &#252;bers&#228;t mit[ST:n ]mysteri&#246;sen Mustern. F&#252;r die klugen Tiere,[ST:n ]die sogar Sprachen entziffern k&#246;nnen, ist[ST:n ]es ein Leichtes, Raubtiere zu &#252;berlisten.</td>
+      </tr>
+      <tr id="411">
+        <td>411</td>
+        <td>
+        </td>
+        <td class="side">Diese Schlange ern&#228;hrt sich von Eisenerz.[ST:n ]Unverdaute Klumpen davon tr&#228;gt sie in[ST:n ]ihrem Magen und feuert sie wie[ST:n ]Pistolenkugeln auf potenzielle Angreifer.</td>
+      </tr>
+      <tr id="412">
+        <td>412</td>
+        <td>
+        </td>
+        <td class="side">Ein f&#252;nf&#228;ugiges wildes Schwein. Trotz[ST:n ]seines teuflischen &#196;u&#223;eren ist es[ST:n ]&#252;berraschend scheu und ergreift selbst[ST:n ]beim Anblick kleiner K&#228;fer die Flucht.</td>
+      </tr>
+      <tr id="413">
+        <td>413</td>
+        <td>
+        </td>
+        <td class="side">&#196;hnelt der gemeinen Gans, bet&#246;rt jedoch[ST:n ]durch ihren bezaubernden Ruf. Hilfsbereit[ST:n ]setzt sie ihn ein, um andere Lebewesen[ST:n ]vor drohenden Gefahren zu warnen.</td>
+      </tr>
+      <tr id="414">
+        <td>414</td>
+        <td>
+        </td>
+        <td class="side">Diesem W&#252;stenfuchs dient Lava als[ST:n ]Nahrungsquelle; Kontakt mit jeder anderen[ST:n ]Fl&#252;ssigkeit f&#252;hrt zu seinem Tod. Regentage[ST:n ]sind der gr&#246;&#223;te Feind des Lavafenneks.</td>
+      </tr>
+      <tr id="415">
+        <td>415</td>
+        <td>
+        </td>
+        <td class="side">Eine seltene, in Cauldros beheimatete[ST:n ]Spezies mit rubinrot leuchtenden Augen.[ST:n ]Wird oft mit dem Wolf verwechselt, ist[ST:n ]aber um ein Vielfaches furchterregender.</td>
+      </tr>
+      <tr id="416">
+        <td>416</td>
+        <td>
+        </td>
+        <td class="side">Sieht auf den ersten Blick aus wie ein[ST:n ]fliegender Gummiball. Seine unz&#228;hligen[ST:n ]haarigen M&#228;uler saugen gierig Blut.</td>
+      </tr>
+      <tr id="417">
+        <td>417</td>
+        <td>
+        </td>
+        <td class="side">Verf&#252;gt nicht &#252;ber die Sprungkraft der auf[ST:n ]der Erde bekannten Heuschrecke, sondern[ST:n ]bewegt sich eher schwerf&#228;llig. Nutzt ihre[ST:n ]ausfahrbaren F&#252;hler zur Jagd.</td>
+      </tr>
+      <tr id="418">
+        <td>418</td>
+        <td>
+        </td>
+        <td class="side">Ein 30 cm langer K&#228;fer mit geweihartigem[ST:n ]Kiefer, dem gemeinen Hirschk&#228;fer nicht[ST:n ]un&#228;hnlich. Dem misstrauischen Insekt ist[ST:n ]kein anderer K&#228;fer im Kampf gewachsen.</td>
+      </tr>
+      <tr id="419">
+        <td>419</td>
+        <td>
+        </td>
+        <td class="side">Eine Art Maik&#228;fer, dessen Punkte sich im[ST:n ]Laufe des Alterungsprozesses vergr&#246;&#223;ern,[ST:n ]bis er am Ende vollst&#228;ndig schwarz wird.[ST:n ]Er verabscheut jede Form von Musik.</td>
+      </tr>
+      <tr id="420">
+        <td>420</td>
+        <td>
+        </td>
+        <td class="side">Ern&#228;hrt sich von den Schockwellen, die[ST:n ]Meteoriteneinschl&#228;ge ausl&#246;sen. Instinktiv[ST:n ]tummeln Meteofresser sich noch vor dem[ST:n ]Einschlag an der richtigen Stelle.</td>
+      </tr>
+      <tr id="421">
+        <td>421</td>
+        <td>
+        </td>
+        <td class="side">Diese Ameise ist ein wahrer Eigenbr&#246;tler.[ST:n ]Stets auf Wanderschaft, trennen sich[ST:n ]M&#228;nnchen und Weibchen direkt nach der[ST:n ]Paarung wieder und ziehen ihrer Wege.</td>
+      </tr>
+      <tr id="422">
+        <td>422</td>
+        <td>
+        </td>
+        <td class="side">Der etwa faustgro&#223;e Springschwanz ist[ST:n ]hochgiftig. Sein Gift gewinnt mit jedem[ST:n ]Tag an Intensit&#228;t. Gesunde Tiere sind[ST:n ]pink, alte oder schwache blasswei&#223;.</td>
+      </tr>
+      <tr id="423">
+        <td>423</td>
+        <td>
+        </td>
+        <td class="side">Eine lumineszierende Libelle aus dem[ST:n ]Noctilum. Der Balztanz des M&#228;nnchens ist[ST:n ]ein farbenpr&#228;chtiges Schauspiel, das in[ST:n ]Fr&#252;hlingsn&#228;chten die W&#228;lder leuchten l&#228;sst.</td>
+      </tr>
+      <tr id="424">
+        <td>424</td>
+        <td>
+        </td>
+        <td class="side">Je mehr Blut diese Bremse ihrem Wirt[ST:n ]entzieht, desto glei&#223;ender strahlt sie.[ST:n ]Doraguruhs haben panische Angst vor[ST:n ]diesem grellen Licht.</td>
+      </tr>
+      <tr id="425">
+        <td>425</td>
+        <td>
+        </td>
+        <td class="side">Diese zielstrebige Motte hat ihren eigenen[ST:n ]Kopf. So stur bleibt sie aber nur, bis[ST:n ]sie ein Weibchen findet. Dieses wird nahe-[ST:n ]zu willenlos mit Balzt&#228;nzen umworben.</td>
+      </tr>
+      <tr id="426">
+        <td>426</td>
+        <td>
+        </td>
+        <td class="side">Ein behaartes Insekt mit sichelf&#246;rmigen[ST:n ]Fangbeinen. Die gr&#246;&#223;tenteils weibliche[ST:n ]Population liefert sich erbitterte K&#228;mpfe[ST:n ]um geeignete Fortpflanzungspartner.</td>
+      </tr>
+      <tr id="427">
+        <td>427</td>
+        <td>
+        </td>
+        <td class="side">Mit einem Stich ihres 40 Zentimeter langen[ST:n ]Stachels versetzt diese Hornisse ihre Opfer[ST:n ]in Panik und Hysterie. Vorsicht ist geboten[ST:n ]in den W&#228;ldern des Noctilums!</td>
+      </tr>
+      <tr id="428">
+        <td>428</td>
+        <td>
+        </td>
+        <td class="side">Das eher unscheinbare, achtbeinige Insekt[ST:n ]ist schwer wie Blei. Seine seidenfeinen[ST:n ]Spinnf&#228;den k&#246;nnen sein Gewicht dennoch[ST:n ]m&#252;helos durchs Ge&#228;st des Waldes tragen.</td>
+      </tr>
+      <tr id="429">
+        <td>429</td>
+        <td>
+        </td>
+        <td class="side">Macht mit Vorliebe Jagd auf Elchk&#228;fer.[ST:n ]Das f&#252;r gew&#246;hnlich friedliebende Insekt[ST:n ]nutzt seine scharfen Zangen nur, um Gras[ST:n ]zu schneiden... oder eben Elchk&#228;fer.</td>
+      </tr>
+      <tr id="430">
+        <td>430</td>
+        <td>
+        </td>
+        <td class="side">Speichert gro&#223;e Mengen an[ST:n ]Sonnenlicht. Stirbt der Solarfalter,[ST:n ]gibt er all das Licht auf einen Schlag[ST:n ]wieder frei – ein Naturschauspiel.</td>
+      </tr>
+      <tr id="431">
+        <td>431</td>
+        <td>
+        </td>
+        <td class="side">Reptil oder Insekt? Unter den f&#252;hrenden[ST:n ]Forschern herrscht Uneinigkeit. Laien[ST:n ]kennen seinen unstillbaren Appetit, hohen[ST:n ]Proteingehalt und feinen Buttergeschmack.</td>
+      </tr>
+      <tr id="432">
+        <td>432</td>
+        <td>
+        </td>
+        <td class="side">Ern&#228;hrt sich von Miranium. Auf der Suche[ST:n ]nach dem begehrten Rohstoff gr&#228;bt er[ST:n ]kilometertief ins Erdreich, weshalb man[ST:n ]ihn nur selten an der Oberfl&#228;che findet.</td>
+      </tr>
+      <tr id="433">
+        <td>433</td>
+        <td>
+        </td>
+        <td class="side">Von oben betrachtet gleicht diese Wanzen-[ST:n ]art einem Nopon. Ihr Schrei hingegen ist[ST:n ]so unertr&#228;glich, dass sie in s&#228;mtlichen[ST:n ]Karawanen als Haustier verboten wurde.</td>
+      </tr>
+      <tr id="434">
+        <td>434</td>
+        <td>
+        </td>
+        <td class="side">Bricht das Umgebungslicht, um sich in[ST:n ]v&#246;llige Dunkelheit zu h&#252;llen. Diese Tarnung[ST:n ]erm&#246;glicht es dem Fleischfresser, um[ST:n ]ein Vielfaches gr&#246;&#223;ere Beute zu jagen.</td>
+      </tr>
+      <tr id="435">
+        <td>435</td>
+        <td>
+        </td>
+        <td class="side">Sollte sich seiner Umgebung eigentlich wie[ST:n ]ein Cham&#228;leon anpassen k&#246;nnen, aber ein[ST:n ]Gendefekt l&#228;sst das Tier ungl&#252;cklicherweise[ST:n ]oft die ung&#252;nstigste Farbe annehmen.</td>
+      </tr>
+      <tr id="436">
+        <td>436</td>
+        <td>
+        </td>
+        <td class="side">L&#228;nglicher Skorpion, der seinen Schwanz[ST:n ]als Peitsche einsetzt. Sein Stachel hat sich[ST:n ]im Laufe der Evolution zur&#252;ckgebildet.</td>
+      </tr>
+      <tr id="437">
+        <td>437</td>
+        <td>
+        </td>
+        <td class="side">Der m&#228;chtigste aller K&#228;fer auf Mira.[ST:n ]Rei&#223;t Feinde mit rasierklingenscharfen[ST:n ]H&#246;rnern in mundwerkzeuggerechte[ST:n ]St&#252;ckchen. Der K&#246;nig der Insekten.</td>
+      </tr>
+      <tr id="438">
+        <td>438</td>
+        <td>
+        </td>
+        <td class="side">Verzehrt haupts&#228;chlich den wei&#223;en Sand[ST:n ]der K&#252;sten Sylvalums, seiner Heimat.[ST:n ]Sandskarab&#228;en leben in Bauten, die sie[ST:n ]tief in die Erde graben.</td>
+      </tr>
+      <tr id="439">
+        <td>439</td>
+        <td>
+        </td>
+        <td class="side">Zwei Monate nach dem Schl&#252;pfen steigt[ST:n ]dieser blaue K&#228;fer gen Himmel und fliegt[ST:n ]so lange weiter, bis er vor Ersch&#246;pfung[ST:n ]stirbt. Ein R&#228;tsel f&#252;r die Wissenschaft.</td>
+      </tr>
+      <tr id="440">
+        <td>440</td>
+        <td>
+        </td>
+        <td class="side">Grillenart mit gl&#228;sernem Exoskelett, das[ST:n ]bei der kleinsten Ber&#252;hrung sofort splittert.[ST:n ]Der klirrende Ruf dieses zerbrechlichen[ST:n ]Insekts ist aus weiter Ferne zu h&#246;ren.</td>
+      </tr>
+      <tr id="441">
+        <td>441</td>
+        <td>
+        </td>
+        <td class="side">Diese Zikade ist ein wahrer Morgenmuffel.[ST:n ]Verbringt ihre wenigen wachen Stunden[ST:n ]an sandigen Oberfl&#228;chen, wo sie st&#228;ndig[ST:n ]Streit sucht. Sehr unsympathisch!</td>
+      </tr>
+      <tr id="442">
+        <td>442</td>
+        <td>
+        </td>
+        <td class="side">Seine samtigen Fl&#252;gel sind verziert mit[ST:n ]glitzernden, kristallenen Schuppen. Die[ST:n ]volle Spanne seines 300-j&#228;hrigen Lebens[ST:n ]auszukosten ist auf Mira eher utopisch.</td>
+      </tr>
+      <tr id="443">
+        <td>443</td>
+        <td>
+        </td>
+        <td class="side">Das wei&#223;e Insekt ist mit blo&#223;em Auge[ST:n ]nicht von einer Spore zu unterscheiden.[ST:n ]Es hei&#223;t, dem Finder sei das Gl&#252;ck f&#252;r[ST:n ]immer hold.</td>
+      </tr>
+      <tr id="444">
+        <td>444</td>
+        <td>
+        </td>
+        <td class="side">Ein &#228;u&#223;erst kurzlebiges Insekt. Ist die[ST:n ]Larve geschl&#252;pft, stirbt sie noch am selben[ST:n ]Tag. Ihr herrliches Leuchten ist daher ein[ST:n ]seltener Genuss.</td>
+      </tr>
+      <tr id="445">
+        <td>445</td>
+        <td>
+        </td>
+        <td class="side">Riesiges, rotes, feuerspuckendes Insekt,[ST:n ]verantwortlich f&#252;r spontane Gasexplosionen[ST:n ]im K&#252;stenbereich. Entz&#252;ndet austretende[ST:n ]Gase und sprengt sich versehentlich selbst.</td>
+      </tr>
+      <tr id="446">
+        <td>446</td>
+        <td>
+        </td>
+        <td class="side">Gigantischer K&#228;fer, der eine L&#228;nge von[ST:n ]einem Meter erreichen kann. Saugt riesige[ST:n ]Mengen Wasser in sich auf, die er bei[ST:n ]Bedrohung nach Feinden spuckt.</td>
+      </tr>
+      <tr id="447">
+        <td>447</td>
+        <td>
+        </td>
+        <td class="side">Extrem robuste, blitzschnelle Fliege. Wer[ST:n ]sich ihr in den Weg stellt, den durchbohrt[ST:n ]sie wie ein Projektil. Es ist daher ratsam,[ST:n ]Cauldros mit Fliegenklatsche zu betreten.</td>
+      </tr>
+      <tr id="448">
+        <td>448</td>
+        <td>
+        </td>
+        <td class="side">Sehr lebhafter Grash&#252;pfer, der st&#228;ndig auf[ST:n ]Futtersuche ist. Der zwanghafte Sammler[ST:n ]wird schnell aggressiv, vor allem, wenn er[ST:n ]auf die Landstreicherameise trifft.</td>
+      </tr>
+      <tr id="449">
+        <td>449</td>
+        <td>
+        </td>
+        <td class="side">Treibholzst&#252;cke mit der Eigenschaft, sich[ST:n ]durch Wasseraufnahme aufzubl&#228;hen. Tiere[ST:n ]wie die Landstreicherameise nutzen es, um[ST:n ]flussabw&#228;rts zu treiben.</td>
+      </tr>
+      <tr id="450">
+        <td>450</td>
+        <td>
+        </td>
+        <td class="side">Sand mit hoher Eisenkonzentration. Bis[ST:n ]die Wissenschaftler von NLA das Metall [ST:n ]extrahieren k&#246;nnen, eignet der Sand sich[ST:n ]immerhin als Dekomaterial.</td>
+      </tr>
+      <tr id="451">
+        <td>451</td>
+        <td>
+        </td>
+        <td class="side">Die kristallisierten Exkremente von bisher[ST:n ]noch unidentifizierten Mikroorganismen. So[ST:n ]transparent sehen sie recht h&#252;bsch aus.[ST:n ]Der Stolz eines jeden Koprolithsammlers!</td>
+      </tr>
+      <tr id="452">
+        <td>452</td>
+        <td>
+        </td>
+        <td class="side">Eine harte Perle, geformt aus Mineralien[ST:n ]unterirdischer Fl&#252;sse. Schimmert wei&#223; im[ST:n ]Dunkeln, erscheint aber transparent, wenn[ST:n ]sie im Licht betrachtet wird.</td>
+      </tr>
+      <tr id="453">
+        <td>453</td>
+        <td>
+        </td>
+        <td class="side">Optisch eine diamantartige Substanz.[ST:n ]W&#228;chst an regnerischen Tagen so schnell[ST:n ]wie Bambus. Von Sternenlicht ber&#252;hrt[ST:n ]verschwindet Arnasisches Wiederz.</td>
+      </tr>
+      <tr id="454">
+        <td>454</td>
+        <td>
+        </td>
+        <td class="side">Knochen&#228;hnliche Objekte, die sich am[ST:n ]Himmel &#252;ber Polarkreisen manifestieren[ST:n ]und manchmal zu Boden fallen. Ursprung[ST:n ]und Einordnung sind noch ein Geheimnis.</td>
+      </tr>
+      <tr id="455">
+        <td>455</td>
+        <td>
+        </td>
+        <td class="side">Bl&#228;tter des Katoabaums geben ein[ST:n ]schwaches, warmes Leuchten ab.[ST:n ]Bei den Nopon sind sie als F&#252;llmaterial[ST:n ]f&#252;r Lampen beliebt.</td>
+      </tr>
+      <tr id="456">
+        <td>456</td>
+        <td>
+        </td>
+        <td class="side">Eine Mischung aus Erde und dem Kot der [ST:n ]Wampenprimaten. Von unvergleichlicher [ST:n ]Elastizit&#228;t und praktisch endlos dehnbar [ST:n ](wenn man sich traut, es anzufassen).</td>
+      </tr>
+      <tr id="457">
+        <td>457</td>
+        <td>
+        </td>
+        <td class="side">Wie der Name schon sagt: Tats&#228;chlich[ST:n ]zuckerhaltiger Boden. Unverarbeitet wird[ST:n ]er beim Verzehr leider von einem[ST:n ]unappetitlichen Knirschen begleitet.</td>
+      </tr>
+      <tr id="458">
+        <td>458</td>
+        <td>
+        </td>
+        <td class="side">Ein Stein mit spiegelnder Fl&#228;che, die durch[ST:n ]Tropfwasser gigantischer B&#228;ume entsteht.[ST:n ]Es hei&#223;t, in einen Nokaspiegelstein zu[ST:n ]sehen sei ein Blick in die eigene Seele.</td>
+      </tr>
+      <tr id="459">
+        <td>459</td>
+        <td>
+        </td>
+        <td class="side">Sie offenbart Vergangenheit und Zukunft[ST:n ]der miranischen Fauna und Flora. Klingt[ST:n ]spannend, aber letztlich sieht man meist[ST:n ]nur einem Grashalm beim Wachsen zu.</td>
+      </tr>
+      <tr id="460">
+        <td>460</td>
+        <td>
+        </td>
+        <td class="side">Eine baumwoll&#228;hnliche Pflanze. Als[ST:n ]Rohstoff bei den Nopon sehr begehrt.[ST:n ]&#220;ber die Qualit&#228;t der daraus hergestellten[ST:n ]Handwerksprodukte l&#228;sst sich streiten.</td>
+      </tr>
+      <tr id="461">
+        <td>461</td>
+        <td>
+        </td>
+        <td class="side">Dieses Moos w&#228;chst an den gigantischen[ST:n ]B&#228;umen im Noctilum und f&#228;llt von dort[ST:n ]wie Schnee hinab. Im Winter wegen guter[ST:n ]D&#228;mmwirkung n&#252;tzlich f&#252;r kleine Tiere.</td>
+      </tr>
+      <tr id="462">
+        <td>462</td>
+        <td>
+        </td>
+        <td class="side">Versteinerter Pflanzen&#252;berrest. Kann,[ST:n ]&#228;hnlich wie Steinkohle, als Brennstoff[ST:n ]verwendet werden, ist aber m&#246;glicherweise[ST:n ]noch wertvoller f&#252;r die Forschung.</td>
+      </tr>
+      <tr id="463">
+        <td>463</td>
+        <td>
+        </td>
+        <td class="side">Kleine Zweige, die Blitze anziehen.[ST:n ]Dass man sie eines Tages tats&#228;chlich[ST:n ]als Blitzableiter nutzen wird, ist sehr[ST:n ]wahrscheinlich, bleibt aber Spekulation.</td>
+      </tr>
+      <tr id="464">
+        <td>464</td>
+        <td>
+        </td>
+        <td class="side">&#196;u&#223;erst spitzes Fragment eines Stalaktits[ST:n ](oder Stalagmits). Strahlt einen h&#252;bschen,[ST:n ]vielfarbigen Lichtkringel aus, kann aber[ST:n ]ernsthafte Verletzungen verursachen.</td>
+      </tr>
+      <tr id="465">
+        <td>465</td>
+        <td>
+        </td>
+        <td class="side">Ein weiches, lehmartiges Silbererz, das[ST:n ]beim Schmieden hart wird. Sein Ursprung[ST:n ]ist unbestimmt, k&#246;nnte aber auf verrottete[ST:n ]Myuena-Kakteen zur&#252;ckgehen.</td>
+      </tr>
+      <tr id="466">
+        <td>466</td>
+        <td>
+        </td>
+        <td class="side">Ein seltsames gr&#252;nes Gas, das in H&#246;hlen[ST:n ]eingeschlossen ist. Sobald es Kontakt mit[ST:n ]der Au&#223;enluft bekommt, wandelt es sich in[ST:n ]Sauerstoff um. Wie praktisch!</td>
+      </tr>
+      <tr id="467">
+        <td>467</td>
+        <td>
+        </td>
+        <td class="side">Dieses Etwas bewegt sich unabl&#228;ssig fort[ST:n ]und k&#246;nnte f&#252;r einen Erdrutsch gehalten[ST:n ]werden. Es wurden Insekten beobachtet,[ST:n ]die sich von der Pf&#252;tze tragen lassen.</td>
+      </tr>
+      <tr id="468">
+        <td>468</td>
+        <td>
+        </td>
+        <td class="side">Keine Lebewesen im klassischen Sinn, aber[ST:n ]dennoch schlagen diese Steinfragmente[ST:n ]Wurzeln und k&#246;nnen sogar wachsen.[ST:n ]Werden dann h&#228;ufig f&#252;r B&#228;ume gehalten.</td>
+      </tr>
+      <tr id="469">
+        <td>469</td>
+        <td>
+        </td>
+        <td class="side">Eine an Land beheimatete Korallenart.[ST:n ]Sie sehen faszinierend aus,[ST:n ]sollten aber nicht ber&#252;hrt werden, da sie[ST:n ]sehr zart und leicht zerbrechlich sind.</td>
+      </tr>
+      <tr id="470">
+        <td>470</td>
+        <td>
+        </td>
+        <td class="side">Entsteht bei der Reaktion von Regen mit[ST:n ]einem unbekannten Stoff in der Luft. Beim[ST:n ]Kontakt mit Lebewesen verdampft die[ST:n ]S&#228;ure; anorganisches Material l&#246;st sie auf.</td>
+      </tr>
+      <tr id="471">
+        <td>471</td>
+        <td>
+        </td>
+        <td class="side">Ein h&#246;chst sonderbares Material: Versuche,[ST:n ]es zu wiegen, ergeben keine Messwerte.[ST:n ]Betroffene berichten jedoch, dass ein[ST:n ]Kopftreffer dennoch sehr unangenehm ist.</td>
+      </tr>
+      <tr id="472">
+        <td>472</td>
+        <td>
+        </td>
+        <td class="side">Seine erstaunliche Speicherf&#228;higkeit[ST:n ]bewirkt, dass das Kupfer – einmal[ST:n ]abgek&#252;hlt – Minustemperaturen selbst in[ST:n ]hei&#223;esten Klimazonen bewahren kann.</td>
+      </tr>
+      <tr id="473">
+        <td>473</td>
+        <td>
+        </td>
+        <td class="side">Diese Spore schwebt durch Sylvalum und[ST:n ]zieht dabei unz&#228;hlige Partikel an, die an[ST:n ]der Spore haften bleiben und ihr das[ST:n ]charakteristische Schimmern verleihen.</td>
+      </tr>
+      <tr id="474">
+        <td>474</td>
+        <td>
+        </td>
+        <td class="side">Sehr eindeutig geformte Lavafragmente.[ST:n ]Sie verbreiten einen angenehmen Duft und[ST:n ]sind essbar. Seltsamerweise stehen sie[ST:n ]noch immer nicht auf den Speisekarten...</td>
+      </tr>
+      <tr id="475">
+        <td>475</td>
+        <td>
+        </td>
+        <td class="side">Fruchtbarer Boden, der Insekten und kleine[ST:n ]Tiere zersetzt und absorbiert. Geologen[ST:n ]beurteilen sein Potenzial f&#252;r einen Einsatz[ST:n ]in der Landwirtschaft als sehr gro&#223;.</td>
+      </tr>
+      <tr id="476">
+        <td>476</td>
+        <td>
+        </td>
+        <td class="side">Diese Steine entstehen meist w&#228;hrend eines[ST:n ]Gewitters. Sie speichern elektrische Energie[ST:n ]und k&#246;nnen als Batterie verwendet werden.[ST:n ]Leider ziemlich instabil.</td>
+      </tr>
+      <tr id="477">
+        <td>477</td>
+        <td>
+        </td>
+        <td class="side">Sieht aus wie ein Pulver, wirkt ansonsten[ST:n ]aber eher wie ein Fungus: Es verbreitet[ST:n ]sich, indem es sich an Steine heftet.[ST:n ]Besitzt eine gewisse Sprengkraft.</td>
+      </tr>
+      <tr id="478">
+        <td>478</td>
+        <td>
+        </td>
+        <td class="side">Organischer Stahl. W&#228;chst in den[ST:n ]Lavaseen von Cauldros. Man sagt[ST:n ]ihm eine legend&#228;re H&#228;rte nach.</td>
+      </tr>
+      <tr id="479">
+        <td>479</td>
+        <td>
+        </td>
+        <td class="side">Dieses wertvolle rote &#214;l, zu finden in[ST:n ]Cauldros, quillt nur an Regentagen an die[ST:n ]Erdoberfl&#228;che. Es &#228;hnelt Blutlachen und[ST:n ]wirkt auf den ersten Blick verst&#246;rend echt.</td>
+      </tr>
+      <tr id="480">
+        <td>480</td>
+        <td>
+        </td>
+        <td class="side">Urspr&#252;nglich als Schutz gegen die Xeno-[ST:n ]Angriffe entworfen. &#220;berhitzte allerdings.[ST:n ]Fand erst wieder Verwendung, als der[ST:n ]Schild des Wei&#223;en Wals entworfen wurde.</td>
+      </tr>
+      <tr id="481">
+        <td>481</td>
+        <td>
+        </td>
+        <td class="side">Ein Motork&#252;hler, der keine K&#252;hlfl&#252;ssigkeit[ST:n ]ben&#246;tigt. Wurde vielfach im Wei&#223;en Wal [ST:n ]verwendet, kann aber problemlos in Autos[ST:n ]und andere Fahrzeuge eingebaut werden.</td>
+      </tr>
+      <tr id="482">
+        <td>482</td>
+        <td>
+        </td>
+        <td class="side">Teil des Rohrsystems im Wei&#223;en Wal.[ST:n ]Besteht aus einem neuartigen Stahl, der[ST:n ]niemals korrodieren soll – angeblich.[ST:n ]Testphase immer noch nicht abgeschlossen.</td>
+      </tr>
+      <tr id="483">
+        <td>483</td>
+        <td>
+        </td>
+        <td class="side">Einer der Tanks, die das Antriebssystem[ST:n ]des Wei&#223;en Wals versorgten. Komprimiert[ST:n ]den Treibstoff nach neustem Stand der[ST:n ]Technik und sieht auch noch cool aus.</td>
+      </tr>
+      <tr id="484">
+        <td>484</td>
+        <td>
+        </td>
+        <td class="side">Dieses Ger&#228;t pr&#252;ft die Zusammensetzung[ST:n ]der Umgebungsluft und scannt auch nach[ST:n ]Mikroorganismen. Sehr praktisch, um[ST:n ]festzustellen, ob ein Planet bewohnbar ist.</td>
+      </tr>
+      <tr id="485">
+        <td>485</td>
+        <td>
+        </td>
+        <td class="side">Ein Raumanzug, der den Bedingungen im[ST:n ]Weltall 24 Stunden trotzen kann. Galt zum[ST:n ]Zeitpunkt des Starts des Wei&#223;en Wals als[ST:n ]hochmodern. Immer noch ganz schick.</td>
+      </tr>
+      <tr id="486">
+        <td>486</td>
+        <td>
+        </td>
+        <td class="side">Ein Schwerkraftgenerator in Raumschiff-[ST:n ]optik. Erlaubte der Crew des Wei&#223;en[ST:n ]Wals ein normales Leben und Arbeiten an[ST:n ]Bord. Sehr angenehm!</td>
+      </tr>
+      <tr id="487">
+        <td>487</td>
+        <td>
+        </td>
+        <td class="side">Kleine Gefrierschr&#228;nke, die genetische[ST:n ]Proben von den Tieren und Pflanzen der[ST:n ]Erde enthalten. Leider wurde beim Absturz[ST:n ]des Wei&#223;en Wals ein Gro&#223;teil vernichtet.</td>
+      </tr>
+      <tr id="488">
+        <td>488</td>
+        <td>
+        </td>
+        <td class="side">Ein Helm, der den Tr&#228;ger in eine virtuelle[ST:n ]Realit&#228;t versetzen kann. Eindr&#252;cke von der[ST:n ]Erde halfen der Crew des Wei&#223;en Wals,[ST:n ]die lange Reise besser zu &#252;berstehen.</td>
+      </tr>
+      <tr id="489">
+        <td>489</td>
+        <td>
+        </td>
+        <td class="side">Ein fortschrittliches elektronisches[ST:n ]Antriebsmodul. Sorgt f&#252;r H&#246;chst-[ST:n ]geschwindigkeiten und zugleich f&#252;r[ST:n ]&#228;u&#223;erst pr&#228;zises Steuerverhalten.</td>
+      </tr>
+      <tr id="490">
+        <td>490</td>
+        <td>
+        </td>
+        <td class="side">Ein unscheinbares, aber n&#252;tzliches Ger&#228;t.[ST:n ]Wandelt die Abw&#228;rme von Triebwerken in[ST:n ]nutzbare Energie um. Wurde erst kurz vor[ST:n ]dem Start des Wei&#223;en Wals fertiggestellt.</td>
+      </tr>
+      <tr id="491">
+        <td>491</td>
+        <td>
+        </td>
+        <td class="side">Elektronisches Eingabe- und Steuerger&#228;t in[ST:n ]Form eines Handschuhs. Damit lassen sich[ST:n ]angeschlossene Ger&#228;te mit Gesten steuern.[ST:n ]Formsch&#246;n, praktisch und sehr trendig!</td>
+      </tr>
+      <tr id="492">
+        <td>492</td>
+        <td>
+        </td>
+        <td class="side">Dupliziert dreidimensionale Werkst&#252;cke wie[ST:n ]etwa Bauteile, aber auch pers&#246;nliche[ST:n ]Gegenst&#228;nde. Jeder Mechaniker an Bord[ST:n ]des Wei&#223;en Wals hatte so einen Drucker.</td>
+      </tr>
+      <tr id="493">
+        <td>493</td>
+        <td>
+        </td>
+        <td class="side">Fragment der Vorrichtung, die den Wei&#223;en[ST:n ]Wal mit einer Energiemembran umgab.[ST:n ]Diese sch&#252;tzte die Arche vor Besch&#228;di-[ST:n ]gungen durch fliegenden Weltraumschrott.</td>
+      </tr>
+      <tr id="494">
+        <td>494</td>
+        <td>
+        </td>
+        <td class="side">Mehrere dieser Sonnenkollektoren waren[ST:n ]an der Au&#223;enh&#252;lle des Wei&#223;en Wals[ST:n ]angebracht und versorgten die Systeme[ST:n ]des Schiffs mit Solarenergie.</td>
+      </tr>
+      <tr id="495">
+        <td>495</td>
+        <td>
+        </td>
+        <td class="side">Dieses Ger&#228;t diente im All dazu, Mikroben[ST:n ]und anderes organisches Material zu[ST:n ]sammeln und in Energie umzuwandeln.[ST:n ]Eklig, aber n&#252;tzlich.</td>
+      </tr>
+      <tr id="496">
+        <td>496</td>
+        <td>
+        </td>
+        <td class="side">Teil des Antriebsgenerators des Wei&#223;en[ST:n ]Wals. Nur die kl&#252;gsten Ingenieure haben[ST:n ]&#252;berhaupt verstanden, wie er funktioniert.[ST:n ]Irgendwas mit Quantenmechanik...</td>
+      </tr>
+      <tr id="497">
+        <td>497</td>
+        <td>
+        </td>
+        <td class="side">Ein Transmitter, der Energiepartikel von[ST:n ]einem Ort zum anderen senden kann.[ST:n ]Da er drahtlos funktioniert, spart er Platz[ST:n ]und Nerven. Nie wieder Kabelsalat!</td>
+      </tr>
+      <tr id="498">
+        <td>498</td>
+        <td>
+        </td>
+        <td class="side">So d&#252;nn wie ein Blatt Papier, aber von[ST:n ]erstaunlicher Stabilit&#228;t. Au&#223;erdem[ST:n ]hitzebest&#228;ndig, sto&#223;fest und abweisend[ST:n ]gegen Kaffeeflecken – einfach perfekt.</td>
+      </tr>
+      <tr id="499">
+        <td>499</td>
+        <td>
+        </td>
+        <td class="side">Dieses Kleidungsst&#252;ck sendet Signaturen[ST:n ]fremden Erbmaterials aus. Ideal, um[ST:n ]feindliche Xenoforme in die Irre zu f&#252;hren.[ST:n ]Unglaublich effizient, unglaublich niedlich.</td>
+      </tr>
+      <tr id="500">
+        <td>500</td>
+        <td>
+        </td>
+        <td class="side">Ein Hochleistungslaser des Wei&#223;en Wals.[ST:n ]Mittlerweile au&#223;er Funktion, aber der[ST:n ]verschrammte und angesengte Gesch&#252;tzlauf[ST:n ]zeugt immer noch von fr&#252;heren K&#228;mpfen.</td>
+      </tr>
+      <tr id="501">
+        <td>501</td>
+        <td>
+        </td>
+        <td class="side">Teilst&#252;ck des KI-Systems des Wei&#223;en Wals.[ST:n ]Verl&#228;sslich und stets logisch urteilend.[ST:n ]War w&#228;hrend des Flugs unverzichtbar,[ST:n ]wurde aber leider beim Aufprall zerst&#246;rt.</td>
+      </tr>
+      <tr id="502">
+        <td>502</td>
+        <td>
+        </td>
+        <td class="side">Absorbierte gasf&#246;rmige Materie von nahen[ST:n ]Sternen und wandelte sie in Energie f&#252;r[ST:n ]das Antriebssystem des Wei&#223;en Wals um.</td>
+      </tr>
+      <tr id="503">
+        <td>503</td>
+        <td>
+        </td>
+        <td class="side">Bremsmechanismus, der mittels Sauerstoff[ST:n ]betrieben wurde. Konnte im Notfall als[ST:n ]Waffe eingesetzt werden. Auf dem Wei&#223;en[ST:n ]Wal ging der Atemluftbedarf nat&#252;rlich vor.</td>
+      </tr>
+      <tr id="504">
+        <td>504</td>
+        <td>
+        </td>
+        <td class="side">Diese phosphoreszierenden Farben wurden[ST:n ]in und am Wei&#223;en Wal verwendet. Ihre[ST:n ]quantenphysikalischen Eigenschaften lassen[ST:n ]sie ohne Helligkeitsverlust lange leuchten.</td>
+      </tr>
+      <tr id="505">
+        <td>505</td>
+        <td>
+        </td>
+        <td class="side">Ein Ger&#228;t, das den Tr&#228;ger im All vor[ST:n ]Orientierungsverlust sch&#252;tzen soll. Wurde[ST:n ]von Mechanikern mit sich gef&#252;hrt, die[ST:n ]Au&#223;enreparaturen durchf&#252;hren mussten.</td>
+      </tr>
+      <tr id="506">
+        <td>506</td>
+        <td>
+        </td>
+        <td class="side">Ein Ger&#228;t, das verschiedenen Materialien[ST:n ]Wasser entziehen kann, von Felsgestein bis[ST:n ]hin zu Elementarteilchen. Unerl&#228;sslich f&#252;rs[ST:n ]Terraforming, auf Mira allerdings unn&#246;tig.</td>
+      </tr>
+      <tr id="507">
+        <td>507</td>
+        <td>
+        </td>
+        <td class="side">Eins der Entwurfsmodelle, die in der[ST:n ]Aufbauphase des FrontierNav getestet[ST:n ]wurden. Kein Vergleich zu den aktuellen[ST:n ]Datensonden, aber ein netter Versuch.</td>
+      </tr>
+      <tr id="508">
+        <td>508</td>
+        <td>
+        </td>
+        <td class="side">Ein ferngelenktes Drohnenfahrzeug mit[ST:n ]kugelf&#246;rmigem Rumpf und langarmigen[ST:n ]Gliedma&#223;en. N&#252;tzlich f&#252;r heikle Eins&#228;tze[ST:n ]an der Schiffsh&#252;lle. Holt aber auch Kaffee.</td>
+      </tr>
+      <tr id="509">
+        <td>509</td>
+        <td>
+        </td>
+        <td class="side">Eine M&#246;rserschale mit rauer, dornenartiger[ST:n ]Struktur im Inneren. Wird von miranischen[ST:n ]Einheimischen zur Herstellung von Medizin[ST:n ]verwendet. Inklusive Pistill!</td>
+      </tr>
+      <tr id="510">
+        <td>510</td>
+        <td>
+        </td>
+        <td class="side">Ein Z&#228;hlrahmen mit Eicheln. Legt die[ST:n ]Vermutung nahe, dass die einheimischen[ST:n ]Kulturen schon fr&#252;h eine Art Finanzsystem[ST:n ]entwickelt hatten.</td>
+      </tr>
+      <tr id="511">
+        <td>511</td>
+        <td>
+        </td>
+        <td class="side">Diese Maske, gefertigt aus der Rinde[ST:n ]eines miranischen Baumes, w&#228;chst mit[ST:n ]dem Gesicht ihres Tr&#228;gers mit. Wurde[ST:n ]daher in fr&#252;heren Zeitaltern verehrt.</td>
+      </tr>
+      <tr id="512">
+        <td>512</td>
+        <td>
+        </td>
+        <td class="side">Ein Relikt aus l&#228;ngst vergangenen Zeiten.[ST:n ]Aber es klimpern immer noch M&#252;nzen[ST:n ]darin. Vermutlich hatte der Besitzer ein[ST:n ]gl&#252;ckliches H&#228;ndchen f&#252;r Geldgesch&#228;fte.</td>
+      </tr>
+      <tr id="513">
+        <td>513</td>
+        <td>
+        </td>
+        <td class="side">Ein sorgf&#228;ltig behauener Stein, der ein[ST:n ]liebliches S&#228;useln von sich gibt. Der Klang[ST:n ]weckte bei miranischen Ureinwohnern die[ST:n ]wildesten Gef&#252;hle und lie&#223; sie tanzen.</td>
+      </tr>
+      <tr id="514">
+        <td>514</td>
+        <td>
+        </td>
+        <td class="side">Nopon stecken sich einen in die Tasche,[ST:n ]um m&#246;gliche Raubtiere durch den ranzigen[ST:n ]Gestank zu verscheuchen. Auf keinen Fall[ST:n ]mit einem Verkupplungsstein verwechseln!</td>
+      </tr>
+      <tr id="515">
+        <td>515</td>
+        <td>
+        </td>
+        <td class="side">Eine Muschelschale, die von den Vorfahren[ST:n ]der Nopon als Teller benutzt wurde. Eine[ST:n ]genaue Analyse w&#252;rde bestimmt Aufschluss[ST:n ]&#252;ber damalige Essgewohnheiten geben.</td>
+      </tr>
+      <tr id="516">
+        <td>516</td>
+        <td>
+        </td>
+        <td class="side">Ein Nopon-Boot in Form eines Badezubers.[ST:n ]Liegt sehr gut im Wasser. In der[ST:n ]Vergangenheit haben Nopon damit die[ST:n ]Ozeane erforscht.</td>
+      </tr>
+      <tr id="517">
+        <td>517</td>
+        <td>
+        </td>
+        <td class="side">Laterne, die mit leuchtenden Katoabl&#228;ttern[ST:n ]gef&#252;llt ist. Viele Nopon opfern gern ihre[ST:n ]Zeit, um diese Bl&#228;tter zu sammeln, denn[ST:n ]das sanfte Licht wird &#252;beraus gesch&#228;tzt.</td>
+      </tr>
+      <tr id="518">
+        <td>518</td>
+        <td>
+        </td>
+        <td class="side">Eine Vorrichtung, um die Wirbels&#228;ule und[ST:n ]damit die Haltung zu strecken. War eine[ST:n ]Zeit lang bei besonders kleinen Nopon[ST:n ]beliebt, richtete aber zu viel Schaden an.</td>
+      </tr>
+      <tr id="519">
+        <td>519</td>
+        <td>
+        </td>
+        <td class="side">In solchen Dosen bewahren Nopon ihr[ST:n ]Pollensammelwerkzeug auf. Unter anderem[ST:n ]ein R&#252;sselchen, das Insekten anlockt, die[ST:n ]Bl&#252;tenstaub f&#252;r die Nopon fermentieren.</td>
+      </tr>
+      <tr id="520">
+        <td>520</td>
+        <td>
+        </td>
+        <td class="side">Ein Stock mit Steinspitze, gefertigt von[ST:n ]fr&#252;heren Bewohnern Miras. Wom&#246;glich[ST:n ]besteht ein Zusammenhang zwischen dieser[ST:n ]Waffe und dem Untergang der Zivilisation.</td>
+      </tr>
+      <tr id="521">
+        <td>521</td>
+        <td>
+        </td>
+        <td class="side">Aus der Zeit des alten W&#252;stenvolkes von[ST:n ]Oblivia. Die Schrift ist leider nicht zu[ST:n ]entziffern, weswegen das Schicksal der[ST:n ]Verfasser weiterhin ein Geheimnis bleibt.</td>
+      </tr>
+      <tr id="522">
+        <td>522</td>
+        <td>
+        </td>
+        <td class="side">Eine Art Detektor der Nopon. Schl&#228;gt[ST:n ]die M&#252;nze am Ende der Schnur aus, sind[ST:n ]Wasseradern oder Bodensch&#228;tze in der[ST:n ]N&#228;he. Oder eben auch nicht.</td>
+      </tr>
+      <tr id="523">
+        <td>523</td>
+        <td>
+        </td>
+        <td class="side">Ein bizarres Beispiel des Kunsthandwerks[ST:n ]der Nopon: eine getrocknete Schlange, die[ST:n ]sich in den eigenen Schwanz bei&#223;t und[ST:n ]somit einen Armreif formt. Wem’s gef&#228;llt.</td>
+      </tr>
+      <tr id="524">
+        <td>524</td>
+        <td>
+        </td>
+        <td class="side">Eine Trommel, bespannt mit dem Magen[ST:n ]eines Phantom-Tanuki. Nopon, die allein[ST:n ]eine Reise antreten, schlagen sie, um sich[ST:n ]Mut zu machen. Klingt wie Pon-pon-pon...</td>
+      </tr>
+      <tr id="525">
+        <td>525</td>
+        <td>
+        </td>
+        <td class="side">Ein r&#228;tselhaftes Monument aus schwarzem[ST:n ]Stein, dessen Herkunft ungekl&#228;rt ist. &#220;ber-[ST:n ]lieferungen der Nopon zufolge f&#252;hrt das[ST:n ]Ber&#252;hren eines Nopoliths zu Erleuchtung.</td>
+      </tr>
+      <tr id="526">
+        <td>526</td>
+        <td>
+        </td>
+        <td class="side">Eine Heilsalbe auf pflanzlicher Basis. War[ST:n ]lange Zeit sehr beliebt bei den Nopon, bis[ST:n ]sich herausstellte, dass ihr medizinischer[ST:n ]Nutzen gleich null ist. Stinkt au&#223;erdem.</td>
+      </tr>
+      <tr id="527">
+        <td>527</td>
+        <td>
+        </td>
+        <td class="side">Ein Schwimmfl&#252;gel aus einem speziellen[ST:n ]Stroh. An Land ist er noch &#252;bergro&#223;, [ST:n ]aber beim ersten Kontakt mit Wasser [ST:n ]schrumpft er auf eine komfortable Gr&#246;&#223;e.</td>
+      </tr>
+      <tr id="528">
+        <td>528</td>
+        <td>
+        </td>
+        <td class="side">Farbenfrohe Ballons – beliebte Spielzeuge[ST:n ]bei den Nopon. Ihr Marktwert sank[ST:n ]deutlich, als herauskam, dass es sich[ST:n ]lediglich um angepinselte Sporen handelt.</td>
+      </tr>
+      <tr id="529">
+        <td>529</td>
+        <td>
+        </td>
+        <td class="side">Eine lange, kegelf&#246;rmige R&#246;hre mit[ST:n ]sorgf&#228;ltig justierten Steinlinsen. Die Nopon[ST:n ]lieben es, damit die Sterne zu betrachten.</td>
+      </tr>
+      <tr id="530">
+        <td>530</td>
+        <td>
+        </td>
+        <td class="side">Stoff aus einer bemerkenswerten Faser, die[ST:n ]in der Lage ist, Farben in ihrer Umgebung[ST:n ]zu imitieren. Relikt einer hochentwickelten,[ST:n ]doch mittlerweile untergegangenen Kultur.</td>
+      </tr>
+      <tr id="531">
+        <td>531</td>
+        <td>
+        </td>
+        <td class="side">Nopon schm&#252;cken diese Zweige mit[ST:n ]Hunderten von Blumen, die sie von ihren[ST:n ]Reisen mitbringen. G&#246;tterst&#246;ckchen finden[ST:n ]bei religi&#246;sen Zeremonien Verwendung.</td>
+      </tr>
+      <tr id="532">
+        <td>532</td>
+        <td>
+        </td>
+        <td class="side">Kleines Trampolin mit einer Sprungfl&#228;che[ST:n ]aus Gummimangoschale. Urspr&#252;nglich bei [ST:n ]Volksfesten der Nopon eingesetzt, wurde[ST:n ]es wegen Verletzungsgefahr verboten.</td>
+      </tr>
+      <tr id="533">
+        <td>533</td>
+        <td>
+        </td>
+        <td class="side">Ein Hammer, der von den Vorfahren der[ST:n ]Nopon aus einem harten Stein gemei&#223;elt[ST:n ]wurde. Aus unerfindlichen Gr&#252;nden auch[ST:n ]der Schaft, nicht nur der Kopf...</td>
+      </tr>
+      <tr id="534">
+        <td>534</td>
+        <td>
+        </td>
+        <td class="side">Eine riesige Schale, die aus fl&#252;ssiger Lava[ST:n ]geformt worden sein muss. &#220;ber die Hand-[ST:n ]werkstechnik ist ebenso wenig bekannt[ST:n ]wie &#252;ber die Wesen, die sie entwickelten.</td>
+      </tr>
+      <tr id="535">
+        <td>535</td>
+        <td>
+        </td>
+        <td class="side">Ein polierter, transparenter Stein, der zu[ST:n ]einer konvexen Linse geschliffen wurde.[ST:n ]Die Nopon entfachen damit Feuer oder[ST:n ]stellen ihre ber&#252;hmten Brillengl&#228;ser her.</td>
+      </tr>
+      <tr id="536">
+        <td>536</td>
+        <td>
+        </td>
+        <td class="side">Eine kleine Lampe, die wundervolles Licht[ST:n ]spendet, aber ein besonderes &#214;l ben&#246;tigt.[ST:n ]Kaum noch im Einsatz, seit ein Nopon die[ST:n ]Geheimrezeptur verschlampt hat.</td>
+      </tr>
+      <tr id="537">
+        <td>537</td>
+        <td>
+        </td>
+        <td class="side">Falsche Fl&#252;gel, gebaut von einem Nopon,[ST:n ]der vom Fliegen tr&#228;umte. Funktionieren[ST:n ]nat&#252;rlich nicht, aber trotzdem st&#252;rzen sich[ST:n ]immer wieder Nopon damit von Klippen.</td>
+      </tr>
+      <tr id="538">
+        <td>538</td>
+        <td>
+        </td>
+        <td class="side">Ein Schlafsack. Feuerfest und sechs[ST:n ]Meter lang – aber ein Schlafsack. Einst[ST:n ]von Riesen aus Boganowinden gefertigt,[ST:n ]heute von Nopon als Jurte benutzt.</td>
+      </tr>
+      <tr id="539">
+        <td>539</td>
+        <td>
+        </td>
+        <td class="side">&#220;berdimensionierte Sparb&#252;chse der alten[ST:n ]Nopon. Legenden besagen, dass jeder von[ST:n ]ewigen Geldsorgen heimgesucht wird, der[ST:n ]die Dose &#246;ffnet, bevor sie ganz voll ist.</td>
+      </tr>
+      <tr id="540">
+        <td>540</td>
+        <td>
+        </td>
+        <td class="side">Raketenantrieb mysteri&#246;ser Herkunft.[ST:n ]Erm&#246;glicht seinem Tr&#228;ger die Flucht aus[ST:n ]jeder noch so ausweglosen Situation und[ST:n ]l&#228;sst ihn dabei auch noch cool aussehen.</td>
+      </tr>
+      <tr id="541">
+        <td>541</td>
+        <td>
+        </td>
+        <td class="side">Ein grausames Folterwerkzeug.[ST:n ]Wird um Kopf, Arme und Beine gelegt[ST:n ]und dann langsam aber unaufhaltsam[ST:n ]zusammengezogen.</td>
+      </tr>
+      <tr id="542">
+        <td>542</td>
+        <td>
+        </td>
+        <td class="side">Prototyp moderner Xeno-Technologie.[ST:n ]Erm&#246;glicht R&#246;ntgenblick durch diverse[ST:n ]Materialien. Wird manchmal f&#252;r eher[ST:n ]unmoralische Zwecke missbraucht.</td>
+      </tr>
+      <tr id="543">
+        <td>543</td>
+        <td>
+        </td>
+        <td class="side">Reich verziertes Beh&#228;ltnis, das zur[ST:n ]Aufbewahrung von Fl&#252;ssigkeiten bestimmt[ST:n ]war. Niemand vermag zu sagen, welch[ST:n ]Gebr&#228;u es einst enthielt...</td>
+      </tr>
+      <tr id="544">
+        <td>544</td>
+        <td>
+        </td>
+        <td class="side">Ein unheimliches Leuchten geht von dieser[ST:n ]Kugel aus. Sie strahlt eine finstere Energie[ST:n ]aus und ist sicher nicht f&#252;r Menschenh&#228;nde[ST:n ]bestimmt.</td>
+      </tr>
+      <tr id="545">
+        <td>545</td>
+        <td>
+        </td>
+        <td class="side">Eine Kommunikationsschnittstelle, die durch[ST:n ]winzige Nadeln direkt mit dem Gehirn[ST:n ]interagiert. St&#252;rzt Menschen bei Nutzung[ST:n ]binnen Sekunden in den Wahnsinn.</td>
+      </tr>
+      <tr id="546">
+        <td>546</td>
+        <td>
+        </td>
+        <td class="side">Das sechseckige Objekt in Form einer[ST:n ]Bienenwabe diente insektoiden Xenoformen[ST:n ]als Messger&#228;t. Bedienung der komplexen[ST:n ]Schaltanlage ist nur mit F&#252;hlern m&#246;glich.</td>
+      </tr>
+      <tr id="547">
+        <td>547</td>
+        <td>
+        </td>
+        <td class="side">Ein vollkommen steriler Tank, frei von[ST:n ]jeglichen Viren und Mikroorganismen.[ST:n ]Diente wom&#246;glich zum Transport bislang[ST:n ]unbekannter Gefahrenstoffe.</td>
+      </tr>
+      <tr id="548">
+        <td>548</td>
+        <td>
+        </td>
+        <td class="side">Eine von Gestaltwandlern verwendete[ST:n ]elektromagnetische Apparatur. Beeinflusst[ST:n ]die Sinneswahrnehmungen anderer Wesen,[ST:n ]bis hin zu v&#246;lliger Verwirrung.</td>
+      </tr>
+      <tr id="549">
+        <td>549</td>
+        <td>
+        </td>
+        <td class="side">&#196;u&#223;erst leistungsf&#228;higes Wasserfiltrations-[ST:n ]system. Aufgrund eines Programmierfehlers[ST:n ]wirft die an sich hilfreiche Sprachausgabe[ST:n ]mit w&#252;sten Beleidigungen um sich.</td>
+      </tr>
+      <tr id="550">
+        <td>550</td>
+        <td>
+        </td>
+        <td class="side">Von einer Rasse riesiger Xenoformer[ST:n ]entworfene Brille. Umgebungsinformationen[ST:n ]und Anweisungen werden direkt an das[ST:n ]Auge des Tr&#228;gers geleitet und verarbeitet.</td>
+      </tr>
+      <tr id="551">
+        <td>551</td>
+        <td>
+        </td>
+        <td class="side">Ein Steinofen, der sich wie zum Gebet gen[ST:n ]Himmel &#246;ffnet. Wurde vermutlich f&#252;r[ST:n ]religi&#246;s motivierte, rituelle Verbrennungen[ST:n ]verwendet.</td>
+      </tr>
+      <tr id="552">
+        <td>552</td>
+        <td>
+        </td>
+        <td class="side">Robuster Xeno-Schwanzschutz, verziert mit[ST:n ]dem Emblem eines alten Klans. Die Ver-[ST:n ]arbeitungsqualit&#228;t l&#228;sst darauf schlie&#223;en,[ST:n ]dass sein Tr&#228;ger hohen Ranges war.</td>
+      </tr>
+      <tr id="553">
+        <td>553</td>
+        <td>
+        </td>
+        <td class="side">Ein gigantischer Helm, gefertigt aus[ST:n ]widerstandsf&#228;higem Horn. Zwei gesch&#228;rfte,[ST:n ]kegelf&#246;rmige Spitzen dienten vermutlich[ST:n ]dazu, Feinde auf die H&#246;rner zu nehmen.</td>
+      </tr>
+      <tr id="554">
+        <td>554</td>
+        <td>
+        </td>
+        <td class="side">Kn&#246;chelschutz f&#252;r Faustk&#228;mpfe, hergestellt[ST:n ]aus den Sch&#228;delknochen besiegter Feinde.[ST:n ]Zahllose Kerben auf seiner Oberfl&#228;che sind[ST:n ]stumme Zeugen vergangener Schlachten.</td>
+      </tr>
+      <tr id="555">
+        <td>555</td>
+        <td>
+        </td>
+        <td class="side">Hochmoderner Lava-Schutzanzug mit[ST:n ]hervorragenden Abwehreigenschaften.[ST:n ]Die erforderliche biometrische Kennung[ST:n ]verhindert die Nutzung durch Menschen.</td>
+      </tr>
+      <tr id="556">
+        <td>556</td>
+        <td>
+        </td>
+        <td class="side">Dieser geschmackvolle Armreif erfreute sich[ST:n ]in der xenoformen Damenwelt gro&#223;er[ST:n ]Beliebtheit. Das elegante Accessoire ist f&#252;r[ST:n ]zierliche Menschenarme leider zu schwer.</td>
+      </tr>
+      <tr id="557">
+        <td>557</td>
+        <td>
+        </td>
+        <td class="side">Ein Querschnitt zeigt zahllose alterungs-[ST:n ]und witterungsbest&#228;ndige Glasfaserstr&#228;nge.[ST:n ]Das Kabel kommt in der Steuerung von[ST:n ]Raketensystemen zum Einsatz.</td>
+      </tr>
+      <tr id="558">
+        <td>558</td>
+        <td>
+        </td>
+        <td class="side">Soll Soldaten im Kampf in eine Art[ST:n ]Blutrausch versetzen. Wer die Droge[ST:n ]vertr&#228;gt, verliert jegliche Furcht,[ST:n ]jeder andere verliert sein Leben.</td>
+      </tr>
+      <tr id="559">
+        <td>559</td>
+        <td>
+        </td>
+        <td class="side">Emblem eines ruhmreichen xenoformen[ST:n ]Klans, welcher seine milit&#228;rischen[ST:n ]Errungenschaften mit wehenden Bannern[ST:n ]in die Schlacht trug.</td>
+      </tr>
+      <tr id="560">
+        <td>560</td>
+        <td>
+        </td>
+        <td class="side">Rituelle Krone, die am Sch&#228;del angebracht[ST:n ]wird und sich verengt, bis dieser birst.[ST:n ]Fand Verwendung als Folterwerkzeug zur[ST:n ]Bestrafung Ungl&#228;ubiger.</td>
+      </tr>
+      <tr id="561">
+        <td>561</td>
+        <td>
+        </td>
+        <td class="side">Es hei&#223;t, dieses fl&#252;ssige Metall sei ein[ST:n ]Datentr&#228;ger und enthalte abertausende[ST:n ]Jahre an Information. Leider hat das[ST:n ]mit dem Auslesen bisher nicht geklappt.</td>
+      </tr>
+      <tr id="562">
+        <td>562</td>
+        <td>
+        </td>
+        <td class="side">Ist nicht nur f&#228;hig, das komplette Spektrum[ST:n ]elektromagnetischer Wellen zu erkennen,[ST:n ]sondern eignet sich ebenfalls als Ersatz f&#252;r[ST:n ]Mikroskope und Teleskope.</td>
+      </tr>
+      <tr id="563">
+        <td>563</td>
+        <td>
+        </td>
+        <td class="side">Sieht zwar aus wie eine todbringende[ST:n ]Nahkampfwaffe, wurde aber viel h&#228;ufiger[ST:n ]dazu verwendet, Energieangriffe zu[ST:n ]katalysieren.</td>
+      </tr>
+      <tr id="564">
+        <td>564</td>
+        <td>
+        </td>
+        <td class="side">Wandelt Partikel aus der Atmosph&#228;re in[ST:n ]elektrische Energie um und stellt somit[ST:n ]eine nahezu unersch&#246;pfliche Energiequelle[ST:n ]f&#252;r manche xenoforme Waffensysteme dar.</td>
+      </tr>
+      <tr id="565">
+        <td>565</td>
+        <td>
+        </td>
+        <td class="side">Ein f&#252;r seine enorme Leistungsf&#228;higkeit[ST:n ]erstaunlich kompaktes Ger&#228;t. Mit seiner[ST:n ]Hilfe trotzen selbst schwerste Objekte[ST:n ]m&#252;helos der Schwerkraft.</td>
+      </tr>
+      <tr id="566">
+        <td>566</td>
+        <td>
+        </td>
+        <td class="side">Waffenbruchst&#252;cke, die einmal zu einem[ST:n ]xenoformen Skell geh&#246;rt haben m&#252;ssen.[ST:n ]Extrem stark und gleichzeitig sehr leicht.[ST:n ]Weist eine Art elektrische Ladung auf.</td>
+      </tr>
+      <tr id="567">
+        <td>567</td>
+        <td>
+        </td>
+        <td class="side">Seine Schalttafeln sind mit Alarmleuchten[ST:n ]best&#252;ckt, die Giftstoffe in der Umgebung[ST:n ]anzeigen. Wie das Ger&#228;t funktioniert,[ST:n ]entzieht sich jedoch menschlicher Kenntnis.</td>
+      </tr>
+      <tr id="568">
+        <td>568</td>
+        <td>
+        </td>
+        <td class="side">Ein Pulver von unbekannter molekularer[ST:n ]Struktur. Erh&#246;ht die Konzentrations-[ST:n ]f&#228;higkeit und entspannt die Muskeln.[ST:n ]Entdeckt vom Harrier Boz&#233; Lowes.</td>
+      </tr>
+      <tr id="569">
+        <td>569</td>
+        <td>
+        </td>
+        <td class="side">Ein kugelf&#246;rmiger Kristall mit orangerotem[ST:n ]Schimmer. Benannt von Pathfinder Corwin,[ST:n ]der beim Anblick wehm&#252;tig an die Abend-[ST:n ]d&#228;mmerung in Kalifornien denken musste.</td>
+      </tr>
+      <tr id="570">
+        <td>570</td>
+        <td>
+        </td>
+        <td class="side">Statt der gewohnten Wirklichkeit zeigt das[ST:n ]Illusionsbinokular t&#252;ckische Trugbilder.[ST:n ]Outfitter Camber war der erste, der sich[ST:n ]von ihnen t&#228;uschen lie&#223;.</td>
+      </tr>
+      <tr id="571">
+        <td>571</td>
+        <td>
+        </td>
+        <td class="side">Niemand vermag, die Hieroglyphen auf[ST:n ]diesen Walzen zu entschl&#252;sseln. Clarissa[ST:n ]von den Pathfindern war eine der Ersten,[ST:n ]die daran verzweifelte.</td>
+      </tr>
+      <tr id="572">
+        <td>572</td>
+        <td>
+        </td>
+        <td class="side">Es hei&#223;t, dieser Stein mit dem Antlitz[ST:n ]einer G&#246;ttin vergie&#223;e in Zeiten der Trauer[ST:n ]eine Tr&#228;ne der Anteilnahme. Benannt von[ST:n ]Pathfinder Christopher.</td>
+      </tr>
+      <tr id="573">
+        <td>573</td>
+        <td>
+        </td>
+        <td class="side">Ein in allen Farben des Regenbogens[ST:n ]erstrahlender Magnet, der in seinem Ge-[ST:n ]h&#228;use unaufh&#246;rlich um einen unsichtbaren[ST:n ]Kern kreist. Entdeckt von Curator Jengo.</td>
+      </tr>
+      <tr id="574">
+        <td>574</td>
+        <td>
+        </td>
+        <td class="side">Ein kompaktes Radarsystem, das seinen[ST:n ]unwissenden Nutzer ein ums andere Mal[ST:n ]in die Irre f&#252;hrt. Auch Lara Nara riss bei[ST:n ]der Ortssuche mehrfach der Geduldsfaden.</td>
+      </tr>
+      <tr id="575">
+        <td>575</td>
+        <td>
+        </td>
+        <td class="side">Selbst der minimalste Gewichtsunterschied[ST:n ]bringt diese Waagschalen stark ins[ST:n ]Wanken. Namensgeber Justin dachte dabei[ST:n ]an die Waage der Justitia.</td>
+      </tr>
+      <tr id="576">
+        <td>576</td>
+        <td>
+        </td>
+        <td class="side">Eine metallische Sph&#228;re in magnetischem[ST:n ]Feld. Ihre kontinuierliche Rotation liefert[ST:n ]unaufh&#246;rlich kinetische Energie.[ST:n ]Curatorin May entdeckte diesen Motor.</td>
+      </tr>
+      <tr id="577">
+        <td>577</td>
+        <td>
+        </td>
+        <td class="side">Niemand kann mit Gewissheit sagen, wer[ST:n ]diese G&#246;tzen in Stein gemei&#223;elt hat, doch[ST:n ]sie hinterlassen bei jedem, der ihrer[ST:n ]ansichtig wird, ein Gef&#252;hl tiefer Ehrfurcht.</td>
+      </tr>
+      <tr id="578">
+        <td>578</td>
+        <td>
+        </td>
+        <td class="side">Eine rostzerfressene Eisens&#228;ule, die[ST:n ]dennoch unglaubliche Widerstandskraft[ST:n ]besitzt. Beeindruckte damit auch ihren[ST:n ]Namensgeber, Curator Howard.</td>
+      </tr>
+      <tr id="579">
+        <td>579</td>
+        <td>
+        </td>
+        <td class="side">Sand, der imstande ist, Farbe und[ST:n ]Geschmack zu wechseln. Von salziger[ST:n ]W&#252;rze bis zu s&#252;&#223;lichem Aroma ist f&#252;r[ST:n ]jeden Sand-Connaisseur etwas dabei.</td>
+      </tr>
+      <tr id="580">
+        <td>580</td>
+        <td>
+        </td>
+        <td class="side">Das Juwel strahlt wie der Abendstern.[ST:n ]Synthetisierte Varianten des Edelsteins[ST:n ]sind seit Kurzem in NLA der letzte Schrei.[ST:n ]Benannt von Reclaimerin Nastasha.</td>
+      </tr>
+      <tr id="581">
+        <td>581</td>
+        <td>
+        </td>
+        <td class="side">Dieses freche Exemplar eines Steins &#228;fft[ST:n ]Stimmen nach. Wenn zur Rede gestellt,[ST:n ]verbleibt er jedoch still und ausdruckslos[ST:n ]wie... nun ja, ein Stein eben.</td>
+      </tr>
+      <tr id="582">
+        <td>582</td>
+        <td>
+        </td>
+        <td class="side">Eine Steintafel, die Baupl&#228;ne f&#252;r eine[ST:n ]Art Skell zu enthalten scheint. Benannt von[ST:n ]Tika, die – wie so viele andere auch – an[ST:n ]der Entschl&#252;sselung der Tafel scheiterte.</td>
+      </tr>
+      <tr id="583">
+        <td>583</td>
+        <td>
+        </td>
+        <td class="side">Der transparente Stein birgt das Fossil[ST:n ]eines engels&#228;hnlichen Wesens. Selbst sein[ST:n ]Namensgeber, der Harrier Adelbert,[ST:n ]bekam beim Anblick feuchte Augen.</td>
+      </tr>
+      <tr id="584">
+        <td>584</td>
+        <td>
+        </td>
+        <td class="side">Erzeugt Kristalle, die ein Bewusstsein und[ST:n ]ein Ged&#228;chtnis besitzen. Sie entbehren ob[ST:n ]ihrer Kurzlebigkeit aber jeglichen Nutzens,[ST:n ]was auch Sara–Ariel entt&#228;uschte.</td>
+      </tr>
+      <tr id="585">
+        <td>585</td>
+        <td>
+        </td>
+        <td class="side">Ein mysteri&#246;ses wei&#223;es Salz, dessen[ST:n ]Molekularstruktur einer Doppelhelix &#228;hnelt.[ST:n ]Sieht schmackhaft aus, ist aber hochgiftig,[ST:n ]daher wird vom Verzehr abgeraten.</td>
+      </tr>
+      <tr id="586">
+        <td>586</td>
+        <td>
+        </td>
+        <td class="side">Gr&#252;ner Schimmer im Innern des Gef&#228;&#223;es[ST:n ]weist auf eine exotherme Reaktion hin.[ST:n ]Seit der Entdeckung durch Leland Cole[ST:n ]Gegenstand zahlreicher Experimente.</td>
+      </tr>
+      <tr id="587">
+        <td>587</td>
+        <td>
+        </td>
+        <td class="side">Aus der Schale dieses ungew&#246;hnlichen Eis[ST:n ]sprie&#223;en verschiedenste Blumen. Das Ei[ST:n ]erstrahlt besonders im Fr&#252;hling in bunter[ST:n ]Pracht.</td>
+      </tr>
+      <tr id="588">
+        <td>588</td>
+        <td>
+        </td>
+        <td class="side">Schneewei&#223;e Feder, die anmutig durch die[ST:n ]L&#252;fte Sylvalums gleitet. Ihre Farbe erinnert[ST:n ]an die vornehme Bl&#228;sse einstiger[ST:n ]Adelsdamen. Benannt von Grette.</td>
+      </tr>
+      <tr id="589">
+        <td>589</td>
+        <td>
+        </td>
+        <td class="side">Ein Stalaktit, der in Form einer Schraube[ST:n ]w&#228;chst und auch als solche genutzt wird.[ST:n ]Der Name stammt von Pathfinder Saiden,[ST:n ]der sie zu Reparaturzwecken verwendet.</td>
+      </tr>
+      <tr id="590">
+        <td>590</td>
+        <td>
+        </td>
+        <td class="side">Die schwarze Box enth&#228;lt ein Planetarium,[ST:n ]welches die miranische Galaxie auf nah-[ST:n ]gelegene Oberfl&#228;chen projiziert. Pathfinder[ST:n ]Mondo studierte damit den Sternenhimmel.</td>
+      </tr>
+      <tr id="591">
+        <td>591</td>
+        <td>
+        </td>
+        <td class="side">Wunderliche Funkanlage, die konstant Bot-[ST:n ]schaften aussendet. Inhalt und Ziel dieser[ST:n ]Funkspr&#252;che geben der Wissenschaft und[ST:n ]Namensgeberin Ada weiterhin R&#228;tsel auf.</td>
+      </tr>
+      <tr id="592">
+        <td>592</td>
+        <td>
+        </td>
+        <td class="side">Eine Kette aus ineinander verschlungenen,[ST:n ]unzerst&#246;rbaren Golddreiecken. Curator[ST:n ]Quincy gab ihr den Namen als Symbol f&#252;r[ST:n ]die Bande der Freundschaft.</td>
+      </tr>
+      <tr id="593">
+        <td>593</td>
+        <td>
+        </td>
+        <td class="side">Die sto&#223;d&#228;mpfende Vorrichtung fand wohl[ST:n ]in primitiven Robotern Verwendung. Von[ST:n ]Interceptor Giotto zweckentfremdet – und[ST:n ]der Name ist Programm.</td>
+      </tr>
+      <tr id="594">
+        <td>594</td>
+        <td>
+        </td>
+        <td class="side">Diese Stange diente wohl einst als[ST:n ]Schl&#252;ssel. In Ermangelung eines passenden[ST:n ]Schlosses nutzt Curatorin Mardres sie als[ST:n ]brutale Nahkampfwaffe.</td>
+      </tr>
+      <tr id="595">
+        <td>595</td>
+        <td>
+        </td>
+        <td class="side">Das sprichw&#246;rtliche Fass ohne Boden.[ST:n ]Der Kessel fasst unbegrenzte Mengen an[ST:n ]Fl&#252;ssigkeit, ohne je voll zu werden. Erhielt[ST:n ]den Namen von Prospector Harvey.</td>
+      </tr>
+      <tr id="596">
+        <td>596</td>
+        <td>
+        </td>
+        <td class="side">Diese Rassel ist kein Kinderspielzeug.[ST:n ]Durch Sch&#252;tteln erzeugte Schallwellen[ST:n ]bringen die Erde zum Beben und Geb&#228;ude[ST:n ]zu Fall. Nicht zum Musizieren geeignet.</td>
+      </tr>
+      <tr id="597">
+        <td>597</td>
+        <td>
+        </td>
+        <td class="side">Kunstvoll verziertes Zepter, das vermutlich[ST:n ]f&#252;r zeremonielle Riten diente. B&#246;se Zungen[ST:n ]behaupten, dass sich Namensgeber H. B.[ST:n ]eher selbst f&#252;r elit&#228;r halte.</td>
+      </tr>
+      <tr id="598">
+        <td>598</td>
+        <td>
+        </td>
+        <td class="side">Diese Maske entzieht jedem, der sie[ST:n ]aufsetzt, s&#228;mtliche K&#246;rperfl&#252;ssigkeiten.[ST:n ]Benannt von Outfitterin Alexa, die ihr[ST:n ]um ein Haar zum Opfer fiel.</td>
+      </tr>
+      <tr id="599">
+        <td>599</td>
+        <td>
+        </td>
+        <td class="side">Die Tafel zeigt ein gefl&#252;geltes Ungeheuer[ST:n ]beim Angriff auf ein Dorf. Der Name[ST:n ]zeigt, wie verst&#246;rend Prospectorin[ST:n ]Vera den Anblick des Bildes fand.</td>
+      </tr>
+      <tr id="600">
+        <td>600</td>
+        <td>
+        </td>
+        <td class="side">Durch Witterung und lange Lagerung fast[ST:n ]unlesbar zerfledderte Schriftrolle. &#220;brig[ST:n ]bleiben wenige kunstvolle Zeichnungen von[ST:n ]Giganten aus alten Tagen.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

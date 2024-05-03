@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev012501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0011</td>
+        <td class="side">Chiedi a Peter del lavoro svolto dai Pathfinder.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0021</td>
+        <td class="side">Chiedi a Peter se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0031</td>
+        <td class="side">Chiedi a Peter informazioni riguardo a Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0041</td>
+        <td class="side">Chiedi a Peter informazioni riguardo a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0051</td>
+        <td class="side">Chiedi a Peter dei progressi con[ST:n ]l&#39;espansione di FrontierNav.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0001</td>
+        <td class="side">Cosa c&#39;&#232; adesso? [ST:Gender p1=Un altro ammiratore p2=Un&#39;altra ammiratrice ]?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0003</td>
+        <td class="side">Beh, deduco che sia inevitabile, per un uomo bello[ST:n ]e abile come me, attrarre questo tipo di attenzioni.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0004</td>
+        <td class="side">In ogni caso, cerco sempre di essere gentile con[ST:n ]i miei ammiratori. Per questo risponder&#242; alla tua[ST:n ]domanda sul mio impegno come Pathfinder.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0005</td>
+        <td class="side">Il nostro compito primario &#232; quello di girare per[ST:n ]tutto Mira e installare le sonde dati.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0006</td>
+        <td class="side">Senza i nostri sforzi per espandere FrontierNav grazie[ST:n ]a queste sonde, il BLADE non sarebbe in grado[ST:n ]di progredire con l&#39;esplorazione del pianeta.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0009</td>
+        <td class="side">&#200; per questo che, mano a mano che FrontierNav[ST:n ]si espande, sono disponibili nuove missioni.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0010</td>
+        <td class="side">&#200; il presupposto per ottenere risultati importanti,[ST:n ]come individuare le parti del Centro vitale.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0011</td>
+        <td class="side">&#200; un lavoro duro e pericoloso, ma per il bene[ST:n ]del futuro dell&#39;umanit&#224; qualcuno deve pur farlo![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0014</td>
+        <td class="side">Quello stupido di Bates ha di nuovo installato[ST:n ]la sonda dati nel posto sbagliato![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0015</td>
+        <td class="side">E adesso tocca a me andare l&#224; fuori[ST:n ]e correggere il suo errore. Sono stufo[ST:n ]di avere a che fare con dei dilettanti.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0016</td>
+        <td class="side">Sar&#224; proprio una bella escursione! Ma spero di[ST:n ]trovare Zone inesplorate e Punti panoramici, cos&#236; da[ST:n ]poter brindare ancora allo splendore della natura.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0017</td>
+        <td class="side">Spero che anche tu troverai il tempo di rilassarti[ST:n ]durante le tue missioni. Non c&#39;&#232; motivo[ST:n ]di esaurirsi quando sei l&#224; fuori.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0025</td>
+        <td class="side">C&#39;&#232; un enorme ponte di pietra, conosciuto come[ST:n ]Arco del Titano, nella parte settentrionale di Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0026</td>
+        <td class="side">A quanto pare c&#39;&#232; un sito di installazione per[ST:n ]sonde FrontierNav all&#39;inizio di quell&#39;arco.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0027</td>
+        <td class="side">Ma per raggiungerlo, devi salire dal campo base della[ST:n ]Pianura Aaroy e attraversare gli Archi Gemelli.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0028</td>
+        <td class="side">Quella zona &#232; conosciuta per essere[ST:n ]sotto lo stretto controllo del Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0029</td>
+        <td class="side">Sar&#224; una missione gravosa! Se hai intenzione[ST:n ]d&#39;intraprenderla, assicurati di essere ben [ST:Gender p1=preparato p2=preparata ].[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0044</td>
+        <td class="side">C&#39;&#232; un ponte naturale conosciuto come Grantrivio[ST:n ]nella parte settentrionale di Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0045</td>
+        <td class="side">Da quello puoi arrivare al Quietofiume.[ST:n ]&#200; una zona pericolosa e popolata da molti mostri.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0046</td>
+        <td class="side">Nonostante questo, sembra ci siano molti siti[ST:n ]di installazione per sonde FrontierNav[ST:n ]lungo le sponde di quel fiume.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0047</td>
+        <td class="side">Perch&#233; raggiungere questi siti d&#39;installazione[ST:n ]deve essere sempre una seccatura?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0048</td>
+        <td class="side">I cervelloni che hanno stabilito le posizioni[ST:n ]devono proprio avercela con noi Pathfinder![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0063</td>
+        <td class="side">Grazie al tuo duro lavoro e gli sforzi di noi[ST:n ]Pathfinder, &#232; stato installato un numero[ST:n ]ragguardevole di sonde dati.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0064</td>
+        <td class="side">Proprio come l&#39;America &#232; stata scoperta piano piano[ST:n ]dai colonizzatori, anche le regioni selvagge di Mira[ST:n ]verranno svelate dal nostro lavoro.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0065</td>
+        <td class="side">Quando ci penso mi rattristo, e non solo perch&#233;[ST:n ]ben presto noi Pathfinder rimarremo senza lavoro![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0066</td>
+        <td class="side">Forse dovremmo sfruttare al massimo l&#39;opportunit&#224;[ST:n ]e aprire delle agenzie di viaggi per portare la gente[ST:n ]di Neo L.A. in luoghi semisconosciuti.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev012501_SEL1021</td>
+        <td class="side">Chiedi a Peter quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0010</td>
+        <td class="side">tev012501_JNK0010</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0041</td>
+        <td class="side">tev012501_SEL0041</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0010</td>
+        <td class="side">tev012501_JNK0010</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0051</td>
+        <td class="side">tev012501_SEL0051</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0020</td>
+        <td class="side">tev012501_JNK0020</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0067</td>
+        <td class="side">I miei ringraziamenti pi&#249; sentiti. La tua vittoria su Bates[ST:n ]ha fatto felici sia le mie tasche sia il mio cuore.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0068</td>
+        <td class="side">Mmmh? Mi sembri [ST:Gender p1=confuso p2=confusa ]...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0069</td>
+        <td class="side">Non eri al corrente che i membri della squadra[ST:n ]di Corwin stavano scommettendo sul risultato?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0070</td>
+        <td class="side">Io dico che sta bene per tutti. Bates ne &#232;[ST:n ]uscito vivo, e io ho vinto una bella somma.[ST:n ]Sei [ST:Gender p1=risultato p2=risultata ] davvero utile, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0073</td>
+        <td class="side">Ti devo offrire qualcosa, una volta o l&#39;altra.[ST:n ]Dico sul serio, &#232; il minimo che possa fare.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0010</td>
+        <td class="side">tev012501_JNK0010</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0041</td>
+        <td class="side">Chiedi a Peter informazioni riguardo a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0010</td>
+        <td class="side">tev012501_JNK0010</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0051</td>
+        <td class="side">Chiedi a Peter dei progressi con[ST:n ]l&#39;espansione di FrontierNav.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev012501_JNK0020</td>
+        <td class="side">tev012501_JNK0020</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0071</td>
+        <td class="side">Chiedi a Peter quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0074</td>
+        <td class="side">Perfino lo stoico Capitano Corwin sembra[ST:n ]abbattuto dopo l&#39;ultimo incidente.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0075</td>
+        <td class="side">Mi sono unito a Corwin perch&#233; pensavo[ST:n ]che mi avrebbe condotto in nuovi[ST:n ]e spettacolari luoghi di Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0076</td>
+        <td class="side">Non gli permetter&#242; cos&#236; facilmente di arrendersi[ST:n ]e morire. Abbiamo bisogno di lui[ST:n ]alla guida della squadra![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0079</td>
+        <td class="side">Sono sicuro che la nostra squadra continuer&#224;[ST:n ]a essere in prima linea nell&#39;esplorazione[ST:n ]delle zone sconosciute di Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0082</td>
+        <td class="side">E se ci dovessero attaccare di nuovo,[ST:n ]scapperemo pi&#249; veloci della luce![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev012501_SEL3021</td>
+        <td class="side">Chiedi a Peter quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev012501_SEL0071</td>
+        <td class="side">Chiedi a Peter quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0084</td>
+        <td class="side">La squadra di Corwin non esiste pi&#249;, ma[ST:n ]non dimenticher&#242; mai il nostro prode capitano.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0085</td>
+        <td class="side">L&#39;abbiamo seguito nella scoperta di luoghi spettacolari,[ST:n ]cos&#236; come degli scolaretti seguono il maestro[ST:n ]che fa scoprire loro un nuovo mondo.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0086</td>
+        <td class="side">Grazie a lui, abbiamo visto cose e provato sensazioni[ST:n ]che non avremmo mai potuto nemmeno sognare.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev012501_MSG0089</td>
+        <td class="side">Per questo penso che nessuno, nemmeno Bates,[ST:n ]possa pentirsi di aver fatto parte della sua squadra.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

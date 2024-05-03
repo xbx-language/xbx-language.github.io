@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001891_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0001</td>
+        <td class="side">Boss!? Wa-wa-was machst du denn hier?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001891_JNK0010</td>
+        <td class="side">Fragen</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001891_SEL0011</td>
+        <td class="side">Erkundige dich, wer der Mann neben Mia ist.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001891_JNK0020</td>
+        <td class="side">Einladen</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001891_SEL0021</td>
+        <td class="side">Frage Mia, ob sie mit dir zu Abend essen m&#246;chte.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0002</td>
+        <td class="side">Na, ein Kunde nat&#252;rlich! Sieht man das nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0003</td>
+        <td class="side">Nee, sorry. Geht gerade gar nicht. Ich stecke hier in[ST:n ]einer total professionellen Besprechung mit einem[ST:n ]Kunden. Es geht um eine oberspannende Mission![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0004</td>
+        <td class="side">...Also, deine Einladung ist nat&#252;rlich auch spannend![ST:n ]Aber leider muss ich ablehnen, ich bin einfach zu[ST:n ]gefragt, verstehst du?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0005</td>
+        <td class="side">Und ja, w&#228;r echt lieb, wenn du jetzt wieder wegh&#246;ren[ST:n ]k&#246;nntest. Wir waren gerade dabei, unseren geheimen[ST:n ]Plan durchzukauen.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001891_JNK0030</td>
+        <td class="side">Bedenken &#228;u&#223;ern</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001891_SEL0031</td>
+        <td class="side">Ermahne Mia, sich nicht auf irgendwelche dunklen[ST:n ]Machenschaften einzulassen.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001891_JNK0040</td>
+        <td class="side">Vorwand erfinden</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001891_SEL0041</td>
+        <td class="side">Bitte Mia um ihre Hilfe bei einer vermeintlichen anderen[ST:n ]Mission, damit sie das Interesse an dieser hier verliert.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001891_JNK0050</td>
+        <td class="side">Hilfe anbieten</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001891_SEL0051</td>
+        <td class="side">Biete Mia an, sie bei ihrer Mission zu begleiten.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0006</td>
+        <td class="side">Oh! Keine Panik. Dieses Treffen hier kam jetzt zwar[ST:n ]vielleicht ein bisschen zwielichtig r&#252;ber, aber die[ST:n ]Mission wird volle Kanne normal. Kein Problem f&#252;r Mia![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0007</td>
+        <td class="side">Vergiss nicht, dass ich jetzt eine richtige, echte BLADE[ST:n ]bin. Keine Mission dieser Welt kann mich jetzt noch[ST:n ]das F&#252;rchten lehren![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0008</td>
+        <td class="side">Also h&#246;r auf, dir Sorgen zu machen. Oder war das[ST:n ]gerade dein Versuch, bei der Mission einzusteigen? Und[ST:n ]dann am Ende einen Teil der Belohnung abzustauben?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0009</td>
+        <td class="side">Sorry, Boss, das kannst du dir gleich abschminken.[ST:n ]Diese Mission erledige ich allein. ...Hepp! Kein Aber![ST:n ]Ich wei&#223;, ich bin niedlich und besch&#252;tzenswert![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0010</td>
+        <td class="side">Wenn du mir st&#228;ndig das H&#228;ndchen h&#228;ltst, schadest du[ST:n ]meinen Ruf als Profi. Also halt deine Hilfsbereitschaft im[ST:n ]Zaum, auch wenn’s schwerf&#228;llt, ja? Dankeee![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0011</td>
+        <td class="side">Wow! Ich f&#252;hl mich ja geehrt, dass du mich unbedingt[ST:n ]abwerben willst, Boss![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0012</td>
+        <td class="side">Aber ich muss dir leider einen Korb geben.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0013</td>
+        <td class="side">Au&#223;erdem wei&#223; ich ganz genau, dass du dir[ST:n ]das gerade nur ausgedacht hast, du Schlingel.[ST:n ]Du hast gar keine Mission f&#252;r mich.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0014</td>
+        <td class="side">Sorry, aber ich bin gerade zu besch&#228;ftigt mit meiner[ST:n ]ECHTEN Mission und hab einfach keine Zeit f&#252;r deine[ST:n ]erfundene.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0015</td>
+        <td class="side">Also lass die Manipulationsversuche, ja, Boss? Ich wei&#223;[ST:n ]ja, ich bin niedlich und besch&#252;tzenswert und alles.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0016</td>
+        <td class="side">Aber vergiss nicht, dass ich jetzt eine richtige, echte[ST:n ]BLADE bin. Keine Mission dieser Welt ist jetzt mehr zu[ST:n ]schwer f&#252;r mich! Wirst schon sehen![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0017</td>
+        <td class="side">N&#246;. Da muss ich dir leider einen Korb geben, Boss![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0018</td>
+        <td class="side">Du wolltest doch bestimmt nur mitmachen und dann[ST:n ]einen Teil der Belohnung abstauben, gib’s zu, du[ST:n ]Schlitzohr.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0019</td>
+        <td class="side">Sorry, Boss, das kannst du dir gleich abschminken.[ST:n ]Diese Mission erledige ich allein. ...Hepp! Kein Aber![ST:n ]Ich wei&#223;, ich bin niedlich und besch&#252;tzenswert![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0020</td>
+        <td class="side">Und ich geb ja zu, dass dieses Treffen hier jetzt[ST:n ]vielleicht ein bisschen zwielichtig r&#252;berkam, aber die[ST:n ]Mission wird total easy. Kein Problem f&#252;r Mia![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0021</td>
+        <td class="side">Ein ganz normales Missi&#246;nchen. Noch nicht mal[ST:n ]die Belohnung ist wirklich der Bringer.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0022</td>
+        <td class="side">Vergiss nicht, dass ich jetzt eine richtige, echte BLADE[ST:n ]bin. Keine Mission dieser Welt kann mich jetzt noch[ST:n ]das F&#252;rchten lehren![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001891_MSG0023</td>
+        <td class="side">Wenn du mir st&#228;ndig das H&#228;ndchen h&#228;ltst, schadest du[ST:n ]meinen Ruf als Profi. Also halt deine Hilfsbereitschaft im[ST:n ]Zaum, auch wenn’s schwerf&#228;llt, ja? Dankeee![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

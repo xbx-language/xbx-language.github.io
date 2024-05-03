@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015102_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0001</td>
+        <td class="side">Somos gemelos. Yo soy el mayor, Lara Nara.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0002</td>
+        <td class="side">Y yo el peque&#241;o, Lara Mara.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0003</td>
+        <td class="side">Somos... &#161;los apuestos hermanos Mediator![ST:n ]&#191;Qu&#233;? Ya te lo imaginabas, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015102_JNK0010</td>
+        <td class="side">Asentir</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015102_SEL0011</td>
+        <td class="side">Diles que s&#237;, que claro que te lo imaginabas.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015102_JNK0020</td>
+        <td class="side">Negar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015102_SEL0021</td>
+        <td class="side">Diles que no, que nunca lo habr&#237;as imaginado.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0004</td>
+        <td class="side">&#161;Bien hecho! Y como premio te has ganado...[ST:n ]&#161;un abrazo! &#161;Ven a por &#233;l, [ST:Gender p1=muchacho p2=muchacha ]![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0007</td>
+        <td class="side">&#161;Aj&#225;! &#161;Entonces te hemos sorprendido! Pero lo siento[ST:n ]si te hemos asustado. &#161;Ven, que te doy un abrazo[ST:n ]para compensarlo![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0010</td>
+        <td class="side">&#161;Venga! &#161;Deja las tonter&#237;as para luego! En fin...[ST:n ]Como ves, nos llevamos estupendamente...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0011</td>
+        <td class="side">Te prometo que nuestra intenci&#243;n no era enga&#241;arte.[ST:n ]Si te hemos pillado por sorpresa, lo sentimos.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0014</td>
+        <td class="side">&#161;Ha sido fascinante verte crecer y convertirte en [ST:Gender p1=todo p2=toda ][ST:n ][ST:Gender p1=un hombre p2=una mujer ]! Estaremos en el barrac&#243;n esta noche...[ST:n ]Tal vez podr&#237;as dejarte caer por nuestra habitaci&#243;n...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0015</td>
+        <td class="side">&#161;Ya vale! Cuando por fin encuentres a la persona de[ST:n ]tus sue&#241;os, te arrepentir&#225;s de haberte comportado as&#237;.[ST:n ]No le hagas caso, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0016</td>
+        <td class="side">Para ti es f&#225;cil decirlo, Nara: &#161;t&#250; ya has encontrado[ST:n ]al hombre de tus sue&#241;os! No te acuerdas de lo que[ST:n ]es desear el calor del contacto humano...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0019</td>
+        <td class="side">&#161;Verte crecer ha sido fascinante![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0020</td>
+        <td class="side">Ahora eres m&#225;s fuerte que cualquier hombre de NLA.[ST:n ]Yo te nombro... &#161;machote de BLADE![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0021</td>
+        <td class="side">&#161;Nara! &#161;A ninguna mujer le gusta que la llamen as&#237;![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015102_MSG0022</td>
+        <td class="side">&#191;En serio? Pues a m&#237; me parece un apodo muy guay...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

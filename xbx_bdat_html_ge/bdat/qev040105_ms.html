@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev040105_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0001</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] ist bestimmt hier, um Gesch&#228;fte mit[ST:n ]Drongo-Karawane zu machen.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0002</td>
+        <td class="side">Hmmm? [ST:Gender p1=Freund p2=Freundin ] sucht nach Lana? Ist Schwesterpon[ST:n ]von Nalu. Kleines Schwesterpon mit riesengro&#223;er[ST:n ]Pers&#246;nlichkeit.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0003</td>
+        <td class="side">Lana wollte herkommen, aber Nalu hat noch nicht[ST:n ]gesehen.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0004</td>
+        <td class="side">Fiese Ganglion sind auch in Gegend unterwegs.[ST:n ]Nalu macht sich gro&#223;e Sorgen.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0005</td>
+        <td class="side">Nalu dachte, Lana f&#252;hrt sch&#246;nes Leben mit Bubu.[ST:n ]Hat aber jetzt neuen Nopon in Schlepptau.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0006</td>
+        <td class="side">Nalu liebt Schwesterpon, aber Lana macht auch[ST:n ]f&#252;rchterviel Kummer.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0007</td>
+        <td class="side">Lana ist schwanger? ...Wirklich?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0008</td>
+        <td class="side">Nein. Nalu glaubt nicht. Ist bestimmt Trick von[ST:n ]Lana. Hat sich schon viel einfallen lassen, um[ST:n ]Ziele zu erreichen.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0009</td>
+        <td class="side">Nalu entschuldigt sich f&#252;r verr&#252;cktes kleines[ST:n ]Schwesterpon. Sorgt aber auch daf&#252;r, dass[ST:n ]Walolo fiesen Einfluss auf Lana teuer bez...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0010</td>
+        <td class="side">&#196;h, Nalu meint: Wird Walolo Trauerhilfe wegen[ST:n ]verlorenem, falschem Jungpon anbieten. [ST:Gender p1=Freund p2=Freundin ][ST:n ]muss sich keine Sorgen machen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0011</td>
+        <td class="side">Ist [ST:Gender p1=Freund p2=Freundin ] blind oder will nicht verstehen? Ist ganz[ST:n ]klar Puppe. Hat sogar furchtbar schlampige N&#228;hte![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev040105_MSG0012</td>
+        <td class="side">Nalu wei&#223; nicht, ob Schwesterpon peinlich oder[ST:n ]gruselig ist. Oder beneidenswert? Vielleicht sollte Nalu[ST:n ]auch probieren... &#196;h, Nalu macht nur Spa&#223;. Hahaha![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

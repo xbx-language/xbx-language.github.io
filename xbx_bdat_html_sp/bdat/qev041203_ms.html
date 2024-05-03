@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041203_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0001</td>
+        <td class="side">&#161;Fiuu! Aqu&#237; deber&#237;a bastar.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0002</td>
+        <td class="side">Prone en puerta solo dijo \&quot;dentro\&quot;,[ST:n ]as&#237; que aqu&#237; debe de valer.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0003</td>
+        <td class="side">Estar rodeado de esta manera da algo de miedo,[ST:n ]pero alguien tiene que entregar cargamento.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0004</td>
+        <td class="side">&#161;Entrega completada! &#161;Siguiente parada, casa![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0005</td>
+        <td class="side">Alto.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0006</td>
+        <td class="side">Cliente no aprob&#243; mercanc&#237;a a&#250;n.[ST:n ]Eres mal comerciante.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0007</td>
+        <td class="side">&#191;Que qu&#233;?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0008</td>
+        <td class="side">&#161;Aaah! &#161;L-lo siento, amigo![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0009</td>
+        <td class="side">Mumun no vio a nadie con pinta de jefe,[ST:n ]as&#237; que volv&#237;a a puerta a buscar a alguien.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0010</td>
+        <td class="side">Yo soy jefe. Yo reviso mercanc&#237;a. T&#250; espera.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0011</td>
+        <td class="side">&#161;Bah! &#161;Enga&#241;o! &#161;Esto es enga&#241;o![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0012</td>
+        <td class="side">Eem, &#191;algo va mal, amigo?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0013</td>
+        <td class="side">&#161;No soy amigo! &#161;Eres tramposo![ST:n ]&#161;Encargo triple pedido! &#161;&#191;D&#243;nde est&#225; resto?![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0014</td>
+        <td class="side">&#161;&#191;Qu&#233;ee?! &#161;Mumun nunca oye nada[ST:n ]de pedido tan grande![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0015</td>
+        <td class="side">&#161;Silencio![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0016</td>
+        <td class="side">Eres mal comerciante.[ST:n ]Ahora mis hombres pasan hambre.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0017</td>
+        <td class="side">Prones con hambre trabajan mal.[ST:n ]&#161;Este error me costar&#225; fortuna![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0018</td>
+        <td class="side">Vas a arreglar esto, peque&#241;o tramposo.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0019</td>
+        <td class="side">&#161;Aaah! B-bueno, pues entonces me llevo este[ST:n ]cargamento, verifico el pedido y vuelvo con...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0020</td>
+        <td class="side">&#161;Arr&#233;glalo ahora![ST:n ]O cobro diferencia en carne nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0021</td>
+        <td class="side">&#161;Jua, ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0022</td>
+        <td class="side">&#161;&#161;Aaaaaaah!![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0023</td>
+        <td class="side">Ejem... Mumun cree que este[ST:n ]es momento de gloria de [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0024</td>
+        <td class="side">&#161;Protege a Mumun! Pero de manera[ST:n ]profesional y pac&#237;fica, para salvar negocio.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0025</td>
+        <td class="side">&#161;Negocia! &#161;Arr&#233;glalo todo![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0026</td>
+        <td class="side">Para eso precisamente trajo Mumun a [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0027</td>
+        <td class="side">Y ha llegado hora de que [ST:Gender p1=amigo p2=amiga ] se gane dinero[ST:n ]que Mumun t&#233;cnicamente nunca prometi&#243; pagar.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev041203_JNK0010</td>
+        <td class="side">Ceder</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev041203_SEL0011</td>
+        <td class="side">Ofrece recuperar los art&#237;culos restantes.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev041203_JNK0020</td>
+        <td class="side">Luchar</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev041203_SEL0021</td>
+        <td class="side">Arregla la situaci&#243;n por la fuerza.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0028</td>
+        <td class="side">&#191;[ST:Gender p1=Amigo p2=Amiga ] lo dice en serio? Eso son catorce kiwevos m&#225;s,[ST:n ]de acuerdo con rid&#237;culas exigencias de prones.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0029</td>
+        <td class="side">Recoger kiwevos es como enorme grano en posaderas,[ST:n ]y Mumun no va a pagar extra por ese trabajo.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0030</td>
+        <td class="side">&#191;Cree realmente [ST:Gender p1=amigo p2=amiga ] que deber&#237;amos[ST:n ]hacerlo, igualmente?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0031</td>
+        <td class="side">Supongo que es &#250;nica manera de que Mumun[ST:n ]salga de aqu&#237; sin convertirse en primer plato...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0032</td>
+        <td class="side">&#161;Muy bien! &#161;Mumun y [ST:Gender p1=amigo p2=amiga ] ir&#225;n a buscar kiwevos![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0033</td>
+        <td class="side">&#161;[ST:Gender p1=Amigo p2=Amiga ] no pensar&#225; enfrentarse a todos ellos a la vez![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0034</td>
+        <td class="side">&#161;Insensatez! &#161;Locura! &#161;Cero por ciento[ST:n ]de posibilidades de supervivencia![ST:n ]Mumun no se hace responsable de este plan.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0035</td>
+        <td class="side">&#191;[ST:Gender p1=Amigo p2=Amiga ] sigue en sus trece?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0036</td>
+        <td class="side">Est&#225; bien.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0037</td>
+        <td class="side">Mumun se esconder&#225; en esquina y se mantendr&#225;[ST:n ]leeejos de repentinamente [ST:Gender p1=enajenado amigo p2=enajenada amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0065</td>
+        <td class="side">&#191;A&#250;n no los tienes? &#161;Aaaaarg! &#161;Tenemos hambre![ST:n ]&#161;Trae catorce kiwevos o nopon pagar&#225;![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0066</td>
+        <td class="side">Igual comemos alien&#237;gena terrestre tambi&#233;n. &#161;Vete ya![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0038</td>
+        <td class="side">&#191;Por fin de vuelta?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0039</td>
+        <td class="side">&#161;S-siempre un placer ver mejores clientes de Mumun![ST:n ]Eeeem...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0040</td>
+        <td class="side">&#161;Silencio! &#191;Traes mercanc&#237;a o no?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0041</td>
+        <td class="side">No est&#225; mal... Esto alimentar&#225;[ST:n ]a prones una temporada.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0042</td>
+        <td class="side">&#161;S&#237;, lo cual es fant&#225;stico! Ahora hablemos[ST:n ]sobre embolso de diferencia de precio...[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0043</td>
+        <td class="side">&#191;Diferencia? &#161;Tonter&#237;as![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0044</td>
+        <td class="side">Trajiste muy poco. Eres tramposo.[ST:n ]No hay diferencia. No debo nada.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0045</td>
+        <td class="side">P-pero &#161;entra en raz&#243;n! &#161;Encontrar esos kiwevos[ST:n ]casi mata a pobre Mumun![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0046</td>
+        <td class="side">Pues haz pedido bien pr&#243;xima vez.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0047</td>
+        <td class="side">Todav&#237;a tienes vida, tramposo. Da gracias.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0048</td>
+        <td class="side">&#209;... &#209;&#241;&#241;... &#161;&#209;aaaarg![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0049</td>
+        <td class="side">&#161;Mumun furioso ahora! &#161;Esta es &#250;ltima vez[ST:n ]que Mumun hace negocios aqu&#237;![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0050</td>
+        <td class="side">Esto es estafa, &#161;y Mumun no tolera un minuto m&#225;s![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0051</td>
+        <td class="side">Peque&#241;o tramposo se arrepentir&#225;.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0052</td>
+        <td class="side">&#161;El d&#237;a que comerciante deja a cliente salirse[ST:n ]con la suya, carrera de comerciante acabada![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0053</td>
+        <td class="side">&#191;No vendes? &#191;Seguro?[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0054</td>
+        <td class="side">&#161;Extremadamente seguro![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0055</td>
+        <td class="side">Entonces tomamos por fuerza. Saqueamos tu caravana.[ST:n ]Cogemos lo que queremos.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0056</td>
+        <td class="side">&#161;&#191;Qu&#233;eee?![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0057</td>
+        <td class="side">T&#250; no vendes. No tenemos elecci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0058</td>
+        <td class="side">Mmffff...[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0059</td>
+        <td class="side">Aaaaarg...[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0060</td>
+        <td class="side">&#161;Oh, jo, jo, ja, ja! &#161;Uf, uf![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0061</td>
+        <td class="side">&#161;Bromeando! Mumun estaba bromeando.[ST:n ]Por supuesto que Mumun quiere seguir[ST:n ]vendiendo a mejores amigos prones.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0062</td>
+        <td class="side">Bien.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0063</td>
+        <td class="side">Mumun aguarda impaciente pr&#243;ximo pedido[ST:n ]de amigos. M-muy agradecido por estupenda[ST:n ]transacci&#243;n de hoy.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev041203_MSG0064</td>
+        <td class="side">&#161;Oh, jo, jo, ja, ja! &#161;Uf, uf, uuuf![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

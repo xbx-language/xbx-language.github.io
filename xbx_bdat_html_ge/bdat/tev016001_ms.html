@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev016001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0011</td>
+        <td class="side">Erkundige dich bei Bernat &#252;ber[ST:n ]die Arbeiter im Industriegebiet.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0020</td>
+        <td class="side">Unterhalten[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0021</td>
+        <td class="side">Frage Bernat, ob er interessante[ST:n ]Ger&#252;chte aufgeschnappt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0010</td>
+        <td class="side">tev016001_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0031</td>
+        <td class="side">Erkundige dich bei Bernat &#252;ber[ST:n ]die k&#252;rzlich entdeckten Xenoformen.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0020</td>
+        <td class="side">tev016001_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0021</td>
+        <td class="side">tev016001_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0010</td>
+        <td class="side">tev016001_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0051</td>
+        <td class="side">Frage Bernat nach seiner Meinung zu[ST:n ]den Xenoformen, die in NLA leben.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0020</td>
+        <td class="side">tev016001_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0021</td>
+        <td class="side">tev016001_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0010</td>
+        <td class="side">tev016001_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0071</td>
+        <td class="side">Frage Bernat, wie der Krieg vorangeht.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev016001_JNK0020</td>
+        <td class="side">tev016001_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev016001_SEL0021</td>
+        <td class="side">tev016001_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev016002_SEL1021</td>
+        <td class="side">Frage Bernat, was sich in letzter Zeit so getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0001</td>
+        <td class="side">Die meisten Jungspunde, die k&#246;rperlich fit sind, werden[ST:n ]als BLADEs rekrutiert.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0002</td>
+        <td class="side">Daher gibt es im Bausektor nat&#252;rlich erheblichen[ST:n ]Personalmangel.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0003</td>
+        <td class="side">Als wir geh&#246;rt haben, dass man zehn neue &#220;berlebende[ST:n ]gefunden hat, hofften wir, dass sie die uns zuteilen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0004</td>
+        <td class="side">Aber au&#223;er dir haben wir noch keinen der anderen zu[ST:n ]Gesicht bekommen. Was zur H&#246;lle ist da los?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0005</td>
+        <td class="side">Wie dem auch sei, solltest du irgendwann von BLADE[ST:n ]die Schnauze voll haben, bist du bei uns herzlich[ST:n ]willkommen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0006</td>
+        <td class="side">Du k&#246;nntest uns dabei helfen, durch gute, ehrliche[ST:n ]Arbeit das Industriegebiet von morgen zu bauen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0010</td>
+        <td class="side">Zus&#228;tzlich zu den Wrackteilen des Wei&#223;en Wals gibt[ST:n ]es auf Mira viele mysteri&#246;se Bauten, in denen uralte und[ST:n ]seltsame Relikte gefunden werden k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0011</td>
+        <td class="side">Sogar in nat&#252;rlichen Beh&#228;ltnissen kann man wertvolle[ST:n ]Gegenst&#228;nde finden. Aber wie alle gut versteckten[ST:n ]Sch&#228;tze sind sie mit diversen Mechanismen gesichert.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0012</td>
+        <td class="side">Um die zu knacken, muss man seinen BLADE-Level und[ST:n ]damit auch sein mechanisches, arch&#228;ologisches und[ST:n ]biologisches Spezialwissen erh&#246;hen.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0013</td>
+        <td class="side">Vor dem Missionsterminal steht eine Frau, die dir[ST:n ]mehr dar&#252;ber erz&#228;hlen kann.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0014</td>
+        <td class="side">W&#228;re doch wirklich schade, wenn du einen weiten Weg[ST:n ]auf dich nimmst, nur um vor einem gesicherten Schatz[ST:n ]zu stehen und ihn nicht bergen zu k&#246;nnen, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0021</td>
+        <td class="side">Meinst du diese Prone? Mir kam zu Ohren, dass die[ST:n ]schon einige BLADEs auf dem Gewissen haben.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0022</td>
+        <td class="side">Abh&#228;ngig davon, wie sich die Dinge entwickeln, k&#246;nnte[ST:n ]es passieren, dass wir gegen sie in den Krieg ziehen[ST:n ]m&#252;ssen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0023</td>
+        <td class="side">Erst landen wir uneingeladen auf einem fremden[ST:n ]Planeten und dann fangen wir auch noch an, diesen[ST:n ]zu erobern. Ironie des Schicksals, was?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0024</td>
+        <td class="side">Ein schrecklicher Gedanke. Aber wir m&#252;ssen tun, was[ST:n ]wir tun m&#252;ssen. Schlie&#223;lich ist Mira alles, was uns noch[ST:n ]geblieben ist.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0025</td>
+        <td class="side">Und wenn sie uns noch so sehr von ihrem Planten[ST:n ]vertreiben wollen: Wir m&#252;ssen um Mira k&#228;mpfen![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0040</td>
+        <td class="side">Du sagst „Xenoforme“ und ich muss sofort an diese[ST:n ]Drecks&#228;cke denken, die die Erde zerst&#246;rt haben. Ich[ST:n ]dachte wirklich, die w&#228;ren alle so.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0041</td>
+        <td class="side">Aber es hat sich gezeigt, dass die Xenos, die in die[ST:n ]Stadt kamen... Na ja, sie sind schon ein wenig seltsam,[ST:n ]aber eigentlich ganz in Ordnung.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0042</td>
+        <td class="side">Da wir im Laufe der Zeit so viele BLADEs verloren[ST:n ]haben, ist es recht still in der Stadt geworden. Jetzt[ST:n ]kommt wenigstens wieder ein wenig Leben in die Bude![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0057</td>
+        <td class="side">Viele BLADEs sind im Kugelhagel der Ganglion gefallen.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0058</td>
+        <td class="side">Klar, wir k&#246;nnen sie zur&#252;ckholen, wenn wir den[ST:n ]Lebensspeicher finden...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0059</td>
+        <td class="side">...Allerdings ist es nicht sicher, DASS wir ihn finden,[ST:n ]bevor der Rest von uns ins Gras bei&#223;t.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0060</td>
+        <td class="side">Wenn es so weit ist, werde ich k&#228;mpfend in meinem[ST:n ]Mimoiden untergehen, das schw&#246;re ich.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev016001_MSG0061</td>
+        <td class="side">Gib mir Bescheid, wenn alles ausweglos erscheint, ja?[ST:n ]Dann lass ich am Bau alles stehen und liegen und st&#252;rz[ST:n ]mich direkt in den Kampf![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev016001_MSG1001</td>
+        <td class="side">Wir haben die Bauarbeiten wieder aufgenommen.[ST:n ]Das bedeutet, dass ich mich um meinen Job[ST:n ]k&#252;mmern und zus&#228;tzlich Rock einarbeiten muss.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev016001_MSG1002</td>
+        <td class="side">Er scheint fest vorzuhaben, f&#252;r Celica und sich ein Haus[ST:n ]zu bauen, wenn er erst mal wei&#223;, wie so was geht.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev016001_MSG1003</td>
+        <td class="side">Ich muss sagen, er stellt sich nicht dumm an und lernt[ST:n ]schnell. Wenn er weiter so hart arbeitet, wird aus ihm[ST:n ]mal ein guter Bauarbeiter.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev016001_MSG1004</td>
+        <td class="side">Das kann aber noch ein Weilchen dauern. Ryo m&#246;chte,[ST:n ]dass ich Rock zeige, wie man einen brauchbaren[ST:n ]Bauplan anfertigt.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev016001_MSG1005</td>
+        <td class="side">Sobald er das draufhat, werden wir ihn alle beim Bau[ST:n ]seines Zuhauses unterst&#252;tzen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev046001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev046001_JNK0010</td>
+        <td class="side">Erkundigen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev046001_SEL0011</td>
+        <td class="side">Frage Lavina, was sie von den Menschen h&#228;lt.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev046001_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev046001_SEL0021</td>
+        <td class="side">Frage Lavina, was es Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev046001_SEL0031</td>
+        <td class="side">Sprich mit Lavina &#252;ber den Weg der Prone.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev046001_SEL1021</td>
+        <td class="side">Frage Lavina, was sich in[ST:n ]letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev046001_SEL2021</td>
+        <td class="side">Frage Lavina, was sich in[ST:n ]letzter Zeit so getan hat.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0001</td>
+        <td class="side">Ihr seid klein und stummelig.[ST:n ]Dennoch seid ihr stark.[ST:n ]Ihr seid weise und ehrlich.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0002</td>
+        <td class="side">Erdlinge haben uns vor Ganglion gerettet.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0003</td>
+        <td class="side">Ihr habt komische K&#246;rper.[ST:n ]K&#246;rper aus Metall.[ST:n ]Manche Prone m&#246;gen das nicht.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0004</td>
+        <td class="side">Aber ich wei&#223;: Ihr habt gute Seelen.[ST:n ]Trotz eurer K&#246;rper.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0005</td>
+        <td class="side">Wenn ihr Hilfe braucht? Prone werden helfen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0008</td>
+        <td class="side">Ich bin verliebt, Erdling.[ST:n ]Dieser Mann hat mein Herz gestohlen.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0009</td>
+        <td class="side">Ich traf Leroy am Strand.[ST:n ]Ich wusste es sofort: Ich will sein Weib sein.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0010</td>
+        <td class="side">Solche Gef&#252;hle hatte ich f&#252;r einen Prone noch nie.[ST:n ]Es ist seltsam.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0011</td>
+        <td class="side">Doch ich habe Angst.[ST:n ]Was wird Vater sagen?[ST:n ]Sein Denken ist alt.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0012</td>
+        <td class="side">Und doch. Liebe hat mich ergriffen.[ST:n ]Ich muss ihr gehorchen.[ST:n ]Kennst du das Gef&#252;hl, Erdling?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0025</td>
+        <td class="side">Ich wuchs als Gefangene der Ganglion auf.[ST:n ]Ich wei&#223; wenig &#252;ber Tormein.[ST:n ]Es ist die Heimat, von der Vater spricht.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0026</td>
+        <td class="side">Dennoch will ich den Weg der Prone erlernen.[ST:n ]Ich will unsere Traditionen kennen.[ST:n ]Ich will bereit sein, wenn wir zur&#252;ckkehren.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0027</td>
+        <td class="side">Manche Prone sagen: Wir brauchen die alten Wege[ST:n ]nicht mehr. Wir sollten sie vergessen. Wir sind jetzt[ST:n ]in der Erdling-Stadt.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0028</td>
+        <td class="side">Aber was wir vergessen, verlieren wir.[ST:n ]Ich will nicht vergessen.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0013</td>
+        <td class="side">Du halfst mir, Erdling. Meine Verbindung zu Wazdo[ST:n ]ist gel&#246;st. Ich heiratete den Mann, den ich liebe.[ST:n ]Danke, Erdling.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0014</td>
+        <td class="side">Vater mag Leroy.[ST:n ]Auch wenn er es nicht zugibt.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0015</td>
+        <td class="side">Ich bin so froh.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0016</td>
+        <td class="side">Ich liebe Leroy. Ich liebe auch Vater.[ST:n ]Ich musste mich nicht f&#252;r einen entscheiden.[ST:n ]Das ist gut.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0017</td>
+        <td class="side">Ich habe nachgedacht.[ST:n ]&#220;ber Leroy und Vater.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0018</td>
+        <td class="side">Ich war bereit, Leroy zu heiraten.[ST:n ]Auch ohne Erlaubnis.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0019</td>
+        <td class="side">Aber werde ich gl&#252;cklich sein?[ST:n ]Ich m&#246;chte, dass Vater uns akzeptiert.[ST:n ]Ich m&#246;chte eine gl&#252;ckliche Familie.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0020</td>
+        <td class="side">Vater gibt Leroy und mir eine Chance.[ST:n ]Leroy wird ihn nicht entt&#228;uschen. Ich wei&#223; es.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0021</td>
+        <td class="side">Ich werde warten.[ST:n ]Egal, wie lange es dauert.[ST:n ]Alles wird gut.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

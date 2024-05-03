@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev013202_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0002</td>
+        <td class="side">&#161;Aaaaah! &#161;El S-Skell negro![ST:n ]&#161;Est&#225;s con el Skell negro![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev013202_JNK0010</td>
+        <td class="side">Tranquilizar</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev013202_SEL0011</td>
+        <td class="side">Dile a Bates que no tiene nada que temer.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev013202_JNK0020</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev013202_SEL0021</td>
+        <td class="side">Pregunta acerca del Skell negro.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0004</td>
+        <td class="side">Oh. &#191;Eres t&#250;, [ST:playername ]?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0005</td>
+        <td class="side">&#191;Te ha enviado Corwin a ayudarme?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0006</td>
+        <td class="side">El Skell negro es... No, esa cosa no es un Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0007</td>
+        <td class="side">&#161;Es una pesadilla mec&#225;nica! &#161;Un demonio![ST:n ]&#161;No hay nada en este mundo que se mueva as&#237;![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0008</td>
+        <td class="side">&#161;Aaaah! &#161;Ya viene! &#161;Viene a por todos![ST:n ]Tenemos que...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0009</td>
+        <td class="side">Espera un momento... Buf...[ST:n ]&#191;Es...?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0010</td>
+        <td class="side">&#191;Eres t&#250;, [ST:playername ]?[ST:n ]&#191;Has venido a salvarme?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0011</td>
+        <td class="side">Oh, &#161;gracias al cielo mir&#225;queo! Los esbirros[ST:n ]del Skell negro est&#225;n por todas partes.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0012</td>
+        <td class="side">Incluso si lograse que me dejaran de temblar[ST:n ]las piernas, no sobrevivir&#237;a sin un Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0013</td>
+        <td class="side">Lo siento, pero no creo que pueda luchar...[ST:n ]Es verlos y que me vengan recuerdos de todo lo que...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0014</td>
+        <td class="side">Por favor, tienes que destruir a los esbirros[ST:n ]de ese monstruo. &#161;Borra a esas cosas del mapa![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0015</td>
+        <td class="side">Si haces eso, creo que podr&#233; volver a NLA.[ST:n ]Yo... tan solo quiero estar en alg&#250;n lugar seguro.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0016</td>
+        <td class="side">No quer&#237;a que me vieras as&#237;. Pero...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0017</td>
+        <td class="side">&#161;Estoy asustado! &#191;vale? Cada vez que cierro los ojos[ST:n ]veo a ese monstruo negro.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0018</td>
+        <td class="side">Por favor, te lo ruego...[ST:n ]&#161;acaba con los esbirros de esa cosa![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0019</td>
+        <td class="side">&#191;Se han... se han ido ya?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev013202_JNK0030</td>
+        <td class="side">Tranquilizar</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev013202_SEL0031</td>
+        <td class="side">Dile a Bates que el &#225;rea est&#225; despejada.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev013202_JNK0040</td>
+        <td class="side">Advertir</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev013202_SEL0041</td>
+        <td class="side">Dile a Bates que tenga cuidado[ST:n ]por si sale el Skell negro.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0020</td>
+        <td class="side">Gracias. Ya estoy m&#225;s calmado.[ST:n ]Oye, tienes algo que transmite seguridad.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0021</td>
+        <td class="side">Bueno... Creo que ya puedo irme a casa.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0022</td>
+        <td class="side">Y cuanto antes, mejor.[ST:n ]&#161;No quiero quedarme aqu&#237; ni un segundo m&#225;s![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0023</td>
+        <td class="side">&#161;&#191;Qu&#233;?! &#191;D&#243;nde est&#225;? Es...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0024</td>
+        <td class="side">Ah, &#191;Ya se ha ido? Menos mal.[ST:n ]Pero tienes raz&#243;n. No me puedo relajar a&#250;n.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0025</td>
+        <td class="side">Tenemos que volver a casa mientras podamos.[ST:n ]Si esa cosa vuelve, &#161;estamos perdidos![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0026</td>
+        <td class="side">Bueno, [ST:playername ]. Me voy.[ST:n ]Te debo la vida. Muchas gracias. De verdad.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0027</td>
+        <td class="side">Ja... Si el jefe me viera as&#237;...[ST:n ]Me llevar&#237;a algo m&#225;s que un tir&#243;n de orejas...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0028</td>
+        <td class="side">El jefe me solt&#243; una buena. Me dijo que era[ST:n ]un cobarde por amilanarme por algo as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0029</td>
+        <td class="side">Me ayud&#243; a calmarme un poco,[ST:n ]pero a&#250;n tiemblo al recordar lo que pas&#243;.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev013202_MSG0030</td>
+        <td class="side">Tengo que superar esto. Volver a la l&#237;nea de batalla[ST:n ]y &#161;ayudar a Corwin y al resto del equipo a labrarnos[ST:n ]un futuro seguro aqu&#237; en Mira![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

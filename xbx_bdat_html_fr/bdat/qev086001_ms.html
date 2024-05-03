@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev086001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0001</td>
+        <td class="side">Quoi va pas, Linly ? Tatsu entend pas[ST:n ]Linly cuisiner.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0002</td>
+        <td class="side">C&#39;est trag&#233;die, parce que Tatsu meurt de faim.[ST:n ]Linly veut quand m&#234;me pas devenir meurtri&#232;re ![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0003</td>
+        <td class="side">Oh, d&#233;sol&#233;e. Je vais pr&#233;parer quelque chose vite fait.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0004</td>
+        <td class="side">Il a raison, Lin. Tu sembles un peu d&#233;prim&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0005</td>
+        <td class="side">Non, je vais bien.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0006</td>
+        <td class="side">C&#39;est juste que... On a perdu de l&#39;&#233;nergie[ST:n ]dans le syst&#232;me de la zone industrielle.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0007</td>
+        <td class="side">Tu as d&#233;j&#224; r&#233;par&#233; &#231;a, l&#39;autre fois, n&#39;est-ce pas ?[ST:n ]Quelles sont les pertes ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0008</td>
+        <td class="side">Hier, on a perdu plus de cinq pourcents.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0009</td>
+        <td class="side">Cela me para&#238;t correct, au vu des marges[ST:n ]de s&#233;curit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0010</td>
+        <td class="side">Ouais, ce n&#39;est pas un probl&#232;me.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0011</td>
+        <td class="side">Mais les r&#233;parations que j&#39;ai effectu&#233;es auraient[ST:n ]d&#251; &#234;tre plus efficaces que &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0012</td>
+        <td class="side">Je ne pr&#233;voyais aucun probl&#232;me[ST:n ]avant au moins un an.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0013</td>
+        <td class="side">Donc c&#39;est une question d&#39;honneur[ST:n ]de m&#233;canicien, c&#39;est cela ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0014</td>
+        <td class="side">Cela m&#39;a l&#39;air d&#39;&#234;tre une mission qui vaut[ST:n ]le coup. Allons voir &#231;a de plus pr&#232;s.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0015</td>
+        <td class="side">D&#39;accord ![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev086001_MSG0016</td>
+        <td class="side">Mais... d&#238;ner...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

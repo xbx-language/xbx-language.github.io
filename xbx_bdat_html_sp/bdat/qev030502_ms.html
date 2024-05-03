@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev030502_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0001</td>
+        <td class="side">&#191;Diga? Aqu&#237; Hala.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0002</td>
+        <td class="side">Oh, &#191;encontraste cuerpo de Quegga? &#161;Maravilloso![ST:n ]Ahora tienes que dar de comer cuerpo a bestia.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0003</td>
+        <td class="side">Pero, primero, registra cuerpo. Busca si esconde[ST:n ]recuerdo o posibles efectos personales.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0004</td>
+        <td class="side">A Thea le gustar&#237;a algo as&#237;.[ST:n ]Algo para recordar a &#233;l.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev030502_JNK0010</td>
+        <td class="side">Examinar el cuerpo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev030502_SEL0011</td>
+        <td class="side">Registra el cuerpo de Quegga[ST:n ]y trata de encontrar alg&#250;n recuerdo.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev030502_JNK0020</td>
+        <td class="side">Examinar el &#225;rea</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev030502_SEL0021</td>
+        <td class="side">Busca en los alrededores algo[ST:n ]que pudiera pertenecer a Quegga.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0005</td>
+        <td class="side">&#191;Que has encontrado nota rara? Lee qu&#233; dice.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0006</td>
+        <td class="side">\&quot;Escond&#237;... para Thea en...[ST:n ]cueva de Fortaleza de Scabland.[ST:n ]Por favor... a Thea.\&quot;[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0007</td>
+        <td class="side">Vaya. &#161;Quegga hizo regalo para Thea! Pero &#191;qu&#233;?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0008</td>
+        <td class="side">Mmm. Muy curioso... Oh, &#191;puedes ir a buscar regalo?[ST:n ]Ya s&#233;, ya s&#233;: me diste mano y yo cojo brazo;[ST:n ]pero es importante.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0009</td>
+        <td class="side">Puede ser regalo perfecto para alegrar a Thea.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev030502_JNK0030</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev030502_SEL0031</td>
+        <td class="side">Acepta la petici&#243;n de Hala.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev030502_JNK0040</td>
+        <td class="side">Negarte</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev030502_SEL0041</td>
+        <td class="side">Dile a Hala que no cuente contigo para eso.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0010</td>
+        <td class="side">&#161;BLADE son tan nobles! Dejo en tus manos.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0011</td>
+        <td class="side">&#191;C&#243;mo? No escuch&#233; bien.[ST:n ]Conexi&#243;n no es buena.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0012</td>
+        <td class="side">Por favor, haz esto. Me encanta baile de Thea.[ST:n ]Hac&#237;a feliz a ella. Quiero ver a ella feliz otra vez.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0013</td>
+        <td class="side">Sab&#237;a que ibas a ayudar. Mucha suerte.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0014</td>
+        <td class="side">Pero a&#250;n falta Quegga. Tienes que atraer[ST:n ]a bestia digna de comer a Quegga.[ST:n ]Necesitas cebo.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0015</td>
+        <td class="side">A bestias de esa &#225;rea encantan jarretes.[ST:n ]Encuentra y pon cerca.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0016</td>
+        <td class="side">Pido mucho, pero s&#233; que vas a conseguir.[ST:n ]Te dejo eso a ti.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0017</td>
+        <td class="side">&#191;Diga? &#191;Encontraste jarretes para bestia?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0018</td>
+        <td class="side">S&#237;. Creo que valdr&#225;.[ST:n ]Ahora pon cerca.[ST:n ]As&#237; bestia se acercar&#225;.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0019</td>
+        <td class="side">Bien. Ahora debes esperar.[ST:n ]Encuentra lugar para esconder.[ST:n ]Qu&#233;date hasta que coma todo.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0020</td>
+        <td class="side">Soy yo otra vez. Olvid&#233; una cosa.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0021</td>
+        <td class="side">Todas bestias de esa &#225;rea tienen o&#237;do fin&#237;simo.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0022</td>
+        <td class="side">Si oyen ruido, van a atacar.[ST:n ]Recuerda no hacer ruido si bestia pasa cerca.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0023</td>
+        <td class="side">&#191;Eh? &#191;Est&#225;s [ST:Gender p1=ocupado p2=ocupada ]?[ST:n ]Oh, vale. Siento interrupci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev030502_MSG0024</td>
+        <td class="side">Haz mejor que puedas. Cruzar&#233; dedos por ti.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

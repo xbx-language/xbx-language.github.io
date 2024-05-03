@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025705_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0001</td>
+        <td class="side">Busca a mis amigas y p&#237;deles sus medidas, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0002</td>
+        <td class="side">Para tallas peque&#241;as, preg&#250;ntale a Veverta;[ST:n ]para tallas medianas, busca a Aalis; y para tallas[ST:n ]grandes, habla con Vyponne, &#191;de acuerdo? De acuerdo.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0003</td>
+        <td class="side">&#191;Qu&#233; tal ha ido? &#191;Has obtenido todas las medidas?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0004</td>
+        <td class="side">&#161;Bien! Ahora solo necesitamos los materiales, &#191;s&#237;?[ST:n ]Con cinco piezas de cuero flexible deber&#237;amos[ST:n ]de tener suficiente, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0005</td>
+        <td class="side">Ya lo tienes todo, &#191;a que s&#237;? Pues, por favor, entr&#233;gale[ST:n ]las medidas y el cuero flexible a Victoria, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0006</td>
+        <td class="side">Mis aromas preferidos... Creo que son el de las[ST:n ]ceremendras y el de la yerba sona. Ambos hacen[ST:n ]que mi coraz&#243;n se derrita, en sentido figurado.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0007</td>
+        <td class="side">&#161;Oh! &#191;Qu&#233; llevas que huele tan bien?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0008</td>
+        <td class="side">&#191;Qu&#233; ingredientes crees que son los mejores[ST:n ]para crear un perfume?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0009</td>
+        <td class="side">&#161;Oooh! &#161;Qu&#233; delicia!, &#191;verdad?[ST:n ]Huele muy muy bien, &#191;s&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0010</td>
+        <td class="side">&#191;Puedo olerlo yo tambi&#233;n?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0011</td>
+        <td class="side">&#161;Vaya! Desde luego es un olor... con presencia.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0012</td>
+        <td class="side">Creo que ser&#237;a perfecto para chicas alocadas[ST:n ]como t&#250;, Panyar.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0013</td>
+        <td class="side">S&#237;, creo que es una buena fragancia. &#191;T&#250; qu&#233; piensas?[ST:n ]&#191;Crees que un aroma atrevido como este funcionar&#225;?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0010</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0011</td>
+        <td class="side">Diles que los aromas acres hacen[ST:n ]que te pongas como una moto.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0020</td>
+        <td class="side">Estar en desacuerdo</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0021</td>
+        <td class="side">Expl&#237;cales que prefieres aromas m&#225;s sutiles y delicados.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0014</td>
+        <td class="side">Qu&#233; bien, me alegro de o&#237;rte decir eso.[ST:n ]Creo que este perfume les va a gustar mucho [ST:n ]a los BLADE como t&#250;.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0015</td>
+        <td class="side">S&#237;, entiendo que alguien con un trabajo tan estresante[ST:n ]como el tuyo prefiera aromas m&#225;s relajantes.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0016</td>
+        <td class="side">Aun as&#237;, creo que este perfume puede encontrar[ST:n ]su hueco en el mercado. Hay gente a la que[ST:n ]le encantan las fragancias atrevidas.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0017</td>
+        <td class="side">Contactar&#233; con el departamento de producci&#243;n para[ST:n ]empezar con su fabricaci&#243;n cuanto antes. Toma,[ST:n ]esto es por toda la ayuda que nos has prestado.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0018</td>
+        <td class="side">&#191;A ver? &#161;Oooh! &#161;Qu&#233; delicia! &#191;A que s&#237;?[ST:n ]Huele muy muy bien, &#191;s&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0019</td>
+        <td class="side">&#191;Puedo olerlo yo tambi&#233;n?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0020</td>
+        <td class="side">Mmm... Es dulce. Es un aroma... relajante. Me gusta.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0021</td>
+        <td class="side">Aunque, francamente, me sorprende que a ti tambi&#233;n[ST:n ]te guste, Panyar.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0022</td>
+        <td class="side">En el fondo, soy una chica muy sensible,[ST:n ]&#191;sabes, Victoria? &#191;Y t&#250; qu&#233; piensas, mi [ST:Gender p1=buen amigo p2=buena amiga ]?[ST:n ]Hu&#233;lelo y dime, es dulce, &#191;s&#237;? Muy agradable, &#191;verdad?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0030</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0031</td>
+        <td class="side">Diles que un aroma tan dulce es muy reconfortante.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev025705_JNK0050</td>
+        <td class="side">Estar en desacuerdo</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev025705_SEL0051</td>
+        <td class="side">Expl&#237;cales que preferir&#237;as un aroma m&#225;s salvaje.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0023</td>
+        <td class="side">Mmm... Entiendo que una persona curtida en el campo[ST:n ]de batalla como t&#250; prefiera una fragancia dulce,[ST:n ]que act&#250;e un poco como b&#225;lsamo, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0024</td>
+        <td class="side">Claro, imagino que los BLADE est&#225;is[ST:n ]tan acostumbrados a las emociones fuertes[ST:n ]que necesit&#225;is est&#237;mulos intensos.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0025</td>
+        <td class="side">Aun as&#237;, creo que este perfume puede encontrar[ST:n ]su hueco en el mercado.[ST:n ]Siempre hay quien prefiere fragancias dulces.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev025705_MSG0026</td>
+        <td class="side">Contactar&#233; con el departamento de producci&#243;n para[ST:n ]empezar con su fabricaci&#243;n cuanto antes. Toma,[ST:n ]esto es por toda la ayuda que nos has prestado.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

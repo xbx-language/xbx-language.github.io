@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0001</td>
+        <td class="side">Nous nous rendons dans Cauldros pour &#233;radiquer[ST:n ]notre ennemie jur&#233;e ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0002</td>
+        <td class="side">Vous ! L&#39;humain ! Vous &#234;tes [ST:Gender p1=le guerrier p2=la guerri&#232;re ] qui a crois&#233;[ST:n ]le fer avec notre prince et qui l&#39;a vaincu, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0003</td>
+        <td class="side">Votre peuple et le mien sont li&#233;s par un pacte de sang.[ST:n ]Nous feriez-vous l&#39;honneur de vous joindre &#224; nous[ST:n ]lors de ce combat ?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0011</td>
+        <td class="side">Demander &#224; Ni Zinga ce qu&#39;ils pr&#233;voient de faire.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0020</td>
+        <td class="side">Deviner</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0021</td>
+        <td class="side">Demander &#224; Ni Zinga si les Wrothians partent[ST:n ]combattre le Ganglion.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0004</td>
+        <td class="side">Apr&#232;s avoir atterri sur cette plan&#232;te, beaucoup de mes[ST:n ]fr&#232;res wrothians ont &#233;t&#233; d&#233;vor&#233;s par la vile projex reine.[ST:n ]Nous partons lui ouvrir le ventre et r&#233;cup&#233;rer leurs os.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0005</td>
+        <td class="side">Le temps viendra o&#249; ils paieront pour avoir souill&#233;[ST:n ]l&#39;honneur des Wrothians. Mais ce temps n&#39;est pas[ST:n ]encore venu.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0006</td>
+        <td class="side">Apr&#232;s avoir atterri sur cette plan&#232;te, beaucoup[ST:n ]de mes fr&#232;res wrothians ont &#233;t&#233; d&#233;vor&#233;s par la vile[ST:n ]projex reine. Aujourd&#39;hui, c&#39;est elle notre proie ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0007</td>
+        <td class="side">La coutume veut que la vengeance ne soit accomplie[ST:n ]que par la main des Wrothians...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0008</td>
+        <td class="side">Mais le temps et la fatigue ont &#233;mouss&#233; nos armes[ST:n ]et d&#233;truit nos Skells. La vie de ceux qui savent les[ST:n ]r&#233;parer s&#39;est termin&#233;e dans la gueule f&#233;tide de la reine.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0009</td>
+        <td class="side">Partir seul signerait ma mort, laissant cette vengeance[ST:n ]inassouvie. Alors c&#39;est pourquoi je ravale ma fiert&#233; et[ST:n ]vous supplie de me porter assistance.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0010</td>
+        <td class="side">Combattrez-vous &#224; nos c&#244;t&#233;s pour r&#233;duire la putride[ST:n ]projex reine au silence pour toujours ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0210</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0211</td>
+        <td class="side">Dire que vous avez d&#39;autres choses &#224; faire,[ST:n ]pour le moment.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0220</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0221</td>
+        <td class="side">Acquiescer avec un grand sourire.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0064</td>
+        <td class="side">Je vois. Mais je crains que sans votre force,[ST:n ]cette bataille ne soit perdue d&#39;avance.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0065</td>
+        <td class="side">Si vous trouvez le temps de nous aider, je vous[ST:n ]demande humblement de revenir me parler.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0011</td>
+        <td class="side">Je n&#39;oublierai jamais la dette que j&#39;ai envers vous.[ST:n ]Que la chasse commence, &#224; pr&#233;sent ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0012</td>
+        <td class="side">Ah, regardez ! Les Trois griffes ! Parfait. Cet humain[ST:n ]rejoindra notre chasse, mes amis.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0013</td>
+        <td class="side">G&#233;n&#233;ral, c&#39;est un probl&#232;me que les Wrothians doivent[ST:n ]r&#233;gler seuls. Nous n&#39;avons pas besoin d&#39;aide ext&#233;rieure.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0014</td>
+        <td class="side">Bien dit, mon fr&#232;re. Nous vengerons notre p&#232;re[ST:n ]nous-m&#234;mes. Nous nous sommes longuement entra&#238;n&#233;s[ST:n ]pour atteindre ce but ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0015</td>
+        <td class="side">Aucun ennemi ne peut r&#233;sister &#224; la puissance combin&#233;e[ST:n ]de Da Naguth le vent tranchant, Da Girhi le fracas[ST:n ]du tonnerre et Da Zeulbe le briseur de rocs ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0016</td>
+        <td class="side">Ma fratrie et moi n&#39;avons besoin d&#39;aucune aide, encore[ST:n ]moins venant [ST:Gender p1=d&#39;un &#233;tranger p2=d&#39;une &#233;trang&#232;re ] rachitique ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0030</td>
+        <td class="side">D&#233;fier</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0031</td>
+        <td class="side">Fanfaronner, comme quoi vous surpassez facilement[ST:n ]les Trois griffes r&#233;unies.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0040</td>
+        <td class="side">Rester modeste</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0041</td>
+        <td class="side">Admettre que vous n&#39;&#234;tes pas un Wrothian,[ST:n ]mais que vous ferez de votre mieux.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0017</td>
+        <td class="side">Peuh ! Une bravade audacieuse ! Mais je requiers[ST:n ]la preuve que votre courage n&#39;est pas que du vent.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0018</td>
+        <td class="side">Il semble qu&#39;au moins, notre [ST:Gender p1=invit&#233; soit conscient p2=invit&#233;e soit consciente ][ST:n ]de ses limites.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0019</td>
+        <td class="side">Mais l&#39;ennemie que nous affrontons est mortelle.[ST:n ][ST:Gender p1=Un alli&#233; p2=Une alli&#233;e ] sans une confiance absolue en ses capacit&#233;s[ST:n ]n&#39;est rien d&#39;autre qu&#39;un poids mort.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0020</td>
+        <td class="side">Assez de querelles ! Je connais et respecte la force[ST:n ]des Trois griffes, mais je ne veux pas que vous[ST:n ]mourriez inutilement.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0021</td>
+        <td class="side">Devrions-nous donc nous entra&#238;ner avec [ST:Gender p1=ce guerrier p2=cette guerri&#232;re ][ST:n ]que vous avez [ST:Gender p1=ramen&#233; p2=ramen&#233;e ] avant de combattre[ST:n ]la projex reine ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0022</td>
+        <td class="side">Conna&#238;tre la force d&#39;un alli&#233; est primordial lorsque l&#39;on[ST:n ]doit lui faire confiance pour prot&#233;ger nos arri&#232;res[ST:n ]lors d&#39;un combat.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0023</td>
+        <td class="side">Si nous consid&#233;rons qu&#39;[ST:Gender p1=il p2=elle ] est davantage un handicap[ST:n ]qu&#39;un atout, alors je me devrai de [ST:Gender p1=le p2=la ] laisser en retrait.[ST:n ]Je ne m&#232;nerai pas un alli&#233; &#224; une mort certaine.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0024</td>
+        <td class="side">Je ne doute pas que vous voulez vous aussi conna&#238;tre[ST:n ]l&#39;envergure de ceux avec qui vous combattrez ?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0050</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0051</td>
+        <td class="side">Hocher la t&#234;te et dire que cela vous a travers&#233; l&#39;esprit.</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0060</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0061</td>
+        <td class="side">Admettre que cela ne vous int&#233;resse pas[ST:n ]particuli&#232;rement.</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0025</td>
+        <td class="side">Et vous faites bien ! Bien, nous vous attendrons donc[ST:n ]au sommet du mont Rochroche.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0026</td>
+        <td class="side">Nous nous efforcerons de ne pas vous blesser[ST:n ]gravement, mais je vous conseille de bien[ST:n ]vous pr&#233;parer tout de m&#234;me.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0027</td>
+        <td class="side">Vous pensez donc que notre force est n&#233;gligeable ?[ST:n ]Ou peut-&#234;tre que vous comptez effectuer cette chasse[ST:n ][ST:Gender p1=seul p2=seule ] ? Des mots courageux, humain.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0028</td>
+        <td class="side">Rejoignez-nous donc au sommet du mont Rochroche ![ST:n ]Nous ferons de notre mieux pour r&#233;pondre[ST:n ]&#224; votre bravoure comme il se doit.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0029</td>
+        <td class="side">Leurs deux parents furent tu&#233;s par la projex reine.[ST:n ]Ils veulent venger cette perte eux-m&#234;mes, bien s&#251;r.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0030</td>
+        <td class="side">Mais je dirige cette op&#233;ration et je ne les laisserai[ST:n ]pas mourir en vain. C&#39;est pourquoi j&#39;ai r&#233;quisitionn&#233;[ST:n ]de l&#39;aide telle que la v&#244;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0031</td>
+        <td class="side">Je vous demande de vaincre les Trois griffes,[ST:n ]que cette fratrie apprenne les limites de sa force.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0032</td>
+        <td class="side">Ha ha ! Les Trois griffes sont venues et ont demand&#233;[ST:n ]&#224; avoir l&#39;honneur de se joindre &#224; vous pour[ST:n ]cette chasse, comme je l&#39;avais pr&#233;vu.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0033</td>
+        <td class="side">Mais je suis surpris de voir Da Naguth si emphatique[ST:n ]alors qu&#39;il n&#39;est pas d&#39;ordinaire si prompt &#224; reconna&#238;tre[ST:n ]la valeur des autres. Vous devez &#234;tre une perle rare.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0070</td>
+        <td class="side">Fanfaronner</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0071</td>
+        <td class="side">Dire que vous &#234;tes le membre du BLADE[ST:n ]le plus puissant de Mira.</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0080</td>
+        <td class="side">Hausser les &#233;paules</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0081</td>
+        <td class="side">Dire avec humilit&#233; que vous n&#39;&#234;tes qu&#39;un membre[ST:n ]du BLADE lambda.</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0034</td>
+        <td class="side">Ha ha ha ! Apparemment, j&#39;ai invit&#233; une l&#233;gende[ST:n ]parmi nous sans le savoir.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0035</td>
+        <td class="side">L&#39;humilit&#233; sied &#224; un guerrier. Et pourtant, vous exsudez[ST:n ]une aura imposante. Vous ne pouvez la cacher.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0036</td>
+        <td class="side">En combinant votre force &#224; celle des Trois griffes,[ST:n ]m&#234;me la projex reine ne sera plus une menace.[ST:n ]Bien, voyons maintenant les d&#233;tails de la chasse.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0037</td>
+        <td class="side">Notre proie ne se pose que rarement au sol.[ST:n ]Pour l&#39;attirer, nous devons &#233;liminer ses sbires[ST:n ]dans Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0038</td>
+        <td class="side">Pour cela, nous devrons couvrir &#233;norm&#233;ment de terrain.[ST:n ]Vous et les griffes vous s&#233;parerez et &#233;liminerez[ST:n ]les sbires dans la zone qui vous sera assign&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0039</td>
+        <td class="side">Lorsque la reine se montrera, le premier &#224; l&#39;apercevoir[ST:n ]pr&#233;viendra les autres de sa position. Quand vous vous[ST:n ]rassemblerez, vous vous unirez pour l&#39;abattre ![ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0040</td>
+        <td class="side">Hmm... Cela me semble &#234;tre un plan peu pr&#233;cis, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0041</td>
+        <td class="side">N&#39;avons-nous pas connaissance de ses points faibles ?[ST:n ]Nous ne l&#39;avons jamais vu autrement que volant,[ST:n ]couverte du sang de nos compagnons.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0042</td>
+        <td class="side">De plus, nous n&#39;avons aucune id&#233;e du genre d&#39;ennemi[ST:n ]que nous allons affronter.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0043</td>
+        <td class="side">Apparemment, elle serait semblable &#224; ses sbires.[ST:n ][ST:playername ], vous avez affront&#233; ceux[ST:n ]de son esp&#232;ce par le pass&#233;, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0044</td>
+        <td class="side">Vous &#234;tes bien [ST:Gender p1=le seul p2=la seule ]. Pourriez-vous nous faire[ST:n ]profiter de votre exp&#233;rience ?[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0090</td>
+        <td class="side">Parler des attaques physiques[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0091</td>
+        <td class="side">Dire que les projex sont faibles face[ST:n ]aux attaques physiques.</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0100</td>
+        <td class="side">Parler des flammes[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0101</td>
+        <td class="side">Dire que les projex sont sensibles au feu.</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0110</td>
+        <td class="side">Parler de la foudre[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0111</td>
+        <td class="side">Dire que les projex sont sensibles &#224; l&#39;&#233;lectricit&#233;.</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0045</td>
+        <td class="side">Hmm, je vois. Et quel genre d&#39;attaque vont-ils[ST:n ]nous opposer ?[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0120</td>
+        <td class="side">La gravit&#233;[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0121</td>
+        <td class="side">Dire aux Wrothians de se m&#233;fier de leurs puissantes[ST:n ]attaques de gravit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0130</td>
+        <td class="side">Les lasers[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0131</td>
+        <td class="side">Expliquer que les projex tirent des lasers[ST:n ]gr&#226;ce &#224; leurs cornes.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev050601_JNK0140</td>
+        <td class="side">La charge[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev050601_SEL0141</td>
+        <td class="side">Dire que les projex utilisent leurs cornes[ST:n ]quand ils chargent.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0046</td>
+        <td class="side">Vous avez bien observ&#233; votre ennemi en un tr&#232;s[ST:n ]court laps de temps.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0047</td>
+        <td class="side">Cela nous permet d&#39;en savoir assez pour nous mettre[ST:n ]en route. Je couvre vos arri&#232;res ![ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0048</td>
+        <td class="side">Tr&#232;s bien. Nous partons imm&#233;diatement pour Cauldros,[ST:n ]G&#233;n&#233;ral.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0049</td>
+        <td class="side">Allons d&#233;busquer cette reine abjecte et l&#39;abattre[ST:n ]ensemble, [ST:playername ] ![ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0050</td>
+        <td class="side">Il est temps. Aidez les Trois griffes &#224; purger ce mal[ST:n ]qui a pris tant de vies wrothiannes. Que la victoire[ST:n ]soit v&#244;tre ![ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0051</td>
+        <td class="side">Ce fut un jour sombre. Ceux d&#39;entre nous[ST:n ]qui sont rest&#233;s au sol ne purent lui infliger[ST:n ]plus que quelques &#233;gratignures.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0052</td>
+        <td class="side">S&#39;il vous pla&#238;t, faites attention. Ils sont un gibier bien[ST:n ]plus puissant que les indig&#232;nes habituels. Ils sont tels[ST:n ]des d&#233;mons, n&#233;s pour tuer et d&#233;vorer les hommes.[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0053</td>
+        <td class="side">Vous &#234;tes en vie ! Et... votre proie ? La projex reine[ST:n ]est-elle morte ?[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0054</td>
+        <td class="side">Excellent ! Alors vous et les Trois griffes l&#39;avez accul&#233;e[ST:n ]et avez abattu sur elle le glaive de la justice ![ST:wait ]</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0055</td>
+        <td class="side">Merci, mon [ST:Gender p1=ami p2=amie ]. Bon nombre de Wrothians disparus[ST:n ]conna&#238;tront maintenant la paix. Veuillez accepter ceci[ST:n ]en guise de paiement.[ST:wait ]</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0056</td>
+        <td class="side">Mmh. Dans les jours &#224; venir, j&#39;envisage d&#39;entra&#238;ner les[ST:n ]Trois griffes pour en faire de vrais ma&#238;tres. Ils sont[ST:n ]comme mes enfants et je les &#233;l&#232;verai avec fiert&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0057</td>
+        <td class="side">En temps voulu, ils se joindront &#224; moi pour d&#233;truire[ST:n ]la cause de nos tourments : le Ganglion. J&#39;esp&#232;re que[ST:n ]vous vous battrez &#224; nos c&#244;t&#233;s en ce jour glorieux ![ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0051</td>
+        <td class="side">qev050601_MSG0051</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0052</td>
+        <td class="side">qev050601_MSG0052</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0058</td>
+        <td class="side">Vous &#234;tes en vie ! Et... votre proie ? La projex reine[ST:n ]est-elle morte ?[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0059</td>
+        <td class="side">Quoi... ? La b&#234;te est vaincue, mais elle a tu&#233;[ST:n ]les Trois griffes ?[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0060</td>
+        <td class="side">&#212; rage ! Mais ils &#233;taient tous des guerriers et[ST:n ]connaissaient les risques. Puissent-ils reposer[ST:n ]en paix, sachant que leur bourreau a &#233;t&#233; jug&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0061</td>
+        <td class="side">Merci, mon [ST:Gender p1=ami p2=amie ]. Cette victoire est v&#244;tre. Veuillez[ST:n ]accepter cette r&#233;compense.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0062</td>
+        <td class="side">J&#39;ai perdu mon propre fils &#224; cause de ce monstre.[ST:n ]Il avait leur &#226;ge et j&#39;en &#233;tais venu &#224; consid&#233;rer[ST:n ]les Trois griffes comme mes propres enfants.[ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev050601_MSG0063</td>
+        <td class="side">Le moins que je puisse faire &#224; pr&#233;sent est de faire[ST:n ]leur deuil comme s&#39;ils &#233;taient mes propres fils et fille.[ST:n ]Je m&#39;assurerai qu&#39;ils puissent reposer en paix.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041313_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0001</td>
+        <td class="side">Mon Ovah danse et s&#39;emballe &#224; la vue d&#39;un Xiphias.[ST:n ]Quelle carte Miravie extraordinaire.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0002</td>
+        <td class="side">Dans le parc, j&#39;ai trouv&#233; une carte Miravie de[ST:n ]couleur jaune d&#39;or. Elle arbore l&#39;image[ST:n ]d&#39;un Nopon-potamus.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0003</td>
+        <td class="side">M&#234;me si elle est jolie, elle n&#39;a pas d&#39;importance pour[ST:n ]moi. Mais j&#39;exhiberais avec joie une carte Xiphias[ST:n ]dans ma demeure ![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0004</td>
+        <td class="side">Si vous d&#233;sirez cette carte or, je serai ravi de faire[ST:n ]un &#233;change avec vous.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0007</td>
+        <td class="side">Qu&#39;en dites-vous ? Accepteriez-vous d&#39;&#233;changer cette[ST:n ]carte Nopon-potamus or contre votre carte Xiphias ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0008</td>
+        <td class="side">Mon Ovah tremble de bonheur. C&#39;est comme si cette[ST:n ]carte avait &#233;t&#233; cr&#233;&#233;e pour moi.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0009</td>
+        <td class="side">Cette carte Nopon-potamus or est &#224; vous. Peut-&#234;tre que[ST:n ]quelqu&#39;un l&#39;attend, comme j&#39;attendais la mienne.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041313_MSG0010</td>
+        <td class="side">Ne changerez-vous pas d‘avis ? J&#39;ai la certitude d&#39;avoir[ST:n ]besoin de cette carte Xiphias, et que vous avez besoin[ST:n ]de cette carte or en &#233;change.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

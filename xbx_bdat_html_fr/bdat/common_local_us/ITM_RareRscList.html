@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ITM_RareRscList</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">Name</th>
+          <th>Caption</th>
+          <th>Rare</th>
+          <th>UI2</th>
+          <th>Price</th>
+          <th>order</th>
+          <th>Lottery</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Minerai d&#39;arquesable</td>
+        <td>Un min&#233;ral extr&#234;mement fin qui ressemble[ST:n ]plus &#224; de la farine qu&#39;&#224; du sable.</td>
+        <td>1</td>
+        <td>2033</td>
+        <td>100</td>
+        <td>15</td>
+        <td>30</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Aurorite</td>
+        <td>Un cristal opaque bleu cobalt qui r&#233;fracte[ST:n ]la lumi&#232;re en cr&#233;ant une superbe aurore.</td>
+        <td>1</td>
+        <td>2033</td>
+        <td>100</td>
+        <td>14</td>
+        <td>28</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Com&#233;tite blanche</td>
+        <td>Un minerai dont la conductibilit&#233; change[ST:n ]selon des cycles qui dureraient au moins[ST:n ]70 ans. Des recherches sont en cours pour[ST:n ]savoir &#224; quoi il pourrait bien servir.</td>
+        <td>1</td>
+        <td>2033</td>
+        <td>100</td>
+        <td>13</td>
+        <td>26</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Plomb-p&#233;renne</td>
+        <td>Un min&#233;ral extr&#234;mement difficile &#224;[ST:n ]travailler avec la technologie humaine.[ST:n ]Presque incassable, il est &#224; la fois tr&#232;s[ST:n ]&#233;lastique et aussi dur que le diamant.</td>
+        <td>1</td>
+        <td>2033</td>
+        <td>100</td>
+        <td>12</td>
+        <td>24</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Minerai d&#39;&#233;tergel</td>
+        <td>Une fois refroidi, ce minerai conserve une[ST:n ]temp&#233;rature basse pendant tr&#232;s longtemps.[ST:n ]On recherche actuellement comment[ST:n ]l&#39;utiliser comme supraconducteur.</td>
+        <td>1</td>
+        <td>2033</td>
+        <td>100</td>
+        <td>11</td>
+        <td>22</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Foucaultium</td>
+        <td>Ce minerai fut nomm&#233; en l&#39;honneur[ST:n ]du min&#233;ralogiste Boris Foucault qui[ST:n ]a contribu&#233; de fa&#231;on significative au[ST:n ]d&#233;veloppement de la science sur Terre.</td>
+        <td>2</td>
+        <td>2034</td>
+        <td>500</td>
+        <td>10</td>
+        <td>20</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Bort de lionos</td>
+        <td>&#201;tonnamment l&#233;ger car il est creux,[ST:n ]ce mat&#233;riau industriel tr&#232;s r&#233;sistant[ST:n ]est capable de supporter des charges[ST:n ]tr&#232;s lourdes.</td>
+        <td>2</td>
+        <td>2034</td>
+        <td>200</td>
+        <td>9</td>
+        <td>18</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Infernium</td>
+        <td>Lorsqu&#39;il y a une &#233;lectrostimulation,[ST:n ]ce minerai atteint 30 millions de degr&#233;s.[ST:n ]Des chercheurs pensent m&#234;me qu&#39;il est[ST:n ]possible de lui faire atteindre 50 millions.</td>
+        <td>2</td>
+        <td>2034</td>
+        <td>200</td>
+        <td>8</td>
+        <td>16</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Rochœuf</td>
+        <td>Ce minerai a une surface blanche et un[ST:n ]cœur orange, d&#39;o&#249; son nom. Une fois[ST:n ]coup&#233;, il &#233;met une lueur dor&#233;e avant[ST:n ]de devenir blanc.</td>
+        <td>2</td>
+        <td>2034</td>
+        <td>750</td>
+        <td>7</td>
+        <td>14</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Rutile marin</td>
+        <td>Une aiguille de cristal radioactive[ST:n ]aquatique. Surnomm&#233;e &#171; oursin &#187;[ST:n ]par les chercheurs qui l&#39;&#233;tudient,[ST:n ]&#224; cause de sa forme distinctive.</td>
+        <td>3</td>
+        <td>2035</td>
+        <td>1500</td>
+        <td>6</td>
+        <td>12</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Pierre d&#39;aurore</td>
+        <td>La premi&#232;re ressource rare trouv&#233;e par[ST:n ]les humains sur Mira. Elle a &#233;t&#233; nomm&#233;e[ST:n ]&#171; pierre d&#39;aurore &#187; pour donner espoir[ST:n ]aux gens en ces temps troubl&#233;s.</td>
+        <td>3</td>
+        <td>2035</td>
+        <td>1750</td>
+        <td>5</td>
+        <td>10</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Cinabre cimm&#233;rien</td>
+        <td>Un minerai ressemblant au mercure, tr&#232;s[ST:n ]utilis&#233; en peinture. Il absorbe les ondes[ST:n ]&#233;lectromagn&#233;tiques et est donc tr&#232;s utile[ST:n ]si vous souhaitez rester discret.</td>
+        <td>4</td>
+        <td>2036</td>
+        <td>2000</td>
+        <td>4</td>
+        <td>8</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Cristal ouroboros</td>
+        <td>Un cristal dont la structure mol&#233;culaire[ST:n ]ressemble &#224; des serpents se mordant[ST:n ]la queue. Ces beaux cristaux purs sont[ST:n ]vendus en tant que bijoux de luxe.</td>
+        <td>4</td>
+        <td>2036</td>
+        <td>2250</td>
+        <td>3</td>
+        <td>6</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Parh&#233;lie platine</td>
+        <td>La surface de ce minerai est irr&#233;guli&#232;re,[ST:n ]ce qui &#233;met de beaux reflets. Ceux-ci font[ST:n ]beaucoup d&#39;effet &#224; ceux qui les regardent.</td>
+        <td>5</td>
+        <td>2037</td>
+        <td>2500</td>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Bonjelium</td>
+        <td>Un min&#233;ral trouv&#233; dans les d&#233;jections[ST:n ]d&#39;un petit animal miran. Hautement[ST:n ]toxique, il empoisonnera quiconque[ST:n ]aura le malheur de l&#39;ing&#233;rer.</td>
+        <td>5</td>
+        <td>2037</td>
+        <td>3000</td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

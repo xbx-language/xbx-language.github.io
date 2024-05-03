@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev055201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Tora por las caravanas nopon.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Tora si hay alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">tev055201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Tora por las negociaciones[ST:n ]con los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">tev055201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0021</td>
+        <td class="side">tev055201_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">tev055201_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Tora qu&#233; hizo durante el ataque.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">tev055201_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0021</td>
+        <td class="side">tev055201_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">tev055201_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0071</td>
+        <td class="side">Preg&#250;ntale a Tora por la batalla contra el Zu Pharg.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">tev055201_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0081</td>
+        <td class="side">Preg&#250;ntale a Tora si le preocupa algo.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">tev055201_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0091</td>
+        <td class="side">Preg&#250;ntale a Tora por la batalla final[ST:n ]en el n&#250;cleo del Arca de la vida.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">tev055201_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0081</td>
+        <td class="side">tev055201_SEL0081</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">tev055201_JNK0010</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0111</td>
+        <td class="side">Preg&#250;ntale a Tora cu&#225;ndo acabar&#225;[ST:n ]la batalla por la supremac&#237;a nopon.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">tev055201_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0081</td>
+        <td class="side">tev055201_SEL0081</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0010</td>
+        <td class="side">tev055201_JNK0010</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev055201_SEL0111</td>
+        <td class="side">tev055201_SEL0111</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev055201_JNK0020</td>
+        <td class="side">tev055201_JNK0020</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev055201_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Tora si hay alguna novedad.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0001</td>
+        <td class="side">Caravana de Dodonga es bastante famosa.[ST:n ]Es antigua caravana de Tatsu.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0002</td>
+        <td class="side">Pero Caravana de Dodonga no tiene comparaci&#243;n[ST:n ]con vieja caravana de Tora, &#161;supermaravillosa[ST:n ]e incre&#237;ble Caravana de Dorian![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0003</td>
+        <td class="side">Si [ST:Gender p1=amigo p2=amiga ] va a este de entrada de garganta de Oblivia,[ST:n ][ST:Gender p1=amigo p2=amiga ] ver&#225; foso escarpado llamado Ca&#241;&#243;n de Ibra.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0004</td>
+        <td class="side">A norte de all&#237; est&#225; incre&#237;ble Caravana de Dorian.[ST:n ]Si te sirve, est&#225; rodeada de lago supergrande.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0005</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] deber&#237;a ir y echar vistazo, &#161;ver con propios ojos[ST:n ]c&#243;mo n&#243;madas nopon controlan territorio salvaje![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0010</td>
+        <td class="side">Noctilum, hogar de Caravana Dodonga, est&#225; a oeste.[ST:n ]Oblivia, bello hogar de Tora, hacia este.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0011</td>
+        <td class="side">Y much&#237;simo m&#225;s hacia norte, est&#225; tierra horrible,[ST:n ]espantosa, innombrable...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0012</td>
+        <td class="side">Mmm... Probablemente [ST:Gender p1=amigo p2=amiga ] quiera ver horrores[ST:n ]con propios ojos. &#161;[ST:Gender p1=Amigo p2=Amiga ] deber&#237;a sentir misma alegr&#237;a[ST:n ]de explorar y descubrir Mira que nopon tenemos![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0013</td>
+        <td class="side">Ah&#237; fuera, mundo es enorme. Pero no importa lo lejos[ST:n ]que algo parezca que est&#233;,[ST:n ]&#161;si [ST:Gender p1=amigo p2=amiga ] quiere llegar, llegar&#225;![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0014</td>
+        <td class="side">As&#237; que &#191;a qu&#233; esperas, [ST:Gender p1=amigo humano p2=amiga humana ]? &#161;Vamos![ST:n ]&#161;Usa piernas larguiruchas para atravesar parajes[ST:n ]y descubrir cada rinc&#243;n de mundo![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0019</td>
+        <td class="side">Tora espera ganar puntos con Nopon Commerce Guild[ST:n ]firmando colosal contrato con ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0020</td>
+        <td class="side">Pero para ser alien&#237;genas inteligentes, son bastante[ST:n ]tontos. No saben nada de negocios o de dinero.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0021</td>
+        <td class="side">Negociaciones no van tan bien. Gran plan de Tora[ST:n ]se viene abajo. &#191;Y qui&#233;n aparece? &#161;Tatsu! &#161;Meh![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0022</td>
+        <td class="side">Tatsu va hacia ma-non y dice nombre de [ST:Gender p1=amigo p2=amiga ].[ST:n ]Tatsu dice: [ST:playername ] te salv&#243;, &#191;no?[ST:n ]Despu&#233;s saca pizza extragrande y contrato.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0023</td>
+        <td class="side">Ahora, &#161;todo mundo quiere a Tatsu! &#191;C&#243;mo conoce[ST:n ]a tanta gente? &#191;C&#243;mo sabe tanto de otras culturas?[ST:n ]&#161;No es justo! &#161;Meh, meh, meeeeh![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0024</td>
+        <td class="side">Bueno, Tora sabe cu&#225;ndo Tora ha sido derrotado...[ST:n ]Por ahora. Pero &#161;un d&#237;a ser&#225; Tora quien agite[ST:n ]contrato firmado en cara de Tatsu![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0029</td>
+        <td class="side">Tora no quiere que est&#250;pido Tatsu se lleve toda gloria,[ST:n ]as&#237; que Tora ha decidido pedir algunos favores[ST:n ]y reunir suministros para ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0030</td>
+        <td class="side">Junto con amigos de Caravana de Dorian,[ST:n ]&#161;Tora carg&#243; manada entera de nopop&#243;tamos[ST:n ]con miranio![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0031</td>
+        <td class="side">&#161;Entonces Tora y caravana se toparon con ganglion[ST:n ]cuando llegaron a ciudad! Tora casi se fue por pata[ST:n ]abajo de miedo. Tora no importa admitirlo a [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0032</td>
+        <td class="side">Es bueno que [ST:Gender p1=amigo p2=amiga ] ganara. Si no, desgarradora[ST:n ]experiencia de Tora no habr&#237;a servido para nada.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0033</td>
+        <td class="side">&#161;Buen trabajo, [ST:Gender p1=amigo p2=amiga ]! &#161;Sigue pegando[ST:n ]a ganglion en sus est&#250;pidas caras![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0038</td>
+        <td class="side">Tatsu dice que ha eliminado a ese behemoth &#233;l solo,[ST:n ]pero Tora no est&#225; impresionado. &#161;Meh![ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0039</td>
+        <td class="side">De hecho, poderoso Tora derrot&#243; a Due&#241;a del pepino[ST:n ]que vaga en profundidad de Noctilum.[ST:n ]&#161;La elimin&#243; con ojos cerrados![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0040</td>
+        <td class="side">&#161;No mires a Tora as&#237;! &#161;Historia es completamente[ST:n ]verdad! &#161;Tora usa movimiento Megatoraged&#243;n[ST:n ]para herir a asquerosa Due&#241;a del pepino![ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0041</td>
+        <td class="side">&#191;Qu&#233;? &#191;[ST:Gender p1=Amigo p2=Amiga ] quiere saber aspecto de Due&#241;a?[ST:n ]Eh, Tora no sabe porque Tora estaba cegado[ST:n ]por ira de batalla. Solo vio rojo.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0046</td>
+        <td class="side">Pronto, &#161;Tora se reunir&#225; con mamap&#243;n y papap&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0047</td>
+        <td class="side">Pero es muy importante que Tora se convierta[ST:n ]en distinguido mercader antes de reuni&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0048</td>
+        <td class="side">Tora deber&#237;a contratar a [ST:Gender p1=amigo p2=amiga ] BLADE para hacer[ST:n ]que cosas se pongan en marcha, si no taca&#241;o Nopon[ST:n ]Commerce Guild nunca dejar&#225; inscribirse a Tora.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0049</td>
+        <td class="side">Pero [ST:Gender p1=amigo p2=amiga ] parece [ST:Gender p1=ocupado p2=ocupada ]. Y sus servicios, caros.[ST:n ]&#191;[ST:Gender p1=Amigo p2=Amiga ] conoce alg&#250;n BLADE novato que lo haga bien[ST:n ]y barato? &#191;Quiz&#225; gratis?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0054</td>
+        <td class="side">tev055201_MSG0054</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0055</td>
+        <td class="side">tev055201_MSG0055</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0060</td>
+        <td class="side">Tora sabe que ganglion est&#225;n preparando planes[ST:n ]malignos. &#161;Trampa mortal para matar a amigos![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0061</td>
+        <td class="side">Tatsu ha prometido tener cuidado.[ST:n ]&#161;Tora no quiere que Tatsu muera![ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0062</td>
+        <td class="side">Esta es batalla de amigos. &#161;Batalla que ganan seguro![ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0063</td>
+        <td class="side">Pero Tora debe acabar batalla con Tatsu[ST:n ]por supremac&#237;a nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0064</td>
+        <td class="side">Tora no puede demostrar que es mejor nopon si Tatsu[ST:n ]vuelve en bolsa de pl&#225;stico. As&#237; que &#161;ten cuidado![ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0069</td>
+        <td class="side">&#191;Sobrevivi&#243; Tatsu a trampa mortal de n&#250;cleo[ST:n ]del Arca de la vida? &#191;Est&#225; Tatsu a salvo?[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0070</td>
+        <td class="side">&#161;Meh! &#161;Bien! &#161;Esto significa que Tora puede retar[ST:n ]a Tatsu a desaf&#237;o final![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0071</td>
+        <td class="side">&#161;Venga! &#161;Trae a Tatsu! Tora no huir&#225;.[ST:n ]&#161;Tora demostrar&#225; supremac&#237;a para quede claro![ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0076</td>
+        <td class="side">&#161;Meh! &#161;Ahora! &#191;Por qu&#233; esperar?[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0077</td>
+        <td class="side">Tora est&#225; feliz de que Tatsu volviera de trampa mortal[ST:n ]de n&#250;cleo del Arca de la vida, pero ahora Tatsu[ST:n ]debe afrontar consecuencias.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0078</td>
+        <td class="side">&#161;Hoy Tora y Tatsu deciden de vez por todas qui&#233;n[ST:n ]es mejor nopon de todos! &#161;Chan, chan, chan, chaaan![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0079</td>
+        <td class="side">&#191;Meh? &#191;Tatsu tiene demasiada hambre[ST:n ]como para tener desaf&#237;o final ahora?[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0080</td>
+        <td class="side">&#161;No es justo! &#161;&#191;Sabe est&#250;pido Tatsu[ST:n ]cu&#225;nto ha estado Tora entrenando?![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>tev055201_MSG0081</td>
+        <td class="side">Tora pidi&#243; ayuda a mont&#243;n de humanos para practicar[ST:n ]piedra, papel o tijera y zapatilla por detr&#225;s. &#161;&#191;Tora[ST:n ]entren&#243; duro para ser verdadero guerrero para nada?![ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>tev055201_MSG1001</td>
+        <td class="side">Ahora que Tora es miembro de Nopon Commerce[ST:n ]Guild, &#161;productos de Tora se venden como churros![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>tev055201_MSG1002</td>
+        <td class="side">Tora va a hacer como dijo Dadato y &#161;tratar[ST:n ]a [ST:Gender p1=buenos amigos p2=buenas amigas ] como [ST:playername ][ST:n ]y Mia de manera extraespecial![ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>tev055201_MSG1003</td>
+        <td class="side">[ST:Gender p1=Amigos p2=Amigas ] tendr&#225;n prioridad en restos y bienes defectuo...[ST:n ]&#161;Ejem! Sobre... &#161;mejores mercanc&#237;as![ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>tev055201_MSG1004</td>
+        <td class="side">[ST:Gender p1=Amigos p2=Amigas ] no lamentar&#225;n ninguna compra.[ST:n ]&#161;Para eso est&#225;n amigos![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>tev055201_MSG2001</td>
+        <td class="side">&#191;Ha estado [ST:Gender p1=amigo p2=amiga ] ya en Caravana de Dodonga?[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>tev055201_MSG2002</td>
+        <td class="side">Aseg&#250;rate de traer a Tora regalo bonito, &#191;de acuerdo?[ST:n ]Porque Tora fue muy bueno y habl&#243; a [ST:Gender p1=amigo p2=amiga ][ST:n ]de incre&#237;ble caravana.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev017801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0011</td>
+        <td class="side">Demander &#224; Alan des d&#233;tails sur Vandham.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0021</td>
+        <td class="side">Demander &#224; Alan s&#39;il y a quelque chose qui le perturbe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0010</td>
+        <td class="side">tev017801_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0031</td>
+        <td class="side">Demander &#224; Alan des informations sur[ST:n ]les niveaux d&#39;armature</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0020</td>
+        <td class="side">tev017801_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0021</td>
+        <td class="side">tev017801_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev017801_SEL1021</td>
+        <td class="side">Demander &#224; Alan s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0001</td>
+        <td class="side">Quand la Grande Blanche &#233;tait en vol, c&#39;&#233;tait Vandham[ST:n ]l&#39;ing&#233;nieur en chef. Il a gagn&#233; le respect de beaucoup[ST:n ]de m&#233;canos &#224; bord.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0002</td>
+        <td class="side">Beaucoup de gens de mon d&#233;partement lui vouent[ST:n ]toujours une profonde admiration.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0003</td>
+        <td class="side">Je sais que c&#39;est parce que Vandham me criait dessus[ST:n ]en permanence que je suis aujourd&#39;hui un technicien[ST:n ]comp&#233;tent.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0004</td>
+        <td class="side">Mais encore maintenant, chaque fois que le[ST:n ]commandant nous rend visite, je me sens[ST:n ]comme un &#233;l&#232;ve face &#224; son professeur.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0010</td>
+        <td class="side">Ma coll&#232;gue Brenna planifie les syst&#232;mes de contr&#244;le.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0011</td>
+        <td class="side">Mais chaque fois qu&#39;elle rencontre le moindre probl&#232;me,[ST:n ]elle baisse les bras et dit que c&#39;est impossible[ST:n ]&#224; r&#233;soudre.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0012</td>
+        <td class="side">Et quand on met toutes nos id&#233;es en commun,[ST:n ]elle a tendance &#224; rejeter tout ce qui est nouveau[ST:n ]avant m&#234;me qu&#39;on ait explor&#233; toutes les possibilit&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0013</td>
+        <td class="side">C&#39;est le m&#233;tier d&#39;ing&#233;nieur que de toujours chercher[ST:n ]de nouvelles solutions, ce serait bien si elle &#233;tait[ST:n ]un peu plus ouverte d&#39;esprit.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0015</td>
+        <td class="side">Le niveau d&#39;armature de ton Skell limite les armes[ST:n ]et l&#39;armure dont tu peux l&#39;&#233;quiper.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0016</td>
+        <td class="side">En d&#39;autres termes, si tu veux utiliser l&#39;artillerie lourde,[ST:n ]tu auras besoin d&#39;une armature con&#231;ue pour supporter[ST:n ]cette puissance.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0017</td>
+        <td class="side">Lors de l&#39;achat d&#39;une armature, ne compare pas que les[ST:n ]statistiques d&#39;attaque et de r&#233;sistance ; il faut aussi[ST:n ]qu&#39;elle soit capable de supporter l&#39;&#233;quipement d&#233;sir&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1001</td>
+        <td class="side">Je parlais &#224; Brenna l&#39;autre jour. On dirait qu&#39;elle[ST:n ]a vraiment appris &#224; &#234;tre plus ouverte d&#39;esprit[ST:n ]face aux probl&#232;mes qu&#39;elle rencontre.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1002</td>
+        <td class="side">Jusqu&#39;&#224; r&#233;cemment, d&#232;s qu&#39;elle rencontrait un probl&#232;me,[ST:n ]elle optait pour la solution la plus formelle et la moins[ST:n ]risqu&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1003</td>
+        <td class="side">Mais la derni&#232;re fois qu&#39;on a discut&#233;, son seul sujet[ST:n ]de conversation &#233;tait d&#39;explorer une nouvelle id&#233;e apr&#232;s[ST:n ]l&#39;autre ! On aurait presque dit que je parlais &#224; Lin.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1004</td>
+        <td class="side">Peut-&#234;tre qu&#39;elle a appris quelque chose lors de notre[ST:n ]derni&#232;re mission. En tout cas moi oui ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

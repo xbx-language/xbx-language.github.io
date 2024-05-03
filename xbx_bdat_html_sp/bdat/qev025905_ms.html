@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025905_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0001</td>
+        <td class="side">Los humanos son simples instrumentos para la obra[ST:n ]celestial y aun as&#237;, &#191;te atreves a volverte contra[ST:n ]el poder divino? &#161;Qu&#233; descaro![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0002</td>
+        <td class="side">Se supone que los instrumentos deben cumplir[ST:n ]su funci&#243;n con diligencia y sin rechistar.[ST:n ]Deben actuar como nuestra querida Fraisie.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0003</td>
+        <td class="side">Pero nuestra divinidad es benevolente. Est&#225;s a tiempo[ST:n ]de arrepentirte y aceptar sus mandatos. Demuestra tu[ST:n ]fe: acaba con los ma-non y &#161;siembra el caos en NLA![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025905_JNK0010</td>
+        <td class="side">Negarse</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025905_SEL0011</td>
+        <td class="side">Desacata los mandatos de su divinidad.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025905_JNK0020</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025905_SEL0021</td>
+        <td class="side">Pide a tu adversario que revele su verdadera identidad.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0004</td>
+        <td class="side">&#161;[ST:Gender p1=Necio p2=Necia ]! Ahora entiendo por qu&#233; los ganglion[ST:n ]os desprecian.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0005</td>
+        <td class="side">Soy una encarnaci&#243;n divina, en el sentido m&#225;s puro;[ST:n ]una de las muchas hijas de Madre Fortun.[ST:n ]Somos su voluntad divina hecha carne.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0006</td>
+        <td class="side">De acuerdo, pues. &#161;No te alcanzar&#225; la vida para[ST:n ]arrepentirte de haber desafiado a TW772:Twin,[ST:n ]portadora del nombre de la Torre![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025905_MSG0007</td>
+        <td class="side">&#161;Obs&#233;rvame, madre! &#161;Ser&#225;n testigos de[ST:n ]todo el poder y la crueldad que hay en m&#237;![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

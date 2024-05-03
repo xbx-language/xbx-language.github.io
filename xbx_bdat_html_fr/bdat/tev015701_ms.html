@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015701_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015701_SEL0011</td>
+        <td class="side">Demander &#224; Dart des informations sur cet endroit.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015701_SEL0021</td>
+        <td class="side">Demander &#224; Dart s&#39;il a entendu des rumeurs[ST:n ]int&#233;ressantes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015701_SEL0031</td>
+        <td class="side">Demander &#224; Dart ce qu&#39;il pense des Ma-nons.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015701_SEL0041</td>
+        <td class="side">Demander &#224; Dart s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015701_SEL0051</td>
+        <td class="side">Demander &#224; Dart des d&#233;tails sur les indig&#232;nes[ST:n ]qui deviennent enrag&#233;s.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015701_SEL1011</td>
+        <td class="side">Demander &#224; Dart des informations sur la r&#233;paration[ST:n ]des Skells endommag&#233;s.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015701_SEL1021</td>
+        <td class="side">Demander &#224; Dart s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0001</td>
+        <td class="side">Tu vois tous ces mat&#233;riaux &#233;parpill&#233;s ? Les armatures[ST:n ]en acier et autres trucs du genre ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0002</td>
+        <td class="side">J&#39;ai dit &#224; Beats, mon fr&#232;re Mediator, de ranger[ST:n ]ce bazar.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0003</td>
+        <td class="side">Mais il m’a r&#233;pondu qu’on n’avait pas assez de main[ST:n ]d’œuvre disponible pour effectuer des travaux de[ST:n ]maintenance de cette ampleur, donc on les laisse l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0004</td>
+        <td class="side">S&#39;il y avait pas tous ces machins, on pourrait faire[ST:n ]la f&#234;te tous les soirs. Quel g&#226;chis ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0008</td>
+        <td class="side">Gerome est encore parti manger &#224; Army Pizza ?![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0009</td>
+        <td class="side">Il parle toujours de tabasser du x&#233;noforme, mais s&#39;il[ST:n ]s&#39;enfile une pizza par jour, il va pas en tabasser[ST:n ]beaucoup...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0010</td>
+        <td class="side">Si mon patron ne nous d&#233;gotte pas de mission, je vais[ST:n ]pouvoir glander toute la journ&#233;e. Trop bien.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0020</td>
+        <td class="side">Ils sont tout timides, mais ils ont une technologie de[ST:n ]folie. Je sais pas s&#39;ils savent qu&#39;ils sont les nouveaux[ST:n ]pique-assiettes de New L.A. ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0021</td>
+        <td class="side">On va leur apprendre les bonnes mani&#232;res.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0022</td>
+        <td class="side">Tu veux les d&#233;noncer aux Mediators ? Si oui, Beats,[ST:n ]mon fain&#233;ant de fr&#232;re, monte la garde l&#224;-bas.[ST:n ]Enfin, si on peut appeler &#231;a monter la garde...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0023</td>
+        <td class="side">Non, mais n&#39;importe quoi ! T&#39;as pas mieux &#224; faire [ST:n ]que de t&#39;occuper de quelques Ma-nons ? Allez,[ST:n ]bouge-toi et occupe-toi du Ganglion ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0030</td>
+        <td class="side">Gerome avait besoin d&#39;&#233;vacuer sa col&#232;re, donc on est[ST:n ]all&#233;s faire une petite chasse &#224; la prime.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0031</td>
+        <td class="side">Mais pendant un combat, j&#39;ai arrach&#233; le bras[ST:n ]d&#39;un simius et &#231;a l&#39;a rendu fou furieux ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0032</td>
+        <td class="side">Cette salet&#233; a envoy&#233; un de mes hommes au centre[ST:n ]de maintenance pour mim&#233;osomes.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0033</td>
+        <td class="side">Bon sang ! Pourquoi est-ce qu&#39;on a d&#251; atterrir sur[ST:n ]une plan&#232;te aussi pourrie ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0046</td>
+        <td class="side">H&#233; h&#233; h&#233;. Gerome a enfin fini de glander.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0047</td>
+        <td class="side">Maintenant, il va pouvoir &#233;vacuer toute la col&#232;re qui le[ST:n ]bouffait depuis que les Ma-nons ont investi Army Pizza.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev015701_MSG0048</td>
+        <td class="side">Ah, mais attention, j&#39;ai pas dit que j&#39;avais envie de leur[ST:n ]d&#233;clarer la guerre ou quoi que ce soit.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1049</td>
+        <td class="side">J&#39;ai d&#233;truit mon tout nouveau Skell, et ils m&#39;ont dit que[ST:n ]les r&#233;parations allaient me co&#251;ter 8 000 balles ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1050</td>
+        <td class="side">J’ai p&#233;t&#233; les plombs quand ils m’ont dit &#231;a. Je leur ai[ST:n ]hurl&#233; qu’aucun homme honn&#234;te ne peut avoir[ST:n ]une somme pareille.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1051</td>
+        <td class="side">Mais mon fr&#232;re, Beats, s&#39;est avanc&#233; en disant[ST:n ]qu&#39;il me paierait les r&#233;parations ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1052</td>
+        <td class="side">Je comprends pas... Il dit toujours que les r&#233;compenses[ST:n ]des Mediators sont pourries, et l&#224;, il se pointe et me dit[ST:n ]qu&#39;il veut payer ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1053</td>
+        <td class="side">Quel idiot... Bref, j&#39;ai int&#233;r&#234;t &#224; accepter une grosse[ST:n ]mission pour me faire un peu de bl&#233; et l&#39;inviter[ST:n ]&#224; manger un bon steak.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1060</td>
+        <td class="side">J&#39;arrive pas &#224; croire que ce cr&#233;tin de la pizzeria[ST:n ]a essay&#233; de pi&#233;ger Gerome.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1061</td>
+        <td class="side">Les choses ont tellement mal tourn&#233; que j&#39;ai cru que les[ST:n ]Ma-nons allaient se liguer contre les humains.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1062</td>
+        <td class="side">Mais au lieu de &#231;a, ils ont dit &#171; Hmm, donc donc donc[ST:n ]maintenant, nous ne pouvons plus avoir notre pizza[ST:n ]habituelle, d&#39;accord ? &#187; Et c&#39;est tout ![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev015701_MSG1063</td>
+        <td class="side">Ils sont vraiment pas rancuniers, c&#39;est fou ! Ou peut-&#234;tre[ST:n ]qu&#39;ils sont juste compl&#232;tement cr&#233;tins...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

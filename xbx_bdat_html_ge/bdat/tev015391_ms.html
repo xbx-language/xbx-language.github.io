@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015391_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0001</td>
+        <td class="side">Entschuldigung, kann ich dir irgendwie behilflich... Oh![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0002</td>
+        <td class="side">Bist du nicht [ST:Gender p1=der Mann, der p2=die Frau, die ] einen Gedenkgottesdienst[ST:n ]hier in der Kirche abhalten wollte?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0003</td>
+        <td class="side">...Nein? Oh, dann habe ich mich wohl geirrt.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0004</td>
+        <td class="side">Verzeih die Verwechslung. W&#228;hrend ich weg war, kam[ST:n ]n&#228;mlich jemand mit diesem Anliegen in die Kirche.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0005</td>
+        <td class="side">Allerdings hat derjenige, der mit dieser Person[ST:n ]gesprochen hat, vergessen, nach dem Namen zu fragen.[ST:n ]Und jetzt wei&#223; keiner, wer dieser Besucher war.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0006</td>
+        <td class="side">Ich wollte diesen Gottesdienst eigentlich so bald wie[ST:n ]m&#246;glich abhalten. Mein Anliegen ist es schlie&#223;lich, das[ST:n ]Leid der Hinterbliebenen so gut es geht zu lindern.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0007</td>
+        <td class="side">Hmmm...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0008</td>
+        <td class="side">W&#252;rdest du dich als BLADE, [ST:Gender p1=der p2=die ] viel in der Stadt[ST:n ]unterwegs ist, vielleicht einmal umh&#246;ren? M&#246;glicherweise[ST:n ]k&#246;nnen wir so die Identit&#228;t dieser Person herausfinden.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0009</td>
+        <td class="side">Mein einziger Anhaltspunkt ist, dass die Person in einem[ST:n ]Restaurant im Gesch&#228;ftsviertel arbeitet und k&#252;rzlich einen[ST:n ]Sohn verloren hat.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev015391_JNK0010</td>
+        <td class="side">Tippe auf Pauline</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev015391_SEL0011</td>
+        <td class="side">Sage, dass es sich wahrscheinlich um Pauline handelt.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev015391_JNK0020</td>
+        <td class="side">Tippe auf Coco</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev015391_SEL0021</td>
+        <td class="side">Sage, dass es sich wahrscheinlich um Coco handelt.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0010</td>
+        <td class="side">Diese Pauline trauert also um einen Stammkunden[ST:n ]namens Bobby, der wie ein Sohn f&#252;r sie war?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0011</td>
+        <td class="side">Und du hast vor Kurzem Bobbys pers&#246;nliche[ST:n ]Gegenst&#228;nde wiederbeschafft?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0012</td>
+        <td class="side">Hmmm, das klingt nachvollziehbar.[ST:n ]Vielen Dank f&#252;r deine Hilfe.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0013</td>
+        <td class="side">Ich werde gleich damit anfangen, einen w&#252;rdevollen[ST:n ]Gedenkgottesdienst f&#252;r Bobby zu planen. Hoffentlich[ST:n ]hilft das Pauline, ein wenig Trost zu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0014</td>
+        <td class="side">Wirklich lindern k&#246;nnen wir einen Verlust wie Paulines[ST:n ]allerdings nur, wenn es uns gelingt, den Lebensspeicher[ST:n ]zu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0015</td>
+        <td class="side">Dann k&#246;nnten all unsere Verstorbenen ihre eigenen[ST:n ]K&#246;rper zur&#252;ckbekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0016</td>
+        <td class="side">Ah, ich kenne Coco. Sie arbeitet im selben Caf&#233; wie Jo.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0017</td>
+        <td class="side">Ich wusste nicht, dass ihr Sohn gefallen ist...[ST:n ]Dabei wirkt sie so unglaublich ruhig und gefasst.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0018</td>
+        <td class="side">Das spricht f&#252;r eine starke Pers&#246;nlichkeit, wenn sie das[ST:n ]einfach so wegsteckt! Aber das muss sie wohl auch[ST:n ]sein, wenn sie es jeden Tag mit Jo zu tun hat...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0019</td>
+        <td class="side">Vielen Dank. Ich werde gleich zu ihr gehen und mich[ST:n ]mit ihr &#252;ber den Gedenkgottesdienst zu unterhalten. Ich[ST:n ]hoffe, ich kann ihr ein wenig Trost spenden.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0020</td>
+        <td class="side">Wirklich lindern k&#246;nnen wir einen Verlust wie Cocos[ST:n ]allerdings nur, wenn es uns gelingt, den Lebensspeicher[ST:n ]zu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev015391_MSG0021</td>
+        <td class="side">Dann k&#246;nnten all unsere Verstorbenen ihre eigenen[ST:n ]K&#246;rper zur&#252;ckbekommen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

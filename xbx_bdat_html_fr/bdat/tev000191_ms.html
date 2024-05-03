@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000191_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0001</td>
+        <td class="side">Ah, [ST:playername ]. Vous tombez &#224; pic,[ST:n ]comme toujours.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0002</td>
+        <td class="side">Puisque je n&#39;arrive pas &#224; trouver Vandham, j&#39;aimerais[ST:n ]avoir votre avis sur quelque chose.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0003</td>
+        <td class="side">Je viens de recevoir une requ&#234;te urgente d&#39;une &#233;quipe[ST:n ]de Pathfinders.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0004</td>
+        <td class="side">On les a d&#233;ploy&#233;s dans une r&#233;gion tr&#232;s dangereuse,[ST:n ]une r&#233;gion qui a d&#233;j&#224; vu tomber de nombreuses unit&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0005</td>
+        <td class="side">Cette &#233;quipe a enfin r&#233;ussi &#224; atteindre sa destination.[ST:n ]Mais la sonde dont ils ont besoin pour accomplir leur[ST:n ]mission a &#233;t&#233; d&#233;truite au cours d&#39;une bataille.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0006</td>
+        <td class="side">Ma question est la suivante : comment leur faire[ST:n ]parvenir les pi&#232;ces de rechange dont ils ont besoin ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0007</td>
+        <td class="side">Nous pourrions envoyer une &#233;quipe d&#39;Harriers ou[ST:n ]d&#39;Interceptors, mais il y aurait un gros risque qu&#39;ils[ST:n ]soient tu&#233;s en essayant de les rejoindre.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0008</td>
+        <td class="side">La meilleure option reste peut-&#234;tre de demander &#224; ces[ST:n ]Pathfinders de reporter la mission et de battre en[ST:n ]retraite.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0009</td>
+        <td class="side">Avec l&#39;exp&#233;rience de cette premi&#232;re tentative et le[ST:n ]soutien d&#39;une escorte d&#39;Harriers et d&#39;Interceptors en[ST:n ]appui, ils auraient de bonnes chances de remettre &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0010</td>
+        <td class="side">Que feriez-vous &#224; ma place ? Prendriez-vous le risque[ST:n ]d&#39;une livraison de pi&#232;ces de rechange ou leur[ST:n ]ordonneriez-vous de se replier pour l&#39;instant ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000191_JNK0010</td>
+        <td class="side">Livrer les pi&#232;ces</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000191_SEL0011</td>
+        <td class="side">Dire que la mission vaut la peine de prendre ce risque.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000191_JNK0020</td>
+        <td class="side">Annuler la mission</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000191_SEL0021</td>
+        <td class="side">Sugg&#233;rer le repli et la planification d&#39;une autre tentative.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000191_JNK0030</td>
+        <td class="side">Offrir une solution alternative</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000191_SEL0031</td>
+        <td class="side">Proposer d&#39;effectuer la livraison en personne.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0011</td>
+        <td class="side">Vous pensez que g&#226;cher cette opportunit&#233; pr&#233;senterait[ST:n ]un risque plus grand encore ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0012</td>
+        <td class="side">Hmm... De nombreuses vies seraient en p&#233;ril. Mais[ST:n ]peut-&#234;tre que c&#39;est le prix &#224; payer si nous esp&#233;rons[ST:n ]remplir notre mission sur cette dangereuse plan&#232;te...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0013</td>
+        <td class="side">Apr&#232;s tout ce que vous avez r&#233;alis&#233; au sein du BLADE,[ST:n ]je ne peux que me fier &#224; votre opinion.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0014</td>
+        <td class="side">Qu&#39;il en soit ainsi. J&#39;envoie les Harriers. Si ce risque[ST:n ]s&#39;av&#232;re payant, New L.A. en b&#233;n&#233;ficiera grandement.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0015</td>
+        <td class="side">Je dois maintenant rejoindre le quartier g&#233;n&#233;ral du[ST:n ]BLADE et &#233;tablir un plan de mission. Bonne journ&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0016</td>
+        <td class="side">En effet. Nos corps sont peut-&#234;tre des mim&#233;osomes,[ST:n ]mais ils restent un atout pr&#233;cieux que nous ne pouvons[ST:n ]pas risquer aveugl&#233;ment.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0017</td>
+        <td class="side">Il serait imprudent de risquer les vies d&#39;autant de[ST:n ]membres du BLADE sur une seule mission.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0018</td>
+        <td class="side">Un grand homme a dit un jour : &#171; Celui qui fuit peut[ST:n ]de nouveau combattre. &#187; Esp&#233;rons que cette seconde[ST:n ]tentative soit la bonne.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0019</td>
+        <td class="side">Je vais ordonner aux Pathfinders de se replier[ST:n ]imm&#233;diatement.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0020</td>
+        <td class="side">Merci. Apr&#232;s tout ce que vous avez r&#233;alis&#233; au sein[ST:n ]du BLADE, je ne peux que me fier &#224; votre opinion.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0021</td>
+        <td class="side">Je dois maintenant rejoindre le quartier g&#233;n&#233;ral du[ST:n ]BLADE et &#233;tablir un plan de mission. Bonne journ&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0022</td>
+        <td class="side">J&#39;aime votre fa&#231;on de penser. Si je le pouvais, je me[ST:n ]joindrais &#224; vous.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0023</td>
+        <td class="side">Mais j&#39;ai bien peur que ce soit impossible cette fois-ci.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0024</td>
+        <td class="side">Vandham a fait parler son autorit&#233;. Il insiste pour que[ST:n ]ni vous ni moi ne soyons impliqu&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0025</td>
+        <td class="side">Le BLADE est une grande organisation. Nous avons de[ST:n ]nombreuses &#233;quipes talentueuses &#224; notre disposition,[ST:n ]en dehors de la v&#244;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0026</td>
+        <td class="side">Vandham semble vouloir utiliser ces autres &#233;quipes dans[ST:n ]le but d&#39;harmoniser l&#39;utilisation des troupes et mettre en[ST:n ]avant leur efficacit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0027</td>
+        <td class="side">Nous aurons d&#39;autres occasions de faire appel &#224; vous[ST:n ]pour ce genre de situations. Pour l&#39;heure, nous devrons[ST:n ]choisir l&#39;une des deux autres strat&#233;gies.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

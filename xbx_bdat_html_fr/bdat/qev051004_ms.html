@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051004_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0001</td>
+        <td class="side">Vos &#233;p&#233;es sont toutes des chefs-d&#39;œuvre, Monsieur ![ST:n ]Je refuse de croire que celle-ci soit un &#233;chec.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0002</td>
+        <td class="side">Alors... s&#39;il vous pla&#238;t, calmez-vous et ne me tuez pas ![ST:n ]Piti&#233;&#233;&#233; !![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0003</td>
+        <td class="side">Mon ma&#238;tre est peut-&#234;tre un peu original, mais vous[ST:n ]ne trouverez d&#39;autre forgeron wrothian plus accompli.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0004</td>
+        <td class="side">M&#234;me le Ganglion respectait ses comp&#233;tences.[ST:n ]Ils firent une exception et le laiss&#232;rent travailler[ST:n ]dans sa propre forge.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0005</td>
+        <td class="side">J&#39;ai h&#226;te de voir de quel genre d&#39;&#233;p&#233;e r&#234;ve[ST:n ]un tel ma&#238;tre forgeron.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0006</td>
+        <td class="side">Ma&#238;tre ! Quel doit &#234;tre mon &#233;tat d&#39;esprit lorsque[ST:n ]je m&#39;approche de l&#39;enclume ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0007</td>
+        <td class="side">Apprenez-moi, Monsieur ! Fa&#231;onnez-moi comme vous[ST:n ]le feriez avec de l&#39;acier en fusion ![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0008</td>
+        <td class="side">Je me demande quelles &#233;preuves et tribulations mon[ST:n ]ma&#238;tre a travers&#233;es pour que soient empreints en lui[ST:n ]cette passion et cet amour d&#233;vorants pour le forgeage...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0009</td>
+        <td class="side">Sans doute plus que ce qu&#39;un enfant inexp&#233;riment&#233;[ST:n ]tel que moi puisse imaginer.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0010</td>
+        <td class="side">Elle existe enfin... L&#39;&#233;p&#233;e indestructible ! Mon ma&#238;tre[ST:n ]est parti pour Cauldros pour tester son tranchant.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0011</td>
+        <td class="side">S&#39;il vous pla&#238;t, allez le rejoindre l&#224;-bas. Soyez le t&#233;moin[ST:n ]de sa bravoure au combat et de la qualit&#233; in&#233;gal&#233;e[ST:n ]de son chef-d&#39;œuvre.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

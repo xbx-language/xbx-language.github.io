@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev070103_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0016</td>
+        <td class="side">Kennst du den Xenoformen namens Professor B?[ST:n ]Er lebt am Rande des Industriegebiets.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0017</td>
+        <td class="side">Was ist das &#252;berhaupt f&#252;r einer?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0018</td>
+        <td class="side">Er kauft mir gro&#223;e Mengen Ersatzteile ab, daher bin ich[ST:n ]dankbar, ihn als Kunden zu haben...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0019</td>
+        <td class="side">Aber ich habe keine Ahnung, was er da baut.[ST:n ]Und manchmal sagt er Dinge, die einfach &#252;berhaupt[ST:n ]keinen Sinn ergeben![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0020</td>
+        <td class="side">Mysteri&#246;s ist ja sch&#246;n und gut, aber der macht mir fast[ST:n ]schon Sorgen. Ich meine, seit wann ist er &#252;berhaupt[ST:n ]hier in NLA? Der war pl&#246;tzlich einfach da![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0001</td>
+        <td class="side">Wenn du gute Gebrauchtwaren zu l&#228;cherlich niedrigen[ST:n ]Preisen suchst, bist du hier richtig. Ich hab Angebote[ST:n ]am Start, von denen du nicht mal tr&#228;umen w&#252;rdest![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0002</td>
+        <td class="side">...Hmm? Professor B schickt dich? Ah, sehr sch&#246;n![ST:n ]Er z&#228;hlt zu meinen besten Kunden.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0003</td>
+        <td class="side">Klar habe ich auch Autos: Hier links steht das blaue [ST:n ]Standardmodell, das in der Mitte ist eher eine[ST:n ]Schrottkiste und hier steht mein roter Traumwagen.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0004</td>
+        <td class="side">Na, welcher hat es dir angetan? Egal, welchen du[ST:n ]nimmst, ich komm dir beim Preis richtig entgegen.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0010</td>
+        <td class="side">Die goldene Mitte</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0011</td>
+        <td class="side">Kaufe das Standardmodell.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0020</td>
+        <td class="side">Die preiswerte Alternative</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0021</td>
+        <td class="side">Nimm die billige Klapperkiste.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0030</td>
+        <td class="side">Ein bisschen Luxus</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0031</td>
+        <td class="side">W&#228;hle das h&#252;bsche rote Auto.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0005</td>
+        <td class="side">Gute Wahl. Der Wagen bietet einfach das beste[ST:n ]Preis-Leistung-Verh&#228;ltnis. F&#252;r 10.000 Credits geh&#246;rt er[ST:n ]dir. Einverstanden?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0040</td>
+        <td class="side">Kaufen</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0041</td>
+        <td class="side">Erwirb das Standardmodell f&#252;r 10.000 Credits.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0070</td>
+        <td class="side">Warten</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0071</td>
+        <td class="side">Kauf erst mal lieber doch nichts.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0007</td>
+        <td class="side">Echt? Diese alte Kiste? Die wollte ich schon in die[ST:n ]Schrottpresse... &#196;h, ich meine, eine gute Wahl! Der[ST:n ]Wagen hat Potenzial! Und kostet nur 1000 Credits.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0050</td>
+        <td class="side">Kaufen</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0051</td>
+        <td class="side">Erwirb die Klapperkiste f&#252;r 1000 Credits.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0009</td>
+        <td class="side">Da sieht man doch gleich den Autokenner![ST:n ]Eine ausgezeichnete Wahl! Ein sch&#246;neres Auto findest[ST:n ]du auf ganz Mira nicht! Und auch sonst nirgends.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0010</td>
+        <td class="side">Wahrscheinlich auch kein teureres. Aber wie sollte man[ST:n ]100.000 Credits besser anlegen? Hm? Eben, gar nicht![ST:n ]Das Sch&#228;tzchen ist eine echte Wertanlage.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0060</td>
+        <td class="side">Kaufen</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0061</td>
+        <td class="side">Erwirb das Luxusgef&#228;hrt f&#252;r 100.000 Credits.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0011</td>
+        <td class="side">Vielen Dank. Ich werde das Auto zu Professor B liefern[ST:n ]lassen. Nat&#252;rlich ohne Aufpreis.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0014</td>
+        <td class="side">Willst du noch mal dr&#252;ber schlafen? Kein Problem.[ST:n ]Sag einfach Bescheid, wenn du dich entschieden hast.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0015</td>
+        <td class="side">Hmmm, das ist leider nicht genug Kohle...[ST:n ]Tut mir leid, aber bei Autos verlange ich die Bezahlung[ST:n ]immer bar auf die Hand.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0012</td>
+        <td class="side">Hey! Professor B hat das Auto, das du f&#252;r ihn gekauft[ST:n ]hast, gut gefallen. Da war ich echt erleichtert.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0013</td>
+        <td class="side">Letzten Endes kriegt man halt immer das, wof&#252;r[ST:n ]man auch bezahlt, stimmt’s? Und der Preis war[ST:n ]wirklich mehr als fair, finde ich.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

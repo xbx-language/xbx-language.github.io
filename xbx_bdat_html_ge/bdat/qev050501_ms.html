@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0001</td>
+        <td class="side">He, warte mal! Bist du gerade einem Wrothianer &#252;ber[ST:n ]den Weg gelaufen?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0002</td>
+        <td class="side">Er wurde mit ernsthaften Verletzungen eingeliefert[ST:n ]und war noch in Behandlung, aber er ist einfach[ST:n ]aufgestanden und hat sich ohne ein Wort verdr&#252;ckt.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0003</td>
+        <td class="side">Er konnte gerade eben so wieder laufen. Aber wer[ST:n ]wei&#223;, wie sein wrothianisches Immunsystem auf die[ST:n ]ganzen Erreger reagiert, die es hier in NLA gibt?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0004</td>
+        <td class="side">W&#252;rdest du mir helfen, nach ihm zu suchen? Bitte?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050501_JNK0010</td>
+        <td class="side">Raten</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050501_SEL0011</td>
+        <td class="side">Sage Sherry, dass du ahnst, um[ST:n ]welchen Wrothianer es hier geht.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050501_JNK0020</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050501_SEL0021</td>
+        <td class="side">Bitte Sherry um eine Beschreibung[ST:n ]des vermissten Wrothianers.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0005</td>
+        <td class="side">Ach was, du kennst ihn?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0006</td>
+        <td class="side">...Ja. Ja, er war EXTREM h&#246;flich. Und er hat wirklich[ST:n ]sehr gestelzt geredet! NOCH gestelzter als die meisten[ST:n ]anderen Wrothianer, meine ich.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0007</td>
+        <td class="side">Ist ja toll, dass du wei&#223;t, wen ich meine.[ST:n ]Das macht die Suche viel einfacher.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0008</td>
+        <td class="side">Danke f&#252;r deine Hilfe.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0009</td>
+        <td class="side">Ah? Du willst eine Beschreibung?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0010</td>
+        <td class="side">Hm, also... Er hat ein ziemlich ungew&#246;hnliches Gesicht.[ST:n ]Ganz flauschig. Und spitze Ohren. &#196;hm... Ich sch&#228;tze,[ST:n ]das ist ziemlich typisch f&#252;r einen Wrothianer, hm?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0011</td>
+        <td class="side">Mal &#252;berlegen... Noch andere besondere Merkmale...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0012</td>
+        <td class="side">Oh ja! Er hat st&#228;ndig was vor sich hingemurmelt.[ST:n ]„Zum Prinz, ganz arg... Zum Prinz, ganz arg...“.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0013</td>
+        <td class="side">Vielleicht so eine Art wrothianische Genesungsfloskel?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0014</td>
+        <td class="side">Sein Name ist... &#196;h... ich hab’s gleich, eine Sekunde...[ST:n ]Na? Nu? ...Mo! Nein, halt...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0015</td>
+        <td class="side">Aha! Es war Ni! Ni Zain. Ich bin mir ganz sicher.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0016</td>
+        <td class="side">Es ist noch nicht so lange her, dass er verschwunden[ST:n ]ist. Er muss also noch irgendwo hier in der Stadt sein. [ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0017</td>
+        <td class="side">Wenn du ihn findest, zerr ihn an seinen Ohren zu mir[ST:n ]zur&#252;ck, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0018</td>
+        <td class="side">Und das meine ich wortw&#246;rtlich. Zerr ihn an seinen[ST:n ]Ohren durch die Gegend, wenn n&#246;tig. Ein paar Beulen[ST:n ]und Prellungen kann ich problemlos verarzten.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0019</td>
+        <td class="side">Seine anderen Verletzungen sind viel schlimmer.[ST:n ]Wenn er f&#252;r seine Behandlung also nicht freiwillig[ST:n ]stillhalten will, zwinge ich ihn eben dazu![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0020</td>
+        <td class="side">Okay, ich bereite hier alles vor, damit ich gleich mit[ST:n ]der Behandlung loslegen kann, wenn er wieder da ist.[ST:n ]Viel Gl&#252;ck![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0021</td>
+        <td class="side">Bist du unserem Wrothianer schon auf der Spur?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0022</td>
+        <td class="side">Der kann ja nicht so schwer zu finden sein, so ulkig,[ST:n ]wie er redet. Und dann w&#228;re da ja noch sein Gesicht.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0023</td>
+        <td class="side">Ich habe ein besonders gro&#223;es, ma&#223;angefertigtes Bett[ST:n ]zurechtgemacht, das nur auf ihn wartet.[ST:n ]Viel Gl&#252;ck bei der Suche![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0024</td>
+        <td class="side">Oh, [ST:Gender p1=der p2=die ] BLADE von neulich![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0025</td>
+        <td class="side">Du hast Ni Zain gefunden! Vielen, vielen Dank![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0026</td>
+        <td class="side">...Hmja, ich habe schon geh&#246;rt, dass er noch nicht[ST:n ]vorhat zur&#252;ckzukommen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0027</td>
+        <td class="side">D&#252;rfte ich dich bitten, ihn im Auge zu behalten, bis er[ST:n ]bereit ist, sich ordentlich behandeln zu lassen?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev050501_MSG0028</td>
+        <td class="side">Andernfalls l&#228;uft der uns doch bestimmt wieder davon.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

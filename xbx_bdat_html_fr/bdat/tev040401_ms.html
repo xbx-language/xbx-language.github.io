@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev040401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev040401_JNK0010</td>
+        <td class="side">Interroger[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev040401_SEL0011</td>
+        <td class="side">Demander &#224; Oll de vous parler d&#39;Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev040401_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev040401_SEL0021</td>
+        <td class="side">Demander &#224; Oll s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev040401_JNK0010</td>
+        <td class="side">質問[ST:wait]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev040401_SEL0031</td>
+        <td class="side">Demander &#224; Oll de vous parler des tyrans en Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev040401_JNK0020</td>
+        <td class="side">興味[ST:wait]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev040401_SEL0021</td>
+        <td class="side">最近の様子を尋ねる[ST:wait]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev040401_JNK0010</td>
+        <td class="side">質問[ST:wait]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev040401_SEL0041</td>
+        <td class="side">Demander &#224; Oll de vous parler des tyrans en Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev040401_JNK0020</td>
+        <td class="side">興味[ST:wait]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev040401_SEL0021</td>
+        <td class="side">最近の様子を尋ねる[ST:wait]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0001</td>
+        <td class="side">Connaissez-vous la r&#233;sine argent&#233;e de cactus ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0002</td>
+        <td class="side">Cette r&#233;sine est tr&#232;s pr&#233;cieuse. M&#234;me le Ganglion[ST:n ]parcourt tout Oblivia pour en trouver.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0003</td>
+        <td class="side">Mais j&#39;ai une information secr&#232;te. On ne trouve de[ST:n ]cette r&#233;sine que pr&#232;s de l&#39;&#238;le de la rivi&#232;re, au matin[ST:n ]de jours pluvieux.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0004</td>
+        <td class="side">J&#39;ai &#233;t&#233; tortur&#233; par des membres du Clan troglodyte[ST:n ]qui voulaient ce secret. Mais je n&#39;ai rien dit. Il n&#39;y a[ST:n ]que vous qui le sachiez ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0005</td>
+        <td class="side">Cette information vous pla&#238;t ? Alors revenez me voir[ST:n ]plus tard. Je vous dirai tout ce que je sais.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0008</td>
+        <td class="side">Je me sens mieux. La nourriture donn&#233;e[ST:n ]par les terrestres &#233;tait bonne.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0009</td>
+        <td class="side">Merci de nous avoir sauv&#233;s. Rada et moi irons chasser.[ST:n ]Nous reprendrons des forces. Et nous vous aiderons[ST:n ]&#224; annihiler le Clan troglodyte et le Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0010</td>
+        <td class="side">Les Prones r&#233;pondent toujours &#224; la gentillesse[ST:n ]par la gentillesse. Et r&#233;pondent &#224; la violence[ST:n ]par la violence.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0015</td>
+        <td class="side">En Oblivia, j&#39;ai vu un monstre sans t&#234;te ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0016</td>
+        <td class="side">Le Ganglion appelle cette b&#234;te un &#171; mill&#233;saur &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0017</td>
+        <td class="side">Ce mill&#233;saur affaibli errait en boitant. Il &#233;tait s&#251;rement[ST:n ]&#224; la recherche d&#39;un guerrier courageux capable[ST:n ]de l&#39;achever.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0018</td>
+        <td class="side">O&#249; se trouve ce mill&#233;saur ? Pr&#232;s du camp de base[ST:n ]de C&#244;te nord. Mais vous ne devriez pas l&#39;affronter.[ST:n ]Vous ne devriez pas vous en approcher.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0023</td>
+        <td class="side">J&#39;ai entendu parler d&#39;une cr&#233;ature redoutable.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0024</td>
+        <td class="side">Un tyran qu&#39;on appelle Hartmut le fl&#233;au.[ST:n ]Il fait des ravages en Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0025</td>
+        <td class="side">On m&#39;a dit qu&#39;Hartmut arpente le B&#226;illement du g&#233;ant[ST:n ]sans crainte.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev040401_MSG0026</td>
+        <td class="side">On dit m&#234;me qu&#39;il est capable d&#39;arracher des bouts[ST:n ]de terrain avec sa gueule. Je dois ressembler[ST:n ]&#224; un cobayrat &#224; c&#244;t&#233;.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

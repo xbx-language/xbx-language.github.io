@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060604_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0001</td>
+        <td class="side">Oh, c&#39;est vous. Kchh. Cela veut-il dire que vous m&#39;avez[ST:n ]trouv&#233; un gorkwa ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0002</td>
+        <td class="side">C&#39;est sans aucun doute l&#39;h&#233;ritage de Golbogga ![ST:n ]Je peux d&#233;sormais consacrer ma vie &#224; mon devoir.[ST:n ]Kchh. Je ne sais pas comment vous remercier.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0003</td>
+        <td class="side">Est-ce que quelque chose ne va pas ? Kchh.[ST:n ]Vous avez l&#39;air [ST:Gender p1=confus p2=confuse ].[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0010</td>
+        <td class="side">Remarquer</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0011</td>
+        <td class="side">Dire que la mani&#232;re de parler d&#39;Orleron semble[ST:n ]diff&#233;rente.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0020</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0021</td>
+        <td class="side">Se renseigner sur Vera.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0004</td>
+        <td class="side">Ah, oui. Pendant que vous cherchiez ce gorkwa,[ST:n ]je suis devenu adulte. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0005</td>
+        <td class="side">Vous avez l&#39;air toujours aussi perplexe. Kchh. En fait,[ST:n ]l&#39;enfance des Zaruboggans est extr&#234;mement br&#232;ve.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0006</td>
+        <td class="side">Kchh. Et gr&#226;ce &#224; vos conseils, j&#39;ai pass&#233; du temps &#224;[ST:n ]&#233;tudier avec d&#39;autres Zaruboggans pour devenir un bon[ST:n ]citoyen au sein de mon peuple.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0007</td>
+        <td class="side">Vera, la femme que vous avez vue il y a quelque[ST:n ]temps, est quelqu&#39;un que j&#39;ai rencontr&#233; sur ce vaisseau.[ST:n ]Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0008</td>
+        <td class="side">Elle... m&#39;intrigue. Kchh. Mais plus j&#39;essaie de[ST:n ]m&#39;approcher, plus elle semble se f&#226;cher.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0009</td>
+        <td class="side">C&#39;est une femme humaine qui a r&#233;cemment commenc&#233;[ST:n ]&#224; visiter cet endroit. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0010</td>
+        <td class="side">J&#39;&#233;tais tr&#232;s intrigu&#233; par elle et j&#39;ai voulu devenir aussi[ST:n ]proche d&#39;elle que je le suis de mon peuple. Kchh. J&#39;ai[ST:n ]tent&#233; de l&#39;approcher &#224; plusieurs occasions, mais...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0011</td>
+        <td class="side">Tout ce que j&#39;ai r&#233;ussi &#224; faire c&#39;est de l&#39;&#233;loigner. Kchh.[ST:n ]Vous, les humains, &#234;tes un peuple complexe et obscur.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0030</td>
+        <td class="side">S&#39;enqu&#233;rir sur ses m&#233;thodes</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0031</td>
+        <td class="side">Demander &#224; Orleron ce qu&#39;il a essay&#233; exactement[ST:n ]avec Vera.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0040</td>
+        <td class="side">Se renseigner sur Vera</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0041</td>
+        <td class="side">Demander plus d&#39;informations sur Vera.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0012</td>
+        <td class="side">Tout d&#39;abord, j&#39;ai essay&#233; de lui offrir du voltant. Kchh.[ST:n ]Elle avait l&#39;air plut&#244;t choqu&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0013</td>
+        <td class="side">Kchh. Depuis, je descends tous les jours &#224; New L.A.[ST:n ]pour lui d&#233;clarer mon affection.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0014</td>
+        <td class="side">Tout &#231;a pour rien. Kchh. Elle est passionn&#233;ment[ST:n ]amoureuse de quelque chose qu&#39;elle appelle[ST:n ]&#171; libert&#233; &#187;. Mais je ne poss&#232;de pas cette qualit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0015</td>
+        <td class="side">Comment se fait-il que je sois incapable d&#39;exprimer[ST:n ]ce que je ressens pour elle ? Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0016</td>
+        <td class="side">Kchh. Elle... hum. Elle poss&#232;de tellement de choses[ST:n ]qui manquent &#224; mon esp&#232;ce.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0017</td>
+        <td class="side">Ses joies, peines et col&#232;res sont si prononc&#233;es. Elle est[ST:n ]tellement vivante. Kchh. Parfois ses actions sont[ST:n ]compl&#232;tement impr&#233;visibles.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0018</td>
+        <td class="side">Est-ce que tout est li&#233; &#224; cette &#171; libert&#233; &#187; dont elle parle[ST:n ]souvent ? Je trouve cela d&#233;concertant, dans le bon sens[ST:n ]du terme. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0019</td>
+        <td class="side">Quand j&#39;y pense, mes sentiments pour elle sont[ST:n ]l&#233;g&#232;rement diff&#233;rents de ceux que je ressens envers[ST:n ]ma propre esp&#232;ce.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0020</td>
+        <td class="side">Si seulement elle &#233;tait aussi simple que du voltant ![ST:n ]Kchh. Alors je saurais exactement comment la traiter.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0021</td>
+        <td class="side">Toutes mes excuses. Je ne voulais pas me plaindre.[ST:n ]Kchh. Mais j&#39;aimerais &#233;couter vos conseils en tant[ST:n ]qu&#39;humain.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0022</td>
+        <td class="side">Kchh. Je ne compte pas changer ma fa&#231;on de vivre en[ST:n ]tant que Zaruboggan, mais je ne veux pas non plus[ST:n ]renoncer &#224; elle.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0050</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0051</td>
+        <td class="side">Demander des informations sur les passions de Vera.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0060</td>
+        <td class="side">Proposer</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0061</td>
+        <td class="side">Dire &#224; Orleron de lui offrir un beau cadeau.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0023</td>
+        <td class="side">Elle semble beaucoup s&#39;int&#233;resser &#224; l&#39;&#233;cologie mirane.[ST:n ]Kchh. Apparemment, elle est venue sur ce vaisseau[ST:n ]pour trouver un &#233;chantillon de sang de vigent.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0024</td>
+        <td class="side">Elle a dit qu&#39;elle cherchait &#224; en tirer quelque chose[ST:n ]qu&#39;elle appelle &#171; ADN &#187;. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0025</td>
+        <td class="side">Maintenant que vous en parlez, elle est venue sur ce[ST:n ]vaisseau pour trouver un &#233;chantillon de sang de vigent.[ST:n ]Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0026</td>
+        <td class="side">Elle est &#233;tudiante en &#233;cologie mirane. Kchh.[ST:n ]Elle cherche &#224; en extraire quelque chose appel&#233;[ST:n ]&#171; ADN &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0027</td>
+        <td class="side">Vous pensez que si je lui donne l&#39;&#233;chantillon qu&#39;elle[ST:n ]cherche, elle comprendra que mes sentiments sont[ST:n ]sinc&#232;res ? Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0028</td>
+        <td class="side">J&#39;ai bien peur de devoir vous demander un autre[ST:n ]service. Kchh. Pourrais-je vous convaincre de me[ST:n ]ramener du sang de vigent ?[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0029</td>
+        <td class="side">Je vous paierai autant que je peux, pour &#231;a et[ST:n ]le gorkwa. Kchh. Je sais que j&#39;en demande beaucoup,[ST:n ]mais je vous en serais tr&#232;s reconnaissant.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0030</td>
+        <td class="side">Vera a dit que les vigents se trouvent dans Cauldros.[ST:n ]Kchh. Bonne chance, et encore merci.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0031</td>
+        <td class="side">Oh, Vera... Kchh. Je n&#39;aurais jamais pens&#233; que cela[ST:n ]pourrait &#234;tre si douloureux de ne pas pouvoir parler[ST:n ]avec quelqu&#39;un.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0032</td>
+        <td class="side">C&#39;est tr&#232;s diff&#233;rent du besoin de d&#233;voltantisation.[ST:n ]Kchh. C&#39;est plus pressant. Plus vif.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0033</td>
+        <td class="side">Ma poitrine est chaude, elle br&#251;le presque, et mon[ST:n ]souffle est court. Kchh. Que m&#39;arrive-t-il ?[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0070</td>
+        <td class="side">L&#39;amour</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0071</td>
+        <td class="side">Expliquer les myst&#232;res de l&#39;amour &#224; Orleron.</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0080</td>
+        <td class="side">Les br&#251;lures d&#39;estomac</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0081</td>
+        <td class="side">Dire &#224; Orleron qu&#39;il devrait voir un docteur.</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0034</td>
+        <td class="side">L&#39;amour ? Qu&#39;est-ce que c&#39;est ? Kchh. Parfois, vous[ST:n ]prononcez des mots qui me sont totalement &#233;trangers.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0035</td>
+        <td class="side">Un lien &#233;motionnel qui relie deux personnes ? Kchh.[ST:n ]Un pouls rapide ? Kchh. Du d&#233;sir ? Kchh. Kchh.[ST:n ]Kchh. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0036</td>
+        <td class="side">Les Zaruboggans ne partagent pas la m&#234;me division[ST:n ]que vous en m&#226;les et femelles. Kchh. Vous pensez que[ST:n ]&#171; l&#39;amour &#187; est quand m&#234;me possible ?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0037</td>
+        <td class="side">Bien que je doive admettre que mes sympt&#244;mes sont[ST:n ]tr&#232;s proches de ce que vous avez d&#233;crit. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0038</td>
+        <td class="side">Je suis donc malade ? Kchh. Quelle perspicacit&#233;.[ST:n ]J&#39;admire votre sagesse.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0039</td>
+        <td class="side">M&#234;me si j&#39;ai bien peur que la m&#233;decine humaine ne[ST:n ]puisse pas traiter cette maladie. Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0040</td>
+        <td class="side">La cause est clairement Vera. Kchh. J&#39;aimerais[ST:n ]commencer &#224; r&#233;parer notre relation.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0041</td>
+        <td class="side">Alors ? Comment s&#39;est pass&#233;e votre recherche ? Kchh.[ST:n ]Avez-vous trouv&#233; le sang de vigent ?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0042</td>
+        <td class="side">Ah, c&#39;est exactement ce que je voulais ![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0043</td>
+        <td class="side">Merci. Kchh. Je vais lui apporter tout de suite.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0044</td>
+        <td class="side">Mais avant que je parte, pourrais-je vous importuner[ST:n ]une derni&#232;re fois pour un petit conseil ? Kchh.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0045</td>
+        <td class="side">Comment devrais-je l&#39;approcher ?[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0090</td>
+        <td class="side">Encourager l&#39;audace</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0091</td>
+        <td class="side">Dire &#224; Orleron d&#39;&#234;tre plus agressif et de ne pas c&#233;der.</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0100</td>
+        <td class="side">Encourager le respect</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0101</td>
+        <td class="side">Dire &#224; Orleron d&#39;&#234;tre aimable et galant.</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0046</td>
+        <td class="side">Compris ! Kchh. Je vais la poursuivre avec l&#39;intensit&#233;[ST:n ]f&#233;roce d&#39;une b&#234;te sauvage. Kchh ![ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0047</td>
+        <td class="side">Compris. Kchh. Je serai aussi doux qu&#39;une plume[ST:n ]duveteuse volant dans la brise l&#233;g&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0048</td>
+        <td class="side">Kchh. Maintenant si vous voulez bien m&#39;excuser ?[ST:n ]Et encore une fois, merci pour votre aide.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

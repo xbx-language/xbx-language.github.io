@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060604_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0001</td>
+        <td class="side">Oh, sssei tu. Vuol dire che hai[ST:n ]trovato un Gorkwa per me? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0002</td>
+        <td class="side">Sss&#236;, questo &#232; indubbiamente un lascito di Golbogga![ST:n ]Ora potr&#242; votare la mia vita alla mia sssacra[ST:n ]missione. Non ssso come ringraziarti. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0003</td>
+        <td class="side">Qualcosa non va? Sssembri titubante. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0010</td>
+        <td class="side">Commenta</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0011</td>
+        <td class="side">Di&#39; che il modo di parlare di Orleron sembra diverso.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0020</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0021</td>
+        <td class="side">Chiedi di Vera.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0004</td>
+        <td class="side">Ah, s&#236;. Mentre tu cercavi questo Gorkwa,[ST:n ]io sssono diventato adulto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0005</td>
+        <td class="side">Sssembri comunque esitante. Lascia che ti[ST:n ]ssspieghi. L&#39;infanzia Zaruboggan ha[ST:n ]una durata molto breve. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0006</td>
+        <td class="side">E grazie al tuo consiglio, l&#39;ho trascorsa ssstudiando[ST:n ]con altri Zaruboggan per poter diventare un[ST:n ]rispettabile membro del mio popolo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0007</td>
+        <td class="side">Eh eh. La donna che hai appena visto, Vera, &#232; una[ST:n ]persona che ho conosciuto sssu questa nave. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0008</td>
+        <td class="side">Lei... mi affascina. Ma pi&#249; tento di avvicinarmi pi&#249;[ST:n ]sssembra che la cosa ssscateni la sua ira. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0009</td>
+        <td class="side">&#200; una fanciulla umana che ha iniziato recentemente[ST:n ]a venire da queste parti. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0010</td>
+        <td class="side">Sono stato affascinato da lei e ho desiderato di[ST:n ]ssstarle vicino come agli individui della mia ssspecie.[ST:n ]Ho cercato di parlarle in varie occasioni, ma... Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0011</td>
+        <td class="side">Sssembra che tutti i miei tentativi non facciano altro[ST:n ]che farla allontanare. Sssinceramente, voi umani[ST:n ]sssiete complicati e impenetrabili. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0030</td>
+        <td class="side">Indaga sui metodi</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0031</td>
+        <td class="side">Chiedi a Orleron che tipo di metodi[ST:n ]abbia usato con Vera.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0040</td>
+        <td class="side">Chiedi di Vera</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0041</td>
+        <td class="side">Chiedi che tipo sia Vera.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0012</td>
+        <td class="side">Prima ho cercato di farle dono di un po&#39; di[ST:n ]ottimo Voltant. Ma mi &#232; sssembrata[ST:n ]scioccata dalla cosa. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0013</td>
+        <td class="side">Da allora, mi sssono recato ogni giorno a[ST:n ]Neo L.A. per dichiararle il mio affetto. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0014</td>
+        <td class="side">Invano, ahim&#232;. Ella &#232; perdutamente innamorata[ST:n ]di qualcosa che chiama \&quot;libert&#224;\&quot; e temo che[ST:n ]questa sssia una qualit&#224; che mi manca. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0015</td>
+        <td class="side">Ma com&#39;&#232; possibile che io provi un affetto cos&#236;[ST:n ]profondo nei sssuoi confronti, eppure fallisca[ST:n ]completamente a comunicarglielo? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0016</td>
+        <td class="side">Ella... Mmmh... Possiede una variet&#224; di qualit&#224;[ST:n ]che non ci sssono nella mia specie. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0017</td>
+        <td class="side">La sssua gioia, il suo dolore, la sssua rabbia,[ST:n ]sono cos&#236; ssspiccati, cos&#236; forti. Talvolta, le sssue[ST:n ]azioni sssono del tutto imprevedibili. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0018</td>
+        <td class="side">&#200; tutto connesso con quella libert&#224; di cui tanto parla?[ST:n ]Lo trovo assolutamente ssstupefacente,[ST:n ]in sssenso positivo. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0019</td>
+        <td class="side">Pensandoci bene, i miei sssentimenti per lei sembrano[ST:n ]leggermente diversi da quelli che[ST:n ]nutro per i miei sssimili.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0020</td>
+        <td class="side">Ssse solo fosse semplice come il Voltant![ST:n ]Sssaprei esattamente come comportarmi. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0021</td>
+        <td class="side">Le mie ssscuse. Non intendevo lamentarmi.[ST:n ]Potrei avere un tuo consiglio da essere umano? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0022</td>
+        <td class="side">Non intendo cambiare il modo in cui vivo[ST:n ]come Zaruboggan, ma non desidero[ST:n ]neanche rinunciare a lei. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0050</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0051</td>
+        <td class="side">Chiedi degli interessi di Vera.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0060</td>
+        <td class="side">Proponi</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0061</td>
+        <td class="side">Di&#39; a Orleron di farle un bel regalo.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0023</td>
+        <td class="side">Sssembra piuttosto interessata all&#39;ecologia miriana.[ST:n ]Sssembra sia venuta sulla nave in cerca di[ST:n ]un campione di Sssangue di Vigent. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0024</td>
+        <td class="side">Ha detto che voleva ricavarne una cosa[ST:n ]che ha chiamato \&quot;DNA\&quot;. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0025</td>
+        <td class="side">Ora che mi ci fai pensare, &#232; venuta sssulla nave in[ST:n ]cerca di un campione di Sssangue di Vigent. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0026</td>
+        <td class="side">Sssembra sia una ssstudiosa di ecologia miriana.[ST:n ]Vorrebbe estrarne una cosa chiamata DNA. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0027</td>
+        <td class="side">Pensi che se le donassi il campione che desidera,[ST:n ]capirebbe che il mio affetto &#232; sssincero? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0028</td>
+        <td class="side">Per&#242; temo che questo mi costringa a chiederti un altro[ST:n ]favore. Potrei chiederti di raccogliere per me[ST:n ]un campione di Sssangue di Vigent? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0029</td>
+        <td class="side">Ti pagher&#242; quanto pi&#249; mi &#232; possibile sssia per questo[ST:n ]sia per il Gorkwa. Lo ssso che &#232; una pretesa enorme,[ST:n ]ma te ne sssarei davvero immensamente grato. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0030</td>
+        <td class="side">Vera ha detto che i Vigent sssi trovano a Cauldros.[ST:n ]Buona fortuna, e grazie ancora. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0031</td>
+        <td class="side">Oh, Vera... Non avrei mai creduto che il sssolo[ST:n ]fatto di non poter parlare con qualcuno potesse[ST:n ]essere causa di tanto dolore. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0032</td>
+        <td class="side">&#200; diverso dal desiderio di devoltantizzare. &#200; pi&#249;[ST:n ]pressante. Pi&#249; appassionato. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0033</td>
+        <td class="side">Il petto mi brucia, quasi andasse a fuoco, e il respiro[ST:n ]sssi fa debole. Cos&#39;&#232; questa condizione? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0070</td>
+        <td class="side">Suggerisci amore</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0071</td>
+        <td class="side">Spiega a Orleron il mistero dell&#39;amore.</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0080</td>
+        <td class="side">Suggerisci acidit&#224; di stomaco</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0081</td>
+        <td class="side">Di&#39; a Orleron di andare a farsi visitare da un dottore.</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0034</td>
+        <td class="side">Amore? Cos&#39;&#232;? Alle volte, le parole che proferisci[ST:n ]mi sssuonano del tutto estranee. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0035</td>
+        <td class="side">Uno ssspeciale legame emotivo tra due individui? Fsss...[ST:n ]Battito accelerato? Fsss... Desiderio profondo?[ST:n ]Fsss... Fsss... Fsss... Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0036</td>
+        <td class="side">Ah. Vedi, noi Zaruboggan non ci distinguiamo[ST:n ]in sssesso maschile e sesso femminile come voi umani.[ST:n ]Pensi che \&quot;l&#39;amore\&quot; sssia comunque possibile? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0037</td>
+        <td class="side">Anche ssse devo ammettere che i miei sssintomi[ST:n ]corrispondono alla tua descrizione. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0038</td>
+        <td class="side">Dunque sssono malato? Grazie per questa opinione.[ST:n ]La tua sssaggezza &#232; ammirevole. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0039</td>
+        <td class="side">Anche ssse temo che le strutture mediche degli umani[ST:n ]non sssiano in grado di curare questa malattia. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0040</td>
+        <td class="side">La causa &#232; sssicuramente da cercarsi in Vera.[ST:n ]Vorrei prima provare a sssalvare la relazione. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0041</td>
+        <td class="side">Allora, com&#39;&#232; andata la tua ricerca?[ST:n ]Hai trovato il Sssangue di Vigent? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0042</td>
+        <td class="side">Ah, &#232; esattamente questo che voleva![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0043</td>
+        <td class="side">Grazie. Glielo porto subito. Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0044</td>
+        <td class="side">Ma prima di andare, potrei disturbarti chiedendoti[ST:n ]un ultimo consiglio? Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0045</td>
+        <td class="side">Come dovrei comportarmi con lei, in questo caso?[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0090</td>
+        <td class="side">Consiglia l&#39;audacia</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0091</td>
+        <td class="side">Di&#39; a Orleron di essere aggressivo e non tirarsi indietro.</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev060604_JNK0100</td>
+        <td class="side">Esorta al rispetto</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev060604_SEL0101</td>
+        <td class="side">Di&#39; a Orleron di essere gentile e galante.</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0046</td>
+        <td class="side">Ho capito! La inseguir&#242; con la fiera[ST:n ]intensit&#224; d&#39;una bestia selvatica! Fsss...[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0047</td>
+        <td class="side">Comprendo. Fsss... Sssar&#242; delicato come una piuma[ST:n ]trasportata dal vento.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev060604_MSG0048</td>
+        <td class="side">Adesso mi congedo. E, ancora una volta,[ST:n ]grazie per tutto l&#39;aiuto. Fsss...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

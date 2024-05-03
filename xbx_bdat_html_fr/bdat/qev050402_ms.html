@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050402_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0001</td>
+        <td class="side">Il est en retard. Qu&#39;est ce qui ne va pas chez lui ?[ST:n ]J&#39;ose esp&#233;rer qu&#39;il n&#39;a pas fui comme un couard...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0002</td>
+        <td class="side">Mmh ? Oui, l&#39;humain ? Que puis-je faire pour vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050402_JNK0010</td>
+        <td class="side">D&#233;fier</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050402_SEL0011</td>
+        <td class="side">Annoncer que vous &#234;tes l&#224; pour combattre De Sazon[ST:n ]en tant que mandataire de De Ezich.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050402_JNK0020</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050402_SEL0021</td>
+        <td class="side">Demander &#224; De Sazon ce qu&#39;il fait ici.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0003</td>
+        <td class="side">Comment ?! Il ne compte pas venir se battre ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0004</td>
+        <td class="side">Il s&#39;agit d&#39;un sujet personnel. Mais je peux vous dire[ST:n ]que je suis l&#224; pour remettre un compatriote wrothian[ST:n ]&#224; sa place.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0005</td>
+        <td class="side">Je l&#39;ai d&#233;fi&#233; en combat singulier et attends maintenant[ST:n ]son arriv&#233;e. Je vous conseille de suivre votre chemin[ST:n ]l&#39;humain, car un combat va bient&#244;t commencer ici.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0006</td>
+        <td class="side">Comment ?! Il vous envoie comme mandataire,[ST:n ]afin de combattre &#224; sa place ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0007</td>
+        <td class="side">Grr ! Non seulement il bafoue le mode de vie[ST:n ]wrothian, mais en plus de cela il fait fi de sa fiert&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0008</td>
+        <td class="side">C&#39;en est assez ! Je vous vaincrai, ici et maintenant,[ST:n ]puis irai mettre fin &#224; sa l&#226;chet&#233; une bonne fois[ST:n ]pour toutes ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0009</td>
+        <td class="side">Il en est de ma responsabilit&#233; en tant que parent.[ST:n ]Et bien que vous ne soyez que le pion innocent[ST:n ]de mon fils, je n&#39;h&#233;siterai pas &#224; vous terrasser ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0010</td>
+        <td class="side">qev050402_MSG0010</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050402_MSG0011</td>
+        <td class="side">qev050402_MSG0011</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

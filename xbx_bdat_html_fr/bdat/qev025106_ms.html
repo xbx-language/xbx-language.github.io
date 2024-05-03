@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025106_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0001</td>
+        <td class="side">Aargh ! C... C&#39;est quoi cette embrouille ?![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0002</td>
+        <td class="side">Qu&#39;est-ce que j&#39;ai fait pour m&#233;riter &#231;a ?![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0003</td>
+        <td class="side">C&#39;&#233;tait ce Ma-non ? Oh, ces petits monstres,[ST:n ]je le savais ! Je le savais ![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025106_JNK0010</td>
+        <td class="side">Examiner</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025106_SEL0011</td>
+        <td class="side">Voir ce qui arrive &#224; Gerome.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025106_JNK0020</td>
+        <td class="side">Partir</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025106_SEL0021</td>
+        <td class="side">Tourner les talons et partir.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0004</td>
+        <td class="side">T... Toi ! T&#39;&#233;tais avec ce Ma-non ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0005</td>
+        <td class="side">Je sais pas ce qui s&#39;est pass&#233; ! Je mangeais et puis[ST:n ]d&#39;un coup, je suis juste... tomb&#233; dans les pommes.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0006</td>
+        <td class="side">N... Non ! Attends ! Me laisse pas ! S&#39;il te pla&#238;t, il faut[ST:n ]que tu m&#39;&#233;coutes ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0007</td>
+        <td class="side">Je sais pas ce qu&#39;il s&#39;est pass&#233; ! Je mangeais et puis,[ST:n ]d&#39;un coup je suis juste... tomb&#233; dans les pommes.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0008</td>
+        <td class="side">Et puis quand je me suis r&#233;veill&#233; ici, j&#39;&#233;tais attach&#233; &#224;[ST:n ]cette bombe ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev025106_JNK0030</td>
+        <td class="side">Croire</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev025106_SEL0031</td>
+        <td class="side">Croire &#224; l&#39;histoire de Gerome.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev025106_JNK0040</td>
+        <td class="side">Douter</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev025106_SEL0041</td>
+        <td class="side">Ne pas croire &#224; l&#39;histoire de Gerome.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0009</td>
+        <td class="side">Merci de me croire ! C&#39;est la v&#233;rit&#233;, je le jure ! Je[ST:n ]savais que tu &#233;tais [ST:Gender p1=diff&#233;rent p2=diff&#233;rente ] de ce fichu Ma-non ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0010</td>
+        <td class="side">Quoi ? Non, s&#39;il te pla&#238;t ! Pourquoi j&#39;inventerais un truc[ST:n ]pareil ?![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0011</td>
+        <td class="side">Bref, il faut que tu m&#39;aides &#224; d&#233;samorcer[ST:n ]ce truc ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0012</td>
+        <td class="side">Mim&#233;osome ou pas, je veux pas mourir. Il faut que tu[ST:n ]me sauves ! Piti&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev025106_JNK0050</td>
+        <td class="side">D&#233;samorcer</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev025106_SEL0051</td>
+        <td class="side">Tenter de d&#233;samorcer la bombe.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev025106_JNK0060</td>
+        <td class="side">Sugg&#233;rer</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev025106_SEL0061</td>
+        <td class="side">Lui dire que plonger dans le lac devrait r&#233;duire[ST:n ]l&#39;intensit&#233; de la d&#233;flagration.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0013</td>
+        <td class="side">Quoi ?! Argh, t&#39;es [ST:Gender p1=bon p2=bonne ] &#224; rien ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0014</td>
+        <td class="side">Aaargh !! Soyez maudits monstres de Ma-nons !![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0015</td>
+        <td class="side">Oh, merci [ST:Gender p1=mon vieux p2=ma vieille ] ! Alors, euh... Tu connais bien ce[ST:n ]genre de bombe, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0016</td>
+        <td class="side">Vrai ? Vrai de vrai ? Alors ma vie est entre tes mains.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0017</td>
+        <td class="side">H&#233;, tu sais vraiment ce que tu fais. Jusque-l&#224;, c&#39;est[ST:n ]bon ! Maintenant, d&#233;p&#234;che-toi de me d&#233;barrasser de[ST:n ]cette chose ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0018</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0019</td>
+        <td class="side">La bombe... Elle...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0020</td>
+        <td class="side">Elle s&#39;est arr&#234;t&#233;e. Tu l&#39;as d&#233;samorc&#233;e ? Je...[ST:n ]Je vais vivre ?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0021</td>
+        <td class="side">Oh, ouf... Merci... Merrc... Argh...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0022</td>
+        <td class="side">Arghh...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0024</td>
+        <td class="side">Non ? C&#39;est la premi&#232;re fois que t&#39;en vois une ?[ST:n ]Eh ben, esp&#233;rons que tu sois naturellement [ST:Gender p1=dou&#233; p2=dou&#233;e ], alors.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0025</td>
+        <td class="side">Alors ? Tu penses que tu peux la d&#233;samorcer ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0028</td>
+        <td class="side">&#199;a ne s&#39;arr&#234;te pas ! C&#39;est pas... Argh, tu sers &#224; rien ![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev025106_MSG0029</td>
+        <td class="side">Aaargh !! Soyez maudits monstres de Ma-nons !![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

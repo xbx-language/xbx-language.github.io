@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev040701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev040701_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0011</td>
+        <td class="side">Demander &#224; Galba de vous parler du Ganglion.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev040701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0021</td>
+        <td class="side">Demander &#224; Galba s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0031</td>
+        <td class="side">Demander &#224; Galba de vous parler du Ganglion.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0041</td>
+        <td class="side">Demander &#224; Galba de vous parler du Clan troglodyte.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev040701_SEL2021</td>
+        <td class="side">Demander &#224; Galba de vous parler[ST:n ]des derniers &#233;v&#232;nements.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0001</td>
+        <td class="side">Le Clan troglodyte a d&#233;truit notre foyer. Le Ganglion[ST:n ]a envoy&#233; des forces pour l&#39;y aider.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0002</td>
+        <td class="side">Le chef du Ganglion &#233;tait une femme appel&#233;e Goetia.[ST:n ]Elle m&#39;a fait penser &#224; un ogpodus.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0003</td>
+        <td class="side">Hmm ? Tu n&#39;as jamais entendu parler des ogpodus ?[ST:n ]C&#39;est une b&#234;te de notre plan&#232;te d&#39;origine.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0004</td>
+        <td class="side">Un ogpodus a 16 tentacules capables de t&#39;&#233;touffer.[ST:n ]Ce sont d&#39;affreuses bestioles.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0005</td>
+        <td class="side">Goetia &#233;tait vraiment comme un ogpodus. Elle nous a[ST:n ]attaqu&#233;s sans aucune piti&#233;. Les femmes. Les enfants.[ST:n ]Personne n&#39;a &#233;t&#233; &#233;pargn&#233;. Elle riait en les tuant.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0009</td>
+        <td class="side">Ma femme a &#233;t&#233; r&#233;duite en esclavage par le Clan[ST:n ]troglodyte et devait travailler jour et nuit &#224; la forteresse.[ST:n ]Quand elle est morte, elle &#233;tait &#224; bout de forces.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0010</td>
+        <td class="side">Nemard et Duna ont aussi perdu leurs parents[ST:n ]pendant la bataille.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0011</td>
+        <td class="side">Et mon p&#232;re, Belgazus l&#39;Ancien, &#233;tait aux portes[ST:n ]de la mort.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0012</td>
+        <td class="side">Mais je dois rester fort. Je dois montrer la voie[ST:n ]aux jeunes Prones.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0017</td>
+        <td class="side">Terrestre ! Tu as &#233;limin&#233; Goetia et son Skell ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0018</td>
+        <td class="side">Tu t&#39;es [ST:Gender p1=veng&#233; p2=veng&#233;e ] du d&#233;mon du Ganglion[ST:n ]qui nous avait vol&#233; notre foyer ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0019</td>
+        <td class="side">Je ne sais pas comment tu as fait avec un corps aussi[ST:n ]petit, mais je te remercie.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0020</td>
+        <td class="side">Maintenant, les &#226;mes de nos parents assassin&#233;s[ST:n ]peuvent reposer en paix.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0025</td>
+        <td class="side">Le guerrier le plus fort du Clan troglodyte s&#39;appelle[ST:n ]Dadaan.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0026</td>
+        <td class="side">Son nom est l&#233;gendaire sur notre plan&#232;te d&#39;origine,[ST:n ]Tormein. Il n&#39;est prononc&#233; qu&#39;&#224; mi-voix.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0027</td>
+        <td class="side">Il fallait le voir au combat. Il d&#233;cimait le Clan sylvain.[ST:n ]Il tuait les hommes. Il enlevait les femmes.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0028</td>
+        <td class="side">Le Ganglion a captur&#233; Dadaan. Mais il s&#39;est &#233;chapp&#233;.[ST:n ]Maintenant, il erre en Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0029</td>
+        <td class="side">Je ne laisserai pas Dadaan faire de mal &#224; Duna[ST:n ]ou Liana. Je sacrifierai ma vie pour elles ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1001</td>
+        <td class="side">Nemard est venu me voir. Il m&#39;a demand&#233;[ST:n ]de lui apprendre &#224; combattre.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1002</td>
+        <td class="side">Maintenant, je l&#39;entra&#238;ne comme une b&#234;te[ST:n ]nouvellement dompt&#233;e ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1003</td>
+        <td class="side">H&#233;. Il a vite abandonn&#233; sa paresse pour une femme.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1004</td>
+        <td class="side">Mais je fais plaisir &#224; Nemard. Je lui apprends[ST:n ]tout ce que je sais. Il sera bient&#244;t un guerrier[ST:n ]puissant, comme toi ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2001</td>
+        <td class="side">Mon p&#232;re, Belgazus l&#39;Ancien, &#233;tait un bon chef.[ST:n ]Un fier guerrier.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2002</td>
+        <td class="side">Il parcourait les d&#233;serts et les for&#234;ts. Il d&#233;capitait[ST:n ]les membres du Clan troglodyte partout o&#249; il allait.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2003</td>
+        <td class="side">Maintenant, il ne fait plus qu&#39;un avec le projex.[ST:n ]Les nouvelles b&#234;tes seront &#224; ses ordres ![ST:n ]Il va parcourir le ciel d&#39;Oblivia ! Ah ha ha ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2004</td>
+        <td class="side">Merci, Terrestre. Tu as bien fait. Tu as rendu[ST:n ]son corps &#224; une b&#234;te tr&#232;s forte ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

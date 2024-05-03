@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev022101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0011</td>
+        <td class="side">Demander &#224; Alesa de parler de son travail.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0021</td>
+        <td class="side">Interroger Alesa sur les derniers &#233;v&#232;nements.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0010</td>
+        <td class="side">tev022101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0031</td>
+        <td class="side">Demander &#224; Alesa ce qu&#39;elle a fait[ST:n ]pendant l&#39;attaque ennemie.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0020</td>
+        <td class="side">tev022101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0021</td>
+        <td class="side">tev022101_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0010</td>
+        <td class="side">tev022101_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0051</td>
+        <td class="side">Demander &#224; Alesa de vous parler de la bataille[ST:n ]pour le noyau de l&#39;arche de vie.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0020</td>
+        <td class="side">tev022101_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0021</td>
+        <td class="side">tev022101_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0010</td>
+        <td class="side">tev022101_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0061</td>
+        <td class="side">Demander &#224; Alesa ce qu&#39;elle compte faire maintenant.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev022101_JNK0020</td>
+        <td class="side">tev022101_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev022101_SEL0021</td>
+        <td class="side">Interroger Alesa sur les derniers &#233;v&#232;nements.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0001</td>
+        <td class="side">Oh, ma ch&#232;re Wersal ! Comment allez-vous ?[ST:n ]Nous avons re&#231;u de nouvelles jupes, voulez-vous[ST:n ]y jeter un œil ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0002</td>
+        <td class="side">Sur un Ma-non, ce genre de jupe ferait une jolie robe.[ST:n ]Je ne peux que les recommander.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0003</td>
+        <td class="side">Vous voyez ? Dor&#233;navant, je m&#39;occupe de tous[ST:n ]les clients. C&#39;est ainsi que je prends soin[ST:n ]de mes chers clients ma-nons.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0004</td>
+        <td class="side">&#199;a permettra de v&#233;rifier mes comp&#233;tences dans le[ST:n ]domaine de la relation client&#232;le. Je vous laisse, je dois[ST:n ]y retourner et d&#233;placer certains articles ![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0008</td>
+        <td class="side">J&#39;ai entendu dire que vous aviez aid&#233; mon mari[ST:n ]&#224; r&#233;soudre un de ses probl&#232;mes.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0009</td>
+        <td class="side">Matthew s&#39;est rapidement habitu&#233; &#224; la pr&#233;sence[ST:n ]des Ma-nons. Comme je l&#39;envie ![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0010</td>
+        <td class="side">Ce doit &#234;tre &#224; cause de son c&#244;t&#233; empathique.[ST:n ]Sur Terre, il avait l&#39;habitude de ramener &#224; la maison[ST:n ]des chats errants, des chauves-souris, etc.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0011</td>
+        <td class="side">Je ne compare pas les Ma-nons &#224; des animaux.[ST:n ]C&#39;&#233;tait juste des exemples. Oui, rien que des exemples.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0020</td>
+        <td class="side">On nous a dit d&#39;&#233;vacuer et de nous rendre au vaisseau[ST:n ]ma-non. Wersal nous y a conduits.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0021</td>
+        <td class="side">Le vaisseau a quitt&#233; la ville, puis nous sommes rentr&#233;s[ST:n ]sans qu&#39;aucun bless&#233; n&#39;e&#251;t &#233;t&#233; &#224; d&#233;plorer.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0022</td>
+        <td class="side">La personne que j&#39;&#233;tais avant ? Celle qui ne pouvait[ST:n ]pas tol&#233;rer les Ma-nons ? Elle serait s&#251;rement morte[ST:n ]en refusant d&#39;&#233;vacuer la ville.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0023</td>
+        <td class="side">Je vous dois la vie, [ST:playername ],[ST:n ]ainsi qu&#39;&#224; Wersal. Merci.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0039</td>
+        <td class="side">Mon mari est si d&#233;bord&#233; ces derniers temps[ST:n ]que les rares fois o&#249; il rentre &#224; la maison, il doit[ST:n ]repartir quelques heures plus tard.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0040</td>
+        <td class="side">Les personnes comme nous travaillant dans la zone[ST:n ]commerciale ne peuvent peut-&#234;tre pas vous aider[ST:n ]au combat...[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0041</td>
+        <td class="side">Mais en aidant mon m&#233;canicien de mari, je crois[ST:n ]sinc&#232;rement que je vous soutiens indirectement,[ST:n ]vous et tous les membres du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0042</td>
+        <td class="side">Donc continuez &#224; coller des droites &#224; quiconque s’y[ST:n ]opposera, et n&#39;oubliez pas de passer si vous avez[ST:n ]besoin de v&#234;tements de haute qualit&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0050</td>
+        <td class="side">&#192; la maison, nous avons enfin le temps de discuter,[ST:n ]mon mari et moi.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0051</td>
+        <td class="side">Derni&#232;rement, il &#233;tait si d&#233;bord&#233; qu&#39;il rentrait[ST:n ]&#224; la maison et s&#39;&#233;croulait sur le lit sans dire[ST:n ]un mot.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0052</td>
+        <td class="side">Vous devriez aussi accorder du temps aux gens[ST:n ]qui vous sont chers.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev022101_MSG0053</td>
+        <td class="side">Et pour ces moments, n&#39;h&#233;sitez pas &#224; venir chercher[ST:n ]des nouveaux v&#234;tements dans ma boutique, plut&#244;t que[ST:n ]de porter vos vieux habits de combat ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

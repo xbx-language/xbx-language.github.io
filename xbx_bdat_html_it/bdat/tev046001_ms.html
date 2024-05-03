@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev046001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev046001_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev046001_SEL0011</td>
+        <td class="side">Chiedi a Lavina cosa ne pensa degli umani.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev046001_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev046001_SEL0021</td>
+        <td class="side">Chiedi a Lavina quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev046001_SEL0031</td>
+        <td class="side">Chiedi a Lavina dello stile di vita dei Pron.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev046001_SEL1021</td>
+        <td class="side">Chiedi a Lavina quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev046001_SEL2021</td>
+        <td class="side">Chiedi a Lavina quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0001</td>
+        <td class="side">Per essere una specie bassa e tozza,[ST:n ]siete forti. Anche saggi e onesti.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0002</td>
+        <td class="side">Voi alieni della Terra ci avete salvato da Ganglion![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0003</td>
+        <td class="side">Alcuni Pron potranno anche storcere il naso[ST:n ]per i vostri strani corpi meccanici.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0004</td>
+        <td class="side">Ma dentro i vostri corpi vivono[ST:n ]delle anime impetuose. Lo so.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0005</td>
+        <td class="side">Potete contare su Pron. Vi aiuteremo[ST:n ]in ogni modo possibile.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0008</td>
+        <td class="side">Sono innamorata, [ST:Gender p1=alieno p2=aliena ] della Terra.[ST:n ]Quest&#39;uomo mi ha rubato il cuore.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0009</td>
+        <td class="side">Sapevo che Leroy sarebbe stato il mio compagno.[ST:n ]Fin dal primo momento che l&#39;ho visto sulla spiaggia.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0010</td>
+        <td class="side">&#200; strano. Non ho mai provato niente[ST:n ]del genere per maschi Pron.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0011</td>
+        <td class="side">Ma sono preoccupata per quello che dir&#224; mio Padre.[ST:n ]&#200; un maschio di vecchio stampo.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0012</td>
+        <td class="side">Ma la freccia dell&#39;amore mi ha colpito. Devo obbedirle.[ST:n ]Anche alieni della Terra provano la stessa cosa?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0025</td>
+        <td class="side">Sono cresciuta come prigioniera Ganglion.[ST:n ]Non conosco pianeta di Pron. Anche se[ST:n ]mio padre ne parla sempre.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0026</td>
+        <td class="side">Ma voglio comunque imparare le nostre tradizioni.[ST:n ]Voglio essere pronta per quando torneremo a casa.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0027</td>
+        <td class="side">Alcuni Pron dicono che dovremmo lasciarci[ST:n ]il passato alle spalle. Ch&#233; in questa citt&#224;[ST:n ]non ne abbiamo pi&#249; bisogno.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0028</td>
+        <td class="side">Ma se dimentichiamo il nostro passato, non sapremo[ST:n ]pi&#249; chi siamo. Per questo cerco di resistere.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0013</td>
+        <td class="side">Mi hai liberato dalla mia promessa di matrimonio[ST:n ]verso Wazdo, [ST:Gender p1=alieno p2=aliena ] della Terra![ST:n ]Sposer&#242; l&#39;uomo che amo![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0014</td>
+        <td class="side">A Padre piace Leroy. Anche se non lo vuole ammettere.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0015</td>
+        <td class="side">Non sarebbe potuta andare meglio di cos&#236;![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0016</td>
+        <td class="side">Amo Leroy. E amo anche mio padre. Sono felice[ST:n ]di non aver dovuto prendere una decisione.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0017</td>
+        <td class="side">Ho pensato molto al problema con Leroy e mio padre.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0018</td>
+        <td class="side">Ero pronta a sposare Leroy senza il suo permesso...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0019</td>
+        <td class="side">Ma non saremo una famiglia felice finch&#233; Padre non[ST:n ]ci accetter&#224; come tale. E voglio una famiglia felice.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0020</td>
+        <td class="side">Padre ha dato a me e Leroy una possibilit&#224;.[ST:n ]So che Leroy non la sprecher&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev046001_MSG0021</td>
+        <td class="side">Per questo aspetter&#242; per tutto il tempo necessario.[ST:n ]Le cose si risolveranno per il meglio.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

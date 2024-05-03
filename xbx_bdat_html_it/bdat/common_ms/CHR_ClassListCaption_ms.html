@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CHR_ClassListCaption_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">La tua classe di partenza. Offre una variet&#224;[ST:n ]di Tecniche equilibrata ma nessun[ST:n ]incremento alle statistiche.</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Scegli questo percorso se vuoi andare ad armi[ST:n ]spianate. Offre un mix di Tecniche difensive e[ST:n ]offensive, un incremento a Attacco in mischia[ST:n ]e PV. Ben bilanciato e adatto ai principianti.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento ordinario da Ariete. Mantiene[ST:n ]il mix di Tecniche difensive e offensive e[ST:n ]l&#39;incremento a PV e Attacco in mischia.[ST:n ]Ben bilanciato e adatto ai principianti.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Un artigliere samurai avanzato.[ST:n ]Specializzato nell&#39;offensiva, garantisce[ST:n ]un incremento a PV e Attacco in mischia.[ST:n ][ST:col p1=green ]Rango 10: padroneggia le armi della classe.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento alternativo da Ariete.[ST:n ]Specializzato nella difesa e con nuove armi.[ST:n ]Aumenta di molto PV e Attacco in mischia.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento di Soldato corazzato. Incrementa[ST:n ]la Difesa elementi e la Difesa base. Aumenta[ST:n ]di molto PV e Attacco in mischia.[ST:n ][ST:col p1=green ]Rango 10: padroneggia le armi della classe.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Scegli questo percorso se vuoi infliggere pi&#249;[ST:n ]danni. Si focalizza sull&#39;abilit&#224; di usare Bonus[ST:n ]di danni e offre un incremento a Precisione[ST:n ]in mischia, Precisione a distanza ed Elusione.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento ordinario da Commando.[ST:n ]Aumenta la capacit&#224; di assorbire danni[ST:n ]e mantiene l&#39;incremento a Precisione in[ST:n ]mischia, Precisione a distanza ed Elusione.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento di Vipera alata. Offre complesse[ST:n ]Tecniche d&#39;attacco e un incremento a Elusione,[ST:n ]Precisione in mischia e Precisione a distanza.[ST:n ][ST:col p1=green ]Rango 10: padroneggia le armi della classe.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento alternativo da Commando, con[ST:n ]nuove armi e specializzata negli attacchi[ST:n ]da lontano. Garantisce un incremento[ST:n ]ad Attacco e Precisione a distanza.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento di Aquila Guerriera.[ST:n ]Specializzata in attacchi da lontano, offre un[ST:n ]incremento ad Attacco e Precisione a distanza.[ST:n ][ST:col p1=green ]Rango 10: padroneggia le armi della classe.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Scegli questo percorso se vuoi fornire supporto[ST:n ]da lontano. Offre diverse Tecniche a distanza[ST:n ]e un incremento ad Attacco a distanza e[ST:n ]Potenziale. Adatto a combattenti esperti.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento ordinario da Sicario. Indebolisce[ST:n ]il nemico utilizzando Malus e garantisce[ST:n ]un incremento ad Attacco a distanza e[ST:n ]Potenziale. Adatto a combattenti esperti.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento di Psicorruttore. Offre Tecniche[ST:n ]di supporto per gli alleati e Malus. Migliora[ST:n ]Attacco a distanza e Potenziale.[ST:n ][ST:col p1=green ]Rango 10: padroneggia le armi della classe.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento alternativo da Sicario,[ST:n ]con nuove armi ed equilibrio tra attacco[ST:n ]e difesa. Garantisce un incremento[ST:n ]ad Attacco in mischia e a distanza.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Avanzamento di Spadaccino esplosivo. Offre[ST:n ]Tec. di recupero al suo repertorio bilanciato.[ST:n ]Migliora Attacco in mischia e a distanza.[ST:n ][ST:col p1=green ]Rango 10: padroneggia le armi della classe.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

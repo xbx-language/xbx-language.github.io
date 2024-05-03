@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev055401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev055401_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev055401_SEL0011</td>
+        <td class="side">Frage Zazazan, wie die Gesch&#228;fte laufen.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev055401_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev055401_SEL0021</td>
+        <td class="side">Sprich mit Zazazan &#252;ber die Ereignisse der letzten Zeit.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev055401_SEL0031</td>
+        <td class="side">Sprich mit Zazazan &#252;ber den Angriff auf NLA.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0001</td>
+        <td class="side">Zazazan hat mit Bodada nach M&#246;glichkeit gesucht,[ST:n ]mit Ware Profit zu machen.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0002</td>
+        <td class="side">Zazazan hatte geniale Idee: Ware zu neuartigem[ST:n ]Happa-Happa verarbeiten![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0003</td>
+        <td class="side">Klebrig-z&#228;he Pollenkugeln sind[ST:n ]tolle Grundlage f&#252;r Pastete.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0004</td>
+        <td class="side">Leckeres neues Happa-Happa hei&#223;t[ST:n ]„Pappige Pollenpastete“.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0005</td>
+        <td class="side">Wird bald schon in aller Munde sein![ST:n ]Wird sich verkaufen wie geschnitten Brot![ST:n ]Ist aber ungeschnittene Pastete![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0008</td>
+        <td class="side">Nu-nu-nu! Loma findet nie heraus, dass [ST:Gender p1=dummer p2=dumme ][ST:n ]Erdpon Ware f&#252;r Zazazan in Stadt geschmuggelt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0009</td>
+        <td class="side">Dummpon Loma! Zazazan hat endlich geschafft,[ST:n ]nerviges Scho&#223;h&#252;ndchen von Oberpon auszutricksen![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0010</td>
+        <td class="side">Jetzt muss Zazazan nur noch... Nu?[ST:n ][ST:Gender p1=Freund p2=Freundin ] ist schon WIEDER da?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0011</td>
+        <td class="side">&#196;h... Kann [ST:Gender p1=Freund p2=Freundin ] so tun, als h&#228;tte nichts geh&#246;rt?[ST:n ]Zazazan sehr dankbar f&#252;r Hilfe mit Lieferung.[ST:n ][ST:Gender p1=Freund p2=Freundin ] hat gar nichts geh&#246;rt, ja?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0016</td>
+        <td class="side">Nu-nu! Ganglion meinen, in Stadt einfallen und[ST:n ]Lieferung von Zazazan stibitzen zu k&#246;nnen?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0017</td>
+        <td class="side">Alle haben gesagt, dass Zazazan auf Ma-non-Schiff[ST:n ]unterschl&#252;pfen soll, aber Zazazan wollte gar nicht![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0018</td>
+        <td class="side">Zazazan wollte nicht Belastung f&#252;r Ma-non sein.[ST:n ]Ist also nicht hingegangen und hat stattdessen[ST:n ]tapfer Ware vor Kriegsfeuer besch&#252;tzt.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev055401_MSG0019</td>
+        <td class="side">Au&#223;erdem h&#228;tte Zazazan fiese Strafe bekommen, wenn[ST:n ]Ma-non Schmuggelware entdeckt... &#228;h, ist egal![ST:n ]Zazazan hat nur laut nachgedacht. Nicht wichtig! Nu![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev027101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev027101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev027101_SEL0011</td>
+        <td class="side">Demander &#224; Suriella ce qu&#39;elle fait ici.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev027101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev027101_SEL0021</td>
+        <td class="side">Demander &#224; Suriella si elle a entendu[ST:n ]des rumeurs int&#233;ressantes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev027101_SEL0031</td>
+        <td class="side">Demander &#224; Suriella ce qu&#39;elle fait ici.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0001</td>
+        <td class="side">Oh, tu es [ST:Gender p1=venu p2=venue ] voir l&#39;auxiliaire de la ville ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0002</td>
+        <td class="side">Comment ? Tu ne sais pas de qui il s&#39;agit ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0003</td>
+        <td class="side">Mais c&#39;est moi, [ST:Gender p1=idiot p2=idiote ] ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0004</td>
+        <td class="side">Je fais partie des Mediators, mais je me suis r&#233;cemment[ST:n ]mise &#224; autre chose. J&#39;enseigne le maniement des armes,[ST:n ]j&#39;offre des conseils, je rends les objets perdus...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0005</td>
+        <td class="side">Alors on a commenc&#233; &#224; m&#39;appeler &#171; l&#39;auxiliaire &#187;[ST:n ]de la ville. Cela me pla&#238;t bien, en fait.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0101</td>
+        <td class="side">Eh bien, tu ne devineras jamais ! Maintenant, je fais[ST:n ]aussi de la th&#233;rapie de couples ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0102</td>
+        <td class="side">Ceux que j&#39;aide actuellement sont tr&#232;s remont&#233;s.[ST:n ]J&#39;essaie de les aider &#224; relativiser et &#224; se calmer.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0103</td>
+        <td class="side">Ce n&#39;est pas facile de comprendre ce que ressentent[ST:n ]les autres. De vraiment les comprendre.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0104</td>
+        <td class="side">Mais je compatis, je conseille. J&#39;essaie de r&#233;tablir[ST:n ]le contact entre eux. C&#39;est le moins que je puisse faire.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0111</td>
+        <td class="side">Si certains commencent &#224; avoir des id&#233;es[ST:n ]malsaines, c&#39;est certainement la preuve qu&#39;ils se[ST:n ]remettent de l&#39;accident et qu&#39;ils se sentent chez eux.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0112</td>
+        <td class="side">J&#39;ai entendu dire que certains agents jouaient[ST:n ]de mauvais tours &#224; leurs camarades pour[ST:n ]toucher leurs primes. C&#39;est affreux...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0113</td>
+        <td class="side">Sois [ST:Gender p1=prudent p2=prudente ] lorsque tu choisis ton &#233;quipe. Ne prends[ST:n ]jamais quelqu&#39;un en qui tu n&#39;as pas confiance.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0201</td>
+        <td class="side">Oh, elle me parlait de sa ville natale et de sa famille[ST:n ]dont elle a d&#251; se s&#233;parer.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0202</td>
+        <td class="side">C&#39;est d&#233;primant. Je suis peut-&#234;tre l&#39;auxiliaire de la ville,[ST:n ]mais je n&#39;ai pas le pouvoir de ramener les gens[ST:n ]sur Terre pour qu&#39;ils revoient ceux qu&#39;ils ont perdus.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0203</td>
+        <td class="side">Mais elle dit que &#231;a lui fait du bien d&#39;en parler[ST:n ]de temps en temps. Alors je le fais volontiers.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev027101_MSG0204</td>
+        <td class="side">J&#39;aurais aim&#233; aller dans cette... ville terrestre[ST:n ]qu&#39;elle appelle maison.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

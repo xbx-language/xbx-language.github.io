@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000691_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0001</td>
+        <td class="side">H&#233;. Salut, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0002</td>
+        <td class="side">Laisse-moi t&#39;dire que c&#39;est une sale journ&#233;e. Je bois,[ST:n ]je bois et j&#39;arrive pas &#224; &#234;tre saoul ![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0003</td>
+        <td class="side">C&#39;est comme si j&#39;&#233;tais devenu immunis&#233; contre le[ST:n ]whisky... C&#39;est le truc le plus horrible que j&#39;aie jamais[ST:n ]entendu ! Qu&#39;est-ce que j&#39;vais faire ?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0004</td>
+        <td class="side">T&#39;aimes boire quoi, toi, [ST:playername ] ?[ST:n ]Je vais peut-&#234;tre essayer ton poison, voir si &#231;a marche.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000691_JNK0010</td>
+        <td class="side">De la bi&#232;re</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000691_SEL0011</td>
+        <td class="side">Sugg&#233;rer &#224; Frye d&#39;ouvrir une bi&#232;re bien fra&#238;che.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000691_JNK0020</td>
+        <td class="side">Des cocktails</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000691_SEL0021</td>
+        <td class="side">Sugg&#233;rer &#224; Frye d&#39;essayer un cocktail. Avec une ombrelle.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000691_JNK0030</td>
+        <td class="side">Du vin</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000691_SEL0031</td>
+        <td class="side">Sugg&#233;rer &#224; Frye d&#39;essayer un vin d&#39;un grand mill&#233;sime.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000691_JNK0040</td>
+        <td class="side">De la vodka</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000691_SEL0041</td>
+        <td class="side">Sugg&#233;rer &#224; Frye un bon verre de vodka.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000691_JNK0050</td>
+        <td class="side">Du sak&#233;</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000691_SEL0051</td>
+        <td class="side">Sugg&#233;rer &#224; Frye un verre d&#39;un tr&#232;s bon sak&#233; japonais.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000691_JNK0060</td>
+        <td class="side">Hausser les &#233;paules</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000691_SEL0061</td>
+        <td class="side">Lui expliquer que vous &#234;tes trop jeune et que vous n&#39;en[ST:n ]avez donc aucune id&#233;e.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0005</td>
+        <td class="side">De la bi&#232;re ? Vraiment ? J&#39;sais pas...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0006</td>
+        <td class="side">J&#39;ai une r&#232;gle &#224; propos d&#39;la bi&#232;re : j&#39;en bois seulement[ST:n ]en regardant le football. Et on peut pas dire que &#231;a[ST:n ]arrive souvent ces temps-ci.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0007</td>
+        <td class="side">Mais bon, ouais, je peux toujours essayer...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0008</td>
+        <td class="side">Beurk ! Ces boissons sont toujours trop sucr&#233;es ! &#199;a,[ST:n ]c&#39;est bon pour un 18e anniversaire, tu vois ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0009</td>
+        <td class="side">M&#39;enfin, je suppose que &#231;a fait pas de mal d&#39;essayer[ST:n ]de nouveaux trucs.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0010</td>
+        <td class="side">Nan mais tu m&#39;as pris pour un vieux snobinard ?[ST:n ]Je bois du whisky. Du whisky pas cher.[ST:n ]Le vin, c&#39;est carr&#233;ment l&#39;inverse de &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0011</td>
+        <td class="side">Mais puisque j&#39;ai pas l&#39;habitude d&#39;en boire, je finirai[ST:n ]peut-&#234;tre rond comme une queue d&#39;pelle ![ST:n ]J&#39;peux toujours essayer...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0012</td>
+        <td class="side">C&#39;est pas une mauvaise id&#233;e. Pas mauvaise du tout.[ST:n ]Je savais pas que t&#39;&#233;tais du genre &#224; aimer la vodka ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0013</td>
+        <td class="side">Le truc bien avec la vodka, c&#39;est que c&#39;est facile &#224;[ST:n ]trouver. C&#39;est bon &#224; savoir si j&#39;finis par &#234;tre accro.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0014</td>
+        <td class="side">Eh ben, pas &#233;tonnant que tu t&#39;entendes si bien avec[ST:n ]Nagi. Vous avez des go&#251;ts plut&#244;t peu communs.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0015</td>
+        <td class="side">En g&#233;n&#233;ral, j&#39;aime pas boire les trucs dont j&#39;peux pas[ST:n ]prononcer le nom, mais si tu penses que j&#39;peux finir[ST:n ]par y prendre go&#251;t...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0016</td>
+        <td class="side">Ah ouais ! C&#39;est vrai. J&#39;avais oubli&#233; qu&#39;tu pouvais pas[ST:n ]boire, pardon. Euh... Appelle pas les flics ou quoi,[ST:n ]d&#39;accord ? C&#39;&#233;tait pas voulu.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0017</td>
+        <td class="side">H&#233;, tu sais quoi ? Te parler m&#39;a donn&#233; une id&#233;e[ST:n ]g&#233;niale ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0018</td>
+        <td class="side">Si je peux pas trouver un alcool qui m&#39;arsouille[ST:n ]correctement la glotte, j&#39;vais en faire un moi-m&#234;me ![ST:n ]Du tord-boyaux ! De l&#39;antigel ! C&#39;est le bon plan, &#231;a ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0019</td>
+        <td class="side">Mira offre tellement de fruits bizarres, de grain et de[ST:n ]salet&#233;s qu&#39;on avait pas sur Terre, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0020</td>
+        <td class="side">Lors de ma prochaine mission Interceptor, j&#39;en prends[ST:n ]tout un tas et j&#39;essaie de les faire fermenter pour[ST:n ]en faire une toute nouvelle boisson.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0021</td>
+        <td class="side">J&#39;aurais jamais pens&#233; que j&#39;deviendrai un de ces types[ST:n ]qui distillent dans leur baignoire. Mais je suppose[ST:n ]que sobri&#233;t&#233; est m&#232;re d&#39;invention ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0022</td>
+        <td class="side">Merci de m&#39;avoir parl&#233; de tout &#231;a. Je t&#39;en dois une.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0023</td>
+        <td class="side">J&#39;vais quand m&#234;me &#233;cluser un gorgeon de whisky une[ST:n ]derni&#232;re fois, pour &#234;tre s&#251;r que &#231;a me fait plus rien.[ST:n ]Apr&#232;s, j&#39;commencerai &#224; mettre ma distillerie en place.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000691_MSG0024</td>
+        <td class="side">On s&#39;revoit &#224; la prochaine mission, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

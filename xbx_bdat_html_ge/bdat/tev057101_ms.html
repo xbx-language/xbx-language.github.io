@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev057101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0011</td>
+        <td class="side">Sprich mit Jalolo &#252;ber die Nopon.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0021</td>
+        <td class="side">Frage Jalolo, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0031</td>
+        <td class="side">Frage Jalolo, ob er den Angriff[ST:n ]auf NLA mitbekommen hat.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0041</td>
+        <td class="side">Frage Jalolo nach dem Zu Pharg.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0051</td>
+        <td class="side">Frage Jalolo, wie die Gesch&#228;fte laufen.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0001</td>
+        <td class="side">Katsching ist wichtigste Sache f&#252;r alle Nopon.[ST:n ]Gleich danach kommt g&#252;ltiger Schuldschein![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0002</td>
+        <td class="side">Nopon machen nix ohne unterschriebenen Vertrag.[ST:n ]M&#252;ndliche Vereinbarungen bringen nur &#196;rger, [ST:n ]aber unterzeichnetes Dokument ist heilig f&#252;r Nopon![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0003</td>
+        <td class="side">Jedes kleinste Detail muss in Vertrag schriftlich[ST:n ]festgehalten werden, sonst ist nicht g&#252;ltig.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0004</td>
+        <td class="side">Jalolo ist zwar manchmal hinterlistlicher Fiesling,[ST:n ]aber Vertrag ist Vertrag. Und was Jalolo schreibt,[ST:n ]ist immer g&#252;ltig![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0008</td>
+        <td class="side">Wie kann so s&#252;&#223;e Nopon so &#228;rmlichen W&#252;rmling[ST:n ]lieben? Nuuuu! Jalolo versteht Welt nicht mehr...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0009</td>
+        <td class="side">&#196;hem. Willkommen zu Geldverleih von Jalolo! Zinsen[ST:n ]sind normalerweise 50 Prozent alle 10 Tage. Aber heute[ST:n ]hat Jalolo schlechten Tag, also macht 80 Prozent.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0010</td>
+        <td class="side">Hmm... [ST:Gender p1=Freund p2=Freundin ] sieht f&#252;r Kredit nicht[ST:n ]vertrauensw&#252;rdig genug aus. Soll Fliege machen![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0015</td>
+        <td class="side">Jalolo hat alles gesehen. Ganzes Rudel von Ganglion ist[ST:n ]erst nach S&#252;den geflogen, dann hat Himmel ganz doll[ST:n ]gefunkt und sp&#228;ter ist Gesindel wieder zur&#252;ckgeflogen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0016</td>
+        <td class="side">Wenn nicht anders geht, ist Jalolo auch manchmal[ST:n ]Halunke, aber so schuftige B&#246;slinge hat Jalolo noch[ST:n ]nie gesehen![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0017</td>
+        <td class="side">Sind so gruselig und b&#246;shaft... Jalolo hat ganz ungutes[ST:n ]Gef&#252;hl allein bei Gedanken an fiese Bande...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0018</td>
+        <td class="side">Vielleicht ist besser f&#252;r Jalolo, Gesch&#228;ft mit Ganglion[ST:n ]zu machen, um mit Schurken gut zu stellen.[ST:n ]W&#228;re geschickter Schachzug![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0023</td>
+        <td class="side">Jalolo dachte erst, hat lebenden Berg gefunden und[ST:n ]wird ber&#252;hmter Entdecker, aber in Wirklichkeit war[ST:n ]Waffe von Ganglion![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0024</td>
+        <td class="side">Da hat Jalolo &#252;berlegt – vielleicht ist Handel mit so[ST:n ]gemeingef&#228;hrlichen Xenopon doch nicht so gute Idee...[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0025</td>
+        <td class="side">Andererseits macht Jalolo auch Gesch&#228;fte mit Erdpon.[ST:n ]Und Erdpon-Freunde haben riesiges Ganglion-Ding[ST:n ]besiegt, sind also noch gef&#228;hrlicher.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0026</td>
+        <td class="side">Jalolo muss f&#252;r eine Seite entscheiden. Um Willen von[ST:n ]eigener Sicherheit! Aber f&#252;r welche? Hmm...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0030</td>
+        <td class="side">Nu! Jalolo hat als Hellseher kein Talent! Prophezeiungen[ST:n ]waren alle Schuss in Ofen![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0031</td>
+        <td class="side">Jalolo war sicher, Erdpon-Freunde w&#252;rden Schlacht[ST:n ]verlieren. Hat sogar schon Exklusivvertrag mit Ganglion[ST:n ]gemacht.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0032</td>
+        <td class="side">Aber [ST:Gender p1=Freund p2=Freundin ] darf nicht pers&#246;nlich nehmen![ST:n ]Gesch&#228;ft ist doch Gesch&#228;ft. Und Jalolo ist auch schon[ST:n ]bestraft genug...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0033</td>
+        <td class="side">Ganglion wurden besiegt und Jalolo schreibt nur[ST:n ]noch tiefroteste Zahlen! Kann Laden jetzt dichtmachen![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0034</td>
+        <td class="side">Aber Jalolo ist nicht sauer auf Erdpon-Freund.[ST:n ]Ist alles eigene Schuld! Mangelnder Weitblick ist eben[ST:n ]Gift f&#252;r Gesch&#228;ft.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0010</td>
+        <td class="side">tev057101_JNK0010</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev057101_SEL0011</td>
+        <td class="side">tev057101_SEL0011</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev057101_JNK0020</td>
+        <td class="side">tev057101_JNK0020</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev057101_SEL1011</td>
+        <td class="side">Sprich mit Jalolo &#252;ber die j&#252;ngsten Ereignisse.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0011</td>
+        <td class="side">Jalolo versteht einfach nicht! Hat doch Flauscheb&#252;schel[ST:n ]von Nio ausgerupft!?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0012</td>
+        <td class="side">Wie ist Nio so schnell neues B&#252;schel gewachsen?[ST:n ]Stolziert zufrieden mit Frauchenpon herum und prahlt[ST:n ]mit doofem Ring. Wie kann sein?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0013</td>
+        <td class="side">Mgrrr... Nein! Jalolo kann nicht ertragen![ST:n ]Wenn Nio und Poko jetzt hier wohnen, macht Jalolo[ST:n ]Leben zu H&#246;lle! Verzeiht niemals W&#252;rmlingsp&#228;rchen![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev057101_MSG0014</td>
+        <td class="side">Jeder ist gl&#252;cklich, au&#223;er Jalolo! So ungerecht![ST:n ]Jalolo hat Stinkewut in grollendem B&#228;uchlein![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

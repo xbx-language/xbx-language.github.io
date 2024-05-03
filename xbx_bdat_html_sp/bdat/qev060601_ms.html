@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0001</td>
+        <td class="side">Hola. *Fsssh* Oye, &#191;eres [ST:Gender p1=un p2=una ] zaruboggan?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060601_JNK0010</td>
+        <td class="side">Explicar</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060601_SEL0011</td>
+        <td class="side">Dile a Orleron que no eres [ST:Gender p1=un p2=una ] zaruboggan.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060601_JNK0020</td>
+        <td class="side">Seguir la corriente</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060601_SEL0021</td>
+        <td class="side">Dile que puede que seas [ST:Gender p1=un p2=una ] zaruboggan.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0002</td>
+        <td class="side">No eres zaruboggan... *Fsssh*[ST:n ]Vale, entendido.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0003</td>
+        <td class="side">Pareces muy [ST:Gender p1=simp&#225;tico p2=simp&#225;tica ]. *Fsssh*[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0004</td>
+        <td class="side">&#191;Lo eres? *Fsssh*[ST:n ]Vale, entendido.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0005</td>
+        <td class="side">Eeh, &#191;est&#225;s de broma? *Fsssh*[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0006</td>
+        <td class="side">Eh, &#161;oye! *Fsssh* &#191;Sab&#237;as que soy Orleron[ST:n ]y soy un zaruboggan?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0007</td>
+        <td class="side">*Fsssh* As&#237; que tengo que desvoltanizar.[ST:n ]&#161;Es mi deber![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0008</td>
+        <td class="side">Pero para hacer eso necesito un nuevo gorkwa,[ST:n ]y no hay ninguno por aqu&#237;. *Fsssh*[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0009</td>
+        <td class="side">&#191;Sabes qu&#233; son los gorkwas? *Fsssh*[ST:n ]Son los b&#225;culos que sirven para desvoltanizar.[ST:n ]&#191;Sabes d&#243;nde hay alguno?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060601_JNK0050</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060601_SEL0051</td>
+        <td class="side">P&#237;dele a Orleron que te cuente m&#225;s sobre los gorkwas.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060601_JNK0060</td>
+        <td class="side">Responder</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060601_SEL0061</td>
+        <td class="side">Dile a Orleron que has visto [ST:n ]a otros zaruboggan con ellos.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0010</td>
+        <td class="side">&#161;Los zaruboggan usan gorkwas para cumplir con su[ST:n ]deber sagrado! Pero aqu&#237; no hay ninguno. *Fsssh*[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0011</td>
+        <td class="side">Pero &#161;ese es su gorkwa! No mi gorkwa. *Fsssh*[ST:n ]Necesito uno nuevo.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0012</td>
+        <td class="side">&#191;Me traes un gorkwa nuevo? *Fsssh*[ST:n ]&#161;As&#237; podr&#233; por fin ser mayor![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0013</td>
+        <td class="side">*Fsssh* &#161;Y entonces podr&#233; cumplir[ST:n ]con mi deber sagrado![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0014</td>
+        <td class="side">Vale, esperar&#233;. Puedo estudiar c&#243;mo ser un buen[ST:n ]zaruboggan adulto hasta que vuelvas. *Fsssh*[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0015</td>
+        <td class="side">Pero, em... &#191;d&#243;nde deber&#237;a estudiar?[ST:n ]*Fsssh* &#191;Puedes dec&#237;rmelo?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev060601_JNK0030</td>
+        <td class="side">Sugerir NLA</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev060601_SEL0031</td>
+        <td class="side">Dile a Orleron que estudie con los humanos en NLA.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev060601_JNK0040</td>
+        <td class="side">Sugerir la nave ma-non</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev060601_SEL0041</td>
+        <td class="side">Dile a Orleron que estudie con los dem&#225;s[ST:n ]zaruboggan en la nave ma-non.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0016</td>
+        <td class="side">Vale, entendido. *Fsssh*[ST:n ]Estudiar&#233; c&#243;mo ser mayor con \&quot;loshumanos\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0017</td>
+        <td class="side">Vale, entendido. *Fsssh*[ST:n ]Estudiar&#233; c&#243;mo ser mayor con los zaruboggan.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0018</td>
+        <td class="side">Por favor, b&#250;scame un gorkwa nuevo. *Fsssh*[ST:n ]Aprender&#233; a cumplir con mi deber sagrado[ST:n ]en un pisp&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0021</td>
+        <td class="side">Entonces estudiar&#233; en \&quot;Enele&#225;\&quot;. *Fsssh*[ST:n ]&#161;Te estar&#233; esperando![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0022</td>
+        <td class="side">En realidad tampoco s&#233; mucho sobre gorkwas. *Fsssh*[ST:n ]Solo, eh... Solo que necesito uno.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0023</td>
+        <td class="side">&#161;Si tengo un gorkwa, puedo cumplir[ST:n ]con mi deber sagrado! *Fsssh*[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev060601_MSG0024</td>
+        <td class="side">Entonces estudiar&#233; con los zaruboggan. *Fsssh*[ST:n ]&#161;Te estar&#233; esperando![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RSC_EnGenusList_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Robosentinella</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Vitarth</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Satellis</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Rexoskell</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Vasara</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Zu Pharg</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Almandal</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Puge</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Pugilith</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Galdr</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Quo</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Oc-serv</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Qmoeva</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Caladar</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Seidr</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Xern</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">Shrad</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">Xe-dom</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">Zig</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">Fal-swo</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">Neilnail</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">Skell di fattura umana</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">Marnuck</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">Milsaadi</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">Sylooth</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">Gularth</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">BLADE</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">Pron (Clan delle Caverne)</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">Pron (Clan degli Alberi)</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">Definian</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td class="side">Wrothian</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td class="side">Comando Ganglion</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td class="side">Petramand</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td class="side">Scirpo</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td class="side">Forfex</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td class="side">Cinicula</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td class="side">Falsaxum</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td class="side">Vivohast</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td class="side">Thallus</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td class="side">Tectinsula</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td class="side">Arenatect</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td class="side">Blathax</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td class="side">Turba</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td class="side">Adsecula</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td class="side">Papil</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td class="side">Germivorix</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td class="side">Sabula</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td class="side">Manctis</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td class="side">Aeviter</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td class="side">Lophid</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td class="side">Morm</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td class="side">Duoguill</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td class="side">Scintimure</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td class="side">Aetrygon</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td class="side">Xiphias</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td class="side">Balaenan</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td class="side">Ceteo</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td class="side">Grex</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td class="side">Saprof</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td class="side">Vigent</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td class="side">Viragon</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td class="side">Monoceros</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td class="side">Equus</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td class="side">Simius</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td class="side">Cabtor</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td class="side">Aprica</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td class="side">Cervus</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td class="side">Suid</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td class="side">Ovis</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td class="side">Millesaur</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td class="side">Coronid</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td class="side">Evellon</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td class="side">Caecus</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td class="side">Insidean</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td class="side">Sphinx</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td class="side">Chimeran</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td class="side">Gerrid</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td class="side">Lepyx</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td class="side">Mortifole</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td class="side">Sacrifole</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td class="side">Auravis</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td class="side">Astara</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td class="side">Levitath</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td class="side">Colubrim</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td class="side">Millepod</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td class="side">Unafulge</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td class="side">Nalquus</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td class="side">Filiavent</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td class="side">Yggralith</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td class="side">Telesia</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td class="side">Vesper</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td class="side">Murra</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td class="side">Terebra</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td class="side">Mephite</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td class="side">Saltat</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td class="side">Liceor</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td class="side">Potamus</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td class="side">Dilus</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td class="side">Tersqual</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td class="side">Specie infetta</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td class="side">Gli umani e gli Orphe hanno unito le loro[ST:n ]forze per sviluppare questi robot con[ST:n ]l&#39;intento di metterli a difesa di alcuni[ST:n ]stabilimenti per il trattamento delle acque.[ST:n ][ST:n ]L&#39;esterno &#232; progettato per soddisfare i gusti[ST:n ]degli umani, mentre l&#39;interno rappresenta il[ST:n ]culmine della potenza tecnologica Orphe.</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td class="side">Lo Skell definitivo, creato con tecnologie[ST:n ]sconosciute sia agli umani sia ai Ganglion.[ST:n ][ST:n ]Il corpo &#232; composto di materia oscura, che[ST:n ]viene assorbita dall&#39;ambiente circostante. La[ST:n ]materia in eccesso pu&#242; essere trasformata[ST:n ]in missili letali o in veicoli autonomi ausiliari[ST:n ]che possono assistere gli attacchi del Vitarth.[ST:n ][ST:n ]Queste abilit&#224; variano, per&#242;, a seconda delle[ST:n ]abilit&#224; del pilota. Luxaar, ad esempio, pu&#242;[ST:n ]usare il Vitarth solo al trenta per cento delle[ST:n ]capacit&#224;. Questo &#232; nulla in confronto a quello[ST:n ]che pu&#242; fare il vero maestro: il misterioso[ST:n ]individuo conosciuto come \&quot;Il Grande\&quot;.</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td class="side">GENUS_EN010310_Capti</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td class="side">Uno Skell speciale Ganglion dotato di un[ST:n ]reattore ad alto rendimento, in grado di[ST:n ]supportare la colossale armatura. Vanta[ST:n ]un temibile arsenale, le cui armi sono state[ST:n ]progettate basandosi sui manufatti alieni[ST:n ]trovati su Mira, come gli Oc-serv.[ST:n ][ST:n ]Tuttavia, il Rexoskell &#232; molto pi&#249; che pura[ST:n ]forza bruta. &#200; anche dotato di capacit&#224;[ST:n ]secondarie, come quella di perturbare i[ST:n ]segnali elettrici e la mobilit&#224; in acqua,[ST:n ]migliorata grazie al design anfibio.</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td class="side">Uno Skell di fattura Wrothian, unica nel suo[ST:n ]genere. Sul capo a forma di elmetto si trova[ST:n ]un sistema di dissipazione termica che ricorda[ST:n ]una lunga chioma di capelli. Nella bocca &#232;[ST:n ]presente un&#39;arma a raggio ad alta potenza.[ST:n ][ST:n ]Come armamenti fissi, sono anche presenti[ST:n ]cavi vibranti in ciascun braccio, un dispositivo[ST:n ]di propulsione dimensionale nel bacino e[ST:n ]due Cannoni a raggio in grado di alterare[ST:n ]il tempo atmosferico. Le armi prescelte da[ST:n ]Ga Jiarg sono, comunque, una serie di[ST:n ]coltelli montati sulle spalle del Vasara.</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td class="side">Il pi&#249; grande Skell trasformabile dei Ganglion.[ST:n ]Lo Zu Pharg &#232; capace di volare manipolando[ST:n ]la forza di gravit&#224; e formando un disco con[ST:n ]il corpo e gli arti.[ST:n ][ST:n ]La sua carenza di mobilit&#224; lascia spazio a[ST:n ]un&#39;incredibile potenza di fuoco. Pensato[ST:n ]principalmente per annichilire le fortezze[ST:n ]nemiche una volta raggiunta la supremazia[ST:n ]aerea, il capo dello Zu Pharg contiene un[ST:n ]colossale cannone a particelle, e la sua[ST:n ]coda un potente Cannone Gungnir.[ST:n ][ST:n ]Nella sua forma a disco, lo Zu Pharg vanta[ST:n ]un cannone principale in grado di abbattere[ST:n ]addirittura la Balena Bianca. I suoi armamenti[ST:n ]lo rendono equiparabile a un intero[ST:n ]squadrone di Skell ordinari.</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td class="side">Incredibilmente veloci e ideati per combattere[ST:n ]Skell alieni, sono specializzati in offensive a[ST:n ]corto raggio grazie alla loro elevata mobilit&#224;.[ST:n ]I due droni montati sulla coda permettono[ST:n ]loro di effettuare anche attacchi a distanza.[ST:n ][ST:n ]L&#39;armatura leggera, che evita l&#39;effetto[ST:n ]zavorra, pu&#242; essere anche rimossa[ST:n ]per riuscire a sferrare potenti attacchi a[ST:n ]raggio. Ci&#242; vuol dire che la loro efficacia[ST:n ]dipende principalmente dalle abilit&#224; e[ST:n ]tecniche del guidatore, ma il numero di piloti[ST:n ]qualificati &#232; molto scarso. Per tale motivo[ST:n ]sono in corso ricerche sull&#39;integrazione I.A.</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td class="side">Robot umanoidi progettati dai Ganglion per[ST:n ]una variet&#224; di utilizzi: dalla protezione di[ST:n ]punti militari strategici ai semplici impieghi di[ST:n ]manutenzione meccanica. Eccellono nel[ST:n ]combattimento ravvicinato anti fanteria[ST:n ]utilizzando i laser montati sugli arti, per[ST:n ]falciare le file nemiche con fredda precisione.[ST:n ][ST:n ]Quando la distruzione &#232; inevitabile, possono[ST:n ]innescare una sequenza di autodistruzione in[ST:n ]un ultimo tentativo di abbattere il nemico.</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td class="side">Cannoni mobili Puge pensati per il supporto[ST:n ]alla fanteria in ambienti, come quelli urbani,[ST:n ]inaccessibili dalle armi pi&#249; grandi.[ST:n ][ST:n ]Se il Puge al suo interno viene neutralizzato,[ST:n ]il Pugilith continua a fare fuoco sul nemico[ST:n ]prescelto. Il controllo manuale pu&#242; essere[ST:n ]ripristinato da un altro Puge al comando.[ST:n ]E anche una volta distrutto, un Pugilith rimane[ST:n ]sempre utile: la spessissima armatura,[ST:n ]ad esempio, &#232; perfetta per costruire barricate.</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; aeree con capacit&#224; di trasformazione,[ST:n ]pilotate internamente. Pur avendo dimensioni[ST:n ]imponenti, questi Skell hanno un&#39;elevata[ST:n ]mobilit&#224; in modalit&#224; veicolo. In modalit&#224;[ST:n ]Skell la velocit&#224; &#232; ridotta, ma viene pi&#249; che[ST:n ]compensata dall&#39;aumento di potenza di fuoco[ST:n ]delle quattro armi principali: Raggio[ST:n ]perforante, Artiglio Tornado, Missili Titan e[ST:n ]Revolver Creed. Si tratta di armi molto diverse[ST:n ]tra loro, ma con una modularit&#224; tale da[ST:n ]rendere i Galdr delle macchine molto versatili.</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td class="side">Unit&#224; senza pilota create per il supporto delle[ST:n ]unit&#224; alleate all&#39;interno di un plotone o[ST:n ]altre formazioni numerose. Le informazioni[ST:n ]raccolte dai suoi sistemi informatici Domina[ST:n ]vengono trasmesse alle unit&#224; alleate nelle[ST:n ]vicinanze per fornir loro un vantaggio[ST:n ]strategico. Possono inoltre erogare delle[ST:n ]nanomacchine rigeneranti in grado di curare[ST:n ]le ferite superficiali.[ST:n ][ST:n ]Anche se le loro abilit&#224; in combattimento[ST:n ]lasciano a desiderare, i Quo sono dotati di[ST:n ]due banchi missili che permettono loro di[ST:n ]difendersi nel combattimento ravvicinato[ST:n ]anti fanteria.</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td class="side">Misteriosi apparecchi senza pilota, dissepolti[ST:n ]dal suolo miriano. Ne esistono di svariate[ST:n ]grandezze e sono costruiti con un tipo di[ST:n ]metallo vivente che neanche la tecnologia[ST:n ]Ganglion &#232; riuscita a riprodurre. Anche se il[ST:n ]processo di produzione rimane impenetrabile,[ST:n ]un fortunato incidente di ricerca ha svelato il[ST:n ]segreto per pilotare le unit&#224;, permettendo ai[ST:n ]Ganglion di impegnare gli Oc-serv per[ST:n ]difendere basi e trasportare materiali.[ST:n ][ST:n ]Sono immuni sia alle condizioni atmosferiche[ST:n ]avverse sia ai disturbi elettromagnetici, il che[ST:n ]permette loro di operare senza problemi[ST:n ]sull&#39;intera superficie di Mira.</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td class="side">Uno Skell prodotto in massa e utilizzato dai[ST:n ]Ganglion. Come negli Skell di fattura umana,[ST:n ]gli armamenti sono facilmente intercambiabili,[ST:n ]permettendo loro la massima adattabilit&#224; in[ST:n ]qualsiasi situazione. L&#39;arsenale standard[ST:n ]comprende una potente arma a raggio sul[ST:n ]capo e mani a forma di cesoie in grado di[ST:n ]smembrare le armature nel combattimento[ST:n ]ravvicinato.[ST:n ][ST:n ]Questi apparecchi sono molto versatili, ma gli[ST:n ]abitacoli sono piuttosto spartani e scomodi.[ST:n ]Pertanto, le missioni lunghe risultano[ST:n ]molto stressanti per i piloti del Qmoeva.</td>
+      </tr>
+      <tr id="114">
+        <td>114</td>
+        <td>
+        </td>
+        <td class="side">Skell Wrothian che ha il compito di[ST:n ]supportare le unit&#224; di comando come il[ST:n ]Vasara. Si distinguono per i Cannoni a[ST:n ]raggio di grosso calibro situati nella parte[ST:n ]centrale del corpo, e per la capacit&#224; di[ST:n ]assumere una forma umanoide durante[ST:n ]il corpo a corpo. La loro specialit&#224; &#232; per&#242;[ST:n ]il combattimento a distanza in modalit&#224;[ST:n ]veicolo. In questa modalit&#224;, il Vasara pu&#242;[ST:n ]salire sul Caladar per muoversi pi&#249; in fretta.[ST:n ][ST:n ]Tra le altre caratteristiche, troviamo cavi[ST:n ]vibranti per intrappolare gli avversari e la[ST:n ]possibilit&#224; di erogare nanomacchine[ST:n ]rigeneranti in grado di riparare i danni lievi.</td>
+      </tr>
+      <tr id="115">
+        <td>115</td>
+        <td>
+        </td>
+        <td class="side">Enormi unit&#224; pilotate internamente, progettate[ST:n ]per essere evoluzioni della serie Galdr.[ST:n ]Come nei Galdr, gli armamenti sulle spalle[ST:n ]completamente intercambiabili garantiscono[ST:n ]un&#39;elevata versatilit&#224;. Gli apparecchi vantano[ST:n ]inoltre tre armi principali: un Cannone[ST:n ]a Iper-rotaia, dei Missili estremi e un[ST:n ]Accendi miccia. Pare che ci siano[ST:n ]anche altre armi in via di sviluppo.[ST:n ][ST:n ]Le gambe, studiate per il combattimento in[ST:n ]superficie, possono essere rimosse per creare[ST:n ]un assetto di combattimento nello spazio.</td>
+      </tr>
+      <tr id="116">
+        <td>116</td>
+        <td>
+        </td>
+        <td class="side">Veicoli d&#39;attacco Ganglion che sorvolano[ST:n ]le zone strategiche e le difendono dagli[ST:n ]avversari.[ST:n ][ST:n ]Sono in grado di ospitare fino a quaranta[ST:n ]Skell, ma sono pi&#249; di semplici hangar volanti.[ST:n ]I cannoni principali possono vaporizzare interi[ST:n ]plotoni di Skell con un solo colpo, o creare[ST:n ]una pioggia di laser sparando in aria degli[ST:n ]speciali globi di energia. Inoltre, gli Xern[ST:n ]possono interfacciarsi con una flotta di[ST:n ]satelliti geostazionari per sferrare offensive[ST:n ]da cui &#232; impossibile sfuggire.</td>
+      </tr>
+      <tr id="117">
+        <td>117</td>
+        <td>
+        </td>
+        <td class="side">Piccole e senza pilota, queste unit&#224; sono[ST:n ]spesso impiegate per pattugliare fortificazioni[ST:n ]militari. Nella loro forma sferica, con il radar[ST:n ]attivato, questi robot scansionano[ST:n ]l&#39;ambiente in cerca di tracce visive e sonore[ST:n ]di nemici. Durante il combattimento, per&#242;,[ST:n ]assumono forma quadrupede. Il potenziale[ST:n ]offensivo degli Shrad non &#232; alto, ma sono in[ST:n ]grado di chiamare in soccorso altre unit&#224; e[ST:n ]coprirle finch&#233; loro stessi subiscono danni[ST:n ]critici, per poi autodistruggersi.[ST:n ][ST:n ]Gli Shrad hanno un fascino innegabile, tanto[ST:n ]che le versioni in miniatura piacciono molto[ST:n ]come giocattoli ai Ganglion di tutte le et&#224;.[ST:n ]Grazie al pubblico di appassionati, nel corso[ST:n ]del tempo, queste versioni giocattolo degli[ST:n ]Shrad si sono evolute indipendentemente[ST:n ]dagli originali.</td>
+      </tr>
+      <tr id="118">
+        <td>118</td>
+        <td>
+        </td>
+        <td class="side">Misteriosi apparecchi senza pilota, dissepolti[ST:n ]dal suolo miriano. Ne esistono di svariate[ST:n ]grandezze e sono costruiti con un tipo di[ST:n ]metallo vivente che neanche la tecnologia[ST:n ]Ganglion &#232; riuscita a riprodurre. Anche se il[ST:n ]processo di produzione degli Xe-dom rimane[ST:n ]impenetrabile, un fortunato incidente di ricerca[ST:n ]ha svelato il segreto per pilotare le unit&#224;.[ST:n ][ST:n ]Sono ideali per proteggere le basi Ganglion[ST:n ]grazie alle loro eccezionali abilit&#224;. Tra queste,[ST:n ]la possibilit&#224; di manipolare la forza di gravit&#224;[ST:n ]intorno all&#39;apparecchio, utile sia per l&#39;attacco[ST:n ]sia per gli spostamenti.</td>
+      </tr>
+      <tr id="119">
+        <td>119</td>
+        <td>
+        </td>
+        <td class="side">Questi cannoni autonomi Ganglion sono[ST:n ]capaci di rilevare la presenza di nemici con[ST:n ]precisione incredibile. La densit&#224; dell&#39;armatura[ST:n ]fornisce loro un vantaggio enorme negli[ST:n ]scontri ravvicinati, mentre le armi installate su[ST:n ]ciascun braccio possono essere cambiate per[ST:n ]adattarsi a qualunque tipo di operazione[ST:n ]militare contro fanterie, unit&#224; di terra, unit&#224;[ST:n ]aeree, eccetera.[ST:n ][ST:n ]In un conflitto passato, centinaia di Zig furono[ST:n ]impiegati a bordo di un&#39;unit&#224; di trasporto[ST:n ]spaziale per aumentare la potenza di fuoco.[ST:n ]L&#39;operazione fu infine considerata un[ST:n ]fallimento a causa dei costi elevatissimi.</td>
+      </tr>
+      <tr id="120">
+        <td>120</td>
+        <td>
+        </td>
+        <td class="side">Misteriosi apparecchi senza pilota, dissepolti[ST:n ]dal suolo miriano. Ne esistono di svariate[ST:n ]grandezze e sono costruiti con un tipo di[ST:n ]metallo vivente che neanche la tecnologia[ST:n ]Ganglion &#232; riuscita a riprodurre. Anche se il[ST:n ]processo di produzione dei Fal-swo rimane[ST:n ]impenetrabile, un fortunato incidente di ricerca[ST:n ]ha svelato il segreto per pilotare le unit&#224;.[ST:n ][ST:n ]I Fal-swo sono progettati per conquistare e[ST:n ]salvaguardare la supremazia aerea. La loro[ST:n ]tecnica di volo si basa su sofisticate teorie di[ST:n ]manipolazione gravitazionale, che permettono[ST:n ]una superlativa manovrabilit&#224;, irraggiungibile[ST:n ]dai velivoli di fattura umana.</td>
+      </tr>
+      <tr id="121">
+        <td>121</td>
+        <td>
+        </td>
+        <td class="side">GENUS_EN013001_Capti</td>
+      </tr>
+      <tr id="122">
+        <td>122</td>
+        <td>
+        </td>
+        <td class="side">Armi mobili di fattura umana. La struttura[ST:n ]di base consiste di un telaio intercambiabile[ST:n ]interno, su cui &#232; montato un modulo esterno.[ST:n ]Ci&#242; permette agli Skell di passare con molta[ST:n ]velocit&#224; dalla modalit&#224; di combattimento[ST:n ]umanoide alla modalit&#224; veicolo.[ST:n ][ST:n ]Il modulo esterno &#232; diviso in due componenti:[ST:n ]il primo, la carena, ospita un&#39;armatura[ST:n ]secondaria, una batteria integrata di armi,[ST:n ]un&#39;unit&#224; motrice ausiliare, un accumulatore e[ST:n ]un porta-armamenti; il secondo, un pannello[ST:n ]posteriore, ospita i sistemi di manovra e quelli[ST:n ]di controllo delle armi e dello stesso Skell.[ST:n ]Sostituire la carena permette al pilota[ST:n ]di personalizzare il proprio Skell per[ST:n ]un&#39;ampia gamma di strategie e configurazioni[ST:n ]di combattimento in squadra.</td>
+      </tr>
+      <tr id="123">
+        <td>123</td>
+        <td>
+        </td>
+        <td class="side">Razza belligerante proveniente dal pianeta[ST:n ]Wyran, distrutto da una guerra civile globale[ST:n ]in cui gli unici sopravvissuti furono coloro[ST:n ]che appoggiarono i Ganglion. I Marnuck[ST:n ]amano soprattutto combattere, e per questo[ST:n ]sono fieri della loro tecnologia militare. Di[ST:n ]religione politeista molto particolare, la cui[ST:n ]principale divinit&#224; &#232; un \&quot;dio delle tombe\&quot; che[ST:n ]governa la vita e la morte. Offrirgli i nemici[ST:n ]sconfitti in battaglia &#232; considerato un[ST:n ]gesto nobile. Pi&#249; nemici si annientano,[ST:n ]migliore sar&#224; la propria condizione nell’aldil&#224;.[ST:n ]Legati eternamente al campo di battaglia,[ST:n ]molti Marnuck decidono di vivere come[ST:n ]vagabondi. Lo status sociale &#232; determinato[ST:n ]dal risultato del duello cerimoniale che[ST:n ]avviene durante il rito della maturit&#224;[ST:n ]e di quello delle battaglie successive.</td>
+      </tr>
+      <tr id="124">
+        <td>124</td>
+        <td>
+        </td>
+        <td class="side">Una razza di organismi composti da silicio,[ST:n ]simili a delle macchine. Sono in grado di[ST:n ]disattivare la sensazione del dolore, cos&#236; da[ST:n ]eliminare ogni paura della battaglia. Vantano[ST:n ]notevoli abilit&#224; nel combattimento ravvicinato,[ST:n ]motivo per cui i Ganglion li impiegano come[ST:n ]assassini di alto profilo. Per i Milsaadi la[ST:n ]caccia &#232; un rituale sacro, e pertanto anche[ST:n ]i nemici pi&#249; grandi vengono affrontati con[ST:n ]le sole armi da combattimento corpo a[ST:n ]corpo. Questo spiega la loro maestria negli[ST:n ]scontri e, grazie ai loro pronti riflessi,[ST:n ]sono anche abili a pilotare gli Skell.[ST:n ][ST:n ]Sul loro pianeta natale, Bidwoi, i Milsaadi[ST:n ]rappresentavano solo una piccola percentuale[ST:n ]della popolazione, gran parte della quale[ST:n ]era costituita da specie aliene schiavizzate[ST:n ]dal regime totalitario.</td>
+      </tr>
+      <tr id="125">
+        <td>125</td>
+        <td>
+        </td>
+        <td class="side">Possenti bestie bipedi che prosperano nelle[ST:n ]zone boscose. Seppur moderatamente[ST:n ]intelligenti, non hanno la facolt&#224; del[ST:n ]linguaggio. Vivono grazie all&#39;energia della[ST:n ]fotosintesi derivata dalla simbiosi con alcuni[ST:n ]alberi, ma possono anche assorbire Etere[ST:n ]tramite la respirazione. I Sylooth giovani o[ST:n ]malati possono nutrirsi di frutti e foglie per[ST:n ]ricavarne energia supplementare.[ST:n ][ST:n ]Per difendersi, i Sylooth si radunano spesso[ST:n ]in piccoli branchi, allontanando i nemici con[ST:n ]la superiorit&#224; numerica. Sono stati osservati[ST:n ]nell&#39;atto di proteggere i volatili e gli insetti[ST:n ]che vivono negli alberi presenti sul dorso.</td>
+      </tr>
+      <tr id="126">
+        <td>126</td>
+        <td>
+        </td>
+        <td class="side">Possenti bestie bipedi che prosperano nelle[ST:n ]zone vulcaniche. La loro tolleranza al caldo &#232;[ST:n ]tale da renderli in grado di nuotare nella lava[ST:n ]senza problemi, arrivando persino a[ST:n ]incorporare la pietra fusa nel proprio corpo[ST:n ]per rafforzarlo. La lava &#232; solitamente l&#39;unica[ST:n ]fonte di energia a loro necessaria, ma alcuni[ST:n ]Gularth sono stati osservati nell&#39;atto di[ST:n ]cacciare animali trascinandoli nella loro[ST:n ]dimora incandescente prima di consumarne[ST:n ]i corpi ancora in fiamme.[ST:n ][ST:n ]Estremamente territoriali, i Gularth attaccano[ST:n ]gli intrusi senza esitazione. Scontri tra[ST:n ]Gularth sono altrettanto comuni, e di norma[ST:n ]si prolungano per molto tempo rendendoli[ST:n ]facili da individuare ed evitare.</td>
+      </tr>
+      <tr id="127">
+        <td>127</td>
+        <td>
+        </td>
+        <td class="side">Un&#39;organizzazione fondata dopo lo schianto[ST:n ]su Mira. Il BLADE svolge una serie di compiti,[ST:n ]tra i quali l&#39;approvvigionamento di cibo e di[ST:n ]acqua, l&#39;esplorazione del pianeta e la[ST:n ]gestione dell&#39;ordine pubblico a Neo L.A.[ST:n ]La sua missione principale, tuttavia, &#232; la[ST:n ]ricerca del Centro vitale.[ST:n ][ST:n ]Essendo un&#39;organizzazione fondata sui resti[ST:n ]delle forze della Coalizione, molti dei membri[ST:n ]del BLADE hanno esperienza nel campo[ST:n ]militare.</td>
+      </tr>
+      <tr id="128">
+        <td>128</td>
+        <td>
+        </td>
+        <td class="side">Un gruppo di Pron che si schier&#242; con i[ST:n ]Ganglion per vincere la guerra fra clan che[ST:n ]divorava il loro pianeta madre. Fisicamente[ST:n ]robusti ma poco astuti, sono facili pedine[ST:n ]nelle mani dei Ganglion. Sebbene non brillino[ST:n ]per intelligenza, hanno imparato[ST:n ]ad allevare i Suid miriani e a sfruttarli per[ST:n ]un gran numero di lavori. Una minoranza[ST:n ]del Clan delle Caverne ha espresso[ST:n ]preoccupazione sulla situazione attuale[ST:n ]del gruppo.</td>
+      </tr>
+      <tr id="129">
+        <td>129</td>
+        <td>
+        </td>
+        <td class="side">Un gruppo di Pron che in passato era[ST:n ]coinvolto in una sanguinosa guerra contro[ST:n ]dei rivali nel loro pianeta madre: il Clan delle[ST:n ]Caverne. Dopo che i Ganglion iniziarono a[ST:n ]fornire armi ad alta tecnologia agli avversari,[ST:n ]la sconfitta divenne presto inevitabile.[ST:n ]Ora ridotti a poco pi&#249; che schiavi, il grosso[ST:n ]dei membri del Clan degli Alberi passa la vita[ST:n ]a lavorare a Oblivia, un luogo del tutto[ST:n ]diverso rispetto al loro pianeta natale, dove[ST:n ]vivevano in pace e armonia con la natura.[ST:n ][ST:n ]Un gruppo di loro &#232; riuscito a fuggire e a[ST:n ]stabilirsi a N.L.A. dove, alleatisi con i BLADE,[ST:n ]combattono contro gli oppressori Ganglion.</td>
+      </tr>
+      <tr id="130">
+        <td>130</td>
+        <td>
+        </td>
+        <td class="side">Una specie unica nel suo genere composta[ST:n ]esclusivamente di femmine. Le Definian hanno[ST:n ]l&#39;abilit&#224; di manipolare la percezione visiva[ST:n ]degli altri organismi, assumendo le sembianze[ST:n ]di chiunque vogliano. Questa illusione[ST:n ]svanisce, per&#242;, se si entra in contatto fisico[ST:n ]con la Definian.[ST:n ][ST:n ]Le capacit&#224; delle Definian le rendono delle[ST:n ]perfette spie per i Ganglion. Sono famose,[ST:n ]inoltre, per essere temibili piloti di Skell.</td>
+      </tr>
+      <tr id="131">
+        <td>131</td>
+        <td>
+        </td>
+        <td class="side">Una razza in possesso sia di impareggiabili[ST:n ]conoscenze tecnologiche sia di una forte[ST:n ]cultura guerriera, la cui popolazione &#232;[ST:n ]recentemente in declino. La loro superba[ST:n ]capacit&#224; di combattimento &#232; affiancata da[ST:n ]un codice etico simile a quello dei samurai.[ST:n ][ST:n ]I Wrothian non hanno un vero e proprio[ST:n ]concetto di religione, anche se credono che[ST:n ]un solo spirito si sposti da persona a[ST:n ]persona nel corso dell&#39;eternit&#224;.</td>
+      </tr>
+      <tr id="132">
+        <td>132</td>
+        <td>
+        </td>
+        <td class="side">Sono i colpevoli dell&#39;attacco alla Terra. Ora,[ST:n ]l&#39;obiettivo dei leader Ganglion &#232; individuare[ST:n ]e distruggere il Centro vitale. Ciascuno di loro[ST:n ]possiede notevoli abilit&#224; ed &#232; considerato[ST:n ]un combattente formidabile.</td>
+      </tr>
+      <tr id="133">
+        <td>133</td>
+        <td>
+        </td>
+        <td class="side">Creature simili a ragni, si cibano di alcuni[ST:n ]tipi di minerali che vengono dissolti con[ST:n ]un acido secreto dall&#39;addome. Solitamente[ST:n ]pacifici, non attaccano esseri viventi, anche[ST:n ]se sono stati registrati casi di mutanti con[ST:n ]tendenze carnivore.[ST:n ][ST:n ]Dopo aver deposto le uova, la femmina le[ST:n ]incuba tenendole in bocca fino alla schiusa.[ST:n ]I piccoli passano la fase larvale sul dorso[ST:n ]della madre, e una volta maturi si attaccano[ST:n ]a creature volanti quale il Levitath, cercando[ST:n ]di allontanarsi il pi&#249; possibile dal luogo di[ST:n ]nascita.</td>
+      </tr>
+      <tr id="134">
+        <td>134</td>
+        <td>
+        </td>
+        <td class="side">Aracnidi notturni. Si camuffano da frutti[ST:n ]penzolando dagli alberi, appesi a un filo di[ST:n ]seta tessuto da loro. Saltano addosso a[ST:n ]chiunque si avvicini troppo. Il potente veleno[ST:n ]degli Scirpo permette loro di sopraffare[ST:n ]prede molto pi&#249; grandi di loro.[ST:n ][ST:n ]Gli Scirpo appena nati sono incredibilmente[ST:n ]piccoli. Iniziano a tessere il loro filo sin dal[ST:n ]momento della nascita, e sfruttano la[ST:n ]forza del vento per coprire grandi distanze.[ST:n ]Delle migliaia di Scirpo nati da una covata,[ST:n ]meno di dieci arriveranno all&#39;et&#224; adulta.</td>
+      </tr>
+      <tr id="135">
+        <td>135</td>
+        <td>
+        </td>
+        <td class="side">Creature simili a granchi presenti perlopi&#249;[ST:n ]nelle zone costiere. Il loro guscio &#232;[ST:n ]resistente contro i piccoli proiettili. Per[ST:n ]attaccare sparano bolle di Etere dalla[ST:n ]bocca, e le loro chele sono in grado[ST:n ]di smembrare la corazza degli Skell.[ST:n ][ST:n ]Nella stagione riproduttiva, le femmine[ST:n ]conservano le uova sotto il ventre. In una[ST:n ]notte di luna crescente, le uova si schiudono[ST:n ]e i piccoli Forfex vengono dispersi in mare.[ST:n ]Pu&#242; capitare di vedere tutti i Forfex femmina[ST:n ]di un&#39;area dare alla luce i piccoli nella stessa[ST:n ]notte, trasformando intere spiagge[ST:n ]in un mare di gusci, zampe e chele.</td>
+      </tr>
+      <tr id="136">
+        <td>136</td>
+        <td>
+        </td>
+        <td class="side">Enormi scarabei dall&#39;esoscheletro duro come[ST:n ]l&#39;acciaio. Passano la maggior parte del tempo[ST:n ]sepolti sottoterra, in attesa del passaggio di[ST:n ]una preda. Alla prima vibrazione, scattano[ST:n ]in piedi per attaccare la vittima, ingoiandola[ST:n ]insieme al terreno, in un sol boccone.[ST:n ][ST:n ]I Cinicula sono noti per la loro abitudine di[ST:n ]cadere in stato di letargo per lunghi periodi[ST:n ]di tempo. Le condizioni iniziali per innescare[ST:n ]il letargo variano di volta in volta, ma il[ST:n ]fattore principale sembra essere la[ST:n ]concentrazione di Etere nell&#39;atmosfera.</td>
+      </tr>
+      <tr id="137">
+        <td>137</td>
+        <td>
+        </td>
+        <td class="side">Enormi scarabei che si camuffano da rocce.[ST:n ]Non molto abili come predatori, preferiscono[ST:n ]restare fermi in attesa che il pasto venga da[ST:n ]loro.[ST:n ][ST:n ]In periodi di magra, il Falsaxum entra in uno[ST:n ]stato di torpore che pu&#242; protrarsi anche per[ST:n ]centinaia di anni. Tale abilit&#224; ha anche degli[ST:n ]svantaggi: molti esemplari periscono senza[ST:n ]svegliarsi dal torpore. I composti organici del[ST:n ]Falsaxum assimilano le sostanze minerali[ST:n ]circostanti, tramutandolo da creatura[ST:n ]camuffata da roccia, a una roccia vera[ST:n ]e propria.</td>
+      </tr>
+      <tr id="138">
+        <td>138</td>
+        <td>
+        </td>
+        <td class="side">Creature slanciate che principalmente si[ST:n ]trovano in ambienti umidi, come i soffitti delle[ST:n ]caverne. Dopo essersi posati su un sostegno,[ST:n ]i Vivohast sbattono le ali per spargere una[ST:n ]polvere di feromoni, usata per attrarre[ST:n ]maschi di Vesper. Le creature che cadono in[ST:n ]questa trappola solitamente finiscono[ST:n ]vittime delle loro falci e divorate.[ST:n ][ST:n ]I Vivohast hanno capacit&#224; di volo limitate,[ST:n ]nonostante siano alati.[ST:n ]Preferiscono usare le loro ali per raggiungere[ST:n ]luoghi elevati o planare da essi, ma evitano[ST:n ]i lunghi voli, durante i quali sono vulnerabili.</td>
+      </tr>
+      <tr id="139">
+        <td>139</td>
+        <td>
+        </td>
+        <td class="side">La consistenza della pelle di queste creature[ST:n ]ricorda quella di una corteccia o una roccia.[ST:n ]Spesso si mimetizzano nella cima degli alberi,[ST:n ]da dove attaccano con le loro zampe[ST:n ]falciformi quando una preda si avvicina.[ST:n ]Utilizzano un apparato nella coda per[ST:n ]ancorarsi ai tronchi e per tenere fermo il[ST:n ]corpo della femmina durante l&#39;accoppiamento.[ST:n ][ST:n ]Le uova di Thallus somigliano a dei semi e[ST:n ]quando i piccoli ne emergono sono lunghi e[ST:n ]sottili come spaghi. Queste larve si avvolgono[ST:n ]intorno a dei rami imitando piante rampicanti[ST:n ]fino al passaggio allo stadio pupale.</td>
+      </tr>
+      <tr id="140">
+        <td>140</td>
+        <td>
+        </td>
+        <td class="side">Creature scavatrici che espongono dalla tana[ST:n ]solo il guscio mimetico, mentre attendono le[ST:n ]prede. I loro piccoli si lanciano contro gli[ST:n ]alberi per far cadere dei semi, cosa che[ST:n ]incoraggia la crescita della vegetazione[ST:n ]sui loro dorsi.[ST:n ][ST:n ]Nella stagione dell&#39;accoppiamento il maschio[ST:n ]sfoggia un luminoso colore rosso per attrarre[ST:n ]compagne, sebbene ci&#242; lo renda pi&#249; visibile[ST:n ]ai predatori. Come prevenzione mangia una[ST:n ]variet&#224; tossica di fungo forestale a cui &#232;[ST:n ]immune. I predatori quindi associano questa[ST:n ]tonalit&#224; luminosa al veleno e vanno alla[ST:n ]ricerca di pasti pi&#249; gradevoli.</td>
+      </tr>
+      <tr id="141">
+        <td>141</td>
+        <td>
+        </td>
+        <td class="side">Nascosti nella sabbia, gli Arenatect[ST:n ]aspettano che sia la preda ad approssimarsi.[ST:n ]Dotati di un metabolismo eccezionale,[ST:n ]possono rimanere sepolti per mesi senza[ST:n ]alcun nutrimento. Hanno, per&#242;, un forte senso[ST:n ]del territorio, e si spostano nel caso altri della[ST:n ]propria specie si trovino nelle vicinanze.[ST:n ][ST:n ]I funghi sul loro dorso hanno una funzione[ST:n ]sia difensiva sia mimetica e rilasciano spore[ST:n ]velenose, per proteggerli da attacchi. Il loro[ST:n ]ruolo &#232; importante anche nell&#39;accoppiamento,[ST:n ]dato che colore e tipo di fungo aiutano il[ST:n ]maschio ad attrarre le compagne.</td>
+      </tr>
+      <tr id="142">
+        <td>142</td>
+        <td>
+        </td>
+        <td class="side">Creature alate, si trovano spesso dietro rocce,[ST:n ]all&#39;interno di caverne e altri luoghi non[ST:n ]illuminati. La loro dieta consiste soprattutto[ST:n ]di scarti e letame di altri animali.[ST:n ][ST:n ]I Blathax sono creature molto socievoli, e[ST:n ]hanno sviluppato un sistema grazie al quale[ST:n ]possono condividere informazioni sulle[ST:n ]risorse di cibo. Spesso sferrano attacchi[ST:n ]di gruppo contro creature pi&#249; piccole,[ST:n ]ma a volte, se infuriati, attaccano anche le[ST:n ]creature pi&#249; grandi di loro.</td>
+      </tr>
+      <tr id="143">
+        <td>143</td>
+        <td>
+        </td>
+        <td class="side">Piccole creature volanti, si comportano come[ST:n ]api sotto il comando di un&#39;unica regina,[ST:n ]la cui natura bulbosa le impedisce di lasciare[ST:n ]il nido sotterraneo. Le altre femmine sono[ST:n ]relegate ai semplici compiti di procurare cibo[ST:n ]e crescere larve.[ST:n ][ST:n ]I Turba spesso rubano le uova di Blathax,[ST:n ]lasciandole schiudere per poi nutrire le[ST:n ]larve con un nettare assuefacente secreto[ST:n ]dal posteriore della regina. Questi piccoli di[ST:n ]Blathax vengono poi sfruttati senza sosta dalla[ST:n ]colonia, e hanno il compito di espanderla,[ST:n ]difenderla e tenerla pulita fino a che non[ST:n ]periscono per sfinimento.</td>
+      </tr>
+      <tr id="144">
+        <td>144</td>
+        <td>
+        </td>
+        <td class="side">Una creatura simile alla zanzara che si nutre[ST:n ]di fluidi ed Etere succhiato da altri organismi.[ST:n ]A differenza della zanzara terrestre, sia il[ST:n ]maschio che la femmina si alimentano in[ST:n ]questo modo.[ST:n ][ST:n ]Gli Adsecula depongono le uova nel corpo[ST:n ]di altri insettoidi come i Cinicula. Le larve[ST:n ]vivono nel portatore fino alla maturazione,[ST:n ]cibandosi di piccoli parassiti e formando[ST:n ]una relazione simbiotica.[ST:n ]Quando sono prossime alla maturazione,[ST:n ]lasciano il corpo che li ha ospitati tramite il[ST:n ]tratto digestivo per poi definitivamente[ST:n ]svilupparsi in adulte.</td>
+      </tr>
+      <tr id="145">
+        <td>145</td>
+        <td>
+        </td>
+        <td class="side">Creature simili a farfalle che utilizzano le loro[ST:n ]bocche allungate per succhiare linfa dagli[ST:n ]alberi alti. I Papil prediligono gli alberi con[ST:n ]linfa tossica, poich&#233; hanno la capacit&#224; di[ST:n ]conservare agenti tossici nella propria gola.[ST:n ]In caso di pericolo possono sputarli addosso[ST:n ]ai nemici. Anche le squame luminescenti[ST:n ]disperse dalle loro ali contengono veleno.[ST:n ][ST:n ]Le larve, a differenza degli adulti, non hanno[ST:n ]un aspetto vistoso e ci&#242; permette loro di[ST:n ]confondersi con le foglie degli alberi.</td>
+      </tr>
+      <tr id="146">
+        <td>146</td>
+        <td>
+        </td>
+        <td class="side">Insetti quadrupedi che vivono lungo le rive dei[ST:n ]laghi. Infilano la propria testa sotto terra per[ST:n ]camuffarsi da fiori e sorprendono cos&#236; piccole[ST:n ]prede di passaggio ignare del pericolo.[ST:n ]Anche le creature pi&#249; grandi per&#242; sono nei[ST:n ]guai quando si trovano in un terreno gremito[ST:n ]di Germivorix.[ST:n ][ST:n ]Se camuffandosi non riescono a procurarsi[ST:n ]il nutrimento necessario, modificano[ST:n ]la propria dieta e si cibano di letame e[ST:n ]carcasse che cercano durante la notte.</td>
+      </tr>
+      <tr id="147">
+        <td>147</td>
+        <td>
+        </td>
+        <td class="side">Insetti simili a vermi che scavano nella sabbia[ST:n ]ingoiando terra e altre creature, senza[ST:n ]distinzione. La presenza di Sabula nella zona[ST:n ]&#232; solitamente positiva per il terreno:[ST:n ]compattando la terra, favoriscono la crescita[ST:n ]di vegetazione. Inoltre, prima di espellere la[ST:n ]sabbia ingerita, assorbono il Miranium in[ST:n ]essa contenuto, che viene poi custodito[ST:n ]nel corpo.[ST:n ][ST:n ]La mancanza della vista &#232; bilanciata dal[ST:n ]senso del tatto, estremamente sviluppato.[ST:n ]Alla minima vibrazione generata in superficie[ST:n ]emergono e attaccano; ci&#242; ha segnato la[ST:n ]fine di alcuni sfortunati Pathfinder.</td>
+      </tr>
+      <tr id="148">
+        <td>148</td>
+        <td>
+        </td>
+        <td class="side">Intrepidi e letali, i Manctis balzano sui rivali[ST:n ]ignari grazie alle potenti zampe posteriori,[ST:n ]colpendoli con le zampe anteriori che sono[ST:n ]cosparse di una neurotossina paralizzante.[ST:n ]Una volta catturata, trascinano la preda nella[ST:n ]loro tana sotterranea per poi consumarla.[ST:n ][ST:n ]Nella stagione dell&#39;accoppiamento, i Manctis[ST:n ]scavano nuove cavit&#224; nella loro tana, che i[ST:n ]maschi colmano con carne in decomposizione[ST:n ]durante l&#39;ovulazione della femmina. Le larve[ST:n ]se ne nutrono per un mese prima di lasciare[ST:n ]la tana. Il valore di un compagno &#232; stimato[ST:n ]sulla base della quantit&#224; di cibo che trova.</td>
+      </tr>
+      <tr id="149">
+        <td>149</td>
+        <td>
+        </td>
+        <td class="side">Insetti longevi che sopravvivono assorbendo[ST:n ]Etere dall&#39;atmosfera. Durante la loro lunga[ST:n ]vita si accoppiano solo una volta ogni[ST:n ]dozzina d&#39;anni. Inoltre, spesso rimangono[ST:n ]immobili per non disperdere energia.[ST:n ][ST:n ]Prima di raggiungere la maturazione, gli[ST:n ]Aeviter vivono sottoterra nutrendosi di[ST:n ]linfa presente nelle radici e di altre materie[ST:n ]organiche. Sono di natura docile, ma[ST:n ]attaccano qualsiasi specie invada il loro[ST:n ]territorio ricco di Etere.</td>
+      </tr>
+      <tr id="150">
+        <td>150</td>
+        <td>
+        </td>
+        <td class="side">I Lophid vantano squame pi&#249; rigide di una[ST:n ]corazza ma ne risentono in mobilit&#224;. Si[ST:n ]servono di un fotoforo bioluminescente per[ST:n ]la caccia notturna, divorando qualsiasi[ST:n ]creatura ingannata dallo stratagemma.[ST:n ]Quando si trovano a fronteggiare avversari[ST:n ]pi&#249; grandi, li disorientano oscillando[ST:n ]il fotoforo per poi colpirli con la coda.[ST:n ][ST:n ]I maschi sono incubatori orali, cio&#232; covano le[ST:n ]uova della femmina in bocca mentre lei &#232;[ST:n ]impegnata nella ricerca di cibo. I maschi[ST:n ]in questo periodo non possono cacciare.[ST:n ]Gli avannotti rischiano la vita se la madre[ST:n ]non riesce a procurare sufficiente cibo.</td>
+      </tr>
+      <tr id="151">
+        <td>151</td>
+        <td>
+        </td>
+        <td class="side">Pesce gigante coperto da squame[ST:n ]impenetrabili, che ricordano una corazza.[ST:n ]Evolvendosi, ha perso sia gli occhi che i[ST:n ]denti, non ha quindi altra opzione che[ST:n ]ingoiare interamente le prede. Se queste[ST:n ]sono velenose, possono rigurgitarle insieme[ST:n ]allo stomaco, che verr&#224; poi reingerito[ST:n ]una volta depurato dall&#39;acqua marina.[ST:n ][ST:n ]I Morm possono sfruttare il loro illicio e la[ST:n ]bioluminescenza per comunicare tra loro.[ST:n ]Nel periodo di deposizione delle uova le[ST:n ]femmine rilasciano un particolare feromone[ST:n ]per attrarre potenziali compagni. Le uova[ST:n ]fecondate vengono abbandonate e solo[ST:n ]pochi piccoli sopravvivono. Tuttavia, da adulti[ST:n ]non hanno pressoch&#233; nessun nemico naturale,[ST:n ]e godono solitamente di una lunga vita.</td>
+      </tr>
+      <tr id="152">
+        <td>152</td>
+        <td>
+        </td>
+        <td class="side">I due tentacoli sulle corone dei Duoguill non[ST:n ]solo lo rendono particolarmente riconoscibile,[ST:n ]ma gli danno la possibilit&#224; di trattenere e[ST:n ]folgorare potenziali prede. Paralizzate,[ST:n ]vengono poi mangiate vive. I molteplici occhi,[ST:n ]oltre a renderlo ancor pi&#249; spaventoso, gli[ST:n ]forniscono un ampio campo visivo.[ST:n ][ST:n ]Gli avannotti si presentano completamente[ST:n ]differenti dagli adulti e sono anche piuttosto[ST:n ]tossici. Questo adattamento protegge i[ST:n ]giovani Duoguill finch&#233; non avranno[ST:n ]sviluppato sufficiente bioelettricit&#224;[ST:n ]per respingere gli attacchi.</td>
+      </tr>
+      <tr id="153">
+        <td>153</td>
+        <td>
+        </td>
+        <td class="side">Il corpo di questi colossali ittiomorfi &#232;[ST:n ]attraversato da elettricit&#224;. Gli Scintimure[ST:n ]rilasciano una debole carica elettrica nell&#39;area[ST:n ]circostante per individuare le prede, che[ST:n ]vengono poi colpite da una potente scossa[ST:n ]rilasciata dalla punta dei loro tentacoli.[ST:n ]Con i loro imponenti molari procedono in[ST:n ]seguito a consumare le tremolanti vittime.[ST:n ][ST:n ]Gli Scintimure possiedono un corpo[ST:n ]insolitamente morbido, composto da ossa[ST:n ]flessibili che permettono di introdursi in[ST:n ]spazi ristretti. Gli avannotti si raggruppano in[ST:n ]enormi banchi e si muovono come un unico[ST:n ]organismo ondulante. I pochi fortunati che[ST:n ]li individuano di notte vengono deliziati da[ST:n ]uno spettacolo di bioluminescenza.</td>
+      </tr>
+      <tr id="154">
+        <td>154</td>
+        <td>
+        </td>
+        <td class="side">Queste bestie sono specialiste di propulsione[ST:n ]naturale: inspirano aria tramite gli sfiatatoi e[ST:n ]la espellono dal posteriore solcando i cieli a[ST:n ]velocit&#224; sbalorditiva. L&#39;Etere assorbito in[ST:n ]questo processo pu&#242; essere sparato dalle[ST:n ]aperture sulle loro ali. Una mutazione della[ST:n ]pinna dorsale ha consentito agli Aetrygon di[ST:n ]prendere il volo e lasciare il mare, loro[ST:n ]precedente habitat. Tuttavia, depongono[ST:n ]ancora le uova in acqua e nel periodo[ST:n ]dell&#39;accoppiamento queste creature tornano[ST:n ]nella loro antica patria marina.[ST:n ][ST:n ]Durante la caccia, gruppi di Aetrygon[ST:n ]assumono una formazione simile a quella[ST:n ]degli aerei da caccia. Bombardano la preda[ST:n ]a distanza, prima di sferrare l&#39;attacco finale[ST:n ]caricando con una potente incornata.</td>
+      </tr>
+      <tr id="155">
+        <td>155</td>
+        <td>
+        </td>
+        <td class="side">Questi molluschi, simili a lumache marine,[ST:n ]hanno assunto durante l&#39;evoluzione una[ST:n ]morfologia pi&#249; simile a quella dei pesci.[ST:n ]Cacciano utilizzando le corna e le brillanti[ST:n ]bozze dorsali che, come mine navali[ST:n ]biologiche, possono essere espulse a[ST:n ]comando e si innescano al minimo contatto.[ST:n ][ST:n ]Le ali dei giovani esemplari sono troppo[ST:n ]piccole, quindi si attaccano alle rocce nel[ST:n ]fondo marino e si nutrono di alghe. Il corno[ST:n ]e le ali si sviluppano dopo circa un anno,[ST:n ]dando loro cos&#236; finalmente la possibilit&#224; di[ST:n ]volare. La loro fragilit&#224; &#232; compensata da una[ST:n ]capacit&#224; rigenerativa che permette, anche[ST:n ]quando perdono entrambe le ali, di[ST:n ]ripristinarle in un certo lasso di tempo.</td>
+      </tr>
+      <tr id="156">
+        <td>156</td>
+        <td>
+        </td>
+        <td class="side">Le sacche dorsali di queste creature simili a[ST:n ]balene contengono un biofluido vaporizzato[ST:n ]che gonfia gli organi e permette loro di[ST:n ]volare. In rari casi queste sacche rimangono[ST:n ]gonfie dopo la morte, facendo fluttuare la[ST:n ]carcassa per anni e dando vita a ecosistemi[ST:n ]unici attorno a essa.[ST:n ][ST:n ]Solitamente molto lente, sono provviste di[ST:n ]propulsori vicino alle code che consentono[ST:n ]movimenti veloci. Possono bombardare rivali[ST:n ]da lontano con un mortaio biologico.[ST:n ]Queste creature sono monogame e generano[ST:n ]un discendente ogni tre anni. Il piccolo viene[ST:n ]allevato da entrambi i genitori.[ST:n ]Durante la crescita del piccolo, i genitori sono[ST:n ]ostili e cacciano specie con cui solitamente[ST:n ]vivono in sintonia.</td>
+      </tr>
+      <tr id="157">
+        <td>157</td>
+        <td>
+        </td>
+        <td class="side">Enorme pesce che utilizza l&#39;Etere[ST:n ]atmosferico come agente propulsivo per la[ST:n ]locomozione aerea. Le sue cavit&#224;[ST:n ]addominali vengono gonfiate con il gas[ST:n ]permettendogli di fluttuare. Dotato di un[ST:n ]biosonar che lo aiuta a localizzare prede[ST:n ]nelle aree circostanti, il Ceteo emette delle[ST:n ]onde sonore che stordiscono la preda,[ST:n ]facilitando l&#39;attacco.[ST:n ][ST:n ]I Ceteo sono pachidermici nei movimenti e[ST:n ]sciatti nel mangiare. Per questo, a volte &#232;[ST:n ]possibile vedere Xiphias attaccati al loro[ST:n ]addome, che sperano in un pasto gratuito.</td>
+      </tr>
+      <tr id="158">
+        <td>158</td>
+        <td>
+        </td>
+        <td class="side">Astuti e carnivori, i Grex sono soliti spostarsi[ST:n ]in branchi composti da una dozzina di[ST:n ]esemplari, guidati da una coppia alfa. Questi[ST:n ]cacciatori di gruppo sono territoriali e violenti[ST:n ]e, nonostante il loro territorio si estenda per[ST:n ]vasti spazi, anche invasioni accidentali di altri[ST:n ]branchi possono creare forti tensioni.[ST:n ][ST:n ]Non &#232; raro per&#242; trovare Grex solitari.[ST:n ]Persa la lotta per la predominanza sul[ST:n ]branco, i mancati alfa finiscono spesso per[ST:n ]vagare da soli, per poi morire di fame. &#200;[ST:n ]consigliabile cautela quando si incontrano[ST:n ]Grex isolati, poich&#233; tendono a essere[ST:n ]particolarmente feroci.</td>
+      </tr>
+      <tr id="159">
+        <td>159</td>
+        <td>
+        </td>
+        <td class="side">Onnivori, si nutrono praticamente di qualsiasi[ST:n ]cosa, persino di carne putrida, che gli altri[ST:n ]animali non toccherebbero. I Saprof hanno[ST:n ]un olfatto molto sviluppato, che consente loro[ST:n ]di scovare anche le prede ben nascoste.[ST:n ]Sono, inoltre, predatori instancabili durante[ST:n ]la caccia.[ST:n ][ST:n ]I Saprof sono monogami e vivono in piccoli[ST:n ]branchi, in cui i membri giovani aiutano a[ST:n ]crescere i piccoli. In questo modo, ogni[ST:n ]avanzo di cibo, risultato di una caccia[ST:n ]fruttuosa, viene riportato alla tana, come[ST:n ]riserva in caso di carestia.</td>
+      </tr>
+      <tr id="160">
+        <td>160</td>
+        <td>
+        </td>
+        <td class="side">I giovani maschi di Vigent vivono in branco[ST:n ]e sono noti per la loro tecnica nella caccia[ST:n ]di gruppo. La procreazione &#232; privilegio[ST:n ]esclusivo dei maschi alfa. Le lotte per tale[ST:n ]posizione sono frequenti, nel periodo[ST:n ]dell&#39;accoppiamento. Un maschio alfa[ST:n ]sconfitto viene sostituito dallo sfidante[ST:n ]vittorioso, ma se lo sfidante perde, gli[ST:n ]verranno spezzati gli artigli e non potr&#224; pi&#249;[ST:n ]sfidare nessuno in futuro. Se un maschio[ST:n ]alfa mostra una forza eccezionale, potrebbe[ST:n ]non subire sfide per lungo tempo.</td>
+      </tr>
+      <tr id="161">
+        <td>161</td>
+        <td>
+        </td>
+        <td class="side">Cacciano in gruppo e sono creature socievoli[ST:n ]che spesso vivono in branchi di dieci o pi&#249;[ST:n ]individui. Il fisico pi&#249; possente delle femmine[ST:n ]relega i maschi a una posizione bassa nella[ST:n ]scala gerarchica, e la femmina pi&#249; forte[ST:n ]assume il ruolo alfa. In caso di morte,[ST:n ]la figlia maggiore assume il comando.[ST:n ][ST:n ]Nel raro caso in cui non ci siano femmine[ST:n ]in grado di assumere il ruolo, subentrer&#224; il[ST:n ]maschio di Viragon pi&#249; possente. Esso subir&#224;[ST:n ]un processo di ermafroditismo sequenziale[ST:n ]di alcuni mesi, al termine dei quali diverr&#224;[ST:n ]completamente femmina.</td>
+      </tr>
+      <tr id="162">
+        <td>162</td>
+        <td>
+        </td>
+        <td class="side">Creature erbivore che prediligono erba e[ST:n ]corteccia d&#39;albero. I maschi, solitamente,[ST:n ]fanno branco, mentre le femmine[ST:n ]stanno con i cuccioli. I maschi, molto[ST:n ]territoriali, si scontrano spesso con branchi[ST:n ]limitrofi. I gruppi di femmine, invece, si[ST:n ]sciolgono quando, dopo un anno, i piccoli[ST:n ]sono svezzati. All&#39;arrivo della nuova stagione[ST:n ]di accoppiamento, le femmine si riuniranno in[ST:n ]un harem a beneficio esclusivo del branco[ST:n ]con il territorio pi&#249; vasto.[ST:n ][ST:n ]La piega di pelle sotto la gola dei Monoceros[ST:n ]pu&#242; essere contratta per emettere uno strido,[ST:n ]caratteristico per ogni individuo. Il suono[ST:n ]permette alla madre di riconoscere[ST:n ]il proprio figlio tra centinaia di cuccioli.</td>
+      </tr>
+      <tr id="163">
+        <td>163</td>
+        <td>
+        </td>
+        <td class="side">Durante il giorno, gli Equus vivono in piccoli[ST:n ]gruppi divisi per et&#224;, ma di sera si uniscono[ST:n ]in un unico grande branco. I cuccioli vengono[ST:n ]allevati dalla primavera all&#39;estate e ogni[ST:n ]attivit&#224; connessa all&#39;allevamento &#232; condivisa[ST:n ]da tutti i membri, in gruppo.[ST:n ][ST:n ]Animali estremamente guardinghi, gli Equus[ST:n ]possono emettere un grido acuto per dare[ST:n ]l&#39;allerta in presenza di nemici. Sotto attacco,[ST:n ]il gruppo pi&#249; anziano e sterile funger&#224; da[ST:n ]esca, per proteggere i membri pi&#249; giovani.</td>
+      </tr>
+      <tr id="164">
+        <td>164</td>
+        <td>
+        </td>
+        <td class="side">Creature onnivore, intelligenti come i gorilla[ST:n ]terrestri, che vivono in branchi costituiti da[ST:n ]un maschio attorniato da femmine.[ST:n ][ST:n ]Sebbene abbiano un&#39;indole aggressiva e[ST:n ]orgogliosa, i maschi tengono i propri gruppi[ST:n ]lontani da quelli pi&#249; forti. Ciononostante, lo [ST:n ]scontro tra due gruppi di Simius &#232; talvolta [ST:n ]inevitabile. Per ridurre i conflitti, quando[ST:n ]un maschio scorge un altro gruppo, emette[ST:n ]una serie di grida: se si riesce a stabilire[ST:n ]chi dei due &#232; il pi&#249; forte, l&#39;altro cambier&#224;[ST:n ]strada; in caso contrario, il duello dura fino[ST:n ]alla morte. Il vincitore si aggiudica le femmine[ST:n ]dello sconfitto, quindi la grandezza del[ST:n ]gruppo &#232; proporzionale alla forza[ST:n ]del maschio.</td>
+      </tr>
+      <tr id="165">
+        <td>165</td>
+        <td>
+        </td>
+        <td class="side">Principalmente solitari, i Cabtor non hanno[ST:n ]chiari confini territoriali. Se necessario, per&#242;,[ST:n ]sanno coordinarsi per la caccia di gruppo,[ST:n ]tramite un singolare suono che emettono[ST:n ]dalla cavit&#224; toracica; lo status sociale[ST:n ]dipende dalla qualit&#224; del suono prodotto.[ST:n ][ST:n ]&#200; solo per allevare i cuccioli che questi[ST:n ]animali solitari si riuniscono in gruppi.[ST:n ]I piccoli si addormentano grazie a suoni[ST:n ]rilassanti, simili a ninne nanne, il cui ritmo[ST:n ]&#232; caratteristico di ciascun gruppo. Pur[ST:n ]essendo una specie ermafrodita, pu&#242;[ST:n ]riprodursi per via asessuata nel caso[ST:n ]in cui non trovi un partner.</td>
+      </tr>
+      <tr id="166">
+        <td>166</td>
+        <td>
+        </td>
+        <td class="side">Maestose creature che si nutrono di erba e[ST:n ]acqua. Tramite le corna assorbono Etere[ST:n ]dall&#39;atmosfera e tramite la fotosintesi[ST:n ]ricevono energia dai propri simbionti vegetali.[ST:n ]I cuccioli, sprovvisti di piante, ricevono una[ST:n ]parte dell&#39;energia dei genitori.[ST:n ][ST:n ]Durante il giorno, gli Aprica riposano al sole[ST:n ]per favorire la fotosintesi. Di notte si[ST:n ]riuniscono in piccoli gruppi e montano di[ST:n ]guardia a turni, per assicurarsi che i cuccioli[ST:n ]dormano al sicuro. Hanno forti legami sociali[ST:n ]e sono noti i loro funerali, in cui il corno del[ST:n ]defunto viene gettato in un lago o in un fiume[ST:n ]con la luna piena. I membri del gruppo,[ST:n ]quindi, bevono insieme l&#39;acqua.</td>
+      </tr>
+      <tr id="167">
+        <td>167</td>
+        <td>
+        </td>
+        <td class="side">Questi erbivori necessitano di grandi quantit&#224;[ST:n ]di vegetazione per sopravvivere. Inoltre,[ST:n ]assorbono e immagazzinano Etere[ST:n ]dall&#39;atmosfera, da utilizzare come arma[ST:n ]d&#39;attacco. Le parti del corpo, simili a piante,[ST:n ]sono in realt&#224; componenti di esoscheletri e[ST:n ]pelliccia, utilizzati per mimetizzarsi.[ST:n ]Le \&quot;foglie\&quot; sono in effetti di Etere e la loro[ST:n ]brillantezza &#232; proporzionale alla forza[ST:n ]dell&#39;individuo e rappresentativa del suo[ST:n ]potere riproduttivo.[ST:n ][ST:n ]I Cervus hanno vita eccezionalmente lunga:[ST:n ]pi&#249; a lungo vivono, maggiore esperienza[ST:n ]maturano nella manipolazione dell&#39;Etere.[ST:n ]Perci&#242;, il capobranco &#232; solitamente[ST:n ]il membro pi&#249; anziano ed esperto.</td>
+      </tr>
+      <tr id="168">
+        <td>168</td>
+        <td>
+        </td>
+        <td class="side">Nomadi delle praterie miriane, i maschi di[ST:n ]questa specie onnivora sono irascibili e[ST:n ]attaccano qualunque cosa si avvicini loro.[ST:n ]Le scrofe sono relativamente pi&#249; docili, anche[ST:n ]se diventano facilmente aggressive quando[ST:n ]allevano i piccoli.[ST:n ][ST:n ]I Suid maschi si contendono le femmine a[ST:n ]testate, usando la protuberanza craniale:[ST:n ]se rotta, &#232; sinonimo di sconfitta e impiega[ST:n ]un anno per rigenerarsi, in tempo per la[ST:n ]successiva stagione dell&#39;accoppiamento.[ST:n ]La protuberanza delle femmine, invece,[ST:n ]serve per immagazzinare nutrienti e se[ST:n ]ne pu&#242; notare la progressiva riduzione[ST:n ]durante l&#39;allevamento.</td>
+      </tr>
+      <tr id="169">
+        <td>169</td>
+        <td>
+        </td>
+        <td class="side">Erbivori che vivono in ampi greggi sulle[ST:n ]pianure miriane. Il loro pelo &#232; molto duro[ST:n ]e, in alcune zone, assume funzione di[ST:n ]armatura protettiva contro i predatori. Unica[ST:n ]eccezione &#232; la coda a batuffolo: piuttosto[ST:n ]soffice, che, se particolarmente rigogliosa, &#232;[ST:n ]indice di buona salute e status sociale.[ST:n ][ST:n ]Il temperamento mite degli Ovis &#232; spiegato[ST:n ]dalla corporatura pi&#249; adatta alla difesa:[ST:n ]temono lo scontro e, preferibilmente,[ST:n ]scappano.</td>
+      </tr>
+      <tr id="170">
+        <td>170</td>
+        <td>
+        </td>
+        <td class="side">I Millesaur spiccano, tra la fauna miriana,[ST:n ]per le loro enormi dimensioni. Grazie al[ST:n ]lungo collo, possono spogliare gli alberi dalle[ST:n ]foglie e le pianure dall&#39;erba. Sono in grado[ST:n ]di ingoiare rocce per tritare la vegetazione[ST:n ]nello stomaco, favorendo cos&#236; la digestione.[ST:n ][ST:n ]Nonostante l&#39;enorme mole, gran parte[ST:n ]della loro struttura &#232; adibita a sacca d&#39;aria.[ST:n ]Ci&#242; li rende molto meno pesanti di quel che[ST:n ]sembrano. Da adulti, di rado sono presi[ST:n ]di mira dai predatori; pacifici per natura,[ST:n ]possono diventare aggressivi per[ST:n ]difendere i loro cuccioli. Per questo, molti[ST:n ]Millesaur sorvegliano sempre i loro piccoli.[ST:n ]Stranamente, la loro taglia non permette[ST:n ]l&#39;incubazione diretta e utilizzano il calore[ST:n ]geotermico per tenere al caldo le uova.</td>
+      </tr>
+      <tr id="171">
+        <td>171</td>
+        <td>
+        </td>
+        <td class="side">Queste imponenti creature assorbono Etere[ST:n ]come fonte principale d&#39;energia dai pori,[ST:n ]e l&#39;acqua dalle loro zampe con un sistema di[ST:n ]capillari. La corona, che ricorda una testa,[ST:n ]&#232; difatti una difesa sviluppata per proteggere[ST:n ]gli organi cristallini. L&#39;esistenza di questa[ST:n ]struttura scheletrica che funge da esca [ST:n ]suggerisce la presenza di un antico nemico[ST:n ]in natura, anche se ad oggi non ne sono[ST:n ]state trovate tracce.[ST:n ][ST:n ]I Coronid sono ovipari. Le uova vengono[ST:n ]incubate e covate internamente, prima di[ST:n ]dare alla luce i piccoli tramite parto.</td>
+      </tr>
+      <tr id="172">
+        <td>172</td>
+        <td>
+        </td>
+        <td class="side">Abitanti delle terre a sud di Mira, questi[ST:n ]uccelli giganti hanno dei becchi molto[ST:n ]robusti che occupano gran parte della loro[ST:n ]testa, e vengono usati di fatto come corna. La[ST:n ]loro dieta &#232; composta al pi&#249; da insetti, la cui[ST:n ]corazza pu&#242; essere forata con una beccata.[ST:n ][ST:n ]Gli Evellon sono creature di coppia, spesso[ST:n ]avvistati in gruppi composti da un maschio e[ST:n ]una femmina. La riproduzione avviene ogni[ST:n ]due anni. I pulcini vengono cresciuti sia dai[ST:n ]genitori sia da un&#39;altra coppia a loro legata,[ST:n ]priva dei propri piccoli. Le uova di Evellon[ST:n ]sono curiosamente grandi, e sono cibo[ST:n ]preferito da molti predatori.</td>
+      </tr>
+      <tr id="173">
+        <td>173</td>
+        <td>
+        </td>
+        <td class="side">I tendini resistenti aiutano queste creature a[ST:n ]muoversi rapidamente sul territorio. Anche se[ST:n ]hanno perso l&#39;uso della vista e delle ali nel[ST:n ]corso dell&#39;evoluzione, hanno sviluppato un[ST:n ]ottimo olfatto, cos&#236; come la capacit&#224; di usare[ST:n ]gli ultrasuoni per individuare le prede. Gli[ST:n ]adulti si chiudono in una membrana di[ST:n ]biofluido tossico per contrastare un problema[ST:n ]comune a molti di loro, la disidratazione.[ST:n ][ST:n ]I Caecus sono ermafroditi e si accoppiano[ST:n ]con pi&#249; partner possibili durante la prima[ST:n ]settimana invernale. Le molte uova deposte[ST:n ]vengono poi nascoste nell&#39;umido terreno[ST:n ]paludoso. Dopo quest&#39;incubazione naturale,[ST:n ]le uova si schiudono, di solito a inizio[ST:n ]primavera, e i piccoli rimangono al sicuro[ST:n ]nella palude fino alla loro maturazione.</td>
+      </tr>
+      <tr id="174">
+        <td>174</td>
+        <td>
+        </td>
+        <td class="side">Nascosti tra gli alberi, questi carnivori simili[ST:n ]a dinosauri attendono l&#39;avvicinarsi delle loro[ST:n ]prede, sfruttando la potenza delle loro zampe[ST:n ]per catturarle. In caso di minacce di creature[ST:n ]pi&#249; forti, l&#39;Insidean pu&#242; sputare pietre dal suo[ST:n ]tratto digestivo, creando un diversivo che[ST:n ]permette di attuare una veloce ritirata.[ST:n ][ST:n ]Gli Insidean si aggirano in branchi numerosi[ST:n ]ed eterogenei per et&#224; e sesso. Durante la[ST:n ]stagione dell&#39;accoppiamento, i vari branchi si[ST:n ]riuniscono in un solo punto per la selezione[ST:n ]del partner. Chi non si accoppia aiuta[ST:n ]ad accudire i piccoli degli altri esemplari.</td>
+      </tr>
+      <tr id="175">
+        <td>175</td>
+        <td>
+        </td>
+        <td class="side">Gli aculei che ricoprono la bocca e il dorso[ST:n ]di queste bestie possono espellere delle[ST:n ]fiamme generate dalla combustione dei gas[ST:n ]accumulati nelle cavit&#224; addominali, simili a[ST:n ]dei serbatoi pressurizzati. Spalle ossute e[ST:n ]protuberanze della coda vengono utilizzate[ST:n ]per forare le vittime prima che vengano[ST:n ]arrostite e divorate.[ST:n ][ST:n ]I maschi sono tendenzialmente solitari, e solo[ST:n ]agli esemplari pi&#249; forti &#232; concesso il privilegio[ST:n ]di unirsi ai branchi di femmine durante la[ST:n ]stagione dell&#39;accoppiamento. Il vincitore dello[ST:n ]scontro per la scelta della compagna[ST:n ]viene stabilito attraverso una spettacolare[ST:n ]competizione pirotecnica.</td>
+      </tr>
+      <tr id="176">
+        <td>176</td>
+        <td>
+        </td>
+        <td class="side">Queste creature mostruose sono nate da una[ST:n ]mutazione del fluido protoplasmatico,[ST:n ]a causa di un guasto al sistema di controllo[ST:n ]del Centro vitale. Il loro aspetto grottesco[ST:n ]deriva dal miscuglio di materiale genetico[ST:n ]che le ha create.</td>
+      </tr>
+      <tr id="177">
+        <td>177</td>
+        <td>
+        </td>
+        <td class="side">Queste creature si distinguono per le bocche[ST:n ]poste alle estremit&#224; dei loro tentacoli.[ST:n ]Qualsiasi cosa trovino, organismi, roccia[ST:n ]o magma, viene risucchiato dalle fauci mobili[ST:n ]e convertito in energia elettrica. Tale energia[ST:n ]verr&#224; poi utilizzata per alimentare i loro[ST:n ]processi vitali e d&#39;attacco. I Gerrid, a causa[ST:n ]dei biofluidi corrosivi e della loro simbiosi[ST:n ]con parassiti tossici, non sono prede ambite.[ST:n ][ST:n ]Il corteggiamento avviene tramite una speciale[ST:n ]danza, nella quale il pretendente contrae pi&#249;[ST:n ]volte le zampe. Dopo l&#39;accoppiamento, la[ST:n ]femmina affida l&#39;uovo fecondato al maschio[ST:n ]per l&#39;incubazione. Dopo la schiusa, il piccolo[ST:n ]di Gerrid trova la via d&#39;uscita attraverso[ST:n ]il posteriore maschile.</td>
+      </tr>
+      <tr id="178">
+        <td>178</td>
+        <td>
+        </td>
+        <td class="side">Un tempo creature marine simili a lumaconi,[ST:n ]questi lontani parenti degli Xiphias hanno[ST:n ]lasciato la loro antica dimora acquatica per[ST:n ]la terraferma, diventando molto pi&#249; grossi.[ST:n ][ST:n ]I Lepyx depongono le uova in grandi quantit&#224;[ST:n ]e le affidano all&#39;oceano. I piccoli che riescono[ST:n ]a sopravvivere si nutrono di alghe marine[ST:n ]velenose. Le tossine cos&#236; accumulate servono[ST:n ]come difesa contro i predatori, anche se col[ST:n ]tempo la loro letalit&#224; si riduce. Una volta che[ST:n ]al Lepyx sono cresciuti tutti e quattro gli arti,[ST:n ]il giovane trova il suo posto in una colonia[ST:n ]d&#39;adulti sulla terraferma. Questa nuova fase[ST:n ]non &#232; per&#242; priva di pericoli; le morbide e[ST:n ]succulente carni fanno di lui un bocconcino[ST:n ]prelibato per i predatori affamati.</td>
+      </tr>
+      <tr id="179">
+        <td>179</td>
+        <td>
+        </td>
+        <td class="side">Sono infidi insetti in grado di camuffarsi da[ST:n ]grossi fiori. Aspettano pazientemente[ST:n ]l&#39;avvicinarsi delle loro ignare prede, per poi[ST:n ]attaccarle con un potente getto d&#39;acido.[ST:n ][ST:n ]I Mortifole sono noti per la capacit&#224; di dare[ST:n ]l&#39;illusione di un magnifico campo fiorito, se[ST:n ]riuniti insieme. Curiosamente, depongono le[ST:n ]loro uova proprio sui fiori che simulano.[ST:n ]I loro piccoli hanno una forma simile a quella[ST:n ]dei bruchi e talvolta si avvinghiano agli adulti[ST:n ]per mimetizzarsi meglio.</td>
+      </tr>
+      <tr id="180">
+        <td>180</td>
+        <td>
+        </td>
+        <td class="side">Parenti dei Mortifole, queste creature sono[ST:n ]simili alle piante gregarie delle terre nordiche[ST:n ]di Mira. Grazie ai loro organi petaloidi,[ST:n ]possono assorbire l&#39;Etere dall&#39;atmosfera.[ST:n ][ST:n ]I Sacrifole sono noti per i loro forti[ST:n ]legami comunitari. Tramite esplosioni suicide,[ST:n ]possono sacrificarsi per proteggere i loro[ST:n ]fratelli. Durante la stagione riproduttiva,[ST:n ]depongono le uova in volo, disseminandole[ST:n ]sull&#39;acqua. Dopo la schiusa, i piccoli si[ST:n ]sotterrano nel fango e si cibano di[ST:n ]carcasse fino all&#39;et&#224; adulta.</td>
+      </tr>
+      <tr id="181">
+        <td>181</td>
+        <td>
+        </td>
+        <td class="side">Enormi volatili che si librano nei cieli miriani,[ST:n ]a caccia di prede da infilzare con i loro[ST:n ]grandi corni. Poich&#233; questi corni crescono[ST:n ]continuativamente, sono un indicatore[ST:n ]affidabile dell&#39;et&#224; della creatura.[ST:n ][ST:n ]Sono anche dotati di una sacca dorsale[ST:n ]contenente una sostanza infiammabile.[ST:n ]Questa viene incanalata nella punta del corno[ST:n ]per produrre una scarica esplosiva che riduce[ST:n ]le vittime in brandelli. Per questo, i carnivori[ST:n ]pi&#249; piccoli seguono l&#39;Auravis in cerca di resti.[ST:n ][ST:n ]Durante il corteggiamento, le femmine[ST:n ]determinano il valore del maschio come[ST:n ]partner dalla capacit&#224; di quest&#39;ultimo[ST:n ]di creare complessi nidi di rami.</td>
+      </tr>
+      <tr id="182">
+        <td>182</td>
+        <td>
+        </td>
+        <td class="side">Immensi volatili dalla struttura scheletrica[ST:n ]adamantina. Dopo aver individuato la vittima,[ST:n ]possono velocemente passare dalla planata[ST:n ]inerte alla picchiata verticale, trafiggendo[ST:n ]l&#39;obiettivo con una cornata devastante.[ST:n ]Nel caso mancassero il bersaglio, gli Astara[ST:n ]possono marchiare la loro preda con il fluido[ST:n ]emanato dalla tasca dorsale, seguendola[ST:n ]anche fuori dal proprio territorio per giorni e[ST:n ]giorni, cacciandola senza piet&#224;.[ST:n ][ST:n ]Le uova degli Astara non vengono incubate[ST:n ]direttamente, ma il processo viene lasciato[ST:n ]piuttosto al calore geotermico. Animali poco[ST:n ]socievoli, si radunano in stormi solo per la[ST:n ]stagione dell&#39;accoppiamento, rendendo cos&#236;[ST:n ]pi&#249; semplice la difesa delle uova e dei pulcini.</td>
+      </tr>
+      <tr id="183">
+        <td>183</td>
+        <td>
+        </td>
+        <td class="side">Le enormi bocche dei Levitath possono[ST:n ]aspirare e assorbire energia eterea.[ST:n ]Le cavit&#224; dorsali superiori contengono gas[ST:n ]a bassa densit&#224; che permettono loro di volare[ST:n ]senza sforzo. Generalmente docili, possono[ST:n ]sferrare potenti attacchi d&#39;Etere se aggrediti.[ST:n ][ST:n ]Poich&#233; i Levitath riescono a rimanere in volo[ST:n ]senza alcuno sforzo, svolgono tutte le fasi[ST:n ]della loro vita in aria, incluse la riproduzione[ST:n ]e l&#39;allevamento dei piccoli.[ST:n ]Questi, dopo la nascita, rimangono nelle[ST:n ]cavit&#224; dorsali per circa sei mesi finch&#233; non[ST:n ]sono in grado di volare. Prima di spiccare il[ST:n ]volo, i piccoli ricevono dalla madre del gas,[ST:n ]che li aiuter&#224; a volare per la prima volta.</td>
+      </tr>
+      <tr id="184">
+        <td>184</td>
+        <td>
+        </td>
+        <td class="side">Gigantesche creature che ricordano i draghi.[ST:n ]Sono dotate di antenne multiple che si[ST:n ]muovono in modo indipendente, e hanno[ST:n ]delle bocche predatrici alla loro estremit&#224;.[ST:n ][ST:n ]Passano la maggior parte del tempo in[ST:n ]letargo al disotto dei fiumi di magma. Per[ST:n ]questo motivo il loro avvistamento &#232; raro, ma[ST:n ]quando sono attivi, non passano inosservati,[ST:n ]soprattutto perch&#233; riversano la loro voracit&#224;[ST:n ]su qualsiasi organismo nei dintorni.[ST:n ][ST:n ]Con una durata media di vita vicina ai mille[ST:n ]anni e periodi di attivit&#224; molto irregolari, i[ST:n ]Colubrim raramente si riproducono pi&#249; di una[ST:n ]volta ogni secolo. A questi motivi sono[ST:n ]imputabili i pochi esemplari di questa specie.</td>
+      </tr>
+      <tr id="185">
+        <td>185</td>
+        <td>
+        </td>
+        <td class="side">Sono mastodontiche creature a forma di[ST:n ]millepiedi, molto irritabili. Pur in grado di[ST:n ]volare, tendono a rimanere in battaglia anche[ST:n ]se ferite. Hanno la reputazione di animali[ST:n ]molto aggressivi e attaccano qualunque[ST:n ]malcapitato con le loro spropositate fauci,[ST:n ]lasciando spesso tracce sul terreno.[ST:n ][ST:n ]Poich&#233; le loro grandi zanne non smettono mai[ST:n ]di crescere, i Millepod masticano delle pietre[ST:n ]per tentare di consumarle. Quest&#39;abitudine[ST:n ]fa s&#236; che parte delle rocce venga ingerita,[ST:n ]rendendo comune il ritrovamento di pietre[ST:n ]preziose nelle loro spoglie.</td>
+      </tr>
+      <tr id="186">
+        <td>186</td>
+        <td>
+        </td>
+        <td class="side">Gli Unafulge vivono in armonia con primitivi[ST:n ]e bioluminescenti simbionti. Questo tipo di[ST:n ]legame permette loro di comunicare con i[ST:n ]propri simili attraverso una luce[ST:n ]lampeggiante.[ST:n ][ST:n ]La scarsa aggressivit&#224; degli Unafulge deriva[ST:n ]dal fatto che traggono il proprio nutrimento[ST:n ]da un processo di fotosintesi, che elimina cos&#236;[ST:n ]il bisogno di cacciare. Le abilit&#224; difensive si[ST:n ]limitano a un leggero effetto strobo, capace[ST:n ]d&#39;offuscare (o talvolta aumentare) l&#39;attivit&#224;[ST:n ]cerebrale dell&#39;avversario.[ST:n ]Se messi alle strette, possono autodistruggersi.[ST:n ][ST:n ]L&#39;accoppiamento avviene in luoghi ben precisi[ST:n ]alla fine dell&#39;estate. Radunandosi a migliaia[ST:n ]sotto la luna splendente, danno vita a uno[ST:n ]spettacolo di luci palpitanti.</td>
+      </tr>
+      <tr id="187">
+        <td>187</td>
+        <td>
+        </td>
+        <td class="side">Organismi parassitari anatomicamente[ST:n ]simili alle meduse, i Nalquus sono[ST:n ]rinomati per il loro particolare processo di[ST:n ]autoreplicazione. Le uova vengono[ST:n ]inserite direttamente nel corpo ospite oppure[ST:n ]disperse al vento come spore quando l&#39;adulto[ST:n ]si autodistrugge. Se le uova si schiudono[ST:n ]all&#39;interno dell&#39;ospite, i neonati Nalquus lo[ST:n ]divorano lentamente, fino a raggiungere[ST:n ]l&#39;esterno e volare via come dei palloncini.[ST:n ][ST:n ]Anche se la partenogenesi &#232; la modalit&#224; di[ST:n ]riproduzione primaria dei Nalquus, in alcuni[ST:n ]rari casi si pu&#242; verificare anche una[ST:n ]riproduzione sessuale, quando due di essi si[ST:n ]ritrovano nello stesso ospite. La maggiore[ST:n ]ricchezza genetica della prole porta i genitori[ST:n ]a preferire la loro sopravvivenza alla propria.</td>
+      </tr>
+      <tr id="188">
+        <td>188</td>
+        <td>
+        </td>
+        <td class="side">Il Filiavent &#232; il pi&#249; grande dei molluschi di[ST:n ]Mira. Saldamente ancorato al terreno,[ST:n ]si ciba di tutte le creature che gli si[ST:n ]avvicinano troppo. La sua tecnica consiste[ST:n ]nel contrarre il lungo corpo e ingoiare le[ST:n ]vittime e tutto ci&#242; che le circonda. I potenti[ST:n ]acidi del suo apparato digerente penseranno[ST:n ]poi a sciogliere tutta la materia ingurgitata.[ST:n ][ST:n ]Anche la riproduzione avviene quando la[ST:n ]creatura &#232; ancorata al terreno. In una notte di[ST:n ]luna piena, il Filiavent rilascia una miriade di[ST:n ]semi e uova nell&#39;atmosfera. Poich&#233; la maggior[ST:n ]parte di queste vengono mangiate da altre[ST:n ]creature, solo una su mille viene fecondata.[ST:n ]Sebbene possano generare scariche elettriche,[ST:n ]solo pochi dei piccoli riescono a sopravvivere[ST:n ]ai predatori per raggiungere l&#39;et&#224; adulta.</td>
+      </tr>
+      <tr id="189">
+        <td>189</td>
+        <td>
+        </td>
+        <td class="side">Provenienti dalle profondit&#224; dello spazio,[ST:n ]queste creature possono svuotare intere[ST:n ]regioni dall&#39;Etere per poi immagazzinarlo[ST:n ]nelle loro spine dorsali, facilitando cos&#236; i[ST:n ]viaggi interplanetari. Gli sfortunati abitanti[ST:n ]dei pianeti che visitano vengono divorati uno[ST:n ]per uno. Esaurita questa furia distruttiva,[ST:n ]iniziano la ricerca di un nuovo pianeta.[ST:n ][ST:n ]Sebbene molto raramente, a volte gli[ST:n ]Yggralith entrano in contatto l&#39;un con l&#39;altro,[ST:n ]segnando un tragico destino per gli sfortunati[ST:n ]pianeti che vengono a trovarsi in prossimit&#224;[ST:n ]della battaglia.</td>
+      </tr>
+      <tr id="190">
+        <td>190</td>
+        <td>
+        </td>
+        <td class="side">Guardiano di Mira e castigatore delle forme[ST:n ]di vita corrotte, il Telesia &#232; anche conosciuto[ST:n ]come \&quot;Il Padrone dei Destini\&quot;. Si dice abbia[ST:n ]la capacit&#224; di leggere il pensiero, che lo[ST:n ]renderebbe virtualmente invincibile. Questa[ST:n ]teoria &#232; rafforzata dal fatto che nessuno &#232;[ST:n ]mai riuscito a sconfiggerlo in combattimento.[ST:n ]A tutto ci&#242; si aggiunge la capacit&#224; di[ST:n ]amplificare e manipolare l&#39;Etere nell&#39;atmosfera,[ST:n ]utilizzando le sue enormi ali.</td>
+      </tr>
+      <tr id="191">
+        <td>191</td>
+        <td>
+        </td>
+        <td class="side">I Vesper sono dei pipistrelli giganti che[ST:n ]dimorano nelle caverne. Animali notturni e[ST:n ]onnivori, si nutrono di qualsiasi cosa possano[ST:n ]ingerire. Per individuare le prede e spostarsi[ST:n ]nell&#39;oscurit&#224;, si affidano al loro sonar e i loro[ST:n ]denti sono molto pericolosi, essendo ricoperti[ST:n ]di microrganismi nocivi. Come si pu&#242;[ST:n ]immaginare, le carni di Vesper sono[ST:n ]generalmente rancide e non commestibili.[ST:n ][ST:n ]I Vesper vivono in ampie colonie, che si[ST:n ]estendono sui tetti delle caverne occupate.[ST:n ]I loro escrementi ricoprono il terreno e[ST:n ]sono la principale forma di nutrimento per[ST:n ]molte specie d&#39;insetti. Queste fetide deiezioni[ST:n ]sono un&#39;ottima difesa contro i predatori.</td>
+      </tr>
+      <tr id="192">
+        <td>192</td>
+        <td>
+        </td>
+        <td class="side">I corpi di questi animali volanti sembrano[ST:n ]fatti di porcellana, e le due ali sono dotate[ST:n ]di organi per filtrare l&#39;Etere atmosferico.[ST:n ]Questo viene accumulato nella loro testa, per[ST:n ]poi essere utilizzato per spazzare via i nemici[ST:n ]o per immolarsi in difesa della colonia.[ST:n ][ST:n ]La densit&#224; d&#39;Etere nell&#39;atmosfera ha un forte[ST:n ]impatto sulla riproduzione dei Murra. Quando[ST:n ]l&#39;Etere &#232; abbondante, le femmine possono[ST:n ]riprodursi da sole tramite partenogenesi,[ST:n ]generando per&#242; solo altri esemplari femmine.[ST:n ]Una volta stabilizzatesi, vengono dati alla[ST:n ]luce anche i maschi e la riproduzione sessuale[ST:n ]pu&#242; riprendere. Poich&#233; le capacit&#224; di[ST:n ]assorbimento d&#39;Etere degli esemplari nati da[ST:n ]riproduzione asessuata sono carenti, quando[ST:n ]questo si riduce sono i primi a perire.</td>
+      </tr>
+      <tr id="193">
+        <td>193</td>
+        <td>
+        </td>
+        <td class="side">I Terebra sono considerati onnivori, anche[ST:n ]se la loro dieta principale &#232; composta da[ST:n ]organismi acquatici catturati nei fiumi, come[ST:n ]pesci e crostacei. Le loro orecchie ossute[ST:n ]possono essere usate a mo&#39; di trapano per[ST:n ]affrontare nemici e scavare le loro abitazioni.[ST:n ][ST:n ]La tana dei Terebra si estende nelle[ST:n ]profondit&#224; della terra, ospitando branchi[ST:n ]di una dozzina di esemplari. Inoltre, l&#39;entrata[ST:n ]viene costantemente presidiata da numerosi[ST:n ]membri, in piedi sulle zampe posteriori.[ST:n ][ST:n ]La pelliccia di Terebra &#232; un prodotto molto[ST:n ]richiesto per il suo calore e morbidezza, a[ST:n ]patto che vengano rimossi i peli pi&#249; duri.</td>
+      </tr>
+      <tr id="194">
+        <td>194</td>
+        <td>
+        </td>
+        <td class="side">I nemici dei Mephite non devono temere[ST:n ]solo i loro denti affilati e la loro[ST:n ]aggressivit&#224;, ma anche le pestilenziali[ST:n ]emissioni di gas rilasciate dal loro[ST:n ]posteriore. Il fetore di questi attacchi[ST:n ]pu&#242; perdurare anche per diversi mesi.[ST:n ][ST:n ]Durante la stagione dell&#39;accoppiamento,[ST:n ]i maschi sfoggiano una pelliccia variopinta;[ST:n ]unico compito delle femmine, invece, &#232; quello[ST:n ]di allevare i cuccioli nella loro tana. Per far[ST:n ]s&#236; che i predatori se ne tengano alla larga,[ST:n ]l&#39;entrata viene impregnata del loro fetido gas.</td>
+      </tr>
+      <tr id="195">
+        <td>195</td>
+        <td>
+        </td>
+        <td class="side">Anche se incapaci di volare, queste creature[ST:n ]si stabiliscono a elevate altitudini, cacciando[ST:n ]pesci e crostacei che risucchiano attraverso le[ST:n ]loro bocche allungate. Creature relativamente[ST:n ]intelligenti, i Saltat dimostrano di avere una[ST:n ]buona propensione alla lotta.[ST:n ][ST:n ]Durante la stagione dell&#39;accoppiamento,[ST:n ]i maschi producono bolle colorate al fine di[ST:n ]attrarre la partner; una volta dissolte, si[ST:n ]esibiscono in una danza sfrenata.[ST:n ]Qualora il corteggiamento fallisca, i giovani[ST:n ]Saltat prendono lezioni dai maschi anziani.[ST:n ]Mentre i primi apprendono le tecniche di[ST:n ]adulazione, nel contempo aiutano gli anziani[ST:n ]producendo bolle per loro. Questa relazione[ST:n ]si protrae negli anni, e i giovani continuano[ST:n ]a prendersi cura dei loro vecchi maestri.</td>
+      </tr>
+      <tr id="196">
+        <td>196</td>
+        <td>
+        </td>
+        <td class="side">I Liceor sono lontani parenti dei Saltat e,[ST:n ]come per loro, i maschi corteggiano le[ST:n ]potenziali partner danzando. Le femmine,[ST:n ]per&#242;, nella scelta dei pretendenti considerano[ST:n ]anche il loro \&quot;capitale\&quot;. Per questo i maschi[ST:n ]accumulano gioielli, minerali e strane pietre[ST:n ]nelle loro tasche toraciche, che vengono poi[ST:n ]lanciati durante la danza per distrarre le[ST:n ]femmine e avvicinarsi a loro. Se il maschio[ST:n ]riesce a raggiungerle pu&#242; farle sue.[ST:n ]Se per&#242; le femmine non accettano i doni,[ST:n ]scappano via, concludendo il rituale.[ST:n ][ST:n ]A parte questo singolare rito, la peculiarit&#224;[ST:n ]dei Liceor &#232; l&#39;estrema imprevedibilit&#224; del loro[ST:n ]carattere, che pu&#242; passare dalla calma alla[ST:n ]rabbia in base alle condizioni atmosferiche.</td>
+      </tr>
+      <tr id="197">
+        <td>197</td>
+        <td>
+        </td>
+        <td class="side">Questi erbivori sono creature che vivono sulle[ST:n ]sponde dei fiumi, in branchi composti da un[ST:n ]solo maschio e molte femmine, e che passano[ST:n ]la maggior parte del tempo in acqua. Il forte[ST:n ]istinto territoriale caratterizza entrambi i sessi:[ST:n ]i maschi difendono vigorosamente il branco,[ST:n ]cos&#236; come le femmine, che sono molto[ST:n ]protettive nei confronti dei loro piccoli.[ST:n ][ST:n ]Potenti zanne e corna permettono ai Potamus[ST:n ]di essere pi&#249; letali rispetto ad altri carnivori,[ST:n ]anche quelli all&#39;apparenza pi&#249; feroci.[ST:n ]Nonostante questo, i Nopon sono riusciti ad[ST:n ]addomesticarli per farsi aiutare nel trasporto[ST:n ]merci.</td>
+      </tr>
+      <tr id="198">
+        <td>198</td>
+        <td>
+        </td>
+        <td class="side">Violenti giganti acquatici che attaccano[ST:n ]qualsiasi cosa intorno a loro, salvo gli altri[ST:n ]membri della loro specie. Tale atteggiamento[ST:n ]&#232; dovuto al loro sviluppato orientamento[ST:n ]sociale, che si manifesta chiaramente nelle[ST:n ]loro relazioni di coppia. I piccoli vengono[ST:n ]cresciuti da entrambi i genitori, e dopo la[ST:n ]schiusa dell&#39;uovo, la femmina mette il piccolo[ST:n ]al riparo dentro la bocca del maschio.[ST:n ]Da questo momento in poi, la femmina[ST:n ]diventa molto pi&#249; irascibile, attaccando tutto[ST:n ]e tutti per nutrire la sua famiglia.[ST:n ][ST:n ]Una volta cresciuti, i piccoli lasciano i genitori[ST:n ]in cerca di altre colonie.</td>
+      </tr>
+      <tr id="199">
+        <td>199</td>
+        <td>
+        </td>
+        <td class="side">Questi rettili sono in grado di crescere a[ST:n ]dismisura. La loro lunghezza pu&#242; spesso[ST:n ]superare i cento metri e possono vivere[ST:n ]centinaia di anni. L’appetito di un Tersqual[ST:n ]non &#232; di facile appagamento, infatti traggono[ST:n ]nutrimento da fonti minerali ma possono[ST:n ]anche cacciare altri animali per favorire la[ST:n ]loro crescita. Una volta sazi, i Tersqual[ST:n ]iniziano la muta per crescere ulteriormente.[ST:n ]&#200; anche possibile che dopo aver mangiato la[ST:n ]propria pelle, inizino subito una nuova muta.[ST:n ][ST:n ]Le enormi dimensioni determinano la loro[ST:n ]schiacciante superiorit&#224; nei conflitti.[ST:n ]Poich&#233; solo gli esemplari pi&#249; grandi possono[ST:n ]accoppiarsi, i meno fortunati sono destinati a[ST:n ]continuare il loro disperato ciclo alimentare.</td>
+      </tr>
+      <tr id="200">
+        <td>200</td>
+        <td>
+        </td>
+        <td class="side">Le Specie infette sono varianti anomale delle[ST:n ]creature che popolano certe zone di Noctilum.[ST:n ]Queste bestie attaccano e divorano[ST:n ]qualsiasi cosa sul loro cammino,[ST:n ]a parte i loro simili.[ST:n ][ST:n ]Gli esemplari includono alcune variet&#224; di[ST:n ]Sphinx, Saprof, e Scintimure, infettati da un[ST:n ]virus che causa la follia. Dato che il virus non[ST:n ]pu&#242; sopravvivere all&#39;esterno di Noctilum,[ST:n ]il resto di Mira non &#232; in pericolo di contagio.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

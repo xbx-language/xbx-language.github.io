@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051003_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0001</td>
+        <td class="side">Gni... Aaargh...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0002</td>
+        <td class="side">Gni ?! Oh... C&#39;est vous.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0003</td>
+        <td class="side">H&#233; h&#233;. Vous m&#39;avez surpris en position compromettante.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0004</td>
+        <td class="side">J&#39;ai chass&#233; des indig&#232;nes avec l&#39;&#233;p&#233;e indestructible que[ST:n ]j&#39;ai termin&#233;e, mais le Ganglion est arriv&#233; pendant[ST:n ]que je combattais une de mes proies.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0005</td>
+        <td class="side">Le manque d’effectif ne pardonne pas. M&#234;me les talents[ST:n ]d&#39;un g&#233;nie ne sont rien contre tant d&#39;assaillants.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051003_JNK0010</td>
+        <td class="side">S&#39;inqui&#233;ter</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051003_SEL0011</td>
+        <td class="side">Demander &#224; De Zing s&#39;ils ont bris&#233;[ST:n ]son &#233;p&#233;e indestructible.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051003_JNK0020</td>
+        <td class="side">R&#233;clamer</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051003_SEL0021</td>
+        <td class="side">Insister pour que De Zing vous paie ce qu&#39;il vous doit.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0006</td>
+        <td class="side">Quel que soit le nombre d&#39;armures qu&#39;elle a fendues[ST:n ]ou combien de balles elle a d&#233;vi&#233;es, la lame est rest&#233;e[ST:n ]compl&#232;tement immacul&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0007</td>
+        <td class="side">Elle est bel et bien l&#39;&#233;p&#233;e parfaite dont j&#39;avais r&#234;v&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0015</td>
+        <td class="side">En effet, je suis venu ici, &#233;p&#233;e en main, avec l&#39;intention[ST:n ]de gagner assez pour vous payer.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0008</td>
+        <td class="side">Les indig&#232;nes que j&#39;ai chass&#233;s sur mon chemin m&#39;ont[ST:n ]laiss&#233; des biens qui se vendront &#224; bon prix.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0009</td>
+        <td class="side">Mais en repensant &#224; mes 40 ann&#233;es en tant[ST:n ]que forgeron, il m&#39;appara&#238;t que j&#39;ai en r&#233;alit&#233;[ST:n ]pass&#233; tr&#232;s peu de temps &#224; manier une &#233;p&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0010</td>
+        <td class="side">C&#39;est sans doute le prix &#224; payer pour &#234;tre un g&#233;nie.[ST:n ]M&#234;me sous le joug du Ganglion, je n&#39;ai jamais &#233;t&#233;[ST:n ]envoy&#233; au front. Je n&#39;ai fait que forger tout ce temps.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0011</td>
+        <td class="side">Pas &#233;tonnant que je ne sois pas &#224; la hauteur[ST:n ]d&#39;un f&#233;roce millepod, hein ? Cette canaille[ST:n ]m&#39;a surpris et a aval&#233; mon &#233;p&#233;e tout enti&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0012</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0013</td>
+        <td class="side">Je suppose que vous avez d&#233;j&#224; devin&#233; ce que j&#39;ai[ST:n ]l&#39;intention de vous demander, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0014</td>
+        <td class="side">Alors allez-y ! Rep&#233;rez ce millepod et extirpez[ST:n ]mon &#233;p&#233;e indestructible de son gosier ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0068</td>
+        <td class="side">Le millepod qui m&#39;a attaqu&#233; s&#39;est &#233;clips&#233; quelque part[ST:n ]apr&#232;s avoir festoy&#233; de mon &#233;p&#233;e indestructible.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0069</td>
+        <td class="side">Ne vous attardez point ! Vainquez cette b&#234;te[ST:n ]et sortez la lame de l&#233;gende de son ventre ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0070</td>
+        <td class="side">J&#39;ai ou&#239; les g&#233;missements d&#233;chirants d&#39;un millepod.[ST:n ]Avez-vous occis cette vile cr&#233;ature ?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0071</td>
+        <td class="side">Ah, oui ! C&#39;est bel et bien mon chef-d&#39;œuvre ![ST:n ]M&#234;me les acides de l&#39;estomac de cette b&#234;te[ST:n ]n&#39;ont pas pu &#233;mousser son tranchant ![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0072</td>
+        <td class="side">Je suis profond&#233;ment soulag&#233; que nous soyons r&#233;unis.[ST:n ]Sa magnificence m&#39;&#233;bahit de nouveau. C&#39;est &#233;vident,[ST:n ]puisqu&#39;elle est issue de ma forge, mais tout de m&#234;me ![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0073</td>
+        <td class="side">Vous avez tant fait pour moi, mon [ST:Gender p1=ami p2=amie ]. Moi-m&#234;me,[ST:n ]j&#39;aurais la sensation de vous n&#233;gliger si je ne vous[ST:n ]t&#233;moignais ma gratitude...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0074</td>
+        <td class="side">Accepteriez-vous cette lame plut&#244;t que des devises ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0075</td>
+        <td class="side">Je suis heureux de simplement lui avoir donn&#233;[ST:n ]naissance. Il est normal qu&#39;elle soit mani&#233;e par[ST:n ][ST:Gender p1=un guerrier p2=une guerri&#232;re ] de votre exceptionnelle envergure.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0076</td>
+        <td class="side">Vous pourriez aussi donner naissance &#224; de nouvelles[ST:n ]l&#233;gendes gr&#226;ce &#224; elle, ce qui serait fantastique.[ST:n ]Alors... ? Qu&#39;en dites-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0070</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0071</td>
+        <td class="side">Prendre l&#39;&#233;p&#233;e indestructible comme r&#233;compense.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0080</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0081</td>
+        <td class="side">Dire que De Zing devrait garder l&#39;&#233;p&#233;e.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0077</td>
+        <td class="side">Mon chef-d&#39;œuvre est v&#244;tre, [ST:playername ].[ST:n ]Ha ha ! Assurez-vous seulement de me remercier du[ST:n ]fond de votre cœur chaque fois que vous la d&#233;gainerez.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0078</td>
+        <td class="side">Mais mes r&#234;ves sont loin d&#39;&#234;tre termin&#233;s... Quelle[ST:n ]nouvelle &#233;p&#233;e de l&#233;gende devrais-je maintenant cr&#233;er ?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0079</td>
+        <td class="side">Comment ?! Alors vous pensez qu&#39;il est de mon devoir[ST:n ]en tant que cr&#233;ateur de cette lame de devenir[ST:n ]un guerrier digne de la manier ?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0080</td>
+        <td class="side">Cela serait assez po&#233;tique en effet...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0081</td>
+        <td class="side">Fort bien ! Je m&#39;entra&#238;nerai donc avec l&#39;&#233;p&#233;e[ST:n ]indestructible.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0082</td>
+        <td class="side">Je ne suis peut-&#234;tre plus tout jeune, mais je suis[ST:n ]un g&#233;nie. Je serai un ma&#238;tre &#233;p&#233;iste en un rien[ST:n ]de temps ![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0083</td>
+        <td class="side">Merci infiniment. Vous m&#39;avez r&#233;v&#233;l&#233; une nouvelle voie,[ST:n ][ST:playername ]. Je m&#39;investirai corps et &#226;me[ST:n ]pour la suivre ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

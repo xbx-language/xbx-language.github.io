@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051003_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0001</td>
+        <td class="side">Mmmh... Mmmh...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0002</td>
+        <td class="side">Oh? Sei tu?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0003</td>
+        <td class="side">Eh eh. Mi trovi in condizioni non ottimali.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0004</td>
+        <td class="side">Sono andato a caccia di mostri con la mia nuova[ST:n ]Spada indistruttibile, ma ad un tratto, ecco comparire[ST:n ]i Ganglion mentre mi battevo con la mia preda.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0005</td>
+        <td class="side">I numeri sanno essere crudeli. Persino un genio[ST:n ]con le mie abilit&#224; non ha speranze contro[ST:n ]cos&#236; tanti aggressori.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051003_JNK0010</td>
+        <td class="side">Informati</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051003_SEL0011</td>
+        <td class="side">Chiedi a De Zing se hanno fracassato[ST:n ]la sua Spada indistruttibile.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051003_JNK0020</td>
+        <td class="side">Esigi</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051003_SEL0021</td>
+        <td class="side">Insisti perch&#233; De Zing paghi ci&#242; che ti &#232; dovuto.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0006</td>
+        <td class="side">Nonostante tutte le armature sfasciate e i proiettili[ST:n ]deviati, la lama non &#232; stata minimamente scalfita.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0007</td>
+        <td class="side">&#200; esattamente la spada perfetta che speravo fosse.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0015</td>
+        <td class="side">Sono venuto qui, spada in mano, proprio per questo.[ST:n ]Per poter guadagnare abbastanza denaro[ST:n ]per saldare il mio debito.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0008</td>
+        <td class="side">I mostri che ho abbattuto lungo la strada hanno[ST:n ]lasciato dei materiali di recupero che, se[ST:n ]venduti, potranno rendere adeguatamente.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0009</td>
+        <td class="side">Ma solo adesso, ripensando alla mia carriera[ST:n ]di fabbro spadaio, mi sovviene quanto poco[ST:n ]tempo abbia dedicato al BRANDIRE una spada.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0010</td>
+        <td class="side">Tale &#232; il prezzo del genio. Neppur sotto la tirannia[ST:n ]dei Ganglion sono mai stato chiamato alla battaglia.[ST:n ]Inversamente, mi sono sempre occupato della fucina.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0011</td>
+        <td class="side">Non c&#39;&#232; da meravigliarsi che non sia stato un degno[ST:n ]avversario per un Millepod, eh? Quel mascalzone[ST:n ]mi ha colto di sorpresa e ha ingoiato la mia spada.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0012</td>
+        <td class="side">... ...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0013</td>
+        <td class="side">Certamente potrai gi&#224; indovinare[ST:n ]cosa stia per chiederti, dico bene?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev051003_MSG0014</td>
+        <td class="side">Allora, vai! Rintraccia quel Millepod e riappropriati[ST:n ]della mia Spada indistruttibile! Estraila dalla sua gorga![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0068</td>
+        <td class="side">Il Millepod che mi ha attaccato si &#232; rimpiattato[ST:n ]da qualche parte dopo aver divorato[ST:n ]la mia Spada indistruttibile.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0069</td>
+        <td class="side">Non indugiare oltre! Sconfiggi la bestia[ST:n ]e riappropriati della spada leggendaria[ST:n ]finita nel suo intestino![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0070</td>
+        <td class="side">Ho udito i lamenti strazianti di un Millepod.[ST:n ]Sei [ST:Gender p1=stato p2=stata ] tu ad aver ucciso quella vile creatura?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0071</td>
+        <td class="side">Ah, s&#236;! Quello &#232; proprio il mio capolavoro![ST:n ]Neanche gli acidi del suo stomaco hanno[ST:n ]potuto niente contro la mia lama![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0072</td>
+        <td class="side">Sono immensamente sollevato di esserne rientrato[ST:n ]in possesso. Rivedendola, rimango di nuovo basito[ST:n ]di fronte alla sua magnificenza![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0073</td>
+        <td class="side">Mi hai reso un notevole servigio, [ST:Gender p1=amico mio p2=amica mia ].[ST:n ]Sarebbe negligente da parte mia non mostrarti[ST:n ]alcun segno di riconoscenza...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0074</td>
+        <td class="side">Accetteresti questa spada invece del vil denaro?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0075</td>
+        <td class="side">Solo il fatto di averle dato vita &#232; un successo[ST:n ]impagabile. E solo [ST:Gender p1=un guerriero p2=una guerriera ] del tuo maestoso[ST:n ]calibro &#232; meritevole di brandirla appropriatamente.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0076</td>
+        <td class="side">Inoltre, con essa potresti dar vita a delle nuove[ST:n ]leggende. Sarebbe grandioso... Cosa ne pensi?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0070</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0071</td>
+        <td class="side">Accetta la Spada indistruttibile come ricompensa.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev051001_JNK0080</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev051001_SEL0081</td>
+        <td class="side">Afferma che De Zing dovrebbe tenere la spada.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0077</td>
+        <td class="side">Il mio capolavoro &#232; tuo, [ST:playername ].[ST:n ]Ah ah! Ricordati solo di ringraziarmi sentitamente[ST:n ]ogni volta che la sfoderi in battaglia.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0078</td>
+        <td class="side">Ma i miei sogni sono ben lontani dal finire...[ST:n ]Quale nuova impresa della forgiatura[ST:n ]modeller&#242;, adesso?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0079</td>
+        <td class="side">Cosa? Credi che sia mio dovere, come creatore[ST:n ]di cotal spada, di divenire un guerriero[ST:n ]meritevole della sua fama?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0080</td>
+        <td class="side">Ha un riverbero decisamente poetico...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0081</td>
+        <td class="side">Molto bene! Principier&#242; il mio addestramento[ST:n ]con la Spada indistruttibile nel mio fodero.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0082</td>
+        <td class="side">Potr&#242; anche non essere pi&#249; nei miei anni d&#39;oro,[ST:n ]ma sono pur sempre un genio. Ben presto,[ST:n ]diventer&#242; maestro di spada![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev051001_MSG0083</td>
+        <td class="side">Molte grazie. Hai rivelato un sogno a me nascosto,[ST:n ][ST:playername ]. Dedicher&#242; anima e corpo[ST:n ]al suo perseguimento![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

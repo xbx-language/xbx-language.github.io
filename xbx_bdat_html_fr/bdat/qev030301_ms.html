@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev030301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0001</td>
+        <td class="side">Hmm ? Vous n&#39;&#234;tes pas du Clan troglodyte.[ST:n ]Oll... ? Mon fr&#232;re ? C&#39;est toi ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev030301_JNK0010</td>
+        <td class="side">Blaguer</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev030301_SEL0011</td>
+        <td class="side">Dire &#224; Rada que vous &#234;tes Oll, c&#39;est &#233;vident !</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev030301_JNK0020</td>
+        <td class="side">Nier</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev030301_SEL0021</td>
+        <td class="side">Expliquer que vous &#234;tes ici pour aider.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0002</td>
+        <td class="side">Non. Ce n&#39;est pas la voix d&#39;Oll. Vous &#234;tes un clown ?[ST:n ]Vous essayez de me divertir ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0003</td>
+        <td class="side">Vous &#234;tes l&#224; pour me sauver ? J&#39;ai connu la famine et[ST:n ]la torture. Vos blagues ne me font pas rire.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0004</td>
+        <td class="side">Je savais que le Clan sylvain viendrait.[ST:n ]Nous n&#39;abandonnons pas les n&#244;tres. Nous ne sommes[ST:n ]pas cruels comme ces pourritures de troglodytes ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0005</td>
+        <td class="side">La peur m&#39;a tenu en alerte. Maintenant la peur[ST:n ]n&#39;est plus l&#224;. Il ne reste que l&#39;&#233;puisement.[ST:n ]J&#39;accepte votre aide.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0006</td>
+        <td class="side">Cette cellule a une cl&#233;. D&#233;tenue par un Prone[ST:n ]troglodyte appel&#233; Mujiba Falgo. Occupez-vous[ST:n ]de lui. Prenez-lui la cl&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0007</td>
+        <td class="side">Cet endroit est sombre. &#199;a sent mauvais.[ST:n ]Je veux partir tr&#232;s vite.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0008</td>
+        <td class="side">Cette cellule a une cl&#233;. D&#233;tenue par un Prone[ST:n ]troglodyte appel&#233; Mujiba Falgo. Occupez-vous[ST:n ]de lui. Prenez-lui la cl&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0009</td>
+        <td class="side">Oui ! Je suis libre ![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0010</td>
+        <td class="side">Maintenant, nous devons essayer de retrouver Oll.[ST:n ]Mon fr&#232;re. Ensuite, nous pourrons partir.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0011</td>
+        <td class="side">Il est aussi retenu ici.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0012</td>
+        <td class="side">Je ne peux pas partir sans lui. Vous devez l&#39;aider.[ST:n ]Comme vous m&#39;avez aid&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0013</td>
+        <td class="side">Vous avez d&#233;j&#224; sauv&#233; mon fr&#232;re ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0014</td>
+        <td class="side">Vous &#234;tes [ST:Gender p1=un h&#233;ros p2=une h&#233;ro&#239;ne ] ! Merci.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0015</td>
+        <td class="side">Je rentre vite. Je vais voir Oll.[ST:n ]Il saura que je n&#39;ai pas craqu&#233; en captivit&#233;. Pas de[ST:n ]larmes. Pas de sanglots. Juste la fiert&#233; des Prones.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0016</td>
+        <td class="side">Vous allez le faire ? Bien. Vous &#234;tes [ST:Gender p1=fort p2=forte ].[ST:n ]Vous pouvez le prot&#233;ger.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0017</td>
+        <td class="side">Vous &#234;tes [ST:Gender p1=courageux p2=courageuse ]. Sa vie est entre vos mains.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0018</td>
+        <td class="side">Soyez [ST:Gender p1=prudent p2=prudente ]. Le Clan troglodyte a apprivois&#233; des[ST:n ]simius. Ils se battent pour eux. Ils sont dangereux.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev030301_MSG0019</td>
+        <td class="side">Les simius d&#233;testent le houx de kepha. Vous devriez en[ST:n ]emporter. &#199;a vous sera tr&#232;s utile.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

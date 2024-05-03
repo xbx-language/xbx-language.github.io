@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev055203_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0001</td>
+        <td class="side">Du bist ein Mensch, richtig?[ST:n ]Wie fandest du an diesen Ort?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0002</td>
+        <td class="side">...Du folgtest dem Signal? Doch wie?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0003</td>
+        <td class="side">Dieses Signal sollte nur f&#252;r Orphen sichtbar sein.[ST:n ]Wer oder was bist du?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev055203_JNK0010</td>
+        <td class="side">Vorstellen</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev055203_SEL0011</td>
+        <td class="side">Erkl&#228;re, dass du bei BLADE bist und[ST:n ]gekommen bist, um zu helfen.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev055203_JNK0020</td>
+        <td class="side">Witzeln</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev055203_SEL0021</td>
+        <td class="side">Sage, dass du ein R&#228;cher der Gerechten bist und[ST:n ]im Auftrag des gro&#223;en Yin’tonam zur Hilfe herbeieilst.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0004</td>
+        <td class="side">Ah, jetzt verstehe ich.[ST:n ]Du bist im Besitz einer unserer Brillen.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0005</td>
+        <td class="side">Ich bin erleichtert, dass du gekommen bist.[ST:n ]Es befindet sich eine menschliche &#220;berlebende hier,[ST:n ]die auf deine Hilfe angewiesen ist.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0006</td>
+        <td class="side">Das klingt f&#252;r mich nicht nach Yin’tonam.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0007</td>
+        <td class="side">Doch es stimmt exakt mit Annas Vorhersage &#252;berein.[ST:n ]Sie sagte etwas ganz &#196;hnliches: Ein Ritter der[ST:n ]Gerechtigkeit w&#252;rde uns zur Rettung eilen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0008</td>
+        <td class="side">Ich schickte die Signale gen Himmel, noch w&#228;hrend[ST:n ]wir vor den einheimischen Kreaturen flohen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0009</td>
+        <td class="side">Mein Ovah setzte mich dar&#252;ber in Kenntnis, dass[ST:n ]schnelles und entschlossenes Handeln geboten war.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0010</td>
+        <td class="side">Die Menschenfrau befindet sich auf diesem gro&#223;en[ST:n ]Baum dort. Du musst dich beeilen und ihr...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0011</td>
+        <td class="side">Ach du liebe G&#252;te. Es scheint, als h&#228;tte dein Geruch[ST:n ]eine einheimische Kreatur auf den Plan gerufen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0012</td>
+        <td class="side">Ich muss dich inst&#228;ndig darum bitten, der Bestie ein[ST:n ]Ende zu bereiten. Ich werde mich unterdessen zu[ST:n ]der Menschenfrau auf dem Baum gesellen.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0013</td>
+        <td class="side">Es freut mich, dass du wohlauf bist, tapferer Mensch.[ST:n ]Darf ich daraus schlie&#223;en, dass die einheimische[ST:n ]Kreatur fort ist?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0014</td>
+        <td class="side">Das ist wahrlich eine gro&#223;e Hilfe.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0015</td>
+        <td class="side">Es ist nun sicher, Anna. Wir sollten in der Lage sein,[ST:n ]unbeschadet nach NLA zur&#252;ckzukehren.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0016</td>
+        <td class="side">Wir sind wirklich gerettet?[ST:n ]Oh Mann, danke vielmals![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev055203_JNK0030</td>
+        <td class="side">Tr&#246;sten</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev055203_SEL0031</td>
+        <td class="side">Dr&#252;cke deine Erleichterung aus, dass es Anna gut geht.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev055203_JNK0040</td>
+        <td class="side">Sticheln</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev055203_SEL0041</td>
+        <td class="side">Sage Anna, dass du nicht erwartet[ST:n ]h&#228;ttest, dass sie &#252;berleben w&#252;rde.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0017</td>
+        <td class="side">Meine Freunde... haben sich geopfert, um mich[ST:n ]zu besch&#252;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0018</td>
+        <td class="side">Wenn Kan’tonam auch noch gefressen worden w&#228;re...[ST:n ]Ich wei&#223; nicht, was ich dann gemacht h&#228;tte.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0019</td>
+        <td class="side">Es war alles mein Fehler. Ich hatte die Aufgabe, den[ST:n ]Laster zu warten, aber ich hab es schleifen lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0020</td>
+        <td class="side">Meine einzige Hoffnung war, dass irgendein Held[ST:n ]auftauchen und uns retten w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0021</td>
+        <td class="side">Und jetzt bist du wirklich hier![ST:n ]Ich... danke dir.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0022</td>
+        <td class="side">Trotzdem... Es war alles mein Fehler. Ich hatte die[ST:n ]Aufgabe, den Laster zu warten, aber ich hab es[ST:n ]schleifen lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0023</td>
+        <td class="side">Es gelang uns, das Fahrzeug zu verlassen und in[ST:n ]den Wald zu fliehen.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0024</td>
+        <td class="side">Doch unsere Chancen, ohne fremde Hilfe aus dem[ST:n ]Noctilum zu entkommen, waren minimal.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0025</td>
+        <td class="side">Wir ergriffen also den letzten Strohhalm, der uns[ST:n ]zumindest ein klein wenig Hoffnung gab, und[ST:n ]harrten aus, bis Hilfe kommen w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0026</td>
+        <td class="side">Lasst uns nun aufbrechen. Es f&#252;hrt zu nichts Gutem,[ST:n ]l&#228;nger hier zu verweilen. Wir m&#252;ssen Anna in die Stadt[ST:n ]bringen, bevor die Ersch&#246;pfung sie &#252;berw&#228;ltigt.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0027</td>
+        <td class="side">Dar&#252;ber hinaus brenne ich darauf, mehr &#252;ber die[ST:n ]„lange, hei&#223;e W&#228;sserung“ zu erfahren, nach der[ST:n ]sie sich so inbr&#252;nstig sehnt.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0028</td>
+        <td class="side">&#196;h, ja. Also, da ich sicher war, dass wir sterben[ST:n ]w&#252;rden, hab ich die ganze Zeit davon geredet, dass[ST:n ]ich vorher gern noch ein letztes Bad nehmen w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0029</td>
+        <td class="side">Vielen Dank jedenfalls noch mal f&#252;r alles.[ST:n ]Kan’tonam und ich gehen jetzt zur&#252;ck nach NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev055203_MSG0030</td>
+        <td class="side">Es ist allein deinen Bem&#252;hungen zu verdanken, dass[ST:n ]wir sicher zur&#252;ckkehren konnten.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

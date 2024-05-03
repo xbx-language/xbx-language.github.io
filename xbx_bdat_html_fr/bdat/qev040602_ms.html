@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev040602_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0001</td>
+        <td class="side">Ah ! Pote du BLADE est [ST:Gender p1=arriv&#233; p2=arriv&#233;e ] pile poil ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0002</td>
+        <td class="side">B&#234;tes tr&#232;s affam&#233;es pourchassent Muimui[ST:n ]depuis tant temps ![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0003</td>
+        <td class="side">Muimui et pote, tous deux agents BLADE,[ST:n ]et agents BLADE s&#39;entraident. Alors, aide vite Muimui ![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0010</td>
+        <td class="side">Expliquer[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0011</td>
+        <td class="side">Dire &#224; Muimui que son fr&#232;re vous envoie.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0020</td>
+        <td class="side">Confirmer[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0021</td>
+        <td class="side">Faire une envol&#233;e lyrique sur les liens entre[ST:n ]agents du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0010</td>
+        <td class="side">Bien. C&#39;est plus simple. B&#234;tes arrivent ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0013</td>
+        <td class="side">En plus, lien co&#251;te rien ! Oh oh... B&#234;tes arrivent ![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0020</td>
+        <td class="side">Ouf ! Pote est [ST:Gender p1=arriv&#233; p2=arriv&#233;e ] vraiment pile poil.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0021</td>
+        <td class="side">Muimui a enfin rep&#233;r&#233; &#233;p&#233;e de L&#233;gendari-pon ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0022</td>
+        <td class="side">Mais quand Muimui fait recherches approfondies[ST:n ]sur signal, mauvaises choses d&#233;barquent et...[ST:n ]Pote sait quoi qui arrive.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0023</td>
+        <td class="side">Muimui pense pas pouvoir g&#233;rer b&#234;tes tout seul,[ST:n ]alors Muimui r&#233;fl&#233;chissait fort fort en courant &#224; plan[ST:n ]pour sauver sa peau.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0030</td>
+        <td class="side">Interroger[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0031</td>
+        <td class="side">Demander &#224; Muimui o&#249; se trouve[ST:n ]l&#39;&#233;p&#233;e de L&#233;gendari-pon.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev040602_JNK0040</td>
+        <td class="side">S&#39;inqui&#233;ter[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev040602_SEL0041</td>
+        <td class="side">&#202;tre [ST:Gender p1=soulag&#233; p2=soulag&#233;e ] que Muimui aille bien.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0030</td>
+        <td class="side">Signal &#224; L&#233;gen-dar indique chef des b&#234;tes.[ST:n ]S&#251;rement dans bidon.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0031</td>
+        <td class="side">Idiot gouluton a d&#251; avaler &#233;p&#233;e ![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0034</td>
+        <td class="side">Gr&#226;ce &#224; jumelles loin-loin de Mo&#238;mo&#238;,[ST:n ]Muimui peut courir loin loin de tous monstres.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0035</td>
+        <td class="side">Mais, mais, mais, d&#39;ailleurs. Pote doit r&#233;cup&#233;rer[ST:n ]&#233;p&#233;e de L&#233;gendari-pon pour Muimui, rapidement vite ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0036</td>
+        <td class="side">Signal &#224; L&#233;gen-dar provient du chef des monstres.[ST:n ]S&#251;rement dans bidon.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0039</td>
+        <td class="side">Muimui donnera localisation de nid des b&#234;tes.[ST:n ]Va leur flanquer une tatouille, comme tout &#224; l&#39;heure.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0040</td>
+        <td class="side">Quand Muimui aura &#233;p&#233;e et aura plein cr&#233;dits,[ST:n ]pote sera [ST:Gender p1=r&#233;compens&#233; p2=r&#233;compens&#233;e ].[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0041</td>
+        <td class="side">Muimui invitera a d&#238;n... Euh, d&#233;jeuner ! Oui, d&#233;jeuner.[ST:n ]Si g&#233;n&#233;reux. Alors, va et r&#233;ussis ![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0044</td>
+        <td class="side">Muimui a suivi signal &#224; L&#233;gen-dar vers nid[ST:n ]&#224; chef aux b&#234;tes.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0045</td>
+        <td class="side">&#201;p&#233;e de L&#233;gendari-pon est dans bidon, pour s&#251;r ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0046</td>
+        <td class="side">R&#233;cup&#232;re &#233;p&#233;e pour bien de Muimui et Mo&#238;mo&#238;,[ST:n ]d&#39;accord ?! Pour bien de compte bancaire aussi.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0050</td>
+        <td class="side">C&#39;&#233;tait bien dans bidon &#224; chef ! &#201;p&#233;e de L&#233;gendari-pon[ST:n ]enfin retrouv&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0052</td>
+        <td class="side">Muimui et Mo&#238;mo&#238; seront plus pauvrement pauvres,[ST:n ]mais richement riches.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0053</td>
+        <td class="side">Tout &#231;a gr&#226;ce &#224; aide de pote ! Muimui doit rentrer[ST:n ]vite vite et montrer &#224; Mo&#238;mo&#238;.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0054</td>
+        <td class="side">Muimui doit aussi inviter pote &#224; d&#233;jeuner.[ST:n ]Rentre vite vite &#224; New L.A. avant qu&#39;offre prenne fin ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0059</td>
+        <td class="side">Non... &#199;a peut pas...[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev040602_MSG0060</td>
+        <td class="side">Tellement de travail et pas d&#39;&#233;p&#233;e de L&#233;gendari-pon ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

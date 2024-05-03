@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev095201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0001</td>
+        <td class="side">Je ne vais pas te mentir, cette mission est vraiment[ST:n ]risqu&#233;e. Mais il faut bien que quelqu&#39;un s&#39;en charge.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0002</td>
+        <td class="side">La question, c&#39;est... qui ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0003</td>
+        <td class="side">Si nous envoyons quelqu&#39;un de mauvais ou[ST:n ]d&#39;inexp&#233;riment&#233;, c&#39;est la mort assur&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev095201_JNK0010</td>
+        <td class="side">Se renseigner sur la mission</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev095201_SEL0011</td>
+        <td class="side">Insister pour obtenir plus d&#39;informations sur la mission[ST:n ]de la part de Julius.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev095201_JNK0020</td>
+        <td class="side">Se renseigner sur Julius</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev095201_SEL0021</td>
+        <td class="side">S&#39;enqu&#233;rir du r&#244;le de Julius.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0004</td>
+        <td class="side">On m&#39;a charg&#233; de trouver un membre du BLADE qui[ST:n ]acceptera de compl&#233;ter une mission &#224; haut risque.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0005</td>
+        <td class="side">Si cela t&#39;int&#233;resse, je te donnerai plus de d&#233;tails.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0006</td>
+        <td class="side">Je travaille pour le Q.G. du BLADE, dans[ST:n ]les communications.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0007</td>
+        <td class="side">Et je suis actuellement &#224; la recherche d&#39;un agent pour[ST:n ]entreprendre une mission particuli&#232;rement risqu&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0008</td>
+        <td class="side">C&#39;est un travail tr&#232;s dangereux, mais vital.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0009</td>
+        <td class="side">Comme tu dois sans doute le savoir, l&#39;exploration[ST:n ]de Noctilum est maintenant plut&#244;t avanc&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0010</td>
+        <td class="side">Et gr&#226;ce &#224; cela, nous avons r&#233;cemment capt&#233;[ST:n ]un signal &#233;trange.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0011</td>
+        <td class="side">C&#39;&#233;tait un peu compliqu&#233; &#224; d&#233;crypter avec toutes[ST:n ]les interf&#233;rences, mais on dirait un S.O.S.[ST:n ]en provenance du ravin du Soleil.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0012</td>
+        <td class="side">On dirait un signal humain, mais pas exactement.[ST:n ]Comme si quelqu&#39;un essayait d&#39;imiter l&#39;un des n&#244;tres.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev095201_JNK0030</td>
+        <td class="side">Venir en aide</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev095201_SEL0031</td>
+        <td class="side">Dire que cela vaut le coup d&#39;aller v&#233;rifier.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev095201_JNK0040</td>
+        <td class="side">Mettre en garde</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev095201_SEL0041</td>
+        <td class="side">Dire &#224; Julius que cela ressemble &#224; un pi&#232;ge.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0013</td>
+        <td class="side">Oh, sans aucun doute.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0014</td>
+        <td class="side">Et oui, cela pourrait &#234;tre un pi&#232;ge, mais peut-&#234;tre[ST:n ]qu&#39;on y trouvera des d&#233;serteurs du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0015</td>
+        <td class="side">Ils auront peut-&#234;tre des informations cruciales.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0016</td>
+        <td class="side">qev095201_MSG0016</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0016_m</td>
+        <td class="side">Crois-moi, ce n&#39;est pas la premi&#232;re fois qu&#39;on me le dit.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0016_f</td>
+        <td class="side">Crois-moi, ce n&#39;est pas la premi&#232;re fois qu&#39;on me le dit.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0017</td>
+        <td class="side">Surtout qu&#39;aucun membre du BLADE n&#39;a &#233;t&#233; port&#233;[ST:n ]disparu pr&#232;s de ce ravin.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0018</td>
+        <td class="side">Ce qui veut dire que ce n&#39;est pas un humain qui envoie[ST:n ]ce signal.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0019</td>
+        <td class="side">Alors, qu&#39;en penses-tu ? Les b&#233;n&#233;fices potentiels sont[ST:n ]immenses, mais le risque est r&#233;el.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0020</td>
+        <td class="side">Pour cette mission, j&#39;ai besoin de l&#39;&#233;lite du BLADE,[ST:n ]et je pense que tu pourrais &#234;tre la bonne personne.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0021</td>
+        <td class="side">Alors, tu acceptes ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0022</td>
+        <td class="side">Je te remercie au nom du Q.G. du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0023</td>
+        <td class="side">Bonne chance. Fais attention &#224; toi.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0024</td>
+        <td class="side">Il faut que tu ailles enqu&#234;ter sur un S.O.S.[ST:n ]en provenance du ravin du Soleil.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0025</td>
+        <td class="side">&#201;tant donn&#233; la nature du terrain, il vaut peut-&#234;tre mieux[ST:n ]y aller la nuit, et pas en pleine journ&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0026</td>
+        <td class="side">Excellent travail ![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0027</td>
+        <td class="side">Je ne sais pas &#224; quoi on s&#39;attendait, mais ce n&#39;&#233;tait[ST:n ]s&#251;rement pas &#224; sauver des x&#233;nos du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0028</td>
+        <td class="side">Et encore moins des x&#233;nos dont la technologie[ST:n ]est tr&#232;s avanc&#233;e ![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0029</td>
+        <td class="side">Nous sommes des &#234;tres rationnels guid&#233;s par[ST:n ]la logique. Notre technologie surpasse de loin[ST:n ]la v&#244;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0030</td>
+        <td class="side">Nous sommes certains de pouvoir vous &#234;tre utiles[ST:n ]dans le d&#233;veloppement de votre ville.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0031</td>
+        <td class="side">Nous avons l&#39;autorisation du directeur g&#233;n&#233;ral[ST:n ]Chausson.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0032</td>
+        <td class="side">Nous offrons l&#39;asile aux x&#233;nos en &#233;change de leur aide[ST:n ]pour l&#39;exploration de Mira, ainsi que de toutes[ST:n ]les informations anti-Ganglion qu&#39;ils poss&#232;dent.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0033</td>
+        <td class="side">Ils vont aussi cr&#233;er une nouvelle usine d&#39;armes.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0034</td>
+        <td class="side">Nous avons pr&#233;c&#233;demment d&#233;velopp&#233; des armes pour[ST:n ]le Ganglion. Nous mettrons dor&#233;navant notre[ST:n ]expertise &#224; votre service, humains.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0035</td>
+        <td class="side">En &#233;change, vous nous d&#233;fendrez.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0036</td>
+        <td class="side">On se renvoie l&#39;ascenseur.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0037</td>
+        <td class="side">Nous n&#39;avons pas besoin d&#39;un ascenseur. Nous[ST:n ]respecterons les termes de l&#39;alliance, comme[ST:n ]discut&#233; pr&#233;c&#233;demment.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0038</td>
+        <td class="side">Cette mission &#233;tait un vrai jeu de hasard, mais elle a[ST:n ]port&#233; ses fruits. Merci pour cette r&#233;ussite.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev095201_MSG0039</td>
+        <td class="side">Vous avez aussi la gratitude des Orph&#233;ens.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050107_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0001</td>
+        <td class="side">Hab&#237;a olvidado el carisma[ST:n ]y la franqueza de Gi Ziordo.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0002</td>
+        <td class="side">Eso es lo que me llev&#243; a seguir la senda[ST:n ]del guerrero junto a &#233;l desde que &#233;ramos cachorros.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0003</td>
+        <td class="side">Y pensar que estuve a punto de tirarlo todo[ST:n ]por la borda a ra&#237;z de una simple disputa...[ST:n ]Sin duda, toda una tonter&#237;a por mi parte.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0004</td>
+        <td class="side">Est&#225;is aqu&#237; a petici&#243;n de nuestro maestro, &#191;no?[ST:n ]&#191;Hab&#233;is venido a retarnos?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0005</td>
+        <td class="side">Hoy me siento con fuerzas para derrotar a cualquier[ST:n ]adversario. &#191;Y vos? &#191;Est&#225;is [ST:Gender p1=preparado p2=preparada ][ST:n ]para el combate?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050107_JNK0010</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050107_SEL0011</td>
+        <td class="side">Di que est&#225;s m&#225;s que [ST:Gender p1=preparado p2=preparada ].</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050107_JNK0020</td>
+        <td class="side">Declinar</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050107_SEL0021</td>
+        <td class="side">Di que necesitas tiempo para prepararte.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0006</td>
+        <td class="side">Sabia respuesta. Enfrentarse a nosotros sin estar[ST:n ]en plenas facultades es un suicidio en toda regla.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0007</td>
+        <td class="side">Tomaos el tiempo que requir&#225;is. No es digno[ST:n ]luchar contra [ST:Gender p1=un p2=una ] oponente que no est&#225;[ST:n ]en su mejor momento.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0008</td>
+        <td class="side">Gi Ziordo. &#191;Est&#225;is preparado?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0009</td>
+        <td class="side">En guardia y cansado de esperar, hermano.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0010</td>
+        <td class="side">Con vos cubri&#233;ndome las espaldas,[ST:n ]&#161;podr&#233; alcanzar mi m&#225;ximo potencial![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0011</td>
+        <td class="side">Entendido. S&#233; lo que debo hacer.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0012</td>
+        <td class="side">&#161;Mostr&#233;mosle a [ST:Gender p1=nuestro adversario p2=nuestra adversaria ] el verdadero[ST:n ]alcance de nuestras fuerzas![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0013</td>
+        <td class="side">&#161;Comencemos![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0014</td>
+        <td class="side">Aunque... Quiz&#225; sea mejor esperar, ya que veo[ST:n ]que alguien ha llegado aqu&#237; antes que nosotros.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0015</td>
+        <td class="side">Deber&#237;amos esperar a que se marchen[ST:n ]para poder combatir sin distracciones.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050107_MSG0016</td>
+        <td class="side">No me gustar&#237;a involucrar a inocentes en nuestro duelo.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

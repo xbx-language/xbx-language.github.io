@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev090501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0001</td>
+        <td class="side">Sensei ! Sensei, c&#39;est affreux ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0002</td>
+        <td class="side">L&#39;&#233;quipe de Clarissa ![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0002_2</td>
+        <td class="side">Ils... Ils vont tous se faire tuer si on ne fait rien ![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0003</td>
+        <td class="side">Mais qu&#39;est-ce qu&#39;on peut faire !? Qui va...[ST:n ]Euh... j&#39;veux dire... o&#249; peut-on... ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0004</td>
+        <td class="side">Sensei, qu&#39;est-ce qu&#39;on fait ?![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0005</td>
+        <td class="side">[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0006</td>
+        <td class="side">Kaaatsu ![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0007</td>
+        <td class="side">Plus la crise est grande, plus un soldat doit[ST:n ]rester calme. Je t&#39;ai enseign&#233; &#231;a, n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0008</td>
+        <td class="side">T&#39;as oubli&#233; ce que t&#39;as appris avec moi ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0009</td>
+        <td class="side">Non, Sensei ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0010</td>
+        <td class="side">D&#39;accord... Je recommence depuis le d&#233;but.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0011</td>
+        <td class="side">Vous vous souvenez de Clarissa, Sensei ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0012</td>
+        <td class="side">Je n&#39;oublie jamais un &#233;l&#232;ve. Elle &#233;tait[ST:n ]dans ta classe.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0013</td>
+        <td class="side">J&#39;ai entendu dire que quelques gamins de ta[ST:n ]promo ont form&#233; une &#233;quipe. Et ? Continue.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0014</td>
+        <td class="side">On a perdu la communication avec eux.[ST:n ]Tout d&#39;un coup, rien que... le silence.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0015</td>
+        <td class="side">Je vois. Tu sais o&#249; ils sont ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0016</td>
+        <td class="side">J&#39;ai demand&#233; au Q.G. de lancer une recherche,[ST:n ]mais ils n&#39;ont personne de disponible...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0017</td>
+        <td class="side">Alors j&#39;irai la chercher moi-m&#234;me. Donc...[ST:n ]je peux vous demander de m&#39;accompagner ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0018</td>
+        <td class="side">S&#39;il vous pla&#238;t...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0018_2</td>
+        <td class="side">Je ne peux plus me permettre de manquer &#224;[ST:n ]ma parole avec ces gamins.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0019</td>
+        <td class="side">Sensei, vous n&#39;avez pas oubli&#233; votre promesse ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev090501_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev090501_SEL0011</td>
+        <td class="side">Apporter son aide.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev090501_JNK0020</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev090501_SEL0021</td>
+        <td class="side">Se renseigner sur la promesse que Boz&#233; a faite.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0020</td>
+        <td class="side">Merci. Je n&#39;oublierai jamais &#231;a, promis.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0021</td>
+        <td class="side">Rien que de bons soldats tels que nous n&#39;ayons[ST:n ]entendu un nombre incalculable de fois...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0022</td>
+        <td class="side">Mais ma parole est aussi sacr&#233;e qu&#39;un ch&#234;ne,[ST:n ]et tant que je respirerai, je la tiendrai.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0023</td>
+        <td class="side">qev090501_MSG0023</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0023_m</td>
+        <td class="side">Bon, si vous le voulez bien, allons-y ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0023_f</td>
+        <td class="side">Bon, si vous le voulez bien, allons-y ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0024</td>
+        <td class="side">Merci, Sensei. Et merci &#224; vous.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev090501_MSG0025</td>
+        <td class="side">Je sais que vous ferez tout pour ramener Clarissa[ST:n ]et les autres sains et saufs.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

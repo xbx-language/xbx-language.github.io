@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev021701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev021701_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev021701_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Fraisie acerca de la Ballena Blanca.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev021701_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev021701_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Fraisie si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev021701_JNK0010</td>
+        <td class="side">tev021701_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev021701_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Fraisie qu&#233; opina sobre los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev021701_JNK0020</td>
+        <td class="side">tev021701_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev021701_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Fraisie si le preocupa algo.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0001</td>
+        <td class="side">Durante los dos primeros a&#241;os despu&#233;s de abandonar[ST:n ]la Tierra, la Ballena Blanca vag&#243; sin rumbo[ST:n ]por la inmensidad del espacio.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0002</td>
+        <td class="side">Y, tras el ataque de los ganglion,[ST:n ]acabamos estrell&#225;ndonos aqu&#237; en Mira.[ST:n ]&#161;Es un milagro![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0003</td>
+        <td class="side">&#191;Qu&#233; m&#225;s pruebas necesitas de que nuestro dios es[ST:n ]el Portador de milagros y de que &#233;l nos protege?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0004</td>
+        <td class="side">&#161;Conf&#237;o en que el Portador de milagros seguir&#225;[ST:n ]guiando nuestro camino![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0005</td>
+        <td class="side">&#161;Recemos juntos para demostrarle[ST:n ]nuestro agradecimiento![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0008</td>
+        <td class="side">He intentado hablarle sobre el Portador de milagros[ST:n ]a la gente que acude a esta catedral,[ST:n ]pero muchos se niegan a escucharme.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0009</td>
+        <td class="side">Mira es un planeta habitable, con agua para saciar[ST:n ]la sed y aire para respirar.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0010</td>
+        <td class="side">&#191;Cu&#225;les son las probabilidades de estrellarse[ST:n ]en un lugar as&#237; sin ayuda divina?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0011</td>
+        <td class="side">Y aun as&#237;, el Portador de milagros me sigue hablando.[ST:n ]Me pide que re&#250;na seguidores y los gu&#237;e hacia &#233;l.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0012</td>
+        <td class="side">&#161;Debo apresurarme! &#161;Necesito reunir las almas puras y[ST:n ]conducirlas al Portador de milagros![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0020</td>
+        <td class="side">Los ma-non son una especie formidable.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0021</td>
+        <td class="side">Mientras otros hacen caso omiso a mis palabras,[ST:n ]los ma-non siempre escuchan de principio a fin.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0022</td>
+        <td class="side">Eso s&#237;, muchos me dicen que no pueden creer[ST:n ]en un Portador de milagros que no pueden ver.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0023</td>
+        <td class="side">Pero s&#233; que difundir la palabra sobre su presencia[ST:n ]es el primer paso para conseguir que se le acepte[ST:n ]como nuestro salvador.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0027</td>
+        <td class="side">El n&#250;mero de ma-non interesados en escuchar[ST:n ]mis palabras sigue creciendo.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0028</td>
+        <td class="side">&#191;Qu&#233; puedo hacer para convencerles del poder[ST:n ]que posee el Portador de milagros?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0029</td>
+        <td class="side">Eso le he preguntado al mism&#237;simo[ST:n ]Portador de milagros, &#161;y he obtenido respuesta![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev021701_MSG0030</td>
+        <td class="side">Ahora cuento con la asistencia de Malyteth,[ST:n ]que siempre me escucha atentamente. Es cuesti&#243;n[ST:n ]de tiempo que el Portador de milagros se manifieste.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

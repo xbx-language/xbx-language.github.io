@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev074101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Non&#39;barac por la base principal ganglion.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Non&#39;barac si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0010</td>
+        <td class="side">tev074101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Non&#39;barac por la guerra con los ganglion.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0020</td>
+        <td class="side">tev074101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0021</td>
+        <td class="side">tev074101_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0010</td>
+        <td class="side">tev074101_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0011</td>
+        <td class="side">tev074101_SEL0011</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0020</td>
+        <td class="side">tev074101_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev074101_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Non&#39;barac si hay alguna novedad.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0010</td>
+        <td class="side">tev074101_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0031</td>
+        <td class="side">tev074101_SEL0031</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev074101_JNK0020</td>
+        <td class="side">tev074101_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev074101_SEL0021</td>
+        <td class="side">tev074101_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0001</td>
+        <td class="side">Parece que los ganglion tienen[ST:n ]su base principal en Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0002</td>
+        <td class="side">Repasando los recuerdos que fluyen por mis venas,[ST:n ]creo que enviaron al norte la mayor&#237;a de las armas[ST:n ]que creamos para ellos.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0003</td>
+        <td class="side">Solo el conjunto de dichas armas constituye[ST:n ]un arsenal ejemplar, por lo que recomiendo precauci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0004</td>
+        <td class="side">Tambi&#233;n sospecho que se encontrar&#225;n[ST:n ]con unas defensas que est&#225;n muy por encima[ST:n ]de las que se han podido encontrar en esta regi&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0009</td>
+        <td class="side">La escasez de miranio es un problema grave[ST:n ]y sencillo de resolver, ya que su causa est&#225;[ST:n ]en la ineficacia con la que est&#225;n explorando Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0010</td>
+        <td class="side">Al fin y al cabo, exceptuando las misiones principales,[ST:n ]la exploraci&#243;n la han llevado a cabo equipos[ST:n ]que segu&#237;an su propia iniciativa, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0011</td>
+        <td class="side">A diferencia de nosotros, ustedes no tienen[ST:n ]un Ovah que dicte sus acciones.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0012</td>
+        <td class="side">&#191;No tendr&#237;a m&#225;s sentido expandir FrontierNav[ST:n ]de una forma m&#225;s ordenada en la que cada BLADE[ST:n ]ocupe una posici&#243;n determinada en el mapa?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0013</td>
+        <td class="side">Si me deja que me encargue de la planificaci&#243;n,[ST:n ]le prometo que sus esfuerzos[ST:n ]ser&#225;n 3,68 veces m&#225;s productivos.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0018</td>
+        <td class="side">Gran parte del armamento de Orphean Technologies[ST:n ]utiliza piezas que he creado yo.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0019</td>
+        <td class="side">&#191;Les han sido de utilidad[ST:n ]en la guerra con los ganglion?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0020</td>
+        <td class="side">He entablado amistad con varias personas de esta[ST:n ]ciudad y me enorgullezco de haberles proporcionado[ST:n ]art&#237;culos de mayor calidad que los de los ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0021</td>
+        <td class="side">&#191;Le parece a usted que fueron de utilidad?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev074101_MSG0022</td>
+        <td class="side">Si es as&#237;, espero que sigan utiliz&#225;ndolos,[ST:n ]con mi m&#225;s sincero agradecimiento,[ST:n ]para mantener la paz.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev074101_MSG1001</td>
+        <td class="side">Despu&#233;s de lo que ocurri&#243;, tuve[ST:n ]una larga conversaci&#243;n con un Pathfinder.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev074101_MSG1002</td>
+        <td class="side">Me dijo que ten&#237;an que atravesar zonas terriblemente[ST:n ]peligrosas para instalar sondas exploratorias.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev074101_MSG1003</td>
+        <td class="side">Al parecer, &#233;l ha tenido que instalar sondas[ST:n ]en acantilados escarpados, en nidos de ind&#237;genas[ST:n ]e, incluso, dentro de fortalezas ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev074101_MSG1004</td>
+        <td class="side">La verdad es que cre&#237; que se trataba de una tarea[ST:n ]mucho m&#225;s sencilla, debido al vertiginoso ritmo[ST:n ]al que las han estado instalando.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev074101_MSG1005</td>
+        <td class="side">Ustedes los humanos son criaturas verdaderamente[ST:n ]asombrosas. &#161;Les ruego que, por favor, sigan[ST:n ]instalando sondas y tray&#233;ndome el miranio![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

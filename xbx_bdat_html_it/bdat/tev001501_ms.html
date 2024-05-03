@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001501_MSG0001</td>
+        <td class="side">Cosa vuoi, mmmh? Hai trovato una missione che paghi[ST:n ]abbastanza da meritare la mia attenzione?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001501_MSG0002</td>
+        <td class="side">Se &#232; cos&#236;, sono tutta orecchie. Tutta. Orecchie.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001501_MSG0003</td>
+        <td class="side">Se invece sei qui solo per chiacchierare,[ST:n ]non posso prometterti che sopravviverai[ST:n ]fino alla fine della conversazione.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1001</td>
+        <td class="side">Ah, [ST:playername ]. Che piacere.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1002</td>
+        <td class="side">Stavo giusto pensando a quanto mi piacerebbe[ST:n ]lavorare di nuovo con [ST:Gender p1=un p2=una ] BLADE grande[ST:n ]e forte come te.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1003</td>
+        <td class="side">No, no! Dico davvero. Dovresti portarmi con te.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0010</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0011</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0020</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0021</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1004</td>
+        <td class="side">Meraviglioso. Oh, rilassati. Prometto che non ti[ST:n ]sparer&#242; alle spalle. Niente del genere.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1005</td>
+        <td class="side">Beh, che gran peccato. E io che credevo di poter[ST:n ]guadagnare uno stipendio decente, una volta tanto.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1010</td>
+        <td class="side">Cosa? Stai andando in una regione notoriamente[ST:n ]pericolosa solo per recuperare un[ST:n ]vecchio mech alieno?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1011</td>
+        <td class="side">E allora passo. Non vedo dove sia il guadagno.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1016</td>
+        <td class="side">Oh, la signorinella &#232; nei guai, eh?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1017</td>
+        <td class="side">Beh, non apprezzo affatto che i Ganglion ammazzino[ST:n ]le persone. Se stai andando a salvarla,[ST:n ]mi unisco volentieri.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0070</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0071</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0080</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0081</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1018</td>
+        <td class="side">Forza, andiamo. Mi deve qualche favore.[ST:n ]Se muore non potr&#242; pi&#249; riscuotere nulla![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1019</td>
+        <td class="side">Oh, peccato. Sembrava un modo perfetto[ST:n ]per farla diventare mia debitrice.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1024</td>
+        <td class="side">Se stai andando a Sylvalum, ci sono buone[ST:n ]possibilit&#224; di trovare tesori nascosti.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1025</td>
+        <td class="side">Mmmh... Sai una cosa? Se ti serve aiuto,[ST:n ]sono disponibile a venire con te.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0090</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0091</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0100</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0101</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1026</td>
+        <td class="side">Perfetto! Ah, spero sia chiaro che la mia ricompensa[ST:n ]dovr&#224; essere proporzionata allo sforzo. &#200; un[ST:n ]posto pericolosissimo, dopotutto.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1027</td>
+        <td class="side">Oh, come siamo altezzosi! Beh, stavolta lascio correre.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1032</td>
+        <td class="side">Cosa? Vandham in persona ti ha assegnato un&#39;altra[ST:n ]missione? Caspiterina, sei proprio un pezzo grosso![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1033</td>
+        <td class="side">Non so cosa ci sia da fare, ma sono sicura che[ST:n ]Vandham paghi bene per queste missioncine che[ST:n ]ti assegna. Io ci sto![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0110</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0111</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0120</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0121</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1034</td>
+        <td class="side">Eh eh eh. Se porto a termine questa missione, chieder&#242;[ST:n ]a Vandham di mettermi nella sua lista di agenti![ST:n ]Magari avr&#224; qualche missioncina anche per me![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1035</td>
+        <td class="side">Peccato. Avremmo potuto fare tanti soldi, insieme.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1040</td>
+        <td class="side">Chi lo sa cos&#39;ha in testa un tipo come quello?[ST:n ]E chi lo sa cosa sta per fare?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1041</td>
+        <td class="side">Dev&#39;essere tolto di mezzo prima che faccia[ST:n ]qualche altra stupidaggine.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0130</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0131</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0140</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0141</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1042</td>
+        <td class="side">Ottimo. Vado ad affilare il pugnale![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1043</td>
+        <td class="side">Temo che senza di me, la tua squadra di bonaccioni[ST:n ]non sia davvero in grado di dare a quel tipo[ST:n ]il trattamento che si merita.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1048</td>
+        <td class="side">Puoi accumulare tutti i soldi che vuoi,[ST:n ]ma se muori non puoi spenderli.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1049</td>
+        <td class="side">Dobbiamo assolutamente portare a termine[ST:n ]questa missione. DOBBIAMO. Io e te.[ST:n ]Non te e qualcun altro. Io e te.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0150</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0151</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0160</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0161</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1051</td>
+        <td class="side">Quando troveremo il Nucleo del Centro vitale andremo[ST:n ]in paradiso? O all&#39;inferno? Non vedo l&#39;ora di scoprirlo![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1052</td>
+        <td class="side">Mmmh. Beh, in bocca al lupo. Mi raccomando, vedi[ST:n ]di portare a termine il lavoro, OK? Perch&#233; se fallisci...[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1053</td>
+        <td class="side">... ti trover&#242; all&#39;inferno. E ti uccider&#242; di nuovo![ST:n ]Ciao ciao![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1058</td>
+        <td class="side">Ora che la guerra &#232; finita, gli abitanti di Mira hanno[ST:n ]ricominciato ad accumulare ricchezze. Era ora![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1059</td>
+        <td class="side">E ti assicuro che io sono una di loro.[ST:n ]Sbrigati a portarmi con te![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0170</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0171</td>
+        <td class="side">Aggiungi l&#39;Assassina alla tua squadra.</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>tev001501_JNK0180</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>tev001501_SEL0181</td>
+        <td class="side">Rifiuta la richiesta dell&#39;Assassina, per ora.</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1060</td>
+        <td class="side">Bene. Io mi occuper&#242; di eliminare prontamente[ST:n ]chiunque ci metta i bastoni fra le ruote.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>tev001501_MSG1061</td>
+        <td class="side">Peccato. Avremmo potuto fare tanti soldi, insieme.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

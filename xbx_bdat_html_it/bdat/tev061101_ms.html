@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev061101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev061101_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0011</td>
+        <td class="side">Chiedi a Kuku delle carovane Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev061101_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0021</td>
+        <td class="side">Chiedi a Kuku quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0031</td>
+        <td class="side">Chiedi a Kuku della Seguipalla.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0041</td>
+        <td class="side">Chiedi a Kuku quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0051</td>
+        <td class="side">Chiedi a Kuku del tesoro segreto a Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev061101_SEL0061</td>
+        <td class="side">Chiedi a Kuku quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0001</td>
+        <td class="side">Amic[ST:Gender p1=o p2=a ] pu&#242; trovare carovane Nopon su tutto Mirapon.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0002</td>
+        <td class="side">Pi&#249; vicina &#232; a Canyon Sbuffo Sabbioso,[ST:n ]posto che amici chiama \&quot;Oblivia\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0003</td>
+        <td class="side">Amic[ST:Gender p1=o p2=a ] &#232; stat[ST:Gender p1=o p2=a ] l&#236;? Carovanapon &#232; bella, ma...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0004</td>
+        <td class="side">Beh, capopon &#232; moltissimissimo avaro. Meh meh![ST:n ]Forse tenta di spennare pover[ST:Gender p1=o p2=a ] amic[ST:Gender p1=o p2=a ].[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0008</td>
+        <td class="side">Che sollievo sapere che piccolo Tatsu &#232; salvo![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0009</td>
+        <td class="side">&#200; vero, Tatsu mangia sempre ed &#232; pallone[ST:n ]gonfiato presuntuoso, ma anche se[ST:n ]&#232; bambinone, non &#232; cattivo.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0010</td>
+        <td class="side">Tatsu ha pelliccia pi&#249; bella di tutti bimbipon,[ST:n ]forse amic[ST:Gender p1=o p2=a ] pu&#242; accarezzare Tatsu quando[ST:n ]ha bisogno di tirare su morale.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0011</td>
+        <td class="side">Comunque, amic[ST:Gender p1=o p2=a ] prende cura di nostro[ST:n ]piccolo rompiscatole, OK?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0016</td>
+        <td class="side">Ah, quindi amic[ST:Gender p1=o p2=a ] usa nostro[ST:n ]tesoro segreto Nopon?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0017</td>
+        <td class="side">Seguipalla &#232; moltissimissimo utile! Basta che amic[ST:Gender p1=o p2=a ][ST:n ]immagina dove vuole andare e puff! [ST:n ]Palla vola in direzione che tu vuole.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0018</td>
+        <td class="side">Meh? A volte Seguipalla vola in cerchio o si perde?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0019</td>
+        <td class="side">Meh, nessuno &#232; perfetto. Alla fine Seguipalla[ST:n ]non &#232; molto pi&#249; intelligente di Tatsu.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0020</td>
+        <td class="side">Prova a vedere lati positivi e tratta con affetto.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0026</td>
+        <td class="side">Quando trattato di amicizia &#232; stato firmato,[ST:n ]Grande Nan, che ha viaggiato per tutto Mira,[ST:n ]&#232; diventato pazzo e voleva tutti Nopon a Neo L.A.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0027</td>
+        <td class="side">Ma capi di carovanepon come Kuku non vuole[ST:n ]impacchettare tutto e partire.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0028</td>
+        <td class="side">Carovanepon &#232; sia importanti centri di commercio[ST:n ]sia rifugi per mercanti itineranti Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0029</td>
+        <td class="side">Se carovanepon va via, pericolosi viaggi[ST:n ]di mercanti diventa ancora pi&#249; rischiosissimi![ST:n ]No, carovane deve rimanere.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0030</td>
+        <td class="side">In profondit&#224; di caverna di Noctilum, una volta Kuku[ST:n ]trovato statue di due giganti stranamente familiari.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0031</td>
+        <td class="side">Quando Kuku detto ad amico Curator,[ST:n ]emozione &#232; stata difficile da contenere![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0032</td>
+        <td class="side">Curator iniziato a saltare su e gi&#249; e dire:[ST:n ]\&quot;&#200; uno di oggetti collezionabili!\&quot;[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0033</td>
+        <td class="side">Se anche amic[ST:Gender p1=o p2=a ] cerca quelle statue,[ST:n ]deve controllare angoli di caverna[ST:n ]moltissimissimo attentamente.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0034</td>
+        <td class="side">Grande Nan &#232; viziatissimissimo, ma nonostante[ST:n ]difetti, tutti Nopon lo ama lo stesso.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0035</td>
+        <td class="side">Se Tatsu spera di diventare prossimo capopon di[ST:n ]carovanapon, deve osservare Grande Nan[ST:n ]come falco con occhiali...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0036</td>
+        <td class="side">... e fare tutto contrario![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev061101_MSG0037</td>
+        <td class="side">Tutto quello che Nopon vuole &#232; che Tatsu &#232; s&#233; stesso.[ST:n ]Tempo in citt&#224; umana d&#224; a Tatsu conoscenza[ST:n ]per diventare buon capopon.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030101_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030101_SEL0011</td>
+        <td class="side">Demander &#224; Ackwar de vous parler des Ma-nons.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030101_JNK0020</td>
+        <td class="side">Discuter[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030101_SEL0021</td>
+        <td class="side">Demander &#224; Ackwar s&#39;il a des ennuis.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030101_SEL0031</td>
+        <td class="side">Demander &#224; Ackwar de vous parler de l&#39;attaque.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0001</td>
+        <td class="side">Les Ma-nons sont presque tous pacifiques, savez-vous ?[ST:n ]Nous pr&#233;f&#233;rons &#233;viter les combats.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0002</td>
+        <td class="side">Mais quand j&#39;ai vu les humains risquer leur vie[ST:n ]pour s&#39;aider les uns les autres, je crois que[ST:n ]j&#39;ai eu une r&#233;v&#233;lation.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0003</td>
+        <td class="side">J&#39;ai compris l&#39;importance de garder les personnes[ST:n ]que j&#39;aime en s&#233;curit&#233;, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0004</td>
+        <td class="side">C&#39;est pourquoi j&#39;ai demand&#233; au commandant Vandham[ST:n ]de de me laisser rejoindre le BLADE.[ST:n ]Est-ce que vous comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0005</td>
+        <td class="side">Les Ma-nons ne sont pas aussi forts que les humains,[ST:n ]mais nous sommes l&#39;esp&#232;ce la plus intelligente[ST:n ]de la galaxie, non ? Oui, j&#39;apprends vite.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0006</td>
+        <td class="side">Attendez de voir, voulez-vous ? Je serai bient&#244;t[ST:n ]un Mediator expert r&#233;solvant des probl&#232;mes[ST:n ]dans toute la ville.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0009</td>
+        <td class="side">Mon travail en tant qu&#39;agent du BLADE prend beaucoup[ST:n ]beaucoup de mon temps, savez-vous ? Je ne vois plus[ST:n ]trop Yuyu, l&#39;amour de ma vie...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0010</td>
+        <td class="side">Lors de ma prochaine pause, je devrais peut-&#234;tre[ST:n ]l&#39;amener en rendez-vous &#224; Army Pizza, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0011</td>
+        <td class="side">Bien s&#251;r, j&#39;ai encore beaucoup &#224; apprendre,[ST:n ]alors je n&#39;ai peut-&#234;tre pas gagn&#233; le droit[ST:n ]de faire une pause, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0012</td>
+        <td class="side">Un jour, je serai tellement dou&#233; dans mon travail[ST:n ]que je pourrai finir t&#244;t et passer &#233;norm&#233;ment[ST:n ]de temps avec ma Yuyu, vous comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0020</td>
+        <td class="side">Quand New L.A. a &#233;t&#233; attaqu&#233;e, les Ma-nons[ST:n ]&#233;taient paniqu&#233;s et et d&#233;sorient&#233;s, savez-vous ?[ST:n ]C&#39;&#233;tait la pagaille.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0021</td>
+        <td class="side">J&#39;ai d&#251; utiliser mon esprit vif pour &#233;laborer un plan :[ST:n ]je leur ai dit que le vaisseau ma-non &#233;tait rempli[ST:n ]de pizzas ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0022</td>
+        <td class="side">Ils se sont tous empress&#233;s d&#39;aller au vaisseau,[ST:n ]mes sup&#233;rieurs du BLADE m&#39;ont f&#233;licit&#233;.[ST:n ]C&#39;&#233;tait plut&#244;t malin, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0023</td>
+        <td class="side">&#201;videmment, une fois la crise finie, les Ma-nons[ST:n ]se sont plaints du... manque notable de pizzas[ST:n ]&#224; bord du vaisseau.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0024</td>
+        <td class="side">Je pense tout de m&#234;me &#234;tre un vrai agent du BLADE[ST:n ]maintenant, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030101_SEL0051</td>
+        <td class="side">Demander &#224; Ackwar de vous parler[ST:n ]de la menace du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030101_SEL0061</td>
+        <td class="side">Demander &#224; Ackwar s&#39;il y a du nouveau.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0025</td>
+        <td class="side">Bien qu&#39;il faille s&#39;occuper des attaques du Ganglion[ST:n ]sur la ville, nous devons aussi penser[ST:n ]aux autres menaces, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0026</td>
+        <td class="side">Comme par exemple : comment Powell a-t-il r&#233;ussi[ST:n ]&#224; mettre la main sur ce Skell ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0027</td>
+        <td class="side">C&#39;est vrai que c&#39;est un ancien militaire, mais le BLADE[ST:n ]n&#39;est pas stupide, non ? Ils gardent toujours un œil[ST:n ]sur leurs Skells.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0028</td>
+        <td class="side">Powell a d&#251; recevoir de l&#39;aide, savez-vous ? En suivant[ST:n ]cette th&#233;orie, j&#39;ai d&#233;couvert une chose... &#233;trange.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0029</td>
+        <td class="side">Il aurait re&#231;u l&#39;aide de personnes pr&#233;sentes dans la ville,[ST:n ]mais ce ne sont pas des humains, vous me suivez ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0030</td>
+        <td class="side">Je suis convaincu que le Ganglion s&#39;est servi de Powell[ST:n ]en le manipulant. Ils sont intelligents, et c&#39;est pour cela[ST:n ]qu&#39;ils sont dangereux, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0033</td>
+        <td class="side">Il est vrai que les proches de certaines victimes[ST:n ]ma-nones de Powell ont maintenant une opinion[ST:n ]n&#233;gative sur les humains.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0034</td>
+        <td class="side">Mais je compte bien intervenir et arranger les choses,[ST:n ]si toutefois c&#39;est encore possible.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0035</td>
+        <td class="side">Parce qu&#39;apr&#232;s tout, je les comprends. J&#39;avais moi aussi[ST:n ]une certaine haine envers les humains avec ce qui est[ST:n ]arriv&#233; &#224; Yuyu, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0036</td>
+        <td class="side">Sans votre aide, je d&#233;testerais peut-&#234;tre toujours[ST:n ]les humains, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev030101_MSG0037</td>
+        <td class="side">Je dois vous remercier pour cela, non ? Oui ! Faisons[ST:n ]de nouveau &#233;quipe et remettons cette jolie jolie ville[ST:n ]sur le droit chemin, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

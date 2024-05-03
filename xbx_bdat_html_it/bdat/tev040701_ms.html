@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev040701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev040701_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0011</td>
+        <td class="side">Chiedi a Galba informazioni riguardo ai Ganglion.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev040701_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0021</td>
+        <td class="side">Chiedi a Galba quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0031</td>
+        <td class="side">Chiedi a Galba informazioni riguardo ai Ganglion.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev040701_SEL0041</td>
+        <td class="side">Chiedi a Galba del Clan delle Caverne.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev040701_SEL2021</td>
+        <td class="side">Chiedi a Galba quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0001</td>
+        <td class="side">Clan delle Caverne ha distrutto la nostra casa.[ST:n ]Ganglion hanno mandato delle forze[ST:n ]in loro aiuto.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0002</td>
+        <td class="side">Il capo Ganglion era una femmina di nome Goetia.[ST:n ]Mi ha ricordato di Ogpodus.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0003</td>
+        <td class="side">Mmmh? Non hai mai sentito parlare di Ogpodus?[ST:n ]&#200; una bestia del nostro pianeta natale.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0004</td>
+        <td class="side">Ogpodus ha sedici tentacoli che strappano la vita[ST:n ]dalle sue prede. Sono bestie pericolose.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0005</td>
+        <td class="side">Goetia era Ogpodus in molti aspetti. Ci ha attaccato[ST:n ]senza piet&#224;. Donne. Bambini. Nessuno &#232; stato[ST:n ]risparmiato. Rideva mentre uccideva.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0009</td>
+        <td class="side">Mia moglie &#232; stata imprigionata da Clan delle Caverne.[ST:n ]La facevano lavorare alla fortezza. Giorno e notte.[ST:n ]Senza sosta. &#200; morta stremata dalla fatica.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0010</td>
+        <td class="side">Anche Nemard e Duna hanno perso dei cari[ST:n ]durante la battaglia.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0011</td>
+        <td class="side">Anche mio padre, Auld Bergasus,[ST:n ]rischi&#242; di perdere la vita.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0012</td>
+        <td class="side">Ma devo essere forte. Devo mostrare[ST:n ]maniera a giovani Pron.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0017</td>
+        <td class="side">Alien[ST:Gender p1=o p2=a ] della Terra! Hai eliminato Goetia[ST:n ]e il suo Skell![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0018</td>
+        <td class="side">Hai fatto giustizia di demoni Ganglion[ST:n ]che ci hanno privato della nostra casa![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0019</td>
+        <td class="side">Non so come hai fatto con un corpo[ST:n ]cos&#236; piccolo. Ti ringrazio.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0020</td>
+        <td class="side">Ora le anime dei caduti possono riposare in pace.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0025</td>
+        <td class="side">Il pi&#249; forte di Clan delle Caverne &#232; un guerriero[ST:n ]chiamato Dadaan.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0026</td>
+        <td class="side">Il suo nome &#232; una leggenda sul suo pianeta, Tormein.[ST:n ]Nessuno ha il coraggio di nominarlo ad alta voce.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0027</td>
+        <td class="side">Combatteva in modo maestoso. Ha decimato Clan[ST:n ]degli Alberi. Ucciso molti maschi. Rapito femmine.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0028</td>
+        <td class="side">Ganglion hanno catturato Dadaan. Ma lui &#232; scappato.[ST:n ]Ora vaga libero per Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev040701_MSG0029</td>
+        <td class="side">Non lascer&#242; che Dadaan faccia del male a Duna[ST:n ]o a Liana. Darei la vita per loro![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1001</td>
+        <td class="side">Nemard &#232; venuto da me. Mi ha chiesto[ST:n ]di insegnargli a combattere.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1002</td>
+        <td class="side">Ora lo sto allenando come una bestia[ST:n ]appena domata![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1003</td>
+        <td class="side">Ah! Ha subito abbandonato la sua pigrizia per[ST:n ]una femmina.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev040701_MSG1004</td>
+        <td class="side">Non mi dispiace aiutare Nemard. Gli insegno tutto[ST:n ]quello che so. Presto diventer&#224; un grande[ST:n ]guerriero. Come te![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2001</td>
+        <td class="side">Mio padre, Auld Bergasus, era un grande capo.[ST:n ]Un prode guerriero.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2002</td>
+        <td class="side">Ha attraversato deserti e foreste. Ha ucciso tutti[ST:n ]i membri di Clan delle Caverne che ha incontrato.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2003</td>
+        <td class="side">Ora &#232; tutt&#39;uno con Astara. Le bestie sono ai suoi[ST:n ]ordini! Attraverser&#224; i cieli di Oblivia! Ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev040701_MSG2004</td>
+        <td class="side">Grazie alien[ST:Gender p1=o p2=a ] della Terra. Hai agito con giudizio.[ST:n ]Hai riportato il suo corpo a una bestia degna[ST:n ]della sua forza![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

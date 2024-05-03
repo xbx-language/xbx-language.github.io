@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MNU_Ranking_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;Xenoformo abisal\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;El demonio del fuego\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;La bella y la bestia\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;El samur&#225;i wrothian\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;El arte de la guerra\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;El espectro de la materia oscura\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_TA007</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_TA008</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;Skells gemelos\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]\&quot;Fuera de s&#237;\&quot; Contrarreloj:[ST:col p1=white ] mejor tiempo</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_11</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_12</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_13</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_14</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_15</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_16</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]L&#237;der de la brigada:[ST:col p1=white ] puntos de brigada obtenidos</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]En apuros:[ST:col p1=white ] veces que has recibido apoyo de brigada</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_19</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_20</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Exterminador:[ST:col p1=white ] enemigos aniquilados</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Pesadilla del Enemigo del mundo:[ST:col p1=white ] da&#241;o PR total</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Sakuraba:[ST:col p1=white ] m&#225;x. da&#241;o con armas SA</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Grenada:[ST:col p1=white ] m&#225;x. da&#241;o con armas GG</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de C&amp;C:[ST:col p1=white ] m&#225;x. da&#241;o con armas CC</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Meredith:[ST:col p1=white ] m&#225;x. da&#241;o con armas ME</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Six Stars:[ST:col p1=white ] m&#225;x. da&#241;o con armas SS</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Orphean Tech.:[ST:col p1=white ] m&#225;x. da&#241;o con armas OR</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Nopon CG:[ST:col p1=white ] m&#225;x. da&#241;o con armas NP</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Incondicional de Factory:[ST:col p1=white ] m&#225;x. da&#241;o con armas FC</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Equipo de rescate:[ST:col p1=white ] PV repuestos con artes de recuperaci&#243;n</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]A pelo:[ST:col p1=white ] enemigos aniquilados sin equipo</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Coleccionista:[ST:col p1=white ] objetos recolectados</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]As de las misiones:[ST:col p1=white ] misiones completadas</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_35</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_36</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Don de gentes:[ST:col p1=white ] compa&#241;eros de cooperativas</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]En racha:[ST:col p1=white ] victorias en transacciones</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Cazarrecompensas:[ST:col p1=white ] expolios ultravaliosos abiertos</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Avalista:[ST:col p1=white ] total de cr&#233;ditos obtenidos</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]M&#237;o, m&#237;o, m&#237;o:[ST:col p1=white ] armas obtenidas en expolios de combate</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_42</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Azote:[ST:col p1=white ] da&#241;o m&#225;ximo</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Superviviente:[ST:col p1=white ] batallas ganadas con los PV en un solo d&#237;gito</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Golpe de suerte:[ST:col p1=white ] batallas ganadas con 777 PV</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]No hay miedo:[ST:col p1=white ] misiones multijugador completadas sin equipo</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Ba&#241;ista:[ST:col p1=white ] trajes de ba&#241;o obtenidos</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Pupas:[ST:col p1=white ] veces que te han revivido</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Semidi&#243;s:[ST:col p1=white ] veces que has revivido a otros</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Submarinista:[ST:col p1=white ] veces que te has ca&#237;do a un pozo</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Cazatesoros:[ST:col p1=white ] tesoros abiertos</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Portavoz del alma:[ST:col p1=white ] &#233;xitos al usar voces del alma</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]A manos llenas:[ST:col p1=white ] total de miranio extra&#237;do</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Cantando bajo la lluvia:[ST:col p1=white ] veces que te ha pillado la lluvia</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Bistur&#237;:[ST:col p1=white ] extremidades enemigas destruidas</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_56</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Soporte t&#233;cnico de Skells:[ST:col p1=white ] Skells reparados con artes</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Negligente:[ST:col p1=white ] Skells destrozados</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Aguafiestas:[ST:col p1=white ] veces que han aniquilado a tu equipo</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]N&#250;mero uno:[ST:col p1=white ] veces que te han reclutado</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Recursos humanos:[ST:col p1=white ] veces que has reclutado a otros</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td class="side">[ST:col p1=cyan ]Trotamundos:[ST:col p1=white ] viajes r&#225;pidos realizados</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_63</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_64</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_65</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_66</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_67</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_68</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_69</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td class="side">RNK_Name_70</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

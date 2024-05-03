@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev021101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev021101_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev021101_SEL0011</td>
+        <td class="side">Chiedi a Ciska delle condizioni di volo su Mira.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev021101_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev021101_SEL0021</td>
+        <td class="side">Chiedi a Ciska quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev021101_JNK0010</td>
+        <td class="side">tev021101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev021101_SEL0011</td>
+        <td class="side">tev021101_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev021101_JNK0020</td>
+        <td class="side">tev021101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev021101_SEL0041</td>
+        <td class="side">Chiedi a Ciska quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev021101_SEL1011</td>
+        <td class="side">Chiedi a Ciska delle condizioni di volo su Mira.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev021101_SEL1021</td>
+        <td class="side">Chiedi a Ciska quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0001</td>
+        <td class="side">Oltre al meteo imprevedibile, nei cieli miriani non[ST:n ]mancano strani tipi di onde elettromagnetiche.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0002</td>
+        <td class="side">I sistemi radar, progettati per funzionare sulla Terra,[ST:n ]impazziscono non appena li accendiamo.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0003</td>
+        <td class="side">Per questo &#232; necessario che anche l&#39;elicottero migliore[ST:n ]venga pilotato da qualcuno di estremamente abile.[ST:n ]Il rischio &#232; quello di uno schianto immediato.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0004</td>
+        <td class="side">Ovviamente, se tutti fossero come me, non ci sarebbero[ST:n ]questi problemi. Io non uso neanche il radar,[ST:n ]il mio intuito &#232; pi&#249; che sufficiente.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0010</td>
+        <td class="side">Abbiamo ricevuto un&#39;altra richiesta dalla[ST:n ]Grenada Galactic Group, e sto gi&#224;[ST:n ]smaniando per iniziare.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0011</td>
+        <td class="side">Ma come dice sempre Howard, \&quot;Finch&#233; i preparativi[ST:n ]non sono ultimati in modo impeccabile,[ST:n ]non andrai da nessuna parte\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0012</td>
+        <td class="side">Howard &#232; un perfezionista maniacale, non riusciamo[ST:n ]mai a finire niente con lui intorno![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0013</td>
+        <td class="side">Quanto vorrei essere in squadra con [ST:Gender p1=un p2=una ] BLADE[ST:n ]rispettabile e gentile come te.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0014</td>
+        <td class="side">Roscoe mi ha ordinato di andare d&#39;accordo[ST:n ]con Howard, ma non &#232; possibile seguire[ST:n ]un ordine del genere.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0020</td>
+        <td class="side">Prima ero con la mia amica Anna e parlavamo[ST:n ]di quanto sarebbe bello andare a un centro termale.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0021</td>
+        <td class="side">Ma Neo L.A. non ne ha neanche uno, roba da pazzi.[ST:n ]Voglio dire, bar ne abbiamo in abbondanza, ma[ST:n ]i centri termali sono molto pi&#249; importanti![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev021101_MSG0022</td>
+        <td class="side">Inoltre, se costruissero un centro termale nella[ST:n ]zona commerciale, io e Anna andremmo tutti[ST:n ]i giorni. Sarebbe un bell&#39;aiuto per l&#39;economia, no?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1001</td>
+        <td class="side">Oltre al meteo imprevedibile, nei cieli miriani non[ST:n ]mancano strani tipi di onde elettromagnetiche.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1002</td>
+        <td class="side">I sistemi radar, progettati per funzionare sulla Terra,[ST:n ]impazziscono non appena li accendiamo.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1003</td>
+        <td class="side">Per questo, al comando di un elicottero, &#232; necessario[ST:n ]fare estrema attenzione anche al dettaglio[ST:n ]pi&#249; insignificante. Io gi&#224; lo so, ma...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1010</td>
+        <td class="side">Prima delle missioni, Howard mi ordinava sempre[ST:n ]di riparare qualsiasi cosa che fosse anche[ST:n ]solo minimamente graffiato.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1011</td>
+        <td class="side">Diceva: \&quot;Se non lo fai, non saprai mai cosa potrebbe[ST:n ]andare storto.\&quot; Mi sbraitava queste cose ogni[ST:n ]giorno... e io mi sono sempre opposta.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1012</td>
+        <td class="side">Ma Howard aveva ragione. Questo &#232; successo perch&#233;[ST:n ]ho sempre fatto poca attenzione alle piccolezze.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1013</td>
+        <td class="side">Vorrei cos&#236; tanto scusarmi con lui e fargli sapere[ST:n ]che mi spiace di essermi rifiutata di imparare[ST:n ]ci&#242; che voleva insegnarmi.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev021101_MSG1014</td>
+        <td class="side">Ma adesso &#232; troppo tardi. Tutto ci&#242; che posso fare[ST:n ]&#232; seguire i suoi insegnamenti, almeno i suoi[ST:n ]sforzi non saranno stati inutili.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041104_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0001</td>
+        <td class="side">Calma, ragazza, caaalma... Eh eh.[ST:n ]Questa stupida zuccona ci vuole bene.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0002</td>
+        <td class="side">Te l&#39;avevo detto che darle il contentino, prima[ST:n ]di fare la nostra mossa, ci avrebbe ripagato.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0003</td>
+        <td class="side">Ora, chi vuole scartare i regali?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0004</td>
+        <td class="side">Eh eh. Il vecchio Zazazan teneva mooolto al suo carico.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0005</td>
+        <td class="side">Se ci va bene, saremo a posto per settimane![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041004_JNK0010</td>
+        <td class="side">Intervieni</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041004_SEL0011</td>
+        <td class="side">Intervieni e fermali.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041004_JNK0020</td>
+        <td class="side">Osserva</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041004_SEL0021</td>
+        <td class="side">Aspetta e guarda cosa succede.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0006</td>
+        <td class="side">Uh? Ehi, tu sei [ST:Gender p1=quel tizio p2=quella tizia ]! Fammi indovinare, Zazazan[ST:n ]ti ha assunto per riprendersi la sua roba, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0007</td>
+        <td class="side">Quel tale &#232; il pi&#249; taccagno dei taccagni, e se &#232;[ST:n ]disposto a spendere cos&#236; tanto per questo carico,[ST:n ]chiss&#224; cosa conterr&#224;... Gioielli? Armi speciali?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0008</td>
+        <td class="side">Qualsiasi cosa sia, non sto nella pelle dalla voglia di[ST:n ]scoprirlo. E, una volta che avremo finito con te,[ST:n ]avremo tutto il tempo a disposizione per controllare.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0009</td>
+        <td class="side">Ultimo sforzo, ragazzi! &#200; il momento di insegnare[ST:n ]a [ST:Gender p1=questo p2=questa ] ficcanaso a farsi gli affari suoi.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0011</td>
+        <td class="side">Ma che... L&#39;ha chiuso a chiave?[ST:n ]Oh, per l&#39;amor del...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0012</td>
+        <td class="side">Guardatevi attorno, babbei! Trovate una roccia[ST:n ]o qualcosa per spaccare il lucchetto![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0013</td>
+        <td class="side">Uh? Ehi, tu sei [ST:Gender p1=quel tizio p2=quella tizia ]! Fammi indovinare, Zazazan[ST:n ]ti ha [ST:Gender p1=ingaggiato p2=ingaggiata ] per riprendersi la sua roba, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0014</td>
+        <td class="side">Quel tale &#232; il pi&#249; taccagno dei taccagni, e se &#232;[ST:n ]disposto a spendere cos&#236; tanto per questo carico,[ST:n ]chiss&#224; cosa conterr&#224;... Gioielli? Armi speciali?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0015</td>
+        <td class="side">Qualsiasi cosa sia, non sto nella pelle dalla voglia di[ST:n ]scoprirlo. E, una volta che avremo finito con te,[ST:n ]avremo tutto il tempo a disposizione per controllare.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041004_MSG0016</td>
+        <td class="side">Ultimo sforzo, ragazzi! &#200; il momento di insegnare[ST:n ]a [ST:Gender p1=questo p2=questa ] ficcanaso a farsi gli affari suoi.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

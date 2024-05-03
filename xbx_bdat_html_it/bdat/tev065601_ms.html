@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev065601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev065601_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev065601_SEL0011</td>
+        <td class="side">Chiedi a Go Belg dei Wrothian.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev065601_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev065601_SEL0021</td>
+        <td class="side">Chiedi a Go Belg se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0001</td>
+        <td class="side">Non sono pi&#249; al servizio dei Ganglion, dunque non ho[ST:n ]alcun motivo di contrasto con voi.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0002</td>
+        <td class="side">Comunque sia, non &#232; mio compito giudicarvi amici[ST:n ]o nemici e finch&#233; il Principe Ga Jiarg non si sar&#224;[ST:n ]pronunciato, non posso dir nulla sulla nostra gente.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0005</td>
+        <td class="side">Un essere umano? Bah. Non avrei voluto che la vostra[ST:n ]gente assistesse a un simile spettacolo pietoso.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0006</td>
+        <td class="side">Con la spada, possiamo rivaleggiare con chicchessia.[ST:n ]Ma per quel che concerne la medicina, non abbiamo[ST:n ]neanche un briciolo della tecnologia dei Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0007</td>
+        <td class="side">Ora che siamo soli, ci difettano persino le capacit&#224;[ST:n ]di curare un semplice malanno di un fanciullo.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0008</td>
+        <td class="side">Cosa possiamo fare? Dovremmo forse arrenderci[ST:n ]nuovamente a quei malvagi al fine di[ST:n ]salvare la nostra gente?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev065601_JNK0010</td>
+        <td class="side">tev065601_JNK0010</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev065601_SEL1011</td>
+        <td class="side">Chiedi a Go Belg cosa pensa dei trattati[ST:n ]di amicizia con gli Xenomorfi.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev065601_JNK0020</td>
+        <td class="side">tev065601_JNK0020</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev065601_SEL1021</td>
+        <td class="side">Chiedi a Go Belg se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0009</td>
+        <td class="side">Il Principe Ga Jiarg ha decretato di[ST:n ]combattere al fianco degli umani![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0010</td>
+        <td class="side">Hanno combattuto valorosamente durante lo scontro[ST:n ]di Sylvalum, facendo sfoggio non solo di forza[ST:n ]fisica, ma anche di carattere.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0011</td>
+        <td class="side">Appoggio la decisione del nostro principe[ST:n ]con grande entusiasmo.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0014</td>
+        <td class="side">Mmmh...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0015</td>
+        <td class="side">Che strano, giurerei di aver gi&#224; visto[ST:n ]il tuo volto altrove.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0016</td>
+        <td class="side">Forse ci siamo scontrati in battaglia? No...[ST:n ]dev&#39;essere stato in un&#39;altra occasione.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0017</td>
+        <td class="side">Mmmh... questa faccenda m&#39;inquieta.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev065601_JNK0010</td>
+        <td class="side">tev065601_JNK0010</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev065601_SEL2011</td>
+        <td class="side">Chiedi a Go Belg cosa pensa dei trattati[ST:n ]di amicizia con gli Xenomorfi.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev065601_JNK0020</td>
+        <td class="side">tev065601_JNK0020</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev065601_SEL2021</td>
+        <td class="side">Chiedi a Go Belg se c&#39;&#232; qualcosa che lo preoccupa.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0018</td>
+        <td class="side">Il profondo rispetto che nutro verso le antiche leggi mi[ST:n ]impedisce di accogliere novit&#224;. Sar&#224; un mio difetto.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0019</td>
+        <td class="side">Pu&#242; darsi che, qualora fossi stato pi&#249; incline, avrei[ST:n ]trovato un modo per resistere ai Ganglion, anzich&#233;[ST:n ]obbedir loro s&#236; vilmente.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0020</td>
+        <td class="side">Ma i giovani di Wroth mi lasciano ben sperare.[ST:n ]La vostra citt&#224; potrebbe fornir loro nuove esperienze[ST:n ]e gli strumenti necessari per temprare la nostra gente.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0021</td>
+        <td class="side">Fintantoch&#233; ricorderanno di onorare le nostre importanti[ST:n ]tradizioni, cos&#236; come i nostri doveri.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0025</td>
+        <td class="side">Gi Ziordo e Gi Ziorde sono ancora in qualche[ST:n ]luogo lontano da qui, a perseguire il loro[ST:n ]proposito di perfezionamento.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0026</td>
+        <td class="side">Ma li conosco. Potranno ancora scontrarsi lungo[ST:n ]il cammino, ma non si separeranno mai pi&#249;.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0027</td>
+        <td class="side">Eh? Cosa intendo fare?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0028</td>
+        <td class="side">Orbene, molti dei miei compagni si sono stabiliti a[ST:n ]Neo L.A., immagino che rester&#242; qui per proteggere[ST:n ]il Principe Ga Jiarg, nell&#39;attesa dei miei pupilli.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev065601_MSG0029</td>
+        <td class="side">Questa &#232; l&#39;ultima sfida per un anziano guerriero.[ST:n ]Ove mai qualcuno osasse attaccarci, combatter&#242; finch&#233;[ST:n ]questo corpo non smetter&#224; di obbedirmi! Ah ah ah![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

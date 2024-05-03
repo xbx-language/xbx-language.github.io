@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev041601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Vio por los ganglion.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Vio si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0010</td>
+        <td class="side">tev041601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Vio por los ganglion.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0020</td>
+        <td class="side">tev041601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0021</td>
+        <td class="side">tev041601_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0010</td>
+        <td class="side">tev041601_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Vio por la batalla final[ST:n ]en el n&#250;cleo del Arca de la vida.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0020</td>
+        <td class="side">tev041601_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0021</td>
+        <td class="side">tev041601_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0010</td>
+        <td class="side">tev041601_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0071</td>
+        <td class="side">Preg&#250;ntale a Vio por los ganglion.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev041601_JNK0020</td>
+        <td class="side">tev041601_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev041601_SEL0021</td>
+        <td class="side">tev041601_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev041601_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Vio si hay alguna novedad.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev041601_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Vio si hay alguna novedad.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0001</td>
+        <td class="side">Ganglion intentaron aliarse con clan arb&#243;reo[ST:n ]primero. &#191;Lo sab&#237;as?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0002</td>
+        <td class="side">Dijeron que pod&#237;amos ense&#241;ar fuerza de prones[ST:n ]a universo. &#161;Ja! Todo palabrer&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0003</td>
+        <td class="side">Dijimos que no. Clan arb&#243;reo no obedece a cobardes.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0004</td>
+        <td class="side">Entonces, se aliaron con clan cavernario. Casi[ST:n ]nos destruyen. Pero &#161;no nos arrepentimos de nada![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0005</td>
+        <td class="side">Clan cavernario es como rama partida en suelo.[ST:n ]Pero clan arb&#243;reo tiene cabeza bien alta.[ST:n ]&#161;Somos m&#225;s fuertes y sabios![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0010</td>
+        <td class="side">Sajif Scoppio dice que necesitamos t&#225;cticas [ST:n ]para sobrevivir a pr&#243;ximas batallas.[ST:n ]&#161;Siempre est&#225; sermoneando![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0011</td>
+        <td class="side">No puede ser bueno ser tan inteligente. &#161;Ja![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0012</td>
+        <td class="side">Sus charlas son muy largas. &#161;Podr&#237;a matar[ST:n ]a cinco peleles de clan cavernario antes de acabar![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0013</td>
+        <td class="side">Pr&#243;xima vez que hable, le callar&#233; a pu&#241;etazos.[ST:n ]&#161;Demostrar&#233; que mis t&#225;cticas son mejores![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0018</td>
+        <td class="side">&#191;Has intentado dialogar con ganglion?[ST:n ]&#161;No atienden a razones![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0019</td>
+        <td class="side">No puedes mostrar debilidad. Ni bajar guardia.[ST:n ]Porque es cuando acaban con todo lo que amas.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0020</td>
+        <td class="side">Supongo que aprendiste lecci&#243;n en &#250;ltima batalla.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0021</td>
+        <td class="side">Pr&#243;xima vez que los veas, &#161;aprieta gatillo![ST:n ]&#161;Nada de hablar![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0026</td>
+        <td class="side">&#191;Que vas a Cauldros a empezar gran enfrentamiento?[ST:n ]No te preocupes. Cuidaremos de ciudad[ST:n ]mientras est&#225;s fuera.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0027</td>
+        <td class="side">Si ganglion atacan, &#161;los mandaremos[ST:n ]de vuelta a espacio! &#161;Ja, ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0028</td>
+        <td class="side">L&#225;nzales todo lo que tengas. &#161;No mires atr&#225;s![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0033</td>
+        <td class="side">En mi &#250;ltima cacer&#237;a, me atacaron[ST:n ]supervivientes ganglion. Por supuesto,[ST:n ]acab&#233; con ellos en visto y no visto.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0034</td>
+        <td class="side">Pero es preocupante. Sin l&#237;der, se disparataron.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0035</td>
+        <td class="side">Algunos vieron supervivientes[ST:n ]m&#225;s amenazadores que cualquier ganglion[ST:n ]con los que se enfrentaron antes.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev041601_MSG0036</td>
+        <td class="side">Ten cuidado si exploras Mira.[ST:n ]&#161;Bestias heridas son m&#225;s peligrosas![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev041601_MSG1001</td>
+        <td class="side">Sajif me ense&#241;&#243; \&quot;estrategia\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev041601_MSG1002</td>
+        <td class="side">Empiezo a verle atractivo.[ST:n ]&#161;Alien&#237;genas terrestres piensan en todo![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev041601_MSG1003</td>
+        <td class="side">En pr&#243;xima batalla, usar&#233; t&#225;ctica \&quot;ala de grulla\&quot;[ST:n ]para sorprender a ganglion. &#161;Les dar&#233; caza[ST:n ]como ave de presa![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev041601_MSG2001</td>
+        <td class="side">No necesito tu \&quot;estrategia\&quot;, alien&#237;gena terrestre.[ST:n ]Pero admiro tu fuerza.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev041601_MSG2002</td>
+        <td class="side">T&#250; no hablas tanto como Sajif.[ST:n ]&#161;Eres [ST:Gender p1=verdadero guerrero p2=verdadera guerrera ] que se enfrenta[ST:n ]sin temor a ganglion![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev041601_MSG2003</td>
+        <td class="side">Deber&#237;amos cazar juntos alguna vez.[ST:n ]Quiz&#225; cerca de lago Janpath.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev041601_MSG2004</td>
+        <td class="side">Presa valiosa llamada Ghuri el Rastreador vaga[ST:n ]por Orilla norte. Olvida estrategia. &#161;Lo aplastaremos[ST:n ]con nuestras manos![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

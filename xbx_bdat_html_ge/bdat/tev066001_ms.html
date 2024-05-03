@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev066001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">Erkundigen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0011</td>
+        <td class="side">Sprich mit Da Naguth &#252;ber die Wrothianer.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">Unterhalten[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0021</td>
+        <td class="side">Frage Da Naguth, was ihn gerade besch&#228;ftigt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">tev066001_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0031</td>
+        <td class="side">Sprich mit Da Naguth &#252;ber die Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">tev066001_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0041</td>
+        <td class="side">Frage Da Naguth, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">tev066001_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev066001_SEL0031</td>
+        <td class="side">tev066001_SEL0031</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">tev066001_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev066001_SEL1021</td>
+        <td class="side">Frage Da Naguth, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0010</td>
+        <td class="side">tev066001_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev066001_SEL1031</td>
+        <td class="side">Sprich mit Da Naguth &#252;ber die Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev066001_JNK0020</td>
+        <td class="side">tev066001_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev066001_SEL1021</td>
+        <td class="side">tev066001_SEL1021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0001</td>
+        <td class="side">Ein Mensch? Was f&#252;hrt Euch her?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0002</td>
+        <td class="side">Ist es Rache, nach der Euch d&#252;rstet?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0003</td>
+        <td class="side">Dann wisset, dass wir Wrothianer nicht l&#228;nger im Dienst[ST:n ]der Ganglion stehen. Somit mag auch unser Zwist mit[ST:n ]Euch Menschen ein Ende haben.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0004</td>
+        <td class="side">Doch wenn Ihr auf einem Kampf besteht, werde ich[ST:n ]Euch einen liefern. Nun?[ST:n ]...Wollt Ihr nicht endlich Eure Waffe ziehen?![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0009</td>
+        <td class="side">Wir sind Wrothianer, Mensch! Unsere St&#228;rke wird[ST:n ]besungen, unser Stolz ist nicht zu brechen![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0010</td>
+        <td class="side">Und m&#246;gen wir auch verarmt und heimatlos sein:[ST:n ]Eure Hilfe ist unerw&#252;nscht![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0015</td>
+        <td class="side">Diese kaltbl&#252;tigen Schurken streben nur danach, Gebiete[ST:n ]f&#252;r die Samaar-F&#246;deration zu erobern. Voller List und[ST:n ]T&#252;cke gehen sie vor, und sie kennen keine Skrupel.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0016</td>
+        <td class="side">Und doch haben wir sie in ihrem liederlichen Tun[ST:n ]unterst&#252;tzt... M&#246;gen widrige Umst&#228;nde uns auch dazu[ST:n ]gezwungen haben, so lasten diese S&#252;nden doch schwer.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0017</td>
+        <td class="side">Daf&#252;r sollen die Ganglion zahlen! Eines Tages werde[ST:n ]ich sie niederstrecken, was es mich auch kosten mag![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0021</td>
+        <td class="side">Prinz Ga Jiarg schloss also ein B&#252;ndnis mit Eurem[ST:n ]Volk. Dem sind auch wir verpflichtet und wir werden[ST:n ]Eure Reihen gehorsam verst&#228;rken.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0022</td>
+        <td class="side">„Die Drei &#220;berragenden“ – so nennt man meine beiden[ST:n ]Geschwister und mich! Schickt uns gegen die Ganglion[ST:n ]in den Kampf und wir werden sie verheerend schlagen![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev066001_MSG0023</td>
+        <td class="side">Sobald die Zeit reif ist, werdet Ihr dies mit eigenen[ST:n ]Augen sehen. Kein Mensch kann es mit unseren[ST:n ]Kampfstilen aufnehmen![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1001</td>
+        <td class="side">Ich sah Euren Kampf gegen die elende Jacul-K&#246;nigin.[ST:n ]Eine gl&#228;nzende Leistung, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1002</td>
+        <td class="side">Ich muss gestehen, dass ich bis dato niemanden mit[ST:n ]solchem Ingrimm k&#228;mpfen sah, nicht einmal unter den[ST:n ]Kriegern meines eigenen Volkes.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1003</td>
+        <td class="side">Ich f&#252;hle mich &#252;ber alle Ma&#223;en geehrt, dass ich an[ST:n ]Eurer Seite fechten durfte. Auf dass wir eines Tages[ST:n ]erneut gemeinsam in die Schlacht ziehen![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1004</td>
+        <td class="side">Und dann wird es Da Naguth, der Schneidewind sein,[ST:n ]der EUCH aus der Not errettet, [ST:Gender p1=gro&#223;er Krieger p2=gro&#223;e Kriegerin ].[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1009</td>
+        <td class="side">Euch geb&#252;hrt mein tief empfundener Dank f&#252;r die[ST:n ]Ausl&#246;schung der Ganglion. Doch es h&#228;tte an uns[ST:n ]sein sollen, den entscheidenden Schlag zu f&#252;hren.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1010</td>
+        <td class="side">Wir Wrothianer m&#252;ssen Bu&#223;e tun! F&#252;r all jene[ST:n ]Gr&#228;ueltaten, die wir auf Gehei&#223; unserer ehrlosen[ST:n ]Dienstherren an anderen Gesch&#246;pfen begingen.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1011</td>
+        <td class="side">Ich vernahm, dass noch immer zahlreiche Truppen der[ST:n ]Ganglion in Cauldros umtriebig sind.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev066001_MSG1012</td>
+        <td class="side">Wenn wir schon sonst nicht von Nutzen sein k&#246;nnen,[ST:n ]so lasst mich und meine Kameraden zumindest diese[ST:n ]Ruchlosen in alle Winde versprengen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev055691_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0001</td>
+        <td class="side">Nu! Erdpon-Stadt steckt wirklich st&#228;ndig in Krise.[ST:n ]Freunde haben Mitgef&#252;hl von Cheche.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0002</td>
+        <td class="side">Dann wiederum – Krise gut f&#252;r Gesch&#228;ft![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0003</td>
+        <td class="side">Obermotze von R&#252;stungsfirmen haben Cheche hierher[ST:n ]geschickt![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0004</td>
+        <td class="side">Haben Cheche sogar R&#252;stungsfirmenportal und[ST:n ]Einkaufsterminal mit auf Weg gegeben![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0005</td>
+        <td class="side">Und Preise sind – UNGLAUBLICH! – selber Kurs[ST:n ]wie in Stadt! Da ist [ST:Gender p1=Freund p2=Freundin ] sprachlos, was?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0006</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] hat keinen Grund, nicht sofort zuzuschlagen.[ST:n ]Bitte reichlich brutale Waffen kaufen und damit[ST:n ]Ganglion piff-paff machen.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0010</td>
+        <td class="side">Los, los! Bitte zuschlagen! [ST:Gender p1=Freund p2=Freundin ] findet hier alles,[ST:n ]um stinkende Ganglion zu verpr&#252;geln.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0011</td>
+        <td class="side">Cheche legt Karten auf Tisch. 50 % von Erl&#246;s geht[ST:n ]direkt in Cheches Tasche.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0012</td>
+        <td class="side">Aber allein Teilzeit-Nopon kosten Cheche schon[ST:n ]30 Katsching pro Tag![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev055691_MSG0013</td>
+        <td class="side">Cheche kann also gut verstehen, wenn [ST:Gender p1=Freund p2=Freundin ] aus[ST:n ]Mitgef&#252;hl f&#252;r Cheche doppelte und dreifache Menge[ST:n ]einkauft.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

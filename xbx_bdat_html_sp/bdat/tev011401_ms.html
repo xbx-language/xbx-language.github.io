@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev011401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev011401_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev011401_SEL0011</td>
+        <td class="side">Dile a Gerome que te hable de su pasado.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev011401_JNK0020</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev011401_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Gerome si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev011401_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Gerome qu&#233; piensa[ST:n ]de los xenoformos que viven en NLA.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev011401_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Gerome qu&#233; piensa de los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev011401_SEL0051</td>
+        <td class="side">Preg&#250;ntale a Gerome si ha o&#237;do[ST:n ]alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0001</td>
+        <td class="side">La cat&#225;strofe se produjo en el 2054: los xenoformos[ST:n ]atacaron la Tierra y la mayor parte de su superficie[ST:n ]qued&#243; reducida a cenizas.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0002</td>
+        <td class="side">A&#250;n a d&#237;a de hoy, nadie entiende[ST:n ]c&#243;mo pudo ocurrir algo as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0003</td>
+        <td class="side">&#191;Por qu&#233; decidieron dos especies alien&#237;genas[ST:n ]convertir la Tierra en un campo de batalla?[ST:n ]&#191;Por qu&#233; nos odiaban tanto? Ni idea.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0004</td>
+        <td class="side">Lo &#250;nico que tenemos claro es que su ataque[ST:n ]devastador acab&#243; con innumerables vidas[ST:n ]y le hizo un da&#241;o incalculable a nuestro mundo.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0006</td>
+        <td class="side">El d&#237;a que nos atacaron perdimos a tant&#237;sima gente...[ST:n ]Entre ellos, &#161;a toda mi familia! &#161;Malditos sean![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0009</td>
+        <td class="side">Venir aqu&#237; y comerme una pizza de estas[ST:n ]me recuerda a cuando mi mujer y mi hija[ST:n ]hac&#237;an pizza casera por Navidad.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0010</td>
+        <td class="side">Esos malditos xenoformos me lo arrebataron todo.[ST:n ]El cari&#241;o de mi mujer... La sonrisa de mi hija... &#161;Todo![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0011</td>
+        <td class="side">No los voy a perdonar nunca.[ST:n ]&#161;Alg&#250;n d&#237;a har&#233; que sientan en sus carnes[ST:n ]todo el dolor que me han causado![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0020</td>
+        <td class="side">&#191;Y ahora resulta que estamos firmando[ST:n ]tratados de amistad con los xenoformos?[ST:n ]&#191;Qu&#233; narices le pasa a Chausson?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0021</td>
+        <td class="side">Gracias a esa estupidez, &#161;los malditos xenoformos[ST:n ]se han hecho los due&#241;os del Army Pizza![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0022</td>
+        <td class="side">Es mi rinc&#243;n: &#161;el lugar donde vengo[ST:n ]a relajarme y recordar a mi mujer y a mi hija![ST:n ]&#161;Les encantaba la pizza![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0023</td>
+        <td class="side">Primero los ganglion me quitan a mi familia y luego[ST:n ]los xenoformos se adue&#241;an del &#250;nico refugio que me[ST:n ]quedaba en NLA. &#161;&#191;Qu&#233; he hecho para merecer esto?![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0024</td>
+        <td class="side">Cr&#233;eme, no les voy a quitar el ojo de encima[ST:n ]a esos xenoformos. En cuanto vea que alguno[ST:n ]se comporta de manera sospechosa, &#161;me lo cargo![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0038</td>
+        <td class="side">Como los ganglion no ten&#237;an suficiente[ST:n ]con asolar la Tierra y masacrar a mi familia,[ST:n ]ahora han venido tambi&#233;n a NLA, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0039</td>
+        <td class="side">&#161;Muchos miembros de BLADE han perdido[ST:n ]la vida por defender esta ciudad![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0040</td>
+        <td class="side">Los ganglion tienen que pagar por ello.[ST:n ]&#161;Tenemos que acabar con diez de ellos[ST:n ]por cada uno de nuestros ca&#237;dos![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0041</td>
+        <td class="side">Y &#191;qu&#233; me dices de nuestros \&quot;aliados\&quot; ma-non? &#191;Los[ST:n ]has visto luchando con nosotros? &#161;Yo solo los he visto[ST:n ]huir hacia su nave mientras luch&#225;bamos y mor&#237;amos![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0042</td>
+        <td class="side">&#191;Cu&#225;ndo va a tomar Chausson cartas[ST:n ]en el asunto para que dejen de pisotearnos?[ST:n ]&#161;Creo que ni &#233;l mismo lo sabe![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0043</td>
+        <td class="side">Y &#161;&#191;cu&#225;ndo dejaremos de proteger[ST:n ]a esos holgazanes con nuestras vidas?![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0046</td>
+        <td class="side">Encima, &#161;me acabo de enterar de que han admitido[ST:n ]a un ma-non en BLADE! Me lo esperaba de un idiota[ST:n ]como Chausson, pero de Vandham... &#161;Qu&#233; verg&#252;enza![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0047</td>
+        <td class="side">&#191;A nadie le preocupa que los ma-non[ST:n ]puedan ser esp&#237;as de los ganglion? &#161;&#161;Pi&#233;nsalo!![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0048</td>
+        <td class="side">Me han dicho que el BLADE ma-non se ha unido[ST:n ]a los Mediator y lo han destinado al distrito comercial.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev011401_MSG0049</td>
+        <td class="side">No voy a aceptar nunca que ese maldito ma-non[ST:n ]sea un miembro de BLADE. &#161;Ni hablar! &#161;No, se&#241;or![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

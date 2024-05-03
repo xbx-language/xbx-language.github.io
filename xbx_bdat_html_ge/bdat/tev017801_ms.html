@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev017801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0011</td>
+        <td class="side">Frage Alan, wie er &#252;ber Vandham denkt.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0021</td>
+        <td class="side">Frage Alan, was ihn gerade besch&#228;ftigt.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0010</td>
+        <td class="side">tev017801_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0031</td>
+        <td class="side">Frage Alan, was er &#252;ber Gestell-Level wei&#223;.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev017801_JNK0020</td>
+        <td class="side">tev017801_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev017801_SEL0021</td>
+        <td class="side">tev017801_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev017801_SEL1021</td>
+        <td class="side">Frage Alan, was sich in letzter Zeit so getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0001</td>
+        <td class="side">Vandham war Chefmechaniker auf dem Wei&#223;en Wal.[ST:n ]Er hat sich den Respekt der Mechaniker an Bord[ST:n ]hart erarbeitet.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0002</td>
+        <td class="side">Die meisten Leute in meiner Abteilung haben nichts[ST:n ]als Bewunderung f&#252;r diesen Mann &#252;brig.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0003</td>
+        <td class="side">Wenn er mich nicht regelm&#228;&#223;ig angebr&#252;llt h&#228;tte, w&#228;re[ST:n ]ich heute nicht der f&#228;hige Mechaniker, der ich bin.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0004</td>
+        <td class="side">Selbst heute f&#252;hle ich mich in seiner Gegenwart noch[ST:n ]wie ein kleiner Schuljunge vor seinem Klassenlehrer.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0010</td>
+        <td class="side">Ich habe eine Kollegin namens Brenna. Sie ist die[ST:n ]Planerin f&#252;r die Kontrollsysteme.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0011</td>
+        <td class="side">Wenn auch nur das kleinste Problem auftritt, ist sie[ST:n ]sofort mit ihrem Latein am Ende.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0012</td>
+        <td class="side">Und wenn wir neue Ideen sammeln, lehnt sie meistens[ST:n ]alles kategorisch ab, ohne dass wir &#252;berhaupt die[ST:n ]M&#246;glichkeiten und die Umsetzbarkeit er&#246;rtert haben.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0013</td>
+        <td class="side">Dabei sollte sie als Mechanikerin eigentlich immer nach[ST:n ]neuen L&#246;sungen suchen. Es w&#228;re sch&#246;n, wenn sie da[ST:n ]irgendwann mal ihre Scheuklappen ablegen w&#252;rde.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0015</td>
+        <td class="side">Der Gestell-Level deines Skells bestimmt &#252;ber die Waffen[ST:n ]und R&#252;stungen, mit denen du ihn ausstatten kannst.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0016</td>
+        <td class="side">Mit anderen Worten: Wenn du m&#228;chtige Waffensysteme[ST:n ]einsetzen willst, brauchst du ein Gestell, das f&#252;r diese[ST:n ]Art von Bewaffnung ausgelegt ist.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev017801_MSG0017</td>
+        <td class="side">Achte also beim Kauf eines Gestells nicht nur auf die[ST:n ]Angriffs- und Haltbarkeitswerte, sondern auch darauf,[ST:n ]ob du deine gew&#252;nschte Ausr&#252;stung verwenden kannst.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1001</td>
+        <td class="side">Ich habe letztens mit Brenna gesprochen.[ST:n ]Sie scheint tats&#228;chlich ein wenig flexibler[ST:n ]in ihrer Denkweise geworden zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1002</td>
+        <td class="side">Bis vor Kurzem wollte sie jedem Problem mit der[ST:n ]konservativsten und risiko&#228;rmsten L&#246;sung begegnen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1003</td>
+        <td class="side">Aber jetzt wollte sie pl&#246;tzlich einen innovativen[ST:n ]L&#246;sungsansatz nach dem anderen mit mir besprechen.[ST:n ]Ich dachte fast, ich spreche mit Lin im Brenna-Kost&#252;m.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev017801_MSG1004</td>
+        <td class="side">Vielleicht hat sie ihre Lehren aus unserer schwierigen[ST:n ]Mission von neulich gezogen. Ich zumindest bin[ST:n ]daran gewachsen![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>xs01060100_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0001</td>
+        <td class="side">Voil&#224; donc le tableau des missions...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0002</td>
+        <td class="side">On n&#39;a pas encore de syst&#232;me de r&#233;partition, les agents[ST:n ]du BLADE choisissent eux-m&#234;mes leurs missions.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0003</td>
+        <td class="side">Tout le monde vient ici et choisit les missions[ST:n ]disponibles sur le tableau.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0004</td>
+        <td class="side">Il n&#39;y a pas que des t&#226;ches officielles du BLADE.[ST:n ]N&#39;importe qui peut y publier une requ&#234;te.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0005</td>
+        <td class="side">Entreprises, citoyens... Tout le monde.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0006</td>
+        <td class="side">C&#39;est comme &#231;a que les choses marchent &#224; New[ST:n ]L.A., alors le tableau est mis &#224; jour en continu.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0007</td>
+        <td class="side">Presque tous les membres du BLADE passent par[ST:n ]ici &#224; un moment, pendant leur service.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0008</td>
+        <td class="side">C&#39;est comme notre deuxi&#232;me maison.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0009</td>
+        <td class="side">Tu verras toujours des agents du BLADE ici, qu&#39;ils soient l&#224;[ST:n ]pour se d&#233;tendre ou chercher une mission sur le tableau.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0011</td>
+        <td class="side">D&#232;s que j&#39;ai un moment, je viens voir s&#39;il y a[ST:n ]des missions que je peux remplir.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0012</td>
+        <td class="side">De m&#234;me. Et si la mission semble trop difficile[ST:n ]pour la g&#233;rer en solitaire...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0013</td>
+        <td class="side">C&#39;est &#224; &#231;a que sert la console de recrutement.[ST:n ]Nous allons te montrer ce que c&#39;est.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0014</td>
+        <td class="side">H&#233;, qui organise cette visite, au fait ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0015</td>
+        <td class="side">On a aussi la console de recrutement, si la[ST:n ]mission est trop difficile &#224; g&#233;rer en solitaire.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>xs01060100_MSG0016</td>
+        <td class="side">Et c&#39;est exactement ce que vient de dire Elma...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

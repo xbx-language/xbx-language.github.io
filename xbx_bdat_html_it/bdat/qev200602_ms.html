@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev200602_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0001</td>
+        <td class="side">Ti stavo aspettando. Questa &#232; la prima[ST:n ]volta che ci incontriamo, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0010</td>
+        <td class="side">Annuisci</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0011</td>
+        <td class="side">Conferma che non vi siete mai incontrati.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0020</td>
+        <td class="side">Nega</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0021</td>
+        <td class="side">Afferma che vi siete gi&#224; incontrati una volta.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0030</td>
+        <td class="side">Nega con decisione</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0031</td>
+        <td class="side">Di&#39; che veramente &#232; la TERZA volta che vi incontrate.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0002</td>
+        <td class="side">Ah ah ah![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0003</td>
+        <td class="side">Sei molto gentile. O forse sei solo ingenu[ST:Gender p1=o p2=a ].[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0004</td>
+        <td class="side">Sono io! Yardley! Non ti ricordi[ST:n ]del buon vecchio Yardley?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0005</td>
+        <td class="side">Uh? Non mi aspettavo questa risposta.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0006</td>
+        <td class="side">Pensavo ti ricordassi dei nostri due precedenti[ST:n ]incontri. Hai perso la memoria?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0007</td>
+        <td class="side">Sono io! Yardley! Questo &#232; il nostro terzo incontro...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0008</td>
+        <td class="side">Non te ne sfugge una, eh?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0009</td>
+        <td class="side">Beh, immagino tu sappia che sono[ST:n ]il buon vecchio Yardley.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0010</td>
+        <td class="side">Lo so che hai qualche dubbio, ma ti posso assicurare[ST:n ]che sono sempre io quello che hai incontrato. Non[ST:n ]c&#39;&#232; nessun impostore che si fa passare per me.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0011</td>
+        <td class="side">Ho solo... cambiato il mio aspetto.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0012</td>
+        <td class="side">Ti ricordi della Chiave magnetica che hai trovato?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0013</td>
+        <td class="side">Beh, serve per attivare la biocapsula che ho[ST:n ]cercato di riparare con tutte le mie forze.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0014</td>
+        <td class="side">Vedi, gli umani sono delle anime che alloggiano[ST:n ]nei mimosomi che non sono altro che[ST:n ]contenitori temporanei.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0015</td>
+        <td class="side">Questa situazione ci dona la libert&#224; di cambiare[ST:n ]contenitore a piacimento.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0016</td>
+        <td class="side">Il Centro manutenzione mimosomi &#232; pieno di[ST:n ]biocapsule, ma sono tutte riservate all&#39;uso clinico.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0017</td>
+        <td class="side">A noi plebei non &#232; permesso avvicinarci.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0018</td>
+        <td class="side">Il che significa che questa &#232; l&#39;unica biocapsula[ST:n ]in cui la gente possa modellare il proprio[ST:n ]corpo per soddisfare i propri capricci.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0019</td>
+        <td class="side">Mi aspetto che tu abbia dubbi riguardo[ST:n ]a questo processo, ma io sono la prova[ST:n ]vivente del suo funzionamento.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0020</td>
+        <td class="side">La mia coscienza &#232; stata trapiantata con[ST:n ]successo in un corpo completamente nuovo.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0040</td>
+        <td class="side">Richiedi</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0041</td>
+        <td class="side">Chiedi a Yardley di poter usare la sua biocapsula.</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0050</td>
+        <td class="side">Preoccupati</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0051</td>
+        <td class="side">Di&#39; che un criminale potrebbe utilizzare[ST:n ]questa tecnologia per ragioni sbagliate.</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0060</td>
+        <td class="side">Elogia</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0061</td>
+        <td class="side">Complimenta Yardley per il suo piano.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0021</td>
+        <td class="side">Pfff! Certo, chiunque la pu&#242; usare![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0022</td>
+        <td class="side">Basta che sia disposto a pagare una modica tariffa.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0023</td>
+        <td class="side">Solo 1.000.000 di crediti... per ogni utilizzo.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0024</td>
+        <td class="side">Io non mi preoccuperei per quello.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0025</td>
+        <td class="side">Considerando il suo costo, si pu&#242; dire[ST:n ]con sicurezza che sia fuori dalla portata[ST:n ]di teppistelli da quattro soldi.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0026</td>
+        <td class="side">Anche un pezzo grosso ci penserebbe due[ST:n ]volte prima di pagare un milione di crediti.[ST:n ]Questo &#232; il prezzo per un singolo utilizzo![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0027</td>
+        <td class="side">Sono stato fortunato a imbattermi in questa biocapsula[ST:n ]seminuova nella parte sud della citt&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0028</td>
+        <td class="side">E il fatto che i nostri percorsi si sono incrociati &#232; stato[ST:n ]un altro colpo di fortuna, considerando che gi&#224;[ST:n ]sono due volte che mi servo del tuo aiuto.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0029</td>
+        <td class="side">E grazie a tutti questi incontri fortuiti ho finalmente[ST:n ]un&#39;occasione d&#39;oro per guadagnare un patrimonio.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0030</td>
+        <td class="side">I pi&#249; facoltosi di Neo L.A. faranno la fila[ST:n ]per utilizzare la mia macchina![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0031</td>
+        <td class="side">Ah, ma per te... per te &#232; gratis.[ST:n ]La puoi usare quando vuoi.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0032</td>
+        <td class="side">Diciamo che &#232; un modo di saldare i miei debiti.[ST:n ]Che ne dici? Ti interessa?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0070</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0071</td>
+        <td class="side">Assicura Yardley che ne farai buon uso.</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0080</td>
+        <td class="side">Esigi</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0081</td>
+        <td class="side">Di&#39; a Yardley che preferisci che ti paghi in contanti.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0033</td>
+        <td class="side">Fantastico![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0034</td>
+        <td class="side">A partire da questo momento siamo pari.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0035</td>
+        <td class="side">Eh, ma mi stavi ascoltando o no?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0036</td>
+        <td class="side">Sono SUL PUNTO di diventare estremamente ricco.[ST:n ]Ma al momento sono al verde...[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0037</td>
+        <td class="side">Quindi fammi il piacere di scordarti dei soldi per[ST:n ]un momento. Cogli questa incredibile opportunit&#224;[ST:n ]di scoprire [ST:Gender p1=un nuovo p2=una nuova ] [ST:playername ]![ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0038</td>
+        <td class="side">Gli altri dovranno sganciare un milione a botta, mentre[ST:n ]tu avrai accesso gratuito e illimitato per sempre![ST:n ]&#200; un&#39;offerta che vale pi&#249; di un pagamento in contanti.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0039</td>
+        <td class="side">Accetta la mia proposta e comincia[ST:n ]subito a usufruire della biocapsula![ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0040</td>
+        <td class="side">Fiuuu...[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0041</td>
+        <td class="side">Ho solo due condizioni per questo accordo.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0042</td>
+        <td class="side">La prima &#232; che tu non ne parli con nessuno.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0043</td>
+        <td class="side">Il direttore generale non sarebbe troppo contento se[ST:n ]venisse a conoscenza della mia piccola impresa.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0044</td>
+        <td class="side">La seconda &#232; che tu utilizzi la macchina solo[ST:n ]a tarda notte, in mia presenza.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0045</td>
+        <td class="side">Questo dovrebbe essere scontato, dato che senza la[ST:n ]mia Chiave magnetica non &#232; possibile attivare la[ST:n ]biocapsula, ma ti avverto per sicurezza.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0046</td>
+        <td class="side">Siamo d&#39;accordo?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0090</td>
+        <td class="side">Accetta</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0091</td>
+        <td class="side">Prometti di rispettare le condizioni di Yardley.</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev200602_JNK0100</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev200602_SEL0101</td>
+        <td class="side">Di&#39; che non vuoi fare promesse.</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0047</td>
+        <td class="side">Affare fatto![ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0048</td>
+        <td class="side">Spero che questo sia l&#39;inizio di una lunga[ST:n ]collaborazione vantaggiosa per entrambi.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0049</td>
+        <td class="side">Beh, bando alle ciance. Se vuoi[ST:n ]provare la capsula, salta dentro.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0050</td>
+        <td class="side">Ehm, no. Cos&#236;... cos&#236; non va bene.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0051</td>
+        <td class="side">Guarda, ammetto che ti ho ingannato per non[ST:n ]pagarti una ricompensa, ma questa volta[ST:n ]sono completamente sincero.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0052</td>
+        <td class="side">Guarda, perch&#233; non provi la biocapsula?[ST:n ]Ti assicuro che non te ne pentirai![ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev200602_MSG0053</td>
+        <td class="side">Forza! Salta dentro e scopri[ST:n ][ST:Gender p1=un nuovo p2=una nuova ] [ST:playername ]![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

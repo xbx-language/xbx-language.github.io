@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000792_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0001</td>
+        <td class="side">Hey, [ST:playername ]![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0002</td>
+        <td class="side">Ich hab nur eben diese nette Dame hier darum[ST:n ]gebeten, uns zus&#228;tzliches Verbandszeug bereitzustellen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0003</td>
+        <td class="side">Wir haben nachher zwei Tyrannen auf dem Plan, die[ST:n ]sich anscheined f&#252;r ein P&#228;rchen halten – sprich: Wir[ST:n ]werden es mit beiden gleichzeitig aufnehmen m&#252;ssen.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0004</td>
+        <td class="side">Ich f&#252;rchte, das k&#246;nnte einen ganzen Haufen[ST:n ]blauer Flecke geben.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000792_JNK0010</td>
+        <td class="side">Neid &#228;u&#223;ern</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000792_SEL0011</td>
+        <td class="side">Sage, dass du auch gern an so einem aufregenden[ST:n ]Kampf teilnehmen w&#252;rdest.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000792_JNK0020</td>
+        <td class="side">Hilfe anbieten</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000792_SEL0021</td>
+        <td class="side">Biete Doug an, ihn auf seine Mission zu begleiten.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000792_JNK0030</td>
+        <td class="side">Bewundern</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000792_SEL0031</td>
+        <td class="side">Dr&#252;cke Respekt daf&#252;r aus, wie Doug sich um[ST:n ]seine Kameraden k&#252;mmert.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0005</td>
+        <td class="side">Haha. Du bist wirklich ’ne Marke.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0006</td>
+        <td class="side">Wir Harrier zittern vor dieser Mission wie Espenlaub[ST:n ]und du bist beleidigt, weil du nicht mitspielen darfst?![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0007</td>
+        <td class="side">Alle Achtung! Du scheinst [ST:Gender p1=der p2=die ] geborene BLADE zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0008</td>
+        <td class="side">Ich w&#252;rde dich ja bitten, uns bei dieser Mission[ST:n ]anzuf&#252;hren, aber wir haben auch unseren Stolz.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0009</td>
+        <td class="side">Ich k&#252;mmer mich schon drum. Ich bringe das[ST:n ]komplette Team putzmunter zur&#252;ck, wirst schon sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0010</td>
+        <td class="side">&#220;rbigens winkt uns hier ein nettes S&#252;mmchen als[ST:n ]Belohnung. Wenn ich dich das n&#228;chste Mal sehe, geht[ST:n ]das Abendessen auf mich.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0011</td>
+        <td class="side">So, genug geplaudert. Ich muss los.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0012</td>
+        <td class="side">Aber danke f&#252;r die kleine Motivationsspritze.[ST:n ]Jetzt bin ich bester Kampflaune![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0013</td>
+        <td class="side">Oh, ich glaub nicht, dass das n&#246;tig ist.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0014</td>
+        <td class="side">Ich hab meine Missionen und du hast deine.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0015</td>
+        <td class="side">Nett, dass du uns helfen willst, aber wir k&#246;nnen dich ja[ST:n ]nicht den ganzen Laden allein schmei&#223;en lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0016</td>
+        <td class="side">Ich k&#252;mmer mich schon drum, vertrau mir.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0017</td>
+        <td class="side">Falls alle Stricke rei&#223;en, k&#246;nnen wir immer noch[ST:n ]Verst&#228;rkung anfordern. Dann kriegst du vielleicht doch[ST:n ]noch die Gelegenheit, uns den Hintern zu retten.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0018</td>
+        <td class="side">Oh, da f&#228;llt mir ein...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0019</td>
+        <td class="side">Es g&#228;be da etwas, bei dem ich deine Hilfe[ST:n ]gebrauchen k&#246;nnte.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0020</td>
+        <td class="side">Etwas viel, viel Gef&#228;hrlicheres als diese Mission.[ST:n ]Etwas, das f&#252;r das Schicksal der Menscheit[ST:n ]entscheidend sein k&#246;nnte![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0021</td>
+        <td class="side">Und zwar...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0022</td>
+        <td class="side">Die Entwicklung des Skell-Flugmoduls![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0023</td>
+        <td class="side">Ich f&#252;hr ja gern f&#252;r Lin die Feldversuche durch, aber[ST:n ]die Regierung wird jedem von uns sicher nur so und so[ST:n ]viele Ersatz-Mimoiden genehmigen, und da dachte ich...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0024</td>
+        <td class="side">...Was? Hey, ich dachte, du wolltest helfen![ST:n ]Lass mich jetzt nicht h&#228;ngen![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0025</td>
+        <td class="side">H&#246;r zu! Ich mein’s ernst, [ST:playername ]...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0026</td>
+        <td class="side">Daf&#252;r erwarte ich kein Lob.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0027</td>
+        <td class="side">Ich mach das hier nicht f&#252;r die Zukunft der Menschheit[ST:n ]oder was wei&#223; ich, was sich die Leute heutzutage auf[ST:n ]ihre Fahnen schreiben.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0028</td>
+        <td class="side">Ich hab’s nicht so mit Idealismus.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0029</td>
+        <td class="side">F&#252;r mich z&#228;hlt nur eins, und das sind meine[ST:n ]Kameraden.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0030</td>
+        <td class="side">Also tu ich alles, um den Leuten, die mir im Kampf zur[ST:n ]Seite stehen, zu helfen und sie zu besch&#252;tzen. Das[ST:n ]schlie&#223;t &#252;brigens auch dich mit ein.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0031</td>
+        <td class="side">Wenn ich damit der Menscheit als Ganzem einen[ST:n ]Dienst erweise – umso besser.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0032</td>
+        <td class="side">Aber ehrlich gesagt sorge ich mich in erster Linie[ST:n ]um das Wohl meiner Kameraden und um meinen[ST:n ]Kontostand.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev000792_MSG0033</td>
+        <td class="side">Du siehst also – das alles hier ist f&#252;r mich eine[ST:n ]Selbstverst&#228;ndlichkeit, nicht mehr und nicht weniger.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

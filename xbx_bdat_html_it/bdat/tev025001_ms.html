@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev025001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev025001_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev025001_SEL0011</td>
+        <td class="side">Chiedi a May riguardo a Oblivia.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev025001_JNK0020</td>
+        <td class="side">Parla</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev025001_SEL0021</td>
+        <td class="side">Chiedi a May quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev025001_SEL1021</td>
+        <td class="side">Chiedi a May quali siano le ultime novit&#224;.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0001</td>
+        <td class="side">Mentre esploravo i dintorni della Costa Sud, l&#39;altro[ST:n ]giorno, ho trovato un cespo di Agrifogli Kepha.[ST:n ]&#200; una cosa molto rara![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0002</td>
+        <td class="side">Sembra che alcuni mostri non ne sopportino l&#39;odore,[ST:n ]perci&#242; ho pensato che sarebbe stata una buona idea[ST:n ]raccoglierne un po&#39;, a scopo difensivo.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0003</td>
+        <td class="side">E all&#39;improvviso, BAM! Ecco che ne trovo un intero[ST:n ]boschetto! Un bel colpo di fortuna, eh?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0004</td>
+        <td class="side">Se dovesse mai servire anche a te, sappi che[ST:n ]l&#39;Agrifoglio Kepha si pu&#242; trovare al Costa Sud.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0009</td>
+        <td class="side">Quando sono tornata a Neo L.A., ho tirato fuori[ST:n ]il coraggio e ho parlato con Thomas, al cancello.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0010</td>
+        <td class="side">Mi ha insegnato molte cose che non sapevo[ST:n ]riguardo a come si pilotano gli Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0011</td>
+        <td class="side">Mi ha anche offerto di portarmi a fare una seduta[ST:n ]di allenamento. &#200; proprio un tipo gentile![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0012</td>
+        <td class="side">Ho davvero bisogno di uscire e parlare con gente[ST:n ]nuova. Svolgiamo meglio i nostri doveri[ST:n ]lavorando tutti assieme![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev025001_MSG0013</td>
+        <td class="side">Grazie del consiglio, [ST:playername ].[ST:n ]Avevi completamente ragione.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev025001_MSG1001</td>
+        <td class="side">Ho portato avanti la mia esplorazione di Oblivia con[ST:n ]quello Skell che mi hai aiutato ad aggiustare.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev025001_MSG1002</td>
+        <td class="side">La sto svolgendo da sola, quindi non faccio altro[ST:n ]che fuggire da un mostro all&#39;altro.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev025001_MSG1003</td>
+        <td class="side">Ma riesco a trovare ogni sorta di oggetto collezionabile[ST:n ]raro, come la Brezza Kridokan e i Nopoliti, proprio[ST:n ]nelle zone in cui mi nascondo.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev025001_MSG1004</td>
+        <td class="side">Per una BLADE scarsa come me, mi sembra[ST:n ]di star facendo molte cose notevoli.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev025001_MSG1005</td>
+        <td class="side">Continuiamo entrambi a fare del nostro meglio, OK?[ST:n ]E grazie per aver speso del tempo a parlare[ST:n ]con un BLADE di serie B come me![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

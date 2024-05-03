@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev026501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev026501_JNK0010</td>
+        <td class="side">Erkundigen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev026501_SEL0011</td>
+        <td class="side">Sprich mit Regina &#252;ber ihren Laden.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev026501_JNK0020</td>
+        <td class="side">Unterhalten[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev026501_SEL0021</td>
+        <td class="side">Frage Regina, ob sie etwas bedr&#252;ckt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0001</td>
+        <td class="side">Wir verkaufen hier ungew&#246;hnliche Funde, die mein[ST:n ]Mann von seinen Missionen mitbringt. Er ist Pathfinder[ST:n ]und stolpert bei der Arbeit immer wieder &#252;ber Kurioses.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0002</td>
+        <td class="side">Im Moment ist leider alles ausverkauft, also komm doch[ST:n ]bitte ein andermal wieder.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0003</td>
+        <td class="side">Mein Mann ist bestimmt bald zur&#252;ck, mit einer ganzen[ST:n ]Wagenladung abgefahrener Fundst&#252;cke. Da wirst du[ST:n ]aus den Kampflatschen kippen![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0008</td>
+        <td class="side">Ja... Mich bedr&#252;ckt tats&#228;chlich etwas.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0009</td>
+        <td class="side">Aber ich will nicht dar&#252;ber reden. Ich... will nicht[ST:n ]einmal daran denken. Es kann nicht wahr sein.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0010</td>
+        <td class="side">Ich werde einfach positiv denken und das Beste hoffen![ST:n ]Bitte frag nicht weiter.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev026501_JNK0010</td>
+        <td class="side">tev026501_JNK0010</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev026501_SEL1011</td>
+        <td class="side">Sprich mit Regina &#252;ber die Kirche.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev026501_JNK0020</td>
+        <td class="side">tev026501_JNK0020</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev026501_SEL1021</td>
+        <td class="side">Frage Regina, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0011</td>
+        <td class="side">Mein Mann und ich wollten hier unsere kirchliche[ST:n ]Trauung nachholen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0012</td>
+        <td class="side">Nachdem mir mitgeteilt wurde, dass der Kontakt zu ihm[ST:n ]abgebrochen ist, war ich jede Nacht in der Kirche und[ST:n ]habe f&#252;r seine sichere R&#252;ckkehr gebetet.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0013</td>
+        <td class="side">Aber... meine Gebete wurden nicht erh&#246;rt.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0014</td>
+        <td class="side">Vielleicht liegt Mira nicht mehr in Gottes H&#246;rweite.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0018</td>
+        <td class="side">Sieht so aus, als w&#252;rde unser alter Laden unter Ls[ST:n ]Leitung ziemlich gut laufen. Meine Freunde bei BLADE[ST:n ]meinen, dass kein anderes Gesch&#228;ft da mithalten kann.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0019</td>
+        <td class="side">Neulich habe ich mal vorbeigeschaut und einen Ma-non[ST:n ]dabei beobachtet, wie er jede Menge Kunden angelockt[ST:n ]hat. Welch ein vorbildlicher Angestellter, dieser Giogion![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0020</td>
+        <td class="side">Ich h&#228;tte ihm ja ohne zu z&#246;gern die Ohren lang[ST:n ]gezogen, wenn er das Gesch&#228;ft und damit den Ruf[ST:n ]meines Mannes ruiniert h&#228;tte.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev026501_MSG0021</td>
+        <td class="side">Aber er scheint wirklich gute Arbeit zu leisten.[ST:n ]Da bin ich sehr erleichtert.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015901_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015901_SEL0011</td>
+        <td class="side">Erkundige dich bei Charles &#252;ber diese Anlage.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015901_JNK0020</td>
+        <td class="side">Unterhalten[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015901_SEL0021</td>
+        <td class="side">Frage Charles, ob er interessante[ST:n ]Ger&#252;chte aufgeschnappt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015901_JNK0010</td>
+        <td class="side">tev015901_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015901_SEL0031</td>
+        <td class="side">Erkundige dich bei Charles, welche Erfahrungen[ST:n ]er mit den Ma-non gemacht hat.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015901_JNK0020</td>
+        <td class="side">tev015901_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015901_SEL0041</td>
+        <td class="side">Frage Charles, ob er interessante[ST:n ]Ger&#252;chte aufgeschnappt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015901_SEL1021</td>
+        <td class="side">Frage Charles, was sich in letzter Zeit so getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015901_SEL1031</td>
+        <td class="side">Erkundige dich bei Charles, welche Erfahrungen[ST:n ]er mit den Nopon gemacht hat.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0001</td>
+        <td class="side">Hier kommen die Leute her, wenn sie spielen wollen.[ST:n ]Ich sag dir, da geht’s ganz sch&#246;n zur Sache![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0002</td>
+        <td class="side">Es kann jede Menge Stress verursachen, auf einem[ST:n ]fremden Planeten leben zu m&#252;ssen. Hier hat man[ST:n ]die M&#246;glichkeit, ein bisschen davon loszuwerden.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0003</td>
+        <td class="side">Leider ist Joy die einzige ernst zu nehmende Gegnerin.[ST:n ]Sie hat mich netterweise mal zu einem Tennismatch[ST:n ]herausgefordert.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0004</td>
+        <td class="side">W&#228;re sch&#246;n, wenn sich mehr Leute f&#252;r diesen Ort[ST:n ]begeistern k&#246;nnten. ...Hmmm, h&#228;ttest du Lust?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0008</td>
+        <td class="side">Wenn du von NLA aus nach Nordosten gehst, kommst[ST:n ]du zu einem Kontinent namens Oblivia.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0009</td>
+        <td class="side">Da gibt es steile Klippen, riesige Wasserf&#228;lle und[ST:n ]eine unglaublich gigantische, ringf&#246;rmige Ruine.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0010</td>
+        <td class="side">Ein hervorragender Ort zum Klettern, sag ich dir![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0011</td>
+        <td class="side">Wenn da nicht so viele aggressive einheimische[ST:n ]Kreaturen rumlungern w&#252;rden, w&#228;re ich jetzt dort.[ST:n ]Dieses Ding ist besser als jede Kletterwand![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0020</td>
+        <td class="side">Die Ma-non scheinen sich wirklich sehr f&#252;r Tennis zu[ST:n ]interessieren.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0021</td>
+        <td class="side">Allerdings... spielen sie es ein wenig anders als wir.[ST:n ]Ich habe ihnen zwar die Regeln genau erkl&#228;rt, aber sie[ST:n ]meinten, dass sie sich ungern einschr&#228;nken lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0022</td>
+        <td class="side">Aber passt schon. Glaub ich zumindest. Solange sie[ST:n ]Spa&#223; haben... Darf... mich... nicht... stressen lassen.[ST:n ]Sollen sie doch machen...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0023</td>
+        <td class="side">Joy zuliebe. Sie kommt gut mit den Ma-non zurecht.[ST:n ]Und ist schlie&#223;lich die Einzige, die mich zu einem[ST:n ]Match herausgefordert hat.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0027</td>
+        <td class="side">Du wei&#223;t sicher schon, dass du ins Noctilum kommst,[ST:n ]wenn du von NLA aus Richtung Nordwesten gehst.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0028</td>
+        <td class="side">Es ist schon eine Weile her, da habe ich einen Freund[ST:n ]bei den Reclaimern gebeten, mir die Gegend zu zeigen,[ST:n ]w&#228;hrend er dort im Einsatz war.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0029</td>
+        <td class="side">Das ist der perfekte Ort, wenn man in der freien Natur[ST:n ]aktiv sein m&#246;chte.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev015901_MSG0030</td>
+        <td class="side">Wenn man sich dort nicht die ganze Zeit mit den[ST:n ]einheimischen Kreaturen rumschlagen m&#252;sste, w&#228;re das[ST:n ]Noctilum ein super Ausflugsziel.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1001</td>
+        <td class="side">Die Orphen haben es den Ma-non jetzt gleichgetan[ST:n ]und begeistern sich ebenfalls f&#252;r Tennis.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1002</td>
+        <td class="side">Ich habe Ton’barac die Regeln erkl&#228;rt und er hat sie[ST:n ]sofort begriffen... Seitdem hab ich kein Match gegen[ST:n ]ihn gewonnen.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1003</td>
+        <td class="side">Als ich nachgefragt habe, wie er das macht, meinte[ST:n ]er nur: „Die Regeln und die Theorie des Spiels sind[ST:n ]in das Geflecht des Netzes eingewoben.“[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1004</td>
+        <td class="side">&#196;h, ja... interessant. Was auch immer.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1008</td>
+        <td class="side">Jetzt zeigen auch die Nopon Interesse an Tennis, aber...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1009</td>
+        <td class="side">Also, ich hab ihnen mehrmals die Regeln gr&#252;ndlich[ST:n ]erkl&#228;rt, aber sie finden es spa&#223;iger, den Ball einfach so[ST:n ]weit zu dreschen, wie sie k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1010</td>
+        <td class="side">Irgendwann haben sie dann auch einen Homerun[ST:n ]hinbekommen... Mit einem unserer letzten B&#228;lle.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1011</td>
+        <td class="side">Darf... nicht... ausrasten...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev015901_MSG1012</td>
+        <td class="side">F&#252;r Joy. Sie mag die Nopon und war schlie&#223;lich die[ST:n ]Einzige, die mich zu einem Match herausgefordert hat.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

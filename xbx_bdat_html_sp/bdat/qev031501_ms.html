@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0001</td>
+        <td class="side">No... Es justo como leyenda.[ST:n ]&#161;Pronto desgracia se cernir&#225; sobre nosotros![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0002</td>
+        <td class="side">&#191;Es cierto que poderoso gigante[ST:n ]fue derribado en Sylvalum?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0010</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0011</td>
+        <td class="side">Di que abatiste al Zu Pharg all&#237;.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0020</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0021</td>
+        <td class="side">Pregunta si se refiere al Zu Pharg.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0003</td>
+        <td class="side">&#191;Fuiste t&#250; quien lo derrib&#243;? Impresionante.[ST:n ]Pero esto presagia mayores peligros.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0004</td>
+        <td class="side">Leyendas no dicen nombre de gigante. Pero dices que[ST:n ]el Zu Pharg era grande. As&#237; que debe de ser cierto.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0005</td>
+        <td class="side">En nuestro planeta ten&#237;amos vieja leyenda.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0006</td>
+        <td class="side">\&quot;Cuando gigante es derribado,[ST:n ]mundo morir&#225; y vida resurgir&#225;.\&quot;[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0007</td>
+        <td class="side">Prones han dicho estas palabras durante diez mil soles.[ST:n ]Pasan de generaci&#243;n en generaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0008</td>
+        <td class="side">Aunque pocos de clan arb&#243;reo[ST:n ]o clan cavernario las recuerdan.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0009</td>
+        <td class="side">Si leyenda es cierta, este mundo morir&#225;.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0030</td>
+        <td class="side">Creer</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0031</td>
+        <td class="side">Admite que ha de haber algo de cierto[ST:n ]en la leyenda y empieza a preocuparte.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0040</td>
+        <td class="side">Dudar</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0041</td>
+        <td class="side">Sost&#233;n que la leyenda no tiene ning&#250;n fundamento.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0010</td>
+        <td class="side">Respetas antiguas tradiciones.[ST:n ]Es inusual en alien&#237;gena terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0011</td>
+        <td class="side">Debemos prepararnos para desgracia.[ST:n ]Envi&#233; a guerrero Oche a buscar indicios de cambio.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0012</td>
+        <td class="side">&#191;Crees que palabras de ancestros son falsas?[ST:n ]T&#237;pico de alien&#237;gena terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0013</td>
+        <td class="side">Quiero creer que tienes raz&#243;n.[ST:n ]Quiero creer que no pasa nada.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0014</td>
+        <td class="side">Pero esperanza no es suficiente. As&#237; que envi&#233;[ST:n ]a guerrero Oche a buscar indicios de cambio.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0015</td>
+        <td class="side">&#161;Nimu! &#161;Se aproxima enorme marea de bestias![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0016</td>
+        <td class="side">&#161;&#191;Es este fin que presagiaste?![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0017</td>
+        <td class="side">&#161;Ah! &#161;Desgracia llega de mano de bestias sagradas![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0018</td>
+        <td class="side">Reun&#237; a guerreros de clan. Pero somos pocos.[ST:n ]&#191;Qu&#233; podemos hacer, Nimu?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0019</td>
+        <td class="side">Mm... Leyenda dice que joven se alzar&#225;[ST:n ]como rayo de esperanza en oscuridad.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0020</td>
+        <td class="side">&#161;Igual eres t&#250; esa esperanza, alien&#237;gena terrestre![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0021</td>
+        <td class="side">Quiero creer que s&#237; lo eres.[ST:n ]&#161;Ahora salva nuestro mundo de terror que se avecina![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0022</td>
+        <td class="side">Tu valent&#237;a es propia de h&#233;roe legendario.[ST:n ]Ahora, &#161;corre a campo de batalla![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0023</td>
+        <td class="side">&#161;Ja, ja! Entretenida historia te sacas de manga.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0024</td>
+        <td class="side">&#161;Clan cavernario! &#191;Por qu&#233; ven&#237;s aqu&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0025</td>
+        <td class="side">No ten&#233;is que sacar u&#241;as. No vine a luchar.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0026</td>
+        <td class="side">Clan cavernario dijo eso muchas veces.[ST:n ]&#161;Clan cavernario minti&#243; muchas veces![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0027</td>
+        <td class="side">Vete. Antes de que pierdo paciencia.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0028</td>
+        <td class="side">Vine a ofrecer ayuda. Pero ten&#237;a que saber[ST:n ]que era en vano.[ST:n ]&#161;Tercos idiotas arb&#243;reos![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0029</td>
+        <td class="side">Ya basta. Me dedicar&#233; a cuidarme a m&#237; misma.[ST:n ]Por m&#237;, &#161;pod&#233;is ser todos pasto de bestias![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0030</td>
+        <td class="side">No necesitamos ayuda de clan cavernario.[ST:n ]Clan arb&#243;reo cuida de s&#237; mismo.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0031</td>
+        <td class="side">Ve a llanura que encontrar&#225;s tras puerta este.[ST:n ]Recibimos a bestias all&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0032</td>
+        <td class="side">Deber&#237;a devolveros rencor con creces.[ST:n ]Y aun as&#237;...[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0033</td>
+        <td class="side">&#161;Bah! &#161;Mundo est&#225; a punto de desaparecer,[ST:n ]alcornoque! &#191;Crees que es hora de ponerse a re&#241;ir?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0034</td>
+        <td class="side">Si quer&#233;is pelea, peleamos cuando batalla[ST:n ]finalice. Hasta entonces, &#161;callad y un&#237;os a m&#237;![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0035</td>
+        <td class="side">&#161;Pff! &#191;Por qu&#233; deber&#237;amos ayudarte?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0036</td>
+        <td class="side">Mm... Parece que mujer de clan cavernario no miente.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0037</td>
+        <td class="side">Debemos olvidar rencillas, Oche.[ST:n ]Juntos podemos evitar desgracia.[ST:n ]Ahora, ve. &#161;Lucha junto a esta mujer![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0038</td>
+        <td class="side">Pero &#161;Nimu![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0039</td>
+        <td class="side">Je. Ese viejo tiene algo de juicio, al menos.[ST:n ]Ahora, &#161;a batalla![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0040</td>
+        <td class="side">&#191;[ST:Gender p1=Preparado p2=Preparada ] t&#250; tambi&#233;n, [ST:playername ]?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0041</td>
+        <td class="side">&#161;Lucha con todas tus fuerzas![ST:n ]Lucha, &#161;o te planto bota en cabeza![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0050</td>
+        <td class="side">Asentir</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0051</td>
+        <td class="side">Di que est&#225;s [ST:Gender p1=listo p2=lista ] para partir en cualquier momento.</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0060</td>
+        <td class="side">Replicar</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0061</td>
+        <td class="side">Di que le har&#225;s algo peor a Slovity si se escaquea.</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0042</td>
+        <td class="side">Je. Se me olvid&#243; que eres como yo.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0043</td>
+        <td class="side">&#161;Ja, ja! &#161;C&#243;mo se pone![ST:n ]Me gusta [ST:Gender p1=chico p2=chica ] con temperamento.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0044</td>
+        <td class="side">&#161;Nos enfrentamos a ellos en Llanura puerta este![ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0045</td>
+        <td class="side">&#161;Ah, ja, ja! Esta es mi primera pelea[ST:n ]en mucho tiempo. &#161;Ahora sabr&#225;n por qu&#233;[ST:n ]a Slovity la llaman \&quot;matabestias\&quot;![ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0046</td>
+        <td class="side">&#161;Antes caer&#225;n contra gran Wolfen![ST:n ]&#161;Les ense&#241;aremos poder de prones![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0047</td>
+        <td class="side">T&#250; debes ser rayo de esperanza mencionado[ST:n ]en leyenda. Por favor, salva mundo de destrucci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0048</td>
+        <td class="side">Tu valent&#237;a es propia de h&#233;roe legendario.[ST:n ]Ahora, &#161;corre a campo de batalla![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0049</td>
+        <td class="side">&#161;Ja, ja! Entretenida historia te sacas de manga.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0050</td>
+        <td class="side">&#161;Clan cavernario! &#191;Por qu&#233; ven&#237;s aqu&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0051</td>
+        <td class="side">No ten&#233;is que sacar u&#241;as. No vine a luchar.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0052</td>
+        <td class="side">Clan cavernario dijo eso muchas veces.[ST:n ]&#161;Clan cavernario minti&#243; muchas veces![ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0053</td>
+        <td class="side">Vete. Antes de que pierdo paciencia.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0070</td>
+        <td class="side">qev031501_JNK0070</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0071</td>
+        <td class="side">qev031501_SEL0071</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0080</td>
+        <td class="side">qev031501_JNK0080</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0081</td>
+        <td class="side">qev031501_SEL0081</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0072</td>
+        <td class="side">Puede decir verdad. Pero clan cavernario es enemigo.[ST:n ]No podemos fiarnos de ellos, incluso en esta situaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0073</td>
+        <td class="side">Ve a Llanura puerta este, [ST:Gender p1=h&#233;roe p2=hero&#237;na ] de anta&#241;o.[ST:n ]Repele oscuridad que se avecina.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0077</td>
+        <td class="side">&#161;Volviste! Pero &#191;qu&#233; pasa con batalla?[ST:n ]&#191;Evitaste desgracia?[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0090</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0091</td>
+        <td class="side">Informa de que lograste detener la amenaza.</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0100</td>
+        <td class="side">Investigar</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0101</td>
+        <td class="side">Preg&#250;ntale a Nimu d&#243;nde est&#225; Oche.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0078</td>
+        <td class="side">Bien. Ahora Oche puede descansar en paz.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0079</td>
+        <td class="side">Cay&#243; en batalla. Pero morir devorado[ST:n ]por bestias es fin glorioso para prones.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0080</td>
+        <td class="side">Cay&#243; en batalla. Pero morir devorado[ST:n ]por bestias es fin glorioso para prones.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0081</td>
+        <td class="side">&#191;Y conseguiste victoria? Bien.[ST:n ]Ahora Oche puede descansar sin remordimientos.[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0082</td>
+        <td class="side">\&quot;Cuando gigante es derribado,[ST:n ]mundo morir&#225; y vida resurgir&#225;.\&quot;[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0083</td>
+        <td class="side">Soy depositario de tradiciones de clan.[ST:n ]Y aun as&#237; no s&#233; qu&#233; vida resurgir&#225;.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0084</td>
+        <td class="side">Pero mundo se ha librado de destrucci&#243;n.[ST:n ]Esto es bueno. Por favor, toma esto[ST:n ]como agradecimiento.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0085</td>
+        <td class="side">Fue batalla igualada. Se perdieron muchas vidas.[ST:n ]Con ayuda de Slovity, quiz&#225; no ser&#237;a as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0086</td>
+        <td class="side">&#191;Y t&#250;, alien&#237;gena terrestre?[ST:n ]&#191;Podr&#237;as olvidar diez mil soles de hostilidad[ST:n ]entre clanes? &#191;Podr&#237;as unirte a enemigo?[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0110</td>
+        <td class="side">Asentir</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0111</td>
+        <td class="side">Di que habr&#237;as colaborado.</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0120</td>
+        <td class="side">Negar</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0121</td>
+        <td class="side">Di que tambi&#233;n habr&#237;as rehusado.</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0087</td>
+        <td class="side">Una opini&#243;n justa. Quiz&#225; deber&#237;amos compartirla.[ST:wait ]</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0088</td>
+        <td class="side">Alg&#250;n d&#237;a surgir&#225;n nuevos peligros.[ST:n ]Generaciones futuras deben aprender[ST:n ]de nuestros errores.[ST:wait ]</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0089</td>
+        <td class="side">No es f&#225;cil olvidar tales rencores.[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0090</td>
+        <td class="side">Pero ese odio cost&#243; a Oche su vida.[ST:n ]Mm... Es dilema dif&#237;cil.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0074</td>
+        <td class="side">Slovity es clan cavernario.[ST:n ]Aun as&#237;, es prone interesante.[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0075</td>
+        <td class="side">Cre&#237;a que todos eran idiotas sin juicio.[ST:n ]Quiz&#225; algunos no lo son tanto.[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0076</td>
+        <td class="side">&#161;Ve a Llanura puerta este, [ST:Gender p1=h&#233;roe p2=hero&#237;na ] de anta&#241;o![ST:n ]&#161;Une a guerreros! &#161;Repele oscuridad que se avecina![ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0091</td>
+        <td class="side">Me contaron todo. &#161;Fue gran victoria![ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0092</td>
+        <td class="side">&#161;Grandiosa! Aunque derrib&#233; veinte bestias[ST:n ]m&#225;s que mujer cavernaria.[ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0093</td>
+        <td class="side">Dej&#233; m&#225;s d&#233;biles para ti. Otras te matar&#237;an.[ST:wait ]</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0094</td>
+        <td class="side">&#161;Enfr&#233;ntate a cin&#237;cula y v&#233;ncela como yo antes[ST:n ]de presumir! Solo cobarde lucha con presa m&#225;s d&#233;bil.[ST:wait ]</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0095</td>
+        <td class="side">Admito que luchaste con valent&#237;a. Coraje.[ST:n ]Pero &#161;aun as&#237; yo sal&#237; victorioso![ST:wait ]</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0096</td>
+        <td class="side">Guerreros son tan tercos. &#191;Qui&#233;n fue m&#225;s fuerte,[ST:n ]alien&#237;gena terrestre? &#191;Clan cavernario o clan arb&#243;reo?[ST:wait ]</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0130</td>
+        <td class="side">Decir \&quot;arb&#243;reo\&quot;</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0131</td>
+        <td class="side">Responde que el clan arb&#243;reo fue el m&#225;s fuerte.</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0140</td>
+        <td class="side">Decir \&quot;cavernario\&quot;</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0141</td>
+        <td class="side">Responde que el clan cavernario fue el m&#225;s fuerte.</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev031501_JNK0150</td>
+        <td class="side">Decir \&quot;ambos\&quot;</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>qev031501_SEL0151</td>
+        <td class="side">Responde que ambos fueron igual de fuertes.</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0097</td>
+        <td class="side">&#161;&#191;Qu&#233;?! Au... O&#237;r eso de ti es... muy duro golpe.[ST:wait ]</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0098</td>
+        <td class="side">Pff. Espera a siguiente batalla.[ST:n ]&#161;Matar&#233; muchos m&#225;s que t&#250;![ST:wait ]</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0099</td>
+        <td class="side">&#161;Y yo entrenar&#233; para seguir super&#225;ndote![ST:wait ]</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0100</td>
+        <td class="side">Es cierto. No tengo su destreza... de momento.[ST:wait ]</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0101</td>
+        <td class="side">Pero ser&#233; diez veces m&#225;s fuerte en pr&#243;xima batalla.[ST:n ]&#161;Derrotar&#233; a bestia con la que ni te atreves[ST:n ]a enfrentarte![ST:wait ]</td>
+      </tr>
+      <tr id="114">
+        <td>114</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0102</td>
+        <td class="side">Estoy impaciente. Ahora desperdicias mucha energ&#237;a[ST:n ]con tu estilo de lucha. Pule tus habilidades.[ST:n ]Hazte fuerte.[ST:wait ]</td>
+      </tr>
+      <tr id="115">
+        <td>115</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0103</td>
+        <td class="side">Tienes raz&#243;n. Tras diez mil soles de lucha,[ST:n ]olvidamos que somos todos hijos de Tormein.[ST:wait ]</td>
+      </tr>
+      <tr id="116">
+        <td>116</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0104</td>
+        <td class="side">Con ambos clanes unidos...[ST:n ]&#161;Ser&#237;amos guerreros dignos de enfrentarnos a wrothian![ST:wait ]</td>
+      </tr>
+      <tr id="117">
+        <td>117</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0105</td>
+        <td class="side">\&quot;Cuando gigante es derribado,[ST:n ]mundo morir&#225; y vida resurgir&#225;.\&quot;[ST:wait ]</td>
+      </tr>
+      <tr id="118">
+        <td>118</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0106</td>
+        <td class="side">Quiz&#225; esta uni&#243;n es vida resurgida de leyenda.[ST:wait ]</td>
+      </tr>
+      <tr id="119">
+        <td>119</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0107</td>
+        <td class="side">Clanes arb&#243;reo y cavernario no temen nada si nos[ST:n ]mantenemos juntos. &#161;Y si t&#250; est&#225;s a nuestro lado![ST:wait ]</td>
+      </tr>
+      <tr id="120">
+        <td>120</td>
+        <td>
+        </td>
+        <td>qev031501_MSG0108</td>
+        <td class="side">Por favor, acepta este regalo.[ST:n ]&#161;Y brinda por nuevo futuro![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

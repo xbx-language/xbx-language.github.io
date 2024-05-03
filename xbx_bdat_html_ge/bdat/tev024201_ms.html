@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev024201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0011</td>
+        <td class="side">Frage Percilla nach den Aufgaben[ST:n ]der &#220;bergangsregierung.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0021</td>
+        <td class="side">Frage Percilla, ob ihr irgendetwas Sorgen macht.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0010</td>
+        <td class="side">tev024201_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0031</td>
+        <td class="side">Frage Percilla, was sie dir &#252;ber[ST:n ]diesen Teil der Stadt erz&#228;hlen kann.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0020</td>
+        <td class="side">tev024201_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0021</td>
+        <td class="side">tev024201_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0010</td>
+        <td class="side">tev024201_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0041</td>
+        <td class="side">Sprich mit Percilla &#252;ber die Geb&#228;ude in NLA.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0020</td>
+        <td class="side">tev024201_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0021</td>
+        <td class="side">tev024201_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0010</td>
+        <td class="side">tev024201_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0061</td>
+        <td class="side">Sprich mit Percilla &#252;ber die Stadtplanung.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev024201_JNK0020</td>
+        <td class="side">tev024201_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0021</td>
+        <td class="side">tev024201_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev024201_SEL0051</td>
+        <td class="side">Sprich mit Percilla &#252;ber die Ereignisse der letzten Zeit.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0001</td>
+        <td class="side">Die &#220;bergangsregierung mit Generaldirektor[ST:n ]Chausson an der Spitze sorgt daf&#252;r, dass hier[ST:n ]alles seinen geregelten Gang geht.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0002</td>
+        <td class="side">Du dachtest doch nicht etwa, dass BLADE[ST:n ]diese ganze Stadt allein regiert?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0003</td>
+        <td class="side">Nein, nein. BLADE k&#252;mmert sich um alles Milit&#228;rische,[ST:n ]und die &#220;bergangsregierung ist f&#252;r die Verwaltung der[ST:n ]Stadt zust&#228;ndig.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0004</td>
+        <td class="side">Mit anderen Worten: In NLA liegt eine klare[ST:n ]Aufgabenteilung vor.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0008</td>
+        <td class="side">Mediatoren besch&#252;tzen die Stadt und sind f&#252;r die[ST:n ]innere Sicherheit zust&#228;ndig, &#228;hnlich einer Polizei.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0009</td>
+        <td class="side">Aufgrund unserer Personalsituation sind wir allerdings[ST:n ]h&#228;ufiger auf die Unterst&#252;tzung anderer Divisionen[ST:n ]angewiesen, als uns lieb ist.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0010</td>
+        <td class="side">Die weniger dringlichen privaten Anfragen der B&#252;rger[ST:n ]bleiben leider oftmals auf der Strecke...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0011</td>
+        <td class="side">Es w&#228;re schon sch&#246;n, wenn es ein paar gute Samariter[ST:n ]g&#228;be, die sich neben ihren regul&#228;ren Aufgaben auch[ST:n ]noch ein wenig um die B&#252;rger NLAs k&#252;mmern k&#246;nnten.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0020</td>
+        <td class="side">Immer mehr Leute kommen durch diesen Bezirk, um ins[ST:n ]Gesch&#228;ftsviertel oder ins Wohnviertel zu gelangen.[ST:n ]Die Sache wird langsam zum Problem.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0021</td>
+        <td class="side">Wir haben extra einen Aufzug installiert, aber die Leute[ST:n ]k&#246;nnen es einfach nicht lassen, von der Terrasse vor[ST:n ]dem BLADE-Turm zu springen.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0022</td>
+        <td class="side">Manchmal verpatzen sie dabei die Landung und[ST:n ]verletzen sich. Oder das Ganze endet mit einem[ST:n ]unfreiwilligen Abstecher in die untere Gelschicht.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0023</td>
+        <td class="side">Sie sollten die Widerstandsf&#228;higkeit ihrer Mimoiden[ST:n ]nicht allzu sehr auf die Probe stellen![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0024</td>
+        <td class="side">Aber ich bin mir sicher, dass zumindest DU immer[ST:n ]den Aufzug benutzt, wie [ST:Gender p1=ein echter Gentleman p2=es sich f&#252;r eine Dame ziemt ],[ST:n ]hab ich recht?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0030</td>
+        <td class="side">Die meisten Geb&#228;ude in diesem Bezirk werden[ST:n ]f&#252;r andere Zwecke genutzt als die, f&#252;r die sie[ST:n ]urspr&#252;nglich vorgesehen waren.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0031</td>
+        <td class="side">Der BLADE-Turm war zum Beispiel als Behausung f&#252;r[ST:n ]Regierungsb&#252;ros gedacht.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0032</td>
+        <td class="side">Aber Minister Nagi und Kommandant Vandham[ST:n ]konnten die B&#252;rokraten irgendwie davon &#252;berzeugen,[ST:n ]den Turm BLADE zur Verf&#252;gung zu stellen.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0033</td>
+        <td class="side">Deshalb muss die &#220;bergangsregierung jetzt[ST:n ]mit dem kleineren Geb&#228;ude vorliebnehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0039</td>
+        <td class="side">Im urspr&#252;nglichen Entwurf NLAs sollte eine Stra&#223;e[ST:n ]mit B&#252;rogeb&#228;uden das Gesch&#228;ftsviertel mit dem[ST:n ]Verwaltungsbezirk verbinden.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0040</td>
+        <td class="side">Ist dir aufgefallen, wie stark die R&#252;stungsfirmen in[ST:n ]letzter Zeit gewachsen sind?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev024201_MSG0041</td>
+        <td class="side">Wenn sich unsere Situation hier beruhigt hat, m&#252;ssen[ST:n ]wir unsere Baupl&#228;ne wahrscheinlich zum zweiten Mal[ST:n ]&#252;ber den Haufen werfen.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev024201_MSG1001</td>
+        <td class="side">Wie hat sich die Situation in Alesas Laden entwickelt?[ST:n ]...Oh, sie hat sich nun doch dazu entschieden,[ST:n ]die Ma-non zu bedienen? Das freut mich.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev024201_MSG1002</td>
+        <td class="side">Sie scheint mittlerweile verstanden zu haben, was es[ST:n ]bedeutet, ein Gesch&#228;ft in einer neuen Welt zu betreiben.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev024201_MSG1003</td>
+        <td class="side">Hoffentlich holen sich die Ma-non dort ein wenig[ST:n ]Inspiration f&#252;r ihre eigenen Gesch&#228;fte.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev024201_MSG1004</td>
+        <td class="side">Lieb &amp; Stichfest produziert zwar exzellente Ausr&#252;stung,[ST:n ]aber mit dem Design kann man mich jagen...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

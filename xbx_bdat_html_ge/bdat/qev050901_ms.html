@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0001</td>
+        <td class="side">Ich bitte Euch, lasst mich allein. Ich bin nicht in der[ST:n ]Gem&#252;tslage, Gesellschaft zu ertragen.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0002</td>
+        <td class="side">...Ob mich etwas besch&#228;ftigt, fragt Ihr? Zweifelsohne[ST:n ]tut es das. Das Leben beschert uns t&#228;glich Hunderte[ST:n ]von Sorgen, die uns besch&#228;ftigen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0003</td>
+        <td class="side">Ihr seid der Ansicht, es sind derer weniger? Welch[ST:n ]anma&#223;ende Behauptung! Wenn Ihr jeden verdrie&#223;lichen[ST:n ]Anlass z&#228;hlt, ist die Summe gewiss sogar noch gr&#246;&#223;er![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0004</td>
+        <td class="side">Ich jedoch verf&#252;ge nicht &#252;ber die Zeit, mich der kleinen[ST:n ]Anl&#228;sse wegen zu gr&#228;men, solange ein gewaltiger sich[ST:n ]wie ein un&#252;berwindbarer Wall vor mir aufbaut.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0005</td>
+        <td class="side">...Mag sein, dass unsere Zusammenkunft hier vom[ST:n ]Schicksal gewollt war. M&#246;gt Ihr mir einen Dienst[ST:n ]erweisen?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0006</td>
+        <td class="side">Ich bedarf eines Messers.[ST:n ]W&#252;rdet Ihr mir eines beschaffen?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0007</td>
+        <td class="side">Es muss keine edle Klinge sein, eine billige reicht aus.[ST:n ]Doch ben&#246;tige ich sie dringend und rasch, will ich die[ST:n ]n&#228;chsten Tage mit einem Erfolg kr&#246;nen.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0008</td>
+        <td class="side">Und ja, es ist mir wohlbekannt, dass ich ein Messer[ST:n ]auch in Eurer R&#252;stkammer erstehen k&#246;nnte.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0009</td>
+        <td class="side">Jedoch...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0010</td>
+        <td class="side">Jedoch ist mir der Gebrauch des „T&#246;rr Minells“ der[ST:n ]Menschen ein Buch mit sieben Siegeln. Nichts kann[ST:n ]ich mithilfe dieser Maschinerie erstehen![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0011</td>
+        <td class="side">Ihr seid meine letzte Hoffnung, Mensch. Ich bitte Euch![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0010</td>
+        <td class="side">Helfen</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0011</td>
+        <td class="side">Erkl&#228;re dich dazu bereit,[ST:n ]Gu Ladha ein Messer zu bringen.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0020</td>
+        <td class="side">Vorschlagen</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0021</td>
+        <td class="side">Frage Gu Ladha, ob sie nicht lieber ein Gewehr m&#246;chte.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0012</td>
+        <td class="side">Es erf&#252;llt mich mit Bedauern – von der Schmach ganz[ST:n ]zu schweigen – mich dergestalt auf [ST:Gender p1=einen p2=eine ] g&#228;nzlich[ST:n ][ST:Gender p1=Fremden p2=Fremde ] verlassen zu m&#252;ssen.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0013</td>
+        <td class="side">Doch war ich noch nie imstande, Eink&#228;ufe zu t&#228;tigen[ST:n ]oder Orte anhand einer Richtungsbestimmung zu finden.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0014</td>
+        <td class="side">Ein Gewehr? Niemals! Nein, nein, nein.[ST:n ]Der Schmerz w&#228;re viel zu gro&#223;.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0015</td>
+        <td class="side">Stellt Euch doch vor, wie’s ist, von einer dieser B&#252;chsen[ST:n ]getroffen zu werden! Eine weit gr&#246;&#223;ere Qual als ein[ST:n ]kleiner Schnitt mit einem Messer. Und der L&#228;rm erst![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0016</td>
+        <td class="side">Doch genug davon. Ihr solltet wohl begriffen haben,[ST:n ]dass ich f&#252;r Schusswaffen nichts als Abscheu empfinde.[ST:n ]Bringt mir nur ein simples Messer, wenn’s Euch beliebt.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0017</td>
+        <td class="side">Ich werde Eurer R&#252;ckkehr hier harren. Wenn’s n&#246;tig ist,[ST:n ]auch bis ans Ende aller Zeit.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0018</td>
+        <td class="side">Denn mir gef&#228;llt dieser Ort. So ruhig und... friedlich.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0019</td>
+        <td class="side">Wie dem auch sei, seid bedankt f&#252;r Eure Hilfe.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0020</td>
+        <td class="side">Dieser Ort erf&#252;llt mich mit gro&#223;er Ruhe – kaum sieht[ST:n ]man hier einen anderen wandeln.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0021</td>
+        <td class="side">Wenn ich’s bedenke, scheint es mir h&#246;chst[ST:n ]ungew&#246;hnlich, dass Euer Weg Euch hierher f&#252;hrte.[ST:n ]Ein kleines Wunder fast.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0022</td>
+        <td class="side">Es besch&#228;mt mich, eine dergestalt vom Schicksal[ST:n ]herbeigef&#252;hrte Zusammenkunft mit einer solch nichtigen[ST:n ]Bitte zu entehren. Doch so spielt das Leben.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0023</td>
+        <td class="side">Jedoch werde ich deshalb die Erf&#252;llung meiner Bitte[ST:n ]nicht weniger ehren, seid dessen versichert.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0024</td>
+        <td class="side">Ah, Ihr seid zur&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0025</td>
+        <td class="side">Just in diesem Augenblick erf&#252;llte mich erneut Scham[ST:n ]dar&#252;ber, dass ich es wagte, in einer so pers&#246;nlichen[ST:n ]Sache um Hilfe zu bitten.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0026</td>
+        <td class="side">...F&#252;hrt Ihr wohl das Messer mit Euch?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0027</td>
+        <td class="side">Habt Dank. Und vergebt mir meine unschickliche Bitte,[ST:n ]die Euch solch Ungemach bereitete.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0028</td>
+        <td class="side">Nun kann ich endlich meinen Entschluss in die Tat[ST:n ]umsetzen...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0029</td>
+        <td class="side">Es ist Zeit...[ST:n ]Zeit, mich von meinen Ohren zu trennen![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0030</td>
+        <td class="side">Hinrennen</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0031</td>
+        <td class="side">Halte Gu Ladha davon ab,[ST:n ]sich die Ohren abzuschneiden.</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0040</td>
+        <td class="side">Anbr&#252;llen</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0041</td>
+        <td class="side">Schreie Gu Ladha an, damit sie[ST:n ]von diesem Wahnsinn abl&#228;sst.</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0030</td>
+        <td class="side">Was...?! Nein! W-was habt Ihr vor?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0031</td>
+        <td class="side">Wer gibt Euch das Recht einzugreifen![ST:n ]Dies ist mein Entschluss! Und mein Entschluss steht fest![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0032</td>
+        <td class="side">Au! Aua, au. AUA! Genug![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0033</td>
+        <td class="side">Ist es denn wirklich n&#246;tig, derlei Gewalt anzuwenden?[ST:n ]Ich empfinde Euer Gebaren als etwas &#252;bertrieben...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0034</td>
+        <td class="side">Ja doch! Ich habe verstanden! Ich werde das Messer[ST:n ]niederlegen. Nur... lasst ab von mir.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0035</td>
+        <td class="side">Nichts k&#246;nnt Ihr sagen, was mich zum Umdenken[ST:n ]bewegen w&#252;rde![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0036</td>
+        <td class="side">Mein Entschluss steht fest! Unverr&#252;ckbar wie ein Fels![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0037</td>
+        <td class="side">...Niemand kann nachvollziehen, was ich empfinde.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0038</td>
+        <td class="side">Eines Tages werde ich diese abscheulichen Ohren von[ST:n ]meinem Kopfe trennen und endlich ein respektierliches[ST:n ]Leben f&#252;hren k&#246;nnen![ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0039</td>
+        <td class="side">Denn diese Ohren – so niedlich, rund und flauschig –[ST:n ]peinigen mich schon mein ganzes Leben.[ST:n ]Verflucht sollen sie sein![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0040</td>
+        <td class="side">Jene meines Hauses spotteten unabl&#228;ssig &#252;ber sie.[ST:n ]Schlie&#223;lich trieb mich die Furcht, mit diesen Ohren[ST:n ]erblickt zu werden, ins Exil. Niemand sollte mich sehen.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0041</td>
+        <td class="side">Selbst auf dem Schlachtfeld, wo sich der Wert eines[ST:n ]Wrothianers zeigt, sorgte mich ohne Unterlass, dass[ST:n ]der Feind meine Ohren ersp&#228;hen k&#246;nnte.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0042</td>
+        <td class="side">Da mir die Waffen&#252;bung mit anderen verwehrt ist,[ST:n ]l&#228;sst mein Geschick als Kriegerin immer mehr nach.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0043</td>
+        <td class="side">Wie ich h&#246;re, sorgt Ihr Menschen Euch bisweilen um[ST:n ]die Farbe Eurer Haut. Wie nebens&#228;chlich! Doch Ohren[ST:n ]wie diese verhindern, dass ich meine Bestimmung erf&#252;lle.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0050</td>
+        <td class="side">Tr&#246;sten</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0051</td>
+        <td class="side">Erkl&#228;re, dass es auch andere[ST:n ]Berufe als den des Kriegers gibt.</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0060</td>
+        <td class="side">Trainieren</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0061</td>
+        <td class="side">Biete Gu Ladha ein Spezialtraining mit dir an.</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0044</td>
+        <td class="side">Noch andere Berufe? Ihr meint, es gibt noch weitere[ST:n ]Wege als den Weg des Kriegers...?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0045</td>
+        <td class="side">Wrothianer leben allein f&#252;r den Ruhm: Wir k&#228;mpfen,[ST:n ]wir siegen und wir fallen ehrenvoll in der Schlacht.[ST:n ]Doch Ihr sagt, es gibt noch mehr?[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0046</td>
+        <td class="side">Denn ich muss gestehen... Meiner Ohren[ST:n ]wegen war es mir nie verg&#246;nnt, im Kampfe[ST:n ]Ruhm und Ehre zu erlangen.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0047</td>
+        <td class="side">Es w&#228;re mir ein Anliegen, mein Volk zu unterst&#252;tzen.[ST:n ]Und wenn Ihr sagt, es gibt noch andere Wege als den[ST:n ]des Kriegers, so werde ich Euch anh&#246;ren.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0070</td>
+        <td class="side">Unterst&#252;tzung vorschlagen</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0071</td>
+        <td class="side">Schlage Gu Ladha vor, die Krieger in einer[ST:n ]nicht k&#228;mpfenden Rolle zu unterst&#252;tzen.</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev050901_JNK0080</td>
+        <td class="side">&#214;ffentlichkeitsarbeit anregen</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev050901_SEL0081</td>
+        <td class="side">Frage Gu Ladha, ob sie nicht Lust h&#228;tte,[ST:n ]sich an &#214;ffentlichkeitsarbeit zu versuchen.</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0048</td>
+        <td class="side">Unterst&#252;tzen? Ihr meint das Versorgen verwundeter[ST:n ]Krieger, die Zubereitung von Mahlzeiten und[ST:n ]dergleichen?[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0049</td>
+        <td class="side">Wahrlich ein ehrenhaftes Unterfangen, jedoch...[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0050</td>
+        <td class="side">Nun denn, ich will nicht prahlen, doch wird meine[ST:n ]f&#252;rchterliche Kochkunst bereits in Liedern besungen.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0051</td>
+        <td class="side">W&#252;rde ich mich an der Zubereitung von Mahlzeiten[ST:n ]versuchen, w&#228;ren die Folgen, so f&#252;rchte ich, wahrlich[ST:n ]verheerend f&#252;r die Moral der Krieger.[ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>NewText_99</td>
+        <td class="side">&#214;ffen-Licht Keits-Arbeit?[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0052</td>
+        <td class="side">Ah! Ihr meint das Sprechen auf Marktpl&#228;tzen und[ST:n ]dergleichen?[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0053</td>
+        <td class="side">Ich verstehe wohl, dass dies ein wichtiges Unterfangen[ST:n ]ist. Denn die Beziehungen zwischen unseren V&#246;lkern[ST:n ]sind von h&#246;chster Wichtigkeit.[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0054</td>
+        <td class="side">Jedoch... Nun, es liegt mir fern zu prahlen, doch w&#228;re[ST:n ]es keine &#220;bertreibung, meine Sch&#252;chternheit legend&#228;r[ST:n ]zu nennen.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0055</td>
+        <td class="side">Ich f&#252;rchte, ich w&#252;rde mehr Schaden anrichten als[ST:n ]Gutes tun.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0056</td>
+        <td class="side">Hm, doch wartet. Vielleicht k&#246;nnte ich als Gesandte[ST:n ]der Wrothianer dienen?[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0057</td>
+        <td class="side">Der Umgang mit Menschen liegt mir zuweilen.[ST:n ]Besonders die Frauen aus Eurem Volk scheinen Gefallen[ST:n ]an mir zu finden. Genauer gesagt, an meinen Ohren.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0058</td>
+        <td class="side">Ja... Nun erscheint mir alles so einfach! Ich k&#246;nnte[ST:n ]meine Ohren als Bereicherung und nicht als Belastung[ST:n ]sehen. Eine Welt voll neuer M&#246;glichkeiten b&#246;te sich mir![ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0059</td>
+        <td class="side">F&#252;rwahr, das w&#228;re ein w&#252;rdiges Unterfangen.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0060</td>
+        <td class="side">Zun&#228;chst werde ich meinen Kommandanten bitten,[ST:n ]mich als Gesandte der Wrothianer zu den Menschen[ST:n ]zu entsenden![ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0061</td>
+        <td class="side">Es bereitet mir Unbehagen, Euch erneut mit einer Bitte[ST:n ]zu behelligen, doch w&#252;rdet Ihr mich begleiten?[ST:n ]Nur um meine Eignung zu belegen?[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0062</td>
+        <td class="side">Ich bin &#252;berzeugt, dass Eure Meinung als [ST:Gender p1=Vertreter p2=Vertreterin ][ST:n ]der Menschen h&#246;chste Beachtung finden wird.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0063</td>
+        <td class="side">Sp&#228;h-Tsjal Treh-Ning?[ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0064</td>
+        <td class="side">...Ihr meint besondere Waffen&#252;bungen? Ja, mich d&#252;nkt,[ST:n ]die Sorge meiner Ohren wegen hat meine Kampfeskraft[ST:n ]beeintr&#228;chtigt. Ich wurde... sanftm&#252;tig.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0065</td>
+        <td class="side">Es w&#228;re wohl angebracht, all dies hinter mir zu lassen[ST:n ]und mich ganz der Kampfkunst zu verschreiben.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0066</td>
+        <td class="side">Nun gut. Wenn dies nicht zu viel der Anma&#223;ung ist,[ST:n ]will ich Euer gro&#223;z&#252;giges Angebot annehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0067</td>
+        <td class="side">Ich werde die n&#246;tigen Vorbereitungen treffen und Euch[ST:n ]dann au&#223;erhalb der Menschenstadt erwarten.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0068</td>
+        <td class="side">Sto&#223;t dort zu mir, wenn und sobald es Euch beliebt.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0069</td>
+        <td class="side">Ich habe meine Entscheidung getroffen. Wenn ich mich[ST:n ]diesem Unterfangen widme, dann voll und ganz.[ST:n ]Ich werde die Kampfkunst von Neuem erlernen.[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev050901_MSG0070</td>
+        <td class="side">Ich erwarte Euch au&#223;erhalb der Stadt.[ST:n ]Gehabt Euch wohl![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

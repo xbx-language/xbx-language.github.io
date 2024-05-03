@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev070103_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0016</td>
+        <td class="side">Oye, &#191;conoces a ese xenoformo que vive en las afueras[ST:n ]del distrito industrial? &#191;El que se llama Profesor B?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0017</td>
+        <td class="side">&#191;Qu&#233; piensas de &#233;l?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0018</td>
+        <td class="side">No me malinterpretes, es un buen cliente.[ST:n ]Siempre viene a comprar piezas...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0019</td>
+        <td class="side">Pero no tengo ni idea de qu&#233; est&#225; construyendo,[ST:n ]y a veces lo que dice no tiene ning&#250;n sentido.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0020</td>
+        <td class="side">Un poco de misterio no hace da&#241;o a nadie,[ST:n ]pero esto raya en lo inquietante.[ST:n ]A ver, &#191;cu&#225;ndo lleg&#243; a Nueva Los &#193;ngeles?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0001</td>
+        <td class="side">Si buscas art&#237;culos de segunda mano a precios[ST:n ]rid&#237;culos, Graham es tu hombre. &#161;Te voy a ofrecer[ST:n ]unas gangas que los de las tiendas ni se imaginar&#237;an![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0002</td>
+        <td class="side">&#191;Mmm? &#191;Vienes de parte de Profesor B?[ST:n ]&#161;Ah, bien! Es uno de mis mejores clientes.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0003</td>
+        <td class="side">Tengo unos coches aqu&#237; apartados para ti. A la[ST:n ]izquierda tienes un modelo est&#225;ndar azul. El del medio[ST:n ]es un cacharro, y luego tenemos esa preciosidad roja.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0004</td>
+        <td class="side">&#191;Cu&#225;l prefieres? Escojas el que escojas,[ST:n ]te har&#233; un buen descuento.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0010</td>
+        <td class="side">Elegir el est&#225;ndar</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0011</td>
+        <td class="side">Compra el modelo est&#225;ndar azul.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0020</td>
+        <td class="side">Elegir el cacharro</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0021</td>
+        <td class="side">Compra el cachivache barato.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0030</td>
+        <td class="side">Elegir el de lujo</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0031</td>
+        <td class="side">Compra el flamante coche rojo.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0005</td>
+        <td class="side">Buena elecci&#243;n. Tiene todo lo que necesitas.[ST:n ]Te lo puedo dejar por 10 000 cr&#233;ditos.[ST:n ]&#191;Te parece bien?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0040</td>
+        <td class="side">Adquirir</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0041</td>
+        <td class="side">Compra el coche est&#225;ndar por 10 000 cr&#233;ditos.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0070</td>
+        <td class="side">Esperar</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0071</td>
+        <td class="side">Posp&#243;n la compra por el momento.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0007</td>
+        <td class="side">&#191;En serio? &#191;Ese pedazo de chatarra? &#161;He tratado de[ST:n ]deshacerme de esa cosa durante un mes! Esto, quiero[ST:n ]decir, &#161;una gran compra! Solo 1000 cr&#233;ditos y es tuyo.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0050</td>
+        <td class="side">Adquirir</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0051</td>
+        <td class="side">Compra el trasto viejo por 1000 cr&#233;ditos.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0009</td>
+        <td class="side">&#161;Tienes buen ojo, colega! &#161;Un gusto exquisito![ST:n ]Este es el buga m&#225;s guapo de todo Mira,[ST:n ]y de cualquier otro sitio.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0010</td>
+        <td class="side">Y tambi&#233;n el m&#225;s caro, probablemente. Pero dime,[ST:n ]&#191;hay algo mejor que puedas hacer con 100 000[ST:n ]cr&#233;ditos? &#161;Ja!... La respuesta es no, por cierto.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev070103_JNK0060</td>
+        <td class="side">Adquirir</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev070103_SEL0061</td>
+        <td class="side">Compra el coche de lujo por 100 000 cr&#233;ditos.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0011</td>
+        <td class="side">&#161;Muchas gracias! Te lo mandar&#233; a casa[ST:n ]de Profesor B, sin coste adicional.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0014</td>
+        <td class="side">&#191;Vas a pensarlo un poco? Vale, aqu&#237; estar&#233;.[ST:n ]Cuando te hayas decidido, h&#225;zmelo saber.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0015</td>
+        <td class="side">&#191;Mmm? No parece que tengas suficiente, [ST:Gender p1=amigo p2=amiga ].[ST:n ]Lo siento, pero necesito el dinero en mano.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0012</td>
+        <td class="side">Je. Me alegro de que a Profesor B le gustase[ST:n ]el coche que le has comprado.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev070103_MSG0013</td>
+        <td class="side">Supongo que es la mejor oferta que pod&#237;as esperar[ST:n ]por &#233;l. Yo no lo conducir&#237;a en un sitio donde llamara[ST:n ]la atenci&#243;n, eso s&#237;.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

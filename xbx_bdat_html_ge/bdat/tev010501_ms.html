@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev010501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev010501_JNK0010</td>
+        <td class="side">Fragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev010501_SEL0011</td>
+        <td class="side">Sprich mit Gus &#252;ber BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev010501_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev010501_SEL0021</td>
+        <td class="side">Frage Gus, ob er in letzter Zeit[ST:n ]interessante Ger&#252;chte geh&#246;rt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0001</td>
+        <td class="side">Also, [ST:Gender p1=Kamerad p2=Kameradin ], ich bin ein Outfitter. Deshalb ist es[ST:n ]meine Aufgabe, die R&#252;stungsfirmen bei der Entwicklung[ST:n ]neuer Waffen zu unterst&#252;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0002</td>
+        <td class="side">Die Organisation BLADE hat es sich zum Ziel gesetzt,[ST:n ]der Menschheit eine neue Zukunft zu erm&#246;glichen.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0003</td>
+        <td class="side">...Zumindest steht’s so im BLADE-Handbuch![ST:n ]Und es gibt ja auch genug Idioten, die das glauben![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0004</td>
+        <td class="side">Ich bin nur dabei, weil man bei BLADE mehr verdient[ST:n ]als bei den anderen Arbeitgebern hier.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0005</td>
+        <td class="side">Wenn du deine Missionen richtig machst, verdienst du[ST:n ]so viel Schotter... Davon kann ein Zivilist nicht mal[ST:n ]tr&#228;umen![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0008</td>
+        <td class="side">Ger&#252;chte, h&#228;? Willste vielleicht wissen, wie man[ST:n ]einfacher an Kohle kommt?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0009</td>
+        <td class="side">Tja, also ich hab da schon was am Laufen.[ST:n ]Aber so ein [ST:Gender p1=kluges Kerlchen p2=schlaues M&#228;dchen ] wie du kann[ST:n ]sich doch selber was suchen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0010</td>
+        <td class="side">Au&#223;erdem brauch ich f&#252;r meinen Plan die dumpfsten[ST:n ]Dumpfbacken, die hier bei BLADE rumlaufen. [ST:Gender p1=Einen p2=Eine ] wie[ST:n ]dich kann ich da nicht brauchen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0011</td>
+        <td class="side">Am besten w&#228;ren so richtig leichtgl&#228;ubige Gutmenschen,[ST:n ]die kann ich dann wie ’ne Weihnachtsgans ausnehmen![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0012</td>
+        <td class="side">Wie dieser Typ bei den Curatoren... Quincy oder so[ST:n ]hei&#223;t er. Genau so eine Dumpfbacke brauch ich.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0020</td>
+        <td class="side">Wenn du ordentlich Kohle verdienen willst, dann geh[ST:n ]ans Missionsterminal und such dir ’n paar h&#252;bsche[ST:n ]Nebenjobs aus.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0021</td>
+        <td class="side">Dann erf&#252;llst du einfach die kleinen Missionen, wenn du[ST:n ]auf gro&#223;en Missionen unterwegs bist. Gleiche Arbeit,[ST:n ]doppelte Belohnung! Der alte Gus macht das immer so.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0022</td>
+        <td class="side">Und dann kannste noch massenhaft Datensonden &#252;berall[ST:n ]verteilen. Auch wenn das schlauen BLADEs wie mir[ST:n ]viel zu anstrengend ist.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev010501_MSG0023</td>
+        <td class="side">Wieso die Arbeit selber machen, wenn man auch ’nen[ST:n ]Dummkopf manipulieren kann? Dumpfbacke macht die[ST:n ]Mission, Gus kassiert ab! Gute Arbeitsteilung, oder?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

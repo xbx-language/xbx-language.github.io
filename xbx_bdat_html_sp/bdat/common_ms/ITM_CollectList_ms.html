@@ -1,0 +1,3647 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ITM_CollectList_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Mel&#243;n ajira</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Patata lazada</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Lechuga sadelana</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Col mosa</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Zanahoria keppo</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">Tomate amidresiano</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Seta ces&#233;rea</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Berenjena zandemo</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Helecho de flor del alba</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Hierbas de fodornalo</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Seta siberces&#233;rea</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Hoja de col gubura</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Ajo shinuyuni</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">Alubia cosse</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Calabac&#237;n beagflea</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">Pimiento temperamental</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td class="side">Hoja de charupa</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td class="side">Br&#243;coli dobobora</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td class="side">R&#225;bano blanco ruge</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td class="side">Jud&#237;a dosoram</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td class="side">S&#233;samo yaya</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td class="side">Ma&#237;z blanquecino</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td class="side">Apio mizaria</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td class="side">Cebolla kiatara</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td class="side">Cayena cargada</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td class="side">Brote de bramb&#250;</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td class="side">Cebolletas belzadozebu</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td class="side">Arandatina</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td class="side">Rocaranja</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td class="side">Cardifresa</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td class="side">Manzana estelar</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td class="side">Ceremendra</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td class="side">Lim&#243;n s&#243;nar</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td class="side">Guayaba socha</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td class="side">Prapaya</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td class="side">Hoja de babaco</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td class="side">Duri&#225;n amana</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td class="side">Mango de lava</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td class="side">Ciruela agria</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td class="side">Hoja alabanana</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td class="side">Melonsacro</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td class="side">Sand&#237;a suna</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td class="side">Uva regia</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td class="side">Kiwevo</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td class="side">Granada espinosa</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td class="side">Caqui shido</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td class="side">Gelibaya</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td class="side">Ar&#225;ndano blanco</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td class="side">Uva esmeralda</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td class="side">Papaya de metralla</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td class="side">Gyulali</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td class="side">Casta&#241;a de lava</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td class="side">Fruto f&#233;rreo de akebi</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td class="side">Crisantemos jaspeados</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td class="side">Pi&#241;a zozobra</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td class="side">Hierba zizgaratona</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td class="side">Lirio noran</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td class="side">Nerine dulce</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td class="side">N&#233;beda kirana</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td class="side">Diente de le&#243;n doga</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td class="side">Yerba sona</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td class="side">Pelionia m&#237;nima garudo</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td class="side">Narciso del nirvana</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td class="side">Girasol apocado</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td class="side">Lirio silvestre</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td class="side">Planta camale&#243;n trepadora</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td class="side">Flor muneria</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td class="side">Cosmos sekka</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td class="side">Cedro falso</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td class="side">Amarilis durmiente</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td class="side">Pr&#237;mula jobo</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td class="side">Rocambola gudo</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td class="side">Acelgas explosivas</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td class="side">Avena de mya</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td class="side">Cactus myuena</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td class="side">Acebo kefa</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td class="side">Artemisa bude</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td class="side">Pensamiento explosivo</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td class="side">Lirio sese</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td class="side">Rosa antorus</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td class="side">Cattleya ch&#237;a</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td class="side">Tulip&#225;n poron</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td class="side">Jaharmum</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td class="side">Hierba bogano</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td class="side">Muranadia</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td class="side">Lagartiza</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td class="side">Coaletri</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td class="side">Ardilla excavadora</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td class="side">Murci&#233;lago reptante</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td class="side">Sardina dorada</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td class="side">Conejo zizi</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td class="side">Ashicel</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td class="side">Armadillo roca</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td class="side">Lenguado polimorfo</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td class="side">Oranglot&#243;n</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td class="side">Iguari</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td class="side">Pavo real espejo</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td class="side">Medusa continental</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td class="side">Doraguro</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td class="side">Tanuki fantasma</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td class="side">Cobarrata</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td class="side">Pulpo suka</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td class="side">Tortuga a reacci&#243;n</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td class="side">Pepino de arena</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td class="side">Mono zutano</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td class="side">Babuino fugaz</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td class="side">Oveja brava</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td class="side">Calamarusa</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td class="side">Beaporge</td>
+      </tr>
+      <tr id="110">
+        <td>110</td>
+        <td>
+        </td>
+        <td class="side">Penginio</td>
+      </tr>
+      <tr id="111">
+        <td>111</td>
+        <td>
+        </td>
+        <td class="side">Serpiente perdigonera</td>
+      </tr>
+      <tr id="112">
+        <td>112</td>
+        <td>
+        </td>
+        <td class="side">Jabal&#237; del infierno</td>
+      </tr>
+      <tr id="113">
+        <td>113</td>
+        <td>
+        </td>
+        <td class="side">Ganso soprano</td>
+      </tr>
+      <tr id="114">
+        <td>114</td>
+        <td>
+        </td>
+        <td class="side">Zorro de lava</td>
+      </tr>
+      <tr id="115">
+        <td>115</td>
+        <td>
+        </td>
+        <td class="side">Chacal gibney</td>
+      </tr>
+      <tr id="116">
+        <td>116</td>
+        <td>
+        </td>
+        <td class="side">Mosquito bola</td>
+      </tr>
+      <tr id="117">
+        <td>117</td>
+        <td>
+        </td>
+        <td class="side">Saltamontes el&#225;stico</td>
+      </tr>
+      <tr id="118">
+        <td>118</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo tractor</td>
+      </tr>
+      <tr id="119">
+        <td>119</td>
+        <td>
+        </td>
+        <td class="side">Mariquita polimoteada</td>
+      </tr>
+      <tr id="120">
+        <td>120</td>
+        <td>
+        </td>
+        <td class="side">Devorameteo</td>
+      </tr>
+      <tr id="121">
+        <td>121</td>
+        <td>
+        </td>
+        <td class="side">Hormigabunda</td>
+      </tr>
+      <tr id="122">
+        <td>122</td>
+        <td>
+        </td>
+        <td class="side">Col&#233;mbolo asesino</td>
+      </tr>
+      <tr id="123">
+        <td>123</td>
+        <td>
+        </td>
+        <td class="side">Lib&#233;lula noctilucente</td>
+      </tr>
+      <tr id="124">
+        <td>124</td>
+        <td>
+        </td>
+        <td class="side">T&#225;bano estrobosc&#243;pico</td>
+      </tr>
+      <tr id="125">
+        <td>125</td>
+        <td>
+        </td>
+        <td class="side">Polilla tenaz</td>
+      </tr>
+      <tr id="126">
+        <td>126</td>
+        <td>
+        </td>
+        <td class="side">Mantis madama</td>
+      </tr>
+      <tr id="127">
+        <td>127</td>
+        <td>
+        </td>
+        <td class="side">Avisp&#243;n insania</td>
+      </tr>
+      <tr id="128">
+        <td>128</td>
+        <td>
+        </td>
+        <td class="side">Ara&#241;a parda</td>
+      </tr>
+      <tr id="129">
+        <td>129</td>
+        <td>
+        </td>
+        <td class="side">Ciervo volante kusakiri</td>
+      </tr>
+      <tr id="130">
+        <td>130</td>
+        <td>
+        </td>
+        <td class="side">Papillo Absop</td>
+      </tr>
+      <tr id="131">
+        <td>131</td>
+        <td>
+        </td>
+        <td class="side">Geco saciante</td>
+      </tr>
+      <tr id="132">
+        <td>132</td>
+        <td>
+        </td>
+        <td class="side">Gusano topo</td>
+      </tr>
+      <tr id="133">
+        <td>133</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo impostor</td>
+      </tr>
+      <tr id="134">
+        <td>134</td>
+        <td>
+        </td>
+        <td class="side">Mosca umbr&#237;a</td>
+      </tr>
+      <tr id="135">
+        <td>135</td>
+        <td>
+        </td>
+        <td class="side">Insecto palo com&#250;n</td>
+      </tr>
+      <tr id="136">
+        <td>136</td>
+        <td>
+        </td>
+        <td class="side">Escorpi&#243;n l&#225;tigo</td>
+      </tr>
+      <tr id="137">
+        <td>137</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo navajero</td>
+      </tr>
+      <tr id="138">
+        <td>138</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo de arena blanca</td>
+      </tr>
+      <tr id="139">
+        <td>139</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo chaochao</td>
+      </tr>
+      <tr id="140">
+        <td>140</td>
+        <td>
+        </td>
+        <td class="side">Grillo de cristal</td>
+      </tr>
+      <tr id="141">
+        <td>141</td>
+        <td>
+        </td>
+        <td class="side">Grillo pluvioso</td>
+      </tr>
+      <tr id="142">
+        <td>142</td>
+        <td>
+        </td>
+        <td class="side">Mariposa v&#237;trea</td>
+      </tr>
+      <tr id="143">
+        <td>143</td>
+        <td>
+        </td>
+        <td class="side">Pelusa nevada</td>
+      </tr>
+      <tr id="144">
+        <td>144</td>
+        <td>
+        </td>
+        <td class="side">Luci&#233;rnaga fugaz</td>
+      </tr>
+      <tr id="145">
+        <td>145</td>
+        <td>
+        </td>
+        <td class="side">Grillo abisal</td>
+      </tr>
+      <tr id="146">
+        <td>146</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo cetacegema</td>
+      </tr>
+      <tr id="147">
+        <td>147</td>
+        <td>
+        </td>
+        <td class="side">Mosca torpedo</td>
+      </tr>
+      <tr id="148">
+        <td>148</td>
+        <td>
+        </td>
+        <td class="side">Grillo espinoso</td>
+      </tr>
+      <tr id="149">
+        <td>149</td>
+        <td>
+        </td>
+        <td class="side">Madera de logunio</td>
+      </tr>
+      <tr id="150">
+        <td>150</td>
+        <td>
+        </td>
+        <td class="side">Arena albif&#233;rrea</td>
+      </tr>
+      <tr id="151">
+        <td>151</td>
+        <td>
+        </td>
+        <td class="side">Residuos brillantes</td>
+      </tr>
+      <tr id="152">
+        <td>152</td>
+        <td>
+        </td>
+        <td class="side">Perla saludable</td>
+      </tr>
+      <tr id="153">
+        <td>153</td>
+        <td>
+        </td>
+        <td class="side">Cristal arnaciano</td>
+      </tr>
+      <tr id="154">
+        <td>154</td>
+        <td>
+        </td>
+        <td class="side">Hueso boreal</td>
+      </tr>
+      <tr id="155">
+        <td>155</td>
+        <td>
+        </td>
+        <td class="side">Hoja katoana</td>
+      </tr>
+      <tr id="156">
+        <td>156</td>
+        <td>
+        </td>
+        <td class="side">Arcilla oranglot&#243;n</td>
+      </tr>
+      <tr id="157">
+        <td>157</td>
+        <td>
+        </td>
+        <td class="side">Sucraterra</td>
+      </tr>
+      <tr id="158">
+        <td>158</td>
+        <td>
+        </td>
+        <td class="side">Piedra de cristal de noka</td>
+      </tr>
+      <tr id="159">
+        <td>159</td>
+        <td>
+        </td>
+        <td class="side">Cuarzo galjim</td>
+      </tr>
+      <tr id="160">
+        <td>160</td>
+        <td>
+        </td>
+        <td class="side">Algod&#243;n de harnenga</td>
+      </tr>
+      <tr id="161">
+        <td>161</td>
+        <td>
+        </td>
+        <td class="side">Musgo eterno</td>
+      </tr>
+      <tr id="162">
+        <td>162</td>
+        <td>
+        </td>
+        <td class="side">F&#243;sil wainess</td>
+      </tr>
+      <tr id="163">
+        <td>163</td>
+        <td>
+        </td>
+        <td class="side">Rama de zedis</td>
+      </tr>
+      <tr id="164">
+        <td>164</td>
+        <td>
+        </td>
+        <td class="side">Estalactita exubera</td>
+      </tr>
+      <tr id="165">
+        <td>165</td>
+        <td>
+        </td>
+        <td class="side">Resina cact&#225;cea plateada</td>
+      </tr>
+      <tr id="166">
+        <td>166</td>
+        <td>
+        </td>
+        <td class="side">Aire kridokano</td>
+      </tr>
+      <tr id="167">
+        <td>167</td>
+        <td>
+        </td>
+        <td class="side">Barro tembloroso</td>
+      </tr>
+      <tr id="168">
+        <td>168</td>
+        <td>
+        </td>
+        <td class="side">Esquirlas de roca acton</td>
+      </tr>
+      <tr id="169">
+        <td>169</td>
+        <td>
+        </td>
+        <td class="side">Coral fullerene</td>
+      </tr>
+      <tr id="170">
+        <td>170</td>
+        <td>
+        </td>
+        <td class="side">&#193;cido taom&#225;n</td>
+      </tr>
+      <tr id="171">
+        <td>171</td>
+        <td>
+        </td>
+        <td class="side">Roca grandan</td>
+      </tr>
+      <tr id="172">
+        <td>172</td>
+        <td>
+        </td>
+        <td class="side">Cobre de jagitos</td>
+      </tr>
+      <tr id="173">
+        <td>173</td>
+        <td>
+        </td>
+        <td class="side">Espora pomio</td>
+      </tr>
+      <tr id="174">
+        <td>174</td>
+        <td>
+        </td>
+        <td class="side">Lava enfriada</td>
+      </tr>
+      <tr id="175">
+        <td>175</td>
+        <td>
+        </td>
+        <td class="side">Tierra de zalon</td>
+      </tr>
+      <tr id="176">
+        <td>176</td>
+        <td>
+        </td>
+        <td class="side">Electropiedra rogebra</td>
+      </tr>
+      <tr id="177">
+        <td>177</td>
+        <td>
+        </td>
+        <td class="side">P&#243;lvora de autiga</td>
+      </tr>
+      <tr id="178">
+        <td>178</td>
+        <td>
+        </td>
+        <td class="side">Piedra zaguiria</td>
+      </tr>
+      <tr id="179">
+        <td>179</td>
+        <td>
+        </td>
+        <td class="side">Aceite de cliord</td>
+      </tr>
+      <tr id="180">
+        <td>180</td>
+        <td>
+        </td>
+        <td class="side">Espejo protector de refracci&#243;n</td>
+      </tr>
+      <tr id="181">
+        <td>181</td>
+        <td>
+        </td>
+        <td class="side">Radiador anhidro</td>
+      </tr>
+      <tr id="182">
+        <td>182</td>
+        <td>
+        </td>
+        <td class="side">Tuber&#237;a inoxidable refractaria</td>
+      </tr>
+      <tr id="183">
+        <td>183</td>
+        <td>
+        </td>
+        <td class="side">Dep&#243;sito de combustible L-002</td>
+      </tr>
+      <tr id="184">
+        <td>184</td>
+        <td>
+        </td>
+        <td class="side">Analizador espacial L-002</td>
+      </tr>
+      <tr id="185">
+        <td>185</td>
+        <td>
+        </td>
+        <td class="side">Traje espacial US-X</td>
+      </tr>
+      <tr id="186">
+        <td>186</td>
+        <td>
+        </td>
+        <td class="side">Generador de haz centr&#237;fugo</td>
+      </tr>
+      <tr id="187">
+        <td>187</td>
+        <td>
+        </td>
+        <td class="side">C&#225;mara de conservaci&#243;n</td>
+      </tr>
+      <tr id="188">
+        <td>188</td>
+        <td>
+        </td>
+        <td class="side">Nostalgia L-002</td>
+      </tr>
+      <tr id="189">
+        <td>189</td>
+        <td>
+        </td>
+        <td class="side">Propulsor i&#243;nico HI9</td>
+      </tr>
+      <tr id="190">
+        <td>190</td>
+        <td>
+        </td>
+        <td class="side">Hiperdisipador Mk. IX</td>
+      </tr>
+      <tr id="191">
+        <td>191</td>
+        <td>
+        </td>
+        <td class="side">Guante motor</td>
+      </tr>
+      <tr id="192">
+        <td>192</td>
+        <td>
+        </td>
+        <td class="side">Impresora 3D</td>
+      </tr>
+      <tr id="193">
+        <td>193</td>
+        <td>
+        </td>
+        <td class="side">Deflector de crucero AiR</td>
+      </tr>
+      <tr id="194">
+        <td>194</td>
+        <td>
+        </td>
+        <td class="side">Dron solar multiespejo</td>
+      </tr>
+      <tr id="195">
+        <td>195</td>
+        <td>
+        </td>
+        <td class="side">Recicladora de 5.&#170; generaci&#243;n</td>
+      </tr>
+      <tr id="196">
+        <td>196</td>
+        <td>
+        </td>
+        <td class="side">Reactor de degeneraci&#243;n L-002</td>
+      </tr>
+      <tr id="197">
+        <td>197</td>
+        <td>
+        </td>
+        <td class="side">Transformador inal&#225;mbrico</td>
+      </tr>
+      <tr id="198">
+        <td>198</td>
+        <td>
+        </td>
+        <td class="side">Pel&#237;cula protectora</td>
+      </tr>
+      <tr id="199">
+        <td>199</td>
+        <td>
+        </td>
+        <td class="side">Emisor de ADN se&#241;uelo</td>
+      </tr>
+      <tr id="200">
+        <td>200</td>
+        <td>
+        </td>
+        <td class="side">Haz de calor dag&#250; L-002</td>
+      </tr>
+      <tr id="201">
+        <td>201</td>
+        <td>
+        </td>
+        <td class="side">IA aut&#243;noma A-HAB</td>
+      </tr>
+      <tr id="202">
+        <td>202</td>
+        <td>
+        </td>
+        <td class="side">Conversor de gases solares</td>
+      </tr>
+      <tr id="203">
+        <td>203</td>
+        <td>
+        </td>
+        <td class="side">Freno de ox&#237;geno</td>
+      </tr>
+      <tr id="204">
+        <td>204</td>
+        <td>
+        </td>
+        <td class="side">Pintura fluorescente</td>
+      </tr>
+      <tr id="205">
+        <td>205</td>
+        <td>
+        </td>
+        <td class="side">Autoposicionador</td>
+      </tr>
+      <tr id="206">
+        <td>206</td>
+        <td>
+        </td>
+        <td class="side">Bioextractor</td>
+      </tr>
+      <tr id="207">
+        <td>207</td>
+        <td>
+        </td>
+        <td class="side">Prototipo FN 3</td>
+      </tr>
+      <tr id="208">
+        <td>208</td>
+        <td>
+        </td>
+        <td class="side">Pulpo mec&#225;nico</td>
+      </tr>
+      <tr id="209">
+        <td>209</td>
+        <td>
+        </td>
+        <td class="side">Mortero estriado</td>
+      </tr>
+      <tr id="210">
+        <td>210</td>
+        <td>
+        </td>
+        <td class="side">&#193;baco de bellotas</td>
+      </tr>
+      <tr id="211">
+        <td>211</td>
+        <td>
+        </td>
+        <td class="side">Arborifaz</td>
+      </tr>
+      <tr id="212">
+        <td>212</td>
+        <td>
+        </td>
+        <td class="side">Monedero de c&#225;&#241;amo</td>
+      </tr>
+      <tr id="213">
+        <td>213</td>
+        <td>
+        </td>
+        <td class="side">Piedra cantarina</td>
+      </tr>
+      <tr id="214">
+        <td>214</td>
+        <td>
+        </td>
+        <td class="side">Masa repelente</td>
+      </tr>
+      <tr id="215">
+        <td>215</td>
+        <td>
+        </td>
+        <td class="side">Surtido de an&#233;monas de mar</td>
+      </tr>
+      <tr id="216">
+        <td>216</td>
+        <td>
+        </td>
+        <td class="side">Barca de madera de logunio</td>
+      </tr>
+      <tr id="217">
+        <td>217</td>
+        <td>
+        </td>
+        <td class="side">L&#225;mpara brillante</td>
+      </tr>
+      <tr id="218">
+        <td>218</td>
+        <td>
+        </td>
+        <td class="side">Corrector de espinazo</td>
+      </tr>
+      <tr id="219">
+        <td>219</td>
+        <td>
+        </td>
+        <td class="side">Caja de espinas</td>
+      </tr>
+      <tr id="220">
+        <td>220</td>
+        <td>
+        </td>
+        <td class="side">Lanza de la debacle</td>
+      </tr>
+      <tr id="221">
+        <td>221</td>
+        <td>
+        </td>
+        <td class="side">Piedra grabada</td>
+      </tr>
+      <tr id="222">
+        <td>222</td>
+        <td>
+        </td>
+        <td class="side">Vara de zahor&#237; m&#225;gica</td>
+      </tr>
+      <tr id="223">
+        <td>223</td>
+        <td>
+        </td>
+        <td class="side">Pulsera del c&#237;rculo eterno</td>
+      </tr>
+      <tr id="224">
+        <td>224</td>
+        <td>
+        </td>
+        <td class="side">Tambor de valor</td>
+      </tr>
+      <tr id="225">
+        <td>225</td>
+        <td>
+        </td>
+        <td class="side">Nopolito</td>
+      </tr>
+      <tr id="226">
+        <td>226</td>
+        <td>
+        </td>
+        <td class="side">B&#225;lsamo yabuyabu</td>
+      </tr>
+      <tr id="227">
+        <td>227</td>
+        <td>
+        </td>
+        <td class="side">Flotador de paja</td>
+      </tr>
+      <tr id="228">
+        <td>228</td>
+        <td>
+        </td>
+        <td class="side">Globo espora</td>
+      </tr>
+      <tr id="229">
+        <td>229</td>
+        <td>
+        </td>
+        <td class="side">Espiaestrellas</td>
+      </tr>
+      <tr id="230">
+        <td>230</td>
+        <td>
+        </td>
+        <td class="side">Capa de camuflaje</td>
+      </tr>
+      <tr id="231">
+        <td>231</td>
+        <td>
+        </td>
+        <td class="side">Vara espiritual</td>
+      </tr>
+      <tr id="232">
+        <td>232</td>
+        <td>
+        </td>
+        <td class="side">Camilla el&#225;stica</td>
+      </tr>
+      <tr id="233">
+        <td>233</td>
+        <td>
+        </td>
+        <td class="side">Piedra afiladora</td>
+      </tr>
+      <tr id="234">
+        <td>234</td>
+        <td>
+        </td>
+        <td class="side">Vasija carbonizada</td>
+      </tr>
+      <tr id="235">
+        <td>235</td>
+        <td>
+        </td>
+        <td class="side">Lente p&#233;trea</td>
+      </tr>
+      <tr id="236">
+        <td>236</td>
+        <td>
+        </td>
+        <td class="side">L&#225;mpara oscura</td>
+      </tr>
+      <tr id="237">
+        <td>237</td>
+        <td>
+        </td>
+        <td class="side">Alas de &#205;caro</td>
+      </tr>
+      <tr id="238">
+        <td>238</td>
+        <td>
+        </td>
+        <td class="side">Saco de dormir de bogano</td>
+      </tr>
+      <tr id="239">
+        <td>239</td>
+        <td>
+        </td>
+        <td class="side">Hucha gigante</td>
+      </tr>
+      <tr id="240">
+        <td>240</td>
+        <td>
+        </td>
+        <td class="side">Acelerador de evasi&#243;n</td>
+      </tr>
+      <tr id="241">
+        <td>241</td>
+        <td>
+        </td>
+        <td class="side">Espiral estranguladora</td>
+      </tr>
+      <tr id="242">
+        <td>242</td>
+        <td>
+        </td>
+        <td class="side">Luz de rayos T</td>
+      </tr>
+      <tr id="243">
+        <td>243</td>
+        <td>
+        </td>
+        <td class="side">Botella moteada</td>
+      </tr>
+      <tr id="244">
+        <td>244</td>
+        <td>
+        </td>
+        <td class="side">N&#250;cleo grosio</td>
+      </tr>
+      <tr id="245">
+        <td>245</td>
+        <td>
+        </td>
+        <td class="side">Terminal cerebral</td>
+      </tr>
+      <tr id="246">
+        <td>246</td>
+        <td>
+        </td>
+        <td class="side">Hexacalibrador</td>
+      </tr>
+      <tr id="247">
+        <td>247</td>
+        <td>
+        </td>
+        <td class="side">Bid&#243;n joad</td>
+      </tr>
+      <tr id="248">
+        <td>248</td>
+        <td>
+        </td>
+        <td class="side">Madonador resonante</td>
+      </tr>
+      <tr id="249">
+        <td>249</td>
+        <td>
+        </td>
+        <td class="side">Filtro ultra</td>
+      </tr>
+      <tr id="250">
+        <td>250</td>
+        <td>
+        </td>
+        <td class="side">Ojo erradicador</td>
+      </tr>
+      <tr id="251">
+        <td>251</td>
+        <td>
+        </td>
+        <td class="side">Reactor de sacrificios</td>
+      </tr>
+      <tr id="252">
+        <td>252</td>
+        <td>
+        </td>
+        <td class="side">Funda de acero para cola</td>
+      </tr>
+      <tr id="253">
+        <td>253</td>
+        <td>
+        </td>
+        <td class="side">Casco con cuernos</td>
+      </tr>
+      <tr id="254">
+        <td>254</td>
+        <td>
+        </td>
+        <td class="side">Calavera de combate</td>
+      </tr>
+      <tr id="255">
+        <td>255</td>
+        <td>
+        </td>
+        <td class="side">Piel iridiscente</td>
+      </tr>
+      <tr id="256">
+        <td>256</td>
+        <td>
+        </td>
+        <td class="side">Aparato detilid</td>
+      </tr>
+      <tr id="257">
+        <td>257</td>
+        <td>
+        </td>
+        <td class="side">Cableado para misiles</td>
+      </tr>
+      <tr id="258">
+        <td>258</td>
+        <td>
+        </td>
+        <td class="side">Inductor de furia</td>
+      </tr>
+      <tr id="259">
+        <td>259</td>
+        <td>
+        </td>
+        <td class="side">Emblema del rayo</td>
+      </tr>
+      <tr id="260">
+        <td>260</td>
+        <td>
+        </td>
+        <td class="side">Corona de castigo</td>
+      </tr>
+      <tr id="261">
+        <td>261</td>
+        <td>
+        </td>
+        <td class="side">Metal l&#237;quido inteligente</td>
+      </tr>
+      <tr id="262">
+        <td>262</td>
+        <td>
+        </td>
+        <td class="side">Analizador absoluto</td>
+      </tr>
+      <tr id="263">
+        <td>263</td>
+        <td>
+        </td>
+        <td class="side">Garra b&#225;rbara</td>
+      </tr>
+      <tr id="264">
+        <td>264</td>
+        <td>
+        </td>
+        <td class="side">Bater&#237;a elemental</td>
+      </tr>
+      <tr id="265">
+        <td>265</td>
+        <td>
+        </td>
+        <td class="side">Plataforma de control espacial</td>
+      </tr>
+      <tr id="266">
+        <td>266</td>
+        <td>
+        </td>
+        <td class="side">Fragmento de filo dith</td>
+      </tr>
+      <tr id="267">
+        <td>267</td>
+        <td>
+        </td>
+        <td class="side">Esc&#225;ner de voltante</td>
+      </tr>
+      <tr id="268">
+        <td>268</td>
+        <td>
+        </td>
+        <td class="side">Polvo de meditaci&#243;n</td>
+      </tr>
+      <tr id="269">
+        <td>269</td>
+        <td>
+        </td>
+        <td class="side">Atardecer de California</td>
+      </tr>
+      <tr id="270">
+        <td>270</td>
+        <td>
+        </td>
+        <td class="side">Telescopio de espejismos</td>
+      </tr>
+      <tr id="271">
+        <td>271</td>
+        <td>
+        </td>
+        <td class="side">Encanto antiguo</td>
+      </tr>
+      <tr id="272">
+        <td>272</td>
+        <td>
+        </td>
+        <td class="side">Beso de diosa</td>
+      </tr>
+      <tr id="273">
+        <td>273</td>
+        <td>
+        </td>
+        <td class="side">Im&#225;n resplandeciente</td>
+      </tr>
+      <tr id="274">
+        <td>274</td>
+        <td>
+        </td>
+        <td class="side">Espejo fraudulento</td>
+      </tr>
+      <tr id="275">
+        <td>275</td>
+        <td>
+        </td>
+        <td class="side">Balanza de la justicia</td>
+      </tr>
+      <tr id="276">
+        <td>276</td>
+        <td>
+        </td>
+        <td class="side">Motor esf&#233;rico EM</td>
+      </tr>
+      <tr id="277">
+        <td>277</td>
+        <td>
+        </td>
+        <td class="side">&#205;dolos ancestrales</td>
+      </tr>
+      <tr id="278">
+        <td>278</td>
+        <td>
+        </td>
+        <td class="side">Hierro fuerte</td>
+      </tr>
+      <tr id="279">
+        <td>279</td>
+        <td>
+        </td>
+        <td class="side">Arena camale&#243;nica</td>
+      </tr>
+      <tr id="280">
+        <td>280</td>
+        <td>
+        </td>
+        <td class="side">Estrella de la doncella</td>
+      </tr>
+      <tr id="281">
+        <td>281</td>
+        <td>
+        </td>
+        <td class="side">Piedra del eco</td>
+      </tr>
+      <tr id="282">
+        <td>282</td>
+        <td>
+        </td>
+        <td class="side">Grabados il&#243;gicos</td>
+      </tr>
+      <tr id="283">
+        <td>283</td>
+        <td>
+        </td>
+        <td class="side">Piedra angelical</td>
+      </tr>
+      <tr id="284">
+        <td>284</td>
+        <td>
+        </td>
+        <td class="side">Sintetizador de memoria</td>
+      </tr>
+      <tr id="285">
+        <td>285</td>
+        <td>
+        </td>
+        <td class="side">Sal de doble h&#233;lice</td>
+      </tr>
+      <tr id="286">
+        <td>286</td>
+        <td>
+        </td>
+        <td class="side">Fluido luminoso verde</td>
+      </tr>
+      <tr id="287">
+        <td>287</td>
+        <td>
+        </td>
+        <td class="side">Huevo floral</td>
+      </tr>
+      <tr id="288">
+        <td>288</td>
+        <td>
+        </td>
+        <td class="side">Embeleso de la reina</td>
+      </tr>
+      <tr id="289">
+        <td>289</td>
+        <td>
+        </td>
+        <td class="side">Tornillo p&#233;treo</td>
+      </tr>
+      <tr id="290">
+        <td>290</td>
+        <td>
+        </td>
+        <td class="side">Astroscopio</td>
+      </tr>
+      <tr id="291">
+        <td>291</td>
+        <td>
+        </td>
+        <td class="side">Transmisor toctoc</td>
+      </tr>
+      <tr id="292">
+        <td>292</td>
+        <td>
+        </td>
+        <td class="side">Cadena de afinidad</td>
+      </tr>
+      <tr id="293">
+        <td>293</td>
+        <td>
+        </td>
+        <td class="side">Aumentam&#250;sculo plus</td>
+      </tr>
+      <tr id="294">
+        <td>294</td>
+        <td>
+        </td>
+        <td class="side">Vara de brutalidad +10</td>
+      </tr>
+      <tr id="295">
+        <td>295</td>
+        <td>
+        </td>
+        <td class="side">Caldero veleidoso</td>
+      </tr>
+      <tr id="296">
+        <td>296</td>
+        <td>
+        </td>
+        <td class="side">Sonajero s&#237;smico</td>
+      </tr>
+      <tr id="297">
+        <td>297</td>
+        <td>
+        </td>
+        <td class="side">Cetro de alta alcurnia</td>
+      </tr>
+      <tr id="298">
+        <td>298</td>
+        <td>
+        </td>
+        <td class="side">M&#225;scara de la perdici&#243;n</td>
+      </tr>
+      <tr id="299">
+        <td>299</td>
+        <td>
+        </td>
+        <td class="side">Pintura perturbadora</td>
+      </tr>
+      <tr id="300">
+        <td>300</td>
+        <td>
+        </td>
+        <td class="side">Tomo de auge y ca&#237;da</td>
+      </tr>
+      <tr id="301">
+        <td>301</td>
+        <td>
+        </td>
+        <td class="side">Fruta con aspecto de calabaza y con una[ST:n ]corteza negra. La pulpa blanca esponjosa[ST:n ]de su interior es ins&#237;pida, pero se usa[ST:n ]como ingrediente nutricional.</td>
+      </tr>
+      <tr id="302">
+        <td>302</td>
+        <td>
+        </td>
+        <td class="side">Esta patata con forma de gota es oriunda[ST:n ]de Primordia. Es amarga y no se puede[ST:n ]consumir cruda, pero es rica en prote&#237;nas[ST:n ]y se usa mucho en platos preparados.</td>
+      </tr>
+      <tr id="303">
+        <td>303</td>
+        <td>
+        </td>
+        <td class="side">Lechuga que emite calor y cuyas hojas[ST:n ]titilantes se asemejan al sol. Propensa[ST:n ]a la autocombusti&#243;n, solo puede[ST:n ]encontrarse en d&#237;as lluviosos.</td>
+      </tr>
+      <tr id="304">
+        <td>304</td>
+        <td>
+        </td>
+        <td class="side">Sus finas hebras le otorgan un aspecto[ST:n ]de bola de pelo, y sus llamativos[ST:n ]colores contrastan con su sabor,[ST:n ]que se asemeja al de una simple col.</td>
+      </tr>
+      <tr id="305">
+        <td>305</td>
+        <td>
+        </td>
+        <td class="side">Zanahoria dividida en ocho ra&#237;ces.[ST:n ]De estas, siete son extremadamente[ST:n ]dulces, pero la restante posee una[ST:n ]amargura que hace saltar las l&#225;grimas.</td>
+      </tr>
+      <tr id="306">
+        <td>306</td>
+        <td>
+        </td>
+        <td class="side">Tomate que puede acumular grandes[ST:n ]cantidades de agua y da fruto solo en[ST:n ]d&#237;as lluviosos. Su jugosa pulpa es[ST:n ]deleite de gran parte de la fauna local.</td>
+      </tr>
+      <tr id="307">
+        <td>307</td>
+        <td>
+        </td>
+        <td class="side">Hongo noctilita que libera esporas[ST:n ]en el aire, aturdiendo a la fauna cercana.[ST:n ]Hay una subespecie que sume en un[ST:n ]estado ext&#225;tico a quien la consume.</td>
+      </tr>
+      <tr id="308">
+        <td>308</td>
+        <td>
+        </td>
+        <td class="side">Berenjena dulce y correosa que crece[ST:n ]en los &#225;rboles, absorbiendo su savia.[ST:n ]Tambi&#233;n extrae pat&#243;genos del &#225;rbol,[ST:n ]incrementando as&#237; la vida de este.</td>
+      </tr>
+      <tr id="309">
+        <td>309</td>
+        <td>
+        </td>
+        <td class="side">Planta con tent&#225;culos con boca[ST:n ]que se extienden para cazar insectos.[ST:n ]Es muy rica en prote&#237;nas, por lo que[ST:n ]se ha convertido en un alimento esencial.</td>
+      </tr>
+      <tr id="310">
+        <td>310</td>
+        <td>
+        </td>
+        <td class="side">Crecen absorbiendo plasma de la[ST:n ]atm&#243;sfera. Son muy apreciadas por[ST:n ]su intenso sabor y sus efectos calmantes.</td>
+      </tr>
+      <tr id="311">
+        <td>311</td>
+        <td>
+        </td>
+        <td class="side">Subespecie de seta ces&#233;rea que solo[ST:n ]aparece una vez cada cien a&#241;os.[ST:n ]Se dice que los que la prueban pasan[ST:n ]el resto de sus d&#237;as en estado ext&#225;tico.</td>
+      </tr>
+      <tr id="312">
+        <td>312</td>
+        <td>
+        </td>
+        <td class="side">Este vegetal sabe a col y tiene un tono[ST:n ]negruzco que se intensifica al cocerlo.</td>
+      </tr>
+      <tr id="313">
+        <td>313</td>
+        <td>
+        </td>
+        <td class="side">Tiene forma de cuerno afilado, por lo que[ST:n ]se recomienda no manipularlo sin guantes.[ST:n ]Su ingesti&#243;n acelera la recuperaci&#243;n,[ST:n ]pero tambi&#233;n da mal aliento.</td>
+      </tr>
+      <tr id="314">
+        <td>314</td>
+        <td>
+        </td>
+        <td class="side">Su gruesa vaina contiene m&#250;ltiples alubias[ST:n ]del tama&#241;o de un pu&#241;o. Una de estas[ST:n ]provee suficiente alimento para un d&#237;a, lo[ST:n ]que las hace ideales para viajes largos.</td>
+      </tr>
+      <tr id="315">
+        <td>315</td>
+        <td>
+        </td>
+        <td class="side">Calabac&#237;n introducido por alien&#237;genas.[ST:n ]A pesar de su insipidez, su capacidad[ST:n ]para crecer incluso en tierra est&#233;ril[ST:n ]lo convierte en un alimento imprescindible.</td>
+      </tr>
+      <tr id="316">
+        <td>316</td>
+        <td>
+        </td>
+        <td class="side">Luce rojo, amarillo, azul y despu&#233;s negro[ST:n ]en una secuencia continua. Es un pimiento[ST:n ]de bello aspecto que resulta un placer[ST:n ]tanto para la vista como para el paladar.</td>
+      </tr>
+      <tr id="317">
+        <td>317</td>
+        <td>
+        </td>
+        <td class="side">Hierba cargada magn&#233;ticamente y cubierta[ST:n ]de polvo de hierro. Usada como remedio[ST:n ]herbal debido a su capacidad para[ST:n ]eliminar exceso de hierro del cuerpo.</td>
+      </tr>
+      <tr id="318">
+        <td>318</td>
+        <td>
+        </td>
+        <td class="side">Br&#243;coli con forma de corona que, se dice,[ST:n ]confiere el se&#241;or&#237;o de Mira a quienes lo[ST:n ]consumen. Pruebas realizadas indican que,[ST:n ]en efecto, provoca delirios de grandeza.</td>
+      </tr>
+      <tr id="319">
+        <td>319</td>
+        <td>
+        </td>
+        <td class="side">R&#225;bano cuyas muchas ra&#237;ces se entretejen[ST:n ]de manera similar a una cadena de ADN.[ST:n ]Desafortunadamente, su sabor no est&#225;[ST:n ]a la altura de su imponente aspecto.</td>
+      </tr>
+      <tr id="320">
+        <td>320</td>
+        <td>
+        </td>
+        <td class="side">Estas jud&#237;as potencian el efecto del[ST:n ]alcohol, lo que a veces provoca tr&#225;gicos[ST:n ]resultados. Se recomienda consumir otro[ST:n ]refrigerio si se va a beber alcohol.</td>
+      </tr>
+      <tr id="321">
+        <td>321</td>
+        <td>
+        </td>
+        <td class="side">Su c&#225;scara contiene semillas[ST:n ]m&#225;s peque&#241;as que un grano de arena.[ST:n ]Al agitarlo, produce un placentero sonido[ST:n ]r&#237;tmico que calma y alivia el estr&#233;s.</td>
+      </tr>
+      <tr id="322">
+        <td>322</td>
+        <td>
+        </td>
+        <td class="side">Cereal blanquiazul con aspecto[ST:n ]similar al ma&#237;z. Al crecer, los granos[ST:n ]se llenan de gas hasta que, finalmente,[ST:n ]se sueltan y se van volando.</td>
+      </tr>
+      <tr id="323">
+        <td>323</td>
+        <td>
+        </td>
+        <td class="side">Apio poco com&#250;n que crece en las[ST:n ]fisuras de animales muertos humedecidos[ST:n ]por la lluvia. Su sabor depende[ST:n ]de la carro&#241;a de la que hayan crecido.</td>
+      </tr>
+      <tr id="324">
+        <td>324</td>
+        <td>
+        </td>
+        <td class="side">Al pelarla, se revela un interior no[ST:n ]comestible. Solo se puede comer la capa[ST:n ]exterior, pero su sutil sabor dulce ha de[ST:n ]disfrutarse en cantidades moderadas.</td>
+      </tr>
+      <tr id="325">
+        <td>325</td>
+        <td>
+        </td>
+        <td class="side">Pimienta dotada de la energ&#237;a[ST:n ]del rel&#225;mpago, capaz de doblegar[ST:n ]hasta a los m&#225;s recios. M&#225;s propia de la[ST:n ]industria armament&#237;stica que de la cocina.</td>
+      </tr>
+      <tr id="326">
+        <td>326</td>
+        <td>
+        </td>
+        <td class="side">Puede parecer un &#225;rbol, pero[ST:n ]tiene el tacto y el sabor del bamb&#250;.[ST:n ]La fauna de Cauldros usa su capa[ST:n ]exterior para afilarse los colmillos.</td>
+      </tr>
+      <tr id="327">
+        <td>327</td>
+        <td>
+        </td>
+        <td class="side">Ra&#237;z t&#243;xica negra capaz de acabar[ST:n ]con las m&#225;s grandes criaturas.[ST:n ]Si se deja crecer, las toxinas letales[ST:n ]acaban esparci&#233;ndose por sus c&#233;lulas.</td>
+      </tr>
+      <tr id="328">
+        <td>328</td>
+        <td>
+        </td>
+        <td class="side">Su fina piel transparente contiene[ST:n ]una fruta granulada y gelatinosa. Su jugo[ST:n ]es dulce, pero tambi&#233;n muy pegajoso[ST:n ]y un incordio a la hora de limpiarlo.</td>
+      </tr>
+      <tr id="329">
+        <td>329</td>
+        <td>
+        </td>
+        <td class="side">Una naranja f&#225;cilmente confundible[ST:n ]con una roca. A pesar de su delicioso[ST:n ]sabor, su aspecto poco apetitoso[ST:n ]suele echar para atr&#225;s a mucha gente.</td>
+      </tr>
+      <tr id="330">
+        <td>330</td>
+        <td>
+        </td>
+        <td class="side">Esta fruta parece un cardo, pero tiene[ST:n ]sabor a fresa. Ha de someterse[ST:n ]a un proceso para darle forma de fresa[ST:n ]antes de poder ser comercializada.</td>
+      </tr>
+      <tr id="331">
+        <td>331</td>
+        <td>
+        </td>
+        <td class="side">Bajo su piel negra yace una semilla[ST:n ]que centellea como una estrella,[ST:n ]e incluso podr&#237;a convertirse en supernova.[ST:n ]Por desgracia, al sacarla pierde su brillo.</td>
+      </tr>
+      <tr id="332">
+        <td>332</td>
+        <td>
+        </td>
+        <td class="side">Su consumo puede causar euforia, con[ST:n ]efectos secundarios que incluyen alaridos[ST:n ]de j&#250;bilo y palpitaciones. Sin embargo,[ST:n ]conviene tener en cuenta su sabor picante.</td>
+      </tr>
+      <tr id="333">
+        <td>333</td>
+        <td>
+        </td>
+        <td class="side">Lim&#243;n ultras&#243;nico cuyas emisiones est&#225;n[ST:n ]fuera de la percepci&#243;n del o&#237;do humano.[ST:n ]Los nativos de Mira que pueden o&#237;rlo[ST:n ]suelen buscar el origen de estos gemidos.</td>
+      </tr>
+      <tr id="334">
+        <td>334</td>
+        <td>
+        </td>
+        <td class="side">Fruta del tama&#241;o de una mano que crece[ST:n ]silvestre en los bosques de Noctilum. La[ST:n ]exposici&#243;n continuada a los rayos solares[ST:n ]disuelve la piel y revela la pulpa interior.</td>
+      </tr>
+      <tr id="335">
+        <td>335</td>
+        <td>
+        </td>
+        <td class="side">Al madurar, la semilla se cae del &#225;rbol,[ST:n ]con el riesgo de provocar una grave[ST:n ]herida al desafortunado que reciba[ST:n ]el impacto.</td>
+      </tr>
+      <tr id="336">
+        <td>336</td>
+        <td>
+        </td>
+        <td class="side">Planta at&#237;picamente robusta y de hojas[ST:n ]grandes que se propaga agresivamente[ST:n ]por el planeta, apartando a otras plantas[ST:n ]e incluso rocas a su paso.</td>
+      </tr>
+      <tr id="337">
+        <td>337</td>
+        <td>
+        </td>
+        <td class="side">Fruta luminiscente que crece de las flores[ST:n ]gigantes de Noctilum. Ataviada con largas[ST:n ]y afiladas espinas, aquellos cautivados[ST:n ]por su brillo sufren una dolorosa muerte.</td>
+      </tr>
+      <tr id="338">
+        <td>338</td>
+        <td>
+        </td>
+        <td class="side">Fruta de gran elasticidad cuya piel[ST:n ]se ha llegado a utilizar en la industria[ST:n ]textil. Su textura gomosa y sabor dulce[ST:n ]recuerdan a un chicle.</td>
+      </tr>
+      <tr id="339">
+        <td>339</td>
+        <td>
+        </td>
+        <td class="side">Ciruela agria que solo crece en cuevas[ST:n ]oscuras. Su sabor puede doblegar hasta[ST:n ]al animal m&#225;s robusto, y hace que la[ST:n ]mayor&#237;a de criaturas huyan despavoridas.</td>
+      </tr>
+      <tr id="340">
+        <td>340</td>
+        <td>
+        </td>
+        <td class="side">Hoja con sabor a pl&#225;tano y aspecto[ST:n ]insulso. Aunque muy codiciada por su[ST:n ]sabor, su h&#225;bito de camuflarse hace[ST:n ]que sea muy dif&#237;cil encontrarla.</td>
+      </tr>
+      <tr id="341">
+        <td>341</td>
+        <td>
+        </td>
+        <td class="side">Raro mel&#243;n luminiscente. Venerado desde[ST:n ]tiempos inmemoriales como fruto sacro,[ST:n ]se dice que un bocado de su pulpa otorga[ST:n ]sabidur&#237;a... O por lo menos una sonrisa.</td>
+      </tr>
+      <tr id="342">
+        <td>342</td>
+        <td>
+        </td>
+        <td class="side">Fruta oriunda de climas tormentosos.[ST:n ]A primera vista, parece un mont&#243;n[ST:n ]de arena, pero cuando madura,[ST:n ]adopta la forma de una sand&#237;a.</td>
+      </tr>
+      <tr id="343">
+        <td>343</td>
+        <td>
+        </td>
+        <td class="side">Uva tan grande que solo puede crecer[ST:n ]una en cada &#225;rbol. Se puede hacer[ST:n ]una bebida similar al vino al mezclarla[ST:n ]con alcohol.</td>
+      </tr>
+      <tr id="344">
+        <td>344</td>
+        <td>
+        </td>
+        <td class="side">Kiwi con c&#225;scara similar a la del huevo.[ST:n ]Esta cubierta act&#250;a como escudo,[ST:n ]protegiendo su interior de los insectos[ST:n ]que pululan por los parajes mir&#225;queos.</td>
+      </tr>
+      <tr id="345">
+        <td>345</td>
+        <td>
+        </td>
+        <td class="side">Fruta cubierta de afiladas espinas usada[ST:n ]por sus efectos hemost&#225;ticos. Se consumen[ST:n ]muchas durante la cosecha, debido a las[ST:n ]heridas que producen al recogerlas.</td>
+      </tr>
+      <tr id="346">
+        <td>346</td>
+        <td>
+        </td>
+        <td class="side">La escasez de pulpa es compensada[ST:n ]por sus numerosas semillas comestibles.[ST:n ]Son amargas, pero tan adictivas[ST:n ]que se consumen sin pausa.</td>
+      </tr>
+      <tr id="347">
+        <td>347</td>
+        <td>
+        </td>
+        <td class="side">Fruta que captura el aire fr&#237;o circundante.[ST:n ]Est&#225; tan fr&#237;a que produce congelaci&#243;n[ST:n ]al tocarla, y solo puede consumirse[ST:n ]tras ponerla a temperatura ambiente.</td>
+      </tr>
+      <tr id="348">
+        <td>348</td>
+        <td>
+        </td>
+        <td class="side">Fruta con semillas blancas similares[ST:n ]a copos de nieve y de sabor bastante[ST:n ]amargo. Los habitantes de climas fr&#237;os[ST:n ]la consumen para entrar en calor.</td>
+      </tr>
+      <tr id="349">
+        <td>349</td>
+        <td>
+        </td>
+        <td class="side">Uva con semillas que se asemejan a joyas[ST:n ]grabadas. Aunque suele ser agria,[ST:n ]en raras ocasiones puede volverse dulce,[ST:n ]para deleite de los que la consumen.</td>
+      </tr>
+      <tr id="350">
+        <td>350</td>
+        <td>
+        </td>
+        <td class="side">Fruta rebosante de energ&#237;a que puede[ST:n ]producir una explosi&#243;n catacl&#237;smica[ST:n ]al caer, por lo que se recomienda[ST:n ]cosecharla con extrema cautela.</td>
+      </tr>
+      <tr id="351">
+        <td>351</td>
+        <td>
+        </td>
+        <td class="side">Fruta con sabor a carne. Al calentarla,[ST:n ]se producen curiosas anomal&#237;as[ST:n ]en su sabor, evocando ternera a altas[ST:n ]temperaturas y cerdo a bajas.</td>
+      </tr>
+      <tr id="352">
+        <td>352</td>
+        <td>
+        </td>
+        <td class="side">Semilla resistente al calor que se[ST:n ]encuentra en la lava. Se transforma en[ST:n ]una roca con frutos dentro al enfriarse.[ST:n ]Es dulce y nutritiva, pero dif&#237;cil de cascar.</td>
+      </tr>
+      <tr id="353">
+        <td>353</td>
+        <td>
+        </td>
+        <td class="side">Akebi que puede sobrevivir a su entorno[ST:n ]gracias a una piel dura como el hierro.[ST:n ]Debido a su existencia milenaria, seguro[ST:n ]que posee valiosa informaci&#243;n gen&#233;tica.</td>
+      </tr>
+      <tr id="354">
+        <td>354</td>
+        <td>
+        </td>
+        <td class="side">Higo con efectos purificadores que crece[ST:n ]hasta en tierras &#225;ridas. Su efecto es tan[ST:n ]fuerte que si se toma sin motivo puede[ST:n ]disminuir la asimilaci&#243;n de nutrientes.</td>
+      </tr>
+      <tr id="355">
+        <td>355</td>
+        <td>
+        </td>
+        <td class="side">Pi&#241;a negra provista de ret&#237;culos en forma[ST:n ]de ojos. Se dice que quien la toca queda[ST:n ]sumido en un estado de terror. Solo[ST:n ]recomendable para los fuertes de esp&#237;ritu.</td>
+      </tr>
+      <tr id="356">
+        <td>356</td>
+        <td>
+        </td>
+        <td class="side">Hierba que se regenera inmediatamente[ST:n ]tras ser cortada. Si se poda, cada parte[ST:n ]adquiere vida propia. La incineraci&#243;n[ST:n ]es el &#250;nico m&#233;todo viable de eliminaci&#243;n.</td>
+      </tr>
+      <tr id="357">
+        <td>357</td>
+        <td>
+        </td>
+        <td class="side">Lirio blanco que, a la luz de la luna,[ST:n ]emite un tenue brillo dorado. Varios[ST:n ]tipos de insecto se ven atra&#237;dos por[ST:n ]esta flor y pueden verse a su alrededor.</td>
+      </tr>
+      <tr id="358">
+        <td>358</td>
+        <td>
+        </td>
+        <td class="side">Florece solo un fugaz momento cada[ST:n ]d&#237;a, antes de retirarse de nuevo al caer[ST:n ]la noche. Su color es un espect&#225;culo para[ST:n ]quienes tienen la fortuna de presenciarlo.</td>
+      </tr>
+      <tr id="359">
+        <td>359</td>
+        <td>
+        </td>
+        <td class="side">Una atrayente hierba con capacidad[ST:n ]para embelesar no solo a los felinos.[ST:n ]Posee un potente aroma que atrae[ST:n ]a todo tipo de criaturas desde kil&#243;metros.</td>
+      </tr>
+      <tr id="360">
+        <td>360</td>
+        <td>
+        </td>
+        <td class="side">Este diente de le&#243;n lanza semillas a las[ST:n ]criaturas cercanas. Las semillas se[ST:n ]convierten entonces en par&#225;sitos y la vida[ST:n ]del hu&#233;sped no llega a ser muy larga.</td>
+      </tr>
+      <tr id="361">
+        <td>361</td>
+        <td>
+        </td>
+        <td class="side">Hierba con un aroma dulce,[ST:n ]fresco y relajante. Se dice que[ST:n ]hasta las m&#225;s vivaces criaturas[ST:n ]se calman con esta fragancia.</td>
+      </tr>
+      <tr id="362">
+        <td>362</td>
+        <td>
+        </td>
+        <td class="side">Aunque crece por todas partes, su gran[ST:n ]semilla a menudo germina en grietas[ST:n ]estrechas, quedando estas bloqueadas.[ST:n ]Una especie en peligro de extinci&#243;n.</td>
+      </tr>
+      <tr id="363">
+        <td>363</td>
+        <td>
+        </td>
+        <td class="side">Flor blanca y bastante sencilla.[ST:n ]No hay nada de especial acerca de su[ST:n ]altura o apariencia. Sin embargo, cuando[ST:n ]se arranca brilla con una luz casi divina.</td>
+      </tr>
+      <tr id="364">
+        <td>364</td>
+        <td>
+        </td>
+        <td class="side">Flor corta que, al contrario de lo que[ST:n ]indica su nombre, evita la luz solar en[ST:n ]todo momento. Cuando es expuesta a la[ST:n ]luz, crece hasta alcanzar grandes alturas.</td>
+      </tr>
+      <tr id="365">
+        <td>365</td>
+        <td>
+        </td>
+        <td class="side">Tiene unas duras flores plateadas que[ST:n ]repican como campanas cuando las mece[ST:n ]el viento, ofreciendo a los visitantes de[ST:n ]Noctilum un breve momento de serenidad.</td>
+      </tr>
+      <tr id="366">
+        <td>366</td>
+        <td>
+        </td>
+        <td class="side">Planta insect&#237;vora que atrae a sus presas[ST:n ]hasta su boca con su dulce aroma. Estos[ST:n ]desdichados insectos se convierten en[ST:n ]motas que adornan los p&#233;talos de la flor.</td>
+      </tr>
+      <tr id="367">
+        <td>367</td>
+        <td>
+        </td>
+        <td class="side">Por mucho que se arranquen, los p&#233;talos[ST:n ]de esta flor siempre vuelven a crecer.[ST:n ]Su consumo ayuda a la longevidad,[ST:n ]lo que la hace popular entre los ancianos.</td>
+      </tr>
+      <tr id="368">
+        <td>368</td>
+        <td>
+        </td>
+        <td class="side">Gran flor cosmos cuyos p&#233;talos se mueven[ST:n ]en respuesta a ciertos est&#237;mulos. Esto ha[ST:n ]llevado a muchos a creer que en realidad[ST:n ]poseen un cierto grado de conciencia.</td>
+      </tr>
+      <tr id="369">
+        <td>369</td>
+        <td>
+        </td>
+        <td class="side">Hierba de gran tama&#241;o que, a primera[ST:n ]vista, podr&#237;a pasar por un &#225;rbol.[ST:n ]Sin embargo, a pesar de su apariencia,[ST:n ]es muy flexible y f&#225;cil de cortar.</td>
+      </tr>
+      <tr id="370">
+        <td>370</td>
+        <td>
+        </td>
+        <td class="side">Estas flores pueden ser extremadamente[ST:n ]dif&#237;ciles de localizar, ya que sus p&#233;talos[ST:n ]adoptan el color del entorno.</td>
+      </tr>
+      <tr id="371">
+        <td>371</td>
+        <td>
+        </td>
+        <td class="side">Sus flores son ingeridas por la fauna[ST:n ]mir&#225;quea, gracias a lo cual las semillas[ST:n ]se dispersan a trav&#233;s de los excrementos[ST:n ]de los seres ind&#237;genas.</td>
+      </tr>
+      <tr id="372">
+        <td>372</td>
+        <td>
+        </td>
+        <td class="side">Esta planta es capaz de crecer a un ritmo[ST:n ]anormal, pero tiene un ciclo de vida[ST:n ]muy corto y no consigue proliferar.[ST:n ]Es similar a la rocambola de la Tierra.</td>
+      </tr>
+      <tr id="373">
+        <td>373</td>
+        <td>
+        </td>
+        <td class="side">Tiene una acidez &#250;nica muy apreciada[ST:n ]por gourmets y cocineros de NLA.[ST:n ]Con ella pueden hacerse bebidas[ST:n ]muy similares al caf&#233;.</td>
+      </tr>
+      <tr id="374">
+        <td>374</td>
+        <td>
+        </td>
+        <td class="side">Hierba bastante gen&#233;rica con propiedades[ST:n ]em&#233;ticas que provocan el v&#243;mito a quien[ST:n ]la ingiere. Puede utilizarse como medicina[ST:n ]o como veneno.</td>
+      </tr>
+      <tr id="375">
+        <td>375</td>
+        <td>
+        </td>
+        <td class="side">Cactus con espinas suaves como tent&#225;culos[ST:n ]de medusa. Se dice que si un myuena[ST:n ]podrido entra en contacto con la lluvia,[ST:n ]se transforma en resina cact&#225;cea plateada.</td>
+      </tr>
+      <tr id="376">
+        <td>376</td>
+        <td>
+        </td>
+        <td class="side">Acebo con grandes frutas moradas[ST:n ]que explotan al caer, esparciendo[ST:n ]sus reservas de polen. Ciertas criaturas[ST:n ]no pueden soportar su olor.</td>
+      </tr>
+      <tr id="377">
+        <td>377</td>
+        <td>
+        </td>
+        <td class="side">Hojas brillantes brotan de su tallo largo y[ST:n ]estrecho. Mezcladas con saliva, producen[ST:n ]un l&#237;quido viscoso que se enrosca en[ST:n ]la garganta y dificulta la respiraci&#243;n.</td>
+      </tr>
+      <tr id="378">
+        <td>378</td>
+        <td>
+        </td>
+        <td class="side">Flor que emite un sonido explosivo[ST:n ]cuando detecta cualquier ruido en la[ST:n ]cercan&#237;a. Hay que acercarse con gran[ST:n ]sigilo para evitar que esto ocurra.</td>
+      </tr>
+      <tr id="379">
+        <td>379</td>
+        <td>
+        </td>
+        <td class="side">Planta con un tallo provisto de aros que[ST:n ]emite una sola pompa de jab&#243;n al d&#237;a.[ST:n ]Estas burbujas transportan el polen[ST:n ]que engendrar&#225; a su vez m&#225;s lirios sese.</td>
+      </tr>
+      <tr id="380">
+        <td>380</td>
+        <td>
+        </td>
+        <td class="side">Sus p&#233;talos pueden usarse para fabricar[ST:n ]tintes que pueden combinarse para formar[ST:n ]cualquier color. Se dice que estos tonos[ST:n ]tan v&#237;vidos nunca llegan a deste&#241;irse.</td>
+      </tr>
+      <tr id="381">
+        <td>381</td>
+        <td>
+        </td>
+        <td class="side">Flor que brilla como las m&#225;s bellas joyas.[ST:n ]Puede usarse como herbicida,[ST:n ]ya que al florecer roba los nutrientes[ST:n ]de las plantas que tiene a su alrededor.</td>
+      </tr>
+      <tr id="382">
+        <td>382</td>
+        <td>
+        </td>
+        <td class="side">Flor de gran tama&#241;o rebosante de polen[ST:n ]y conocida por su r&#225;pida expansi&#243;n.[ST:n ]Su polen es muy sabroso, por lo que es[ST:n ]muy apreciada entre los nopon.</td>
+      </tr>
+      <tr id="383">
+        <td>383</td>
+        <td>
+        </td>
+        <td class="side">Crisantemo dorado que crece y se[ST:n ]reproduce dej&#225;ndose llevar por los vientos[ST:n ]cauldrianos, absorbiendo azufre. Antes de[ST:n ]morir, adopta forma de cristal de azufre.</td>
+      </tr>
+      <tr id="384">
+        <td>384</td>
+        <td>
+        </td>
+        <td class="side">Robusta planta que no arde ni bajo[ST:n ]las &#237;gneas lluvias de Cauldros.[ST:n ]Sin embargo, es extremadamente[ST:n ]sensible al fr&#237;o.</td>
+      </tr>
+      <tr id="385">
+        <td>385</td>
+        <td>
+        </td>
+        <td class="side">Ninguna criatura puede resistirse a sus[ST:n ]atractivos p&#233;talos. Fue recolectada casi[ST:n ]hasta su extinci&#243;n, y ahora solo puede[ST:n ]hallarse en lo m&#225;s profundo de Cauldros.</td>
+      </tr>
+      <tr id="386">
+        <td>386</td>
+        <td>
+        </td>
+        <td class="side">Semejante a un lagarto. Debido a su[ST:n ]incapacidad para retener l&#237;quido, casi[ST:n ]siempre est&#225; deshidratada. Suele cazar[ST:n ]a presas con alto contenido acuoso.</td>
+      </tr>
+      <tr id="387">
+        <td>387</td>
+        <td>
+        </td>
+        <td class="side">Peque&#241;o y holgaz&#225;n animal similar[ST:n ]a un koala. Las alas que tiene en la[ST:n ]espalda podr&#237;an ser bastante &#250;tiles[ST:n ]si el animal no fuese tan vago.</td>
+      </tr>
+      <tr id="388">
+        <td>388</td>
+        <td>
+        </td>
+        <td class="side">Criatura semejante a una ardilla que usa[ST:n ]sus dientes en forma de taladro para[ST:n ]excavar su madriguera en cuevas.[ST:n ]El l&#237;der suele encontrarse en su interior.</td>
+      </tr>
+      <tr id="389">
+        <td>389</td>
+        <td>
+        </td>
+        <td class="side">Gran murci&#233;lago cuadr&#250;pedo con alas[ST:n ]atrofiadas que se arrastra por el suelo en[ST:n ]busca de comida. Al ser vulnerable en la[ST:n ]oscuridad, suele estar en zonas con luz.</td>
+      </tr>
+      <tr id="390">
+        <td>390</td>
+        <td>
+        </td>
+        <td class="side">Pez dorado algo nervioso al que se puede[ST:n ]ver con frecuencia saltando fuera[ST:n ]del agua. Su sabor recuerda[ST:n ]al de la sardina terrestre.</td>
+      </tr>
+      <tr id="391">
+        <td>391</td>
+        <td>
+        </td>
+        <td class="side">Conejo con tres orejas que come p&#243;lvora[ST:n ]y tiene el alias de \&quot;Barrendero\&quot; porque[ST:n ]limpia de balas los campos de batalla.[ST:n ]Su poblaci&#243;n ha aumentado &#250;ltimamente.</td>
+      </tr>
+      <tr id="392">
+        <td>392</td>
+        <td>
+        </td>
+        <td class="side">Criatura de gran tama&#241;o similar[ST:n ]a un caracol. En la concha almacena[ST:n ]una reserva de masa grasienta que usa[ST:n ]como sustento en per&#237;odos de escasez.</td>
+      </tr>
+      <tr id="393">
+        <td>393</td>
+        <td>
+        </td>
+        <td class="side">Cuando le atacan, se enrolla en una bola[ST:n ]y se camufla como una roca. En su vejez,[ST:n ]se ve limitado a movimientos min&#250;sculos[ST:n ]por el peso de su propio cuerpo.</td>
+      </tr>
+      <tr id="394">
+        <td>394</td>
+        <td>
+        </td>
+        <td class="side">Pez plano con un ojo m&#243;vil que puede[ST:n ]asemejarse a un lenguado con un ojo[ST:n ]izquierdo o uno derecho.</td>
+      </tr>
+      <tr id="395">
+        <td>395</td>
+        <td>
+        </td>
+        <td class="side">Este primate usa su marsupio para[ST:n ]almacenar los tesoros desperdigados por[ST:n ]el suelo del bosque. Ferozmente protector,[ST:n ]solo un necio se atrever&#237;a a desafiarlo.</td>
+      </tr>
+      <tr id="396">
+        <td>396</td>
+        <td>
+        </td>
+        <td class="side">Criatura similar a una iguana con lengua[ST:n ]extensible que usa como ca&#241;a de pescar.[ST:n ]Los mejores cazadores se convierten[ST:n ]en iguaris jefe, dividiendo la especie.</td>
+      </tr>
+      <tr id="397">
+        <td>397</td>
+        <td>
+        </td>
+        <td class="side">Ave salvaje con alas reflectoras en las[ST:n ]que se reflejan los rayos solares cuando[ST:n ]es atacada. As&#237; aturde a sus asaltantes[ST:n ]y tiene oportunidad de escapar.</td>
+      </tr>
+      <tr id="398">
+        <td>398</td>
+        <td>
+        </td>
+        <td class="side">Medusa terrestre con un cuerpo blando y[ST:n ]transparente. Se mueve usando sus[ST:n ]m&#250;ltiples tent&#225;culos y rodea a su presa[ST:n ]con todo su cuerpo antes de absorberla.</td>
+      </tr>
+      <tr id="399">
+        <td>399</td>
+        <td>
+        </td>
+        <td class="side">Peque&#241;a criatura semejante a un canguro,[ST:n ]capaz de salvar kil&#243;metros de un solo[ST:n ]salto. Su pobre sentido de la orientaci&#243;n[ST:n ]hace que se pierda a menudo.</td>
+      </tr>
+      <tr id="400">
+        <td>400</td>
+        <td>
+        </td>
+        <td class="side">Bestia con un camuflaje de distorsi&#243;n[ST:n ]espacial que le permite cambiar de forma.[ST:n ]Posee dep&#243;sitos adiposos que le sirven[ST:n ]de sustento durante per&#237;odos de escasez.</td>
+      </tr>
+      <tr id="401">
+        <td>401</td>
+        <td>
+        </td>
+        <td class="side">La especie de rat&#243;n perfecta, ya que,[ST:n ]al ser atacado, se agrupa en numerosas[ST:n ]filas y divisiones, usando la ventaja[ST:n ]num&#233;rica para desbordar a su enemigo.</td>
+      </tr>
+      <tr id="402">
+        <td>402</td>
+        <td>
+        </td>
+        <td class="side">Criatura terrestre similar a un pulpo[ST:n ]con ocho patas tremendamente largas.[ST:n ]Por desgracia, su bajo peso corporal lo[ST:n ]hace muy vulnerable a los vientos fuertes.</td>
+      </tr>
+      <tr id="403">
+        <td>403</td>
+        <td>
+        </td>
+        <td class="side">Criatura semejante a una tortuga que se[ST:n ]alimenta de conejos zizi. Puede cobijar[ST:n ]todo su cuerpo en el caparaz&#243;n y rotar[ST:n ]para desplazarse a gran velocidad.</td>
+      </tr>
+      <tr id="404">
+        <td>404</td>
+        <td>
+        </td>
+        <td class="side">Criatura similar a un pepino de mar que[ST:n ]absorbe arena para sobrevivir. El 90 %[ST:n ]de su masa corporal es arena, por lo que[ST:n ]puede rellenar sus heridas r&#225;pidamente.</td>
+      </tr>
+      <tr id="405">
+        <td>405</td>
+        <td>
+        </td>
+        <td class="side">Mono de peque&#241;o tama&#241;o con un rostro[ST:n ]uniforme. Se gu&#237;a por sonidos[ST:n ]y movimientos para orientarse.</td>
+      </tr>
+      <tr id="406">
+        <td>406</td>
+        <td>
+        </td>
+        <td class="side">Criatura extremadamente hirsuta semejante[ST:n ]a un babuino. Con una esperanza de vida[ST:n ]aproximada de una semana, la madurez[ST:n ]y la vejez ocurren con rapidez inusitada.</td>
+      </tr>
+      <tr id="407">
+        <td>407</td>
+        <td>
+        </td>
+        <td class="side">Animal con aspecto de oveja. Su lana[ST:n ]es inusualmente larga y suave, haci&#233;ndola[ST:n ]ideal para uso textil. Es muy arisca,[ST:n ]por lo que hay que acercarse con cautela.</td>
+      </tr>
+      <tr id="408">
+        <td>408</td>
+        <td>
+        </td>
+        <td class="side">Criatura semejante a un calamar[ST:n ]con veinte tent&#225;culos que crecen de[ST:n ]su cabeza. Suele atacar a otras criaturas,[ST:n ]aunque raramente sale victoriosa.</td>
+      </tr>
+      <tr id="409">
+        <td>409</td>
+        <td>
+        </td>
+        <td class="side">Mapache peque&#241;o de pelo suave.[ST:n ]Le encanta desparasitar a sus compa&#241;eros,[ST:n ]y probablemente le dar&#237;a un repaso hasta[ST:n ]a un Skell, si tuviera la oportunidad.</td>
+      </tr>
+      <tr id="410">
+        <td>410</td>
+        <td>
+        </td>
+        <td class="side">Ave cubierta de marcas misteriosas.[ST:n ]Es lo suficientemente inteligente[ST:n ]como para comprender el lenguaje[ST:n ]y evita a los depredadores con facilidad.</td>
+      </tr>
+      <tr id="411">
+        <td>411</td>
+        <td>
+        </td>
+        <td class="side">Reptil parecido a una serpiente que se[ST:n ]alimenta de mineral de hierro.[ST:n ]En su est&#243;mago guarda rocas que utiliza[ST:n ]como proyectiles contra los depredadores.</td>
+      </tr>
+      <tr id="412">
+        <td>412</td>
+        <td>
+        </td>
+        <td class="side">Bestia con cinco ojos y aspecto de jabal&#237;.[ST:n ]A pesar de su apariencia demon&#237;aca,[ST:n ]es incre&#237;blemente t&#237;mido y echa a correr[ST:n ]con ver al m&#225;s peque&#241;o insecto.</td>
+      </tr>
+      <tr id="413">
+        <td>413</td>
+        <td>
+        </td>
+        <td class="side">Ave semejante al ganso terrestre[ST:n ]con un cautivador graznido celestial.[ST:n ]Es de naturaleza noble y usa su voz[ST:n ]para advertir del peligro a otras criaturas.</td>
+      </tr>
+      <tr id="414">
+        <td>414</td>
+        <td>
+        </td>
+        <td class="side">Criatura vulpina que se nutre de lava.[ST:n ]Cualquier otro l&#237;quido es letal,[ST:n ]por lo que su poblaci&#243;n disminuye[ST:n ]siempre que hay fuertes precipitaciones.</td>
+      </tr>
+      <tr id="415">
+        <td>415</td>
+        <td>
+        </td>
+        <td class="side">Especie rara localizada exclusivamente[ST:n ]en Cauldros. A primera vista puede[ST:n ]parecer un lobo, pero sus aterradores[ST:n ]ojos rojos se ven a kil&#243;metros.</td>
+      </tr>
+      <tr id="416">
+        <td>416</td>
+        <td>
+        </td>
+        <td class="side">Este mosquito puede parecer una peque&#241;a[ST:n ]pelota de goma voladora. Sus numerosas[ST:n ]bocas cubiertas de pelo pueden extraer[ST:n ]sangre de un mont&#243;n de criaturas.</td>
+      </tr>
+      <tr id="417">
+        <td>417</td>
+        <td>
+        </td>
+        <td class="side">Saltamontes que recolecta comida con sus[ST:n ]antenas retr&#225;ctiles. Al no tener la misma[ST:n ]capacidad de salto que su equivalente[ST:n ]terrestre, usa las patas para arrastrarse.</td>
+      </tr>
+      <tr id="418">
+        <td>418</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo de unos 30 cm. Sus cuernos[ST:n ]son mucho m&#225;s robustos que los de su[ST:n ]equivalente terrestre y no dudan[ST:n ]en enfrentarse a cualquier atacante.</td>
+      </tr>
+      <tr id="419">
+        <td>419</td>
+        <td>
+        </td>
+        <td class="side">Insecto parecido a una mariquita. Sus[ST:n ]motas se multiplican con la edad, hasta[ST:n ]acabar negra del todo en la vejez. Odia[ST:n ]la m&#250;sica y escapa a la m&#237;nima melod&#237;a.</td>
+      </tr>
+      <tr id="420">
+        <td>420</td>
+        <td>
+        </td>
+        <td class="side">Insecto similar a un escarabajo que se[ST:n ]alimenta de las ondas expansivas de los[ST:n ]meteoritos. Detecta lugares potenciales[ST:n ]de impacto para llegar antes del choque.</td>
+      </tr>
+      <tr id="421">
+        <td>421</td>
+        <td>
+        </td>
+        <td class="side">Hormigas solitarias que vagan por Mira[ST:n ]en b&#250;squeda de su pr&#243;xima morada. Su[ST:n ]reproducci&#243;n se lleva a cabo en apenas[ST:n ]un d&#237;a, tras lo cual prosiguen su camino.</td>
+      </tr>
+      <tr id="422">
+        <td>422</td>
+        <td>
+        </td>
+        <td class="side">Col&#233;mbolo con forma de pu&#241;o. Su veneno[ST:n ]aumenta en potencia cada d&#237;a. Si est&#225;[ST:n ]sano, su caparaz&#243;n se muestra rosa, pero[ST:n ]va perdiendo el color hasta que muere.</td>
+      </tr>
+      <tr id="423">
+        <td>423</td>
+        <td>
+        </td>
+        <td class="side">Lib&#233;lula luminiscente noctilita.[ST:n ]Para atraer a las hembras, el macho[ST:n ]efect&#250;a un cortejo nupcial que es[ST:n ]un aut&#233;ntico espect&#225;culo de luz.</td>
+      </tr>
+      <tr id="424">
+        <td>424</td>
+        <td>
+        </td>
+        <td class="side">T&#225;bano que emite luz. Cuanta m&#225;s sangre[ST:n ]bebe, m&#225;s brillante y salvaje se vuelve.[ST:n ]Su luz estrobosc&#243;pica hace huir[ST:n ]hasta a los doraguros de Oblivia.</td>
+      </tr>
+      <tr id="425">
+        <td>425</td>
+        <td>
+        </td>
+        <td class="side">Polilla solitaria y autosuficiente. Sin[ST:n ]embargo, en &#233;poca de celo, pueden verse[ST:n ]parejas entregadas a la danza de cortejo[ST:n ]como si su vida dependiera de ello.</td>
+      </tr>
+      <tr id="426">
+        <td>426</td>
+        <td>
+        </td>
+        <td class="side">Insecto peludo con una extremidad frontal[ST:n ]falciforme. Se producen batallas &#233;picas[ST:n ]a la hora de buscar pareja, ya que el[ST:n ]n&#250;mero de hembras supera al de machos.</td>
+      </tr>
+      <tr id="427">
+        <td>427</td>
+        <td>
+        </td>
+        <td class="side">La picadura de su aguij&#243;n, de unos 30[ST:n ]cm, vuelve hist&#233;ricas a sus v&#237;ctimas.[ST:n ]A menudo se puede ver a estas[ST:n ]corriendo enfurecidas por Noctilum.</td>
+      </tr>
+      <tr id="428">
+        <td>428</td>
+        <td>
+        </td>
+        <td class="side">Discreto insecto de ocho patas tan duro[ST:n ]y pesado como el hierro. Usa la seda[ST:n ]para moverse entre los &#225;rboles[ST:n ]de Noctilum a gran velocidad.</td>
+      </tr>
+      <tr id="429">
+        <td>429</td>
+        <td>
+        </td>
+        <td class="side">Ataca a los escarabajos tractor sin dudar.[ST:n ]Aparte de eso, suele ser bastante pac&#237;fico[ST:n ]y solo usa sus pinzas para cortar hierba.</td>
+      </tr>
+      <tr id="430">
+        <td>430</td>
+        <td>
+        </td>
+        <td class="side">Mariposa que se alimenta de la luz solar[ST:n ]y la que emiten otras criaturas noctilitas.[ST:n ]En sus &#250;ltimos momentos de vida, explota[ST:n ]ofreciendo un espect&#225;culo de luz.</td>
+      </tr>
+      <tr id="431">
+        <td>431</td>
+        <td>
+        </td>
+        <td class="side">Reptil con un gran apetito similar a un[ST:n ]geco. La masa grasienta que se esconde[ST:n ]bajo su piel es muy valorada por su alto[ST:n ]contenido prote&#237;nico y sabor mantecoso.</td>
+      </tr>
+      <tr id="432">
+        <td>432</td>
+        <td>
+        </td>
+        <td class="side">Gusano que se alimenta de miranio.[ST:n ]Excava hasta grandes profundidades[ST:n ]en busca de esta fuente de energ&#237;a[ST:n ]y muy raramente sale a la superficie.</td>
+      </tr>
+      <tr id="433">
+        <td>433</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo que puede parecer un nopon[ST:n ]desde ciertos &#225;ngulos. Aun as&#237;, su chirrido[ST:n ]resulta tan insoportable para los nopon,[ST:n ]que har&#237;an cualquier cosa para evitarlo.</td>
+      </tr>
+      <tr id="434">
+        <td>434</td>
+        <td>
+        </td>
+        <td class="side">Refleja la luz ambiental, iluminando[ST:n ]su entorno en kil&#243;metros a la redonda.[ST:n ]Aunque su apariencia pueda enga&#241;ar,[ST:n ]este insecto carn&#237;voro es muy peligroso.</td>
+      </tr>
+      <tr id="435">
+        <td>435</td>
+        <td>
+        </td>
+        <td class="side">Este insecto es casi indistinguible de una[ST:n ]rama, pero prefiere no camuflarse de ese[ST:n ]modo. Cambia a color marr&#243;n en ramas[ST:n ]verdes y a verde en ramas marrones.</td>
+      </tr>
+      <tr id="436">
+        <td>436</td>
+        <td>
+        </td>
+        <td class="side">Escorpi&#243;n largo y blando que usa su cola[ST:n ]a modo de l&#225;tigo como defensa. Al usarla[ST:n ]tambi&#233;n para otros menesteres, perdi&#243;[ST:n ]su veneno en el proceso evolutivo.</td>
+      </tr>
+      <tr id="437">
+        <td>437</td>
+        <td>
+        </td>
+        <td class="side">El escarabajo m&#225;s poderoso del planeta.[ST:n ]Atraviesa a sus enemigos con cuernos[ST:n ]afilados y escupe proyectiles que pueden[ST:n ]perforar el hierro. El rey de los insectos.</td>
+      </tr>
+      <tr id="438">
+        <td>438</td>
+        <td>
+        </td>
+        <td class="side">Criatura semejante a un escarabajo que[ST:n ]se alimenta de esporas arenosas blancas.[ST:n ]Excavan sus nidos en los acantilados[ST:n ]de Sylvalum y viven hacinados en ellos.</td>
+      </tr>
+      <tr id="439">
+        <td>439</td>
+        <td>
+        </td>
+        <td class="side">Este escarabajo azul se lanza al cielo con[ST:n ]solo un mes de vida y, por alguna raz&#243;n[ST:n ]inexplicable, vuela hasta la extenuaci&#243;n.</td>
+      </tr>
+      <tr id="440">
+        <td>440</td>
+        <td>
+        </td>
+        <td class="side">Grillo con caparaz&#243;n cristalino.[ST:n ]Ha de tratarse con cuidado, ya que este[ST:n ]fr&#225;gil insecto se hace a&#241;icos f&#225;cilmente.</td>
+      </tr>
+      <tr id="441">
+        <td>441</td>
+        <td>
+        </td>
+        <td class="side">Grillo gigante que duerme en la arena[ST:n ]y rara vez sale a la superficie.[ST:n ]Durante las escasas horas de vigilia, sin[ST:n ]embargo, es agresivo y ataca sin dudarlo.</td>
+      </tr>
+      <tr id="442">
+        <td>442</td>
+        <td>
+        </td>
+        <td class="side">Espl&#233;ndida mariposa con alas violetas[ST:n ]adornadas con peque&#241;as incrustaciones[ST:n ]de cristal. Se reproduce lentamente[ST:n ]pero puede vivir m&#225;s de 300 a&#241;os.</td>
+      </tr>
+      <tr id="443">
+        <td>443</td>
+        <td>
+        </td>
+        <td class="side">Insecto blanco con aspecto de pelusa.[ST:n ]Parece una espora, por lo que es dif&#237;cil[ST:n ]de encontrar, pero se dice que trae[ST:n ]buena suerte a los que lo consiguen.</td>
+      </tr>
+      <tr id="444">
+        <td>444</td>
+        <td>
+        </td>
+        <td class="side">Al nacer, esta larva crece r&#225;pidamente[ST:n ]y muere, todo en un d&#237;a.[ST:n ]Su excepcional brillo es digno de ver.</td>
+      </tr>
+      <tr id="445">
+        <td>445</td>
+        <td>
+        </td>
+        <td class="side">Enorme insecto rojo que despide fuego[ST:n ]por la boca, inflamando a menudo[ST:n ]gases naturales.[ST:n ]Es el responsable de muchas explosiones.</td>
+      </tr>
+      <tr id="446">
+        <td>446</td>
+        <td>
+        </td>
+        <td class="side">Escarabajo de gran tama&#241;o que puede[ST:n ]llegar a medir cerca de un metro. Cuando[ST:n ]se encuentra amenazado, puede ingerir[ST:n ]y expulsar grandes cantidades de agua.</td>
+      </tr>
+      <tr id="447">
+        <td>447</td>
+        <td>
+        </td>
+        <td class="side">Mosca muy dura y r&#225;pida como una bala.[ST:n ]Suele ser un animal bastante da&#241;ino,[ST:n ]por lo que hay que tener cuidado[ST:n ]con ellas al aventurarse en Cauldros.</td>
+      </tr>
+      <tr id="448">
+        <td>448</td>
+        <td>
+        </td>
+        <td class="side">Grillo lleno de energ&#237;a que est&#225; siempre[ST:n ]almacenando comida. Ataca si se le[ST:n ]molesta, sobre todo si se encuentra[ST:n ]con su mayor enemigo: la hormigabunda.</td>
+      </tr>
+      <tr id="449">
+        <td>449</td>
+        <td>
+        </td>
+        <td class="side">Madera que se hincha como un globo[ST:n ]al absorber agua. Usada por criaturas[ST:n ]como la hormigabunda para navegar[ST:n ]r&#237;o abajo.</td>
+      </tr>
+      <tr id="450">
+        <td>450</td>
+        <td>
+        </td>
+        <td class="side">Arena con alto contenido en hierro.[ST:n ]Los cient&#237;ficos de NLA est&#225;n investigando[ST:n ]un m&#233;todo para extraer este hierro,[ST:n ]pero todav&#237;a no han tenido &#233;xito.</td>
+      </tr>
+      <tr id="451">
+        <td>451</td>
+        <td>
+        </td>
+        <td class="side">Excremento cristalizado[ST:n ]de microorganismos no identificados[ST:n ]que se ha vuelto transparente y ahora[ST:n ]se asemeja a un precioso cristal.</td>
+      </tr>
+      <tr id="452">
+        <td>452</td>
+        <td>
+        </td>
+        <td class="side">Perla dura formada por minerales[ST:n ]de r&#237;os subterr&#225;neos. Tiene un brillo[ST:n ]blanco en la oscuridad, pero a la luz[ST:n ]su apariencia es transparente.</td>
+      </tr>
+      <tr id="453">
+        <td>453</td>
+        <td>
+        </td>
+        <td class="side">Material diamantino que crece[ST:n ]como el bamb&#250; en d&#237;as lluviosos.[ST:n ]Desaparece con la luz de las estrellas.</td>
+      </tr>
+      <tr id="454">
+        <td>454</td>
+        <td>
+        </td>
+        <td class="side">Objeto poco com&#250;n avistado[ST:n ]en el cielo polar. Su origen y clasificaci&#243;n[ST:n ]contin&#250;an siendo un misterio.</td>
+      </tr>
+      <tr id="455">
+        <td>455</td>
+        <td>
+        </td>
+        <td class="side">Hoja que emite una tenue radiaci&#243;n.[ST:n ]Se encuentran en Noctilum y pueden[ST:n ]usarse para iluminar otros objetos.</td>
+      </tr>
+      <tr id="456">
+        <td>456</td>
+        <td>
+        </td>
+        <td class="side">Arcilla formada por una mezcla de heces[ST:n ]de oranglot&#243;n y tierra noctilita.[ST:n ]Su elasticidad no tiene parang&#243;n;[ST:n ]no se romper&#225; por mucho que se estire.</td>
+      </tr>
+      <tr id="457">
+        <td>457</td>
+        <td>
+        </td>
+        <td class="side">Tipo de tierra rico en az&#250;car.[ST:n ]Tiene un gusto algo arenoso, pero si se[ST:n ]procesa, puede usarse como edulcorante.</td>
+      </tr>
+      <tr id="458">
+        <td>458</td>
+        <td>
+        </td>
+        <td class="side">Piedra especular pulida por el goteo[ST:n ]constante de agua de un &#225;rbol gigante.[ST:n ]Quien se mira en ella tiene la impresi&#243;n[ST:n ]de mirar en su propia alma.</td>
+      </tr>
+      <tr id="459">
+        <td>459</td>
+        <td>
+        </td>
+        <td class="side">Orbe que muestra la flora y fauna[ST:n ]del pasado y el futuro de Mira.[ST:n ]Por desgracia, todo lo que se ve es[ST:n ]un animal pastando o alguna planta.</td>
+      </tr>
+      <tr id="460">
+        <td>460</td>
+        <td>
+        </td>
+        <td class="side">Planta de algod&#243;n que crece con forma[ST:n ]de flecha. Es muy popular entre[ST:n ]los nopon, ya que su algod&#243;n[ST:n ]es de gran calidad.</td>
+      </tr>
+      <tr id="461">
+        <td>461</td>
+        <td>
+        </td>
+        <td class="side">Este musgo, que crece en los &#225;rboles[ST:n ]gigantes de Noctilum, cae y cuaja como[ST:n ]la nieve. Es un buen aislante y lo suelen[ST:n ]usar animales como lecho en invierno.</td>
+      </tr>
+      <tr id="462">
+        <td>462</td>
+        <td>
+        </td>
+        <td class="side">Restos fosilizados de flora de Oblivia.[ST:n ]Tiene propiedades similares al carb&#243;n y,[ST:n ]aunque no sirve como combustible,[ST:n ]es &#250;til como material de investigaci&#243;n.</td>
+      </tr>
+      <tr id="463">
+        <td>463</td>
+        <td>
+        </td>
+        <td class="side">Peque&#241;a rama que atrae a los rayos.[ST:n ]Probablemente haya sido usada como[ST:n ]pararrayos debido a esta cualidad &#250;nica.</td>
+      </tr>
+      <tr id="464">
+        <td>464</td>
+        <td>
+        </td>
+        <td class="side">Fragmento de estalactita con punta[ST:n ]afilada. Emite un precioso anillo[ST:n ]de luz multicolor, pero hay que tener[ST:n ]mucho cuidado al tocarla.</td>
+      </tr>
+      <tr id="465">
+        <td>465</td>
+        <td>
+        </td>
+        <td class="side">Mineral arg&#233;nteo blando como la arcilla[ST:n ]que endurece cuando se forja. Su origen[ST:n ]es incierto, pero se cree que procede[ST:n ]de cactus myuena descompuestos.</td>
+      </tr>
+      <tr id="466">
+        <td>466</td>
+        <td>
+        </td>
+        <td class="side">Misterioso vapor verde que emana en el[ST:n ]interior de las cuevas. Se convierte en[ST:n ]ox&#237;geno una vez aireado, y por ello es de[ST:n ]gran inter&#233;s para los cient&#237;ficos de NLA.</td>
+      </tr>
+      <tr id="467">
+        <td>467</td>
+        <td>
+        </td>
+        <td class="side">Se pensaba que este flujo de lodo que[ST:n ]tiembla se deb&#237;a a un terremoto, pero[ST:n ]en realidad solo se mueve la superficie.[ST:n ]Es com&#250;n ver insectos posados sobre &#233;l.</td>
+      </tr>
+      <tr id="468">
+        <td>468</td>
+        <td>
+        </td>
+        <td class="side">A pesar de ser inertes, estas rocas[ST:n ]parecen echar ra&#237;ces y crecer.[ST:n ]Debido a ello, con frecuencia[ST:n ]se las confunde con &#225;rboles.</td>
+      </tr>
+      <tr id="469">
+        <td>469</td>
+        <td>
+        </td>
+        <td class="side">Coral terrestre con aspecto arb&#243;reo.[ST:n ]Hay que tener cuidado al tocarlo, ya que[ST:n ]es muy fr&#225;gil y se rompe con facilidad.</td>
+      </tr>
+      <tr id="470">
+        <td>470</td>
+        <td>
+        </td>
+        <td class="side">Se produce cuando la lluvia reacciona[ST:n ]con una sustancia desconocida en el aire.[ST:n ]Es inofensivo para cualquier organismo[ST:n ]vivo, pero disuelve la materia inorg&#225;nica.</td>
+      </tr>
+      <tr id="471">
+        <td>471</td>
+        <td>
+        </td>
+        <td class="side">Roca que no registra ning&#250;n peso[ST:n ]en una b&#225;scula, pero cuyo impacto[ST:n ]puede resultar bastante doloroso.</td>
+      </tr>
+      <tr id="472">
+        <td>472</td>
+        <td>
+        </td>
+        <td class="side">Gracias a sus extraordinarias propiedades[ST:n ]de difusividad t&#233;rmica, este material[ST:n ]puede mantenerse a temperatura[ST:n ]bajo cero en cualquier ambiente.</td>
+      </tr>
+      <tr id="473">
+        <td>473</td>
+        <td>
+        </td>
+        <td class="side">Espora que flota por el cielo de Sylvalum[ST:n ]atrayendo incontables part&#237;culas[ST:n ]atmosf&#233;ricas, las cuales le otorgan[ST:n ]el brillo de una piedra preciosa.</td>
+      </tr>
+      <tr id="474">
+        <td>474</td>
+        <td>
+        </td>
+        <td class="side">Un tipo de lava arom&#225;tica que puede ser[ST:n ]consumida en cuanto se enfr&#237;a. Aunque no[ST:n ]es t&#243;xica, es demasiado pronto para verla[ST:n ]en la carta de los restaurantes de NLA.</td>
+      </tr>
+      <tr id="475">
+        <td>475</td>
+        <td>
+        </td>
+        <td class="side">Tierra f&#233;rtil que se nutre de insectos[ST:n ]y ciertos animales peque&#241;os, a los que[ST:n ]disuelve y absorbe. Los ge&#243;logos creen[ST:n ]que tiene un gran potencial agr&#237;cola.</td>
+      </tr>
+      <tr id="476">
+        <td>476</td>
+        <td>
+        </td>
+        <td class="side">Esta piedra, formada durante[ST:n ]una tormenta, es capaz de almacenar[ST:n ]electricidad. Puede usarse como[ST:n ]una bater&#237;a, pero es bastante inestable.</td>
+      </tr>
+      <tr id="477">
+        <td>477</td>
+        <td>
+        </td>
+        <td class="side">Parece polvo, pero se comporta[ST:n ]m&#225;s bien como una planta.[ST:n ]Se puede encontrar adherido a las rocas,[ST:n ]como si fuera una especie de musgo.</td>
+      </tr>
+      <tr id="478">
+        <td>478</td>
+        <td>
+        </td>
+        <td class="side">Acero org&#225;nico forjado en el calor[ST:n ]de los lagos de lava de Cauldros.[ST:n ]Posee una inusitada dureza debido[ST:n ]a sus m&#250;ltiples capas.</td>
+      </tr>
+      <tr id="479">
+        <td>479</td>
+        <td>
+        </td>
+        <td class="side">Este valioso aceite rojo de Cauldros solo[ST:n ]aparece en d&#237;as lluviosos. A simple vista,[ST:n ]se asemeja a un charco de sangre.</td>
+      </tr>
+      <tr id="480">
+        <td>480</td>
+        <td>
+        </td>
+        <td class="side">Dise&#241;ado inicialmente para defenderse del[ST:n ]ataque alien&#237;gena, fracas&#243; en su cometido[ST:n ]al sobrecalentarse. Se recicl&#243; como[ST:n ]parte del escudo de la Ballena Blanca.</td>
+      </tr>
+      <tr id="481">
+        <td>481</td>
+        <td>
+        </td>
+        <td class="side">Radiador que no necesita refrigerante[ST:n ]usado en la Ballena Blanca.[ST:n ]Puede ser f&#225;cilmente reconvertido[ST:n ]para usarse en coches y otros veh&#237;culos.</td>
+      </tr>
+      <tr id="482">
+        <td>482</td>
+        <td>
+        </td>
+        <td class="side">Tuber&#237;a usada en la Ballena Blanca.[ST:n ]Hecha de un tipo experimental de acero[ST:n ]inoxidable que supuestamente no se oxida[ST:n ]ni se corroe por mucho que se use.</td>
+      </tr>
+      <tr id="483">
+        <td>483</td>
+        <td>
+        </td>
+        <td class="side">Dep&#243;sito de combustible que form&#243; parte[ST:n ]del sistema de propulsi&#243;n de la Ballena[ST:n ]Blanca. Se dice que es lo m&#225;ximo en[ST:n ]tecnolog&#237;a de compresi&#243;n de combustible.</td>
+      </tr>
+      <tr id="484">
+        <td>484</td>
+        <td>
+        </td>
+        <td class="side">Este instrumento analiza la atm&#243;sfera.[ST:n ]Tambi&#233;n detecta vida microbiana,[ST:n ]lo que da indicios de si un planeta[ST:n ]est&#225; habitado o no.</td>
+      </tr>
+      <tr id="485">
+        <td>485</td>
+        <td>
+        </td>
+        <td class="side">Traje espacial que puede resistir 24 horas[ST:n ]en el espacio exterior. Estaba considerado[ST:n ]el pin&#225;culo de la tecnolog&#237;a cuando parti&#243;[ST:n ]la Ballena Blanca.</td>
+      </tr>
+      <tr id="486">
+        <td>486</td>
+        <td>
+        </td>
+        <td class="side">Generador de gravedad artificial que[ST:n ]produce un haz rotatorio. Permite a la[ST:n ]tripulaci&#243;n vivir y trabajar normalmente[ST:n ]en un entorno de gravedad artificial.</td>
+      </tr>
+      <tr id="487">
+        <td>487</td>
+        <td>
+        </td>
+        <td class="side">C&#225;psula con una base de datos con[ST:n ]informaci&#243;n gen&#233;tica congelada de flora[ST:n ]y fauna de la Tierra. Por desgracia,[ST:n ]la mayor parte se perdi&#243; en el accidente.</td>
+      </tr>
+      <tr id="488">
+        <td>488</td>
+        <td>
+        </td>
+        <td class="side">Un casco de realidad virtual que permite[ST:n ]al usuario ver escenas de la Tierra.[ST:n ]Obligatorio en largos viajes espaciales[ST:n ]para levantar la moral de la tripulaci&#243;n.</td>
+      </tr>
+      <tr id="489">
+        <td>489</td>
+        <td>
+        </td>
+        <td class="side">Sistema de propulsi&#243;n electr&#243;nica[ST:n ]avanzado que permite una navegaci&#243;n[ST:n ]precisa a velocidades ultrarr&#225;pidas.</td>
+      </tr>
+      <tr id="490">
+        <td>490</td>
+        <td>
+        </td>
+        <td class="side">Aparato generador de calor que recicla[ST:n ]energ&#237;a t&#233;rmica producida por el motor[ST:n ]con el fin de aprovecharla[ST:n ]para otros usos.</td>
+      </tr>
+      <tr id="491">
+        <td>491</td>
+        <td>
+        </td>
+        <td class="side">Guante interfaz electr&#243;nico que permite[ST:n ]al usuario controlar con los movimientos[ST:n ]de la mano aparatos conectados[ST:n ]a distancia.</td>
+      </tr>
+      <tr id="492">
+        <td>492</td>
+        <td>
+        </td>
+        <td class="side">M&#225;quina capaz de imprimir materiales[ST:n ]s&#243;lidos como objetos personales o piezas[ST:n ]de reparaci&#243;n. Cada mec&#225;nico en la[ST:n ]Ballena Blanca ten&#237;a asignada una.</td>
+      </tr>
+      <tr id="493">
+        <td>493</td>
+        <td>
+        </td>
+        <td class="side">Aparato que proyectaba un campo[ST:n ]de energ&#237;a alrededor de la Ballena Blanca[ST:n ]como escudo protector[ST:n ]contra los residuos espaciales.</td>
+      </tr>
+      <tr id="494">
+        <td>494</td>
+        <td>
+        </td>
+        <td class="side">Sistema fotovoltaico que genera energ&#237;a[ST:n ]de la luz solar. Estaba montado sobre[ST:n ]el casco de la Ballena Blanca.</td>
+      </tr>
+      <tr id="495">
+        <td>495</td>
+        <td>
+        </td>
+        <td class="side">Aparato que recoge microbios y material[ST:n ]org&#225;nico del espacio para reciclarlos[ST:n ]y convertirlos en energ&#237;a[ST:n ]para la Ballena Blanca.</td>
+      </tr>
+      <tr id="496">
+        <td>496</td>
+        <td>
+        </td>
+        <td class="side">Este misterioso reactor era el generador[ST:n ]principal de la Ballena Blanca.[ST:n ]Su existencia era solo conocida por los[ST:n ]ingenieros relacionados con la operaci&#243;n.</td>
+      </tr>
+      <tr id="497">
+        <td>497</td>
+        <td>
+        </td>
+        <td class="side">Aparato que transmite part&#237;culas[ST:n ]de energ&#237;a de un lugar a otro. Gracias[ST:n ]a &#233;l, se logr&#243; ahorrar gran cantidad[ST:n ]de espacio a bordo de la Ballena Blanca.</td>
+      </tr>
+      <tr id="498">
+        <td>498</td>
+        <td>
+        </td>
+        <td class="side">Fin&#237;simo material protector[ST:n ]de gran dureza y muy resistente al calor.</td>
+      </tr>
+      <tr id="499">
+        <td>499</td>
+        <td>
+        </td>
+        <td class="side">Aparato emisor de se&#241;ales de falso ADN[ST:n ]usado para confundir a los enemigos[ST:n ]alien&#237;genas.</td>
+      </tr>
+      <tr id="500">
+        <td>500</td>
+        <td>
+        </td>
+        <td class="side">L&#225;ser de alta potencia montado sobre[ST:n ]la Ballena Blanca. Aunque est&#225; en desuso,[ST:n ]todav&#237;a se pueden ver las marcas[ST:n ]de la batalla en su ca&#241;&#243;n.</td>
+      </tr>
+      <tr id="501">
+        <td>501</td>
+        <td>
+        </td>
+        <td class="side">Parte del sistema de IA instalado[ST:n ]en la Ballena Blanca. Fiable e infalible.[ST:n ]Era un componente esencial de la nave,[ST:n ]pero result&#243; destruido durante el impacto.</td>
+      </tr>
+      <tr id="502">
+        <td>502</td>
+        <td>
+        </td>
+        <td class="side">Aparato que absorbe el gas que liberan[ST:n ]las estrellas al espacio y lo convierte[ST:n ]en energ&#237;a para el sistema de propulsi&#243;n.</td>
+      </tr>
+      <tr id="503">
+        <td>503</td>
+        <td>
+        </td>
+        <td class="side">Mecanismo de freno que se alimentaba[ST:n ]de ox&#237;geno. Tambi&#233;n se pod&#237;a convertir[ST:n ]en un arma durante la batalla.</td>
+      </tr>
+      <tr id="504">
+        <td>504</td>
+        <td>
+        </td>
+        <td class="side">Pintura fluorescente usada en la[ST:n ]Ballena Blanca. Su alta fluorescencia[ST:n ]le permite emitir la luz absorbida[ST:n ]sin reducir su intensidad.</td>
+      </tr>
+      <tr id="505">
+        <td>505</td>
+        <td>
+        </td>
+        <td class="side">Aparato de control de la posici&#243;n usado[ST:n ]como protecci&#243;n contra la desorientaci&#243;n[ST:n ]espacial en viajes interestelares. Se utiliza[ST:n ]al realizar reparaciones fuera de la nave.</td>
+      </tr>
+      <tr id="506">
+        <td>506</td>
+        <td>
+        </td>
+        <td class="side">Aparato que extrae agua de las rocas[ST:n ]para ayudar en el proceso[ST:n ]de terraformaci&#243;n. El descubrimiento[ST:n ]de Mira lo dej&#243; obsoleto.</td>
+      </tr>
+      <tr id="507">
+        <td>507</td>
+        <td>
+        </td>
+        <td class="side">Uno de los prototipos creados durante[ST:n ]el desarrollo de FrontierNav. No es tan[ST:n ]avanzado como las sondas exploratorias[ST:n ]actuales, pero no est&#225; nada mal.</td>
+      </tr>
+      <tr id="508">
+        <td>508</td>
+        <td>
+        </td>
+        <td class="side">Cuerpo esf&#233;rico con varias extremidades[ST:n ]controlado a distancia. Se usa para llevar[ST:n ]a cabo operaciones delicadas[ST:n ]fuera de la nave.</td>
+      </tr>
+      <tr id="509">
+        <td>509</td>
+        <td>
+        </td>
+        <td class="side">Mortero con peque&#241;os espolones que[ST:n ]los nativos sol&#237;an utilizar para preparar[ST:n ]medicamentos. El palo se usa para[ST:n ]desmenuzar con facilidad los ingredientes.</td>
+      </tr>
+      <tr id="510">
+        <td>510</td>
+        <td>
+        </td>
+        <td class="side">&#193;baco con cuentas de bellota.[ST:n ]Podr&#237;a ser un indicio de que los nativos[ST:n ]ten&#237;an alg&#250;n tipo de sistema financiero.</td>
+      </tr>
+      <tr id="511">
+        <td>511</td>
+        <td>
+        </td>
+        <td class="side">M&#225;scara viva hecha con la corteza[ST:n ]de un &#225;rbol de Mira. La corteza crece[ST:n ]con la cara del que la lleva, por eso[ST:n ]era objeto de culto en la antig&#252;edad.</td>
+      </tr>
+      <tr id="512">
+        <td>512</td>
+        <td>
+        </td>
+        <td class="side">Monedero usado por los antiguos[ST:n ]habitantes de Mira. &#191;Oyes las monedas?[ST:n ]Si el due&#241;o anterior tuvo fortuna[ST:n ]con el dinero, puede que t&#250; tambi&#233;n...</td>
+      </tr>
+      <tr id="513">
+        <td>513</td>
+        <td>
+        </td>
+        <td class="side">Piedra extra&#241;a que emite un agradable[ST:n ]sonido. Esta melod&#237;a emocionaba[ST:n ]a los nativos de Mira, que se pon&#237;an[ST:n ]a bailar cuando la escuchaban.</td>
+      </tr>
+      <tr id="514">
+        <td>514</td>
+        <td>
+        </td>
+        <td class="side">Los nopon meten esta bola maloliente[ST:n ]en su bolsillo para repeler posibles[ST:n ]depredadores con su olor f&#233;tido.</td>
+      </tr>
+      <tr id="515">
+        <td>515</td>
+        <td>
+        </td>
+        <td class="side">Plato de marisco usado por los antiguos[ST:n ]nopon. Podr&#237;a dar una idea de cu&#225;l era[ST:n ]la dieta nopon antigua, pero ese tipo[ST:n ]de investigaci&#243;n no es prioritaria.</td>
+      </tr>
+      <tr id="516">
+        <td>516</td>
+        <td>
+        </td>
+        <td class="side">Barca nopon con forma de ba&#241;era hecha[ST:n ]de madera flotante. Los nopon la sol&#237;an[ST:n ]usar para navegar por el oc&#233;ano.</td>
+      </tr>
+      <tr id="517">
+        <td>517</td>
+        <td>
+        </td>
+        <td class="side">L&#225;mpara nopon llena de hojas katoanas.[ST:n ]Para los nopon que veneran su luz,[ST:n ]la recolecci&#243;n de estas hojas[ST:n ]es toda una tradici&#243;n.</td>
+      </tr>
+      <tr id="518">
+        <td>518</td>
+        <td>
+        </td>
+        <td class="side">Aparato para corregir la columna que era[ST:n ]com&#250;n entre los nopon de menor estatura.[ST:n ]Se dej&#243; de usar tras descubrirse[ST:n ]que sus efectos eran negativos.</td>
+      </tr>
+      <tr id="519">
+        <td>519</td>
+        <td>
+        </td>
+        <td class="side">Caja para almacenar las herramientas[ST:n ]nopon de recolecci&#243;n de polen usadas[ST:n ]para atraer insectos. Estos se comen[ST:n ]y reciclan el polen antes de que se recoja.</td>
+      </tr>
+      <tr id="520">
+        <td>520</td>
+        <td>
+        </td>
+        <td class="side">Lanza inventada por una especie antigua[ST:n ]al evolucionar hacia la bipedaci&#243;n. [ST:n ]Este progreso tuvo un precio: esta misma[ST:n ]arma marc&#243; el fin de su especie.</td>
+      </tr>
+      <tr id="521">
+        <td>521</td>
+        <td>
+        </td>
+        <td class="side">Piedra grabada por un pueblo antiguo[ST:n ]del desierto de Oblivia. Es indescifrable,[ST:n ]por lo que todav&#237;a no se sabe[ST:n ]qu&#233; fin tuvo esta civilizaci&#243;n.</td>
+      </tr>
+      <tr id="522">
+        <td>522</td>
+        <td>
+        </td>
+        <td class="side">Vara m&#225;gica nopon usada para localizar[ST:n ]reservas de agua y minerales. En la punta[ST:n ]tiene una moneda que oscila cuando da[ST:n ]con su objetivo.</td>
+      </tr>
+      <tr id="523">
+        <td>523</td>
+        <td>
+        </td>
+        <td class="side">Serpiente seca que se muerde su propia[ST:n ]cola. Los nopon la sol&#237;an usar a modo[ST:n ]de brazalete.</td>
+      </tr>
+      <tr id="524">
+        <td>524</td>
+        <td>
+        </td>
+        <td class="side">Tambor de est&#243;mago de animal. Se dice[ST:n ]que otorga valent&#237;a a los nopon que se[ST:n ]embarcan en un viaje solitario. Casi[ST:n ]puede o&#237;rse el retumbar al acercarse a &#233;l.</td>
+      </tr>
+      <tr id="525">
+        <td>525</td>
+        <td>
+        </td>
+        <td class="side">Misterioso monumento rectangular[ST:n ]hecho de piedra negra. Seg&#250;n los nopon,[ST:n ]otorga sabidur&#237;a a quien lo toca.</td>
+      </tr>
+      <tr id="526">
+        <td>526</td>
+        <td>
+        </td>
+        <td class="side">B&#225;lsamo vegetal usado por los nopon.[ST:n ]Se dej&#243; de usar cuando se descubri&#243;[ST:n ]que sus efectos medicinales eran[ST:n ]pr&#225;cticamente inexistentes.</td>
+      </tr>
+      <tr id="527">
+        <td>527</td>
+        <td>
+        </td>
+        <td class="side">Flotador hecho con paja.[ST:n ]Al principio es un aro enorme,[ST:n ]pero se reduce r&#225;pidamente de tama&#241;o[ST:n ]cuando entra en contacto con el agua.</td>
+      </tr>
+      <tr id="528">
+        <td>528</td>
+        <td>
+        </td>
+        <td class="side">Espora pintada por los nopon y vendida[ST:n ]a modo de pelota de juguete. Su precio[ST:n ]disminuy&#243; cuando se descubri&#243;[ST:n ]lo que era en realidad.</td>
+      </tr>
+      <tr id="529">
+        <td>529</td>
+        <td>
+        </td>
+        <td class="side">Largo cilindro con lentes de piedra[ST:n ]alineadas cuidadosamente. Se usa como[ST:n ]telescopio para mirar las estrellas. Es muy[ST:n ]popular, pero tiene un precio desorbitado.</td>
+      </tr>
+      <tr id="530">
+        <td>530</td>
+        <td>
+        </td>
+        <td class="side">Capa elaborada con una tela que imita[ST:n ]el entorno y ayuda a camuflarse.[ST:n ]Parece haber sido inventada por una[ST:n ]civilizaci&#243;n antigua ahora extinta.</td>
+      </tr>
+      <tr id="531">
+        <td>531</td>
+        <td>
+        </td>
+        <td class="side">Vara usada por los nopon para sus[ST:n ]ceremonias rituales. Est&#225; adornada[ST:n ]con cientos de bellas flores de Mira.</td>
+      </tr>
+      <tr id="532">
+        <td>532</td>
+        <td>
+        </td>
+        <td class="side">Trampol&#237;n nopon hecho de un material[ST:n ]el&#225;stico como la goma. Se usaba[ST:n ]durante las festividades hasta que se[ST:n ]prohibi&#243; tras unos cuantos accidentes.</td>
+      </tr>
+      <tr id="533">
+        <td>533</td>
+        <td>
+        </td>
+        <td class="side">Piedra dura con forma de martillo usada[ST:n ]para la construcci&#243;n. Por alguna raz&#243;n[ST:n ]toda la herramienta es de piedra, no solo[ST:n ]la cabeza del martillo.</td>
+      </tr>
+      <tr id="534">
+        <td>534</td>
+        <td>
+        </td>
+        <td class="side">Vasija negra enorme hecha de lava.[ST:n ]Se dice que fue creada por una[ST:n ]civilizaci&#243;n que ya est&#225; extinta.</td>
+      </tr>
+      <tr id="535">
+        <td>535</td>
+        <td>
+        </td>
+        <td class="side">Piedra pulida transparente usada[ST:n ]como lente. Los nopon la utilizan[ST:n ]para hacer fuego.</td>
+      </tr>
+      <tr id="536">
+        <td>536</td>
+        <td>
+        </td>
+        <td class="side">L&#225;mpara de mano que funciona con un[ST:n ]aceite nopon secreto. Emite una luz[ST:n ]radiante, pero casi no se usa debido a[ST:n ]lo dif&#237;cil que resulta producir este aceite.</td>
+      </tr>
+      <tr id="537">
+        <td>537</td>
+        <td>
+        </td>
+        <td class="side">Desarrolladas por los nopon que so&#241;aban[ST:n ]con volar. A pesar de su inefectividad,[ST:n ]cada a&#241;o muchos nopon se lanzan[ST:n ]a la muerte ataviados con ellas.</td>
+      </tr>
+      <tr id="538">
+        <td>538</td>
+        <td>
+        </td>
+        <td class="side">Saco de dormir ign&#237;fugo de seis metros[ST:n ]hecho con hierba bogano. Era un objeto[ST:n ]usado por los gigantes que los nopon[ST:n ]han reconvertido en tienda de campa&#241;a.</td>
+      </tr>
+      <tr id="539">
+        <td>539</td>
+        <td>
+        </td>
+        <td class="side">Hucha utilizada por los antiguos nopon.[ST:n ]Seg&#250;n la leyenda, aquellos que la rompan[ST:n ]antes de que est&#233; llena tendr&#225;n problemas[ST:n ]financieros durante el resto de su vida.</td>
+      </tr>
+      <tr id="540">
+        <td>540</td>
+        <td>
+        </td>
+        <td class="side">Peque&#241;a mochila propulsora alien&#237;gena[ST:n ]que permite huir a gran velocidad[ST:n ]de los enfrentamientos.</td>
+      </tr>
+      <tr id="541">
+        <td>541</td>
+        <td>
+        </td>
+        <td class="side">Instrumento de tortura alien&#237;gena que se[ST:n ]ci&#241;e entorno a la cabeza, los brazos[ST:n ]y las piernas de la v&#237;ctima[ST:n ]para inmovilizarla.</td>
+      </tr>
+      <tr id="542">
+        <td>542</td>
+        <td>
+        </td>
+        <td class="side">Prototipo de alta tecnolog&#237;a que permite[ST:n ]ver a trav&#233;s de las paredes.[ST:n ]Desgraciadamente, aunque parece[ST:n ]muy innovador, est&#225; roto.</td>
+      </tr>
+      <tr id="543">
+        <td>543</td>
+        <td>
+        </td>
+        <td class="side">Botella moteada aparentemente usada[ST:n ]para contener l&#237;quidos preciados.[ST:n ]Su cierre ahora est&#225; roto y nadie sabe[ST:n ]lo que pudo haber contenido en su d&#237;a.</td>
+      </tr>
+      <tr id="544">
+        <td>544</td>
+        <td>
+        </td>
+        <td class="side">Orbe que emite un brillo siniestro.[ST:n ]Posee vastas cantidades de energ&#237;a,[ST:n ]pero es da&#241;ino para el ser humano.</td>
+      </tr>
+      <tr id="545">
+        <td>545</td>
+        <td>
+        </td>
+        <td class="side">Aparato alien&#237;gena que se conecta[ST:n ]directamente con el cerebro.[ST:n ]Los humanos no pueden utilizarlo.</td>
+      </tr>
+      <tr id="546">
+        <td>546</td>
+        <td>
+        </td>
+        <td class="side">Dispositivo hexagonal con forma de panal[ST:n ]usado por los alien&#237;genas insectoides[ST:n ]como esc&#225;ner corporal.</td>
+      </tr>
+      <tr id="547">
+        <td>547</td>
+        <td>
+        </td>
+        <td class="side">Bid&#243;n completamente est&#233;ril, totalmente[ST:n ]libre de organismos y bacterias.</td>
+      </tr>
+      <tr id="548">
+        <td>548</td>
+        <td>
+        </td>
+        <td class="side">Aparato electromagn&#233;tico usado por los[ST:n ]alien&#237;genas metamorfos. Interfiere con la[ST:n ]percepci&#243;n sensorial de otros individuos[ST:n ]que est&#233;n en la zona.</td>
+      </tr>
+      <tr id="549">
+        <td>549</td>
+        <td>
+        </td>
+        <td class="side">Sistema de filtraci&#243;n de alto rendimiento[ST:n ]que extrae agua de la tierra y la arena.[ST:n ]Al activarlo, una voz dice \&quot;Hora de hacer[ST:n ]agua\&quot; y comienza a sonar m&#250;sica.</td>
+      </tr>
+      <tr id="550">
+        <td>550</td>
+        <td>
+        </td>
+        <td class="side">Lentes dise&#241;adas por alien&#237;genas gigantes[ST:n ]que permiten transmitir informaci&#243;n y[ST:n ]&#243;rdenes directamente al ojo del portador.</td>
+      </tr>
+      <tr id="551">
+        <td>551</td>
+        <td>
+        </td>
+        <td class="side">Alto horno que se alza hacia el cielo,[ST:n ]probablemente utilizado para fiestas y[ST:n ]ritos religiosos, dentro del cual se[ST:n ]encuentran los restos de viejos sacrificios.</td>
+      </tr>
+      <tr id="552">
+        <td>552</td>
+        <td>
+        </td>
+        <td class="side">Protector de cola alien&#237;gena ornamentado[ST:n ]con el blas&#243;n de un clan. La calidad[ST:n ]de la obra indica que perteneci&#243;[ST:n ]a un individuo de elevado estatus social.</td>
+      </tr>
+      <tr id="553">
+        <td>553</td>
+        <td>
+        </td>
+        <td class="side">Casco grande y primitivo hecho[ST:n ]con un caparaz&#243;n de aspecto resistente.[ST:n ]Los dos cuernos que sobresalen[ST:n ]inspiran terror en la batalla.</td>
+      </tr>
+      <tr id="554">
+        <td>554</td>
+        <td>
+        </td>
+        <td class="side">Nudillera hecha con la calavera[ST:n ]de un oponente abatido. Su apariencia[ST:n ]desgastada, llena de numerosas[ST:n ]marcas, habla por s&#237; misma.</td>
+      </tr>
+      <tr id="555">
+        <td>555</td>
+        <td>
+        </td>
+        <td class="side">Traje de lava de alta tecnolog&#237;a hecho[ST:n ]con materiales desconocidos. Si lo lleva[ST:n ]otra especie distinta a la de sus[ST:n ]fabricantes alien&#237;genas, se autodestruye.</td>
+      </tr>
+      <tr id="556">
+        <td>556</td>
+        <td>
+        </td>
+        <td class="side">Dispositivo con forma de aro que se lleva[ST:n ]en el brazo. Su origen alien&#237;gena,[ST:n ]as&#237; como su gran tama&#241;o, hacen que sea[ST:n ]muy dif&#237;cil de manejar para los humanos.</td>
+      </tr>
+      <tr id="557">
+        <td>557</td>
+        <td>
+        </td>
+        <td class="side">El cable de fibra permite[ST:n ]controlar manualmente los misiles.</td>
+      </tr>
+      <tr id="558">
+        <td>558</td>
+        <td>
+        </td>
+        <td class="side">Se utiliza para incrementar la agresividad[ST:n ]durante el combate. Si lo ingiere[ST:n ]alguien que no tolera sus efectos,[ST:n ]provoca una muerte instant&#225;nea.</td>
+      </tr>
+      <tr id="559">
+        <td>559</td>
+        <td>
+        </td>
+        <td class="side">Estandarte engalanado con el blas&#243;n[ST:n ]de un clan militar alien&#237;gena.[ST:n ]Hace alarde de los logros de ese clan[ST:n ]en el campo de batalla.</td>
+      </tr>
+      <tr id="560">
+        <td>560</td>
+        <td>
+        </td>
+        <td class="side">Corona ajustada que solo puede[ST:n ]quitarse rompi&#233;ndola. Podr&#237;a haber sido[ST:n ]utilizada como instrumento de tortura.</td>
+      </tr>
+      <tr id="561">
+        <td>561</td>
+        <td>
+        </td>
+        <td class="side">Dicen que en este metal l&#237;quido hay una[ST:n ]gran cantidad de informaci&#243;n de alto[ST:n ]nivel. Sin embargo, no puede accederse[ST:n ]a ella ya que el l&#237;quido est&#225; inerte.</td>
+      </tr>
+      <tr id="562">
+        <td>562</td>
+        <td>
+        </td>
+        <td class="side">Es capaz de ver y detectar todas[ST:n ]las ondas electromagn&#233;ticas, incluso[ST:n ]los infrarrojos. Tambi&#233;n puede servir[ST:n ]como microscopio y telescopio.</td>
+      </tr>
+      <tr id="563">
+        <td>563</td>
+        <td>
+        </td>
+        <td class="side">Garra de alien&#237;gena que parece[ST:n ]ser utilizada como catalizador[ST:n ]en los ataques de energ&#237;a m&#225;s[ST:n ]que en los de cuerpo a cuerpo.</td>
+      </tr>
+      <tr id="564">
+        <td>564</td>
+        <td>
+        </td>
+        <td class="side">Transforma las part&#237;culas del aire[ST:n ]en energ&#237;a el&#233;ctrica casi inagotable.[ST:n ]Al parecer, ciertas especies alien&#237;genas[ST:n ]la utilizan como arma.</td>
+      </tr>
+      <tr id="565">
+        <td>565</td>
+        <td>
+        </td>
+        <td class="side">Un objeto resistente y compacto que sirve[ST:n ]de soporte a grandes estructuras.[ST:n ]Actualmente se utiliza como dispositivo[ST:n ]de control gravitacional.</td>
+      </tr>
+      <tr id="566">
+        <td>566</td>
+        <td>
+        </td>
+        <td class="side">Fragmento del filo de un Skell alien&#237;gena.[ST:n ]Est&#225; compuesto por materiales resistentes[ST:n ]y ligeros al mismo tiempo. Parece estar[ST:n ]un poco cargado de electricidad.</td>
+      </tr>
+      <tr id="567">
+        <td>567</td>
+        <td>
+        </td>
+        <td class="side">Sus sensores detectan cualquier toxina[ST:n ]presente en el entorno. Los humanos[ST:n ]no pueden usarlo ya que se necesita[ST:n ]tecnolog&#237;a alien&#237;gena para que funcione.</td>
+      </tr>
+      <tr id="568">
+        <td>568</td>
+        <td>
+        </td>
+        <td class="side">Polvo qu&#237;mico hecho con un elemento[ST:n ]desconocido. Cuando Boz&#233;, el Harrier,[ST:n ]lo esnif&#243;, mejor&#243; su nivel de concentraci&#243;n[ST:n ]y por eso decidi&#243; darle este nombre.</td>
+      </tr>
+      <tr id="569">
+        <td>569</td>
+        <td>
+        </td>
+        <td class="side">Cristal esf&#233;rico con el mismo resplandor[ST:n ]dorado que un atardecer californiano.[ST:n ]El Pathfinder Corwin lo nombr&#243; as&#237; en[ST:n ]recuerdo de su tierra natal.</td>
+      </tr>
+      <tr id="570">
+        <td>570</td>
+        <td>
+        </td>
+        <td class="side">La imagen mostrada pocas veces se ajusta[ST:n ]a la realidad. De hecho, algunas son[ST:n ]literalmente de otro mundo, de ah&#237;[ST:n ]el nombre que le di&#243; el Outfitter Camber.</td>
+      </tr>
+      <tr id="571">
+        <td>571</td>
+        <td>
+        </td>
+        <td class="side">Objetos cil&#237;ndricos cubiertos de garabatos[ST:n ]indescifrables se han encontrado dispersos[ST:n ]en Mira. La Pathfinder Clarissa los llam&#243;[ST:n ]as&#237; mientras trataba de descifrarlos.</td>
+      </tr>
+      <tr id="572">
+        <td>572</td>
+        <td>
+        </td>
+        <td class="side">Piedra esculpida en forma de bella diosa.[ST:n ]A veces, una especie de l&#225;grima emana[ST:n ]de sus ojos. El Outfitter Christopher[ST:n ]le puso ese nombre debido a su belleza.</td>
+      </tr>
+      <tr id="573">
+        <td>573</td>
+        <td>
+        </td>
+        <td class="side">Nombrado por el Curator Jengo, este[ST:n ]objeto misterioso contiene numerosas[ST:n ]piedras magn&#233;ticas que orbitan[ST:n ]irregularmente dentro de su cub&#237;culo.</td>
+      </tr>
+      <tr id="574">
+        <td>574</td>
+        <td>
+        </td>
+        <td class="side">Un sistema de radar que indica muchos[ST:n ]puntos de inter&#233;s aunque nunca hay nada[ST:n ]en ellos. El Mediator Lara Nara le puso[ST:n ]ese nombre mientras se maquillaba.</td>
+      </tr>
+      <tr id="575">
+        <td>575</td>
+        <td>
+        </td>
+        <td class="side">Al colocarse objetos en esta balanza,[ST:n ]no se mide el peso real si no el de otro[ST:n ]tipo de masa. El Mediator Justin dijo que[ST:n ]med&#237;a \&quot;el peso de la justicia\&quot;.</td>
+      </tr>
+      <tr id="576">
+        <td>576</td>
+        <td>
+        </td>
+        <td class="side">El interior de esta caja transparente[ST:n ]alberga un objeto esf&#233;rico, cuya rotaci&#243;n[ST:n ]produce un suministro de energ&#237;a cin&#233;tica[ST:n ]sin fin. Nombrado por la Curator May.</td>
+      </tr>
+      <tr id="577">
+        <td>577</td>
+        <td>
+        </td>
+        <td class="side">Dos &#237;dolos gigantescos de piedra. Nadie[ST:n ]sabe qui&#233;n los esculpi&#243; o puso nombre,[ST:n ]pero su belleza impresiona profundamente[ST:n ]a aquellos que los contemplan.</td>
+      </tr>
+      <tr id="578">
+        <td>578</td>
+        <td>
+        </td>
+        <td class="side">Columna de hierro oxidada con una[ST:n ]incre&#237;ble fuerza de tensi&#243;n. Es incluso[ST:n ]m&#225;s resistente que el hierro normal.[ST:n ]Fue nombrada por el Curator Howard.</td>
+      </tr>
+      <tr id="579">
+        <td>579</td>
+        <td>
+        </td>
+        <td class="side">Arena capaz de cambiar de color y de[ST:n ]sabor. Puede variar de dulce, si es roja,[ST:n ]a salada, blanca. Hay variaciones sin fin.[ST:n ]Nombrada por la Prospector Sarona.</td>
+      </tr>
+      <tr id="580">
+        <td>580</td>
+        <td>
+        </td>
+        <td class="side">Joya que brilla como una estrella en el[ST:n ]cielo. La Reclaimer Natasha llev&#243; una[ST:n ]como amuleto y la idea cal&#243; en otros[ST:n ]BLADE, derivando en su nombre.</td>
+      </tr>
+      <tr id="581">
+        <td>581</td>
+        <td>
+        </td>
+        <td class="side">Piedra repelente que repite todo lo que[ST:n ]dices. Buena suerte al enfrentarte a ella,[ST:n ]es sosa y aburrida como... una piedra.[ST:n ]Nombrada por el Curator Jengo.</td>
+      </tr>
+      <tr id="582">
+        <td>582</td>
+        <td>
+        </td>
+        <td class="side">Litograf&#237;a que parece contener encriptado[ST:n ]el dise&#241;o de un robot similar a los Skells.[ST:n ]La ingeniera Tika le puso el nombre tras[ST:n ]pasarse la noche intentando descifrarlo.</td>
+      </tr>
+      <tr id="583">
+        <td>583</td>
+        <td>
+        </td>
+        <td class="side">Piedra transparente que contiene una[ST:n ]criatura fosilizada de aspecto angelical.[ST:n ]El Harrier Adelbert le puso el nombre[ST:n ]paralizado por su belleza celestial.</td>
+      </tr>
+      <tr id="584">
+        <td>584</td>
+        <td>
+        </td>
+        <td class="side">Sintetiza cristales que esconden alguna[ST:n ]forma de energ&#237;a. Pero parece que esos[ST:n ]cristales no existen. Decepcionada,[ST:n ]la Harrier Sara-Ariel le puso el nombre.</td>
+      </tr>
+      <tr id="585">
+        <td>585</td>
+        <td>
+        </td>
+        <td class="side">Objeto blanco misterioso con una doble[ST:n ]estructura helicoidal. El Curator Caracas[ST:n ]lo descubri&#243; y dio nombre, pero[ST:n ]muri&#243; envenenado tras probarlo.</td>
+      </tr>
+      <tr id="586">
+        <td>586</td>
+        <td>
+        </td>
+        <td class="side">El l&#237;quido del tubo emite un fulgor verde,[ST:n ]pero no se ha dado uso a esa energ&#237;a[ST:n ]desconocida. El Prospector Leland Cole[ST:n ]lo nombr&#243; mientras se re&#237;a en&#233;rgicamente.</td>
+      </tr>
+      <tr id="587">
+        <td>587</td>
+        <td>
+        </td>
+        <td class="side">Objeto ovalado que contiene una gran[ST:n ]variedad de flora. Al presenciar como[ST:n ]al florecer romp&#237;an la c&#225;scara del huevo,[ST:n ]el Prospector Gale le dio este nombre.</td>
+      </tr>
+      <tr id="588">
+        <td>588</td>
+        <td>
+        </td>
+        <td class="side">Pluma angelical, blanca como la nieve que[ST:n ]brilla con aires de nobleza. La Harrier[ST:n ]Grette le di&#243; ese nombre tras quedarse[ST:n ]embelesada al verla.</td>
+      </tr>
+      <tr id="589">
+        <td>589</td>
+        <td>
+        </td>
+        <td class="side">Tornillo de piedra completamente natural[ST:n ]que puede usarse con cualquier fin. Tras[ST:n ]nombralo, el Pathfinder Astea lo us&#243; como[ST:n ]un tornillo.</td>
+      </tr>
+      <tr id="590">
+        <td>590</td>
+        <td>
+        </td>
+        <td class="side">Este planetario encerrado en una caja[ST:n ]negra, proyecta una imagen de la galaxia[ST:n ]sobre las superficies m&#225;s cercanas.[ST:n ]Fue nombrado por el Pathfinder Mondo.</td>
+      </tr>
+      <tr id="591">
+        <td>591</td>
+        <td>
+        </td>
+        <td class="side">Parece alg&#250;n tipo de transmisor extra&#241;o,[ST:n ]pero nadie sabe ad&#243;nde llegan sus[ST:n ]transmisiones. La Interceptor Ada le puso[ST:n ]nombre tras varios intentos sin respuesta.</td>
+      </tr>
+      <tr id="592">
+        <td>592</td>
+        <td>
+        </td>
+        <td class="side">Cadena de anillos triangulares irrompibles[ST:n ]e inseparables. El Curator Quincy le dio[ST:n ]este nombre para simbolizar los lazos[ST:n ]entre amigos.</td>
+      </tr>
+      <tr id="593">
+        <td>593</td>
+        <td>
+        </td>
+        <td class="side">Componente amortiguador que parece[ST:n ]que fue utilizado en antiguos aut&#243;matas.[ST:n ]El Interceptor Giotto lo nombr&#243; y us&#243;[ST:n ]como equipo deportivo.</td>
+      </tr>
+      <tr id="594">
+        <td>594</td>
+        <td>
+        </td>
+        <td class="side">Vara cil&#237;ndrica de compleja superficie[ST:n ]alveolada. Aunque se parece a una llave,[ST:n ]la Sicaria quiso usarla para aporrear[ST:n ]a la gente. Ella se invent&#243; el nombre.</td>
+      </tr>
+      <tr id="595">
+        <td>595</td>
+        <td>
+        </td>
+        <td class="side">Caldero que despide un humo negro y[ST:n ]espeso, grabado de arriba abajo con[ST:n ]extra&#241;os s&#237;mbolos. El Prospector Harvey[ST:n ]lo descubri&#243; y di&#243; un nombre con gancho.</td>
+      </tr>
+      <tr id="596">
+        <td>596</td>
+        <td>
+        </td>
+        <td class="side">Parece un sonajero de beb&#233;, pero el ruido[ST:n ]que produce al agitarlo derriba edificios.[ST:n ]El Prospector Ginger le puso el nombre[ST:n ]y est&#225;n estudiando su uso como arma.</td>
+      </tr>
+      <tr id="597">
+        <td>597</td>
+        <td>
+        </td>
+        <td class="side">Cetro suntuosamente ornamentado.[ST:n ]Se dice que se utilizaba en las ceremonias[ST:n ]celebradas por antiguos nobles.[ST:n ]El Pathfinder H.B. le dio el nombre.</td>
+      </tr>
+      <tr id="598">
+        <td>598</td>
+        <td>
+        </td>
+        <td class="side">Este objeto mec&#225;nico y org&#225;nico con[ST:n ]forma de m&#225;scara, absorbe fluidos[ST:n ]corporales. La Outfitter Alexa fue quien[ST:n ]le puso el nombre.</td>
+      </tr>
+      <tr id="599">
+        <td>599</td>
+        <td>
+        </td>
+        <td class="side">Pintura que representa gente huyendo[ST:n ]de una especie de drag&#243;n. Entusiasmada[ST:n ]por esta criatura desconocida,[ST:n ]la Prospector Vera se invent&#243; el nombre.</td>
+      </tr>
+      <tr id="600">
+        <td>600</td>
+        <td>
+        </td>
+        <td class="side">El libro es ilegible, pero las ilustraciones[ST:n ]de gigantes generan cierta nostalgia.[ST:n ]Letrick, el supervisor de la catedral, al [ST:n ]verlo rompi&#243; a llorar y le dio el nombre.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

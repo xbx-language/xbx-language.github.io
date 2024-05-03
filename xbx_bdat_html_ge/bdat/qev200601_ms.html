@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev200601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0001</td>
+        <td class="side">Oh, hey! Danke, dass du hergekommen bist.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0002</td>
+        <td class="side">Du hast also meine Schl&#252;sselkarte gefunden, was?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0003</td>
+        <td class="side">Kann ich die mal sehen?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0004</td>
+        <td class="side">Oh, abgefahren! Das ist sie![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0005</td>
+        <td class="side">Mensch, die h&#228;tten mir echt den Marsch geblasen,[ST:n ]wenn ich das Ding nicht wiedergekriegt h&#228;tte.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0006</td>
+        <td class="side">Dann sollten wir jetzt &#252;ber eine Belohnung reden, h&#228;?[ST:n ]Soll ich sie dir einfach sp&#228;ter &#252;berweisen? Dann musst[ST:n ]du jetzt nicht mit einem Batzen Cash rumlaufen.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev200601_JNK0010</td>
+        <td class="side">Widersprechen</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev200601_SEL0011</td>
+        <td class="side">Bestehe auf eine sofortige Entlohnung.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev200601_JNK0020</td>
+        <td class="side">Gr&#252;beln</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev200601_SEL0021</td>
+        <td class="side">&#220;berlege, ob dir diese Situation[ST:n ]irgendwie bekannt vorkommt.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0007</td>
+        <td class="side">Was?! Wart mal... Hast DU mir nicht damals...?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0008</td>
+        <td class="side">Verdammt, das ist mir gar nicht aufgefallen! Vielleicht[ST:n ]h&#228;tte ich dir ein bisschen l&#228;nger und genauer ins[ST:n ]Gesicht schauen sollen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev200601_JNK0030</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev200601_SEL0031</td>
+        <td class="side">Frage Yardley, ob ihr euch schon mal begegnet seid.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev200601_JNK0040</td>
+        <td class="side">Druck machen</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev200601_SEL0041</td>
+        <td class="side">Bestehe darauf, dass Yardley auch die Belohnung[ST:n ]bezahlt, die er dir von der fr&#252;heren Mission schuldet.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0009</td>
+        <td class="side">Jaaaa... Ich glaub, wir haben uns mal im Test-Hangar[ST:n ]dr&#252;ben im Industriegebiet getroffen.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0010</td>
+        <td class="side">Ich bin Yardley. Na? Ist der Groschen jetzt gefallen?[ST:n ]Yardley? Der gute alte Yardley? Der eine Belohnung[ST:n ]versprochen hat und es dann voll vergeigt hat?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0011</td>
+        <td class="side">...Hmm.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0012</td>
+        <td class="side">Hehe. Dann bin ich dir jetzt wohl ’ne Erkl&#228;rung[ST:n ]schuldig, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0013</td>
+        <td class="side">H&#246;r mal, ich werd dir ja alles erz&#228;hlen, aber nicht hier.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0014</td>
+        <td class="side">Triff mich sp&#228;tnachts ganz unten im Verwaltungsbezirk.[ST:n ]Also, wirklich ganz unten. Noch unter den Hangars.[ST:n ]Auf Wasserh&#246;he. Du wei&#223;t schon...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0015</td>
+        <td class="side">Da zahl ich dir alles, was ich dir schulde. Auch die[ST:n ]Belohnung f&#252;r die Schl&#252;sselkarte.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0016</td>
+        <td class="side">Bis dann.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0017</td>
+        <td class="side">Ah, du wei&#223;t es also noch... W&#228;re ja auch zu sch&#246;n[ST:n ]gewesen... &#228;hem.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0018</td>
+        <td class="side">Ich glaub, ich muss dir Einiges erkl&#228;ren, was?[ST:n ]Aber nicht hier – hier sind zu viele Ohren und... so.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0019</td>
+        <td class="side">Triff mich sp&#228;tnachts ganz unten im Verwaltungsbezirk.[ST:n ]Also, wirklich ganz unten. Noch unter den Hangars.[ST:n ]Auf Wasserh&#246;he. Du wei&#223;t schon...[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev200601_MSG0020</td>
+        <td class="side">Da zahl ich dir alles, was ich dir schulde. Auch die[ST:n ]Belohnung f&#252;r die Schl&#252;sselkarte.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

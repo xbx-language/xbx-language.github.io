@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Jeshero sobre la nave ma-non.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Jeshero si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0010</td>
+        <td class="side">tev032501_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Jeshero sobre los ma-non.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0020</td>
+        <td class="side">tev032501_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0021</td>
+        <td class="side">tev032501_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0010</td>
+        <td class="side">tev032501_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Jeshero sobre los ma-non.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032501_JNK0020</td>
+        <td class="side">tev032501_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032501_SEL0021</td>
+        <td class="side">tev032501_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0001</td>
+        <td class="side">La metalister&#237;a humana tampoco es para tanto[ST:n ]si se compara con la ma-non, &#191;no? Es muy muy floja.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0002</td>
+        <td class="side">La nave ma-non es muy resistente, &#191;no te parece?[ST:n ]Eso es porque utilizamos materiales[ST:n ]muy s&#243;lidos para construirla.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0003</td>
+        <td class="side">Se estrell&#243; en Mira casi sin sufrir ning&#250;n rasgu&#241;o,[ST:n ]&#191;sabes? Ni siquiera el fuego antia&#233;reo ganglion[ST:n ]pudo con ella.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0004</td>
+        <td class="side">Los humanos deber&#237;ais fabricar cosas[ST:n ]as&#237; de resistentes o nunca podr&#233;is sobrevivir[ST:n ]a una guerra contra los ganglion, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0008</td>
+        <td class="side">&#191;Conoces a un humano que se llama Omari?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0009</td>
+        <td class="side">Pues bien, el tal Omari se qued&#243; bastante asombrado[ST:n ]cuando me vio esculpir un fragmento muy muy[ST:n ]peque&#241;o en una piedra nopon de amor, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0010</td>
+        <td class="side">Despu&#233;s de que te marchases, vino a pedirme[ST:n ]que le ense&#241;ase a hacer cosas as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0011</td>
+        <td class="side">Parec&#237;a bastante simp&#225;tico, as&#237; que acced&#237;.[ST:n ]Hasta le di unas cuantas lecciones extra,[ST:n ]bastante amable por mi parte, &#191;no crees?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0012</td>
+        <td class="side">Omari me lo agradeci&#243; invit&#225;ndome a pizza.[ST:n ]Y eso es genial, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0017</td>
+        <td class="side">Los ma-non tenemos un defecto, &#191;no crees?[ST:n ]Cuando algo nos fascina, no paramos[ST:n ]hasta llegar al fondo de la cuesti&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0018</td>
+        <td class="side">&#191;Mmm? &#191;Crees que es algo admirable? Depende[ST:n ]de la definici&#243;n de \&quot;llegar hasta el fondo\&quot;, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0019</td>
+        <td class="side">Los ma-non har&#237;an cualquier cosa para proseguir[ST:n ]con su investigaci&#243;n, &#191;no? Hasta saltarse la ley.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0020</td>
+        <td class="side">Claro que yo nunca har&#237;a nada as&#237;, pero si yo fuese[ST:n ]t&#250;, vigilar&#237;a a Lulladu, el ma-non que tiene la tienda[ST:n ]de reparaciones en el distrito industrial.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0026</td>
+        <td class="side">Los ma-non tenemos un defecto, &#191;no crees?[ST:n ]Cuando algo nos fascina, no paramos[ST:n ]hasta llegar al fondo de la cuesti&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0027</td>
+        <td class="side">Y a veces sale mal, como con Lulladu, el ma-non que[ST:n ]tiene la tienda de reparaciones en el distrito industrial.[ST:n ]He o&#237;do que le rob&#243; el b&#225;culo a un zaruboggan.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0028</td>
+        <td class="side">Es vergonzoso, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0029</td>
+        <td class="side">Vamos, si hubiese sido yo, al menos habr&#237;a hecho[ST:n ]una r&#233;plica perfecta del b&#225;culo para que nadie[ST:n ]se diese cuenta de que lo hab&#237;a robado, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032501_MSG0030</td>
+        <td class="side">Oye, tampoco me mires as&#237;. Es un buen plan, &#191;no?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

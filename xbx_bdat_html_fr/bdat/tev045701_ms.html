@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev045701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev045701_JNK0010</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev045701_SEL0011</td>
+        <td class="side">Interroger Paqu &#224; propos de l&#39;all&#233;e des Armes.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev045701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev045701_SEL0021</td>
+        <td class="side">Demander &#224; Paqu si elle a entendu[ST:n ]des rumeurs int&#233;ressantes.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev045701_SEL0023</td>
+        <td class="side">Interroger Paqu sur la raret&#233; des objets.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0001</td>
+        <td class="side">C&#39;est ici que vous pouvez vendre des choses.[ST:n ]En retour, vous aurez de &#171; l&#39;argent &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0002</td>
+        <td class="side">Mon compagnon ne s&#39;int&#233;resse pas &#224; l&#39;argent.[ST:n ]J&#39;essaie de vendre nos affaires pour pouvoir[ST:n ]joindre les deux bouts.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0003</td>
+        <td class="side">Peut-&#234;tre que je m&#39;y prends mal... Mes os de b&#234;te sont[ST:n ]rares. Tr&#232;s rares. Mais personne ne les ach&#232;te.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0004</td>
+        <td class="side">Les Prones ne connaissent pas le concept de l&#39;argent.[ST:n ]Ils troquent. Cet endroit me met mal &#224; l&#39;aise.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0005</td>
+        <td class="side">Peut-&#234;tre que je devrais attraper un Nopon.[ST:n ]Le forcer &#224; me r&#233;v&#233;ler le secret de la vente.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0008</td>
+        <td class="side">J&#39;ai entendu L et un Ma-non parler de leur nouveau[ST:n ]magasin. Ils ont parl&#233; d&#39;un &#171; cheval de Troie qui allait[ST:n ]conqu&#233;rir le march&#233; &#187;.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0009</td>
+        <td class="side">Qu&#39;est-ce qu&#39;un cheval de... Troie ? C&#39;est une b&#234;te ?[ST:n ]Est-ce que c&#39;est aussi d&#233;licieux que &#231;a en a l&#39;air ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0010</td>
+        <td class="side">Tout ce qui entoure L est &#233;trange. Je ne devrais pas[ST:n ]me faire de faux espoirs.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0011</td>
+        <td class="side">Mais l&#39;id&#233;e de go&#251;ter &#224; une nouvelle viande...[ST:n ]C&#39;est si... Mmh...[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0017</td>
+        <td class="side">Quand les agents du BLADE chassent, ils r&#233;cup&#232;rent[ST:n ]des mat&#233;riaux. Comme des os, des cornes, des armes.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0018</td>
+        <td class="side">Mais tous ces objets ne se valent pas. Certains sont[ST:n ]rares et pr&#233;cieux. D&#39;autres n&#39;ont aucun int&#233;r&#234;t.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0019</td>
+        <td class="side">Les armes par exemple. Plus elles sont rares,[ST:n ]plus elles auront d&#39;effets sp&#233;ciaux en combat.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0020</td>
+        <td class="side">J&#39;aurais bien besoin d&#39;une arme rare.[ST:n ]Je pourrais frapper mon compagnon avec ![ST:n ]Il sera motiv&#233; pour travailler comme &#231;a ![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev045701_SEL1011</td>
+        <td class="side">Demander &#224; Paqu comment utiliser le miranium.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev045701_SEL1021</td>
+        <td class="side">Demander &#224; Paqu si elle a entendu[ST:n ]des rumeurs int&#233;ressantes.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0021</td>
+        <td class="side">Le miranium est un minerai miracle ![ST:n ]On peut l&#39;utiliser &#224; la boutique de L...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0022</td>
+        <td class="side">On peut le donner aux fabricants d&#39;armes...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0023</td>
+        <td class="side">On peut aussi l&#39;utiliser pour faire des armes.[ST:n ]Ou pour finir une mission du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0024</td>
+        <td class="side">Le miranium, c&#39;est comme les baaox.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0025</td>
+        <td class="side">Vous ne savez pas ce qu&#39;est un baaox ?[ST:n ]C&#39;est une b&#234;te de notre monde d&#39;origine.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0026</td>
+        <td class="side">Vous voyez, non ? On peut la monter.[ST:n ]On peut la manger. On peut la faire travailler.[ST:n ]Tout le contraire de mon mari. Pff...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0012</td>
+        <td class="side">L a ouvert une boutique ici.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0013</td>
+        <td class="side">Beaucoup de membres du BLADE viennent[ST:n ]avec des armes et des armures.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0014</td>
+        <td class="side">Oh, vous ne le saviez pas ? L a cr&#233;&#233; une sorte de...[ST:n ]machine.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0015</td>
+        <td class="side">La machine rend les armes plus puissantes.[ST:n ]M&#234;me une massue en os de b&#234;te.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev045701_MSG0016</td>
+        <td class="side">Je devrais rajouter un &#171; emplacement &#187; sur ma massue.[ST:n ]Ensuite, je pourrais m&#39;en servir sur mon compagnon ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

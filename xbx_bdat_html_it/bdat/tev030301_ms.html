@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev030301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev030301_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0011</td>
+        <td class="side">Chiedi a Veven del Professor B.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev030301_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0021</td>
+        <td class="side">Chiedi a Veven quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0001</td>
+        <td class="side">Cosa posso dire? Abbiamo esplorato il cosmo in lungo[ST:n ]e in largo, ma mai abbiamo incontrato uno Xeno con[ST:n ]una tecnologia avanzata come quella del Professor B.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0002</td>
+        <td class="side">Qualunque fosse la logica su cui si basavano, i suoi[ST:n ]progetti erano del tutto diversi dai nostri[ST:n ]o da quelli della Samaar, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0003</td>
+        <td class="side">Era tutto alquanto bizzarro, non &#232; vero? Ma sar&#242; per[ST:n ]sempre grato al Professor B per essere stato[ST:n ]la mia fonte di ispirazione intellettuale...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0004</td>
+        <td class="side">Credo di sentire gi&#224; la mancanza della sua caterva[ST:n ]di incomprensibili dilemmi quantistici.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0005</td>
+        <td class="side">Credi che torner&#224; mai a farci visita qui[ST:n ]nel pianeta Mira del tempo presente?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0008</td>
+        <td class="side">Da quando se ne &#232; andato, ho cominciato a rivedere[ST:n ]gli appunti del Professor B molto attentamente, sai?[ST:n ]Ma ancora non riesco a venirne a capo...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0009</td>
+        <td class="side">Un peccato, non credi? La Miramobile 2.0 che sognavo[ST:n ]di costruire potrebbe non vedere la luce per[ST:n ]molti anni ancora...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0010</td>
+        <td class="side">Sigh... Cosa star&#224; facendo adesso il Professor B?[ST:n ]Beh, non proprio adesso-adesso, ma... Hai capito che[ST:n ]voglio dire, no? Spero sia riuscito a tornare al futuro.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev030301_JNK0010</td>
+        <td class="side">tev030301_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev030301_SEL1011</td>
+        <td class="side">Chiedi a Veven delle caratteristiche di Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev030301_JNK0020</td>
+        <td class="side">tev030301_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev030301_SEL1021</td>
+        <td class="side">Chiedi a Veven quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0011</td>
+        <td class="side">Il Professor B prov&#242; quel suo aggeggio, giusto?[ST:n ]Ma come si spiega questa strana anomalia che[ST:n ]circonda Mira, mi chiedevo?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0012</td>
+        <td class="side">Chiesi al professore se avesse una teoria al riguardo,[ST:n ]ma rifiut&#242; di esprimersi in mancanza di prove[ST:n ]scientifiche. Fu piuttosto categorico al riguardo, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0013</td>
+        <td class="side">Per quanto ne so io, Mira &#232; circondato da una qualche[ST:n ]specie di barriera... spazio-temporale?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0014</td>
+        <td class="side">Ma il significato di questa barriera mi sfugge, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0015</td>
+        <td class="side">Credo proprio che dovr&#242; studiare di pi&#249; se voglio[ST:n ]essere all&#39;altezza delle scoperte epocali[ST:n ]del Professor B, giusto?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0018</td>
+        <td class="side">Per poter ripagare il debito con Graham, il Professor B[ST:n ]fond&#242; un&#39;azienda chiamata Factory 1.21. Lo sapevi?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0019</td>
+        <td class="side">Mi ha nominato impiegato onorario, sai?[ST:n ]Anche se non so di cosa dovrei sentirmi onorato...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0020</td>
+        <td class="side">Comunque, vengo pagato solo se i nostri prodotti[ST:n ]vendono, quindi per favore fai un paio di acquisti.[ST:n ]O anche cinque se vuoi, eh?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0021</td>
+        <td class="side">Il Professor B avr&#224; anche qualche stranezza, ma tu sai[ST:n ]bene quanto me che le sue abilit&#224; ingegneristiche[ST:n ]vanno prese in seria considerazione, dico bene?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev030301_JNK0010</td>
+        <td class="side">tev030301_JNK0010</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0031</td>
+        <td class="side">Chiedi a Veven dei prodotti della Factory 1.21.</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev030301_JNK0020</td>
+        <td class="side">tev030301_JNK0020</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0051</td>
+        <td class="side">Chiedi a Veven quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0052</td>
+        <td class="side">Oh, sono felice che me l&#39;hai chiesto![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0053</td>
+        <td class="side">Tutte le nostre armi sono dotate di un campo[ST:n ]di pressione che distrugge gli avversari, OK?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0054</td>
+        <td class="side">Ci&#242; permette loro di oltrepassare l&#39;armatura nemica e[ST:n ]infliggere danno a a prescindere dalle difese avversarie.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0055</td>
+        <td class="side">Dovresti mettere alla prova almeno una[ST:n ]delle nostre-nostre armi, OK?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev030301_SEL0056</td>
+        <td class="side">Se non si rivela un&#39;arma che ti &#232; utile in battaglia, mi[ST:n ]mangio il mio cacciavite! Forse... Se mi va.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0022</td>
+        <td class="side">Alla fine, Graham non ha potuto rifiutare, ed &#232; finito[ST:n ]a lavorare alla Factory 1.21, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0023</td>
+        <td class="side">Onestamente, il Professor B e io non siamo esperti di[ST:n ]come si commercia con gli umani, quindi direi che[ST:n ]&#232; utile averlo con noi, no?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0024</td>
+        <td class="side">Ad ogni modo, il risultato finale &#232; che la Factory 1.21[ST:n ]continuer&#224; a produrre prodotti unici, che influenzeranno[ST:n ]la tecnologia del futuro, non so se mi spiego.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev030301_MSG0025</td>
+        <td class="side">\&quot;Porta a casa oggi un pezzo di domani!\&quot;.[ST:n ]Che te ne pare? Suona bene?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

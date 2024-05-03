@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev052701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev052701_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev052701_SEL0011</td>
+        <td class="side">Frage Trigo nach Team Slovity.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev052701_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev052701_SEL0021</td>
+        <td class="side">Frage Trigo, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev052701_SEL0031</td>
+        <td class="side">Sprich mit Trigo &#252;ber den Kampf gegen Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0001</td>
+        <td class="side">Befehle von Ganglion sind wie Gesetze.[ST:n ]Freunde t&#246;ten. Familie t&#246;ten. Unschuldige t&#246;ten.[ST:n ]Egal. Immer gehorchen. Oder get&#246;tet werden.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0002</td>
+        <td class="side">Ganglion-Soldaten m&#252;ssen Befehlen gehorchen.[ST:n ]Egal, wie grausam.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0003</td>
+        <td class="side">Team Slovity war anders. Wir verweigerten Befehle.[ST:n ]Wir hatten keine Angst. Keine Angst vor Bestrafung.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0004</td>
+        <td class="side">Ganglion gab uns einen Namen.[ST:n ]Sie nannten uns „die Abtr&#252;nnigen“.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0005</td>
+        <td class="side">Ich war stolz. Stolz auf Team Slovity.[ST:n ]Obwohl wir unseren Klan verrieten.[ST:n ]Ich bereue nichts.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0008</td>
+        <td class="side">Team Slovity ist wieder zusammen.[ST:n ]Dank dir.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0009</td>
+        <td class="side">Meine Kameraden sind zur&#252;ck.[ST:n ]Nun k&#246;nnen wir Ganglion angreifen.[ST:n ]Wir m&#252;ssen zur&#252;ckschlagen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0010</td>
+        <td class="side">Nicht wegen Befehlen. Sondern weil wir wollen.[ST:n ]Es ist unser Kampf. Wir k&#228;mpfen um unseren Stolz.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0011</td>
+        <td class="side">Wir brauchen Hilfe. Deine Hilfe.[ST:n ]Du bist sehr stark. Und [ST:Gender p1=unser Verb&#252;ndeter p2=unsere Verb&#252;ndete ].[ST:n ]Das hast du bewiesen.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0022</td>
+        <td class="side">Wir dienten Ganglion.[ST:n ]Sie sind schrecklich.[ST:n ]Wir wissen das.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0023</td>
+        <td class="side">Ihre Anf&#252;hrer waren am schlimmsten.[ST:n ]Goetia. Ryyz. Dagahn.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0024</td>
+        <td class="side">Und Luxaar. Er ist m&#228;chtig.[ST:n ]St&#228;rker als ganze Heere.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0025</td>
+        <td class="side">Aber dein Team ist st&#228;rker.[ST:n ]Ihr habt sie vernichtet.[ST:n ]Ich war &#252;berrascht. Und bewegt.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0026</td>
+        <td class="side">Team Slovity muss st&#228;rker werden.[ST:n ]So stark wie ihr.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev052701_SEL1021</td>
+        <td class="side">Sprich mit Trigo &#252;ber die j&#252;ngsten Ereignisse.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0012</td>
+        <td class="side">Team Slovity hat Soldaten verloren.[ST:n ]Viele Soldaten.[ST:n ]Bei diesem Zwischenfall.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0013</td>
+        <td class="side">Wir haben den gleichen Feind.[ST:n ]Wir sollten k&#228;mpfen. Zusammen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0014</td>
+        <td class="side">Wir haben keine Freunde in der Stadt.[ST:n ]Nur dich. Du musst uns helfen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev052701_SEL2021</td>
+        <td class="side">Frage Trigo, was es so Neues gibt.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0015</td>
+        <td class="side">Slovity trainiert uns. Jeden Tag. Fr&#252;h bis sp&#228;t.[ST:n ]Sie macht uns st&#228;rker. Sie versprach es uns.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0016</td>
+        <td class="side">Du hast ihr Mut gemacht.[ST:n ]Du bist ein starker Anf&#252;hrer.[ST:n ]Und ein stolzer Erdling.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0017</td>
+        <td class="side">Du musst [ST:Gender p1=ihr Freund p2=ihre Freundin ] sein. Bitte.[ST:n ]Sie ist gl&#252;cklich. Wenn du nahe bist.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0018</td>
+        <td class="side">Wir ziehen durch Mira.[ST:n ]Wir beseitigen die Reste.[ST:n ]Die Reste der Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0019</td>
+        <td class="side">Andere Xenoforme helfen.[ST:n ]Sie teilen ihre Vorr&#228;te. Alle k&#228;mpfen zusammen.[ST:n ]Zusammen mit BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0020</td>
+        <td class="side">Die Entscheidung war richtig.[ST:n ]In eure Erdlingsstadt zu kommen.[ST:n ]Ich glaubte das nicht. Nicht immer.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev052701_MSG0021</td>
+        <td class="side">Ich helfe Slovity. Ich verteidige die Stadt.[ST:n ]Von jetzt an. Ich zeige es allen.[ST:n ]Der H&#246;hlenklan ist ein Verb&#252;ndeter.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev052701_SEL4021</td>
+        <td class="side">Frage Trigo, ob sie wissenswerte[ST:n ]Neuigkeiten geh&#246;rt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4001</td>
+        <td class="side">Der H&#246;hlenklan in Sylvalum folterte BLADEs.[ST:n ]Zerfetzte sie. Bei lebendigem Leib.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4002</td>
+        <td class="side">Sie hie&#223;en Adelbert und Grette.[ST:n ]Die toten BLADEs.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4003</td>
+        <td class="side">Diese Prone sind grausam. Und feige.[ST:n ]Ich leide mit dir. Ich vergesse sie nicht.[ST:n ]Ihre Taten.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev052701_MSG4004</td>
+        <td class="side">Sie sind tot. Sie kommen nicht zur&#252;ck.[ST:n ]Ich kann es verstehen. Wenn ihr uns Prone hasst.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

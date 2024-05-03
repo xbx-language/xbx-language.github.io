@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev042203_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0001</td>
+        <td class="side">Ooooooh, pfui-pfui! G&#246;ttliche Napopon hat gegen[ST:n ][ST:Gender p1=gro&#223;en, starken Freund p2=gro&#223;e, starke Freundin ] verloren...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0002</td>
+        <td class="side">[ST:playername ] ist stark! Soooooo stark![ST:n ]Hmmm... Ist ganz aufregend![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0003</td>
+        <td class="side">G&#246;ttliche Napopon liebt gro&#223;e, starke Freunde.[ST:n ]Obwohl Niederlage immer noch wehtut.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev042203_JNK0010</td>
+        <td class="side">Tr&#246;sten</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev042203_SEL0011</td>
+        <td class="side">Sage der G&#246;ttlichen Napopon,[ST:n ]dass es ein guter Kampf war.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev042203_JNK0020</td>
+        <td class="side">Meckern</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev042203_SEL0021</td>
+        <td class="side">Sage, dass der Kampf dir &#252;berhaupt[ST:n ]keinen Spa&#223; gemacht hat.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0004</td>
+        <td class="side">Hmmm... G&#246;ttliche Napopon ist SO kurz davor, sich[ST:n ]f&#252;rchterlich in [ST:playername ] zu verlieben...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0005</td>
+        <td class="side">Nein, geh&#246;rt sich nicht f&#252;r heiliges Wesen. G&#246;ttliche[ST:n ]Napopon muss Gef&#252;hle tief in Flauscheherz vergraben.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0006</td>
+        <td class="side">Oh nein! G&#246;ttliche Napopon wollte [ST:Gender p1=liebem Freund p2=lieber Freundin ][ST:n ][ST:playername ] nicht Spa&#223; verderben![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0007</td>
+        <td class="side">G&#246;ttliche Napopon f&#252;hlt sich jetzt fiesemies.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0008</td>
+        <td class="side">Wollte nur Spa&#223; mit [ST:playername ] haben.[ST:n ]...Gro&#223;en Spa&#223;, wenn [ST:Gender p1=Freund p2=Freundin ] versteht.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0009</td>
+        <td class="side">Napo... Napo... NapopoPOPOPON![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0010</td>
+        <td class="side">G&#246;ttliche Napopon hat Nopon-Juwel gesegnet,[ST:n ]das [ST:playername ] mitgebracht hat.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0011</td>
+        <td class="side">[ST:Gender p1=Freund p2=Freundin ] ist jetzt einen Schritt n&#228;her an Geheimnis[ST:n ]&#252;ber Urspr&#252;nge von Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0012</td>
+        <td class="side">G&#246;ttliche Napopon muss sich jetzt von[ST:n ][ST:Gender p1=h&#252;bschem, knackigen Freund p2=h&#252;bscher, knackiger Freundin ] verabschieden.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev042203_MSG0013</td>
+        <td class="side">Oh, und [ST:Gender p1=Freund p2=Freundin ] muss sp&#228;tz&#252;ndendem[ST:n ]Nopopon ausrichten: Soll sich endlich[ST:n ]sch&#246;nes Frauchenpon suchen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

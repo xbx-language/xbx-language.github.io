@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev060105_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0001</td>
+        <td class="side">Esto... &#191;Hola? &#191;Eres [ST:Gender p1=el humano p2=la humana ] que le va a llevar[ST:n ]este cargamento a Shiraton?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0002</td>
+        <td class="side">Estoy muy muy contento de que est&#233;s aqu&#237;.[ST:n ]Las cosas se han puesto un poco... interesantes[ST:n ]&#250;ltimamente, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0003</td>
+        <td class="side">Pues estaba desarrollando un arma nueva,[ST:n ]pero acab&#233; creando una bomba de veneno letal[ST:n ]por accidente, &#191;sabes? Cosas de la qu&#237;mica, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0004</td>
+        <td class="side">No me val&#237;a para nada y no era algo que pudiera[ST:n ]tirar al contenedor de reciclaje, &#191;sabes?[ST:n ]Estaba en un verdadero aprieto.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0005</td>
+        <td class="side">La vida es m&#225;s f&#225;cil desde que Shiraton y sus amigos[ST:n ]empezaron a recolectar estas cosas, &#191;no te parece?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev060105_JNK0010</td>
+        <td class="side">Preguntar por la bomba</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev060105_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Pfeffen por qu&#233; no vende[ST:n ]la bomba si es tan potente.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev060105_JNK0020</td>
+        <td class="side">Preguntar por la recogida</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev060105_SEL0021</td>
+        <td class="side">Preg&#250;ntale acerca del servicio de recogida[ST:n ]de vertidos t&#243;xicos de Shiraton.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0006</td>
+        <td class="side">&#191;No es esa la misma pregunta que me hizo Roselle?[ST:n ]Eem, &#191;t&#250; la conoces? A Roselle, la BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0007</td>
+        <td class="side">Me pregunt&#243; si dejar&#237;a que ella se la vendiese[ST:n ]a alguien. Lo que parece un tanto... extra&#241;o, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0008</td>
+        <td class="side">Pero la tecnolog&#237;a ma-non tiene un buen fin, &#191;sabes?[ST:n ]No hay nada para lo que podamos utilizar[ST:n ]algo tan terrible.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0009</td>
+        <td class="side">Pondr&#233; mucha atenci&#243;n para no volver a hacer[ST:n ]algo as&#237;, incluso sin querer. Conf&#237;o en que[ST:n ]te asegurar&#225;s de que se destruye, &#191;s&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0010</td>
+        <td class="side">&#161;Parece que los humanos est&#225;is muy muy interesados[ST:n ]en los zaruboggan![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0011</td>
+        <td class="side">Una mujer llamada Roselle me hizo todo tipo[ST:n ]de preguntas sobre ellos hace un rato, &#191;sabes?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0012</td>
+        <td class="side">Pero le dije que se fuera, &#191;verdad? Creo que es mejor[ST:n ]que los humanos curiosos vayan a preguntar[ST:n ]a quien corresponda, &#191;no te parece?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0013</td>
+        <td class="side">Bueno, dile a Shiraton que destruya[ST:n ]esta bomba por m&#237;, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev060105_MSG0014</td>
+        <td class="side">Aqu&#237; tienes. Estoy tan agradecido.[ST:n ]Bueno, pues... ya nos veremos, &#191;no?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

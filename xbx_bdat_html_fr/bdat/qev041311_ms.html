@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041311_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0001</td>
+        <td class="side">Peu importe le nombre de cartes Miravie que j&#39;ach&#232;te,[ST:n ]je n&#39;obtiens jamais de carte Nopon-potamus or,[ST:n ]n&#39;est-il pas ? Est-ce qu&#39;elles existent vraiment ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0002</td>
+        <td class="side">Encore rat&#233;... Hmm. Je suis si si d&#233;&#231;ue...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0003</td>
+        <td class="side">Euh... Bonjour ? Vous n&#39;auriez pas la carte Mortifole[ST:n ]argent que je cherche, par hasard ? Non ? Je vous[ST:n ]l&#39;&#233;change contre...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0004</td>
+        <td class="side">Oh pardon... On dirait que je n&#39;ai... rien.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0005</td>
+        <td class="side">Ou peut-&#234;tre que je peux vous donner le nouvel[ST:n ]&#233;quipement de chasse ma-non que je viens d&#39;inventer ?[ST:n ]C&#39;est &#233;quitable, non ? Alors, auriez-vous la carte ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0010</td>
+        <td class="side">Youhou ! Les mortifoles sont vraiment g&#233;niales,[ST:n ]vous ne trouvez pas ? On voudrait presque[ST:n ]qu&#39;elles nous mangent ![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0011</td>
+        <td class="side">Oh, mais nous avions un accord, n&#39;est-il pas ? Alors...[ST:n ]Tenez, voil&#224; votre nouveau meilleur ami, l&#39;&#233;quipement[ST:n ]de chasse ma-non. J&#39;esp&#232;re qu&#39;il vous plaira.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0012</td>
+        <td class="side">Mais, euh, c&#39;est un &#233;quipement fait par les Ma-nons,[ST:n ]pas pour chasser les Ma-nons, d&#39;accord ?[ST:n ]Profitez-en bien, alors.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041311_MSG0013</td>
+        <td class="side">Non, non... Ce n&#39;est pas grave. Excusez-moi pour[ST:n ]le d&#233;rangement, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

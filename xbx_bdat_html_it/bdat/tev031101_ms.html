@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev031101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev031101_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0011</td>
+        <td class="side">Chiedi a Noborata dell&#39;astronave Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev031101_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0021</td>
+        <td class="side">Chiedi a Noborata se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0031</td>
+        <td class="side">Chiedi a Noborata cosa ne pensa dei trattati[ST:n ]d&#39;amicizia con gli Xenomorfi.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0041</td>
+        <td class="side">Chiedi a Noborata se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0051</td>
+        <td class="side">Chiedi a Noborata cosa ne pensa dei trattati[ST:n ]d&#39;amicizia con gli Xenomorfi.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0061</td>
+        <td class="side">Chiedi a Noborata se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev031101_SEL0071</td>
+        <td class="side">Chiedi a Noborata cosa ne pensa dei trattati[ST:n ]d&#39;amicizia con gli Xenomorfi.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0001</td>
+        <td class="side">Non trovi che l&#39;astronave sia un po&#39; troppo[ST:n ]vuota con i soli Ma-non a bordo?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0002</td>
+        <td class="side">Mira &#232; la casa dei Nopon e di tanti altri[ST:n ]affascinanti Xenomorfi, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0003</td>
+        <td class="side">E visto che noi siamo vostri amici e voi siete[ST:n ]loro amici, perch&#233; non vengono a vivere[ST:n ]sulla nostra astronave?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0004</td>
+        <td class="side">Sarebbe cos&#236; stimolante... Adoro gli scambi[ST:n ]interculturali, e tu?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0005</td>
+        <td class="side">E dato che l&#39;unica ragione del nostro viaggio era[ST:n ]di conoscere quanti pi&#249; pianeti e specie possibile,[ST:n ]Mira non &#232; forse il posto ideale?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0008</td>
+        <td class="side">Vandham &#232; quel grosso uomo per il quale vi toccate[ST:n ]la testa con la mano, no? &#200; vero che sta pensando[ST:n ]di stipulare un trattato d&#39;amicizia con i Nopon?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0009</td>
+        <td class="side">Sarebbe bello, non trovi? Pensa a una Neo L.A.[ST:n ]brulicante di tutti quei piccoli pranzetti.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0010</td>
+        <td class="side">Non avremmo pi&#249; bisogno di preoccuparci delle razioni[ST:n ]d&#39;emergenza, sai? Sono davvero dei tempi[ST:n ]emozionanti quelli in cui viviamo![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0018</td>
+        <td class="side">Il trattato d&#39;amicizia che avete stipulato con i Nopon[ST:n ]ha cambiato tutto, non &#232; vero?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0019</td>
+        <td class="side">Sapevi che quei piccoletti si sono trasferiti[ST:n ]qui sulla nostra nave? Sono anche diventato[ST:n ]amico con uno di loro, Tikotiko.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0020</td>
+        <td class="side">&#200; un tantinello tirchio, ma &#232; anche molto divertente.[ST:n ]Ha senso? Diciamo che rende la nave molto[ST:n ]pi&#249; colorita.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0021</td>
+        <td class="side">Spero che anche altre specie vengano a vivere qui,[ST:n ]sai? Adoro gli scambi interculturali...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0022</td>
+        <td class="side">Cavolo, l&#39;unica ragione per la quale ho intrapreso[ST:n ]questo viaggio &#232; quella di conoscere pi&#249; pianeti[ST:n ]e specie possibili, sai? Mi rende felice.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0025</td>
+        <td class="side">Conosci quella donna alla Torre BLADE[ST:n ]che ci ha spiegato come i Pron[ST:n ]ci abbiano attaccato a Oblivia?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0026</td>
+        <td class="side">Pensi che abbia intenzione di farli esplodere[ST:n ]in mille pezzi? Oppure che voglia provare[ST:n ]a salvare altre vittime come noi?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0027</td>
+        <td class="side">Se ti interessasse saperlo, potresti[ST:n ]farci quattro chiacchiere?[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0035</td>
+        <td class="side">Voi umani siete tolleranti, vero? Avete persino[ST:n ]permesso ai Pron che ci hanno attaccato[ST:n ]di vivere qui.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0036</td>
+        <td class="side">Ma va bene, sai? Ho fatto amicizia con una Pron[ST:n ]di nome Selia![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0037</td>
+        <td class="side">Inoltre, lei non &#232; violenta come gli altri Pron, OK?[ST:n ]&#200; molto gentile e molto-molto affidabile.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0038</td>
+        <td class="side">Penso che stando con lei, la mia vita potrebbe[ST:n ]davvero diventare pi&#249;... facile?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0039</td>
+        <td class="side">Spero che tutti gli Xenomorfi provenienti da-da diversi[ST:n ]pianeti vengano sulla nostra nave, cos&#236; potr&#242;[ST:n ]farmi tanti nuovi amici, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0042</td>
+        <td class="side">Hai sentito anche tu quello che ho sentito io?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0043</td>
+        <td class="side">Gli insetti di Noctilum hanno subito un qualche tipo[ST:n ]di superevoluzione che ha permesso loro[ST:n ]di-di camminare su due gambe, credo?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0044</td>
+        <td class="side">&#200; una cosa terrificante, non trovi?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0045</td>
+        <td class="side">Comunque, mi chiedevo se non potessi andare a[ST:n ]Noctilum per controllare? Sai, un favore? Penso che[ST:n ]il BLADE debba cercare di capire questa stranezza.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0054</td>
+        <td class="side">Adesso, quelle brutte facce d&#39;insetto[ST:n ]degli Orphe sono a Neo L.A., vero?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0055</td>
+        <td class="side">Per favore, dimmi che voi umani non avete stipulato[ST:n ]un trattato d&#39;amicizia anche con loro, s&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0056</td>
+        <td class="side">Hanno costruito le armi pi&#249; pericolose per-per[ST:n ]i Ganglion, sai? State giocando col fuoco![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0057</td>
+        <td class="side">Quella &#232; una specie con la quale non voglio[ST:n ]fare nessuno scambio interculturale, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0062</td>
+        <td class="side">Hai sentito di quell&#39;Orphe che andava in giro[ST:n ]chiedendo cosa dovesse fare per evitare l&#39;estinzione?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0069</td>
+        <td class="side">Roba profonda, no? Vorrei potergli dare[ST:n ]qualche indicazione...[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0070</td>
+        <td class="side">Tu sembri saperne parecchio su come evitare[ST:n ]di morire, giusto? Potresti parlargli, forse?[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0071</td>
+        <td class="side">L&#39;ultima volta che l&#39;ho visto credo fosse nella[ST:n ]zona residenziale, vicino a Ishmael Hills, si?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev031101_SEL1011</td>
+        <td class="side">Chiedi a Noborata dei materiali di recupero.</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev031101_SEL1021</td>
+        <td class="side">Chiedi a Noborata quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0063</td>
+        <td class="side">Non vedo l&#39;ora di mettere le mani[ST:n ]su delle Bobine potenziate, sai?[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0072</td>
+        <td class="side">Ne ho bisogno per queste armi superpotenziate[ST:n ]che sto costruendo per-per i nostri membri.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0073</td>
+        <td class="side">Ma, a quanto pare, l&#39;unico modo per ottenerle[ST:n ]&#232; abbattere i pericolosi Oc-serv[ST:n ]Ganglion, sai? Accidentaccio...[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0074</td>
+        <td class="side">In sostanza, l&#39;arma di cui abbiamo bisogno per[ST:n ]sconfiggere quelle cose non potr&#224; essere[ST:n ]costruita se prima non le sconfiggiamo, s&#236;?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0075</td>
+        <td class="side">Questa storia del BLADE &#232; molto dura, non trovi?[ST:n ]Immagino che dovremo solo sopportarla con[ST:n ]coraggio, un passo alla volta.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0064</td>
+        <td class="side">Se dovremo unirci al BLADE, allora dovr&#242; mobilitare[ST:n ]i giganti della tecnologia Ma-non per costruire[ST:n ]del nuovo e potente equipaggiamento, vero?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0065</td>
+        <td class="side">Tikotiko pu&#242; raccogliere i soldi e trovare scuse[ST:n ]per non restituirli, credo?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0066</td>
+        <td class="side">E quando Selia avr&#224; a disposizione le nostre[ST:n ]armi dovrebbe essere... imbattibile?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0067</td>
+        <td class="side">Finalmente, forse il mio viaggio alla ricerca[ST:n ]delle anime gemelle aliene &#232; giunto[ST:n ]al termine.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev031101_MSG0068</td>
+        <td class="side">Il mio mondo &#232; un posto migliore,[ST:n ]adesso, sai? E il tuo?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

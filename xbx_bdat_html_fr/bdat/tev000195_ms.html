@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000195_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0001</td>
+        <td class="side">Bonjour. Pardonnez-moi cette intrusion,[ST:n ][ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0002</td>
+        <td class="side">J&#39;ai comme qui dirait un petit creux. Je me demandais[ST:n ]si je pouvais trouver un encas ici.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0003</td>
+        <td class="side">Mais j&#39;ai bien peur de m&#39;&#234;tre tromp&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0004</td>
+        <td class="side">Et je ne crois pas que le trajet jusqu&#39;&#224; la zone[ST:n ]commerciale en vaille la peine. Peut-&#234;tre qu&#39;une[ST:n ]conversation saura apaiser ma faim ?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0005</td>
+        <td class="side">Alors dites-moi, [ST:playername ], maintenant[ST:n ]que vous avez l&#39;exp&#233;rience du terrain, quel type de[ST:n ]mission pr&#233;f&#233;rez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0010</td>
+        <td class="side">Traques d&#39;indig&#232;nes</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0011</td>
+        <td class="side">Chasser et vaincre les indig&#232;nes.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0020</td>
+        <td class="side">Missions d&#39;&#233;claireur</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0021</td>
+        <td class="side">Installer des sondes sur les emplacements FrontierNav.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0030</td>
+        <td class="side">Missions de r&#233;cup&#233;ration</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0031</td>
+        <td class="side">R&#233;cup&#233;rer les d&#233;bris de la Grande Blanche.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0040</td>
+        <td class="side">Recherche et d&#233;veloppement</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0041</td>
+        <td class="side">Tester des prototypes pour les fabricants d&#39;armes.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0050</td>
+        <td class="side">Enqu&#234;tes</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0051</td>
+        <td class="side">&#201;tudier Mira.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000195_JNK0060</td>
+        <td class="side">S&#233;curit&#233; et protection</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000195_SEL0061</td>
+        <td class="side">Patrouiller New L.A. et r&#233;soudre les probl&#232;mes.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0006</td>
+        <td class="side">Int&#233;ressant... Je l&#39;aurais pari&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0007</td>
+        <td class="side">J&#39;envie beaucoup votre capacit&#233; &#224; choisir vos[ST:n ]assignations.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0008</td>
+        <td class="side">Chausson et Vandham n&#39;appr&#233;cieraient pas que je le[ST:n ]dise, mais mon poste de ministre de la D&#233;fense est[ST:n ]souvent source de frustration.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0009</td>
+        <td class="side">Vous rappelez-vous lorsque nous avons d&#233;couvert[ST:n ]une partie de l&#39;arche de vie au nord de Primordia ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0010</td>
+        <td class="side">&#199;a m&#39;avait pris une demi-journ&#233;e pour organiser sa[ST:n ]r&#233;cup&#233;ration et envoyer une &#233;quipe sur place.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0011</td>
+        <td class="side">Toutes les &#233;quipes ont d&#233;j&#224; de nombreuses missions &#224;[ST:n ]remplir.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0012</td>
+        <td class="side">Lorsque nous avons besoin d&#39;envoyer une &#233;quipe en[ST:n ]urgence, nous devons souvent utiliser des membres du[ST:n ]BLADE qui rentrent &#224; peine de mission.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0013</td>
+        <td class="side">Ce qui veut dire que nous devons r&#233;parer ou remplacer[ST:n ]leur &#233;quipement endommag&#233; en quatri&#232;me vitesse, ce[ST:n ]qui n&#39;est pas la m&#233;thode la plus rapide.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0014</td>
+        <td class="side">Ce n&#39;&#233;tait pas la premi&#232;re fois qu&#39;une partie de l&#39;arche[ST:n ]&#233;tait red&#233;couverte avant d&#39;&#234;tre d&#233;truite sous nos yeux.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0015</td>
+        <td class="side">Apr&#232;s sa d&#233;couverte, j&#39;&#233;tais d&#233;termin&#233; &#224; la retrouver et[ST:n ]&#224; la mettre en s&#233;curit&#233;, peu importe le prix.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0016</td>
+        <td class="side">Le temps n&#39;&#233;tait pas de notre c&#244;t&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0017</td>
+        <td class="side">J&#39;ai fait appel &#224; tous les membres du BLADE disponibles[ST:n ]mais l&#39;op&#233;ration &#233;tait vou&#233;e &#224; l&#39;&#233;chec.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0018</td>
+        <td class="side">Et ma pr&#233;cipitation a caus&#233; de nombreuses pertes.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0019</td>
+        <td class="side">Mais quand votre &#233;quipe est venue &#224; notre rescousse,[ST:n ]j&#39;ai compris quelque chose.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0020</td>
+        <td class="side">Une petite unit&#233; d&#39;&#233;lite est plus adapt&#233;e &#224; une mission[ST:n ]de sauvetage qu&#39;un d&#233;ploiement en masse.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0021</td>
+        <td class="side">Et c&#39;est pourquoi je fais appel &#224; vous &#224; chaque fois[ST:n ]que l&#39;envie de participer &#224; une mission me prend.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0022</td>
+        <td class="side">H&#233;... Qu&#39;est-ce que vous pensez de tout &#231;a, hein ?[ST:n ]&#199;a doit vous para&#238;tre absurde.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0023</td>
+        <td class="side">Mais... je m&#39;attends &#224; de grandes choses de votre part.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0024</td>
+        <td class="side">Votre &#233;quipe est un mod&#232;le pour le BLADE tout entier[ST:n ]apr&#232;s tout.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev000195_MSG0025</td>
+        <td class="side">Enfin bref. Je dois maintenant retourner &#224; la tour[ST:n ]BLADE. Je crois que je viens de me rappeler de[ST:n ]l&#39;endroit o&#249; le directeur g&#233;n&#233;ral cache ses encas...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

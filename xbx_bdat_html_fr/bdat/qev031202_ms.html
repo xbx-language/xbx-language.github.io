@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031202_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0001</td>
+        <td class="side">Oh ! Qu-Que faites-vous l&#224; ? Vous n&#39;&#234;tes pas[ST:n ]apr&#232;s nous, quand m&#234;me ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031202_JNK0010</td>
+        <td class="side">Confirmer</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031202_SEL0011</td>
+        <td class="side">Dire &#224; Leroy que vous &#234;tes l&#224; car il a kidnapp&#233; Lavina.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031202_JNK0020</td>
+        <td class="side">Interroger</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031202_SEL0021</td>
+        <td class="side">Demander &#224; Leroy ce qu&#39;il fait l&#224;.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0002</td>
+        <td class="side">Oh non ! C&#39;est son p&#232;re qui vous envoie ? C&#39;est lui,[ST:n ]n&#39;est-ce pas ? Qu&#39;allons-nous faire, Lavina ?![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0003</td>
+        <td class="side">Euh, on... attend ! On, euh... attend un ami, c&#39;est tout.[ST:n ]Pas vrai, Lavina ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0004</td>
+        <td class="side">Oui. On attend. Ce n&#39;est pas louche du tout.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0005</td>
+        <td class="side">Et, euh, que faites-vous ici ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0006</td>
+        <td class="side">Comment ? Vous &#234;tes &#224; la recherche de Lavina ?[ST:n ]Mais ce n&#39;est pas... C&#39;est son p&#232;re qui vous envoie,[ST:n ]n&#39;est-ce pas ? Oh, Lavina ! Qu&#39;allons-nous faire ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0007</td>
+        <td class="side">Du calme. Rien ne nous s&#233;parera. Quoi qu&#39;il arrive.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0008</td>
+        <td class="side">Je ne sais pas ce que mon p&#232;re vous a dit.[ST:n ]Mais je suis l&#224; de mon plein gr&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0009</td>
+        <td class="side">Alors partez. Laissez-nous tranquilles. Ne d&#233;truisez pas[ST:n ]notre bonheur.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031202_JNK0030</td>
+        <td class="side">Questionner</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031202_SEL0031</td>
+        <td class="side">Essayer de comprendre ce qu&#39;il se passe vraiment.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031202_JNK0040</td>
+        <td class="side">Persuader</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031202_SEL0041</td>
+        <td class="side">Essayer de convaincre Lavina de revenir avec vous.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0010</td>
+        <td class="side">J&#39;aime Leroy. Cela rend mon p&#232;re furieux. Il ne veut pas[ST:n ]que j&#39;&#233;pouse un terrestre.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0011</td>
+        <td class="side">Il veut que je devienne la compagne de Wazdo[ST:n ]Tygant. Mais c&#39;est un voyou ! Je ne l&#39;aime pas.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0012</td>
+        <td class="side">Alors je suis partie. Je me suis cach&#233;e des hommes[ST:n ]du clan.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0013</td>
+        <td class="side">Leroy est timide. Leroy est doux. Pourtant je l&#39;aime de[ST:n ]tout mon cœur.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0014</td>
+        <td class="side">Je me s&#233;parerais de mes membres plut&#244;t que de me[ST:n ]s&#233;parer de lui.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0015</td>
+        <td class="side">Puis-je vous demander une faveur, Terrestre ?[ST:n ]Amenez-moi une pierre d&#39;alliance. Ainsi que[ST:n ]des cornes de saphir de xiphias.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0016</td>
+        <td class="side">Ramenez-les-moi. J&#39;irai voir mon p&#232;re ensuite.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0017</td>
+        <td class="side">Tout se passera bien si nous avons ce qu&#39;il faut.[ST:n ]Et si Leroy trouve du courage.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0018</td>
+        <td class="side">Euh, qu&#39;est-ce que je dois trouver ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0019</td>
+        <td class="side">Tu sais que nous ne pourrons pas fuir &#233;ternellement.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0020</td>
+        <td class="side">Tu m&#39;aimes. Mais tu dois le prouver.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0021</td>
+        <td class="side">Euh... le prouver ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev031202_MSG0022</td>
+        <td class="side">Nous en reparlerons lorsque j&#39;aurai la pierre[ST:n ]et les cornes. En attendant, fais-moi confiance.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev031202_MSG1001</td>
+        <td class="side">Bien s&#251;r que je vais me cacher ici. Est-ce que vous avez[ST:n ]vu la taille de ces Prones ?![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev031202_MSG1002</td>
+        <td class="side">&#201;coutez, je ne me suis pas enfui avec Lavina sur un[ST:n ]coup de t&#234;te. Je l&#39;ai fait parce que je l&#39;aime.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev031202_MSG1003</td>
+        <td class="side">Alors si elle dit que je dois prouver mes sentiments,[ST:n ]je vais prendre mon courage &#224; deux mains et faire[ST:n ]ce qui doit &#234;tre fait.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2001</td>
+        <td class="side">H&#233;, vous n&#39;auriez pas vu Lavina dans le coin ?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2002</td>
+        <td class="side">Je suis parti acheter quelque chose et maintenant elle[ST:n ]n&#39;est plus l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2003</td>
+        <td class="side">Vous ne pensez pas que, euh... qu&#39;elle en a eu assez[ST:n ]de moi et qu&#39;elle est rentr&#233;e chez elle ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev031202_JNK0050</td>
+        <td class="side">Confirmer</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev031202_SEL0051</td>
+        <td class="side">Dire &#224; Leroy que cela semble tr&#232;s probable.</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev031202_JNK0060</td>
+        <td class="side">D&#233;mentir</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev031202_SEL0061</td>
+        <td class="side">Dire &#224; Leroy qu&#39;elle ne l&#39;a pas abandonn&#233;.</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2004</td>
+        <td class="side">Est-ce que vos amis vous ont d&#233;j&#224; dit que vous &#234;tes[ST:n ]terriblement... honn&#234;te ? J&#39;esp&#233;rais un peu de[ST:n ]r&#233;confort de votre part. De pieux mensonges, tout &#231;a.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2005</td>
+        <td class="side">Quand bien m&#234;me, &#231;a ne m&#39;arr&#234;tera pas ! Elle peut[ST:n ]me laisser tomber autant de fois qu&#39;elle veut,[ST:n ]je regagnerai son cœur, encore et encore.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2006</td>
+        <td class="side">Oh, auriez-vous les cornes de saphir ainsi que[ST:n ]la pierre d&#39;alliance dont Lavina parlait ?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2007</td>
+        <td class="side">Merci, vous &#234;tes vraiment [ST:Gender p1=gentil p2=gentille ].[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2008</td>
+        <td class="side">Et vous avez raison. Notre amour est tel qu&#39;il ne[ST:n ]dispara&#238;tra jamais, alors je n&#39;abandonnerai pas ![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2009</td>
+        <td class="side">Oh, est-ce que vous avez r&#233;cup&#233;r&#233; les cornes de saphir[ST:n ]et la pierre d&#39;alliance que Lavina vous a demand&#233;s ?[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2010</td>
+        <td class="side">J&#39;ai peur de m&#39;aventurer dehors, mais je dois trouver[ST:n ]Lavina. Je veux lui apporter tout &#231;a le plus vite possible.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2011</td>
+        <td class="side">De plus j&#39;ai une petite id&#233;e d&#39;o&#249; elle pourrait se trouver.[ST:n ]Il y a une plage cach&#233;e &#224; l&#39;ouest de New L.A...[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev031202_MSG2012</td>
+        <td class="side">Si elle est en train de r&#233;fl&#233;chir &#224; une question[ST:n ]importante, je suis s&#251;r que c&#39;est l&#224;-bas qu&#39;elle sera.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev031202_MSG3001</td>
+        <td class="side">Je veux que ces gens deviennent ma famille. Pas[ST:n ]seulement Lavina, son clan tout entier aussi.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev031202_MSG3002</td>
+        <td class="side">Ils l&#39;aiment tous autant que moi. Et si nous sommes[ST:n ]d&#39;accord &#224; ce sujet, nous avons s&#251;rement d&#39;autres[ST:n ]choses en commun.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev031202_MSG4001</td>
+        <td class="side">Merci pour tout ce que vous avez fait. Je ne pense pas[ST:n ]que j&#39;aurais eu la force d&#39;aller jusqu&#39;au bout sans votre[ST:n ]exemple.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev031202_MSG4002</td>
+        <td class="side">Un jour, j&#39;arriverai enfin &#224; me faire accepter par son[ST:n ]p&#232;re. Mais d&#39;abord, je vais me concentrer sur mon r&#244;le[ST:n ]au sein du BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev031202_MSG4003</td>
+        <td class="side">La fa&#231;on dont un homme g&#232;re sa carri&#232;re est la[ST:n ]premi&#232;re preuve de sa valeur, pas vrai ? En tout cas,[ST:n ]je ferais n&#39;importe quoi pour &#234;tre avec elle.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

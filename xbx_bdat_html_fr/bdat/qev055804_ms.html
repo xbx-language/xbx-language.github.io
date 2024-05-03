@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev055804_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0001</td>
+        <td class="side">Ha ha ha ! Ce Tikotiko et son sens de l&#39;humour[ST:n ]nopon farfelu ! Il est dr&#244;le, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0002</td>
+        <td class="side">L&#39;argent existe pour &#234;tre d&#233;pens&#233;, non ?[ST:n ]Pourquoi devrais-je le laisser tra&#238;ner ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0003</td>
+        <td class="side">Je serais tr&#232;s heureux de partager les pizzas que j&#39;ai[ST:n ]achet&#233;es, mais mais j&#39;ai d&#233;j&#224; mang&#233; les 25 que j&#39;avais.[ST:n ]Je suis d&#233;sol&#233;... ?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0004</td>
+        <td class="side">qev055804_MSG0004</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0005</td>
+        <td class="side">qev055804_MSG0005</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0006</td>
+        <td class="side">Je croyais que les Orph&#233;ens &#233;taient des m&#233;chants[ST:n ]effrayants, mais Min&#39;barac est tr&#232;s tr&#232;s amical,[ST:n ]vous ne trouvez pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0007</td>
+        <td class="side">Peut-&#234;tre deviendra-t-il un membre permanent de[ST:n ]notre groupe de bons &#224; rien ? Je l&#39;esp&#232;re en tout cas.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0008</td>
+        <td class="side">Ces tomates d’amidor&#233;sia que Min&#39;barac cherche,[ST:n ]elles poussent autour du lac Sayram, je crois ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0009</td>
+        <td class="side">Je ne sais pas exactement ce qu&#39;il essaie de faire,[ST:n ]mais mais j&#39;esp&#232;re que la technique que lui a donn&#233;e[ST:n ]Selia fonctionnera. Ce serait g&#233;nial, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0010</td>
+        <td class="side">Min&#39;barac est tr&#232;s tr&#232;s intelligent, vous ne trouvez pas ?[ST:n ]Il a m&#233;moris&#233; chaque parole de Selia.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev055804_MSG0011</td>
+        <td class="side">Il est diff&#233;rent de nous, les Ma-nons, qui ne retenons[ST:n ]rien, vous voyez ? C&#39;est un changement rafra&#238;chissant.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

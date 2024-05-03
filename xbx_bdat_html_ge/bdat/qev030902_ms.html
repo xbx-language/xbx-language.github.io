@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev030902_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0001</td>
+        <td class="side">Wir leben. Wir sterben.[ST:n ]Wir trauern nicht. Wir bringen Vater zur&#252;ck.[ST:n ]Wohin er geh&#246;rt.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0002</td>
+        <td class="side">Sei gegr&#252;&#223;t, [ST:playername ].[ST:n ]Vater ist gegangen. Auld Belgazus ist tot.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0010</td>
+        <td class="side">Tr&#246;sten</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0011</td>
+        <td class="side">Dr&#252;cke dein Beileid aus.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0020</td>
+        <td class="side">Nachhaken</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0021</td>
+        <td class="side">Frage Galba nach Details zu Bazis’ Bitte.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0003</td>
+        <td class="side">Vater hat Frieden.[ST:n ]Wir trauern nicht. Das ist der Weg der Prone.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0004</td>
+        <td class="side">Was? Bazis bat dich um Hilfe?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0005</td>
+        <td class="side">Er hat recht. Er muss bei Hexuna bleiben.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0006</td>
+        <td class="side">Gehe nach Oblivia. Zur Baumfamilie.[ST:n ]Jage alle D&#252;nen-Adseculae. Tust du es?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0007</td>
+        <td class="side">Vater war Herz des Klans. Herz und Faust.[ST:n ]Er soll eingehen ins Fleisch von ehrw&#252;rdiger Bestie.[ST:n ]Erst m&#252;ssen wir kleine W&#252;rmlinge beseitigen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0030</td>
+        <td class="side">Annehmen</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0031</td>
+        <td class="side">Klopfe Galba auf die Schulter und versichere ihm,[ST:n ]dass du dich darum k&#252;mmern wirst.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev030902_JNK0040</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev030902_SEL0041</td>
+        <td class="side">Bitte Galba, dir mehr &#252;ber die Sitte der Prone zu[ST:n ]erz&#228;hlen, ihre Toten an wilde Tiere zu verf&#252;ttern.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0008</td>
+        <td class="side">Du bist gut. [ST:Gender p1=Guter Freund p2=Gute Freundin ]. Du schlugst mich im Kampf.[ST:n ]D&#252;nen-Adseculae sind keine Bedrohung f&#252;r dich.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0009</td>
+        <td class="side">Prone leben mit Bestien.[ST:n ]Vom ersten Tag bis zum letzten Tag.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0010</td>
+        <td class="side">Du t&#246;test D&#252;nen-Adseculae.[ST:n ]Dann beginnt die Bestattung.[ST:n ]Du wirst verstehen.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0011</td>
+        <td class="side">Gehst du? T&#246;te drei D&#252;nen-Adseculae. Mindestens.[ST:n ]Dann bringe ich Vater.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0012</td>
+        <td class="side">Auld Belgazus soll letzte Ruhe in Oblivia finden.[ST:n ]Am Ort namens Baumfamilie.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev030902_MSG0013</td>
+        <td class="side">Keine D&#252;nen-Adsecula wird Vater ber&#252;hren.[ST:n ]Schwache W&#252;rmlinge. T&#246;te du sie.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

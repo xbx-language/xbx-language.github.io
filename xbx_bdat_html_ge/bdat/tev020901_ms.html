@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev020901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev020901_JNK0010</td>
+        <td class="side">Fragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev020901_SEL0011</td>
+        <td class="side">Sprich mit Gina &#252;ber die Einwohner NLAs.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev020901_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev020901_SEL0021</td>
+        <td class="side">Frage Gina, was sich in letzter Zeit so getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev020901_SEL0031</td>
+        <td class="side">Erkundige dich bei Gina &#252;ber[ST:n ]ihre Erfahrungen mit den Ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev020901_SEL0041</td>
+        <td class="side">Frage Gina, was sie &#252;ber die[ST:n ]Xenoformen denkt, die in NLA leben.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0001</td>
+        <td class="side">Ich wette, ihr BLADEs seid manchmal ziemlich erstaunt,[ST:n ]wenn ihr nach einem langen Einsatz nach NLA[ST:n ]zur&#252;ckkehrt. Die Stadt ver&#228;ndert sich so schnell...[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0002</td>
+        <td class="side">Falls dir das passiert, gehst du am besten ein wenig[ST:n ]spazieren und h&#246;rst dir an, wor&#252;ber die Menschen[ST:n ]sich unterhalten.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0003</td>
+        <td class="side">Wenn hier etwas Besonderes passiert, &#228;ndern sich auch[ST:n ]immer gleich die Gespr&#228;chsthemen der Menschen.[ST:n ]Vielleicht schnappst du ja etwas Wichtiges auf.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0004</td>
+        <td class="side">Und wenn du gerade nicht das h&#246;rst, was dich[ST:n ]interessiert, dann frag doch einfach direkt danach.[ST:n ]Fragen kostet nichts![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0005</td>
+        <td class="side">Die B&#252;rger sind meistens ganz erpicht darauf, den[ST:n ]BLADEs zu helfen. Also, nur keine Hemmungen![ST:n ]Frag einfach drauflos![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0008</td>
+        <td class="side">Ich hab vor Kurzem einen Typen kennengelernt...[ST:n ]Der Mensch ist echt der gr&#246;&#223;te Schluckspecht, den ich[ST:n ]jemals getroffen habe.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0009</td>
+        <td class="side">Und du kannst mir glauben, in meinem Beruf hab ich[ST:n ]schon viele starke Trinker getroffen. Aber der stellt[ST:n ]wirklich alle in den Schatten.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0010</td>
+        <td class="side">Seine Freunde, mit denen er unterwegs war, kippten[ST:n ]irgendwann alle um – aber er nicht. Morgens stapelten[ST:n ]sich die Alkoholleichen um seinen Tisch.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0011</td>
+        <td class="side">Die Geschwindigkeit, mit der da getrunken wurde, hat[ST:n ]mich echt schockiert. So sehr, dass ich noch nicht mal[ST:n ]nach seinem Namen gefragt habe.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0012</td>
+        <td class="side">Aber ich glaube, er hat erw&#228;hnt, dass er zum Trinken[ST:n ]meistens ins Repenta-Diner im Industriegebiet geht.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0013</td>
+        <td class="side">Trotzdem... Er war echt ein ziemlich interessanter Mann.[ST:n ]Hoffentlich kommt er mal wieder hier vorbei.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0021</td>
+        <td class="side">In letzter Zeit kommen viele Ma-non als Kunden zu uns.[ST:n ]Es ist lustig, wenn sie in der N&#228;he sind: Sie sind immer[ST:n ]so lebhaft und fr&#246;hlich.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0022</td>
+        <td class="side">Letztens haben sich ein paar von ihnen ziemlich[ST:n ]betrunken und haben angefangen, im Kreis[ST:n ]herumzutanzen.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0023</td>
+        <td class="side">Sie haben sogar ein paar BLADEs in der N&#228;he dazu[ST:n ]gebracht mitzumachen. Das war ein richtiges kleines[ST:n ]Volksfest![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0024</td>
+        <td class="side">Nach all den Verlusten, die wir gegen die Ganglion[ST:n ]hinnehmen mussten, hat sich die Stimmung hier in der[ST:n ]Stadt deutlich verschlechtert.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0025</td>
+        <td class="side">Aber dank der Ma-non gibt es hier immer noch[ST:n ]Menschen, die lachen und Spa&#223; haben. Xenoforme[ST:n ]wie die begr&#252;&#223;en wir hier mit offenen Armen![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0041</td>
+        <td class="side">In mein Lokal kommen alle m&#246;glichen Xenoformen.[ST:n ]Jedes Volk hat seinen ganz eigenen Lebensstil und seine[ST:n ]besondere Weltanschauung.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0042</td>
+        <td class="side">Und wenn diese ganzen Leute irgendwo[ST:n ]aufeinandertreffen, wei&#223; man nie, was sich daraus[ST:n ]ergibt![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0043</td>
+        <td class="side">Die Prone fangen an zu k&#228;mpfen, dann schlie&#223;en die[ST:n ]Nopon Wetten auf den Ausgang der K&#228;mpfe ab...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0044</td>
+        <td class="side">W&#228;hrendessen kauen die Orphen auf Grashalmen[ST:n ]herum und unterhalten sich ruhig miteinander.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0045</td>
+        <td class="side">Das Wort „chaotisch“ beschreibt die Situation wohl[ST:n ]am besten. Aber ich finde es wirklich toll, wie[ST:n ]interessant NLA geworden ist![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev020901_SEL1021</td>
+        <td class="side">Frage Gina, was sich in letzter Zeit so getan hat.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0046</td>
+        <td class="side">Mitanzusehen, wie sich Lyvia so ganz pl&#246;tzlich[ST:n ]verwandelt – das hat mich echt umgehauen.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0047</td>
+        <td class="side">Ich war so verbl&#252;fft, dass ich sogar mein gebrochenes[ST:n ]Herz vergessen habe![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0048</td>
+        <td class="side">Und au&#223;erdem haben ja auch andere M&#252;tter sch&#246;ne[ST:n ]Kinder. Auch wenn niemand so gut aussieht wie...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev020901_MSG0049</td>
+        <td class="side">&#196;h, beachte mich einfach nicht. Ich hoffe, ihr beide[ST:n ]werdet gl&#252;cklich zusammen...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

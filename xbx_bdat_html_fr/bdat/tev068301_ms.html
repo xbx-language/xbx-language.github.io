@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev068301_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0011</td>
+        <td class="side">Demander &#224; Zo Zazhi de vous parler du quartier[ST:n ]g&#233;n&#233;ral du Ganglion.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0021</td>
+        <td class="side">Demander &#224; Zo Zazhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0010</td>
+        <td class="side">tev068301_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0031</td>
+        <td class="side">Demander &#224; Zo Zazhi de vous parler de la bataille[ST:n ]finale dans le noyau de l&#39;arche de vie.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0020</td>
+        <td class="side">tev068301_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0021</td>
+        <td class="side">tev068301_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0010</td>
+        <td class="side">tev068301_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0011</td>
+        <td class="side">tev068301_SEL0011</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0020</td>
+        <td class="side">tev068301_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev068301_SEL1021</td>
+        <td class="side">Demander &#224; Zo Zazhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0010</td>
+        <td class="side">tev068301_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0031</td>
+        <td class="side">tev068301_SEL0031</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0020</td>
+        <td class="side">tev068301_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev068301_SEL1021</td>
+        <td class="side">tev068301_SEL1021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0010</td>
+        <td class="side">tev068301_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0031</td>
+        <td class="side">tev068301_SEL0031</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0020</td>
+        <td class="side">tev068301_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev068301_SEL2021</td>
+        <td class="side">Demander &#224; Zo Zazhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0010</td>
+        <td class="side">tev068301_JNK0010</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev068301_SEL0031</td>
+        <td class="side">tev068301_SEL0031</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev068301_JNK0020</td>
+        <td class="side">tev068301_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev068301_SEL2041</td>
+        <td class="side">Demander &#224; Zo Zazhi s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0001</td>
+        <td class="side">Ils se sont install&#233;s dans un ch&#226;teau grotesque[ST:n ]dans Cauldros... Pff. Il n&#39;y a pas de limite[ST:n ]&#224; leur d&#233;pravation.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0002</td>
+        <td class="side">Je sais que vous avez une querelle avec eux,[ST:n ]mais moi aussi ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0003</td>
+        <td class="side">Je dois m&#39;entra&#238;ner et devenir plus forte que n&#39;importe[ST:n ]qui, ainsi je pourrai tordre le cou de ces d&#233;mons[ST:n ]de mes mains ![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0004</td>
+        <td class="side">Consid&#233;rez cela comme un d&#233;fi. Est-ce que le BLADE[ST:n ]les frappera le premier ? Ou est-ce que ce sera moi ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0009</td>
+        <td class="side">Zo Langra dit qu&#39;il s&#39;inqui&#232;te pour moi, mais il g&#226;che[ST:n ]sa salive &#224; pleurnicher.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0010</td>
+        <td class="side">Je suis une guerri&#232;re et non une d&#233;licate jouvencelle ![ST:n ]J&#39;ai l&#39;intention de prendre les armes et de venger[ST:n ]les ignominies qu&#39;ils nous ont inflig&#233;es au centuple ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0011</td>
+        <td class="side">Sachez cela : mes fr&#232;res a&#238;n&#233;s m&#39;ont bien form&#233;e,[ST:n ]et je le prouverai en vous battant ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0012</td>
+        <td class="side">Puis je partirai &#224; la recherche de cet ennemi ha&#239;,[ST:n ]et je le tuerai de mes mains pour venger mes fr&#232;res.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0017</td>
+        <td class="side">J&#39;ai essay&#233; de vous rejoindre sur le front lors[ST:n ]de la mission dans le noyau de l&#39;arche de vie.[ST:n ]Le ciel m&#39;en soit t&#233;moin, j&#39;ai essay&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0018</td>
+        <td class="side">Mais Zo Langra, mon idiot de fr&#232;re pu&#238;n&#233;, s&#39;est[ST:n ]interpos&#233;. Il m&#39;a dit que je devrai lui passer sur[ST:n ]le corps avant de pouvoir m&#39;y rendre.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0019</td>
+        <td class="side">C&#39;est ainsi que j&#39;ai rat&#233; la bataille finale... Quel d&#233;pit ![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev068301_MSG0020</td>
+        <td class="side">Je voulais &#234;tre la premi&#232;re &#224; enfoncer ma lame[ST:n ]dans le cœur noir et froid de Luxaar ![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev068301_MSG1001</td>
+        <td class="side">Il est mort ? Je vois. Alors peut-&#234;tre...[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev068301_MSG1002</td>
+        <td class="side">Merci, [ST:playername ]. Peut-&#234;tre[ST:n ]que maintenant, mes fr&#232;res a&#238;n&#233;s[ST:n ]pourront reposer en paix.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev068301_MSG1003</td>
+        <td class="side">&#192; partir de maintenant, je dois remplir mon devoir[ST:n ]d&#39;h&#233;riti&#232;re de la Maison Zo et agir en cons&#233;quence.[ST:n ]Langra et moi devons assurer l&#39;avenir de notre famille.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev068301_MSG1004</td>
+        <td class="side">Et si quiconque tente d&#39;entacher notre honneur,[ST:n ]je leur ferai payer... ou je mourrai en essayant.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev068301_MSG1005</td>
+        <td class="side"></td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev068301_MSG1006</td>
+        <td class="side"></td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2001</td>
+        <td class="side">En plus de mes fr&#232;res a&#238;n&#233;s, il y a une autre personne[ST:n ]que j&#39;admire.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2002</td>
+        <td class="side">Son nom est Ge Jewhe, et c&#39;est exactement le genre[ST:n ]de femme et de guerri&#232;re que j&#39;aspire &#224; &#234;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2003</td>
+        <td class="side">J&#39;ai eu peur pour elle lorsque j&#39;ai entendu qu&#39;elle &#233;tait[ST:n ]partie affronter le Ganglion pour se faire justice,[ST:n ]mais elle est heureusement rentr&#233;e saine et sauve.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2004</td>
+        <td class="side">Ah... Je vois. C&#39;est cela que mon fr&#232;re pu&#238;n&#233;[ST:n ]a d&#251; ressentir lorsque je suis rentr&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2005</td>
+        <td class="side">Ge Jewhe m&#39;apprend encore une nouvelle le&#231;on.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2010</td>
+        <td class="side">En plus de mes fr&#232;res a&#238;n&#233;s, il y avait une autre[ST:n ]personne que j&#39;admirais.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2011</td>
+        <td class="side">Son nom &#233;tait Ge Jewhe, et elle &#233;tait exactement[ST:n ]le genre de femme et de guerri&#232;re que j&#39;aspirais &#224; &#234;tre.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2012</td>
+        <td class="side">J&#39;ai eu peur pour elle lorsque j&#39;ai entendu qu&#39;elle &#233;tait[ST:n ]partie affronter le Ganglion pour se rendre justice,[ST:n ]et j&#39;ai &#233;t&#233; atterr&#233;e en apprenant sa mort.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2013</td>
+        <td class="side">Par deux fois, maintenant, j&#39;ai ressenti la douleur[ST:n ]de l&#39;abandon.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev068301_MSG2014</td>
+        <td class="side">Maintenant, je dois faire de mon mieux pour que plus[ST:n ]un seul de mes amis ne meure. Le sacrifice[ST:n ]de Ge Jewhe ne sera pas vain ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

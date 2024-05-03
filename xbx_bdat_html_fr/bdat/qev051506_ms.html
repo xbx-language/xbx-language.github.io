@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051506_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0001</td>
+        <td class="side">Je ne pensais pas vous revoir un jour,[ST:n ][ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0002</td>
+        <td class="side">Depuis l&#39;incident de l&#39;usine de traitement de l&#39;eau[ST:n ]de Biahno, je me consacre &#224; sa protection avec[ST:n ]Veven, mon ami ma-non ici pr&#233;sent.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0003</td>
+        <td class="side">Ensemble, nous avons eu pour but de cr&#233;er[ST:n ]des sentibots de haute qualit&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0004</td>
+        <td class="side">Nous pensions que ce tournoi &#233;tait l&#39;endroit id&#233;al pour[ST:n ]tester notre dernier mod&#232;le, n&#39;est-ce pas ? Nous avons[ST:n ]ensuite su que vous seriez notre adversaire ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0005</td>
+        <td class="side">Cela promet, n&#39;est-ce pas ? Avec la science que le[ST:n ]Professeur m&#39;a enseign&#233; et la technologie de mon ami[ST:n ]orph&#233;en, ce sentibot pourrait &#234;tre... parfait, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0006</td>
+        <td class="side">Cette machine est s&#251;rement invincible ![ST:n ]Euh... probablement ?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0007</td>
+        <td class="side">Pardonnez ma franchise, mais d&#39;apr&#232;s les donn&#233;es de[ST:n ]vos derniers combats, il y a 98 pourcents de chance[ST:n ]que notre machine l&#39;emporte.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051506_MSG0008</td>
+        <td class="side">Ce ne sera pas vraiment un combat &#233;quitable,[ST:n ]mais nous appr&#233;cions la collecte de donn&#233;es[ST:n ]suppl&#233;mentaires pour notre projet.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

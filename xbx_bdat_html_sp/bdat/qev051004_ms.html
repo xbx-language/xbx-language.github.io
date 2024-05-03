@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev051004_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0001</td>
+        <td class="side">&#161;Vuestras espadas son todas obras maestras, mi se&#241;or![ST:n ]Reh&#250;so considerar aquesta un fracaso.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0002</td>
+        <td class="side">As&#237; pues, &#161;guardad la compostura[ST:n ]y no acab&#233;is con mi vida! &#161;Os lo ruegooo![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0003</td>
+        <td class="side">Mi maestro es algo exc&#233;ntrico, voto a tal, pero[ST:n ]no hallar&#233;is un herrero wrothian m&#225;s consumado.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0004</td>
+        <td class="side">Incluso los ganglion respetaban su destreza;[ST:n ]le permitieron continuar laborando en la forja[ST:n ]como un permiso especial.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0005</td>
+        <td class="side">Anhelo ver la espada con que[ST:n ]tal maestro herrero sue&#241;a.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0006</td>
+        <td class="side">&#161;Maestro! &#191;&#161;Qu&#233; estado mental he de adoptar[ST:n ]cuando afronto el yunque!?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0007</td>
+        <td class="side">&#161;Instruidme, mi se&#241;or![ST:n ]&#161;Forjadme cual acero incandescente![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0008</td>
+        <td class="side">Siempre cavilo acerca de los tormentos y aflicciones por[ST:n ]los que mi maestro ha pasado y que le han imbuido[ST:n ]con esa pasi&#243;n y amor por la forja de espadas...[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0009</td>
+        <td class="side">Dir&#237;ase que es m&#225;s de lo que un biso&#241;o[ST:n ]zagal como yo podr&#237;a imaginar.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0010</td>
+        <td class="side">Al fin ha sido forjada... &#161;La espada irrompible![ST:n ]Mi maestro ha partido hacia Cauldros[ST:n ]para probar su filo.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev051004_MSG0011</td>
+        <td class="side">Os ruego vay&#225;is en su b&#250;squeda. Sed testigo[ST:n ]de su arrojo en combate, as&#237; como de la calidad[ST:n ]sin par de su obra maestra.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

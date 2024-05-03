@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev095801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0001</td>
+        <td class="side">Salut ! Heureux de te rencontrer. J&#39;ai entendu parler[ST:n ]de toi. Tu m&#39;as l&#39;air d&#39;&#234;tre une personne tr&#232;s active ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0002</td>
+        <td class="side">Je ne jalouse pas ta r&#233;ussite. Mais j&#39;esp&#232;re que[ST:n ]tu m&#39;accorderas un peu de ton aide. Hein ? Heiiin ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0003</td>
+        <td class="side">On est en sous-effectif, totalement d&#233;munis.[ST:n ]Mais tout le monde me dit de voir &#231;a[ST:n ]comme un d&#233;fi ou une &#233;preuve...[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0004</td>
+        <td class="side">Mais lorsque m&#234;me les missions les plus simples sont[ST:n ]insurmontables, gagner son pain devient plus[ST:n ]important que nos r&#234;ves de grandeur.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0005</td>
+        <td class="side">Peu importe, euh... Je te serais tr&#232;s reconnaissant[ST:n ]de m&#39;aider.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev095801_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev095801_SEL0011</td>
+        <td class="side">Offrir votre aide &#224; Enrai.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev095801_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev095801_SEL0021</td>
+        <td class="side">Ignorer la demande d&#39;Enrai.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0006</td>
+        <td class="side">Oh, merci ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0007</td>
+        <td class="side">Nous partagerons la r&#233;compense. Dis-moi combien[ST:n ]tu veux et je veillerai &#224; ce que tu la re&#231;oives.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0008</td>
+        <td class="side">Pour le moment, ma priorit&#233; est de garder[ST:n ]mon &#233;quipe soud&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0009</td>
+        <td class="side">Hmm. Je comprends que tu ne sois pas forc&#233;ment[ST:n ]empathique envers tes concurrents.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0010</td>
+        <td class="side">Mais nous ravalons notre fiert&#233;. Zut, je te supplie[ST:n ]presque pour que tu m&#39;aides ![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0011</td>
+        <td class="side">Euh, peut-&#234;tre que tu reviendras sur ta d&#233;cision ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0012</td>
+        <td class="side">J&#39;ai honte, je ne veux pas te mettre dans l&#39;embarras.[ST:n ]Je ne suis pas du genre &#224; profiter de la gentillesse[ST:n ]des autres, tu sais ?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0013</td>
+        <td class="side">Mais merci de me donner la possibilit&#233; de m&#39;expliquer.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0014</td>
+        <td class="side">Bref, j&#39;aurais besoin que tu m&#39;aides &#224; v&#233;rifier[ST:n ]une sonde, dans Sylvalum.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0015</td>
+        <td class="side">Elle a &#233;t&#233; d&#233;truite il y a un moment de &#231;a, et bien[ST:n ]qu&#39;elle ait &#233;t&#233; r&#233;par&#233;e, nous ne connaissons toujours[ST:n ]pas la raison de sa destruction.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0016</td>
+        <td class="side">Ces sondes sont les &#233;l&#233;ments vitaux des Pathfinders et[ST:n ]les donn&#233;es des sondes dans Sylvalum sont essentielles[ST:n ]afin d&#39;obtenir des informations sur Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0017</td>
+        <td class="side">En temps normal, nous y serions all&#233;s nous-m&#234;mes[ST:n ]pour savoir ce qui s&#39;est pass&#233; et s&#39;assurer[ST:n ]que &#231;a ne recommencerait pas.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0018</td>
+        <td class="side">Mais l&#39;&#233;norme machine de guerre du Ganglion est[ST:n ]arriv&#233;e, et les priorit&#233;s... Eh bien, elles ont chang&#233;.[ST:n ]Ce que je comprends parfaitement.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0019</td>
+        <td class="side">L&#39;enqu&#234;te a &#233;t&#233; ajourn&#233;e. Mais nous sommes maintenant[ST:n ]pr&#234;ts &#224; reprendre l&#224; o&#249; elle s&#39;est arr&#234;t&#233;e. Les autres[ST:n ]&#233;quipes, avec qui nous &#233;tions associ&#233;s, se sont retir&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0020</td>
+        <td class="side">Mon &#233;quipe est incapable d&#39;effectuer[ST:n ]une telle t&#226;che seule.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0021</td>
+        <td class="side">Oh, et il y a des rumeurs qui disent que le Ganglion[ST:n ]serait responsable de la destruction des sondes, ce qui[ST:n ]n&#39;encourage pas les gens &#224; venir nous aider.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0022</td>
+        <td class="side">Euh, ouais. La mission est plut&#244;t... dangereuse. Mais tu[ST:n ]es surtout [ST:Gender p1=le seul p2=la seule ] &#224; qui je peux demander ce service.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0023</td>
+        <td class="side">Si tu te sens [ST:Gender p1=pr&#234;t p2=pr&#234;te ], rends-toi dans Sylvalum, et tente[ST:n ]de savoir ce qui a d&#233;truit la sonde.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0024</td>
+        <td class="side">Je compte sur toi. Et je ne suis pas le seul ![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0025</td>
+        <td class="side">Ils ont dit que tu avais vaincu l&#39;&#233;norme machine[ST:n ]mortelle du Ganglion.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0026</td>
+        <td class="side">Si c&#39;est le cas, alors cette mission ne sera[ST:n ]qu&#39;une promenade de sant&#233; ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev095801_MSG0027</td>
+        <td class="side">Nous comptons tous sur toi.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

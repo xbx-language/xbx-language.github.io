@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev025702_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0001</td>
+        <td class="side">Vous avez besoin de quelque chose, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0002</td>
+        <td class="side">Parce que je ne travaille pas en ce moment, donc je ne[ST:n ]fais rien, en fait, non ? Ce qui me laisse libre de faire[ST:n ]ce que vous voulez, peut-&#234;tre ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev025702_JNK0010</td>
+        <td class="side">Demander les mensurations</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev025702_SEL0011</td>
+        <td class="side">Demander ses mensurations &#224; Veverta.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev025702_JNK0020</td>
+        <td class="side">S&#39;inqui&#233;ter</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev025702_SEL0021</td>
+        <td class="side">Exprimer votre inqui&#233;tude quant au ch&#244;mage de[ST:n ]Veverta.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0003</td>
+        <td class="side">Vous devez &#234;tre [ST:Gender p1=un ami p2=une amie ] de Panyar, non ? Eh bien,[ST:n ]dans ce cas, je vais vous dire tout ce que vous voulez.[ST:n ]Que sont ces mensurations dont vous parlez ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0004</td>
+        <td class="side">Tour de poitrine, tour de taille et tour de hanches ?[ST:n ]C&#39;est facile. Laissez-moi une minute pour aller prendre[ST:n ]les mesures, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0005</td>
+        <td class="side">Voici mes mensurations, d&#39;accord ? Mais, euh, mais[ST:n ]pourquoi est-ce que vous avez besoin de &#231;a ? En fait ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0006</td>
+        <td class="side">Des sous-v&#234;tements ? Cela semble int&#233;ressant, n&#39;est-il[ST:n ]pas ? Peut-&#234;tre que j&#39;essaierai quand le produit sera[ST:n ]disponible ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0007</td>
+        <td class="side">C&#39;est tr&#232;s tr&#232;s gentil de vous inqui&#233;ter pour moi. Mais,[ST:n ]euh, pas de probl&#232;me, d&#39;accord ? Ma m&#232;re et mon[ST:n ]p&#232;re ont tous les deux de bons emplois, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0008</td>
+        <td class="side">Porter des v&#234;tements sous ses v&#234;tements, c&#39;est si si[ST:n ]&#233;trange, non ? Dites-moi quand ils seront pr&#234;ts,[ST:n ]d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0009</td>
+        <td class="side">Comment s&#39;est pass&#233;e la confection de ces[ST:n ]sous-v&#234;tements ? Bien ? Tr&#232;s tr&#232;s bien ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0010</td>
+        <td class="side">Ils sont rat&#233;s ? Oh... C&#39;est dommage, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev025702_MSG0011</td>
+        <td class="side">Oh, ne vous inqui&#233;tez pas pour moi, d&#39;accord ? J&#39;avais[ST:n ]du temps libre, non ? C&#39;&#233;tait une amusante distraction,[ST:n ]n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

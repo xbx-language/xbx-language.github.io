@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev040701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0001</td>
+        <td class="side">Preoccupazione diventa panico,[ST:n ]panico diventa crisi! E poi?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0002</td>
+        <td class="side">Meeeh! Qualcuno! Chiunque! AIUTO![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0010</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0011</td>
+        <td class="side">Chiedi a Nosusu che problema ha.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0020</td>
+        <td class="side">Tranquillizza</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0021</td>
+        <td class="side">Fai respirare profondamente[ST:n ]Nosusu per farla calmare.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0003</td>
+        <td class="side">Questa &#232; storia di dolore per tutti quelli[ST:n ]coinvolti. Ma soprattutto per Nosusu![ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0004</td>
+        <td class="side">Alla fine, Nosusu aperto negozio per vendere oggetti[ST:n ]tradizionali, ma pochi clienti vuole comprare.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0005</td>
+        <td class="side">Di questo passo, Nosusu fa bancarotta subito.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0006</td>
+        <td class="side">Uff... pant... Grazie, [ST:Gender p1=amico p2=amica ].[ST:n ]Nosusu si sente un pochino meglio.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0007</td>
+        <td class="side">Abbastanza bene per raccontare a sconosciuti[ST:n ]tutti suoi problemi![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0008</td>
+        <td class="side">Alla fine, Nosusu aperto negozio per vendere oggetti[ST:n ]tradizionali, ma pochi clienti vuole comprare.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0009</td>
+        <td class="side">Di questo passo, Nosusu fa bancarotta subito.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0010</td>
+        <td class="side">Nosusu non &#232; ancora pronta per chiudere[ST:n ]negozio, ma cosa pu&#242; fare?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0090</td>
+        <td class="side">Spiega</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0091</td>
+        <td class="side">Fai notare a Nosusu che la pessima posizione[ST:n ]&#232; la causa pi&#249; probabile dei suoi problemi.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0100</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0101</td>
+        <td class="side">Chiedi a Nosusu perch&#233; voglia[ST:n ]vendere i suoi oggetti artigianali.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0013</td>
+        <td class="side">Mmmh. Tu fatto giusta osservazione...[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0014</td>
+        <td class="side">... ma a essere sincera, Nosusu vuole[ST:n ]aprire negozio a Carovana Dodonga.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0015</td>
+        <td class="side">Nonninopon di amicopon di cuginopon di nonninopon[ST:n ]di nonninapon di Nosusu aveva negozio qui,[ST:n ]quando nonninapon era giovane.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0016</td>
+        <td class="side">Questo posto ha profondo significato per Nosusu.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0017</td>
+        <td class="side">Nonninopon di amicopon di cuginopon di nonninopon[ST:n ]di nonninapon di Nosusu aveva negozio qui,[ST:n ]quando nonninapon era giovane.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0018</td>
+        <td class="side">Nosusu cresciuta con tanti successi[ST:n ]di negozio. Storie di felicit&#224; di tutti.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0019</td>
+        <td class="side">Nonninopon di amicopon di cuginopon di nonninopon[ST:n ]di nonninapon ha tramandato tecnica[ST:n ]di artigianato a Nosusu.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0020</td>
+        <td class="side">Diffondere per tutto spazio e tempo[ST:n ]&#232; sogno di vita per Nosusu![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0021</td>
+        <td class="side">E me crede che tutte razze di Mirapon[ST:n ]amer&#224; oggetti tradizionali di Nopon. Per[ST:n ]questo, me si impegna tantissimissimo.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0022</td>
+        <td class="side">Ma &#232; inutile. Sogno di Nosusu[ST:n ]&#232; rotto in mille e uno pezzettini.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0023</td>
+        <td class="side">Di questo passo, Nosusu deve chiudere negozio.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0024</td>
+        <td class="side">Tecniche di artigianato scompare con Nosusu.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0025</td>
+        <td class="side">Se solo Nosusu avesse prodotto[ST:n ]esclusivissimo per attirare tanti clienti...[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0068</td>
+        <td class="side">Mmmh... [ST:Gender p1=Amico p2=Amica ] ha volto familiare.[ST:n ]Me molto sicura che noi ha gi&#224; incontrato.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0030</td>
+        <td class="side">Spiega</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0031</td>
+        <td class="side">Di&#39; a Nosusu che Tatsu &#232; tuo amico.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0040</td>
+        <td class="side">Ignora</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0041</td>
+        <td class="side">Fai finta di niente e di&#39; che non hai[ST:n ]mai visto Nosusu prima d&#39;ora.</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0027</td>
+        <td class="side">Oh, giusto! Tu conosce Tatsu![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0028</td>
+        <td class="side">Mmmh... MMMHHH... MMMMMMHHHHHH...[ST:n ]No, Nosusu ha gi&#224; visto da qualche parte.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0029</td>
+        <td class="side">Ah ah! Tu sei [ST:Gender p1=amico umano p2=amica umana ] di Tatsu![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0030</td>
+        <td class="side">Umani. Uuumani. AH! Perfetto![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0031</td>
+        <td class="side">Tu deve capire che artigianato Nopon[ST:n ]non &#232; molto popolare con umani.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0032</td>
+        <td class="side">Ma amici umani potrebbe tutti indossare cappelli[ST:n ]Nopon! &#200; semplicemente idea geniale![ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0033</td>
+        <td class="side">Con giusti materiali, Nosusu pu&#242; creare[ST:n ]cappelli adorabili per umani![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0034</td>
+        <td class="side">Per favore, aiuta Nosusu con suo sogno![ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0050</td>
+        <td class="side">Fatti coinvolgere</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0051</td>
+        <td class="side">Chiedi a Nosusu che tipo[ST:n ]di cappello vorrebbe creare.</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0060</td>
+        <td class="side">Domanda</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0061</td>
+        <td class="side">Chiedi a Nosusu di quali materiali abbia bisogno.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0035</td>
+        <td class="side">Cappello fatto con sei Libellule nottilucenti,[ST:n ]del Cotone Harnenga e due Magmango.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0037</td>
+        <td class="side">Per fare berretto favoloso, Nosusu ha bisogno[ST:n ]di sei Libellule nottilucenti, del Cotone[ST:n ]Harnenga e due Magmango.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0038</td>
+        <td class="side">Nosusu pu&#242; contare su [ST:Gender p1=amico p2=amica ]?[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0039</td>
+        <td class="side">Tu supergentile per voler aiutare me![ST:n ]Nosusu non vede ora di ricevere materiali.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0040</td>
+        <td class="side">Nosusu ha bisogno di sei Libellule nottilucenti,[ST:n ]del Cotone Harnenga e due Magmango.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0041</td>
+        <td class="side">Nosusu odia fare di fretta, ma se [ST:Gender p1=amico p2=amica ] non si[ST:n ]muove, negozio per vendere cappelli scompare![ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0073</td>
+        <td class="side">Vendite va sempre malissimo. Se Nosusu[ST:n ]non ha prodotto che tutti vuole, tra poco[ST:n ]c&#39;&#232; gran patatrac.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0074</td>
+        <td class="side">Trovati materiali per cappello Nopon?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0042</td>
+        <td class="side">Tutti trovati! Ora Nosusu ha solo bisogno di[ST:n ]due Piume vivaci o due Ciuffi soffici.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0070</td>
+        <td class="side">Tirati indietro</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0071</td>
+        <td class="side">Mostra sorpresa per l&#39;ulteriore richiesta di materiali.</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev040701_JNK0080</td>
+        <td class="side">Fai spallucce</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev040701_SEL0081</td>
+        <td class="side">Accetta riluttante ad aiutarla di nuovo.</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0043</td>
+        <td class="side">A Nosusu dispiace! Ma quello che tu portato[ST:n ]fino a ora, &#232; solo materiale grezzo.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0044</td>
+        <td class="side">Senza Piume vivaci o Ciuffi soffici, cappello[ST:n ]&#232; obbrobrio spaventoso della moda.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0045</td>
+        <td class="side">Fai a Nosusu ultimo favore.[ST:n ]Destino di negozio &#232; in bilico![ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0046</td>
+        <td class="side">Nosusu apprezza tua superpazienza.[ST:n ]Ma quello che tu portato fino a ora,[ST:n ]&#232; solo materiale grezzo.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0047</td>
+        <td class="side">Senza Piume vivaci o Ciuffi soffici, cappello[ST:n ]&#232; obbrobrio spaventoso della moda.[ST:wait ]</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0048</td>
+        <td class="side">Fai a Nosusu ultimo favore.[ST:n ]Destino di negozio &#232; in bilico![ST:wait ]</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0049</td>
+        <td class="side">Oh oh ohhh! Adesso Nosusu ti[ST:n ]insegna come si fanno cappelli.[ST:wait ]</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0050</td>
+        <td class="side">Con Piume vivaci, Nosusu pu&#242; fare[ST:n ]cappello rosso brillante! Stilosissimo![ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0051</td>
+        <td class="side">Ma se Nosusu usa Ciuffi soffici, fa cappellino[ST:n ]piccolino. Adorabile! Carinissimo![ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0052</td>
+        <td class="side">Nosusu chiede ad [ST:Gender p1=amico p2=amica ] di scegliere[ST:n ]quello che piace di pi&#249; a umani.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0053</td>
+        <td class="side">Nosusu ha completa fiducia in tuo parere.[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0054</td>
+        <td class="side">Nosusu ha bisogno di due Piume vivaci[ST:n ]o di due Ciuffi soffici. Uno o l&#39;altro.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0075</td>
+        <td class="side">Ah, [ST:Gender p1=amico p2=amica ] &#232; qui! Che bel giorno![ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0055</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] ha trovato Piume vivaci o Ciuffi soffici?[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0056</td>
+        <td class="side">Evvai! Nosusu ora pu&#242; fare cappello rosso sciccoso![ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0057</td>
+        <td class="side">Nosusu spera di continuare a espandere suo[ST:n ]catalogo, finch&#233; negozio non sar&#224; in attivo.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0058</td>
+        <td class="side">Dall&#39;aldil&#224;, nonninopon di amicopon di[ST:n ]cuginopon di nonninopon di nonninapon[ST:n ]&#232; sicuramente felice per Nosusu.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0059</td>
+        <td class="side">Umani qualche volta mettono cappelli come questo.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0060</td>
+        <td class="side">Nosusu sa tutto. Si chiama... cappello di Babbo Natale![ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0061</td>
+        <td class="side">Ora Nosusu inizia a fare pubblicit&#224;[ST:n ]per nuovi cappelli di Babbo Nopon.[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0062</td>
+        <td class="side">Evvai! Nosusu ora pu&#242; fare piccoli berretti carini.[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0063</td>
+        <td class="side">Nosusu spera di continuare a espandere suo[ST:n ]catalogo, finch&#233; negozio non sar&#224; in attivo.[ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0064</td>
+        <td class="side">Dall&#39;aldil&#224;, nonninopon di amicopon di[ST:n ]cuginopon di nonninopon di nonninapon[ST:n ]&#232; sicuramente felice per Nosusu.[ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0065</td>
+        <td class="side">Umani qualche volta mettono cappelli come questo.[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0066</td>
+        <td class="side">Nosusu sa tutto. Si chiama... berretto pompon![ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev040701_MSG0067</td>
+        <td class="side">Ora Nosusu inizia a fare pubblicit&#224;[ST:n ]per nuovi berretti pompon Nopon![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

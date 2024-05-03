@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050606_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0001</td>
+        <td class="side">[ST:playername ] ! La projex reine est l&#224; ![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0002</td>
+        <td class="side">Ha ! Se battre comme vous l&#39;aviez sugg&#233;r&#233; l&#39;a fait fuir[ST:n ]en un rien de temps ! Vous &#234;tes vraiment [ST:Gender p1=un guerrier p2=une guerri&#232;re ][ST:n ]d&#39;exception.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0003</td>
+        <td class="side">Venez. Nous allons l&#39;acculer au crat&#232;re du mont[ST:n ]M&#39;gando et terminer tout cela pour de bon.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0004</td>
+        <td class="side">Nous allons venger la mort de notre m&#232;re[ST:n ]et de notre p&#232;re.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0005</td>
+        <td class="side">La projex reine est ici ! Mais elle... Elle...[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0006</td>
+        <td class="side">Elle a d&#233;vor&#233; Da Naguth et Da Zeulbe ! Ils sont morts ![ST:n ]Mes deux fr&#232;res sont morts ![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0007</td>
+        <td class="side">Nous avons combattu exactement comme vous nous[ST:n ]l&#39;avez dit mais cela n&#39;a pas fonctionn&#233;... Rien n&#39;a[ST:n ]fonctionn&#233; ! Qu&#39;avons-nous fait de travers ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050606_JNK0010</td>
+        <td class="side">Reconna&#238;tre</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050606_SEL0011</td>
+        <td class="side">Admettre que vous avez peut-&#234;tre fait une erreur.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050606_JNK0020</td>
+        <td class="side">Nier</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050606_SEL0021</td>
+        <td class="side">Vous en tenir aux conseils que vous avez donn&#233;s.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0008</td>
+        <td class="side">Ce n&#39;est point votre faute... Nous avons eu tort de vous[ST:n ]croire sans nous poser de question.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0009</td>
+        <td class="side">Enfer et damnation ! Pourquoi avons-nous cru[ST:n ]les paroles [ST:Gender p1=d&#39;un &#233;tranger p2=d&#39;une &#233;trang&#232;re ] ?![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0010</td>
+        <td class="side">Alors pourquoi cela s&#39;est-il pass&#233; ainsi, bon sang ?![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0011</td>
+        <td class="side">Rien de ce que nous avons fait ne l&#39;a ne serait-ce que[ST:n ]fait vaciller. Elle continuait &#224; attaquer. Elle...[ST:n ]a d&#233;chiquet&#233; les Skells de mes fr&#232;res.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0012</td>
+        <td class="side">Aaah ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0013</td>
+        <td class="side">Elle revient ! Je la coincerai au crat&#232;re[ST:n ]du mont M&#39;gando ![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0014</td>
+        <td class="side">L&#39;attirer l&#224;-bas sera peut-&#234;tre la seule chose[ST:n ]que je pourrai faire. Si c&#39;est le cas, vous devrez[ST:n ]vous occuper du reste.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev050606_MSG0015</td>
+        <td class="side">S&#39;il vous pla&#238;t, humain. Cette chose m&#39;a tout vol&#233;.[ST:n ]Arrachez-lui membre apr&#232;s membre, brisez son cr&#226;ne[ST:n ]sous vos pieds et dansez sur son cadavre ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

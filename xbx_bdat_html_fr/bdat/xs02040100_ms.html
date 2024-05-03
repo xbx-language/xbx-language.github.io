@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>xs02040100_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0001</td>
+        <td class="side">O.K., la sonde est pr&#234;te &#224; &#234;tre install&#233;e.[ST:n ]Je vais l&#39;activer.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0002</td>
+        <td class="side">Merci, Lin.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0003</td>
+        <td class="side">La sonde &#224; proprement parler se trouve dans[ST:n ]la partie sup&#233;rieure du cylindre.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0004</td>
+        <td class="side">La partie inf&#233;rieure abrite un laser qui dissout la terre[ST:n ]pour enterrer la sonde &#224; la bonne profondeur.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0005</td>
+        <td class="side">Au d&#233;but, on les installait &#224; la surface, mais on avait un tas[ST:n ]de probl&#232;mes avec la faune locale qui d&#233;t&#233;riorait le mat&#233;riel.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0006</td>
+        <td class="side">Les enterrer va nous faire gagner un temps fou[ST:n ]et nous &#233;viter plein d&#39;emb&#234;tements &#224; l&#39;avenir.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0007</td>
+        <td class="side">C&#39;est pr&#234;t ?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0008</td>
+        <td class="side">Oui, Chef. Quand vous voulez.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0009</td>
+        <td class="side">Et si tu t&#39;en occupais, toi ? Tu peux lancer[ST:n ]l&#39;installation depuis ton terminal. Vas-y, essaie.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>xs02040100_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>xs02040100_SEL0011</td>
+        <td class="side">Lancer l&#39;installation de la sonde.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>xs02040100_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>xs02040100_SEL0021</td>
+        <td class="side">Proposer que ce soit Lin qui installe la sonde.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0010</td>
+        <td class="side">Quoi ? Tu veux que je le fasse ?![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0011</td>
+        <td class="side">Allons, allons. Y&#39;a rien de compliqu&#233;,[ST:n ]fais-moi confiance. C&#39;est fastoche.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0012</td>
+        <td class="side">Et puis, je te rappelle que c&#39;est cens&#233; &#234;tre[ST:n ]ta mission d&#39;entra&#238;nement ![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>xs02040100_JNK0026</td>
+        <td class="side">Acquiescer</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>xs02040100_SEL0027</td>
+        <td class="side">Hocher la t&#234;te et lancer la sonde.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>xs02040100_JNK0028</td>
+        <td class="side">Contester</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>xs02040100_SEL0022</td>
+        <td class="side">Rappeler &#224; Elma que vous n&#39;avez jamais fait cela avant.</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0013</td>
+        <td class="side">On est l&#224; pour &#231;a. D&#39;autres premi&#232;res fois t&#39;attendent au cours[ST:n ]de ta formation d&#39;agent du BLADE. Il faudra t&#39;y faire ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>xs02040100_JNK0030</td>
+        <td class="side">Vous lancer</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>xs02040100_SEL0031</td>
+        <td class="side">Ignorer vos craintes et lancer la sonde.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>xs02040100_JNK0032</td>
+        <td class="side">Prendre les devants</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>xs02040100_SEL0033</td>
+        <td class="side">Montrer ce que vous valez et lancer la sonde.</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0014</td>
+        <td class="side">Parfait, maintenant on n&#39;a plus qu&#39;&#224; attendre un[ST:n ]peu que la sonde atteigne la bonne profondeur.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0015</td>
+        <td class="side">Eeet l&#39;installation est termin&#233;e.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0016</td>
+        <td class="side">&#199;a y est, on est en ligne. La connexion[ST:n ]avec FrontierNav est stable.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0017</td>
+        <td class="side">Parfait. Tu vois ? Ce n&#39;est pas bien sorcier.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0018</td>
+        <td class="side">Le plus compliqu&#233; &#233;tait de calculer l&#39;emplacement id&#233;al[ST:n ]des sondes pour maximiser la collecte de donn&#233;es.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0019</td>
+        <td class="side">Ouaip, l&#39;installation de sondes, c&#39;est fastoche.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0020</td>
+        <td class="side">Et plus on en installe, plus on a de chances[ST:n ]de retrouver des membres d&#39;&#233;quipage.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0021</td>
+        <td class="side">Donc si tu trouves un emplacement pour sonde,[ST:n ]tu n&#39;as aucune raison de ne pas t&#39;en servir.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>xs02040100_MSG0026</td>
+        <td class="side">Bien, l&#39;entra&#238;nement a assez dur&#233;. Rentrons &#224; la[ST:n ]caserne et allons voir le ministre Nagi.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev045801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev045801_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Heptana por el modo de vida prone.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev045801_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Heptana si hay alguna novedad.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0010</td>
+        <td class="side">tev045801_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev045801_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Heptana por los ind&#237;genas de Cauldros.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0020</td>
+        <td class="side">tev045801_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev045801_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Heptana si hay alguna novedad.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0010</td>
+        <td class="side">tev045801_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev045801_SEL2011</td>
+        <td class="side">Preg&#250;ntale a Heptana por los ind&#237;genas de Cauldros.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0020</td>
+        <td class="side">tev045801_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev045801_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Heptana si hay alguna novedad.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0010</td>
+        <td class="side">tev045801_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev045801_SEL3011</td>
+        <td class="side">Preg&#250;ntale a Heptana por los ind&#237;genas de Cauldros.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev045801_JNK0020</td>
+        <td class="side">tev045801_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev045801_SEL3021</td>
+        <td class="side">Preg&#250;ntale a Heptana si hay alguna novedad.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0001</td>
+        <td class="side">Vosotros, alien&#237;genas terrestres, hac&#233;is[ST:n ]vuestra comida en planta de producci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0002</td>
+        <td class="side">Pero prones, no. Solo cazamos bestias salvajes.[ST:n ]Cazamos con nuestras propias manos.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0003</td>
+        <td class="side">Machos aprenden a cazar cuando son adultos.[ST:n ]Hembras aprenden a controlar bestias.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0004</td>
+        <td class="side">Pero hay excepciones. Como yo.[ST:n ]Crec&#237; cazando con mis hermanos.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0005</td>
+        <td class="side">Pero cuando se trata de vivir de tierra,[ST:n ]&#161;soy aut&#233;ntica prone![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0010</td>
+        <td class="side">Mayor&#237;a de prones machos son[ST:n ]guerreros valerosos. Pero otros no.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0011</td>
+        <td class="side">Nemard, por ejemplo. Durante cautiverio ganglion,[ST:n ]estuvimos en misma celda.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0012</td>
+        <td class="side">Nemard perdi&#243; esperanza. No puede cazar[ST:n ]para salvar vida. &#161;Apenas es prone![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0013</td>
+        <td class="side">Tiene suerte de que yo ayudo.[ST:n ]Si no, no s&#233; qu&#233; har&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0014</td>
+        <td class="side">Creo que no mat&#243; bestia ninguna desde que estamos[ST:n ]aqu&#237;. Seguro que est&#225; muerto de hambre.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev045801_MSG0015</td>
+        <td class="side">As&#237; que le har&#233; favor y cazar&#233; l&#243;fid diab&#243;lico[ST:n ]para que coma. Solo esta vez.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1001</td>
+        <td class="side">Busqu&#233; consejo sobre Cauldros.[ST:n ]Nemard y yo iremos all&#237; pronto.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1002</td>
+        <td class="side">Parece que Cauldros es fascinante.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1003</td>
+        <td class="side">Por ejemplo, tiene enorme pez llamado balaena.[ST:n ]Si destruyes bigotes, a veces puedes obtener[ST:n ]bigote de arco&#237;ris de suerte.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1004</td>
+        <td class="side">Leyenda dice que pareja que lleva bigote de arco&#237;ris[ST:n ]de la suerte puesto pasar&#225; su vida juntos.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1005</td>
+        <td class="side">As&#237; que cazar&#233; balaenas y aseguro futuro[ST:n ]de Nemard y m&#237;o. &#161;Mato dos bigotes de tiro! &#161;Ja, ja![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1010</td>
+        <td class="side">Habilidad para cazar de Nemard[ST:n ]mejora a pasos agigantados.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1011</td>
+        <td class="side">Ahora tenemos m&#225;s carne de la que podemos comer.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1012</td>
+        <td class="side">Quiz&#225; deber&#237;amos pensar en tener[ST:n ]peque&#241;as bocas que alimentar.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev045801_MSG1013</td>
+        <td class="side">&#161;S&#237;! &#161;Nemard y yo debemos formar gran familia![ST:n ]&#161;Para orgullo de prones![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2001</td>
+        <td class="side">Por fin tengo distracci&#243;n menos.[ST:n ]Ya puedo concentrarme en cazar.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2002</td>
+        <td class="side">Parece que Cauldros tiene bestias interesantes.[ST:n ]Merece pena explorar.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2003</td>
+        <td class="side">Por ejemplo, tiene enorme pez llamado balaena.[ST:n ]Si destruyes bigotes, a veces puedes obtener[ST:n ]bigote de arco&#237;ris de suerte.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2004</td>
+        <td class="side">&#161;Ese material puede venderse por mucho dinero![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2005</td>
+        <td class="side">Deber&#237;as ir a Cauldros. Caza todo lo que quieras.[ST:n ]Haz peque&#241;a fortuna. &#161;O grande![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2010</td>
+        <td class="side">Chica indefensa como Enneana es buena para ayudar[ST:n ]a chico indefenso como Nemard. Deseo de protegerla[ST:n ]lo convertir&#225; en verdadero prone.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2011</td>
+        <td class="side">Quer&#237;a estar con &#233;l. Pero &#191;qu&#233; puedo decir?[ST:n ]Est&#225;n hechos uno para otro.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2012</td>
+        <td class="side">Dejemos vivir felices y est&#250;pidas vidas. Es mejor as&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev045801_MSG2013</td>
+        <td class="side">Ahora vivo para cazar. &#161;Sin pareja que me lo impida![ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3001</td>
+        <td class="side">O&#237; que en ese continente hay[ST:n ]monstruos que ni te imaginar&#237;as.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3002</td>
+        <td class="side">Como gigantes llamados gularth en piscinas de lava.[ST:n ]&#161;Tan grandes que te pueden aplastar de pisot&#243;n![ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3003</td>
+        <td class="side">Y bestia llamada tersqual sopla fuego abrasador.[ST:n ]Alrededores est&#225;n chamuscados como salchichas[ST:n ]en barbacoa.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3004</td>
+        <td class="side">No puedo ir a lugares as&#237; ahora que tengo familia...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3005</td>
+        <td class="side">T&#250; tampoco deber&#237;as aventurarte en lugar as&#237;[ST:n ]sin estar [ST:Gender p1=preparado p2=preparada ]. Muchos podr&#237;an llorar tu muerte.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3010</td>
+        <td class="side">&#161;Nemard y yo formaremos familia tan grande[ST:n ]como para impresionar a Anciano Belgazus! &#161;Ja![ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3011</td>
+        <td class="side">Pero gran familia necesita mucha carne.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev045801_MSG3012</td>
+        <td class="side">No hay tiempo para lamentos.[ST:n ]Debemos seguir cazando. Matar bestias.[ST:n ]&#161;Es &#250;nica forma de asegurar futuro![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

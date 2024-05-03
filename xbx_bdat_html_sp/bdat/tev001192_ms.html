@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001192_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0001</td>
+        <td class="side">&#191;C&#243;mo? &#191;Que qu&#233; hago?[ST:n ]Estoy jugando con este gato, &#191;no lo ves?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0002</td>
+        <td class="side">&#191;No te parezco una amante de los animales?[ST:n ]Pues, aunque te parezca mentira, en la Tierra[ST:n ]ten&#237;a una siamesa.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0003</td>
+        <td class="side">En mis ratos libres, me sentaba a disfrutar[ST:n ]de un buen libro y ella se acurrucaba en mi regazo[ST:n ]y me dejaba acariciarle la barbilla.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0004</td>
+        <td class="side">Hacerle caricias a los gatos me recuerda[ST:n ]a la Tierra. &#191;Y a ti?[ST:n ]&#191;Te recuerdan a algo los animales?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0010</td>
+        <td class="side">Asentir</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0011</td>
+        <td class="side">Dile que algo te dice que en la Tierra[ST:n ]ten&#237;as una mascota.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0020</td>
+        <td class="side">Negar con la cabeza</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0021</td>
+        <td class="side">Confi&#233;sale que no te trae ning&#250;n recuerdo especial.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0005</td>
+        <td class="side">&#161;Ay! Te brillan los ojos cuando hablas de mascotas.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0006</td>
+        <td class="side">Es una reacci&#243;n muy fuerte[ST:n ]para ser un recuerdo olvidado...[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0007</td>
+        <td class="side">Podr&#237;a significar que est&#225;s empezando[ST:n ]a recuperar la memoria, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0008</td>
+        <td class="side">Mmm... &#191;Crees que los animales podr&#237;an ser[ST:n ]el detonante que te ayude a recuperar[ST:n ]el resto de recuerdos?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0009</td>
+        <td class="side">Vaya... A ver, es normal. Perdiste todos tus recuerdos[ST:n ]cuando nos estrellamos.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0010</td>
+        <td class="side">Supongo que es posible que tuvieras mascotas[ST:n ]y que no seas capaz de recordarlo, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0011</td>
+        <td class="side">En ese caso, los animales podr&#237;an ser una especie de[ST:n ]detonante que te ayude a recuperar tus recuerdos.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0012</td>
+        <td class="side">&#191;Puedo hacerte otra pregunta?[ST:n ]Solo por curiosidad...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0013</td>
+        <td class="side">&#191;T&#250; qu&#233; preferir&#237;as tener como mascota?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0030</td>
+        <td class="side">Un gato</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0031</td>
+        <td class="side">Dile que prefieres los gatos.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0040</td>
+        <td class="side">Un perro</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0041</td>
+        <td class="side">Dile que prefieres los perros.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001192_JNK0050</td>
+        <td class="side">A Elma</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001192_SEL0051</td>
+        <td class="side">Dile que prefieres a Elma.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0014</td>
+        <td class="side">Entonces ya tenemos algo en com&#250;n.[ST:n ]Son caprichosos por naturaleza, lo que hace que[ST:n ]parezcan el prototipo de criatura terrestre. Me gusta.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0015</td>
+        <td class="side">&#191;Te acuerdas de la siamesa de la que te he hablado?[ST:n ]Ten&#237;a sus d&#237;as buenos, pero en los malos,[ST:n ]ara&#241;aba todo lo que estaba a su alcance.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0016</td>
+        <td class="side">Cuando se le cruzaban los cables, creo[ST:n ]que era m&#225;s peligrosa que cualquier especie ind&#237;gena[ST:n ]de Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0017</td>
+        <td class="side">Pero... esa es una de las razones[ST:n ]por las que la quer&#237;a tanto.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0018</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0019</td>
+        <td class="side">Ay, lo siento. Solo quer&#237;a ayudarte a recuperar[ST:n ]tus recuerdos y he acabado acord&#225;ndome de mi gata.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0020</td>
+        <td class="side">Bueno, aun as&#237; me ha gustado hablar contigo.[ST:n ]Vuelve en otra ocasi&#243;n y lo repetimos, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0021</td>
+        <td class="side">No me pilla de sorpresa. Siempre he visto en ti[ST:n ]cualidades propias de los perros.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0022</td>
+        <td class="side">Ay, perd&#243;n. &#161;No te enfades! S&#233; que suena raro,[ST:n ]pero era un halago. Como l&#237;der de equipo,[ST:n ]agradezco que... obedezcas con esa amabilidad.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0023</td>
+        <td class="side">Espero poder seguir contando con que ayudes[ST:n ]lealmente a nuestro equipo y vengas a rescatarnos[ST:n ]cuando lo necesitemos.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0024</td>
+        <td class="side">Vaya respuesta... Sabes que no soy una mascota,[ST:n ]&#191;verdad? Entonces, &#191;eso a qu&#233; viene?[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0025</td>
+        <td class="side">Puede que sea otro s&#237;ntoma del da&#241;o que[ST:n ]tu mimeosoma sufri&#243; al estrellarnos.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0026</td>
+        <td class="side">Te concertar&#233; una cita en el centro de mantenimiento[ST:n ]de mimeosomas. Pedir&#233; que te desmonten y analicen[ST:n ]tus componentes.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev001192_MSG0027</td>
+        <td class="side">Ah, no te preocupes. Es un procedimiento rutinario[ST:n ]en caso de da&#241;os mentales graves. Me asegurar&#233;[ST:n ]personalmente de que te vac&#237;en el cr&#225;neo con cuidado.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

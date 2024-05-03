@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev011401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0001</td>
+        <td class="side">Und ein weiterer Tag f&#252;r die Katz...[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0002</td>
+        <td class="side">Dann werfe ich doch gleich mal einen Blick auf meinen[ST:n ]Zeitplan... Hmm... Das wird doch nie im Leben[ST:n ]rechtzeitig fertig! Seufz...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0003</td>
+        <td class="side">Und wenn ich den Auftrag vermassele, vertraut mir[ST:n ]doch nie wieder jemand einen an. Oh, ich bin so[ST:n ]derma&#223;en am Ende. Das war’s wohl.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0004</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0005</td>
+        <td class="side">Oh! Hallo, [ST:playername ]...[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0006</td>
+        <td class="side">Danke noch mal f&#252;r deine Hilfe neulich.[ST:n ]Mein Skell l&#228;uft wieder so gut wie neu.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0007</td>
+        <td class="side">Ich schaue gerade nach, wie viel Zeit mir noch f&#252;r[ST:n ]meine Missionen bleibt und... na ja... sagen wir[ST:n ]mal, es sieht nicht gut aus.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0008</td>
+        <td class="side">Jetzt mach ich mir Gedanken dar&#252;ber, wie ich das alles[ST:n ]zeitlich auf die Reihe kriegen soll.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0010</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0011</td>
+        <td class="side">Frage May nach ihren aktuellen Missionen.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0020</td>
+        <td class="side">Helfen</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0021</td>
+        <td class="side">Biete May Hilfe bei ihren aktuellen Missionen an.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0009</td>
+        <td class="side">Hmm, mal sehen...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0010</td>
+        <td class="side">Ich soll ein paar W&#252;nschelr&#252;teriche besorgen...[ST:n ]und zwei Aprica-Rotholzgeweihe.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0011</td>
+        <td class="side">Au&#223;erdem brauche ich zwei Schwarze Evello-Eier...[ST:n ]Ich hasse diese V&#246;gel, aber kann es ja auch nicht[ST:n ]&#228;ndern.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0012</td>
+        <td class="side">Und schlie&#223;lich soll ich noch 80 Engelssteine sammeln.[ST:n ]Achtzig! Hahaha...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0013</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0014</td>
+        <td class="side">Aber ich habe sie angenommen, also muss ich ihnen[ST:n ]jetzt auch nachkommen.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0015</td>
+        <td class="side">Irgendwie werde ich das schon alles schaffen.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0016</td>
+        <td class="side">Danke jedenfalls, dass du dir erneut die Zeit[ST:n ]genommen hast, mit mir zu reden. Das hat mir wirklich[ST:n ]den Tag gerettet.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0017</td>
+        <td class="side">Oh nein! Das kann ich nicht annehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0018</td>
+        <td class="side">Hm? Wir BLADEs sind ein Team und in einem Team[ST:n ]hilft man einander?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0019</td>
+        <td class="side">Wow, ich... Das ist echt freundlich von dir.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0020</td>
+        <td class="side">Ich komme mir wie ein Unmensch vor, wenn ich dich[ST:n ]das frage, aber... k&#246;nnte ich dich noch einmal um[ST:n ]Hilfe bitten?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0021</td>
+        <td class="side">Also, ich habe den Auftrag, ein paar W&#252;nschelr&#252;teriche[ST:n ]und zwei Aprica-Rotholzgeweihe zu besorgen...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0022</td>
+        <td class="side">Au&#223;erdem eine besonders schwierige, bei der ich[ST:n ]insgesamt 80 Engelssteine finden soll...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0023</td>
+        <td class="side">Und dann noch eine dritte, f&#252;r die ich zwei Schwarze[ST:n ]Evello-Eier ben&#246;tige. Wie man es auch dreht und[ST:n ]wendet: Allein wird das schwer zu schaffen sein.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0024</td>
+        <td class="side">&#196;hm... w&#252;rdest du mir also vielleicht die Schwarzen[ST:n ]Evello-Eier besorgen? Und dann entweder die [ST:n ]Aprica-Rotholzgeweihe oder die W&#252;nschelr&#252;teriche?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0025</td>
+        <td class="side">Wenn du das f&#252;r mich &#252;bernimmst, schw&#246;re ich, dass[ST:n ]ich den Rest allein erledige.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0110</td>
+        <td class="side">Aprica-Rotholzgeweihe</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0111</td>
+        <td class="side">Biete May an, die zwei Rotholz-Aprica-Geweihe[ST:n ]zu besorgen.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0120</td>
+        <td class="side">W&#252;nschelr&#252;teriche</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0121</td>
+        <td class="side">Biete May an, die zwei W&#252;nschelr&#252;teriche zu suchen.</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0130</td>
+        <td class="side">80 Engelssteine</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0131</td>
+        <td class="side">Biete May an, alle Engelssteine zu besorgen.</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0026</td>
+        <td class="side">Vielen Dank![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0027</td>
+        <td class="side">Ich &#252;berlasse dir also die zwei Schwarzen Evello-Eier[ST:n ]und die zwei Aprica-Rotholzgeweihe.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0028</td>
+        <td class="side">Ich k&#252;mmere mich derweil um diese Engelssteine. Um[ST:n ]alle 80 Steine. Ich schaff das schon... irgendwie.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0029</td>
+        <td class="side">Vielen lieben Dank![ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0030</td>
+        <td class="side">Ich &#252;berlasse dir also die zwei Schwarzen Evello-Eier[ST:n ]und die zwei W&#252;nschelr&#252;teriche.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0031</td>
+        <td class="side">Ich k&#252;mmere mich derweil um diese Engelssteine. Um[ST:n ]alle 80 Steine. Ich schaff das schon... irgendwie.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0032</td>
+        <td class="side">Was? Oh, nein! Auf keinen Fall! Das w&#228;re viel zu[ST:n ]viel! So viel Arbeit kann ich dir unm&#246;glich ohne ein[ST:n ]viel zu gro&#223;es schlechtes Gewissen aufb&#252;rden.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0033</td>
+        <td class="side">Ich werde diese Engelssteine selbst auftreiben, und wenn[ST:n ]es das Letzte ist, was ich tue! Bei dem anderen Zeug[ST:n ]kannst du mir aber gerne helfen.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0034</td>
+        <td class="side">Vielleicht bei den beiden Schwarzen Evello-Eiern...[ST:n ]und den zwei W&#252;nschelr&#252;terichen?[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0035</td>
+        <td class="side">Bei so viel Hilfsbereitschaft bleibt mir glatt die Luft weg.[ST:n ]Vielen Dank.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0036</td>
+        <td class="side">Dann &#252;berlasse ich dir die zwei Schwarzen Evello-Eier[ST:n ]und die zwei Aprica-Rotholzgeweihe.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0037</td>
+        <td class="side">Ich k&#252;mmere mich derzeit um die anderen Teile, damit[ST:n ]deine Hilfe nicht umsonst gewesen ist.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0038</td>
+        <td class="side">Wie l&#228;uft die Suche?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0039</td>
+        <td class="side">Bei mir l&#228;uft es erstaunlich gut! Ich hab unten bei der[ST:n ]K&#252;ste einen Blick in eine H&#246;hle geworfen...[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0040</td>
+        <td class="side">Und dort hab ich 75 Engelssteine gefunden! Nicht[ST:n ]schlecht, was?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0210</td>
+        <td class="side">Schweigen</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0211</td>
+        <td class="side">Staune &#252;ber Mays unglaubliches Gl&#252;ck.</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0220</td>
+        <td class="side">Anzweifeln</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0221</td>
+        <td class="side">Zweifele Mays Geschichte an.</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0041</td>
+        <td class="side">Jetzt mal ehrlich, so verr&#252;ckt ist das doch gar nicht.[ST:n ]Solche Dinge passieren doch jedem mal, oder? ...Nicht?[ST:n ]So was passiert nur mir?[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0042</td>
+        <td class="side">Du denkst, ich habe das erfunden? Warum sollte ich[ST:n ]mir so etwas ausdenken?[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0043</td>
+        <td class="side">So was passiert mir st&#228;ndig. Das war schon immer so.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0044</td>
+        <td class="side">In der dritten Klasse, damals auf der Erde, hab ich auf[ST:n ]dem Heimweg von der Schule mal einen Rucksack[ST:n ]mit 10.000 Dollar gefunden![ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0045</td>
+        <td class="side">Daf&#252;r bin ich ins Fernsehen gekommen. Die Geschichte[ST:n ]war mir aber eigentlich ziemlich peinlich...[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0047</td>
+        <td class="side">&#196;hm, tut mir leid. Wir haben eine Mission zu erledigen.[ST:n ]Konzentrier dich, May! Konzentration![ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0048</td>
+        <td class="side">Also, wie steht es um die zwei Schwarzen Evello-Eier[ST:n ]und die zwei Aprica-Rotholzgeweihe,[ST:n ][ST:playername ]?[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0049</td>
+        <td class="side">Was? Echt? Wow! Wie peinlich f&#252;r mich...[ST:n ]Ich habe noch nicht alle Engelssteine beisammen...[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0050</td>
+        <td class="side">Und die zwei W&#252;nschelr&#252;teriche hab ich auch[ST:n ]noch nicht gefunden.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0051</td>
+        <td class="side">Ich bin echt zu nichts zu gebrauchen. Ich lass dich[ST:n ]gerade total im Stich.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0310</td>
+        <td class="side">Helfen</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0311</td>
+        <td class="side">Biete ihr an, den Rest der ben&#246;tigten Gegenst&#228;nde zu[ST:n ]besorgen.</td>
+      </tr>
+      <tr id="67">
+        <td>67</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0320</td>
+        <td class="side">Schimpfen</td>
+      </tr>
+      <tr id="68">
+        <td>68</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0321</td>
+        <td class="side">Sag May, sie soll aufh&#246;ren, in Selbstmitleid zu[ST:n ]versinken.</td>
+      </tr>
+      <tr id="69">
+        <td>69</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0052</td>
+        <td class="side">Oh, nein. Das kann ich unm&#246;glich von dir verlangen.[ST:wait ]</td>
+      </tr>
+      <tr id="70">
+        <td>70</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0053</td>
+        <td class="side">Hey, warte mal... Ich bin &#252;berhaupt erst in diese[ST:n ]missliche Lage geraten, weil ich alles allein machen[ST:n ]wollte, richtig?[ST:wait ]</td>
+      </tr>
+      <tr id="71">
+        <td>71</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0054</td>
+        <td class="side">Ich wei&#223;, ich wei&#223;... Wir BLADEs sind ein Team und[ST:n ]wir sollten einander helfen... Ich hab’s ja verstanden.[ST:wait ]</td>
+      </tr>
+      <tr id="72">
+        <td>72</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0055</td>
+        <td class="side">...[ST:wait ]</td>
+      </tr>
+      <tr id="73">
+        <td>73</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0056</td>
+        <td class="side">Danke, dass du mir den Kopf zurechtger&#252;ckt hast.[ST:wait ]</td>
+      </tr>
+      <tr id="74">
+        <td>74</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0057</td>
+        <td class="side">Ich glaube so langsam, mir fehlt es einfach an[ST:n ]Vertrauen. Vielleicht ist das der Grund, warum ich[ST:n ]bisher nicht so gut mit anderen zurechtgekommen bin.[ST:wait ]</td>
+      </tr>
+      <tr id="75">
+        <td>75</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0058</td>
+        <td class="side">Na gut. Vielleicht kann ich dich ja ein einziges Mal[ST:n ]noch um Hilfe bitten?[ST:wait ]</td>
+      </tr>
+      <tr id="76">
+        <td>76</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0059</td>
+        <td class="side">Ich besorge die restlichen Engelssteine. Koste es, was[ST:n ]es wolle.[ST:wait ]</td>
+      </tr>
+      <tr id="77">
+        <td>77</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0060</td>
+        <td class="side">Wenn du mir die zwei W&#252;nschelr&#252;teriche[ST:n ]besorgen k&#246;nntest, w&#228;re ich dir daf&#252;r sehr dankbar.[ST:wait ]</td>
+      </tr>
+      <tr id="78">
+        <td>78</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0061</td>
+        <td class="side">Das ist das erste Mal, dass ich mit jemandem[ST:n ]gemeinsam an einer Mission arbeite.[ST:wait ]</td>
+      </tr>
+      <tr id="79">
+        <td>79</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0062</td>
+        <td class="side">Ist schon lustig... Ich bin viel motivierter, meinen Teil[ST:n ]der Arbeit zu tun, als sonst.[ST:wait ]</td>
+      </tr>
+      <tr id="80">
+        <td>80</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0063</td>
+        <td class="side">Na gut, fassen wir also zusammen: Du besorgst die[ST:n ]W&#252;nschelr&#252;teriche, ich k&#252;mmere mich um die[ST:n ]Engelssteine... koste es, was es wolle![ST:wait ]</td>
+      </tr>
+      <tr id="81">
+        <td>81</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0064</td>
+        <td class="side">Hallo, [ST:playername ]! Wie geht, &#228;hm...[ST:n ]Wie geht die Suche voran?[ST:wait ]</td>
+      </tr>
+      <tr id="82">
+        <td>82</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0065</td>
+        <td class="side">Hast du die W&#252;nschelr&#252;teriche gefunden?[ST:wait ]</td>
+      </tr>
+      <tr id="83">
+        <td>83</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0066</td>
+        <td class="side">Juchhu![ST:wait ]</td>
+      </tr>
+      <tr id="84">
+        <td>84</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0067</td>
+        <td class="side">Sieh nur! Ich habe die restlichen Engelssteine ebenfalls[ST:n ]auftreiben k&#246;nnen! Wir haben es geschafft! Alle[ST:n ]Missionen sind abgeschlossen![ST:wait ]</td>
+      </tr>
+      <tr id="85">
+        <td>85</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0068</td>
+        <td class="side">Als mein Skell zerst&#246;rt wurde, dachte ich schon, das[ST:n ]w&#228;r’s f&#252;r mich gewesen...[ST:wait ]</td>
+      </tr>
+      <tr id="86">
+        <td>86</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0069</td>
+        <td class="side">Wer h&#228;tte gedacht, dass man so viel mehr erreichen[ST:n ]kann, wenn man einen Partner hat, auf den man sich[ST:n ]verlassen kann?[ST:wait ]</td>
+      </tr>
+      <tr id="87">
+        <td>87</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0070</td>
+        <td class="side">Ich habe immer allein gearbeitet, aber jetzt begreife[ST:n ]ich endlich, weshalb so viele lieber im Team arbeiten.[ST:wait ]</td>
+      </tr>
+      <tr id="88">
+        <td>88</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0410</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="89">
+        <td>89</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0411</td>
+        <td class="side">Stimme May zu, dass Teamwork sehr wichtig ist.</td>
+      </tr>
+      <tr id="90">
+        <td>90</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0420</td>
+        <td class="side">Widersprechen</td>
+      </tr>
+      <tr id="91">
+        <td>91</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0421</td>
+        <td class="side">Sage, dass du ja wohl die meiste Arbeit geleistet hast.</td>
+      </tr>
+      <tr id="92">
+        <td>92</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0071</td>
+        <td class="side">Ja, das hab ich jetzt endlich auch verstanden. Fr&#252;her[ST:n ]war selbst ein keiner Plausch mit den Kollegen aus[ST:n ]meiner Division unglaublich schwierig f&#252;r mich...[ST:wait ]</td>
+      </tr>
+      <tr id="93">
+        <td>93</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0072</td>
+        <td class="side">Ich denke aber, dass ich jetzt endlich dazu bereit bin,[ST:n ]richtig mit anderen im Team zu arbeiten.[ST:wait ]</td>
+      </tr>
+      <tr id="94">
+        <td>94</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0073</td>
+        <td class="side">Vielen Dank f&#252;r alles! Vielleicht k&#246;nnen wir ja bald mal[ST:n ]wieder zusammenarbeiten. Das f&#228;nde ich toll.[ST:wait ]</td>
+      </tr>
+      <tr id="95">
+        <td>95</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0074</td>
+        <td class="side">Waaas?[ST:wait ]</td>
+      </tr>
+      <tr id="96">
+        <td>96</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0075</td>
+        <td class="side">Ich meine, das stimmt irgendwie ja schon, aber...[ST:n ]Musst du denn unbedingt so direkt sein?[ST:wait ]</td>
+      </tr>
+      <tr id="97">
+        <td>97</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0076</td>
+        <td class="side">Mit so was hab ich nun wirklich nicht gerechnet.[ST:wait ]</td>
+      </tr>
+      <tr id="98">
+        <td>98</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0077</td>
+        <td class="side">&#196;hm... Also gut. Soll das hei&#223;en, du findest, ich[ST:n ]soll weiter allein arbeiten?[ST:wait ]</td>
+      </tr>
+      <tr id="99">
+        <td>99</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0510</td>
+        <td class="side">Best&#228;tigen</td>
+      </tr>
+      <tr id="100">
+        <td>100</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0511</td>
+        <td class="side">Erkl&#228;re May, dass sie sich einfach weiter auf ihr[ST:n ]au&#223;ergew&#246;hnliches Gl&#252;ck verlassen soll.</td>
+      </tr>
+      <tr id="101">
+        <td>101</td>
+        <td>
+        </td>
+        <td>qev011401_JNK0520</td>
+        <td class="side">&#196;ndern</td>
+      </tr>
+      <tr id="102">
+        <td>102</td>
+        <td>
+        </td>
+        <td>qev011401_SEL0521</td>
+        <td class="side">Gib zu, dass du Teamwork besser findest.</td>
+      </tr>
+      <tr id="103">
+        <td>103</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0078</td>
+        <td class="side">Habe ich wirklich so viel Gl&#252;ck? Ich habe immer[ST:n ]gedacht, so was sei normal...[ST:wait ]</td>
+      </tr>
+      <tr id="104">
+        <td>104</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0079</td>
+        <td class="side">Ich muss gestehen, ich arbeite lieber allein. Au&#223;erdem[ST:n ]falle ich dann Leuten wie dir nicht so sehr zur Last.[ST:wait ]</td>
+      </tr>
+      <tr id="105">
+        <td>105</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0080</td>
+        <td class="side">Okay, dann versuche ich weiter allein mein Gl&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="106">
+        <td>106</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0081</td>
+        <td class="side">Aber, &#228;h... Sollten wir uns noch mal begegnen, hoffe[ST:n ]ich, dass wir uns wenigstens wieder ein bisschen[ST:n ]unterhalten k&#246;nnen. Okay?[ST:wait ]</td>
+      </tr>
+      <tr id="107">
+        <td>107</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0082</td>
+        <td class="side">Nicht wahr? Haha! Ja, die Zusammenarbeit mit[ST:n ]dir hat mir gezeigt, wie viel mehr man erreichen kann,[ST:n ]wenn man im Team arbeitet.[ST:wait ]</td>
+      </tr>
+      <tr id="108">
+        <td>108</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0083</td>
+        <td class="side">Ich denke, es ist an der Zeit, dass ich mir ein paar[ST:n ]Kollegen anlache.[ST:wait ]</td>
+      </tr>
+      <tr id="109">
+        <td>109</td>
+        <td>
+        </td>
+        <td>qev011401_MSG0084</td>
+        <td class="side">Vielen Dank noch mal f&#252;r alles! Ich w&#252;rde mich freuen,[ST:n ]auch in Zukunft wieder mit dir zusammenarbeiten zu[ST:n ]d&#252;rfen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0001</td>
+        <td class="side">Mmmh... Male. Moltissimissimo male.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0002</td>
+        <td class="side">Eh? [ST:Gender p1=Amico p2=Amica ] in affari con carovana?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0003</td>
+        <td class="side">Meh, carovana non &#232; in affari con [ST:Gender p1=amico p2=amica ],[ST:n ]quindi va via. Veloce, ora! Smamma![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041201_JNK0010</td>
+        <td class="side">Obbedisci</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041201_SEL0011</td>
+        <td class="side">Fai quello che ti viene detto e vattene.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041201_JNK0020</td>
+        <td class="side">Rifiuta</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041201_SEL0021</td>
+        <td class="side">Di&#39; che non prendi ordini da lui.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0004</td>
+        <td class="side">Mmmh? Mmmmmmh?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0005</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] va veramente? Questo non molto divertente...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0006</td>
+        <td class="side">Oggi Mumun &#232; di buon umore, quindi fa[ST:n ]favore ad [ST:Gender p1=amico p2=amica ] di parlare per un pon.[ST:n ]Non molto, giusto un pon.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0007</td>
+        <td class="side">Mumun pu&#242; anche lasciare che [ST:Gender p1=amico p2=amica ] aiuta[ST:n ]con problemino come trattamento specialissimo![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0008</td>
+        <td class="side">Non occorre ringraziare Mumun.[ST:n ][ST:Gender p1=Amico p2=Amica ], non c&#39;&#232; di che.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0009</td>
+        <td class="side">Mmmh? Mmmmmmh?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0010</td>
+        <td class="side">Tu osa sfidare Mumun?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0011</td>
+        <td class="side">Ma [ST:Gender p1=amico p2=amica ] sa che Mumun &#232; migliore[ST:n ]studente del GRANDE Mujiji?![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0012</td>
+        <td class="side">Oh! Oh oh! Oh oh oh uh![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0013</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] &#232; cos&#236; [ST:Gender p1=sconsiderato p2=sconsiderata ], Mumun pu&#242; solo ridere![ST:n ]Oh oh oh! Eh eh eh! Uh uh uh![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0014</td>
+        <td class="side">Che [ST:Gender p1=umano p2=umana ] divertente. A Mumun piace cos&#236; tanto[ST:n ][ST:Gender p1=amico p2=amica ] che permette [ST:Gender p1=lui p2=lei ] di aiutare con problemino.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0015</td>
+        <td class="side">Non occorre ringraziare.[ST:n ][ST:Gender p1=Amico p2=Amica ], non c&#39;&#232; di che.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0016</td>
+        <td class="side">Questa carovana ha molti clienti abituali.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0017</td>
+        <td class="side">Amici umani gran spendaccioni, ma capi della[ST:n ]carovana dice che &#232; clienti troppo importanti[ST:n ]per lasciar gestire a Mumun.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0018</td>
+        <td class="side">Invece Mumun bloccato con Pron[ST:n ]puzzolenti nella fortezza a sud-est![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0019</td>
+        <td class="side">Mumun smercia Kiwuova raccolte localmente, a[ST:n ]prezzi all&#39;ingrosso. Qualcosa che neanche[ST:n ]Nopon pi&#249; disperato vuole vendere![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0020</td>
+        <td class="side">Incarico da strapazzo &#232; stato assegnato[ST:n ]a Mumun solo perch&#233; nessuno lo voleva.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0021</td>
+        <td class="side">Mumun deve vendere Kiwuova a Pron. Pron giganti![ST:n ]Pron spaventosi! Durante ultima vendita, Pron ha[ST:n ]minacciato di mangiare Mumun al posto di Kiwuova![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0022</td>
+        <td class="side">Tutti Pron rideva, allora me pensa che era[ST:n ]umorismo Pron. Ma non faceva ridere.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0023</td>
+        <td class="side">E chi dice che battuta non diventa realt&#224;[ST:n ]prossima volta?![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0024</td>
+        <td class="side">Ma puzzolenti Pron &#232; clienti che paga e se Mumun[ST:n ]chiede incarico diverso, Mujiji dice che[ST:n ]Mumun &#232; fallimento come mercante.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0025</td>
+        <td class="side">Allora Mumun vuole assumere [ST:Gender p1=amico p2=amica ][ST:n ]come guardia del corpo, per essere[ST:n ]sicuro che Mumun non diventa spuntino.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0026</td>
+        <td class="side">Oh, ma loro &#232; clienti, quindi tu non minaccia[ST:n ]a meno che loro comporta male![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0027</td>
+        <td class="side">[ST:Gender p1=Amico p2=Amica ] deve solo far finta che &#232; [ST:Gender p1=socio p2=socia ] in[ST:n ]affari e sta [ST:Gender p1=vicino p2=vicina ] a Mumun. Super[ST:Gender p1=vicino p2=vicina ].[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev041201_MSG0028</td>
+        <td class="side">Mumun conta su [ST:Gender p1=amico p2=amica ]![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

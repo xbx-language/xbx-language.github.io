@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev017501_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev017501_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev017501_SEL0011</td>
+        <td class="side">Demander &#224; Omari en quoi consiste son travail.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev017501_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev017501_SEL0021</td>
+        <td class="side">Demander &#224; Omari s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0001</td>
+        <td class="side">Je travaillais dans l&#39;analyse de min&#233;raux spatiaux.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0002</td>
+        <td class="side">Mais mon hobby, c&#39;&#233;tait de travailler les pierres,[ST:n ]en faire des accessoires et les vendre autour de moi.[ST:n ]J&#39;avais ma petite notori&#233;t&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0003</td>
+        <td class="side">J&#39;ai vite gagn&#233; plus d&#39;argent gr&#226;ce &#224; mon hobby[ST:n ]qu&#39;avec mon vrai travail. Alors quand on est arriv&#233;s[ST:n ]sur Mira, j&#39;ai repris ma petite affaire.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0004</td>
+        <td class="side">Mais j&#39;ai alors d&#233;couvert que Mira avait des min&#233;raux[ST:n ]plus durs que le diamant. Maintenant, j&#39;&#233;tudie les[ST:n ]min&#233;raux de Mira pour apprendre &#224; les travailler.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0010</td>
+        <td class="side">Ce gamin, Shingo, m&#39;a parl&#233; d&#39;un artisan ma-non[ST:n ]appel&#233; Jeshero, qui est capable de travailler[ST:n ]les min&#233;raux qu&#39;il trouve.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0011</td>
+        <td class="side">Je suis all&#233; le voir aussit&#244;t et je suis reparti avec[ST:n ]des &#233;toiles dans les yeux. Ces Ma-nons sont[ST:n ]vraiment incroyables ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0012</td>
+        <td class="side">Ils peuvent travailler n&#39;importe quel min&#233;ral comme si[ST:n ]c&#39;&#233;tait de l&#39;argile, peu importe sa duret&#233;. Et ils arrivent[ST:n ]&#224; faire &#231;a sans causer une seule imperfection ![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0013</td>
+        <td class="side">Quand j&#39;ai vu &#231;a, j&#39;ai demand&#233; &#224; Jeshero de me[ST:n ]prendre comme apprenti. Maintenant, il m&#39;apprend[ST:n ]plein de choses compl&#232;tement dingues ![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev017501_MSG0014</td>
+        <td class="side">La prochaine fois que tu vois ce gamin, Shingo, dis-lui[ST:n ]de venir me voir avec la pierre de son choix.[ST:n ]Je lui ferai ce qu&#39;il veut.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

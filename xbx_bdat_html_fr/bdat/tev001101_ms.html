@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev001101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0001</td>
+        <td class="side">Salut, [ST:playername ]. Est-ce que tes[ST:n ]missions avancent bien ?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0002</td>
+        <td class="side">Si ma pr&#233;sence ne te d&#233;range pas, j&#39;aimerais beaucoup[ST:n ]rejoindre l&#39;&#233;quipe quelque temps.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0003</td>
+        <td class="side">Bien s&#251;r, ce n&#39;est pas ton sup&#233;rieur qui te l&#39;ordonne,[ST:n ]c&#39;est simplement une requ&#234;te. Tu n&#39;es pas [ST:Gender p1=oblig&#233; p2=oblig&#233;e ][ST:n ]d&#39;ob&#233;ir.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev001101_JNK0010</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev001101_SEL0011</td>
+        <td class="side">Ajouter Elma &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev001101_JNK0020</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev001101_SEL0021</td>
+        <td class="side">D&#233;cliner la requ&#234;te d&#39;Elma pour le moment.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0004</td>
+        <td class="side">Merci. Je suis honor&#233;e de servir &#224; tes c&#244;t&#233;s ![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0005</td>
+        <td class="side">Je comprends. Peut-&#234;tre plus tard, alors.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0010</td>
+        <td class="side">Le Q.G. est en train d&#39;analyser le terminal de donn&#233;es.[ST:n ]Je comprends ton impatience, mais ces choses-l&#224;[ST:n ]prennent du temps.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0011</td>
+        <td class="side">Tant que l&#39;analyse n&#39;est pas termin&#233;e, nous devons[ST:n ]poursuivre nos objectifs. Je peux peut-&#234;tre me joindre[ST:n ]&#224; l&#39;&#233;quipe pour remplir quelques missions ?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev001101_JNK0150</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev001101_SEL0151</td>
+        <td class="side">Ajouter Elma &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev001101_JNK0160</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev001101_SEL0161</td>
+        <td class="side">D&#233;cliner la requ&#234;te d&#39;Elma pour le moment.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0012</td>
+        <td class="side">Super. En route, je suis s&#251;re qu&#39;on a du pain[ST:n ]sur la planche.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0013</td>
+        <td class="side">Je comprends. Si tu as besoin de moi, je suis pr&#234;te &#224;[ST:n ]t&#39;aider pour n&#39;importe quelle mission, alors n&#39;h&#233;site pas[ST:n ]&#224; faire appel &#224; moi.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0018</td>
+        <td class="side">Merci, [ST:playername ]. Merci de m&#39;accepter[ST:n ]comme amie, m&#234;me apr&#232;s avoir d&#233;couvert la[ST:n ]v&#233;rit&#233; sur moi.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0019</td>
+        <td class="side">Si jamais tu as besoin de mon aide, n&#39;h&#233;site surtout[ST:n ]pas. Je serai toujours l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev001101_JNK0170</td>
+        <td class="side">Accepter</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev001101_SEL0171</td>
+        <td class="side">Ajouter Elma &#224; votre &#233;quipe.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev001101_JNK0180</td>
+        <td class="side">Refuser</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev001101_SEL0181</td>
+        <td class="side">D&#233;cliner la requ&#234;te d&#39;Elma pour le moment.</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0020</td>
+        <td class="side">New L.A. est mon foyer &#224; pr&#233;sent. Je veux tout faire[ST:n ]pour aider la ville &#224; prosp&#233;rer.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev001101_MSG0021</td>
+        <td class="side">Je comprends. Peut-&#234;tre plus tard, alors...[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

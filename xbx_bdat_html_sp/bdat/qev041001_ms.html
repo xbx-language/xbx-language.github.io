@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0001</td>
+        <td class="side">&#161;Aaaau! &#161;Pues vaya guardaespaldas![ST:n ]&#161;&#191;D&#243;nde est&#225; arma?![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0002</td>
+        <td class="side">&#191;Mi arma? Unos monstruos se encargaron de hacerla[ST:n ]trizas cuando ven&#237;a hacia aqu&#237; desde NLA. Pero bueno,[ST:n ]mejor el arma que yo, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0003</td>
+        <td class="side">De todas formas, &#191;a qu&#233; viene tanto alboroto?[ST:n ]Cons&#237;gueme una nueva y yo seguir&#233; protegi&#233;ndote,[ST:n ]tal y como pone en el contrato.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0004</td>
+        <td class="side">Yo me quedo aqu&#237; esperando a que t&#250; te encargues[ST:n ]de arreglarlo todo. &#191;Vale, peludito?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0005</td>
+        <td class="side">&#161;Grrr! &#161;&#191;Por qu&#233; tiene Zazazan que hacerle[ST:n ]encargos a Harvey si Zazazan es jefe?![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0006</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] es BLADE tambi&#233;n, &#191;no? Dime,[ST:n ]&#191;todos los BLADE son as&#237;? Porque este es un in&#250;til.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041001_JNK0010</td>
+        <td class="side">Estar de acuerdo</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041001_SEL0011</td>
+        <td class="side">Critica el poco compromiso[ST:n ]de Harvey con su trabajo.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041001_JNK0020</td>
+        <td class="side">Defender</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041001_SEL0021</td>
+        <td class="side">Di que cualquiera puede sufrir un contratiempo.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0007</td>
+        <td class="side">&#161;Ostras, [ST:Gender p1=socio p2=socia ]! Eso ha dolido...[ST:n ]Aunque con un list&#243;n tan alto, habr&#225; pocos BLADE[ST:n ]que cumplan tus expectativas.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0008</td>
+        <td class="side">Zazazan tendr&#237;a que hab&#233;rselo pedido directamente[ST:n ]a alguien de fiar como [ST:Gender p1=amigo p2=amiga ] BLADE.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0009</td>
+        <td class="side">Uy, &#161;qu&#233; bonito! Me vas a hacer llorar,[ST:n ]de verdad.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0010</td>
+        <td class="side">Harvey no toma en serio a ninguno de los dos.[ST:n ]Puede que [ST:Gender p1=amigo p2=amiga ] tenga raz&#243;n,[ST:n ]pero BLADE zopenco como Harvey es excepci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0011</td>
+        <td class="side">Zazazan tendr&#237;a que hab&#233;rselo pedido directamente[ST:n ]a alguien como t&#250;, [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0012</td>
+        <td class="side">Por desgracia, contrato est&#225; firmado y Zazazan[ST:n ]se queda con guardaespaldas vago.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0013</td>
+        <td class="side">T&#250; s&#237; que sabes c&#243;mo hacer que alguien se sienta[ST:n ]especial. Vamos a ver, que no es tan dif&#237;cil: si me[ST:n ]encuentras un arma, yo te protejo.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0014</td>
+        <td class="side">Grrr... &#161;Vale! A ver, [ST:Gender p1=amigo p2=amiga ] BLADE responsable,[ST:n ]encuentra arma para que Harvey protege a Zazazan.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0015</td>
+        <td class="side">Ay&#250;dame, te suplico... Zazazan tiene prisa[ST:n ]para llevar mercanc&#237;a a NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0016</td>
+        <td class="side">Zazazan contento porque [ST:Gender p1=amigo p2=amiga ] es razonable.[ST:n ]Vamos, ve a por arma cualquiera.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0017</td>
+        <td class="side">&#161;Oye! Que no es un arma cualquiera. Si no me traes[ST:n ]una espada de hierro, te puedes ir olvidando de mis[ST:n ]servicios. Son mis condiciones. Una espada o nada.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0018</td>
+        <td class="side">&#161;Ah! Y mis amigos necesitan un fusil asalto guerrero[ST:n ]y un escudo de titanio. Gracias y tal.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0019</td>
+        <td class="side">&#161;Grrrrrr! Tanta tonter&#237;a est&#225; sacando de quicio[ST:n ]a Zazazan. Mejor no discutir, lo siento [ST:Gender p1=amigo p2=amiga ].[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0020</td>
+        <td class="side">Normalmente, Zazazan consigue guardaespaldas[ST:n ]mejores. Parece que esta vez tiene mala suerte.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0021</td>
+        <td class="side">Pero contrato es sagrado. Hay que conseguirle[ST:n ]a vago espada de hierro, fusil de asalto de guerrero[ST:n ]y escudo de titanio y que haga su trabajo de una vez.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev086005_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0013</td>
+        <td class="side">On dirait que vous n&#39;avez pas encore trouv&#233; ce qu&#39;il[ST:n ]nous faut. Ces mat&#233;riaux doivent &#234;tre assez rares.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0012</td>
+        <td class="side">Surtout les tubes d&#39;alimentation. Il va vous falloir aller[ST:n ]chasser des monstres costauds comme les puges pions[ST:n ]de la base des Mar&#233;es si vous voulez en trouver.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0011</td>
+        <td class="side">Je sais que &#231;a ne va pas &#234;tre facile de tout trouver[ST:n ]mais on compte sur vous. Bonne chance.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0001</td>
+        <td class="side">Vous les avez vraiment tous trouv&#233;s ?[ST:n ]Alors tout ce que j&#39;ai entendu sur vous &#233;tait vrai ![ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0002</td>
+        <td class="side">Cela va am&#233;liorer la qualit&#233; de notre production,[ST:n ]n&#39;est-ce pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0003</td>
+        <td class="side">Exactement ! Maintenant on aura plus jamais[ST:n ]besoin de r&#233;cup&#233;rer de vieilles pi&#232;ces.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0004</td>
+        <td class="side">Aujourd&#39;hui, l&#39;humanit&#233; a fait un pas en avant.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0005</td>
+        <td class="side">Doucement mais s&#251;rement, nous construisons[ST:n ]un avenir durable.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0006</td>
+        <td class="side">Tout &#231;a gr&#226;ce au d&#233;vouement de gens comme toi, Lin.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0007</td>
+        <td class="side">Et avec l&#39;aide de certains indig&#232;nes[ST:n ]particuli&#232;rement patients, bien s&#251;r.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0008</td>
+        <td class="side">Danse de... trop faim pour danser...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0009</td>
+        <td class="side">Maintenant, il faut construire un avenir[ST:n ]durable &#224; l&#39;estomac de Tatsu.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev086005_MSG0010</td>
+        <td class="side">Ho ho ho ! Lin meilleure durabilit&#233; de tout[ST:n ]N.L.A. ! Danse de la joie durable ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

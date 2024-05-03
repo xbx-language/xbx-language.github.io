@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev010102_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0001</td>
+        <td class="side">Hast du meine Ersatzteile schon gefunden,[ST:n ][ST:Gender p1=tapferer Held p2=tapfere Heldin ]? Ich m&#246;chte mein Auto reparieren,[ST:n ]aber vor allem auch mehr &#252;ber dich erfahren.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0002</td>
+        <td class="side">Ich wusste, du w&#252;rdest mir helfen! Du siehst auch[ST:n ]schon wie jemand aus, [ST:Gender p1=der p2=die ] immer zusagt, auch[ST:n ]wenn die Bitte noch so absurd ist.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0003</td>
+        <td class="side">So seid ihr eben, ihr wahren Helden![ST:n ]So was habt ihr in euren Genen, oder?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0010</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0011</td>
+        <td class="side">Stimme mit stolzgeschwellter Brust zu.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0020</td>
+        <td class="side">Widersprechen</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0021</td>
+        <td class="side">R&#228;ume ein, dass du [ST:Gender p1=kein Held p2=keine Heldin ] bist.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0004</td>
+        <td class="side">Wohl gesprochen! Toll, diese unersch&#252;tterliche[ST:n ]Zuversicht! Wenn ich ein Schurke w&#228;re, w&#252;rde[ST:n ]ich bei diesem Anblick weiche Knie bekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0005</td>
+        <td class="side">Ich sehe schon. Die klassische Heldenantwort.[ST:n ]Wahre Helden zeigen sich eben stets von ihrer[ST:n ]bescheidenen Seite.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0006</td>
+        <td class="side">Jedenfalls brauche ich f&#252;r die Reparatur ein paar[ST:n ]Anhydrische K&#252;hlk&#246;rper. Geht das in Ordnung?[ST:n ]Danke vielmals, [ST:Gender p1=tapferer Held p2=tapfere Heldin ]![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0007</td>
+        <td class="side">Ich liebe Filme und Comics &#252;ber [ST:Gender p1=Helden p2=Heldinnen ] wie[ST:n ]dich. Ich habe immer davon getr&#228;umt, mal [ST:Gender p1=einen p2=eine ][ST:n ]zu treffen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0008</td>
+        <td class="side">Und jetzt ist tats&#228;chlich [ST:Gender p1=einer p2=eine ] zu meiner[ST:n ]Rettung herbeigeeilt. Ich kann’s noch immer[ST:n ]kaum glauben![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0009</td>
+        <td class="side">W&#228;re es dir recht, wenn ich dich zu ein paar[ST:n ]Sachen interviewe, sobald du die Anhydrischen[ST:n ]K&#252;hlk&#246;rper vorbeigebracht hast?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0034</td>
+        <td class="side">Erz&#228;hl mir von deinen Heldentaten. Ich platze vor[ST:n ]Neugier. Das ist die Gelegenheit, Geschichten[ST:n ]aus dem Leben [ST:Gender p1=eines Helden p2=einer Heldin ] zu h&#246;ren![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0010</td>
+        <td class="side">Hmmm... Ja. Das muss es sein. [ST:Gender p1=Ein Held p2=Eine Heldin ] braucht vor[ST:n ]allem einen unersch&#252;tterlichen Willen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0011</td>
+        <td class="side">Und du hast sicher einen tief verwurzelten, sehr[ST:n ]pers&#246;nlichen Grund, der dich dazu bringt, das[ST:n ]B&#246;se zu bek&#228;mpfen, richtig?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0012</td>
+        <td class="side">Lass mich raten! Deine Eltern wurden vor deinen[ST:n ]Augen ermordet, als du klein warst! Nein – du[ST:n ]wurdest von einer radioaktiven Scirpo gebissen![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0030</td>
+        <td class="side">Best&#228;tigen</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0031</td>
+        <td class="side">Nicke d&#252;ster: Es gibt tats&#228;chlich ein dunkles Ereignis[ST:n ]in deiner Vergangenheit, das dich antreibt.</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0040</td>
+        <td class="side">Verneinen</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0041</td>
+        <td class="side">Lache und erkl&#228;re Justin, dass er &#252;bertreibt.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0013</td>
+        <td class="side">Aha! Wusst ich’s doch! Du bist genau das,[ST:n ]was ich mir immer unter [ST:Gender p1=einem Helden p2=einer Heldin ][ST:n ]vorgestellt habe![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0014</td>
+        <td class="side">Hm... Du meinst also, wahre Helden ben&#246;tigen[ST:n ]keinen speziellen Grund, um das B&#246;se zu[ST:n ]bek&#228;mpfen? Verstehe...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0015</td>
+        <td class="side">Dann hab ich mir das wohl alles komplizierter[ST:n ]vorgestellt, als es ist.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0016</td>
+        <td class="side">Siehst du, genau deshalb wollte ich mich mit dir[ST:n ]unterhalten! Mit jedem Wort, das wir wechseln,[ST:n ]verstehe ich euch Helden besser![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0017</td>
+        <td class="side">Du wirst alle Pr&#252;fungen bestehen, die dir das[ST:n ]Schicksal auferlegt! Jeder hinterh&#228;ltigen Falle[ST:n ]entkommen! Jedem R&#252;ckschlag trotzen![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0018</td>
+        <td class="side">Und dann, im gro&#223;en Finale, werden alle,[ST:n ]sowohl deine Freunde als auch deine einstigen[ST:n ]Feinde, im Chor deinen Heldenmut besingen![ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0019</td>
+        <td class="side">Unwichtige Details beiseite gelassen steht fest, dass dein[ST:n ]Leben ein Musterbeispiel f&#252;r Moral sein wird! Das... Das[ST:n ]ist exakt das, wovon ich immer getr&#228;umt habe![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0020</td>
+        <td class="side">Genau deshalb habe ich damals bei BLADE[ST:n ]angefangen – um Geschichten wie deine hautnah[ST:n ]mitzuerleben.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0021</td>
+        <td class="side">Ich hatte die Hoffnung aufgegeben, dass aus mir mal[ST:n ]ein Held werden w&#252;rde. Aber mir war klar, wenn ich[ST:n ]BLADE beitrete, werde ich irgendwann einem begegnen![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0050</td>
+        <td class="side">Dankbarkeit zeigen</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0051</td>
+        <td class="side">Bedanke dich bei Justin f&#252;r das Lob.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0060</td>
+        <td class="side">Teile zeigen</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0061</td>
+        <td class="side">Erinnere Justin an die Ersatzteile,[ST:n ]die du f&#252;r ihn beschafft hast.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0022</td>
+        <td class="side">Nicht doch! Ich sage nur die Wahrheit. Bist du[ST:n ]&#252;brigens f&#252;ndig geworden, was meine Anhydrischen[ST:n ]K&#252;hlk&#246;rper angeht?[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0023</td>
+        <td class="side">Oh, stimmt. Die hatte ich ja fast vergessen. Ha![ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0035</td>
+        <td class="side">Wie ist es gelaufen? Ich hoffe, du hattest nicht allzu[ST:n ]viel M&#252;he bei der Suche.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0024</td>
+        <td class="side">Perfekt. Gleich ist mein Auto wieder so gut wie neu![ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0025</td>
+        <td class="side">Ich habe dir so viel mehr als Ersatzteile zu[ST:n ]verdanken, [ST:Gender p1=mein Held p2=meine Heldin ]! Bitte nimm das hier[ST:n ]als Belohnung f&#252;r deine edlen Taten.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0026</td>
+        <td class="side">Und versprich mir, dass du auch weiterhin auf[ST:n ]Seiten der Gerechtigkeit k&#228;mpfst und die B&#252;rger[ST:n ]hier besch&#252;tzt. NLA braucht [ST:Gender p1=Helden p2=Heldinnen ] wie dich![ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0070</td>
+        <td class="side">Nicken</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0071</td>
+        <td class="side">Versprich Justin, dass du stets zur Stelle sein wirst.</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev010102_JNK0080</td>
+        <td class="side">Ausweichen</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev010102_SEL0081</td>
+        <td class="side">Bezweifle, dass du Justins hohe[ST:n ]Erwartungen erf&#252;llen kannst.</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0027</td>
+        <td class="side">Du bist gro&#223;artig. Solange es BLADEs wie[ST:n ]dich gibt, k&#246;nnen wir hier in NLA nachts ruhig[ST:n ]schlafen.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0028</td>
+        <td class="side">Oh, wie edel von dir! Recht so, wahre Helden[ST:n ]versprechen nichts, was sie nicht halten k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0029</td>
+        <td class="side">Aber es ist deine Bestimmung als BLADE, f&#252;r die[ST:n ]Sicherheit dieser Stadt zu k&#228;mpfen. Und ich bin[ST:n ]sicher, du wirst ihr mit Bravour nachkommen.[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0030</td>
+        <td class="side">...So, jetzt mache ich mich besser auf den Weg.[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0031</td>
+        <td class="side">Schlie&#223;lich bin ich auch ein BLADE. Zwar kein so[ST:n ]heldenhafter wie du, aber nichtsdestotrotz ein[ST:n ]K&#228;mpfer f&#252;r die Gerechtigkeit![ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0032</td>
+        <td class="side">Vielleicht begegnen wir uns irgendwann mal wieder.[ST:n ]Ich habe das Gef&#252;hl, dass unser Zusammentreffen[ST:n ]vom Schicksal vorherbestimmt war.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev010102_MSG0033</td>
+        <td class="side">Mach’s gut, und auf bald! Ich hoffe, dass ich[ST:n ]dir eines Tages so helfen kann, wie du mir heute[ST:n ]geholfen hast.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

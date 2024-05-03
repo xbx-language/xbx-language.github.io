@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0001</td>
+        <td class="side">Pfui! Freund ist st&#252;mperschlechter Leibw&#228;chter![ST:n ]Hat nicht mal Waffe![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0002</td>
+        <td class="side">Mach mal halblang! Meine Waffe hab ich verloren, als[ST:n ]mich auf dem Weg aus NLA wilde Monster angegriffen[ST:n ]haben. Sei froh, dass ich noch am Leben bin![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0003</td>
+        <td class="side">Au&#223;erdem ist das dein Problem. Du besorgst mir eine[ST:n ]neue Waffe, ich besch&#252;tz dich. So steht’s im Vertrag.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0004</td>
+        <td class="side">Na los, dann k&#252;mmer dich mal drum, Fellkn&#228;uel.[ST:n ]Ich warte inzwischen hier.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0005</td>
+        <td class="side">Grummel-grummel! Zazazan ist Chef![ST:n ]Nicht Laufbursche von Harvey![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0006</td>
+        <td class="side">...[ST:Gender p1=Freund p2=Freundin ] ist auch BLADE, ja? Sind alle BLADEs so[ST:n ]stinkefaul wie anderer Freund hier?[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041001_JNK0010</td>
+        <td class="side">R&#252;gen</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041001_SEL0011</td>
+        <td class="side">Kritisiere Harveys Arbeitsmoral.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041001_JNK0020</td>
+        <td class="side">Verteidigen</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041001_SEL0021</td>
+        <td class="side">Sage, dass niemand vor unerwarteten[ST:n ]R&#252;ckschl&#228;gen gefeit ist.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0007</td>
+        <td class="side">H&#246;rt, h&#246;rt! Machst du immer einen auf Moralapostel?[ST:n ]Dann bist du bestimmt sehr beliebt bei deinen Kollegen.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0008</td>
+        <td class="side">Zazazan mag [ST:Gender p1=pflichtbewussten Freund p2=pflichtbewusste Freundin ] viel lieber als[ST:n ]gemeinen Faulpelz! W&#228;re viel [ST:Gender p1=besserer Leibw&#228;chter p2=bessere Leibw&#228;chterin ]![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0009</td>
+        <td class="side">Oh, wie nett von dir, dass du mich vor diesem Furcht[ST:n ]einfl&#246;&#223;enden Fellkn&#228;uel in Schutz nimmst. Mir kommen[ST:n ]gleich die Tr&#228;nen.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0010</td>
+        <td class="side">Garstiger Harvey nimmt niemanden ernst. [ST:Gender p1=Freund p2=Freundin ] w&#228;re[ST:n ][ST:Gender p1=viel besserer Leibw&#228;chter p2=viel bessere Leibw&#228;chterin ]. Verteidigt sogar Faulpelze.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0011</td>
+        <td class="side">Zazazan h&#228;tte von Anfang an [ST:Gender p1=verl&#228;sslichen Freund p2=verl&#228;ssliche Freundin ][ST:n ]anheuern sollen.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0012</td>
+        <td class="side">Aber Zazazan ist vertraglich an faulen Harvey gefesselt.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0013</td>
+        <td class="side">Du wei&#223;t wirklich, wie man seine Angestellten[ST:n ]motiviert... Jetzt pass mal auf: Du beschaffst mir die[ST:n ]Waffe und ich sch&#252;tz deinen nicht vorhandenen Hals![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0014</td>
+        <td class="side">Grrrrrr... Du da! [ST:Gender p1=Hilfsbereiter BLADE-Freund p2=Hilfsbereite BLADE-Freundin ]! Du musst[ST:n ]Waffe f&#252;r Harvey finden! Kann sonst Zazazan nicht[ST:n ]besch&#252;tzen![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0015</td>
+        <td class="side">Bitte, [ST:Gender p1=Freund p2=Freundin ] muss helfen! Zazazan muss dringend[ST:n ]Ware nach NLA liefern![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0016</td>
+        <td class="side">Zazazan froh, dass [ST:Gender p1=Freund p2=Freundin ] so vern&#252;nftig ist.[ST:n ]Muss einfach nur irgendeine Waffe bringen.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0017</td>
+        <td class="side">Hey, hey, hey! So war das aber nicht abgemacht.[ST:n ]Hast du das Kleingedruckte nicht gelesen? Kein[ST:n ]Eisenschwert, kein Schutz, verstanden?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0018</td>
+        <td class="side">Oh, und f&#252;r meine Kumpels ein K&#228;mpfergewehr[ST:n ]und einen Titanschild, bitte. Ist doch nicht zu viel[ST:n ]verlangt f&#252;r [ST:Gender p1=einen vorbildlichen BLADE p2=eine vorbildliche BLADE ], oder?[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0019</td>
+        <td class="side">Aaaaargh! Unterton in Harveys Stimme macht Zazazan[ST:n ]fiesew&#252;tend! Aber keine Zeit f&#252;r Diskussion. [ST:Gender p1=Freund p2=Freundin ][ST:n ]muss bitte machen, was Faulpelz sagt.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0020</td>
+        <td class="side">Normalerweise hat Zazazan flei&#223;igere Leibw&#228;chter.[ST:n ]Hat sich diesmal &#252;ber Tisch ziehen lassen.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041001_MSG0021</td>
+        <td class="side">Aber Vertrag ist Vertrag. Fauler Leibw&#228;chter braucht[ST:n ]Eisenschwert, Soldatensturmgewehr und Titanschild.[ST:n ]Macht sonst &#252;berhaupt keine Arbeit mehr.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

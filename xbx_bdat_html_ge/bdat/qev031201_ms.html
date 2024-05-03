@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev031201_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0001</td>
+        <td class="side">Es gibt keinen anderen Weg, Wazdo Tygant.[ST:n ]Ruf alle Krieger.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0002</td>
+        <td class="side">Meine Tochter wurde geraubt.[ST:n ]Finde den Misset&#228;ter.[ST:n ]Sein Blut soll die Felder w&#228;ssern.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0003</td>
+        <td class="side">F&#252;r Lavina f&#252;hre ich Krieg, Loda.[ST:n ]Selbst mit Erdlingen.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0004</td>
+        <td class="side">Gesprochen wie ein wahrer Prone.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0005</td>
+        <td class="side">Und du, Erdling? Was willst du?[ST:n ]Bist du ein Spion? Schickt Leroy dich?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev031201_JNK0010</td>
+        <td class="side">Verneinen</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev031201_SEL0011</td>
+        <td class="side">Verk&#252;nde, dass du nicht die leiseste Ahnung[ST:n ]hast, wovon Loda spricht.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev031201_JNK0020</td>
+        <td class="side">Nachhaken</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev031201_SEL0021</td>
+        <td class="side">Frage, wer dieser Leroy sein soll.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0006</td>
+        <td class="side">Hm. In der Tat. Du strahlst Mut aus.[ST:n ]Nicht wie dieser Abschaum. Nicht wie Erdling Leroy.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0007</td>
+        <td class="side">Er raubte meine Tochter.[ST:n ]Ich... Wut vernebelt meinen Verstand. Verzeih mir.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0008</td>
+        <td class="side">Erdling Leroy. Er raubte meine Tochter. Grrr.[ST:n ]Ein solcher Schw&#228;chling. F&#228;hig zu solcher Tat.[ST:n ]Nie h&#228;tte ich es geglaubt.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0009</td>
+        <td class="side">Wirst du mir helfen, Erdling?[ST:n ]Meine Tochter zur&#252;ckholen?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0010</td>
+        <td class="side">Leroy floh ins Gesch&#228;ftsviertel.[ST:n ]Es ist besser, wenn ein anderer Erdling ihn sucht.[ST:n ]Wie du.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0011</td>
+        <td class="side">Manche Erdlinge sind gut. Wie du. Ich bin froh.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0012</td>
+        <td class="side">Meine Tochter sollte bald heiraten.[ST:n ]Sie sollte Wazdo Tygants Weib werden.[ST:n ]Bring sie nach Hause. Eine frohe Zukunft wartet.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev031201_MSG0013</td>
+        <td class="side">Leroy ist feige. Versteckt sich in dunklen Ecken.[ST:n ]Weit weg von allen anderen. Ich bin mir sicher.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev031201_MSG1001</td>
+        <td class="side">Ich kenne Leroy. Traf ihn einmal.[ST:n ]Er ist schwach. Er ist feige. Selbst f&#252;r Erdling.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev031201_MSG1002</td>
+        <td class="side">Er wird sich in einer dunklen Ecke verstecken. Ich wei&#223;[ST:n ]es. Irgendwo im Gesch&#228;ftsviertel. Wo niemand ist.[ST:n ]Geh. Finde ihn.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev031201_MSG2001</td>
+        <td class="side">Du hast mich zum Narren gehalten.[ST:n ]Doch meine Tochter ist zur&#252;ck.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev031201_MSG2002</td>
+        <td class="side">Grrr. Hier ist deine Belohnung.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev031201_MSG2004</td>
+        <td class="side">Als wir uns schlugen, sah ich St&#228;rke.[ST:n ]Die St&#228;rke der Erdlinge.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev031201_MSG2005</td>
+        <td class="side">Aha. Nicht nur Prone sind also stark.[ST:n ]Ich werde St&#228;rke auch von Leroy verlangen.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev031201_MSG2006</td>
+        <td class="side">Er wird Lavina besch&#252;tzen. Er hat es geschworen.[ST:n ]Ich dulde keine L&#252;gner.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev031201_MSG2007</td>
+        <td class="side">Ich werde ihn lehren. Mit der Faust.[ST:n ]Das ist der Weg der Prone.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3001</td>
+        <td class="side">Ich sah den Kampf. Mit Leroy, dem Schw&#228;chling.[ST:n ]Von Anfang bis Ende.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3002</td>
+        <td class="side">Du bist [ST:Gender p1=Krieger p2=Kriegerin ].[ST:n ]Doch der Schw&#228;chling hielt stand.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev031201_JNK0030</td>
+        <td class="side">Zustimmen</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev031201_SEL0031</td>
+        <td class="side">Gib zu, dass Leroy einiges auf dem Kasten hat.</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev031201_JNK0040</td>
+        <td class="side">Widersprechen</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev031201_SEL0041</td>
+        <td class="side">Grinse &#252;ber Leroys mittelm&#228;&#223;ige F&#228;higkeiten.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3003</td>
+        <td class="side">Du musst es wissen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3004</td>
+        <td class="side">Mittelm&#228;&#223;ig. Im Vergleich zu dir. Ja.[ST:n ]Selbst unter Prone sind dir wenige ebenb&#252;rtig.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3005</td>
+        <td class="side">Erdlinge sind seltsam.[ST:n ]In kleinen K&#246;rpern wohnt gro&#223;e Kraft.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3006</td>
+        <td class="side">Leroys St&#228;rke muss wachsen.[ST:n ]Ich hoffe.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev031201_MSG3007</td>
+        <td class="side">Du halfst mir, Erdling.[ST:n ]Hier. Nimm dies.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

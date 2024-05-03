@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041605_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0001</td>
+        <td class="side">(...)[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0002</td>
+        <td class="side">&#191;Qui&#233;n sabe d&#243;nde est&#225; lo que Bobora busca?[ST:n ]Solo estrellas de cielo.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0003</td>
+        <td class="side">&#191;Mmm? &#191;[ST:Gender p1=Amigo p2=Amiga ] quiere preguntar algo a Bobora?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0004</td>
+        <td class="side">Debe de ser importante si [ST:Gender p1=amigo p2=amiga ] interrumpe profunda[ST:n ]conversaci&#243;n espiritual entre Bobora y estrellas.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0005</td>
+        <td class="side">&#191;C&#243;mo? &#191;Que mensajero nopon fue atacado[ST:n ]por cosa enorme y le rob&#243; cargamento?[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0006</td>
+        <td class="side">Eso no tiene nada que ver con Bobora.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0007</td>
+        <td class="side">Aunque Bobora vio todo desde aqu&#237;.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0008</td>
+        <td class="side">Fue p&#225;jaro gigante lo que atac&#243; a mensajero.[ST:n ]Lo llaman jacul ira.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0009</td>
+        <td class="side">Vive por esta zona, pero es especie poco com&#250;n.[ST:n ]A primera vista, parece auravis.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0010</td>
+        <td class="side">Parte de cuerpo de jacul ira est&#225; cubierta[ST:n ]de cosas que parecen hongos. Y ataca[ST:n ]con algo parecido a esporas.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0011</td>
+        <td class="side">Aun as&#237;, es raro que aparece en lugares[ST:n ]donde hay otros seres vivos...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0012</td>
+        <td class="side">Pero es temporada de apareamiento.[ST:n ]A lo mejor por eso estaba tan alterado.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0013</td>
+        <td class="side">Despu&#233;s de coger cargamento, sali&#243; volando hacia...[ST:n ]Mmm. Visto desde aqu&#237;, parece que vol&#243; hacia sur.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0014</td>
+        <td class="side">Puede que Bobora no sea capaz de encontrar lo que[ST:n ]Bobora busca, pero siempre tuvo buen sentido de[ST:n ]orientaci&#243;n. Saber preguntar a estrellas ayuda.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0015</td>
+        <td class="side">S&#237;, jacul ira que rob&#243; cargamento[ST:n ]fue para sur, &#161;segur&#237;simo![ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0016</td>
+        <td class="side">&#191;Eeeh? &#191;[ST:Gender p1=Amigo p2=Amiga ] ya est&#225; de vuelta? &#191;O [ST:Gender p1=amigo p2=amiga ] tiene[ST:n ]sentido de orientaci&#243;n nulo y se ha perdido?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0017</td>
+        <td class="side">&#161;Jacul ira vol&#243; hacia sur![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0018</td>
+        <td class="side">Eso es todo que Bobora sabe.[ST:n ]Bobora est&#225; ocupado con propios asuntos.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041605_MSG0019</td>
+        <td class="side">Cargamento de mensajero[ST:n ]no es problema de Bobora.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000191_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0001</td>
+        <td class="side">Ah, [ST:playername ].[ST:n ]Perfektes Timing, wie immer.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0002</td>
+        <td class="side">Da ich Vandham nirgendwo finden kann, m&#246;chte ich[ST:n ]dich in einer dringenden Angelegenheit um Rat fragen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0003</td>
+        <td class="side">Ich habe gerade den Notruf einer Gruppe Pathfinder[ST:n ]empfangen.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0004</td>
+        <td class="side">Ihr Einsatzort liegt in einem extrem gef&#228;hrlichen Gebiet,[ST:n ]in dem wir bereits mehrere BLADEs verloren haben.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0005</td>
+        <td class="side">Diesem Team ist es zwar gelungen, bis zu den Ziel-[ST:n ]koordinaten vorzudringen, doch die Datensonde, die f&#252;r[ST:n ]diese Mission unerl&#228;sslich ist, wurde im Kampf zerst&#246;rt.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0006</td>
+        <td class="side">Die Frage ist nun, ob wir eine neue Datensonde liefern[ST:n ]sollten.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0007</td>
+        <td class="side">Wir k&#246;nnten Harrier oder Interceptoren mit dem[ST:n ]Transport betrauen, doch damit w&#252;rden wir noch[ST:n ]mehr BLADEs in Lebensgefahr bringen.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0008</td>
+        <td class="side">Die Alternative w&#228;re, den Pathfindern den R&#252;ckzug zu[ST:n ]befehlen und einen neuen Einsatzplan zu entwickeln.[ST:n ]Vermutlich ist dies der bessere Zug.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0009</td>
+        <td class="side">Wenn wir aus unseren Fehlern lernen und das n&#228;chste[ST:n ]Pathfinder-Team gleich mit einer Eskorte verst&#228;rken,[ST:n ]k&#246;nnte wenigstens deren Einsatz ein Erfolg werden.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0010</td>
+        <td class="side">Wie w&#252;rdest du entscheiden? W&#252;rdest du das Risiko[ST:n ]eingehen und eine neue Sonde liefern oder die Mission[ST:n ]abbrechen und auf einen Neustart setzen?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000191_JNK0010</td>
+        <td class="side">Sonde liefern</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000191_SEL0011</td>
+        <td class="side">Sage, dass es das Risiko wert ist,[ST:n ]diesen Einsatz erfolgreich abzuschlie&#223;en.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000191_JNK0020</td>
+        <td class="side">Mission abbrechen</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000191_SEL0021</td>
+        <td class="side">Empfiehl Nagi, den R&#252;ckzug zu befehlen[ST:n ]und einen neuen Plan zu schmieden.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000191_JNK0030</td>
+        <td class="side">Alternative vorschlagen</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000191_SEL0031</td>
+        <td class="side">Biete an, die Sonde pers&#246;nlich abzuliefern.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0011</td>
+        <td class="side">Dann denkst du also, dass wir gr&#246;&#223;ere Gefahren[ST:n ]provozieren, wenn wir diese Chance vergeuden?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0012</td>
+        <td class="side">Hm. Damit setzen wir das Leben vieler BLADEs aufs[ST:n ]Spiel. Aber wenn die Menschheit auf Mira Fu&#223; fassen[ST:n ]soll, m&#252;ssen wir wom&#246;glich solche Risiken eingehen...[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0013</td>
+        <td class="side">Und nach allem, was du als BLADE bereits[ST:n ]geleistet hast, ist deine Einsch&#228;tzung von[ST:n ]gro&#223;em Wert f&#252;r meine Entscheidung.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0014</td>
+        <td class="side">Dann ist es beschlossene Sache: Wir senden die Harrier[ST:n ]aus. Wenn diese kalkulierten Opfer zum Erfolg der[ST:n ]Mission f&#252;hren, wird ganz NLA davon profitieren.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0015</td>
+        <td class="side">Ich muss zur&#252;ck in die BLADE-Zentrale und[ST:n ]alles in die Wege leiten. Entschuldige mich.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0016</td>
+        <td class="side">Ich stimme dir zu. Unsere K&#246;rper m&#246;gen Mimoiden[ST:n ]sein, aber sie sind viel zu wertvoll, um sie leichtfertig[ST:n ]aufs Spiel zu setzen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0017</td>
+        <td class="side">Es w&#228;re verantwortungslos, das Leben[ST:n ]so vieler BLADEs zu gef&#228;hrden, nur um[ST:n ]diese eine Mission zu Ende zu f&#252;hren.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0018</td>
+        <td class="side">Wie schrieb einst ein weiser Mann:[ST:n ]„Wer flieht, statt mit dem Tod zu ringen,[ST:n ]mag anderntags den Feind bezwingen.“[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0019</td>
+        <td class="side">Hoffen wir also, dass wir beim n&#228;chsten Versuch[ST:n ]das Gl&#252;ck auf unserer Seite haben. Ich werde den[ST:n ]Pathfindern den sofortigen R&#252;ckzug befehlen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0020</td>
+        <td class="side">Ich danke dir. Nach allem, was du als BLADE bereits[ST:n ]geleistet hast, ist deine Einsch&#228;tzung von gro&#223;em Wert[ST:n ]f&#252;r meine Entscheidung.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0021</td>
+        <td class="side">Ich muss zur&#252;ck in die BLADE-Zentrale und[ST:n ]alles in die Wege leiten. Entschuldige mich.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0022</td>
+        <td class="side">Mutige Antwort. Von [ST:Gender p1=einem p2=einer ] BLADE wie dir h&#228;tte ich[ST:n ]nichts anderes erwarten sollen. ...Wenn es nach mir[ST:n ]ginge, w&#252;rde ich ohne zu z&#246;gern mit dir aufbrechen.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0023</td>
+        <td class="side">Leider kommt das diesmal nicht infrage.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0024</td>
+        <td class="side">Vandham hat sich unmissverst&#228;ndlich ausgedr&#252;ckt:[ST:n ]Er besteht darauf, dass weder du noch ich uns an[ST:n ]dieser Mission beteiligen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0025</td>
+        <td class="side">Wir beide sind schlie&#223;lich nicht die einzigen BLADEs.[ST:n ]Und auch nicht die einzigen, die diesem Einsatz[ST:n ]gewachsen w&#228;ren.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0026</td>
+        <td class="side">Vandham ist der Meinung, dass ich andere BLADEs[ST:n ]effizienter einsetzen sollte – nicht nur Elmas Team.[ST:n ]Das w&#252;rde auch der Truppenmoral zugutekommen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev000191_MSG0027</td>
+        <td class="side">Das ist ein berechtigter Kritikpunkt, dem ich zuk&#252;nftig[ST:n ]mehr Beachtung schenken muss. Aber aktuell m&#252;ssen wir[ST:n ]uns dringend f&#252;r eine der beiden Strategien entscheiden.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

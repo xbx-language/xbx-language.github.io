@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev041601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0001</td>
+        <td class="side">&#161;Malas noticias! &#161;Muy malas! &#161;Muy terribles! &#161;Lo peor![ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0002</td>
+        <td class="side">&#161;Este es peor desastre en carrera[ST:n ]de servicio de mensajer&#237;a de Kuta![ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0003</td>
+        <td class="side">&#161;Robaron valioso cargamento de Kuta![ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0004</td>
+        <td class="side">Y lo &#250;nico que Kuta sabe de infractor[ST:n ]es que es \&quot;cosa enorme\&quot;.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0005</td>
+        <td class="side">&#161;Kuta se qued&#243; sin cargamento y esa es &#250;nica[ST:n ]informaci&#243;n que tiene! Aunque si de verdad es enorme,[ST:n ]&#161;probablemente Kuta no puede hacer nada![ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0006</td>
+        <td class="side">&#161;Todo malas noticias! &#161;Qu&#233; drama! &#161;Qu&#233; cat&#225;strofe![ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0007</td>
+        <td class="side">Esto... [ST:Gender p1=Amigo p2=Amiga ] estaba prestando atenci&#243;n[ST:n ]a triste historia de Kuta, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0008</td>
+        <td class="side">&#161;Eso significa que [ST:Gender p1=amigo p2=amiga ] est&#225; [ST:Gender p1=destinado p2=destinada ] a ayudar[ST:n ]a Kuta! Adem&#225;s, [ST:Gender p1=amigo p2=amiga ] no puede largarse despu&#233;s[ST:n ]de escuchar toda historia... &#161;Eso es de malas personas![ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev041601_JNK0010</td>
+        <td class="side">Ayudar</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev041601_SEL0011</td>
+        <td class="side">Ayuda a Kuta a buscar su cargamento.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev041601_JNK0020</td>
+        <td class="side">Investigar</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev041601_SEL0021</td>
+        <td class="side">P&#237;dele que te d&#233; m&#225;s detalles de lo ocurrido.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0009</td>
+        <td class="side">&#191;De verdad? &#191;[ST:Gender p1=Amigo p2=Amiga ] va a ayudar?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0010</td>
+        <td class="side">&#161;Qu&#233; [ST:Gender p1=humano p2=humana ] m&#225;s amable![ST:n ]&#161;Mensajero Kuta nunca estuvo tan conmovido![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0011</td>
+        <td class="side">Si te lo cuento, &#191;[ST:Gender p1=amigo p2=amiga ] va a ayudar?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0012</td>
+        <td class="side">Kuta estaba durmiendo cuando robaron cargamento.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0013</td>
+        <td class="side">As&#237; que Kuta sabe bien poco sobre lo que ocurri&#243;.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0014</td>
+        <td class="side">Solo sabe que fue bicho enorme por lo que[ST:n ]sus amigop&#243;n le dijeron despu&#233;s.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0015</td>
+        <td class="side">Muchos amigop&#243;n de Kuta vieron a ladr&#243;n enorme.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0016</td>
+        <td class="side">Kuta pregunt&#243;, pero pocas pistas y muy confusas.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0017</td>
+        <td class="side">A decir verdad, a Kuta le gusta conversar,[ST:n ]pero escuchar no tanto. As&#237; que igual[ST:n ]no entendi&#243; todo bien.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0018</td>
+        <td class="side">Lo primero que [ST:Gender p1=amigo p2=amiga ] deber&#237;a hacer para recuperar[ST:n ]cargamento es ir a ver qu&#233; saben amigos de Kuta.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0019</td>
+        <td class="side">[ST:Gender p1=Amigo p2=Amiga ] tiene pinta de saber escuchar.[ST:n ]Kuta es buen orador. &#161;As&#237; que sabe lo que dice![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0020</td>
+        <td class="side">&#161;Buena suerte, [ST:Gender p1=amigo p2=amiga ]! &#161;Y muchas gracias![ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0021</td>
+        <td class="side">Sea lo que sea, &#161;parece que era muy, muy grande![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0022</td>
+        <td class="side">&#161;Esa es informaci&#243;n m&#225;s valiosa que tiene Kuta! [ST:n ]Y tambi&#233;n &#250;nica que tiene Kuta...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0023</td>
+        <td class="side">&#191;Sirve de ayuda?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0024</td>
+        <td class="side">&#191;Has conseguido informaci&#243;n relevante?[ST:n ]&#191;[ST:Gender p1=Amigo p2=Amiga ] cree que podr&#225; atrapar a ladr&#243;n rastrero?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0025</td>
+        <td class="side">Mensajero Kuta no puede[ST:n ]quedarse aqu&#237; mucho tiempo.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev041601_MSG0026</td>
+        <td class="side">Kuta espera que [ST:Gender p1=amigo p2=amiga ] atrape a culpable pronto.[ST:n ]Kuta est&#225; deseando volver a trabajo.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

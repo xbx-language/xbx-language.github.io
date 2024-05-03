@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032101_MSG1001</td>
+        <td class="side">Les tourelles anti-a&#233;riennes qui visent notre vaisseau sont[ST:n ]&#224; trois endroits diff&#233;rents, d&#39;accord ? Faites en en sorte[ST:n ]de toutes les d&#233;truire.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032101_MSG1002</td>
+        <td class="side">En temps normal, quelques tourelles ne seraient pas[ST:n ]une menace pour nous, savez-vous ? Mais l&#39;atterrissage[ST:n ]surprise a d&#233;traqu&#233; toutes nos contre-mesures...[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032101_JNK0010</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032101_SEL0011</td>
+        <td class="side">Demander &#224; Pfeffen des infos sur les Ma-nons.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032101_JNK0020</td>
+        <td class="side">Se renseigner[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032101_SEL0021</td>
+        <td class="side">Demander &#224; Pfeffen si quelque chose le perturbe.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032101_SEL0071</td>
+        <td class="side">Demander &#224; Pfeffen s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0001</td>
+        <td class="side">Rutantan, Tutura et moi-m&#234;me sommes les repr&#233;sentants[ST:n ]des Ma-nons sur ce voyage, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0002</td>
+        <td class="side">Rutantan est en quelque sorte notre directeur,[ST:n ]je crois ? Il supervise notre notre technologie[ST:n ]et d&#233;cide qui nous devons envoyer o&#249;...[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0003</td>
+        <td class="side">Tutura est plut&#244;t notre directeur commercial, non ?[ST:n ]Il vend notre technologie via Candid &amp; Credible.[ST:n ]Il est assez bon, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0004</td>
+        <td class="side">Quant &#224; moi, j&#39;ai choisi comme responsabilit&#233; de[ST:n ]m&#39;impr&#233;gner de votre culture en go&#251;tant vos pizzas[ST:n ]et en engageant des conversations comme celle-ci...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0008</td>
+        <td class="side">Salut, [ST:playername ] ! Vous nous avez[ST:n ]vraiment impressionn&#233;s avec votre attitude,[ST:n ]savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0009</td>
+        <td class="side">Maintenant que nous sommes tous amis, vous &#234;tes[ST:n ]libre de vous promener dans notre vaisseau.[ST:n ]Enfin, si vous voulez ?[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0010</td>
+        <td class="side">Lors de votre balade, vous devriez parler &#224; chaque[ST:n ]Ma-non et aider ceux qui en ont besoin.[ST:n ]Les amis sont faits pour &#231;a, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0011</td>
+        <td class="side">Les Prones ont emm&#233;nag&#233; dans la ville, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0012</td>
+        <td class="side">Nous avons donc rendu accessible la coque b&#226;bord[ST:n ]de notre vaisseau pour qu&#39;ils aient un endroit[ST:n ]o&#249; vivre, mais...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0013</td>
+        <td class="side">J&#39;esp&#232;re qu&#39;ils ne trouvent pas &#231;a trop trop confin&#233;.[ST:n ]C&#39;&#233;tait notre r&#233;serve, donc il y a toujours quelques[ST:n ]containers qui flottent par-ci par-l&#224;, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0014</td>
+        <td class="side">Alors les Orph&#233;ens ont emm&#233;nag&#233; en ville, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0015</td>
+        <td class="side">Ils disent avoir besoin d&#39;&#234;tre entour&#233;s de plantes pour[ST:n ]se sentir bien, donc nous avons... emprunt&#233; aux[ST:n ]humains quelques pots de fleurs pour le vaisseau.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0016</td>
+        <td class="side">C&#39;est tr&#232;s bien de ne faire qu&#39;un avec la nature, non ?[ST:n ]Vous pensez que nous pourrions faire pousser un gros[ST:n ]arbre directement dans notre vaisseau ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0017</td>
+        <td class="side">Les Zaruboggans ont emm&#233;nag&#233; dans la ville,[ST:n ]savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0018</td>
+        <td class="side">Apparemment ils mangent des ordures et autres d&#233;chets,[ST:n ]en gros tout ce dont nous n&#39;avons pas besoin sur[ST:n ]le vaisseau, n&#39;est-il pas ? Je les aime d&#233;j&#224;...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0019</td>
+        <td class="side">Nos factures d&#39;ordures vont bien bien baisser. Tout[ST:n ]le monde y gagne, comme disent les humains, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0020</td>
+        <td class="side">Les Wrothians ont emm&#233;nag&#233; en ville, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0021</td>
+        <td class="side">J&#39;avais peur qu&#39;ils trouvent la vie ennuyeuse dans notre[ST:n ]vaisseau, savez-vous ? Puisqu&#39;ils veulent sans arr&#234;t[ST:n ]se battre...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0022</td>
+        <td class="side">Mais leur soi-disant &#171; m&#233;ditation &#187; et entra&#238;nement[ST:n ]les ont bien occup&#233;s, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0023</td>
+        <td class="side">Et je dois admettre que leurs faux combats sont tr&#232;s[ST:n ]plaisants &#224; regarder, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0024</td>
+        <td class="side">Le vaisseau ma-non est devenu un peu plus beau[ST:n ]gr&#226;ce &#224; &#224; nos nouveaux voisins x&#233;noformes,[ST:n ]n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0025</td>
+        <td class="side">Nous avions peur de ne pas nous entendre avec eux,[ST:n ]d&#39;accord ? Or, lorsque nous avons r&#233;alis&#233; qu&#39;ils avaient[ST:n ]les m&#234;mes craintes, cela nous a rapproch&#233; d&#39;eux...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0026</td>
+        <td class="side">Nous vous sommes redevables pour ces ces nouvelles[ST:n ]amiti&#233;s, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev032101_MSG0027</td>
+        <td class="side">J&#39;aimerais pouvoir vous r&#233;compenser, mais je vais plut&#244;t[ST:n ]vous taper dans le dos en souriant, d&#39;accord ?[ST:n ]Bien. Voil&#224; voil&#224;.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev060701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev060701_JNK0010</td>
+        <td class="side">Indagar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev060701_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Pisa sobre Cauldros.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev060701_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev060701_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Pisa si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0001</td>
+        <td class="side">Todos intentamos evitar que Popote vaya a Cauldros.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0002</td>
+        <td class="side">Todo mundo sabe que en ese continente hay muchos[ST:n ]bichos peligrosos y muy poca comida.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0003</td>
+        <td class="side">Pero Popote decide llevar caravana[ST:n ]all&#237; de todas formas.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0004</td>
+        <td class="side">Caravana no encontr&#243; comida, como imagin&#225;bamos.[ST:n ]Todo mundo estaba a punto de morir de hambre.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0005</td>
+        <td class="side">Pero entonces, caravana se top&#243; con g&#233;rrido[ST:n ]que cay&#243; en magma y se as&#243; hasta ponerse[ST:n ]crujiente. &#161;Salv&#243; vida de caravana![ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0006</td>
+        <td class="side">Pisa no aceptar&#225; nunca m&#225;s viaje peligroso en que[ST:n ]hay que comer carne asquerosa para sobrevivir.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0009</td>
+        <td class="side">&#161;A Popote le gusta hablar mucho,[ST:n ]pero en fondo Popote es cobarde![ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0010</td>
+        <td class="side">Cuando caravana viaja por Cauldros,[ST:n ]&#161;Popote se pega a Pisa y tiembla como flan![ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0011</td>
+        <td class="side">Y cuando blatta nos encontr&#243;, &#161;Popote casi se fue[ST:n ]por pata abajo de miedo! &#161;Meh, meh![ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0012</td>
+        <td class="side">Aun as&#237;, Popote piensa que puede actuar como rey[ST:n ]de caravana y darle a Pisa &#243;rdenes imposibles[ST:n ]bajo amenaza de cosquillas.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0013</td>
+        <td class="side">Sabio Nan le pidi&#243; a Pisa que fuera ayudante hace[ST:n ]much&#237;simos a&#241;os, as&#237; que Pisa hace lo que Sabio dice.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0014</td>
+        <td class="side">Pero a Pisa le gustar&#237;a mucho pedir traslado[ST:n ]y empezar nueva vida normal...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev060701_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Pisa por la caravana.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev060701_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Pisa si hay alguna novedad.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0015</td>
+        <td class="side">&#161;Meh, meh! &#161;Ahora que M&#237;ster Desastre est&#225; fuera[ST:n ]de juego, negocio va sobre ruedas! &#161;Pisa est&#225; tan[ST:n ]ocupada que no puede pararse a pensar o descansar![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0016</td>
+        <td class="side">Antiguo l&#237;der obligaba a caravana a meterse[ST:n ]en magma para ganar tiempo. Entonces, bichos[ST:n ]ven&#237;an y tiraban preciosa carga en magma. &#161;Meh![ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0017</td>
+        <td class="side">Pero bueno, eso se ha acabado.[ST:n ]Pisa va a bordear magma, incluso si tarda m&#225;s.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0018</td>
+        <td class="side">&#161;Seguridad para carga, trabajadores y nopop&#243;tamos,[ST:n ]m&#225;s importante que ahorrar tiempo![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0023</td>
+        <td class="side">&#191;Ha visto [ST:Gender p1=amigo p2=amiga ] fuegos artificiales de Pisa?[ST:n ]&#161;Eran perfectos![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0024</td>
+        <td class="side">Sabio Nan envi&#243; a Pisa carta de agradecimiento.[ST:n ]Parece que Sabio va a llevar a Popote por buen[ST:n ]camino. Convertir a Popote en futuro sabio.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0025</td>
+        <td class="side">Mientras tanto, Pisa va a esforzarse[ST:n ]para mantener caravana a salvo.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0026</td>
+        <td class="side">Y Pisa intenta no pensar mucho en si Sabio de verdad[ST:n ]sabr&#225; llevar a Popote por buen camino...[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0032</td>
+        <td class="side">Caros son nocturnos.[ST:n ]Duermen como troncos durante d&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0033</td>
+        <td class="side">&#161;Es de vital importancia escabullirse de caro[ST:n ]sin hacer ruido! &#161;Es obligatorio![ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0034</td>
+        <td class="side">Pero antiguo l&#237;der no lo hac&#237;a. Antiguo l&#237;der[ST:n ]se acercaba a caro e intentaba quitarlo[ST:n ]de en medio d&#225;ndole patada. Meeeeh...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0035</td>
+        <td class="side">&#161;L&#237;der dice que peligro forma parte de trabajo![ST:n ]L&#237;der es gran idiota apestoso.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0036</td>
+        <td class="side">Caravana tiene mucha suerte de que situaci&#243;n[ST:n ]ha cambiado antes de que todos trabajadores[ST:n ]fueran aniquilados.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev060701_SEL2011</td>
+        <td class="side">Preg&#250;ntale a Pisa por la vida en NLA.</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev060701_SEL2021</td>
+        <td class="side">Preg&#250;ntale a Pisa si hay alguna novedad.</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev060701_SEL2031</td>
+        <td class="side">Preg&#250;ntale a Pisa por la vida en NLA.</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0027</td>
+        <td class="side">&#161;Bebidas humanas son deliciosas![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0037</td>
+        <td class="side">M&#225;gico elixir que amigos llaman[ST:n ]\&quot;cerveza\&quot; cambi&#243; vida de Pisa.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0038</td>
+        <td class="side">&#161;Cerveza muy fresca y burbujeante! &#161;Pisa tiene[ST:n ]ganas de decir \&quot;&#161;Aah!\&quot; despu&#233;s de cada trago![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0039</td>
+        <td class="side">Si Pisa se queda en Caravana de Drongo[ST:n ]o con cualquier familia de sabios,[ST:n ]nunca habr&#237;a probado cerveza.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0040</td>
+        <td class="side">Pisa estaba triste cuando [ST:Gender p1=amigo p2=amiga ] la eligi&#243;,[ST:n ]pero ahora entiende que fue lo mejor.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0028</td>
+        <td class="side">&#161;Pisa est&#225; furiosa! En serio, Pisa ya ha tenido suficiente.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0029</td>
+        <td class="side">Se acab&#243; vida de Pisa atrapada entre sabio[ST:n ]pervertido y nieto idiota. &#161;Toda familia ya[ST:n ]ha arruinado vida de Pisa suficiente![ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0030</td>
+        <td class="side">A partir de ahora, Pisa en libertad lejos de caravana.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0031</td>
+        <td class="side">&#161;Pisa no va a dejarse pisotear nunca m&#225;s![ST:n ]&#161;Pisa solo vive una vez![ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0041</td>
+        <td class="side">Pisa hace muchos amigos en restaurante.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0042</td>
+        <td class="side">Todos tienen historias interesantes que contar.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0043</td>
+        <td class="side">Prones combaten tristeza... Wrothian responden[ST:n ]a sentido de deber... Pisa deja vida de miseria...[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev060701_MSG0044</td>
+        <td class="side">Pisa no habr&#237;a vivido eso si no fuera por [ST:Gender p1=amigo p2=amiga ].[ST:n ]&#161;Vida est&#225; llena de sorpresas![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

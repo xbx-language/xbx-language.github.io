@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CHR_ClassListCaption_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="../index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td class="side">Es la clase con la que se empieza.[ST:n ]Ofrece una variedad equilibrada de artes,[ST:n ]pero sin bonificaciones por estad&#237;sticas.</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td class="side">Elige esta rama si te interesan las armas[ST:n ]de fuego. Mezcla artes defensivas y ofensivas;[ST:n ]y da bonus de PV y de ataques cuerpo a c.[ST:n ]Es la clase perfecta para principiantes.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td class="side">Es la progresi&#243;n habitual desde bombardero.[ST:n ]Mantiene la mezcla de artes ofensivas y[ST:n ]defensivas con bonus de PV y cuerpo a c.[ST:n ]Perfecta para principiantes.</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td class="side">Utiliza artiller&#237;a samur&#225;i avanzada y est&#225;[ST:n ]orientada a la ofensiva. Ofrece bonus de PV[ST:n ]y cuerpo a cuerpo. [ST:col p1=green ]Alcanza el nivel 10[ST:n ]para dominar las armas de esta clase.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td class="side">Es la progresi&#243;n alternativa desde bombardero[ST:n ]con nuevas armas y centrada en la defensa.[ST:n ]Aumenta los PV y el ataque cuerpo a cuerpo.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td class="side">El nivel de resistencia y defensa es mayor.[ST:n ]Aumenta los PV y el ataque cuerpo a cuerpo.[ST:n ][ST:col p1=green ]Alcanza el nivel 10 para dominar sus armas.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td class="side">Elige esta rama si quieres aumentar el da&#241;o[ST:n ]infligido. Se centra en los refuerzos de da&#241;o[ST:n ]y ofrece bonus de precisi&#243;n de evasi&#243;n y de[ST:n ]los ataques cuerpo a cuerpo y a distancia.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td class="side">Es la progresi&#243;n habitual desde comando.[ST:n ]Mejora las capacidades para absorber da&#241;o[ST:n ]y mantiene los bonus de precisi&#243;n de evasi&#243;n[ST:n ]y de los ataques cuerpo a c. y a distancia.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td class="side">Esta clase utiliza complejas artes ofensivas[ST:n ]y ofrece bonus de precisi&#243;n de evasi&#243;n y de[ST:n ]los ataques cuerpo a cuerpo y a distancia.[ST:n ][ST:col p1=green ]Alcanza el nivel 10 para dominar sus armas.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td class="side">Es la progresi&#243;n alternativa desde comando.[ST:n ]Utiliza armas nuevas y se centra en el ataque[ST:n ]a distancia. Ofrece bonus para los ataques[ST:n ]cuerpo a cuerpo y de precisi&#243;n.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td class="side">Se centra en los ataques a distancia y ofrece[ST:n ]bonus para los ataques a distancia[ST:n ]y de precisi&#243;n. [ST:col p1=green ]Alcanza el nivel 10[ST:n ]para dominar las armas de esta clase.</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td class="side">Elige esta rama si quieres ofrecer apoyo[ST:n ]desde lejos. Otorga muchas artes a distancia[ST:n ]y bonus de ataque a distancia y de potencial.[ST:n ]Es dif&#237;cil de dominar. Ideal para profesionales.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td class="side">Es la progresi&#243;n habitual desde ejecutor.[ST:n ]Abate al enemigo usando debilidades y gana[ST:n ]bonus de ataques a distancia y de potencial.[ST:n ]Es dif&#237;cil de dominar. Ideal para profesionales.</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td class="side">A&#241;ade artes de apoyo de los aliados[ST:n ]a la mezcla de las debilidades del enemigo.[ST:n ]Mejora el ataque a distancia y el potencial.[ST:n ][ST:col p1=green ]Alcanza el nivel 10 para dominar sus armas.</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td class="side">Es la progresi&#243;n alternativa desde ejecutor,[ST:n ]con nuevas armas y equilibrio entre defensa[ST:n ]y ataque. Ofrece bonus de ataques cuerpo[ST:n ]a cuerpo y a distancia.</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td class="side">A&#241;ade artes de recuperaci&#243;n a su homog&#233;nea[ST:n ]mezcla de artes ofensivas y defensivas.[ST:n ]Mejora el ataque c. a c. y a distancia.[ST:n ][ST:col p1=green ]Alcanza el nivel 10 para dominar sus armas.</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

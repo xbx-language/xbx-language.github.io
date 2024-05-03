@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev056401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0001</td>
+        <td class="side">Hmmm... Diese Angelegenheit ist zu wichtig, um sie[ST:n ]zu ignorieren. Auch die Orphen sind substanziell von[ST:n ]diesem Problem betroffen.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0002</td>
+        <td class="side">Wir Orphen werden der Menschheit unsere[ST:n ]Fertigkeiten zur Verf&#252;gung stellen. Im Gegenzug[ST:n ]bitte ich euch, uns zu helfen.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev056401_JNK0010</td>
+        <td class="side">Nachfragen</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev056401_SEL0011</td>
+        <td class="side">Frage, was genau das Problem der Orphen ist.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev056401_JNK0020</td>
+        <td class="side">Erkundigen</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev056401_SEL0021</td>
+        <td class="side">Frage Tan’celeg, von welcher Angelegenheit er spricht.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0003</td>
+        <td class="side">Es hat mit der Sicherheit des[ST:n ]Biahno-Wasserwerks zu tun.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0004</td>
+        <td class="side">Unl&#228;ngst gab es einen Vorfall, bei dem Menschen im[ST:n ]Bereich der Anlage von Cantores attackiert wurden.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0005</td>
+        <td class="side">Wir Orphen haben einen Plan, der gew&#228;hrleisten kann,[ST:n ]dass sich solch eine Trag&#246;die nicht erneut ereignet.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0006</td>
+        <td class="side">Er setzt jedoch die Kooperation deiner Spezies voraus.[ST:n ]Da beide Seiten von unserem Vorhaben profitieren,[ST:n ]hoffe ich, dass wir es gemeinsam realisieren k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0007</td>
+        <td class="side">Ich sprach vom Angriff auf das Biahno-Wasserwerk.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0008</td>
+        <td class="side">Einheimische Kreaturen, genannt Cantores, attackierten[ST:n ]zahlreiche Menschen im Bereich der Anlage.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0009</td>
+        <td class="side">Wir Orphen haben einen Plan, der gew&#228;hrleisten kann,[ST:n ]dass sich solch eine Trag&#246;die nicht erneut ereignet.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0010</td>
+        <td class="side">Er setzt jedoch die Kooperation deiner Spezies voraus.[ST:n ]Da beide Seiten von unserem Vorhaben profitieren,[ST:n ]hoffe ich, dass wir es gemeinsam realisieren k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev056401_JNK0050</td>
+        <td class="side">Nach Nutzen fragen</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev056401_SEL0051</td>
+        <td class="side">Frage, was die Orphen sich davon versprechen.</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev056401_JNK0060</td>
+        <td class="side">Nach Plan fragen</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev056401_SEL0061</td>
+        <td class="side">Bitte Tan’celeg, den Plan zu erl&#228;utern.</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0013</td>
+        <td class="side">Du bist dir sicherlich der Tatsache bewusst, dass wir[ST:n ]Orphen f&#252;r unsere Fortpflanzung auf Senirapa-Wasser[ST:n ]angewiesen sind?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0014</td>
+        <td class="side">Unser Herstellungsprozess f&#252;r dieses Wasser setzt die[ST:n ]Funktionst&#252;chtigkeit des Biahno-Wasserwerks voraus.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0015</td>
+        <td class="side">Eine Bedrohung der Anlage durch einheimische[ST:n ]Kreaturen ist f&#252;r uns nicht hinnehmbar.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0016</td>
+        <td class="side">Doch wie sollen wir sie verteidigen? Die Anzahl der[ST:n ]Menschen ist begrenzt, und damit auch die Zahl der[ST:n ]Aufgaben, die euch BLADEs zugemutet werden k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0017</td>
+        <td class="side">Als Alternative schlagen wir die Verwendung[ST:n ]von W&#228;chterbots vor.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0018</td>
+        <td class="side">Wir schlagen vor, W&#228;chterbots einzusetzen, um[ST:n ]die Anlage und ihre Umgebung zu verteidigen.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0019</td>
+        <td class="side">Die Anzahl der Menschen ist begrenzt, und damit auch[ST:n ]die Zahl der Aufgaben, die euch BLADEs zugemutet[ST:n ]werden k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0020</td>
+        <td class="side">Du bist dir sicherlich der Tatsache bewusst, dass wir[ST:n ]Orphen f&#252;r unsere Fortpflanzung auf Senirapa-Wasser[ST:n ]angewiesen sind?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0021</td>
+        <td class="side">Unser Herstellungsprozess f&#252;r dieses Wasser setzt die[ST:n ]Funktionst&#252;chtigkeit des Biahno-Wasserwerks voraus.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0022</td>
+        <td class="side">Eine Bedrohung durch einheimische Kreaturen ist[ST:n ]f&#252;r uns nicht hinnehmbar und wir glauben, dass[ST:n ]ein W&#228;chterbot die L&#246;sung sein k&#246;nnte.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0023</td>
+        <td class="side">W&#228;chterbots erfordern keinerlei Personal,[ST:n ]sondern funktionieren vollkommen selbstt&#228;tig.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0024</td>
+        <td class="side">Sie sollten durchaus in der Lage sein, sowohl den[ST:n ]See als auch das Wasserwerk selbst zu sch&#252;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0025</td>
+        <td class="side">Wir arbeiten bereits hart an der Konstruktion eines[ST:n ]Prototypen, uns fehlen jedoch noch einige Bauteile.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0026</td>
+        <td class="side">Ich m&#246;chte dich bitten, die Ouroboros-Kristalle und[ST:n ]Vernichtungsvisiere zu beschaffen, die wir f&#252;r unsere[ST:n ]Arbeit ben&#246;tigen.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0027</td>
+        <td class="side">Beides sollte au&#223;erhalb von NLA zu finden sein.[ST:n ]Wir wissen deine Hilfe sehr zu sch&#228;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0028</td>
+        <td class="side">Uns fehlen die n&#246;tigen Bauteile f&#252;r die Fertigstellung[ST:n ]unseres W&#228;chterbot-Prototypen.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0029</td>
+        <td class="side">Sobald wir die Ouroboros-Kristalle und die[ST:n ]Vernichtungsvisiere haben, sollte es uns ein[ST:n ]Leichtes sein, ihn fertigzustellen.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0030</td>
+        <td class="side">Beides sollte au&#223;erhalb von NLA zu finden sein.[ST:n ]Wir wissen deine Hilfe sehr zu sch&#228;tzen.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0031</td>
+        <td class="side">Die Arbeiten hier sind nahezu abgeschlossen.[ST:n ]Wir warten lediglich auf die fehlenden Bauteile.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0032</td>
+        <td class="side">Wie schreitet deine Suche voran? Konntest du[ST:n ]Ouroboros-Kristalle und Vernichtungsvisiere besorgen?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0033</td>
+        <td class="side">Exzellente Arbeit. Ich sehe, ich habe [ST:Gender p1=den richtigen Mann p2=die richtige Frau ][ST:n ]mit der Aufgabe betraut.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0034</td>
+        <td class="side">Sobald die Teile eingebaut sind, k&#246;nnen wir mit[ST:n ]dem Feldversuch beginnen.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0035</td>
+        <td class="side">Deine Hilfe w&#228;re auch in dieser Phase sehr erw&#252;nscht,[ST:n ]falls du etwas Zeit hierf&#252;r entbehren k&#246;nntest.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0036</td>
+        <td class="side">Der Prototyp wurde bereits zum Test-Hangar[ST:n ]transportiert.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0037</td>
+        <td class="side">Wenn du uns erneut helfen m&#246;chtest, findest du mich[ST:n ]dort. Stelle bitte sicher, alle n&#246;tigen Vorbereitungen[ST:n ]vorab zu treffen.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0038</td>
+        <td class="side">Danke f&#252;r dein Kommen. Ich habe soeben die[ST:n ]letzten Feinjustierungen vorgenommen.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0039</td>
+        <td class="side">Nun, wie gef&#228;llt er dir? Da seine Aufgabe der Schutz[ST:n ]eines Geb&#228;udes der Menschen ist, habe ich versucht,[ST:n ]auch das Design an ihren Geschmack anzupassen.[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0040</td>
+        <td class="side">Dein Volk hat eine Schw&#228;che f&#252;r derartige Gestaltung,[ST:n ]nicht wahr? Daher gehe ich davon aus, dass auch du[ST:n ]es magst.[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev056401_JNK0030</td>
+        <td class="side">Best&#228;tigen</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev056401_SEL0031</td>
+        <td class="side">Sage, dass du das Design ansprechend findest.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev056401_JNK0040</td>
+        <td class="side">Widersprechen</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev056401_SEL0041</td>
+        <td class="side">Bezeichne das Design unverhohlen als scheu&#223;lich.</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0041</td>
+        <td class="side">Wunderbar. Bei vorherigen Designs, die nach der[ST:n ]&#196;sthetik der Orphen gestaltet wurden, hatten wir das[ST:n ]Problem, dass sie den Menschen... Angst einjagten.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0042</td>
+        <td class="side">Ich bin froh, dass sich die &#220;berarbeitung[ST:n ]ausgezahlt hat.[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0043</td>
+        <td class="side">Wobei wir uns sicher einig sind, dass die &#228;u&#223;ere[ST:n ]Gestalt weniger wichtig ist als die hochmoderne[ST:n ]orpheanische Technologie, die ihr innewohnt.[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0044</td>
+        <td class="side">Hmmm... Die Nuancen menschlicher Empfindungen[ST:n ]sind schwer zu durchschauen.[ST:wait ]</td>
+      </tr>
+      <tr id="55">
+        <td>55</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0045</td>
+        <td class="side">Doch ohnehin ist die &#228;u&#223;ere Gestalt weniger wichtig als[ST:n ]die hochmoderne orpheanische Technologie,[ST:n ]die ihr innewohnt.[ST:wait ]</td>
+      </tr>
+      <tr id="56">
+        <td>56</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0046</td>
+        <td class="side">Ich bitte dich inst&#228;ndig, dich voll und ganz auf diesen[ST:n ]Test zu konzentrieren. Ein Moment der Unachtsamkeit[ST:n ]kann schwere Verletzungen nach sich ziehen.[ST:wait ]</td>
+      </tr>
+      <tr id="57">
+        <td>57</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0047</td>
+        <td class="side">Bist du bereit? Je mehr Kampfdaten du uns liefern[ST:n ]kannst, desto besser.[ST:wait ]</td>
+      </tr>
+      <tr id="58">
+        <td>58</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0048</td>
+        <td class="side">Danke. Du hast uns exzellente Daten beschert.[ST:wait ]</td>
+      </tr>
+      <tr id="59">
+        <td>59</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0049</td>
+        <td class="side">Wir werden diese Erkenntnisse nutzen und die[ST:n ]Konstruktion ein letztes Mal &#252;berarbeiten, bevor die[ST:n ]W&#228;chterbots am Biahnosee zum Einsatz kommen.[ST:wait ]</td>
+      </tr>
+      <tr id="60">
+        <td>60</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0050</td>
+        <td class="side">Ich bin mir sicher, dass sie das Wasserwerk selbst vor[ST:n ]den wildesten einheimischen Kreaturen sch&#252;tzen werden.[ST:wait ]</td>
+      </tr>
+      <tr id="61">
+        <td>61</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0051</td>
+        <td class="side">Damit sichern wir uns einen zuverl&#228;ssigen Nachschub[ST:n ]reinen Wassers, aus dem wir Senirapa-Wasser[ST:n ]gewinnen k&#246;nnen.[ST:wait ]</td>
+      </tr>
+      <tr id="62">
+        <td>62</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0052</td>
+        <td class="side">Dadurch w&#228;ren wir imstande, unsere Anzahl stetig[ST:n ]zu erh&#246;hen.[ST:wait ]</td>
+      </tr>
+      <tr id="63">
+        <td>63</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0053</td>
+        <td class="side">Dies sind hervorragende Neuigkeiten f&#252;r uns Orphen.[ST:wait ]</td>
+      </tr>
+      <tr id="64">
+        <td>64</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0054</td>
+        <td class="side">Mein Plan war es, den W&#228;chterbot im Test-Hangar[ST:n ]einer Proberunde zu unterziehen, doch scheint das[ST:n ]derzeit nicht m&#246;glich zu sein.[ST:wait ]</td>
+      </tr>
+      <tr id="65">
+        <td>65</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0055</td>
+        <td class="side">Mir wurde gesagt, ich m&#252;sse warten, bis die dort[ST:n ]stattfindenden Aktivit&#228;ten beendet seien.[ST:wait ]</td>
+      </tr>
+      <tr id="66">
+        <td>66</td>
+        <td>
+        </td>
+        <td>qev056401_MSG0056</td>
+        <td class="side">Ich sehe keine andere M&#246;glichkeit, als geduldig[ST:n ]hier auszuharren.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

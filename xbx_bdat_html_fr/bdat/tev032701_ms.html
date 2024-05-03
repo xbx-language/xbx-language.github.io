@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032701_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0011</td>
+        <td class="side">Demander &#224; Bihabba ce qu&#39;il pense des humains.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">Demander &#224; Bihabba s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0031</td>
+        <td class="side">Interroger Bihabba &#224; propos du Skell[ST:n ]trouv&#233; dans Noctilum.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0041</td>
+        <td class="side">Demander &#224; Bihabba des infos sur le Skell[ST:n ]que le Ganglion a vol&#233;.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0051</td>
+        <td class="side">Demander &#224; Bihabba des d&#233;tails sur les gens[ST:n ]qui vivent sur le vaisseau ma-non.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0010</td>
+        <td class="side">tev032701_JNK0010</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0061</td>
+        <td class="side">Demander &#224; Bihabba de vous parler de la bataille finale[ST:n ]dans le noyau de l&#39;arche de vie.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032701_JNK0020</td>
+        <td class="side">tev032701_JNK0020</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032701_SEL0021</td>
+        <td class="side">tev032701_SEL0021</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032701_SEL1011</td>
+        <td class="side">Demander &#224; Bihabba ce qu&#39;il pense des humains.</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032701_SEL1021</td>
+        <td class="side">Demander &#224; Bihabba s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0001</td>
+        <td class="side">Nous avons travers&#233; de nombreuses galaxies,[ST:n ]mais nous n&#39;avions encore jamais rencontr&#233;[ST:n ]quelqu&#39;un comme vous, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0002</td>
+        <td class="side">Vous &#234;tes compos&#233;s de machines... Et vous fabriquez[ST:n ]cette nourriture &#233;trange... Et vos v&#234;tements sont si...[ST:n ]Eh bien, tout ceci est tr&#232;s inhabituel, voyez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0003</td>
+        <td class="side">Cela nous fait plaisir d&#39;&#233;tudier un troupeau[ST:n ]de myst&#232;res sur pattes comme vous, d&#39;accord ?[ST:n ]J&#39;esp&#232;re que vous appr&#233;ciez &#233;galement...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0008</td>
+        <td class="side">Nous utilisons toutes nos comp&#233;tences de Ma-nons[ST:n ]pour vous aider sur Mira, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0009</td>
+        <td class="side">Nous avons m&#234;me cr&#233;&#233; Candid &amp; Credible pour[ST:n ]vous approvisionner en armes, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0010</td>
+        <td class="side">Des gens comme Heradot r&#233;parent le vaisseau pour[ST:n ]que nous puissions retourner dans l&#39;espace[ST:n ]quand le temps sera venu, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0011</td>
+        <td class="side">Je ne suis pas aussi dou&#233; avec les machines que[ST:n ]certains Ma-nons. Donc je ne fais que surveiller[ST:n ]pour que personne ne soit bless&#233;, vous comprenez ?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0016</td>
+        <td class="side">Oh, vous avez trouv&#233; le Skell sur lequel le Ganglion[ST:n ]essayait de poser ses sales pattes ? C&#39;est g&#233;nial ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0017</td>
+        <td class="side">S&#39;ils faisaient tout pour le r&#233;cup&#233;rer alors[ST:n ]qu&#39;ils poss&#233;daient d&#233;j&#224; de dangereux[ST:n ]Skells, cela voulait tout dire, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0018</td>
+        <td class="side">Cette chose ne pr&#233;sage rien de bon, n&#39;est-il pas ?[ST:n ]Elle est peut-&#234;tre m&#234;me pire que ce que l&#39;on pense...[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0019</td>
+        <td class="side">Bref, r&#233;fl&#233;chissez-y bien &#224; deux fois avant[ST:n ]de commencer &#224; le bidouiller, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0025</td>
+        <td class="side">Ne pensez-vous pas que ce Skell est un d&#233;sastre[ST:n ]potentiel ? Cela ne me surprendrait pas qu&#39;il soit[ST:n ]assez puissant pour an&#233;antir la plan&#232;te...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0026</td>
+        <td class="side">Il s&#39;agit du Ganglion, d&#39;accord ? Avec tous les efforts[ST:n ]qu&#39;ils ont fournis pour le r&#233;cup&#233;rer, il doit &#234;tre[ST:n ]tr&#232;s important...[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0027</td>
+        <td class="side">C&#39;est calme d&#233;sormais, nous devons nous tenir pr&#234;ts[ST:n ]&#224; faire face &#224; la prochaine mauvaise surprise[ST:n ]qu&#39;ils nous r&#233;servent, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0035</td>
+        <td class="side">Est-il vrai que le Ganglion s&#39;est servi d&#39;un de[ST:n ]vos hommes pour vous doubler ? Nous &#233;tions[ST:n ]paniqu&#233;s quand nous avons appris la nouvelle.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0036</td>
+        <td class="side">S&#39;ils ont r&#233;ussi &#224; se servir d&#39;un humain, alors quelqu&#39;un[ST:n ]pourrait entrer ici et faire exploser notre vaisseau,[ST:n ]n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0037</td>
+        <td class="side">Cela est assez angoissant pour que des Ma-nons[ST:n ]sugg&#232;rent que nous interdisions le vaisseau[ST:n ]aux humains, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0038</td>
+        <td class="side">Bref, c&#39;est plut&#244;t chaotique dans le vaisseau[ST:n ]actuellement, donc j&#39;esp&#232;re que nous allons[ST:n ]bient&#244;t faire quelque chose...[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0045</td>
+        <td class="side">Au moins, cette monstruosit&#233; de Zu Pharg n&#39;est plus[ST:n ]de ce monde, d&#39;accord ? Mais bon...[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0046</td>
+        <td class="side">Le Ganglion va remuer ciel et terre, maintenant[ST:n ]que le d&#233;nouement approche, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0047</td>
+        <td class="side">N&#39;oubliez pas qu&#39;ils poss&#232;dent toujours[ST:n ]le myst&#233;rieux Skell qu&#39;ils ont vol&#233;, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>tev032701_MSG0048</td>
+        <td class="side">Vous devez faire tr&#232;s attention quand vous sortez,[ST:n ]non ? Maintenant, allez chercher vos v&#233;ritables[ST:n ]corps, et revenez [ST:Gender p1=sain et sauf p2=saine et sauve ].[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1001</td>
+        <td class="side">Vous vous &#234;tes [ST:Gender p1=occup&#233; p2=occup&#233;e ] du Ganglion et nous avons[ST:n ]presque fini de r&#233;parer notre vaisseau...[ST:wait ]</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1002</td>
+        <td class="side">Nous en avons discut&#233;, et je pense que nous sommes[ST:n ]pr&#234;ts &#224; retourner dans l&#39;espace...[ST:wait ]</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1003</td>
+        <td class="side">Comment &#231;a ? Revenir bient&#244;t ?[ST:n ]Nous allons vous manquez ?[ST:wait ]</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1004</td>
+        <td class="side">Eh bien, euh... Ne vous inqui&#233;tez pas, savez-vous ?[ST:n ]Nous reviendrons &#224; New L.A. d&#232;s que nous aurons[ST:n ]achev&#233; notre exp&#233;dition de recherches, d&#39;accord ?[ST:wait ]</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1005</td>
+        <td class="side">Vous avez pratiquement chang&#233; le destin de notre race[ST:n ]en faisant de nous des accros &#224; la pizza, donc qui sait[ST:n ]ce qu&#39;il nous arriverait si nous ne revenions pas ?[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1010</td>
+        <td class="side">Maintenant que nous n&#39;avons plus &#224; craindre une[ST:n ]menace venant du ciel, Heradot a d&#233;cid&#233; de manger[ST:n ]une pizza au-dessus du vaisseau, savez-vous ?[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1011</td>
+        <td class="side">Tout se passait tr&#232;s bien jusqu&#39;&#224; ce qu&#39;elle fasse tomber[ST:n ]sa derni&#232;re tranche de salami.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1012</td>
+        <td class="side">Eh bien, elle a saut&#233; du vaisseau pour essayer[ST:n ]de la rattraper ! Vous imaginez ?[ST:wait ]</td>
+      </tr>
+      <tr id="53">
+        <td>53</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1013</td>
+        <td class="side">Je pensais que c&#39;en &#233;tait fini d&#39;elle, mais elle a attrap&#233;[ST:n ]la tranche en plein vol, fait un double saut p&#233;rilleux[ST:n ]et et a atterri dans l&#39;eau sans souci. Pas mal, non ?[ST:wait ]</td>
+      </tr>
+      <tr id="54">
+        <td>54</td>
+        <td>
+        </td>
+        <td>tev032701_MSG1014</td>
+        <td class="side">R&#233;flexes plut&#244;t impressionnants, n&#39;est-il pas ?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

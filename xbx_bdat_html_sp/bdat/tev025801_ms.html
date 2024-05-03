@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev025801_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Yolanda qu&#233; hace aqu&#237;.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Yolanda si ha o&#237;do[ST:n ]alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0010</td>
+        <td class="side">tev025801_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0011</td>
+        <td class="side">tev025801_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev025801_JNK0020</td>
+        <td class="side">tev025801_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev025801_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Yolanda si ha o&#237;do[ST:n ]alg&#250;n rumor interesante.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev025801_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Yolanda si hay alguna novedad.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0001</td>
+        <td class="side">&#191;T&#250; qu&#233; crees?[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0002</td>
+        <td class="side">Estamos aqu&#237; de ch&#225;chara, bebiendo y jugando[ST:n ]al p&#243;quer. Intentando averiguar c&#243;mo vamos a sacar[ST:n ]pasta con nuestra pr&#243;xima misi&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0003</td>
+        <td class="side">&#191;Alg&#250;n problema?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0004</td>
+        <td class="side">No pienses que todo el mundo en BLADE[ST:n ]es un borrego del reba&#241;o de Nagi y Vandham.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0005</td>
+        <td class="side">Ma&#241;ana podr&#237;amos estar todos muertos, as&#237; que[ST:n ]todo el que no disfrute al m&#225;ximo los placeres[ST:n ]pecaminosos de la vida es tonto de remate.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0010</td>
+        <td class="side">No te he visto por aqu&#237; antes. &#191;Eres [ST:Gender p1=nuevo p2=nueva ]?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0011</td>
+        <td class="side">Bien, d&#233;jame darte un consejo...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0012</td>
+        <td class="side">Si te encuentras con un bomb&#243;n rubio[ST:n ]de mirada fulminante, &#161;al&#233;jate![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0013</td>
+        <td class="side">Como piense que la has mirado mal... &#161;Raaaaas![ST:n ]Directa al coraz&#243;n, cr&#233;eme. Ocurre a diario.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0018</td>
+        <td class="side">&#161;Ey! &#191;Quieres un consejillo? &#161;Claro que lo quieres![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0019</td>
+        <td class="side">Ten cuidado con la Sicaria.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0020</td>
+        <td class="side">Se ha cargado a un mont&#243;n de BLADE[ST:n ]y no me refiero al hombro. &#161;Je, je, je![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0021</td>
+        <td class="side">A algunos por la espalda, otros mientras dorm&#237;an.[ST:n ]Varios en el campamento. Pero todos recibieron[ST:n ]lo mismo, un destello de acero y... &#161;Raaaaas![ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0022</td>
+        <td class="side">&#191;Crees que por ser BLADE ya es maja? &#161;Ja![ST:n ]Mant&#233;n la cabeza fr&#237;a si quieres conservar[ST:n ]el resto de tu cuerpo, &#191;entendido?[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0027</td>
+        <td class="side">Deber&#237;as cerrar la boquita, mona. &#191;C&#243;mo se supone[ST:n ]que una mujer respetable va a llevar un negocio[ST:n ]contigo parloteando por ah&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0028</td>
+        <td class="side">Cuidado con quien te metes. Si no cierras la boca,[ST:n ]&#161;puede que alguien venga a cerr&#225;rtela![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0029</td>
+        <td class="side">Espera, &#191;ya os conoc&#237;ais?[ST:n ]Eh... Vale, &#161;qu&#233; bocazas soy![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0030</td>
+        <td class="side">D&#233;jame corregir mi frase: la Sicaria es una[ST:n ]cualificada y honrada Curator y, para nada,[ST:n ]una asesina sin escr&#250;pulos. &#191;As&#237; mejor?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev025801_MSG0031</td>
+        <td class="side">S&#237;, mucho mejor. Aseg&#250;rate de informarme en cuanto[ST:n ]te enteres de una oportunidad lucrativa, &#191;est&#225; claro?[ST:n ]Gracias, cari&#241;o.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1001</td>
+        <td class="side">&#191;Sab&#237;as que eres la apuesta favorita[ST:n ]de todos los que estamos aqu&#237;?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1002</td>
+        <td class="side">Estamos jug&#225;ndonos unos cr&#233;ditos a ver cu&#225;nto tiempo[ST:n ]duras junt&#225;ndote con la Sicaria sin que te mate.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1003</td>
+        <td class="side">Yo he dicho que \&quot;no mucho\&quot;, as&#237; que hazme un favor[ST:n ]y d&#233;jate acuchillar pronto, &#191;vale?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1009</td>
+        <td class="side">&#161;Eso suena fascinante! &#191;Puedo apostar?[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1010</td>
+        <td class="side">&#161;Eso no ser&#237;a justo! Puedes decidir d&#237;a y hora[ST:n ]y &#161;apu&#241;alar [ST:Gender p1=al chico p2=a la chica ] en el momento justo![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev025801_MSG1011</td>
+        <td class="side">Oh, pero &#161;si no iba a apostar contra [ST:Gender p1=&#233;l p2=ella ]![ST:n ]En fin, &#161;disfruten del juego, se&#241;oras![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

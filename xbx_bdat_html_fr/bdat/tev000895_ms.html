@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev000895_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0001</td>
+        <td class="side">Salut, [ST:playername ].[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0002</td>
+        <td class="side">Dis-moi, tu vivais dans une maison comme celle-ci[ST:n ]quand tu &#233;tais sur Terre ?[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev000895_JNK0010</td>
+        <td class="side">Confirmer[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev000895_SEL0011</td>
+        <td class="side">Lui dire que vous en avez un vague souvenir.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev000895_JNK0020</td>
+        <td class="side">D&#233;mentir[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev000895_SEL0021</td>
+        <td class="side">Lui dire que vous viviez certainement en appartement.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev000895_JNK0030</td>
+        <td class="side">Hausser les &#233;paules[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev000895_SEL0031</td>
+        <td class="side">Lui dire que vous n&#39;en savez rien.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0010</td>
+        <td class="side">Ah, tu as donc au moins de vagues souvenirs sur[ST:n ]ce genre de choses ?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0011</td>
+        <td class="side">Je parie que tu vivais dans une grande maison, que tu[ST:n ]jouais avec ton chien dans le jardin et que t&#39;organisais[ST:n ]des f&#234;tes le week-end. &#199;a devait &#234;tre la folie ![ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0012</td>
+        <td class="side">Je ne me rappelle pas de ce genre de choses. Quand[ST:n ]j&#39;essaie de me rappeler de ma vie, c&#39;est pas super.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0013</td>
+        <td class="side">Je ne me rappelle pas d&#39;avoir jou&#233; au basket dans un[ST:n ]jardin, ni d&#39;avoir roul&#233; dans une voiture que mes[ST:n ]parents m&#39;auraient offerte...[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0014</td>
+        <td class="side">Je pensais que toi et moi &#233;tions dans le m&#234;me bateau,[ST:n ]mais je commence &#224; croire que ce n&#39;est peut-&#234;tre[ST:n ]pas le cas.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0016</td>
+        <td class="side">Ouais, ce n&#39;est pas impossible.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0017</td>
+        <td class="side">Je ne me rappelle pas de grand-chose, mais je sais[ST:n ]que je n&#39;ai jamais v&#233;cu dans une maison comme[ST:n ]celle-l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0018</td>
+        <td class="side">Je ne me rappelle pas d&#39;avoir jou&#233; au basket dans un[ST:n ]jardin, ni d&#39;avoir roul&#233; dans une voiture que mes[ST:n ]parents m&#39;auraient offerte...[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0019</td>
+        <td class="side">Mais si tu vivais dans un appartement, peut-&#234;tre que[ST:n ]moi aussi ?[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0020</td>
+        <td class="side">Ouais, &#231;a me dit quelque chose. H&#233;. Je crois que je me[ST:n ]disputais souvent avec le rocker d&#39;&#224; c&#244;t&#233; qui jouait de[ST:n ]la guitare &#224; n&#39;importe quelle heure de la nuit.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0022</td>
+        <td class="side">Ah, tu ne t&#39;en rappelles pas non plus, hein ?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0023</td>
+        <td class="side">Il doit y avoir un probl&#232;me dans la fa&#231;on dont l&#39;arche[ST:n ]de vie pr&#233;serve les souvenirs.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0024</td>
+        <td class="side">Si tout le monde perd la m&#233;moire comme nous,[ST:n ]alors le projet Exodus n&#39;aura servi &#224; rien ![ST:n ]Ils ont int&#233;r&#234;t &#224; r&#233;parer tout &#231;a ![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0026</td>
+        <td class="side">Bon, je retourne dans le quartier administratif.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0027</td>
+        <td class="side">Il faut que j&#39;aille parler &#224; Eleonora. On m&#39;a demand&#233; si[ST:n ]&#231;a m&#39;int&#233;ressait d&#39;&#234;tre transf&#233;r&#233; dans la division[ST:n ]des Harriers.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0028</td>
+        <td class="side">Et ouais, &#231;a m&#39;int&#233;resse. Je pense que c&#39;est le bon[ST:n ]moment pour arr&#234;ter la recherche de d&#233;bris.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0029</td>
+        <td class="side">Mais je me suis aussi fait de bons amis parmi les[ST:n ]Reclaimers. Alors je vais en discuter avec Eleonora[ST:n ]et y r&#233;fl&#233;chir s&#233;rieusement.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0030</td>
+        <td class="side">Mais o&#249; que j&#39;atterrisse, je suis toujours le m&#234;me. Alors[ST:n ]si t&#39;as besoin de quoi que ce soit, je suis l&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev000895_MSG0031</td>
+        <td class="side">Continuons de botter les miches de cette plan&#232;te ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

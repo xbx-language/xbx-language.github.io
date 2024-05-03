@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev050106_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0001</td>
+        <td class="side">Sein &#196;u&#223;eres mag besonnen sein, doch in der Brust[ST:n ]Gi Ziordes brennt ein gl&#252;hend’ Feuer.[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0002</td>
+        <td class="side">Es ist Euch verdankt, dass ich nun den gro&#223;en Krieger[ST:n ]in meinem Mitstreiter wahrnehme.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0003</td>
+        <td class="side">Wie? Der Meister hie&#223; Euch, mit uns beiden zu fechten?[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0004</td>
+        <td class="side">Die Schmach unseres letzten Gefechts wird sich nicht[ST:n ]wiederholen! Seid Ihr sogleich bereit zum Kampf oder[ST:n ]w&#252;nscht Ihr einen Aufschub?[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev050106_JNK0010</td>
+        <td class="side">Best&#228;tigen</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev050106_SEL0011</td>
+        <td class="side">Antworte, dass du jederzeit bereit zum Kampf bist.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev050106_JNK0020</td>
+        <td class="side">Ablehnen</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev050106_SEL0021</td>
+        <td class="side">Erkl&#228;re, dass du noch etwas Zeit[ST:n ]zur Vorbereitung brauchst.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0005</td>
+        <td class="side">Unsere vereinten Kampfesk&#252;nste verm&#246;gen es, selbst[ST:n ]einen Fels zu Staube zu zermalmen.[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0006</td>
+        <td class="side">Wenn Ihr nicht parat zum Kampfe seid, mag Euch das[ST:n ]wohl das Leben kosten.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0007</td>
+        <td class="side">Bereit, Gi Ziorde?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0008</td>
+        <td class="side">Mein Herz brennt unabl&#228;ssig auf einen Kampf,[ST:n ]besonders mit Euch an meiner Seite.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0009</td>
+        <td class="side">Nutzt Eure St&#228;rke wie es Euch beliebt,[ST:n ]ich halte Euch den R&#252;cken frei.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0010</td>
+        <td class="side">Ha ha! So gibt es nichts zu bef&#252;rchten![ST:n ]Auf ins Gefecht![ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0011</td>
+        <td class="side">Mein Weg f&#252;hrte mich hierher in den Testhahn-Garr,[ST:n ]da mich hier, so hie&#223; es, ein wahrer Kampf erwartet.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0012</td>
+        <td class="side">Doch wie ich sehe, wurdet Ihr[ST:n ]bereits herausgefordert![ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev050106_MSG0013</td>
+        <td class="side">Vielleicht dient Euch dieser Kampf zur Erw&#228;rmung[ST:n ]Eurer Muskeln? Ha ha ha![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

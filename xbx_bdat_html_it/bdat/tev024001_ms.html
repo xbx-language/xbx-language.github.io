@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev024001_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0010</td>
+        <td class="side">Domanda[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0011</td>
+        <td class="side">Chiedi a Ivory della zona residenziale.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0020</td>
+        <td class="side">Parla[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0021</td>
+        <td class="side">Chiedi a Ivory se ha sentito qualche[ST:n ]pettegolezzo interessante.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0010</td>
+        <td class="side">tev024001_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0031</td>
+        <td class="side">Chiedi a Ivory del Centro vitale.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0020</td>
+        <td class="side">tev024001_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0021</td>
+        <td class="side">tev024001_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0010</td>
+        <td class="side">tev024001_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0041</td>
+        <td class="side">Chiedi a Ivory cosa abbia intenzione di fare.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0020</td>
+        <td class="side">tev024001_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0021</td>
+        <td class="side">tev024001_SEL0021</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0010</td>
+        <td class="side">tev024001_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0041</td>
+        <td class="side">Chiedi a Ivory cosa abbia intenzione di fare.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev024001_JNK0020</td>
+        <td class="side">tev024001_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev024001_SEL0051</td>
+        <td class="side">Chiedi a Ivory quali siano le ultime novit&#224;.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0001</td>
+        <td class="side">Questa &#232; la zona residenziale, dove vive[ST:n ]la maggior parte del personale di supporto.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0002</td>
+        <td class="side">L&#39;idea era quella di vivere in un posto che disponesse[ST:n ]di tutte le comodit&#224; che esistevano sulla Terra,[ST:n ]a prescindere dal pianeta su cui saremmo atterrati.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0003</td>
+        <td class="side">Il progetto &#232; stato modellato sulla struttura[ST:n ]di Beverly Hills. L&#39;atmosfera &#232; simile, non trovi?[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0008</td>
+        <td class="side">Conosci Sullivan, la botanica dell&#39;impianto[ST:n ]di produzione integrata nella zona industriale?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0009</td>
+        <td class="side">Ho sentito dire che cercava un BLADE che la aiutasse[ST:n ]con un suo progetto. Mi chiedo se sia riuscita[ST:n ]a trovare qualcuno...[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0010</td>
+        <td class="side">Sono certa che stesse cercando qualcuno che potesse[ST:n ]portarle un sacco di piante per farne dei campioni[ST:n ]per la conservazione ed esposizione e bla bla bla...[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0011</td>
+        <td class="side">Ammetto che preferisco i fiori alle persone,[ST:n ]ma persino io sono rimasta scioccata[ST:n ]da quanto Sullivan ami le piante.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0020</td>
+        <td class="side">Delle bellissime villette a schiera in un mare[ST:n ]di prati verdi... In altre circostanze, avremmo[ST:n ]potuto sentire le voci dei bambini giocare felici...[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0021</td>
+        <td class="side">Ma temo che per questo dovremo attendere fino[ST:n ]al ritrovamento del Nucleo del Centro vitale.[ST:n ]Quindi, conto su di te per questo![ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0022</td>
+        <td class="side">Io continuer&#242; a fare la mia parte, piantando fiori[ST:n ]e potando gli alberi, in attesa che tutto si sistemi.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0028</td>
+        <td class="side">Noi umani siamo come fiori: non importa quante[ST:n ]volte ci calpestino, riusciremo sempre[ST:n ]a rimetterci in piedi.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0029</td>
+        <td class="side">Per quel che mi riguarda, penso che l&#39;unica cosa[ST:n ]che io possa fare sia mantenere floridi[ST:n ]i giardini della zona.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0030</td>
+        <td class="side">Ma quando troveremo il Centro vitale,[ST:n ]far&#242; un lavoro diverso...[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0031</td>
+        <td class="side">Voglio fare la babysitter! &#200; una cosa[ST:n ]che facevo sempre sulla Terra.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0032</td>
+        <td class="side">Pensa quanto sarebbe bello far crescere la prima[ST:n ]generazione di umani nati su Mira! Quale altro[ST:n ]lavoro potrebbe mai battere uno del genere?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0040</td>
+        <td class="side">Ho ricevuto dei campioni di fiori[ST:n ]miriani da Sullivan, la botanica.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0041</td>
+        <td class="side">Ma due di essi non erano affatto dei fiori! Erano[ST:n ]delle specie autoctone camuffate da piante![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0042</td>
+        <td class="side">Ho dovuto chiamare in aiuto i Mediator, e alla[ST:n ]fine si &#232; rivelata essere questa cosa enorme...[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0043</td>
+        <td class="side">Ma quando l&#39;ho detto a Sullivan, lei ha cominciato[ST:n ]con \&quot;Oh nooo, i miei preziosi campioni dimostrativi[ST:n ]e da esposizione!\&quot;. Davvero, le interessava solo quello.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev024001_MSG0044</td>
+        <td class="side">Sembra quasi che alle persone con un minimo di buon[ST:n ]senso venga proibito di diventare degli scienziati.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

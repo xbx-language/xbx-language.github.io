@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev057901_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0010</td>
+        <td class="side">Befragen[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0011</td>
+        <td class="side">Sprich mit Mujiji &#252;ber die Karawane.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0020</td>
+        <td class="side">Plaudern[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0021</td>
+        <td class="side">Frage Mujiji, wie die Gesch&#228;fte laufen.[ST:wait ]</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0001</td>
+        <td class="side">Gegend hier ist inzwischen abh&#228;ngig von[ST:n ]Dorian-Karawane von Mujiji.[ST:wait ]</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0002</td>
+        <td class="side">Waffen! Fundsachen! Happa-Happa! Egal, was Freunde[ST:n ]bestellen – Karawane findet M&#246;glichkeit, zu besorgen[ST:n ]und zu liefern.[ST:wait ]</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0003</td>
+        <td class="side">Gibt keine Ausnahme! Mujiji liest jedem Kunden[ST:n ]W&#252;nsche von Lippen ab. Egal, ob Kunden knallrote[ST:n ]Haut haben oder dicken, flauschigen Pelz.[ST:wait ]</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0004</td>
+        <td class="side">Erf&#252;llt auch Erdpon-Freunden W&#252;nsche. M&#252;ssen aber[ST:n ]erst guten Willen zeigen.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0008</td>
+        <td class="side">Stammt [ST:Gender p1=Freund p2=Freundin ] von Raumschiff, das an westlichem[ST:n ]Horizont runtergekracht ist?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0009</td>
+        <td class="side">Hmpf! Mujiji kann sich nicht erlauben, Gesch&#228;fte[ST:n ]mit zwielichtigen Kunden zu machen.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0010</td>
+        <td class="side">Wenn [ST:Gender p1=Freund p2=Freundin ] hier einkaufen will, muss[ST:n ]Nopon-Botschafter mitbringen, der gute[ST:n ]Absichten von [ST:Gender p1=Freund p2=Freundin ] best&#228;tigt.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0010</td>
+        <td class="side">tev057901_JNK0010</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0011</td>
+        <td class="side">tev057901_SEL0011</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0020</td>
+        <td class="side">tev057901_JNK0020</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0021</td>
+        <td class="side">tev057901_SEL0021</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0011</td>
+        <td class="side">Nopon-Karawanen tragen alle Name von Gr&#252;nder.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0012</td>
+        <td class="side">Dorian war supertoller Anf&#252;hrer. Hat viel Mut bewiesen[ST:n ]und hier in &#214;dland Gesch&#228;ft aufgezogen![ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0013</td>
+        <td class="side">Dorian viel tapferer als alter Oberpon Nan, der sich[ST:n ]nur wie weinerliches Baby in NLA verstecken will. Nu![ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0014</td>
+        <td class="side">Nan will Mumun, Mogugu und Mimiru als[ST:n ]pers&#246;nliche Berater. Nur &#252;ber Leiche von Mujiji![ST:n ]Fauler Oberpon beutet Nopon nur als Diener aus![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0018</td>
+        <td class="side">Ah! Erdpon-[ST:Gender p1=Freund p2=Freundin ]! Jetzt, da Freundschaftsvertrag[ST:n ]unterzeichnet ist, muss [ST:Gender p1=Freund p2=Freundin ] Mujiji einfach nur[ST:n ]fragen, falls irgendwas braucht.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0019</td>
+        <td class="side">...Nu! [ST:Gender p1=Freund p2=Freundin ] braucht Hilfe mit einheimischen[ST:n ]Kreaturen? Sucht nach Verb&#252;ndeten in Krieg[ST:n ]gegen Ganglion? Hrrrrrrm... Grummel-grummel![ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0020</td>
+        <td class="side">&#196;h, Mujiji und Dorian-Karawane nat&#252;rlich stark[ST:n ]genug, um kurzen Prozess mit Fieslingen zu machen.[ST:n ]Wollen Freunden aber nicht ganzen Ruhm wegnehmen.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0021</td>
+        <td class="side">Also, &#228;h, wird Karawane stattdessen nach leckerem[ST:n ]Happa-Happa suchen und zu Freunden liefern![ST:n ]Freunde m&#252;ssen dann nicht mit leerem Bauchi k&#228;mpfen![ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0010</td>
+        <td class="side">tev057901_JNK0010</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0011</td>
+        <td class="side">tev057901_SEL0011</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev057901_JNK0020</td>
+        <td class="side">tev057901_JNK0020</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev057901_SEL0021</td>
+        <td class="side">tev057901_SEL0021</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0022</td>
+        <td class="side">Nopon-Karawanen tragen alle Name von Gr&#252;nder.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0023</td>
+        <td class="side">Dorian war supertoller Anf&#252;hrer. Hat viel Mut bewiesen[ST:n ]und hier in &#214;dland Gesch&#228;ft aufgezogen![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0024</td>
+        <td class="side">Mujiji will auch gro&#223;er Anf&#252;hrer sein, also passt[ST:n ]Mujiji gut auf Freundepon Mumun, Mogugu und[ST:n ]Mimiru auf.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0025</td>
+        <td class="side">Mujiji w&#252;rde nie behaupten, dass Welt sich nur[ST:n ]um Mujiji dreht – in Gegensatz zu gewissem[ST:n ]alten, verzogenen Nopon![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0029</td>
+        <td class="side">Hallo, [ST:Gender p1=Freund p2=Freundin ]! Viele Nopon haben Feuerwerk[ST:n ]gemacht, aber keins war so wild und spektakul&#228;r[ST:n ]wie Feuerwerk von Mujiji![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0030</td>
+        <td class="side">Karawane von Mujiji ist stolz auf Einsatz von uralter[ST:n ]Pyrotechnik, die von niemand anderem als gro&#223;em[ST:n ]Dorian weitergegeben wurde![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0031</td>
+        <td class="side">Gro&#223;er und m&#228;chtiger Dorian hat Feuerwerk verwendet,[ST:n ]um Monster in Gegend hier zu vertreiben, und hat dann[ST:n ]Karawane aufgebaut.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0032</td>
+        <td class="side">War so tapfer! Und so gerissen! Dorian war viel[ST:n ]besserer Anf&#252;hrer als l&#252;sterner Oberpon.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev057901_MSG0033</td>
+        <td class="side">Mujiji versucht auch, vorbildlicher Anf&#252;hrer zu werden,[ST:n ]auf den andere Nopon stolz sein k&#246;nnen.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

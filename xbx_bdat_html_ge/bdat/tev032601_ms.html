@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev032601_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0010</td>
+        <td class="side">Fragen</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0011</td>
+        <td class="side">Sprich mit Giogion &#252;ber Ls Laden.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">Plaudern</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0021</td>
+        <td class="side">Frage Giogion, ob ihm etwas Interessantes[ST:n ]zu Ohren gekommen ist.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0010</td>
+        <td class="side">tev032601_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0011</td>
+        <td class="side">tev032601_SEL0011</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">tev032601_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0031</td>
+        <td class="side">Frage Giogion, ob ihm etwas Interessantes[ST:n ]zu Ohren gekommen ist.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0001</td>
+        <td class="side">Wenn du Schnittstellen an deiner Ausr&#252;stung anbringen[ST:n ]willst, bist du in Ls Laden genau richtig. Du musst nur[ST:n ]gen&#252;gend Miranium mitbringen, nicht wahr?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0002</td>
+        <td class="side">Wenn du erstmal deine Lieblingsr&#252;stung gefunden hast,[ST:n ]willst du bestimmt so viele Schnittstellen wie m&#246;glich[ST:n ]daf&#252;r kaufen und sie richtig, richtig gut best&#252;cken.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0003</td>
+        <td class="side">L ist ein richtiger K&#252;nstler, findest du nicht auch?[ST:n ]Und diese Maschine ist sein Meisterwerk.[ST:n ]Was f&#252;r eine sch&#246;ne, sch&#246;ne Maschine...[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0004</td>
+        <td class="side">Denkst du, ich k&#246;nnte ihn dazu &#252;berreden, einen[ST:n ]Apparat zu erfinden, der Miranium in Pizza umwandelt?[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0008</td>
+        <td class="side">Meine Schwester Neraph war mit uns auf dem Schiff,[ST:n ]aber ich habe sie schon seit, seit, seit Monaten nicht[ST:n ]mehr gesehen...[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0009</td>
+        <td class="side">Wenn sie etwas erforscht, wird sie zur v&#246;lligen[ST:n ]Einsiedlerin, ja? Sie verschwindet auf unbestimmte Zeit![ST:n ]Und wenn sie wieder auftaucht, ist sie d&#252;nn und blass.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0010</td>
+        <td class="side">Jedenfalls hat sie mir eine Nachricht auf mein[ST:n ]Comm-Ger&#228;t geschickt, dass sie von einer Firma hier in[ST:n ]NLA angeworben wurde. Ich frage mich, von welcher...?[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0011</td>
+        <td class="side">Wenn du sie siehst, k&#246;nntest du ihr ausrichten, dass sie[ST:n ]mal bei Ls Laden vorbeikommen soll, um ihrem Bruder[ST:n ]Hallo zu sagen, wenn es keine Umst&#228;nde macht?[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0027</td>
+        <td class="side">Ich habe gerade das erste Mal seit Ewigkeiten[ST:n ]meine Schwester Neraph gesehen.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0028</td>
+        <td class="side">Ich hatte praktisch schon vergessen, wie sie aussieht,[ST:n ]wei&#223;t du?[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0029</td>
+        <td class="side">Jedenfalls schien ein Wrothianer hinter ihr her zu sein,[ST:n ]oder so? Sie sagte so was in der Art. Und[ST:n ]sie sah auch vollkommen ersch&#246;pft aus.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0030</td>
+        <td class="side">Weil ich ein guter Bruder bin, habe ich ihr geraten,[ST:n ]rauszugehen und mehr Sport zu machen, um ihre[ST:n ]Ausdauer zu verbessern. Guter Rat, denkst du nicht?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev032601_JNK1010</td>
+        <td class="side">Befragen</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev032601_SEL1041</td>
+        <td class="side">Sprich mit Giogion &#252;ber Ls Laden.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">tev032601_JNK0020</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0021</td>
+        <td class="side">tev032601_SEL0021</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev032601_JNK1010</td>
+        <td class="side">tev032601_JNK1010</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev032601_SEL1041</td>
+        <td class="side">tev032601_SEL1041</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev032601_JNK0020</td>
+        <td class="side">tev032601_JNK0020</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev032601_SEL0031</td>
+        <td class="side">tev032601_SEL0031</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0031</td>
+        <td class="side">Oh, da ist er ja! Mein Lieblingsk&#252;nstler L! Auf Tour mit[ST:n ][ST:playername ], nicht wahr? Keine Sorge, L,[ST:n ]ich k&#252;mmere mich sehr, sehr gut um deinen Laden.[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0032</td>
+        <td class="side">Geh du nur und bewundere die Sehensw&#252;rdigkeiten von[ST:n ]Mira, ja? Bring deine Fantasie zum Erbl&#252;hen![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0033</td>
+        <td class="side">Dann wirst du alle m&#246;glichen verr&#252;ckten Ideen f&#252;r[ST:n ]noch verr&#252;cktere Maschinen aus deinem verr&#252;ckten[ST:n ]Gehirn ausgraben, nicht wahr? Nicht wahr?[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0034</td>
+        <td class="side">Und die erste Maschine, die du entwirfst, wird[ST:n ]Miranium in Pizza umwandeln, richtig? Richtig?![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev032601_MSG0035</td>
+        <td class="side">&#196;h, das war ein kleiner Wink mit dem Zaunpfahl,[ST:n ]wei&#223;t du? Pizza–Maschine, bitte?[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

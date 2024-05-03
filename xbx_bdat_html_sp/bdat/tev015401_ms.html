@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev015401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev015401_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev015401_SEL0011</td>
+        <td class="side">Preg&#250;ntale a Isobe por Lin.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev015401_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev015401_SEL0021</td>
+        <td class="side">Preg&#250;ntale a Isobe si le preocupa algo.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev015401_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev015401_SEL0031</td>
+        <td class="side">Preg&#250;ntale a Isobe por el dispositivo[ST:n ]en el que est&#225; trabajando Lin.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev015401_JNK0020</td>
+        <td class="side">Charlar</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev015401_SEL0041</td>
+        <td class="side">Preg&#250;ntale a Isobe si hay alguna novedad.</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev015401_SEL1011</td>
+        <td class="side">Preg&#250;ntale a Isobe acerca del dispositivo de vuelo Skell.</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev015401_SEL1021</td>
+        <td class="side">Preg&#250;ntale a Isobe si hay alguna novedad.</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev015401_0001</td>
+        <td class="side">Lin parece muy modosita, pero es m&#225;s terca[ST:n ]que una mula. Como se le meta algo en la cabeza,[ST:n ]no deja que nada ni nadie le impida conseguirlo.[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev015401_0002</td>
+        <td class="side">Ahora est&#225; trabajando en un dispositivo que,[ST:n ]al parecer, va a permitir que los Skells vuelen.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev015401_0003</td>
+        <td class="side">Los mec&#225;nicos m&#225;s expertos le dicen[ST:n ]que deje de intentarlo, pero no parece[ST:n ]que vaya a hacerles mucho caso.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev015401_0004</td>
+        <td class="side">De hecho, todo lo contrario, porque est&#225; negociando[ST:n ]con el comandante Vandham un aumento[ST:n ]del presupuesto para el desarrollo de dicho dispositivo.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev015401_0005</td>
+        <td class="side">Yo dir&#237;a que las posibilidades de que un mec&#225;nico[ST:n ]normalito se equivocara son del 99 %.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev015401_0006</td>
+        <td class="side">Pero con lo cabezota que es Lin,[ST:n ]seguro que un d&#237;a veremos Skells enormes[ST:n ]haciendo piruetas en el aire sobre NLA.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev015401_0010</td>
+        <td class="side">Tenemos que desarrollar un equipo que pueda[ST:n ]resistir los ataques de energ&#237;a que realizan[ST:n ]las criaturas ind&#237;genas de Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev015401_0011</td>
+        <td class="side">Pero con la tecnolog&#237;a de la que actualmente dispone[ST:n ]Sakuraba Industries... no va a ser tarea f&#225;cil.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev015401_0012</td>
+        <td class="side">Por muchas capas que le pongamos a la armadura,[ST:n ]este tipo de energ&#237;a sigue alcanzando al portador.[ST:n ]&#161;Es como si no se aplicaran las leyes de la f&#237;sica![ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev015401_0013</td>
+        <td class="side">Nos honra que utilic&#233;is productos Sakuraba; por ello,[ST:n ]me averg&#252;enza tener que pedirte que tengas cuidado[ST:n ]cuando luches con ind&#237;genas que utilicen esa energ&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev015401_0014</td>
+        <td class="side">Te sorprender&#237;a lo poco resistente[ST:n ]que es esa armadura contra sus ataques.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev015401_SEL0031</td>
+        <td class="side">tev015401_SEL0031</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev015401_0019</td>
+        <td class="side">Est&#225; creando un dispositivo que, de alguna[ST:n ]forma, har&#225; que los Skells dise&#241;ados[ST:n ]para combate terrestre puedan volar.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev015401_0020</td>
+        <td class="side">La verdad es que ha progresado mucho[ST:n ]en su desarrollo, aunque parece ser[ST:n ]que las pruebas no est&#225;n yendo muy bien.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev015401_0021</td>
+        <td class="side">Hace un rato, perdieron el control de un Skell[ST:n ]de prueba &#161;y casi se estrella en la ciudad![ST:n ]Provoc&#243; un gran revuelo...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev015401_0022</td>
+        <td class="side">Parece que el dispositivo no va a ser f&#225;cil de terminar.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev015401_0023</td>
+        <td class="side">Pero Lin no deja que eso la desanime,[ST:n ]as&#237; que estoy convencido de que conseguir&#225;[ST:n ]lo que se propone.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev015401_0028</td>
+        <td class="side">La tecnolog&#237;a ma-non es realmente incre&#237;ble.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev015401_0029</td>
+        <td class="side">Sabes que hemos estado trabajando, sin &#233;xito alguno,[ST:n ]en una armadura que pueda resistir los ataques[ST:n ]de energ&#237;a que realizan algunos ind&#237;genas, &#191;no?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev015401_0030</td>
+        <td class="side">Pues bien, &#161;los ma-non han creado una como si nada![ST:n ]Quiero ir a preguntarle a Jajani, el tecn&#243;logo[ST:n ]principal de Candid &amp; Credible, c&#243;mo funciona.[ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev015401_0031</td>
+        <td class="side">Aunque, por muy amables que sean[ST:n ]los ma-non, no creo que vayan a compartir[ST:n ]secretos industriales con la competencia.[ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev015401_1001</td>
+        <td class="side">Hace a&#241;os, me ense&#241;aron los planos[ST:n ]de un prototipo de dispositivo de vuelo Skell.[ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev015401_1002</td>
+        <td class="side">Y &#191;sabes qui&#233;nes fueron?[ST:n ]&#161;Los padres de Lin![ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev015401_1003</td>
+        <td class="side">Empezaron a trabajar en &#233;l entonces y ya sab&#237;an[ST:n ]que les llevar&#237;a mucho tiempo terminarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev015401_1004</td>
+        <td class="side">Pero &#161;qui&#233;n iba a pensar que ser&#237;a su propia hija[ST:n ]la que perfeccionar&#237;a su dise&#241;o y completar&#237;a[ST:n ]el proyecto despu&#233;s de que hubieran muerto![ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev015401_1005</td>
+        <td class="side">Deben de estar muy orgullosos,[ST:n ]dondequiera que est&#233;n, al ver que su hija[ST:n ]ha hecho realidad sus ideas.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev015401_1010</td>
+        <td class="side">Tras el desarrollo del dispositivo de vuelo Skell que[ST:n ]hemos realizado con el equipo de Jajani, Sakuraba[ST:n ]Industries y Candid &amp; Credible est&#225;n m&#225;s unidas.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev015401_1011</td>
+        <td class="side">Ahora nos comunicamos con ellos mucho m&#225;s[ST:n ]de lo que jam&#225;s hubi&#233;ramos imaginado.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev015401_1012</td>
+        <td class="side">Jajani, incluso, ha colaborado en conferencias[ST:n ]sobre tecnolog&#237;a, en las que hemos intercambiado[ST:n ]informaci&#243;n de todo tipo.[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>tev015401_1013</td>
+        <td class="side">Estamos realizando muchos descubrimientos.[ST:n ]No puedo creer que, a mi edad,[ST:n ]siga aprendiendo cosas nuevas.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>tev015401_1014</td>
+        <td class="side">Tenemos que empezar a construir mejores[ST:n ]armas y no echar a perder la relaci&#243;n que Lin[ST:n ]nos ha ayudado a establecer con los ma-non.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

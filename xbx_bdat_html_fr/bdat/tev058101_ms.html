@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tev058101_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0010</td>
+        <td class="side">Se renseigner</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>tev058101_SEL0011</td>
+        <td class="side">Demander &#224; Mogugu de vous parler[ST:n ]de l&#39;anneau g&#233;ant en Oblivia.</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0020</td>
+        <td class="side">Discuter</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>tev058101_SEL0021</td>
+        <td class="side">Demander &#224; Mogugu s&#39;il a des ennuis.</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0010</td>
+        <td class="side">tev058101_JNK0010</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>tev058101_SEL0031</td>
+        <td class="side">Demander &#224; Mogugu de vous parler[ST:n ]des &#238;les flottantes en Oblivia.</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0020</td>
+        <td class="side">tev058101_JNK0020</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>tev058101_SEL0021</td>
+        <td class="side">tev058101_SEL0021</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0010</td>
+        <td class="side">tev058101_JNK0010</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>tev058101_SEL0011</td>
+        <td class="side">tev058101_SEL0011</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0020</td>
+        <td class="side">tev058101_JNK0020</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>tev058101_SEL1021</td>
+        <td class="side">Demander &#224; Mogugu s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0010</td>
+        <td class="side">tev058101_JNK0010</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>tev058101_SEL0031</td>
+        <td class="side">tev058101_SEL0031</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>tev058101_JNK0020</td>
+        <td class="side">tev058101_JNK0020</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>tev058101_SEL1021</td>
+        <td class="side">tev058101_SEL1021</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>tev058101_SEL2021</td>
+        <td class="side">Demander &#224; Mogugu s&#39;il y a du nouveau.</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0001</td>
+        <td class="side">Mogugu a entendu dire qu&#39;avant, avait plein[ST:n ]de natifs mirans autres que Nopons.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0002</td>
+        <td class="side">Semblerait qu&#39;anneau &#233;tait pi&#232;ce &#224; arme g&#233;ante[ST:n ]utilis&#233;e par peuple natif pour en d&#233;truire un autre.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0003</td>
+        <td class="side">Mira devait &#234;tre endroit effrayant avant ! Et sinon,[ST:n ]pote d&#39;accord qu&#39;anneau ressemble &#224; vivenoix ?[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0004</td>
+        <td class="side">Mmh ? Pote conna&#238;t pas vivenoix ? Est aliment nopon[ST:n ]avec trou au milieu, qui excite Nopons et les fait[ST:n ]courir dans tous sens.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0009</td>
+        <td class="side">Mogugu a tout quitt&#233;, m&#234;me famille, pour partir[ST:n ]&#224; recherche de cuisine l&#233;gendaire avec Mujiji.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0010</td>
+        <td class="side">Mais quand Ganglion est arriv&#233;, business a fait kaput[ST:n ]et Mogugu avait plus rien &#224; manger...[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0011</td>
+        <td class="side">Mogugu va bient&#244;t s&#39;&#233;vanouir pour rejoindre &#233;toiles.[ST:n ]Et ensuite, comment fera Mogugu pour trouver[ST:n ]cuisine l&#233;gendaire ?[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0012</td>
+        <td class="side">Allez, Mujiji ! Trouve vite champidoux l&#233;gendaire...[ST:n ]Sauve Mogugu de triste sort...[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0017</td>
+        <td class="side">Y&#39;a longtemps, civilisation native a r&#233;ussi &#224; construire[ST:n ]royaume gigantesque dans ciel ![ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0018</td>
+        <td class="side">Mais civilisation a ensuite perdu contr&#244;le d&#39;&#233;nergie[ST:n ]qui permettait &#224; royaume de flotter et boum !![ST:n ]Plus de royaume.[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0019</td>
+        <td class="side">&#206;les que pote voit sont tout ce qui reste.[ST:n ]Enfin, c&#39;est ce qu&#39;on a dit &#224; Mogugu.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0020</td>
+        <td class="side">Anciennes personnes &#233;taient idiotes. Au lieu de faire[ST:n ]flotter ch&#226;teaux, auraient d&#251; utiliser &#233;nergie pour cr&#233;er[ST:n ]cuisine succud&#233;licieuse ![ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>tev058101_MSG0021</td>
+        <td class="side">Beaucoup de merveilles culinaires perdues[ST:n ]parce qu&#39;anciens peuples pr&#233;f&#233;raient[ST:n ]g&#226;cher technologie pour se d&#233;truire ! Mais ![ST:wait ]</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>tev058101_MSG1001</td>
+        <td class="side">Mujiji a rapport&#233; plein de champidoux d&#233;lectabilicieux[ST:n ]pour que Mogugu les mange ![ST:wait ]</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>tev058101_MSG1002</td>
+        <td class="side">Champidoux sont vraiment aussi l&#233;gendaires[ST:n ]qu&#39;on dit. Papilles &#224; Mogugu sont satisfaites ![ST:wait ]</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>tev058101_MSG1003</td>
+        <td class="side">Mais ! Mogugu doit continuer qu&#234;te &#233;pique[ST:n ]pour trouver gourmandises.[ST:wait ]</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>tev058101_MSG1004</td>
+        <td class="side">Mogugu est pr&#234;t &#224; tout, m&#234;me &#224; risquer vie[ST:n ]pour obtenir chaque substance succud&#233;licieuse[ST:n ]sur plan&#232;te ![ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>tev058101_MSG2001</td>
+        <td class="side">En partant en voyage avec Mujiji pour trouver cuisine[ST:n ]l&#233;gendaire, Mogugu a d&#251; abandonner famille.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>tev058101_MSG2002</td>
+        <td class="side">C&#39;est vrai que Mogugu a pu go&#251;ter &#224; champidoux[ST:n ]l&#233;gendaire. Et que Mogugu a eu exp&#233;riences[ST:n ]culinaires succud&#233;licieuses, mais...[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>tev058101_MSG2003</td>
+        <td class="side">Eh bien, prenons Henahena. Henahena quitte jamais[ST:n ]maison, mais a ch&#233;ripon qui lui apporte &#224; manger[ST:n ]tous les jours ![ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>tev058101_MSG2004</td>
+        <td class="side">Et si Mogugu avait fait erreur ? Mogugu aurait pu[ST:n ]rester avec ch&#233;ripone et quand m&#234;me avoir merveilles[ST:n ]culinaires. Est tout ce que veut Mogugu... Snif.[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>tev058101_MSG2005</td>
+        <td class="side">Est d&#233;cid&#233; ! Mogugu va emballer champidoux[ST:n ]et les ramener &#224; ch&#233;ripone imm&#233;diatement ![ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>

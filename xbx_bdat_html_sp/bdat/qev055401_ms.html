@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>qev055401_ms</title>
+    <style>
+      th {position:sticky; top:-1px; background-color:#F0F0F0;}
+      table,th,td {border:1px solid black; border-collapse:collapse;}
+      .side {position:sticky; left:-1px; background-color:#F0F0F0;}
+      th.side {z-index:3}
+      .sortable tbody tr:nth-child(odd){background:#F5F5F5}
+      .sortable th{background:#e4e4e4;cursor:pointer;white-space:nowrap;vertical-align:middle}
+      .sortable th.dir-d::after{content:" \025BE";vertical-align:inherit}
+      .sortable th.dir-u::after{content:" \025B4";vertical-align:inherit}
+      :target td {background-color:#CCC !important;}
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Return to BDAT index</a><br/>
+    <input type="button" value="Open all references" onclick="openAll(true)" />
+    <input type="button" value="Close all references" onclick="openAll(false)" />
+    <table class="sortable">
+      <thead>
+        <tr id="header">
+          <th class=" dir-d ">ID</th>
+          <th>Referenced By</th>
+          <th>label</th>
+          <th class="side">name</th>
+        </tr>
+      </thead>
+      <tr id="1">
+        <td>1</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0001</td>
+        <td class="side">&#191;Es usted quien ayud&#243; a Kun&#39;luarb?[ST:wait ]</td>
+      </tr>
+      <tr id="2">
+        <td>2</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0002</td>
+        <td class="side">Me dej&#243; un mensaje antes de partir.[ST:wait ]</td>
+      </tr>
+      <tr id="3">
+        <td>3</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0003</td>
+        <td class="side">Dijo que si a &#233;l le llegase a pasar algo y nosotros[ST:n ]no fu&#233;semos capaces de encontrar una fuente[ST:n ]de agua senirapa, deb&#237;amos pedirle ayuda a usted.[ST:wait ]</td>
+      </tr>
+      <tr id="4">
+        <td>4</td>
+        <td>
+        </td>
+        <td>qev055401_JNK0010</td>
+        <td class="side">Preguntar</td>
+      </tr>
+      <tr id="5">
+        <td>5</td>
+        <td>
+        </td>
+        <td>qev055401_SEL0011</td>
+        <td class="side">Preg&#250;ntale si Kun&#39;luarb ya ha regresado.</td>
+      </tr>
+      <tr id="6">
+        <td>6</td>
+        <td>
+        </td>
+        <td>qev055401_JNK0020</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="7">
+        <td>7</td>
+        <td>
+        </td>
+        <td>qev055401_SEL0021</td>
+        <td class="side">Dile a Kon&#39;luarb que te puede preguntar lo que sea.</td>
+      </tr>
+      <tr id="8">
+        <td>8</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0004</td>
+        <td class="side">No, y como Noctilum est&#225; plagado de criaturas[ST:n ]aut&#243;ctonas, temo que le pueda haber pasado algo.[ST:wait ]</td>
+      </tr>
+      <tr id="9">
+        <td>9</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0005</td>
+        <td class="side">As&#237; pues, desear&#237;a solicitar su ayuda:[ST:n ]&#191;podr&#237;a ir a Noctilum a buscar a Kun&#39;luarb?[ST:wait ]</td>
+      </tr>
+      <tr id="10">
+        <td>10</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0006</td>
+        <td class="side">Parece ser precisamente como [ST:Gender p1=lo p2=la ] describi&#243;:[ST:n ][ST:Gender p1=directo p2=directa ] y fiable.[ST:wait ]</td>
+      </tr>
+      <tr id="11">
+        <td>11</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0007</td>
+        <td class="side">As&#237; pues, desear&#237;a solicitar su ayuda:[ST:n ]&#191;podr&#237;a ir a Noctilum a buscar a Kun&#39;luarb?[ST:wait ]</td>
+      </tr>
+      <tr id="12">
+        <td>12</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0008</td>
+        <td class="side">Cuando lo encuentre, comun&#237;quele que se ha finalizado[ST:n ]el desarrollo de una nueva tecnolog&#237;a.[ST:wait ]</td>
+      </tr>
+      <tr id="13">
+        <td>13</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0009</td>
+        <td class="side">Ahora se puede usar el agua del lago de Biahno para[ST:n ]sintetizar el agua senirapa, siempre con una muestra.[ST:wait ]</td>
+      </tr>
+      <tr id="14">
+        <td>14</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0010</td>
+        <td class="side">Por peque&#241;a que sea la cantidad que encuentre,[ST:n ]tendremos los medios para multiplicarla y sobrevivir.[ST:wait ]</td>
+      </tr>
+      <tr id="15">
+        <td>15</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0011</td>
+        <td class="side">Espero que quitarle ese peso de encima[ST:n ]aligere su b&#250;squeda.[ST:wait ]</td>
+      </tr>
+      <tr id="16">
+        <td>16</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0012</td>
+        <td class="side">El agua que traiga a casa ser&#225; la clave[ST:n ]del futuro de los orphean.[ST:wait ]</td>
+      </tr>
+      <tr id="17">
+        <td>17</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0013</td>
+        <td class="side">Por favor, encu&#233;ntrelo cueste lo que cueste.[ST:wait ]</td>
+      </tr>
+      <tr id="18">
+        <td>18</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0014</td>
+        <td class="side">El m&#233;todo de replicaci&#243;n de agua senirapa que[ST:n ]he desarrollado est&#225; solo en fase te&#243;rica ahora mismo.[ST:wait ]</td>
+      </tr>
+      <tr id="19">
+        <td>19</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0015</td>
+        <td class="side">Las probabilidades de lograrlo son de 99,95 % en caso[ST:n ]de encontrar una muestra, pero quiero intentarlo.[ST:wait ]</td>
+      </tr>
+      <tr id="20">
+        <td>20</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0016</td>
+        <td class="side">Me gustar&#237;a pedirle que encuentre a Kun&#39;luarb[ST:n ]lo antes posible.[ST:wait ]</td>
+      </tr>
+      <tr id="21">
+        <td>21</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0017</td>
+        <td class="side">Ah, los BLADE. Me han contado lo sucedido.[ST:n ]Por favor, tr&#225;iganos agua senirapa.[ST:wait ]</td>
+      </tr>
+      <tr id="22">
+        <td>22</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0018</td>
+        <td class="side">No importa la cantidad, se convertir&#225;[ST:n ]en un suministro que pueda garantizar[ST:n ]la prosperidad del pueblo orphean en Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="23">
+        <td>23</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0019</td>
+        <td class="side">Este era el mayor sue&#241;o de Kun&#39;luarb y[ST:n ]decidir&#225; el destino de mi especie.[ST:n ]Por favor, tr&#225;iganos una muestra sin falta.[ST:wait ]</td>
+      </tr>
+      <tr id="24">
+        <td>24</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0020</td>
+        <td class="side">Siempre que hablo con Sin&#39;luarb y Sen&#39;luarb, puedo[ST:n ]sentir el Ovah de Kun&#39;luarb en ellos.[ST:wait ]</td>
+      </tr>
+      <tr id="25">
+        <td>25</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0021</td>
+        <td class="side">Su muerte resulta una gran p&#233;rdida para los orphean,[ST:n ]pero me alegro de que se haya podido multiplicar.[ST:wait ]</td>
+      </tr>
+      <tr id="26">
+        <td>26</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0022</td>
+        <td class="side">Debemos conseguir una muestra de agua senirapa[ST:n ]para que otros de mi especie puedan gozar[ST:n ]de esa misma felicidad.[ST:wait ]</td>
+      </tr>
+      <tr id="27">
+        <td>27</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0023</td>
+        <td class="side">&#191;Ha progresado en su b&#250;squeda?[ST:wait ]</td>
+      </tr>
+      <tr id="28">
+        <td>28</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0024</td>
+        <td class="side">&#161;Ah! Esto es agua senirapa, sin lugar a dudas.[ST:n ]Ahora deber&#237;a ser capaz de crear suficiente agua[ST:n ]para todos los orphean.[ST:wait ]</td>
+      </tr>
+      <tr id="29">
+        <td>29</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0025</td>
+        <td class="side">En poco tiempo, este lugar estar&#225; poblado[ST:n ]con los de mi especie. &#191;Cree que a los humanos[ST:n ]les agradar&#225; esto?[ST:wait ]</td>
+      </tr>
+      <tr id="30">
+        <td>30</td>
+        <td>
+        </td>
+        <td>qev055401_JNK0030</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="31">
+        <td>31</td>
+        <td>
+        </td>
+        <td>qev055401_SEL0031</td>
+        <td class="side">Sonr&#237;e y dile que est&#225;s [ST:Gender p1=seguro p2=segura ] de que s&#237;.</td>
+      </tr>
+      <tr id="32">
+        <td>32</td>
+        <td>
+        </td>
+        <td>qev055401_JNK0040</td>
+        <td class="side">Negar</td>
+      </tr>
+      <tr id="33">
+        <td>33</td>
+        <td>
+        </td>
+        <td>qev055401_SEL0041</td>
+        <td class="side">Dile que algunos no estar&#225;n de acuerdo.</td>
+      </tr>
+      <tr id="34">
+        <td>34</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0026</td>
+        <td class="side">Ustedes, los humanos, son generosos y cordiales.[ST:n ]Confiar&#233; en ello y emprender&#233; la tarea de multiplicar[ST:n ]los espec&#237;menes de orphean en esta ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="35">
+        <td>35</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0027</td>
+        <td class="side">Entiendo. Y dado que las plantas que se requieren[ST:n ]para nuestro sustento tambi&#233;n son limitadas, [ST:n ]intentar&#233; controlar nuestro crecimiento.[ST:wait ]</td>
+      </tr>
+      <tr id="36">
+        <td>36</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0028</td>
+        <td class="side">Muchas gracias por la ayuda. Ahora los orphean[ST:n ]comenzaremos una nueva fase de nuestra vida en Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="37">
+        <td>37</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0029</td>
+        <td class="side">Que sepa que nuestros nuevos hermanos heredar&#225;n[ST:n ]tambi&#233;n una profunda gratitud por lo que ha hecho.[ST:wait ]</td>
+      </tr>
+      <tr id="38">
+        <td>38</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0030</td>
+        <td class="side">Ah, ha vuelto a salvo. &#191;Ha encontrado a Kun&#39;luarb?[ST:wait ]</td>
+      </tr>
+      <tr id="39">
+        <td>39</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0031</td>
+        <td class="side">&#191;Qu&#233;? &#191;Lo han matado esas criaturas? [ST:n ]&#191;Solo os ha dejado una gota de agua senirapa?[ST:wait ]</td>
+      </tr>
+      <tr id="40">
+        <td>40</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0032</td>
+        <td class="side">Entiendo... Esto es una gran p&#233;rdida para mi especie,[ST:n ]a pesar de que garantice obtener m&#225;s agua senirapa.[ST:wait ]</td>
+      </tr>
+      <tr id="41">
+        <td>41</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0033</td>
+        <td class="side">Me pondr&#233; a trabajar en nuestra multiplicaci&#243;n para[ST:n ]compensar esa gran p&#233;rdida.[ST:wait ]</td>
+      </tr>
+      <tr id="42">
+        <td>42</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0034</td>
+        <td class="side">Por favor, c&#233;dame esa agua para que pueda[ST:n ]comenzar con la replicaci&#243;n.[ST:wait ]</td>
+      </tr>
+      <tr id="43">
+        <td>43</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0035</td>
+        <td class="side">Esto es agua senirapa, sin ninguna duda.[ST:n ]Es un milagro que Kun&#39;luarb la haya conseguido.[ST:wait ]</td>
+      </tr>
+      <tr id="44">
+        <td>44</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0036</td>
+        <td class="side">Ahora llenaremos esta tierra de orphean, justo como[ST:n ]dese&#225;bamos. Pero me pregunto si ustedes[ST:n ]los humanos apoyar&#237;an esto.[ST:wait ]</td>
+      </tr>
+      <tr id="45">
+        <td>45</td>
+        <td>
+        </td>
+        <td>qev055401_JNK0050</td>
+        <td class="side">Confirmar</td>
+      </tr>
+      <tr id="46">
+        <td>46</td>
+        <td>
+        </td>
+        <td>qev055401_SEL0051</td>
+        <td class="side">Sonr&#237;e y dile que est&#225;s [ST:Gender p1=seguro p2=segura ] de que s&#237;.</td>
+      </tr>
+      <tr id="47">
+        <td>47</td>
+        <td>
+        </td>
+        <td>qev055401_JNK0060</td>
+        <td class="side">Negar</td>
+      </tr>
+      <tr id="48">
+        <td>48</td>
+        <td>
+        </td>
+        <td>qev055401_SEL0061</td>
+        <td class="side">Dile que algunos no estar&#225;n de acuerdo.</td>
+      </tr>
+      <tr id="49">
+        <td>49</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0037</td>
+        <td class="side">Los humanos son generosos y cordiales.[ST:n ]Confiar&#233; en ello y emprender&#233; la tarea de multiplicar[ST:n ]los espec&#237;menes de orphean en esta ciudad.[ST:wait ]</td>
+      </tr>
+      <tr id="50">
+        <td>50</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0038</td>
+        <td class="side">Entiendo. Y dado que las plantas que se requieren[ST:n ]para nuestro sustento tambi&#233;n son limitadas, [ST:n ]intentar&#233; controlar nuestro crecimiento.[ST:wait ]</td>
+      </tr>
+      <tr id="51">
+        <td>51</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0039</td>
+        <td class="side">Muchas gracias por la ayuda. Ahora los orphean[ST:n ]comenzaremos una nueva fase de nuestra vida en Mira.[ST:wait ]</td>
+      </tr>
+      <tr id="52">
+        <td>52</td>
+        <td>
+        </td>
+        <td>qev055401_MSG0040</td>
+        <td class="side">Que sepa que nuestros nuevos hermanos heredar&#225;n[ST:n ]tambi&#233;n una profunda gratitud por lo que ha hecho.[ST:wait ]</td>
+      </tr>
+    </table>
+    <script>
+      function openAll(open) {
+        document.querySelectorAll("details").forEach(function(details) {
+          details.open = open;
+        });
+      }
+      document.addEventListener("click",function(e){var a=" dir-d ",r=" dir-u ",n=/ dir-(u|d) /,l=e.target;function o(e,a){e.className=e.className.replace(n,"")+(a||"")}if("TH"==l.nodeName){var c=l.parentNode.parentNode.parentNode;if(/\bsortable\b/.test(c.className)){for(var t=0,d=l.parentNode.cells,i=0;i<d.length&&d[i]!==l;i++)t+=d[i].colSpan,o(d[i]);var s=a;-1!==l.className.indexOf(a)&&(s=r),o(l,s);var N=c.tBodies[0],p=[].slice.call(N.cloneNode(!0).rows,0),f=s==r;p.sort(function(e,a){if(e=e.cells[t].innerText,a=a.cells[t].innerText,f){var r=e;e=a,a=r}return isNaN(e-a)?e.localeCompare(a):e-a});var v=N.cloneNode();for(i in p)v.appendChild(p[i]);c.replaceChild(v,N)}}});
+      function offsetAnchor() {
+        if(location.hash.length !== 0) {
+          window.scrollTo(window.scrollX, window.scrollY - document.getElementById('header').clientHeight);
+        }
+      }
+      window.addEventListener("hashchange", offsetAnchor);
+      window.setTimeout(offsetAnchor, 1);
+    </script>
+  </body>
+</html>
